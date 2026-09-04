@@ -66,6 +66,13 @@ function renderDeepdive() {
     return;
   }
 
+  if (d.is_placeholder) {
+    const w = el('div', 'placeholder');
+    w.append(el('b', null, '佔位資料'),
+             el('span', null, '這篇拆解的七軸文字是手寫的示範，不是系統產出 —— '
+                            + 'LLM 額度用盡時，正式流程會直接不出這篇，而不是出空話。'));
+    root.appendChild(w);
+  }
   root.appendChild(el('div', 'dd__kicker', `今日拆解 · ${esc(d.category_label || '跨界')}`));
   root.appendChild(el('h1', 'dd__title', d.title));
 
@@ -80,7 +87,10 @@ function renderDeepdive() {
 
   if (d.image_url) {
     const fig = el('figure', 'figure');
-    const img = el('img'); img.src = d.image_url; img.alt = ''; img.loading = 'eager';
+    const img = el('img'); img.alt = ''; img.loading = 'eager';
+    // 原圖是把 CMS 尺寸後綴去掉猜出來的，不一定存在 —— 載不到就退回 feed 縮圖
+    if (d.image_fallback) img.onerror = () => { img.onerror = null; img.src = d.image_fallback; };
+    img.src = d.image_url;
     const cap = el('figcaption');
     cap.appendChild(el('span', null, d.credit || ''));
     const a = el('a', null, `原文：${esc(d.source_name)} ↗`);
@@ -128,7 +138,9 @@ function renderShowcase() {
   document.getElementById('showcase-n').textContent = `${rows.length} 件`;
   rows.forEach(it => {
     const a = el('a', 'card'); a.href = it.url; a.target = '_blank'; a.rel = 'noopener';
-    const img = el('img'); img.src = it.image_url; img.alt = ''; img.loading = 'lazy';
+    const img = el('img'); img.alt = ''; img.loading = 'lazy';
+    if (it.image_fallback) img.onerror = () => { img.onerror = null; img.src = it.image_fallback; };
+    img.src = it.image_url;
     a.append(img, el('div', 'card__t', it.title), el('div', 'card__s', it.source_name));
     box.appendChild(a);
   });

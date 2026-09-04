@@ -24,6 +24,7 @@ import urllib.request
 from datetime import date
 
 from config import OUTPUT_DIR, USER_AGENT, VISION_CFG, VISION_INPUT_EDGE
+from fetcher import upgrade_image_url
 
 _LAX = ssl.create_default_context()
 _LAX.check_hostname = False
@@ -87,23 +88,6 @@ def budget_left() -> float:
     return VISION_CFG["daily_neuron_budget"] - used_today()
 
 
-# WordPress 等 CMS 會在檔名塞尺寸（Dyson-ad-140x91.png）。
-# feed 給的常常是 140px 縮圖 —— 那個尺寸讀不出字體特徵，讀了等於白花額度。
-_SIZE_SUFFIX = re.compile(r"-(\d{2,4})x(\d{2,4})(?=\.(?:jpe?g|png|webp)(?:$|\?))", re.I)
-
-
-def upgrade_image_url(url: str) -> list[str]:
-    """回傳候選網址（大圖優先）。去掉 CMS 的尺寸後綴就是原圖。"""
-    out = []
-    m = _SIZE_SUFFIX.search(url)
-    if m:
-        w, h = int(m.group(1)), int(m.group(2))
-        if max(w, h) < 900:
-            out.append(_SIZE_SUFFIX.sub("", url))
-    out.append(url)
-    return out
-
-
 def _fetch_image(url: str, max_bytes: int = 30_000_000) -> bytes | None:
     """
     抓圖並縮到長邊 VISION_INPUT_EDGE。
@@ -112,7 +96,7 @@ def _fetch_image(url: str, max_bytes: int = 30_000_000) -> bytes | None:
     而且 input token 是照圖的畫素量算的 —— 送 4000px 進去純粹白燒 neurons。
     """
     data = None
-    for candidate in upgrade_image_url(url):
+    for candidate in [upgrade_image_url(url), url]:
         try:
             req = urllib.request.Request(candidate, headers={"User-Agent": USER_AGENT})
             with urllib.request.urlopen(req, timeout=30, context=_LAX) as resp:

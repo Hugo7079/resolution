@@ -2,11 +2,16 @@
 識別圖示產生器
 ==============
 
-概念：**同一個方形，被切得越來越細**。
+概念：**半色調網點由大到小**。
 
-從左上到右下（自然閱讀順序）依序是 1 格 → 4 格 → 4 格 → 16 格，
-最細的那一區用強調色標出來 —— 「解析度提高」這件事本身就是標誌。
-這也呼應產品裡反覆出現的「格線」：拆解時要數的就是欄數。
+半色調（halftone）是印刷把連續調轉成網點的手法，「網點多細」就是解析度本身 ——
+這是設計／印刷的核心語彙，不是外借的比喻。點由左至右遞減，
+就是「同一件事看得越來越細」。
+
+標誌單色。強調色留給介面用 —— 標誌不靠顏色撐，辨識度才站得住。
+
+網點天生需要解析度才讀得出來，所以 64px 以下自動降成 2×2：
+保住「大小遞減的點」這個概念，而不是糊成一團灰。
 
 幾何參數全部寫在 GEO，改完重跑就同步更新 SVG 與所有尺寸的 PNG。
 
@@ -21,49 +26,40 @@ from PIL import Image, ImageDraw
 OUT = Path(__file__).resolve().parents[1] / "web" / "icons"
 
 GEO = {
-    "pad":        0.115,   # 四周留白（佔畫布比例）
-    # 格縫用「象限邊長的固定比例」而不是「單格邊長的比例」——
-    # 後者會讓 4×4 區的縫細到只有 1×1 區的四分之一，密度看起來不一致。
-    "gap":        0.030,
-    "quadrants": [          # (欄列數, 是否用強調色)
-        (1, False),         # 左上：1 格
-        (2, False),         # 右上：2×2
-        (2, False),         # 左下：2×2
-        (4, True),          # 右下：4×4 —— 最高解析度，用強調色
-    ],
-    "radius":     0.10,    # 圓角（佔單格邊長比例）
-    # 小尺寸的視覺簡化：4×4 在 32px 以下會糊成一片，
-    # 降成 2×2 才保得住「深色 + 紅角」這個辨識點。
+    "pad":   0.145,   # 四周留白（佔畫布比例）
+    "grid":  3,       # 主要版本的網格數
+    "big":   0.44,    # 最大點半徑（佔單格邊長比例）
+    "small": 0.15,    # 最小點半徑
+    # 小尺寸簡化：網點需要解析度才讀得出來，64px 以下降成 2×2
     "simplify_below": 64,
-    "quadrants_small": [(1, False), (2, False), (2, False), (2, True)],
+    "grid_small": 2,
+    "big_small": 0.42,
+    "small_small": 0.19,
 }
 
-INK    = "#16161A"   # 近黑，紙本油墨的感覺
-ACCENT = "#D9482B"   # 硃紅 —— 只用在最細的那一區
-PAPER  = "#FAFAF7"   # 暖白
+INK   = "#16161A"   # 近黑，紙本油墨
+PAPER = "#FAFAF7"   # 暖白
 
 
-def _quadrants(size: int) -> list[tuple[int, bool]]:
-    return (GEO["quadrants_small"] if size < GEO["simplify_below"]
-            else GEO["quadrants"])
+def _params(size: int) -> tuple[int, float, float]:
+    if size < GEO["simplify_below"]:
+        return GEO["grid_small"], GEO["big_small"], GEO["small_small"]
+    return GEO["grid"], GEO["big"], GEO["small"]
 
 
-def _cells(size: int) -> list[tuple[float, float, float, float, bool]]:
-    """算出所有格子的座標。回傳 (x0, y0, x1, y1, 是否強調色)。"""
+def _dots(size: int) -> list[tuple[float, float, float]]:
+    """回傳 (cx, cy, r)。點由左至右遞減。"""
+    n, big, small = _params(size)
     pad = GEO["pad"] * size
     span = size - pad * 2
-    half = span / 2
+    cell = span / n
     out = []
-    for idx, (n, accent) in enumerate(_quadrants(size)):
-        qx = pad + (idx % 2) * half
-        qy = pad + (idx // 2) * half
-        cell = half / n
-        gap = half * GEO["gap"]
-        for r in range(n):
-            for c in range(n):
-                x0 = qx + c * cell + gap / 2
-                y0 = qy + r * cell + gap / 2
-                out.append((x0, y0, x0 + cell - gap, y0 + cell - gap, accent))
+    for row in range(n):
+        for col in range(n):
+            t = col / (n - 1) if n > 1 else 0.0
+            r = cell * (big + (small - big) * t)
+            out.append((pad + col * cell + cell / 2,
+                        pad + row * cell + cell / 2, r))
     return out
 
 
@@ -71,25 +67,16 @@ def render_png(size: int, transparent: bool = False) -> Image.Image:
     img = Image.new("RGBA", (size, size),
                     (0, 0, 0, 0) if transparent else PAPER)
     d = ImageDraw.Draw(img)
-    pad = GEO["pad"] * size
-    unit = (size - pad * 2) / 2 / max(n for n, _ in _quadrants(size))
-    rad = max(1, int(unit * GEO["radius"]))
-    for x0, y0, x1, y1, accent in _cells(size):
-        d.rounded_rectangle([x0, y0, x1, y1], radius=rad,
-                            fill=ACCENT if accent else INK)
+    for cx, cy, r in _dots(size):
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=INK)
     return img
 
 
 def render_svg(size: int = 512) -> str:
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}">',
              f'<rect width="{size}" height="{size}" fill="{PAPER}"/>']
-    pad = GEO["pad"] * size
-    unit = (size - pad * 2) / 2 / max(n for n, _ in _quadrants(size))
-    rad = round(unit * GEO["radius"], 2)
-    for x0, y0, x1, y1, accent in _cells(size):
-        parts.append(
-            f'<rect x="{x0:.2f}" y="{y0:.2f}" width="{x1-x0:.2f}" height="{y1-y0:.2f}" '
-            f'rx="{rad}" fill="{ACCENT if accent else INK}"/>')
+    for cx, cy, r in _dots(size):
+        parts.append(f'<circle cx="{cx:.2f}" cy="{cy:.2f}" r="{r:.2f}" fill="{INK}"/>')
     parts.append("</svg>")
     return "\n".join(parts)
 
@@ -98,7 +85,6 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "icon.svg").write_text(render_svg(), encoding="utf-8")
 
-    # PWA / favicon / Apple touch 需要的尺寸
     for s in (16, 32, 48, 64, 128, 180, 192, 256, 384, 512, 1024):
         render_png(s).convert("RGB").save(OUT / f"icon-{s}.png")
 

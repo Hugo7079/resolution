@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-03",
+  "weekday_mode": "category",
+  "deepdive": {
+    "title": "把「看不見的結構」變成招牌：MAD 用一片連續曲面取代了立面",
+    "subject": {
+      "name": "Lucas Museum of Narrative Art",
+      "designer": "MAD Architects",
+      "client": "Lucas Museum of Narrative Art",
+      "year": "2026"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 78,
+    "is_placeholder": true,
+    "source_url": "https://www.dezeen.com/2026/09/03/lucas-museum-los-angeles-mad-open/",
+    "source_name": "Dezeen",
+    "image_url": "https://static.dezeen.com/uploads/2026/09/mad-lucas-museum-finals_dezeen_2364_sq2.jpg",
+    "image_fallback": "https://static.dezeen.com/uploads/2026/09/mad-lucas-museum-finals_dezeen_2364_sq2-411x411.jpg",
+    "credit": "圖片來源：Dezeen．著作權屬原作者",
+    "axes": {
+      "intent": "（示範文字）美術館要解決的是「敘事」這個抽象主題怎麼在建築上被看見。業主是說故事的人，因此建築被要求自己就是一則故事的開場，而不只是容器。",
+      "form": "（示範文字）主體是一片連續曲面，沒有可辨識的樓層線；外皮以約 1.2 公尺見方的白色複合板拼成，接縫寬度控制在 12mm 上下，讓整體在遠看時讀成單一體量。開口集中在南側約三分之一處。",
+      "message": "（示範文字）三秒內讀到的是「這不是一棟有樓層的房子」。資訊層級把「量體」放在第一位，入口與招牌被刻意壓到第二層級。",
+      "context": "（示範文字）放在美術館建築的慣例裡，這是破格的一邊 —— 近二十年的主流是量體切分與材質分區，這件反其道而行，回到單一連續體。",
+      "execution": "（示範文字）連續曲面的代價在收邊。每一片板的曲率都不同，等於放棄了標準化生產。維護時單片更換的顏色一致性是長期風險。",
+      "tradeoff": "（示範文字）為了得到「一眼認得出」的輪廓，它犧牲了立面的資訊承載力 —— 指標、入口、活動訊息都無處可放，只能靠地面層另外解決。如果目標換成「日常使用的社區型場館」，這個選擇就不成立。",
+      "takeaway": "（示範文字）想讓一個形體被記住，先決定「哪一層資訊要被犧牲」。把次要資訊全部移出主體，主體才會有輪廓。"
+    },
+    "concretes": [
+      "1.2m 見方複合板",
+      "12mm 接縫",
+      "南側三分之一開口",
+      "連續曲面（無樓層線）",
+      "MAD Architects"
+    ]
+  },
+  "showcase": [
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw"
+    },
+    {
+      "title": "The Dictionary (of) Radical Beauty 計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw"
+    },
+    {
+      "title": "FCVQ｜2025",
+      "title_original": "FCVQ | 2025",
+      "url": "https://www.behance.net/gallery/246162471/FCVQ-2025",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/c35a41246162471.Y3JvcCwxMDA3LDc4OCwxOTcsMA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "你的設計系統現在是一段 prompt —— 怎麼把它寫好",
+      "title_original": "Your Design System Is Now a Prompt. Here’s How to Make It a Good One.",
+      "url": "https://medium.muz.li/your-design-system-is-now-a-prompt-heres-how-to-make-it-a-good-one-d5d200899129?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/990/1*wjiA8DGvgve_TWYzGzwGsA.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en"
+    },
+    {
+      "title": "品牌識別：Rafael Cardoso 為 JGroup 操刀的改版",
+      "title_original": "Brand Identity: JGroup Rebrand by Rafael Cardoso",
+      "url": "https://abduzeedo.com/brand-identity-jgroup-rebrand-rafael-cardoso/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_jgroup-rafael-cardoso.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en"
+    },
+    {
+      "title": "走進 Blackwing 鉛筆的幕後：一封寫給類比創作的情書",
+      "title_original": "Go Behind the Scenes of Blackwing Pencils’ Ode to Analog Creativity",
+      "url": "https://www.thisiscolossal.com/2026/09/how-blackwing-pencils-are-made-video/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/blackwing-1.gif",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en"
+    },
+    {
+      "title": "攝影師 Chiemeka Offor 的《Nwanne M Nwaanyi》",
+      "title_original": "“Nwanne M Nwaanyi” by Photographer Chiemeka Offor",
+      "url": "https://www.booooooom.com/2026/09/04/nwanne-m-nwaanyi-by-photographer-chiemeka-offor/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Offor1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en"
+    },
+    {
+      "title": "愛爾蘭與 Shelter Island 的高設計度度假屋、一場辦在現代主義名宅裡的展覽",
+      "title_original": "High-design vacation rentals in Ireland and Shelter Island, a show in an iconic modernist house, and more",
+      "url": "https://www.sightunseen.com/2026/08/high-design-vacation-rentals-in-ireland-and-shelter-island-a-show-in-an-iconic-modernist-house-and-more/",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/08/By_Irina_Boersma_Cesar_Machado_OMOS_RESTAURANT_01_v1.jpg",
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/08/By_Irina_Boersma_Cesar_Machado_OMOS_RESTAURANT_01_v1-728x550.jpg",
+      "source_name": "Sight Unseen",
+      "region": "en"
+    }
+  ],
+  "industry": [
+    {
+      "title": "《從樹成林》回望八年校園美感設計實踐：從一處空間到一片森林，看見教育改變如何持續發生",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/756",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-01T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "美國網球公開賽場外，另有一位贏家",
+      "title_original": "The U.S. Open has a new off-court champion",
+      "url": "https://www.fastcompany.com/91601755/the-u-s-open-has-a-new-off-court-champion?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-04T10:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "CIWM 與 URGE Collective 公布循環設計衝刺成果，鎖定工業廢棄物",
+      "title_original": "CIWM and URGE Collective reveal circular design sprint outcomes tackling industrial waste",
+      "url": "https://www.designweek.co.uk/ciwm-and-urge-collective-reveal-circular-design-sprint-outcomes-tackling-industrial-waste/",
+      "source_name": "Design Week",
+      "published": "2026-09-04T05:00:40+00:00",
+      "region": "en"
+    },
+    {
+      "title": "白宮拿 Xbox 與 SEGA 的標誌宣傳 MAGA 遊戲，玩家想知道這是怎麼回事",
+      "title_original": "The White House just used Xbox and Sega logos to promote MAGA video games, and players want to know what's up",
+      "url": "https://www.creativebloq.com/entertainment/gaming/the-white-house-just-used-xbox-and-sega-logos-to-promote-maga-video-games-and-players-want-to-know-whats-up",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-04T14:07:24+00:00",
+      "region": "en"
+    }
+  ]
+}

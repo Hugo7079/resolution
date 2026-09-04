@@ -9,17 +9,29 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from sanitize import sanitize  # noqa: E402
+from translate import localise_items  # noqa: E402
+from picker import pick_showcase, pick_industry  # noqa: E402
 
-DATE = "2026-09-04"
-raw = json.loads((ROOT / "output" / f"raw_{DATE}.json").read_text(encoding="utf-8"))
+# 09-03 是週四 → 輪播到「空間與環境」，與示範拆解的分類一致
+DATE = "2026-09-03"  # 示範用固定日期；正式流程用當日
+# 取最新一份抓取結果，不要寫死日期
+_raws = sorted((ROOT / "output").glob("raw_*.json"))
+assert _raws, "還沒有抓取結果，先跑 python3 src/verify_fetch.py"
+raw = json.loads(_raws[-1].read_text(encoding="utf-8"))
+print(f"使用 {_raws[-1].name}")
 raw, _ = sanitize(raw, verbose=False)
 
-def pick(pred, n):
-    return [r for r in raw if pred(r)][:n]
+showcase = pick_showcase(raw)
+industry = pick_industry(raw)
+# 封面圖必須來自被拆解的那一件 —— 圖文不符是最明顯的錯誤資訊。
+# 正式流程裡 build_deepdive() 直接用該筆的 image_url，結構上不會錯；
+# 這裡是示範資料，所以明確指名並斷言。
+hero = next(r for r in raw if "Lucas Museum" in r["title"])
+assert hero["image_url"], "示範用的封面圖不存在"
 
-showcase = pick(lambda r: r["kind"] == "showcase" and r["image_url"], 8)
-industry = pick(lambda r: r["kind"] == "industry" and len(r["title"]) > 12, 4)
-hero = next(r for r in raw if r["source_name"] == "Dezeen" and r["image_url"])
+# 站上一律繁中：列表區塊的標題要翻過（LLM 掛掉時會退回原文，不擋出刊）
+localise_items(industry)
+localise_items(showcase)
 
 doc = {
   "date": DATE,
@@ -30,8 +42,10 @@ doc = {
                 "client": "Lucas Museum of Narrative Art", "year": "2026"},
     "category": "space_env", "category_label": "空間與環境",
     "confidence": 78,
+    "is_placeholder": True,
     "source_url": hero["url"], "source_name": hero["source_name"],
     "image_url": hero["image_url"],
+    "image_fallback": hero.get("image_fallback", ""),
     "credit": "圖片來源：Dezeen．著作權屬原作者",
     "axes": {
       "intent": "（示範文字）美術館要解決的是「敘事」這個抽象主題怎麼在建築上被看見。業主是說故事的人，因此建築被要求自己就是一則故事的開場，而不只是容器。",
@@ -44,9 +58,11 @@ doc = {
     },
     "concretes": ["1.2m 見方複合板", "12mm 接縫", "南側三分之一開口", "連續曲面（無樓層線）", "MAD Architects"]
   },
-  "showcase": [{"title": r["title"], "url": r["url"], "image_url": r["image_url"],
+  "showcase": [{"title": r["title"], "title_original": r.get("title_original", ""),
+                "url": r["url"], "image_url": r["image_url"], "image_fallback": r.get("image_fallback", ""),
                 "source_name": r["source_name"], "region": r["region"]} for r in showcase],
-  "industry": [{"title": r["title"], "url": r["url"], "source_name": r["source_name"],
+  "industry": [{"title": r["title"], "title_original": r.get("title_original", ""),
+                "url": r["url"], "source_name": r["source_name"],
                 "published": r.get("published", ""), "region": r["region"]} for r in industry],
 }
 out = ROOT / "web" / "data" / f"{DATE}.json"

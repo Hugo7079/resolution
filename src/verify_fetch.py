@@ -13,7 +13,9 @@ from datetime import datetime, timezone, timedelta
 
 from config import OUTPUT_DIR, LANG_QUOTA, NON_ENGLISH_REGIONS, CHINESE_REGIONS
 from fetcher import fetch_all_sources, backfill_og_images
+from sources import SOURCES
 from sanitize import sanitize
+from source_health import record as record_health, check as check_health
 from tw_scraper import fetch_taiwan_all
 
 
@@ -71,6 +73,15 @@ def main(days_back: int = 2) -> None:
     for name, rows in sorted(by_src.items(), key=lambda x: -len(x[1])):
         img = sum(1 for r in rows if r["image_url"])
         print(f"  {name[:26]:26s} {len(rows):3d} 則   有圖 {img:3d}")
+
+    alerts = check_health(items, [s["name"] for s in SOURCES if s["freq"] == "daily"])
+    record_health(items)
+    print("\n── 來源健康 ──")
+    if alerts:
+        for a in alerts:
+            print(f"  ⚠ {a}")
+    else:
+        print("  正常")
 
     path = OUTPUT_DIR / f"raw_{today}.json"
     path.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")

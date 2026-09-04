@@ -83,6 +83,17 @@ JUNK_TOPIC = re.compile(
     r"工業廠房|燒賣批發|淨水器)", re.I)
 
 
+# 編碼壞掉的標題（???Embbli???????? 這種）。放出去就是明顯的錯誤資訊。
+_MOJIBAKE = re.compile(r"[?\ufffd]{3,}")
+
+
+def is_mojibake(title: str) -> bool:
+    if _MOJIBAKE.search(title or ""):
+        return True
+    bad = sum(1 for ch in (title or "") if ch in "?\ufffd")
+    return bool(title) and bad / len(title) > 0.25
+
+
 def blocked_channel(item: dict) -> str:
     url = item.get("url", "")
     for pat in CHANNEL_BLOCK.get(item.get("source_name", ""), []):
@@ -113,6 +124,11 @@ def sanitize(items: list[dict], verbose: bool = True) -> tuple[list[dict], dict]
         it["title"] = clean_title(it.get("title", ""))
 
         if len(it["title"]) < 2 or not it.get("url"):
+            dropped["empty"].append(it)
+            continue
+
+        if is_mojibake(it["title"]):
+            it["_dropped"] = "mojibake"
             dropped["empty"].append(it)
             continue
 

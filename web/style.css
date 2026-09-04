@@ -159,6 +159,15 @@ a { color: inherit; }
   padding: .0625rem .4375rem; border-radius: 2px;
 }
 
+/* 佔位資料的警示 —— 沒跑過 LLM 的內容不能長得像正式內容 */
+.placeholder {
+  display: flex; gap: .5rem; align-items: baseline;
+  border: 1px dashed var(--accent); border-radius: var(--radius);
+  background: var(--accent-bg); color: var(--ink-2);
+  padding: .625rem .75rem; margin-bottom: 1.25rem; font-size: .8125rem;
+}
+.placeholder b { color: var(--accent); font-weight: 700; white-space: nowrap; }
+
 /* ── 區塊標題 ── */
 .section { padding: 2rem 0 0; }
 .section__h {

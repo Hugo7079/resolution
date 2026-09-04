@@ -19,6 +19,7 @@ from __future__ import annotations
 import html
 import re
 import ssl
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET  # noqa: F401  (feedparser 內部用)
@@ -81,6 +82,21 @@ def _parse_published(entry) -> Optional[datetime]:
     return None
 
 
+# CMS 會把尺寸寫進檔名（mad-lucas-museum-411x274.jpg）。
+# feed 給的常常是這種縮圖，拿來當主視覺對設計媒體來說不能接受，
+# 也讀不出字體特徵。去掉後綴就是原圖。
+_SIZE_SUFFIX = re.compile(
+    r"-(\d{2,4})x(\d{2,4})(?=\.(?:jpe?g|png|webp)(?:$|\?))", re.I)
+
+
+def upgrade_image_url(url: str) -> str:
+    """把 CMS 縮圖網址換成原圖。判斷不出來就原樣回傳。"""
+    m = _SIZE_SUFFIX.search(url or "")
+    if m and max(int(m.group(1)), int(m.group(2))) < 1000:
+        return _SIZE_SUFFIX.sub("", url)
+    return url
+
+
 def _clean_img_url(u: str, base: str = "") -> str:
     if not u:
         return ""
@@ -89,7 +105,10 @@ def _clean_img_url(u: str, base: str = "") -> str:
         u = "https:" + u
     elif u.startswith("/") and base:
         u = urllib.parse.urljoin(base, u)
-    if not u.startswith("http"):
+    # 站台走 HTTPS，http 圖片會被當成混合內容擋掉
+    if u.startswith("http://"):
+        u = "https://" + u[7:]
+    if not u.startswith("https://"):
         return ""
     return "" if _JUNK_IMG.search(u) else u
 
@@ -158,12 +177,16 @@ def fetch_og_image(url: str) -> str:
     return ""
 
 
-def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
+def fetch_rss(source: dict, days_back: int = 2, _retry: bool = True) -> list[dict]:
     """單一 feed → items。低頻源套 LOW_FREQ_DAYS 的寬鬆時間窗。"""
     name, url = source["name"], source["url"]
     try:
         raw = _get(url)
     except Exception as e:
+        if _retry:
+            # 短時間內重複抓同一批來源容易被限速，退避一次多半就回來了
+            time.sleep(3)
+            return fetch_rss(source, days_back, _retry=False)
         print(f"  [warn] {name} 抓取失敗: {type(e).__name__}: {str(e)[:60]}")
         return []
 
@@ -188,6 +211,8 @@ def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
             continue
 
         img, img_from = extract_image(entry, base)
+        # 原圖給版面用，縮圖留著當 onerror fallback（去後綴不一定存在）
+        img_full = upgrade_image_url(img)
         # tags 是業配偵測的主要訊號（Dezeen 的 Promotions /
         # "Do not show on the Homepage" 只出現在這裡，標題和內文都看不出來）
         tags = [str(t.get("term", "")).strip()
@@ -201,9 +226,10 @@ def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
             "region":      source["region"],
             "kind":        source["kind"],
             "cat_hint":    source.get("cat"),
-            "image_url":   img,
-            "image_from":  img_from,
-            "tags":        tags[:12],
+            "image_url":      img_full,
+            "image_fallback": img if img_full != img else "",
+            "image_from":     img_from,
+            "tags":           tags[:12],
         })
         if len(items) >= (LOW_FREQ_MAX if is_low else MAX_PER_SOURCE):
             break
