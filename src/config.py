@@ -179,5 +179,10 @@ VISION_CFG = {
     "daily_neuron_budget": int(os.getenv("RES_CF_NEURON_BUDGET", "1200")),
 }
 
+# 送進 vision 前先縮到這個長邊。
+# input token 是照畫素量算的，送原圖（動輒 4000px / 7MB）純粹白燒 neurons，
+# 而且 CF 的 request body 也吃不下。1024 足夠辨識字體特徵與格線。
+VISION_INPUT_EDGE = int(os.getenv("RES_VISION_INPUT_EDGE", "1024"))
+
 # 絕不使用生圖模型 —— 對設計媒體來說生成封面是自傷（README 六）
 ENABLE_IMAGE_GENERATION = False
