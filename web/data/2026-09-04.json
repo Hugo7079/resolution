@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-04",
+  "weekday_mode": "category",
+  "deepdive": {
+    "title": "把「看不見的結構」變成招牌：MAD 用一片連續曲面取代了立面",
+    "subject": {
+      "name": "Fitbit founders launch AI-powered wristband to monitor health of whole",
+      "designer": "MAD Architects",
+      "client": "Lucas Museum of Narrative Art",
+      "year": "2026"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 78,
+    "source_url": "https://www.dezeen.com/2026/09/04/fitbit-luffu-link-ai-powered-wristband-health-family/",
+    "source_name": "Dezeen",
+    "image_url": "http://static.dezeen.com/uploads/2026/09/luffu-link-fitbit-family-ai-wearable-band-design-sq-411x411.jpg",
+    "credit": "圖片來源：Dezeen．著作權屬原作者",
+    "axes": {
+      "intent": "（示範文字）美術館要解決的是「敘事」這個抽象主題怎麼在建築上被看見。業主是說故事的人，因此建築被要求自己就是一則故事的開場，而不只是容器。",
+      "form": "（示範文字）主體是一片連續曲面，沒有可辨識的樓層線；外皮以約 1.2 公尺見方的白色複合板拼成，接縫寬度控制在 12mm 上下，讓整體在遠看時讀成單一體量。開口集中在南側約三分之一處。",
+      "message": "（示範文字）三秒內讀到的是「這不是一棟有樓層的房子」。資訊層級把「量體」放在第一位，入口與招牌被刻意壓到第二層級。",
+      "context": "（示範文字）放在美術館建築的慣例裡，這是破格的一邊 —— 近二十年的主流是量體切分與材質分區，這件反其道而行，回到單一連續體。",
+      "execution": "（示範文字）連續曲面的代價在收邊。每一片板的曲率都不同，等於放棄了標準化生產。維護時單片更換的顏色一致性是長期風險。",
+      "tradeoff": "（示範文字）為了得到「一眼認得出」的輪廓，它犧牲了立面的資訊承載力 —— 指標、入口、活動訊息都無處可放，只能靠地面層另外解決。如果目標換成「日常使用的社區型場館」，這個選擇就不成立。",
+      "takeaway": "（示範文字）想讓一個形體被記住，先決定「哪一層資訊要被犧牲」。把次要資訊全部移出主體，主體才會有輪廓。"
+    },
+    "concretes": [
+      "1.2m 見方複合板",
+      "12mm 接縫",
+      "南側三分之一開口",
+      "連續曲面（無樓層線）",
+      "MAD Architects"
+    ]
+  },
+  "showcase": [
+    {
+      "title": "Olympic Games",
+      "url": "https://www.behance.net/gallery/212560905/Olympic-Games",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/2c2cb8212560905.Y3JvcCwxNjU1LDEyOTUsMjQ5LDA.png",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "W.T.VILLA",
+      "url": "https://www.behance.net/gallery/254971877/WTVILLA",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/d5147f254971877.6a94c1479d3ea.jpg",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "Klar Reward Agency brand illustrations",
+      "url": "https://www.behance.net/gallery/255083683/Klar-Reward-Agency-brand-illustrations",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/a5b63a255083683.Y3JvcCwxMjAwLDkzOCwwLDEzMA.jpg",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "???Embbli????????",
+      "url": "https://www.behance.net/gallery/255135943/Embbli",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/4681b1255135943.Y3JvcCwzMzY0LDI2MzIsNzQsMA.jpg",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "Femme au Volant",
+      "url": "https://www.behance.net/gallery/255091065/Femme-au-Volant",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/a691d3255091065.Y3JvcCwxNjE3LDEyNjUsMzM2LDgw.png",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "Opel Mokka GsE Rally",
+      "url": "https://www.behance.net/gallery/254817869/Opel-Mokka-GsE-Rally",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/e257ee254817869.Y3JvcCwyODY2LDIyNDIsMjA1LDA.jpg",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "RECONSTRUCTED",
+      "url": "https://www.behance.net/gallery/255099005/RECONSTRUCTED",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/cb219d255099005.Y3JvcCw4NjAsNjcyLDcwLDM0NQ.jpg",
+      "source_name": "Behance",
+      "region": "en"
+    },
+    {
+      "title": "Neurath X Collection",
+      "url": "https://www.behance.net/gallery/254609333/Neurath-X-Collection",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/b21d28254609333.Y3JvcCwxNjgzLDEzMTYsMCww.jpg",
+      "source_name": "Behance",
+      "region": "en"
+    }
+  ],
+  "industry": [
+    {
+      "title": "Worried your writing sounds like AI? These tools can help",
+      "url": "https://www.fastcompany.com/91599906/worried-your-writing-sounds-like-ai-these-tools-can-help?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-03T15:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Apple has a hardware guy as CEO. Here’s what people want him to do",
+      "url": "https://www.fastcompany.com/91600895/john-ternus-ceo-hardware?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-03T14:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Cannabis consumers are no longer stoner stereotypes. Not all brands are marketing accordingly",
+      "url": "https://www.fastcompany.com/91600768/cannabis-brands-weed-branding-upscale-wellness?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-03T14:05:36+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Notion’s new San Francisco HQ is an ode to classic design",
+      "url": "https://www.fastcompany.com/91599202/notion-designed-its-new-hq-as-an-ode-to-classic-design?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-03T10:00:00+00:00",
+      "region": "en"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>解析度 Resolution</title>
+<meta name="description" content="每天提高你看設計的解析度 —— 一件設計的深度拆解，加上當天的作品流與產業動態。">
+<meta name="theme-color" content="#FAFAF7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131316" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="解析度">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <img class="masthead__mark" src="icons/icon-64.png" alt="">
+    <span class="masthead__name">解析度</span>
+    <span class="masthead__tag">每天提高你看設計的解析度</span>
+  </header>
+
+  <nav class="datenav">
+    <button id="prev" aria-label="前一天">‹</button>
+    <span id="date">—</span>
+    <button id="next" aria-label="後一天">›</button>
+    <span class="datenav__mode" id="mode"></span>
+  </nav>
+
+  <div class="filters" id="filters" role="group" aria-label="設計領域篩選"></div>
+
+  <main>
+    <article class="dd" id="dd"></article>
+
+    <section class="section" id="showcase-sec">
+      <div class="section__h"><h2>作品流</h2><span id="showcase-n"></span></div>
+      <div class="grid" id="showcase"></div>
+    </section>
+
+    <section class="section" id="industry-sec">
+      <div class="section__h"><h2>產業動態</h2><span id="industry-n"></span></div>
+      <ul class="list" id="industry"></ul>
+    </section>
+  </main>
+
+  <footer>
+    圖片著作權屬原作者，本站僅存縮圖並連回出處。<br>
+    如為權利人並希望移除，請來信告知。
+  </footer>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

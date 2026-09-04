@@ -13,6 +13,7 @@ from datetime import datetime, timezone, timedelta
 
 from config import OUTPUT_DIR, LANG_QUOTA, NON_ENGLISH_REGIONS, CHINESE_REGIONS
 from fetcher import fetch_all_sources, backfill_og_images
+from sanitize import sanitize
 from tw_scraper import fetch_taiwan_all
 
 
@@ -25,6 +26,12 @@ def main(days_back: int = 2) -> None:
 
     tw = fetch_taiwan_all(days_back=30)
     items.extend(tw)
+
+    items, dropped = sanitize(items)
+    for kind, rows in dropped.items():
+        for r in rows[:8]:
+            print(f"    丟棄[{kind}] {r.get('_dropped','')[:30]:30s} "
+                  f"{r.get('source_name','')[:14]:14s} {r.get('title','')[:38]}")
 
     filled = backfill_og_images(items)
     print(f"og:image 補圖：補到 {filled} 張\n")

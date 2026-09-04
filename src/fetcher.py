@@ -188,6 +188,10 @@ def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
             continue
 
         img, img_from = extract_image(entry, base)
+        # tags 是業配偵測的主要訊號（Dezeen 的 Promotions /
+        # "Do not show on the Homepage" 只出現在這裡，標題和內文都看不出來）
+        tags = [str(t.get("term", "")).strip()
+                for t in (entry.get("tags") or []) if t.get("term")]
         items.append({
             "title":       title,
             "url":         link,
@@ -199,6 +203,7 @@ def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
             "cat_hint":    source.get("cat"),
             "image_url":   img,
             "image_from":  img_from,
+            "tags":        tags[:12],
         })
         if len(items) >= (LOW_FREQ_MAX if is_low else MAX_PER_SOURCE):
             break
