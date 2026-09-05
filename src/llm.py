@@ -42,7 +42,7 @@ def chat(messages: list[dict],
          retries: int = 3) -> str:
     if not LLM_CFG["api_key"]:
         raise LLMError("RES_LLM_API_KEY 沒有設定 —— "
-                       "到 console.mistral.ai 申請，或寫進 .resolution_llm_config.json")
+                       "設環境變數，或寫進 .resolution_llm_config.json")
 
     payload: dict = {
         "model": LLM_CFG["model"],
@@ -53,7 +53,11 @@ def chat(messages: list[dict],
     if json_mode:
         payload["response_format"] = {"type": "json_object"}
 
-    url = LLM_CFG["base_url"].rstrip("/") + "/chat/completions"
+    # gateway 的 base_url 是根路徑（沒有 /v1），Mistral 那類則已經帶了
+    base = LLM_CFG["base_url"].rstrip("/")
+    if not base.endswith("/v1"):
+        base += "/v1"
+    url = base + "/chat/completions"
     body = json.dumps(payload).encode("utf-8")
 
     last_err = ""

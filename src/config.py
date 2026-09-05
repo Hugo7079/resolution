@@ -161,11 +161,14 @@ def _load_json(path: Path) -> dict:
 
 _cfg = _load_json(_LLM_CFG_FILE)
 
+# d8ai gateway（litellm proxy，OpenAI 相容）。
+# 原本規劃用 Mistral 免費層，但實測那把金鑰的配額被降為 0
+# （429 且 x-ratelimit-limit-req-minute: 0），整條文字生成的路是斷的。
 LLM_CFG = {
-    "base_url": os.getenv("RES_LLM_BASE_URL") or _cfg.get("base_url", "https://api.mistral.ai/v1"),
+    "base_url": os.getenv("RES_LLM_BASE_URL") or _cfg.get("base_url", "https://llm-gateway.d8ai.ai/"),
     "api_key":  os.getenv("RES_LLM_API_KEY")  or _cfg.get("api_key", ""),
-    "model":    os.getenv("RES_LLM_MODEL")    or _cfg.get("model", "mistral-small-latest"),
-    "rpm":      int(os.getenv("RES_LLM_RPM", "") or _cfg.get("rpm", 60)),
+    "model":    os.getenv("RES_LLM_MODEL")    or _cfg.get("model", "gemma-4-31B-it"),
+    "rpm":      int(os.getenv("RES_LLM_RPM", "") or _cfg.get("rpm", 45)),
 }
 
 VISION_CFG = {
