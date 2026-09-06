@@ -17,6 +17,10 @@ on:
         required: false
         default: "2"
 
+# 最後一步要把當日檔 commit 回 repo，預設的唯讀 token 推不上去
+permissions:
+  contents: write
+
 concurrency:
   group: resolution-daily
   cancel-in-progress: false
@@ -27,6 +31,8 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
