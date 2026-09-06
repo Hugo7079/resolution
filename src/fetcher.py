@@ -47,10 +47,10 @@ _JUNK_IMG = re.compile(
 )
 
 
-def _get(url: str, timeout: int = FETCH_TIMEOUT) -> bytes:
+def _get(url: str, timeout: int = FETCH_TIMEOUT, ua: str | None = None) -> bytes:
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": USER_AGENT,
+        headers={"User-Agent": ua or USER_AGENT,
                  "Accept": "application/rss+xml,application/xml,text/xml,text/html,*/*",
                  "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8,ja;q=0.6,ko;q=0.5"},
     )
@@ -177,17 +177,26 @@ def fetch_og_image(url: str) -> str:
     return ""
 
 
-def fetch_rss(source: dict, days_back: int = 2, _retry: bool = True) -> list[dict]:
+def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
     """單一 feed → items。低頻源套 LOW_FREQ_DAYS 的寬鬆時間窗。"""
     name, url = source["name"], source["url"]
-    try:
-        raw = _get(url)
-    except Exception as e:
-        if _retry:
-            # 短時間內重複抓同一批來源容易被限速，退避一次多半就回來了
-            time.sleep(3)
-            return fetch_rss(source, days_back, _retry=False)
-        print(f"  [warn] {name} 抓取失敗: {type(e).__name__}: {str(e)[:60]}")
+
+    # 兩種常見的暫時性失敗：短時間重複抓被限速，以及 CDN 擋掉 GitHub Actions
+    # 的 IP（實測 Creative Review / Abduzeedo / Design Week 在 CI 上回 403，
+    # 本機同一支 feed 正常）。退避後換一個較樸素的 UA 再試一次。
+    raw = None
+    last_err = None
+    for attempt, ua in enumerate((None, "Mozilla/5.0 (compatible; ResolutionBot/1.0; "
+                                        "+https://resolution-0000.web.app)")):
+        try:
+            raw = _get(url, ua=ua)
+            break
+        except Exception as e:  # noqa: BLE001
+            last_err = e
+            if attempt == 0:
+                time.sleep(3)
+    if raw is None:
+        print(f"  [warn] {name} 抓取失敗: {type(last_err).__name__}: {str(last_err)[:60]}")
         return []
 
     feed = feedparser.parse(raw)

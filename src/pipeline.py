@@ -161,10 +161,13 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
         print(f"  題目：{subject['title'][:70]}")
         doc = build_deepdive(subject, mode=mode, category=category)
 
-    if doc is None:
-        print("[失敗] 拆解沒通過品質閘 —— 今天不出這篇。"
-              "寧可失敗也不要出空話，但這代表需要有人看一眼。")
-        return 1
+    # 拆解沒過不該讓作品流與產業動態一起陪葬 —— 那兩區不需要 LLM 讀圖，
+    # 照樣有價值。當日檔照寫（deepdive 為 null，前端已能處理），
+    # 但流程結束時仍然標記為失敗，讓 Actions 變紅、有人來看一眼。
+    deepdive_failed = doc is None
+    if deepdive_failed:
+        print("[警告] 拆解沒通過品質閘 —— 今天不出這篇（寧可失敗也不出空話）。"
+              "作品流與產業動態照常發布。")
 
     # 7) 配額挑選 + 在地化
     showcase = pick_showcase(items)
@@ -176,11 +179,11 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     print(f"\n作品流 {len(showcase)} 件（非英語圈 {non_en}）、產業動態 {len(industry)} 則")
 
     # 8) 寫出當日檔
-    cat_id = doc.get("category") or category
+    cat_id = (doc.get("category") if doc else None) or category
     day = {
         "date": today,
         "weekday_mode": mode,
-        "deepdive": {
+        "deepdive": None if deepdive_failed else {
             "title": doc.get("title", ""),
             "subject": doc.get("subject", {}),
             "category": cat_id,
@@ -215,6 +218,9 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
                 if s.get("source_name", "").startswith("金點")])
 
     print(f"\n[完成] web/data/{today}.json")
+    if deepdive_failed:
+        print("[失敗] 當日檔已產出，但沒有拆解 —— 這是這個站的主菜，不能長期缺席。")
+        return 2
     return 0
 
 

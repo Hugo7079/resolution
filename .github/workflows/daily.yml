@@ -43,6 +43,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
+        id: pipeline
         env:
           # 文字：d8ai gateway（litellm proxy，OpenAI 相容）
           RES_LLM_API_KEY:    ${{ secrets.RES_LLM_API_KEY }}
@@ -56,7 +57,14 @@ jobs:
           ARGS=""
           [ -n "${{ github.event.inputs.date }}" ] && ARGS="$ARGS --date ${{ github.event.inputs.date }}"
           [ -n "${{ github.event.inputs.days }}" ] && ARGS="$ARGS --days ${{ github.event.inputs.days }}"
+          set +e
           python3 src/pipeline.py $ARGS
+          CODE=$?
+          set -e
+          echo "pipeline_exit=$CODE" >> "$GITHUB_OUTPUT"
+          # 2 = 當日檔有產出但缺拆解：照樣部署（作品流與產業動態仍然有價值），
+          #     等部署完再把整個 job 標成失敗。其他非零一律當場中止、不部署。
+          if [ "$CODE" != "0" ] && [ "$CODE" != "2" ]; then exit "$CODE"; fi
 
       # pipeline 失敗就不部署 —— 寧可停在昨天的內容，也不要把空白推上線
       - name: Deploy to Firebase Hosting
@@ -69,9 +77,17 @@ jobs:
 
       # 當日檔存回 repo，這樣有歷史、也能回看前幾天
       - name: Commit day file
+        continue-on-error: true
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add web/data/
           git diff --staged --quiet || git commit -m "資料：$(date -u +%Y-%m-%d) 當日檔"
           git push
+
+      # 部署完才報失敗：內容已經上線，但缺拆解這件事必須看得見
+      - name: Fail if deep dive missing
+        if: steps.pipeline.outputs.pipeline_exit == '2'
+        run: |
+          echo "::error::當日檔已發布，但今天沒有拆解（品質閘沒過或讀圖不可用）"
+          exit 1
