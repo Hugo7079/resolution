@@ -16,6 +16,7 @@ import re
 from config import (CATEGORIES, CATEGORY_BOUNDARY_RULES, CROSSOVER_SCOPE,
                     HISTORY_BRIEF, VISION_CFG)
 from llm import chat_json, LLMError
+from sanitize import verify_subject, verify_concretes
 from vision import describe_images
 
 # ─────────────────────────────────────────────────────────────
@@ -164,6 +165,23 @@ def _prompt_history(week_items: list[dict], strict_retry: bool = False) -> list[
 # ─────────────────────────────────────────────────────────────
 # 品質閘
 # ─────────────────────────────────────────────────────────────
+def _cited_in(concrete: str, text: str) -> bool:
+    """
+    具體物有沒有真的出現在這一軸的行文裡。
+
+    不能用整串比對 —— 清單寫「白色主色調」、行文寫「主色調為白色」，
+    字序一換 substring 就失敗，於是把明明很具體的文章判成空話。
+    改用字元集合重疊：拆掉標點與助詞後，七成以上的字出現過就算引用。
+    """
+    keep = re.sub(r"[^0-9A-Za-z\u4e00-\u9fff#]", "", concrete)
+    keep = re.sub(r"[的了與和及之]", "", keep)
+    if len(keep) < 2:
+        return False
+    chars = set(keep)
+    hit = sum(1 for ch in chars if ch in text)
+    return hit / len(chars) >= 0.7
+
+
 def _texts_of(doc: dict) -> str:
     if "axes" in doc:
         return " ".join(str(v) for v in (doc.get("axes") or {}).values())
@@ -192,7 +210,7 @@ def quality_check(doc: dict, mode: str) -> tuple[bool, list[str]]:
 
     if mode != "history":
         form = str((doc.get("axes") or {}).get("form", ""))
-        cited = sum(1 for c in concretes if str(c)[:12] and str(c)[:12] in form)
+        cited = sum(1 for c in concretes if _cited_in(str(c), form))
         if cited < 2:
             problems.append(f"form 軸只引用了 {cited} 項具體物（需 ≥2）")
     else:
@@ -229,6 +247,19 @@ def build_deepdive(item: dict, mode: str, category: str | None = None,
         except LLMError as e:
             print(f"  [deepdive] {str(e)[:120]}")
             return None
+
+        # 事實錨定：設計者／業主／年份與具體物都必須能溯源，
+        # 否則就是模型自己生的 —— 這是這個產品最危險的失誤。
+        src_texts = [item.get("title", ""), item.get("summary", "")] + vision_notes
+        if mode != "history":
+            doc["subject"], unverified = verify_subject(doc.get("subject") or {},
+                                                        " ".join(src_texts))
+            if unverified:
+                print(f"  [事實錨定] 原文找不到，已清空：{'、'.join(unverified)}")
+        kept, unsourced = verify_concretes(doc.get("concretes") or [], src_texts)
+        if unsourced:
+            print(f"  [事實錨定] 具體物無法溯源，已移除：{'、'.join(map(str, unsourced))}")
+        doc["concretes"] = kept
 
         ok, problems = quality_check(doc, mode)
         if ok:

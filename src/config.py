@@ -172,8 +172,8 @@ LLM_CFG = {
 }
 
 VISION_CFG = {
-    "cf_account_id": os.getenv("RES_CF_ACCOUNT_ID", ""),
-    "cf_api_token":  os.getenv("RES_CF_API_TOKEN", ""),
+    "cf_account_id": os.getenv("RES_CF_ACCOUNT_ID") or _cfg.get("cf_account_id", ""),
+    "cf_api_token":  os.getenv("RES_CF_API_TOKEN")  or _cfg.get("cf_api_token", ""),
     "cf_model":      os.getenv("RES_CF_VISION_MODEL",
                                "@cf/meta/llama-3.2-11b-vision-instruct"),
     # 一次拆解最多讀幾張圖

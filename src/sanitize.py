@@ -190,3 +190,36 @@ def verify_subject(subject: dict, source_text: str) -> tuple[dict, list[str]]:
             unverified.append("year")
 
     return out, unverified
+
+
+# 可比對的 token：色票、兩位數以上的數字、三字母以上的拉丁詞。
+# 單一數字不算 —— 「#0B3D2E」被拆出一個「0」，而「0」幾乎在任何原文裡都找得到，
+# 等於整條驗證失效。
+_TOKEN = re.compile(r"#[0-9A-Fa-f]{3,8}|[0-9][0-9,.]*[0-9]|[A-Za-z][A-Za-z\-'’]{2,}")
+
+
+def verify_concretes(concretes: list, sources: list[str]) -> tuple[list, list]:
+    """
+    具體物溯源。只驗證「含有可比對 token」的項目 —— 字體名、色票、
+    尺寸、數字、專有名詞，也就是幻覺的高危區（模型猜字體名猜得非常像真的）。
+
+    比對用數字與拉丁字母詞而不是整串比對：具體物是繁中寫的
+    （「1,200 片曲面面板」），原文是英文（"1,200 curved panels"），
+    整串一定對不上，但數字和專有名詞會原樣保留。
+
+    純中文的描述句（「五層樓結構」「非線性有機形態」）沒有可比對 token，
+    一律放行 —— 中文數字比對不到英文 five-storey，硬驗只會把真的刪掉。
+    代價是純中文的捏造（例如「十二欄格線」）擋不住，但那個風險面小得多，
+    而且形式軸的具體物幾乎都帶字體名或色票。
+    """
+    hay = " ".join(sources).lower()
+    ok, unsourced = [], []
+    for c in concretes or []:
+        toks = _TOKEN.findall(str(c))
+        if not toks:
+            ok.append(c)          # 沒有可比對的東西，不強求
+        elif any(tok.lower() in hay for tok in toks):
+            ok.append(c)
+        else:
+            unsourced.append(c)
+    return ok, unsourced

@@ -1,0 +1,71 @@
+name: Daily Resolution
+
+on:
+  schedule:
+    # 20:00 UTC = 台灣 04:00。刻意排在「晨誌」（20:40 UTC）之前 ——
+    # 兩個專案共用同一個 Cloudflare 帳號的每日 neuron 額度，
+    # 本專案用量小（一天約 170），先跑就不會被晨誌的封面圖排擠掉。
+    # Actions 的 cron 只是排進佇列不保證準時，所以提早排，目標 08:30 前一定看得到。
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "指定日期 YYYY-MM-DD（留空=今天）"
+        required: false
+      days:
+        description: "回溯天數"
+        required: false
+        default: "2"
+
+concurrency:
+  group: resolution-daily
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          # 文字：d8ai gateway（litellm proxy，OpenAI 相容）
+          RES_LLM_API_KEY:    ${{ secrets.RES_LLM_API_KEY }}
+          RES_LLM_BASE_URL:   "https://llm-gateway.d8ai.ai/"
+          RES_LLM_MODEL:      "gemma-4-31B-it"
+          RES_LLM_RPM:        "45"
+          # 讀圖：Cloudflare Workers AI（不生圖，只描述看到什麼）
+          RES_CF_ACCOUNT_ID:  ${{ secrets.RES_CF_ACCOUNT_ID }}
+          RES_CF_API_TOKEN:   ${{ secrets.RES_CF_API_TOKEN }}
+        run: |
+          ARGS=""
+          [ -n "${{ github.event.inputs.date }}" ] && ARGS="$ARGS --date ${{ github.event.inputs.date }}"
+          [ -n "${{ github.event.inputs.days }}" ] && ARGS="$ARGS --days ${{ github.event.inputs.days }}"
+          python3 src/pipeline.py $ARGS
+
+      # pipeline 失敗就不部署 —— 寧可停在昨天的內容，也不要把空白推上線
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_RESOLUTION }}
+          projectId: resolution-0000
+          channelId: live
+
+      # 當日檔存回 repo，這樣有歷史、也能回看前幾天
+      - name: Commit day file
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data/
+          git diff --staged --quiet || git commit -m "資料：$(date -u +%Y-%m-%d) 當日檔"
+          git push
