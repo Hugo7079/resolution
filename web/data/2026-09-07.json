@@ -2,76 +2,65 @@
   "date": "2026-09-07",
   "category": "product_object",
   "feature": {
-    "title": "一把刀，只留下你真用到的工具",
+    "title": "用混凝土印出來的學生村：一間房子的牆壁是 3D 列印的",
     "subject": {
-      "name": "Helton 折疊刀",
-      "designer": "James Brand",
-      "client": "James Brand",
+      "name": "Skovsporet",
+      "designer": "SAGA Space Architects與 MS+（丹麥建築工作室）",
+      "client": "VIA University College",
       "year": ""
     },
     "category": "product_object",
     "category_label": "產品與物件",
     "confidence": 95,
-    "hook": "這把刀不像瑞士軍刀塞滿你用不到的工具，而是只留下五件最實用的東西，還把每件都做成好看的樣子。",
-    "what_it_is": "James Brand 是一家專做現代設計工具的品牌，他們重新設計瑞士軍刀這個經典格式，只保留五件常用工具（刀片、螺絲起子、鑷子、剪刀、開瓶器），並用黑色塑膠把手和銀色鋼片刀身做出高對比的視覺效果。這把刀在 2023 年上市後立刻售罄，顯示出設計師對工具的精簡和美學的平衡。",
+    "images_read": 1,
+    "neurons_used": 19.6,
+    "hook": "這不是一間房子，而是一整個村莊：36 間公寓，牆壁是 3D 列印的混凝土，屋頂有大窗戶讓陽光直射進來，地板鋪著軟木板，連共用的庭院都經過設計。這不是未來科技的展覽，而是丹麥學生現在住的地方。",
+    "what_it_is": "丹麥哥本哈根的學生村「Skovsporet」，由兩間建築工作室設計，專門給附近大學的學生住。整個村莊有 36 間一樓公寓，分成六棟建築，每棟有共用庭院、綠地和自行車停車位。牆壁是用 3D 列印的混凝土做的，屋頂有大窗戶讓陽光進來，地板鋪軟木板，家具則是木頭和玻璃。這不是實驗，而是真正的住宅。",
     "angles": [
       {
-        "lens": "tradeoff",
-        "body": "Helton 折疊刀放棄了瑞士軍刀的「萬能」概念，只保留五件工具：部分鋸齒的刀片、磁性的螺絲起子（平口和十字口各一）、鑷子、剪刀和開瓶器。這個取捨的依據是「哪些工具真正被用到」，而非「塞進去越多越好」。例如，瑞士軍刀常見的針線包、釘書機、小鏟子等都被刪掉，但保留了開瓶器，因為它是日常生活中常用的工具。這個選擇讓刀的體積縮小，重量減輕（約 120 公克），同時提升了實用性。不過，犧牲的代價是無法像瑞士軍刀一樣應付所有緊急狀況。",
-        "so_what": "下次看到一把工具塞滿你用不到的功能時，可以問問自己：這些功能是真的需要，還是只是「有」就好？"
-      },
-      {
         "lens": "material",
-        "body": "Helton 的刀身採用不鏽鋼（銀色，近似 #C9C9C9），經過陽極處理（anodizing）提升耐磨性和防銹能力。把手則使用黑色（#000000）的塑膠或橡膠材質，表面有細緻的紋理，方便握持。這兩種材質的對比不僅提升視覺效果，也讓刀在實用性上更耐用。例如，陽極處理的鋼片不僅不生銹，還能抵抗日常磨損；而把手的紋理設計則是為了防止手滑。不過，塑膠把手的耐高溫性能不如金屬，無法像瑞士軍刀的木質或金屬把手一樣在高溫環境下使用。",
-        "so_what": "材質不只關係好不好看，還關係到東西能不能用得久、在什麼環境下用得安心。"
+        "body": "這個村莊的牆壁不是用磚或木頭蓋的，而是用 3D 列印的混凝土（3D-printed concrete）直接「印」出來的。從圖上看，牆面呈現出粗糙但均勻的質感，像是用大型 3D 列印機層層堆疊而成，表面沒有明顯的接縫或裝飾。這種工法不只省下傳統澆模的時間，還能讓牆壁厚度更薄、結構更靈活。屋頂則採用傳統的斜屋頂設計，但配合大面積的玻璃窗（roof windows），讓陽光直接照進室內。地板則鋪了軟木板（cork panels），這種材質輕盈、隔音又防滑，常見於歐洲住宅。家具如書桌和沙發則是木頭做的，但從圖上看，桌面和椅背的設計簡潔，沒有過度雕琢，與混凝土牆的粗糙感形成對比。",
+        "so_what": "原來一間房子的牆壁可以像 3D 列印的模型一樣直接「印」出來，而且不只是實驗室的樣品，而是真正的住家。這意味著未來的房子可能不再需要磚塊或木板，而是用機器一層層堆疊出來，又快又省材料。"
       },
       {
         "lens": "layout",
-        "body": "Helton 的工具排列在刀身兩側，採用對稱但非對稱的設計：左側是刀片、螺絲起子（平口和十字口），右側則是剪刀、鑷子和開瓶器。這樣的排列讓使用者在不打開刀身的情況下，就能快速找到常用的工具。例如，開瓶器位於最外側，方便一手握刀、一手開瓶；而螺絲起子則藏在刀片下方，避免意外傷害。不過，這個設計犧牲了瑞士軍刀那種「一把刀、多種用途」的便利性，因為每件工具都需要單獨取出。",
-        "so_what": "工具的擺放不只是「塞進去」的問題，還關係到你用起來是否方便、是否安全。"
+        "body": "每間公寓被設計成「一站式生活空間」，從圖上可以看出房間被一根柱子分成兩部分：左邊是沙發區（lounge），右邊是書桌和樓梯（study area）。樓梯通往二樓的臥室，這樣的設計讓一樓成為開放的活動空間，二樓則是私密的休息區。屋頂的大窗戶（roof windows）讓陽光從斜上方直射進來，照亮整個房間，同時也讓室內空間感更寬敞。六棟建築之間有共用的庭院（courtyards）和綠地，讓住戶可以在戶外活動，也增加了社區感。從圖上看，每棟建築的外型並不對稱，但整體排列有規律，像是用格線（grid）規劃出來的。",
+        "so_what": "這間房子不是把所有東西塞進一個盒子，而是用樓梯和大窗戶把空間分成不同的「場景」：沙發區、書桌區、臥室區。未來你租房子時，可以留意屋頂有沒有大窗戶，或者樓梯是否被用來分隔空間，這些小細節會讓房子感覺更舒適。"
       },
       {
-        "lens": "message",
-        "body": "Helton 的刀身上印有「THE HELTON」的字樣，採用無襯線的粗體字（類似 Söhne Halbfett 字體家族），字體粗細對比強烈，讓文字在銀色刀身上清晰可見。這個字體的選擇強調了現代感和簡潔性，與瑞士軍刀那種傳統的刻字風格形成對比。此外，刀身上的工具排列清晰，沒有多餘的裝飾，傳達出「實用第一」的訊息。不過，這個設計也犧牲了瑞士軍刀那種「經典」的視覺符號，可能不適合喜歡傳統風格的人。",
-        "so_what": "一件東西的文字和圖案不只是好不好看，還能告訴你它想傳達什麼樣的訊息。"
+        "lens": "tradeoff",
+        "body": "這個學生村最大的賣點是「3D 列印的混凝土牆」，這代表建造速度快、成本可能降低，也能減少傳統建材的浪費。但是，混凝土牆的表面雖然結實，卻沒有傳統磚牆或木牆那樣的「可塑性」——比如說，你無法輕易在牆上打洞或改變結構。從圖上看，牆面的質感粗糙，可能需要額外的處理（如塗漆或貼面）才能達到更高級的視覺效果。另一方面，屋頂的大窗戶雖然帶來了充足的陽光，但可能也帶來了夏天的高溫或冬天的冷氣流失問題。設計師選擇犧牲了一些傳統建材的靈活性，換來的是建造速度和現代感。",
+        "so_what": "用新科技蓋房子時，你可能會犧牲一些傳統的便利性，比如說牆壁無法隨意改動。但換來的可能是更快的建造速度、更低的成本，甚至更環保的材料。未來的房子可能不再是「一成不變」的盒子，而是「可以重新定義」的空間。"
       },
       {
         "lens": "context",
-        "body": "Helton 的設計參考了瑞士軍刀的經典格式，但卻放棄了瑞士軍刀那種「塞滿工具」的傳統。瑞士軍刀的設計源自 19 世紀，強調多功能性，但隨著時代演進，許多人發現自己用不到所有功能。Helton 的出現則是回應了現代人對「精簡」和「美學」的需求。例如，瑞士軍刀常見的工具如釘書機、針線包等在現代生活中使用頻率低，反而像開瓶器、螺絲起子這類工具更常用。Helton 的設計因此成為瑞士軍刀的現代解讀，同時也展現了設計如何在傳承和創新之間取得平衡。",
-        "so_what": "一件東西的設計不一定要完全推翻過去，而是可以從過去中找到新的可能性。"
+        "body": "這個學生村屬於「3D 列印住宅」的新興類別，但它並不是第一個嘗試這種技術的案例。不過，它是歐洲最大的 3D 列印住宅村莊，有 36 間公寓，遠超過之前的小規模實驗。從設計風格來看，它結合了現代建築的簡潔線條和傳統住宅的溫暖感（比如軟木地板和木質家具），這在丹麥這種重視環保和社區生活的國家尤其適合。與傳統學生宿舍（通常是標準化的小房間）不同，這裡的每間公寓都有獨立的廚房、客廳和臥室，更像是真正的「家」。同時，共用的庭院和綠地設計也符合丹麥人喜愛戶外活動的習慣。",
+        "so_what": "這不是科幻電影裡的未來房子，而是現在丹麥學生真正住的地方。未來你可能會發現，新科技不只是用在手機或電腦上，連房子也能「列印」出來，而且比以前更環保、更快速。"
       }
     ],
-    "takeaway_everyone": "下次看到一把工具或一件產品時，可以問問自己：它真的需要這麼多功能，還是有些功能只是「有」就好？一件東西的設計不只關係好不好看，還關係到它是否真正符合你的需求。例如，一把刀如果塞滿你用不到的工具，可能反而變得不實用。設計的關鍵在於「精簡」和「實用」的平衡。",
-    "takeaway_designer": "在設計一件產品時，可以嘗試以下步驟：1. 列出所有可能的功能，然後問「哪些是真正被用到的？」；2. 選擇最實用的功能，並考慮如何將它們整合到產品中，同時保持視覺上的簡潔性；3. 選擇材質時，不僅要考慮美觀，還要考慮實用性和耐用性；4. 在排列工具或功能時，考慮使用者的習慣和便利性，例如將最常用的功能放在最容易取用的位置。",
+    "takeaway_everyone": "下次你參觀一棟新大樓或租房子時，可以留意牆壁是什麼材質做的。如果牆面看起來像是「一層層堆疊」出來的，可能就是用 3D 列印技術做的。這種房子可能比傳統房子蓋得更快、更環保，但可能無法隨意改動牆壁。另外，屋頂的大窗戶不只是好看，還能讓陽光直接照進來，讓房間感覺更寬敞。未來的房子可能不再是「一成不變」的盒子，而是「可以重新定義」的空間。",
+    "takeaway_designer": "在住宅設計中，結合 3D 列印混凝土和傳統材質（如軟木地板、木質家具）可以創造出既現代又溫暖的空間。關鍵在於如何平衡新科技的限制（如混凝土牆的可塑性較低）和優勢（如建造速度和成本效益）。同時，透過屋頂大窗戶和共用庭院的設計，可以強化室內外的連結感，提升居住品質。在材質選擇上，可以考慮軟木板等環保材料，以增強整體的可持續性。",
     "glossary": [
       {
-        "term": "陽極處理（anodizing）",
-        "plain": "一種在金屬表面形成氧化層的處理方法，可以提升耐磨性、防銹能力和顏色穩定性。"
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
       },
       {
-        "term": "無襯線",
-        "plain": "字體看起來很自然、沒有硬梆梆的邊緣，像是手寫的筆跡一樣柔和。"
-      },
-      {
-        "term": "襯線",
-        "plain": "字體或圖形四周有明顯的細線條，像是用筆在紙上劃了一圈邊框，讓東西看起來更正式或突出。"
-      },
-      {
-        "term": "陽極處理",
-        "plain": "把金屬（像是鋁）做一種特殊處理，讓表面變得更硬、不容易生鏽，還可以染出各種顏色，常用在手機、門把或機車零件上。"
+        "term": "軟木板（cork panels）",
+        "plain": "從軟木樹皮提煉出來的板材，輕盈、隔音、防滑，常用於地板或牆面裝飾。"
       }
     ],
     "concretes": [
-      "Helton 折疊刀",
-      "James Brand",
-      "陽極處理不鏽鋼（#C9C9C9）",
-      "黑色塑膠或橡膠把手（#000000）",
-      "五件工具（刀片、螺絲起子、鑷子、剪刀、開瓶器）"
+      "3D 列印混凝土牆",
+      "屋頂大窗戶（roof windows）",
+      "軟木地板（cork panels）",
+      "六棟建築共用的庭院和綠地",
+      "木質家具（如書桌和沙發）"
     ],
-    "source_url": "https://www.core77.com/posts/145262/The-James-Brands-Handsome-Designey-Alternative-to-the-Swiss-Army-Knife",
+    "source_url": "https://www.core77.com/posts/145218/In-Denmark-3D-Printed-Student-Housing",
     "source_name": "Core77",
-    "published": "2026-09-04T13:00:00+00:00",
-    "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1848493_lead_400_145262_.jpg",
+    "published": "2026-08-31T15:00:00+00:00",
+    "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1847933_lead_400_145218_.jpg",
     "image_fallback": "",
     "credit": "圖片來源：Core77．著作權屬原作者"
   },
@@ -87,7 +76,7 @@
       "category": null
     },
     {
-      "title": "激進美學詞典計畫",
+      "title": "激進美學詞典專案",
       "title_original": "The Dictionary (of) Radical Beauty Project",
       "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
       "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
@@ -103,16 +92,6 @@
       "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/4ab80a254926971.Y3JvcCwxMDg2LDg1MCwxNTYsNjk.jpg",
       "image_fallback": "",
       "source_name": "Behance",
-      "region": "en",
-      "category": null
-    },
-    {
-      "title": "愛爾蘭與雪爾特島高設計度假租屋、現代主義經典住宅展覽及更多",
-      "title_original": "High-design vacation rentals in Ireland and Shelter Island, a show in an iconic modernist house, and more",
-      "url": "https://www.sightunseen.com/2026/08/high-design-vacation-rentals-in-ireland-and-shelter-island-a-show-in-an-iconic-modernist-house-and-more/",
-      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/08/By_Irina_Boersma_Cesar_Machado_OMOS_RESTAURANT_01_v1.jpg",
-      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/08/By_Irina_Boersma_Cesar_Machado_OMOS_RESTAURANT_01_v1-728x550.jpg",
-      "source_name": "Sight Unseen",
       "region": "en",
       "category": null
     },
@@ -155,19 +134,29 @@
       "source_name": "Behance",
       "region": "en",
       "category": null
+    },
+    {
+      "title": "N.L.N. 別墅",
+      "title_original": "N.L.N. Villa",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2107",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2107/thumb_2x_image_1110e9.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
     }
   ],
   "industry": [
     {
-      "title": "《從樹成林》回顧八年校園美感設計實踐：從一處空間到一片森林，看見教育改變如何持續發生",
-      "title_original": "《從樹成林》回望八年校園美感設計實踐：從一處空間到一片森林，看見教育改變如何持續發生",
-      "url": "https://www.tdri.org.tw/zh-TW/news/756",
-      "source_name": "台灣設計研究院",
-      "published": "2026-09-01T00:00:00+00:00",
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "source_name": "金點設計獎",
+      "published": "",
       "region": "zh-tw"
     },
     {
-      "title": "勞動節蘋果交易今年很差勁，但這些是最好的",
+      "title": "勞動節 Apple 交易折扣今年很差勁，但這些是最好的",
       "title_original": "The Labor Day Apple deals are terrible this year, but these are the best around",
       "url": "https://www.creativebloq.com/professional-development/creative-careers/apple-labor-day-deals-are-terrible-this-year-but-these-are-the-best-around",
       "source_name": "Creative Bloq",
@@ -175,7 +164,7 @@
       "region": "en"
     },
     {
-      "title": "你還是真的在手動打提示嗎？",
+      "title": "你還是真的在手動輸入提示嗎？",
       "title_original": "Are you still typing your prompts, really?",
       "url": "https://ref.wisprflow.ai/sidebar",
       "source_name": "Sidebar",
@@ -183,7 +172,7 @@
       "region": "en"
     },
     {
-      "title": "LovePaper — 寫一封愛情信成為獨立排版的頁面",
+      "title": "LovePaper — 寫一封愛情信成為獨立排版頁面",
       "title_original": "LovePaper — Write a Love Letter That Becomes Its Own Typeset Page",
       "url": "https://webdesignernews.com/lovepaper-write-a-love-letter-that-becomes-its-own-typeset-page/",
       "source_name": "Web Designer News",
