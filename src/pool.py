@@ -18,6 +18,7 @@
 
 from __future__ import annotations
 import json
+import re
 from datetime import date, datetime, timedelta
 
 from config import OUTPUT_DIR, POOL_MAX_AGE_DAYS, POOL_MAX_SIZE
@@ -37,11 +38,16 @@ WORK_SOURCES = {
 }
 _ALL_WORK_SOURCES = set().union(*WORK_SOURCES.values())
 
-# 標題長這樣的多半是新聞或評論，不是一件作品
+# 標題長這樣的多半是新聞、評論或活動公告，不是一件可以介紹的作品。
+# 窗口放寬到 7 天之後這類東西變多了 —— 實測「Meet Fusion Forward Juror…」
+# （評審介紹）排到候選第一名，因為它來自 Core77 這個作品源。
 _NEWS_MARKERS = ("宣布", "收購", "併購", "任命", "離職", "訴訟", "判決", "調查",
                  "報告", "趨勢", "回顧", "專訪", "獎項公布", "入圍", "徵件",
+                 "講座", "工作坊", "報名", "招募",
                  "announces", "acquires", "appoints", "lawsuit", "report",
-                 "trends", "interview", "opinion", "why ", "how ", "what ")
+                 "trends", "interview", "opinion", "why ", "how ", "what ",
+                 "meet ", "juror", "jury", "call for", "deadline",
+                 "podcast", "q&a", "webinar", "workshop", "now hiring")
 
 
 def _load() -> dict:
@@ -64,7 +70,7 @@ def _save(pool: dict) -> None:
         encoding="utf-8")
 
 
-def _pub_date(item: dict) -> date | None:
+def pub_date(item: dict) -> date | None:
     raw = (item.get("published") or "").strip()
     if not raw:
         return None
@@ -111,7 +117,7 @@ def _prune(pool: dict, today: date) -> None:
     for url in list(bag):
         it = bag[url]
         # 有發表日就用發表日，沒有就用第一次看到它的日子
-        d = _pub_date(it) or date.fromisoformat(it.get("_seen", today.isoformat()))
+        d = pub_date(it) or date.fromisoformat(it.get("_seen", today.isoformat()))
         if d < cutoff:
             bag.pop(url, None)
 
@@ -127,9 +133,14 @@ def _prune(pool: dict, today: date) -> None:
             used.pop(url, None)
 
 
+# 「5 Lamps Designed for…」「10 Best…」這種清單文是 N 件作品的集合，
+# 不是一件。硬寫會變成把五個東西各講一句，每個角度都踩不到具體物。
+_LISTICLE = re.compile(r"^\s*\d{1,2}\s+\S|^\s*(top|best)\s+\d", re.I)
+
+
 def _looks_like_news(title: str) -> bool:
     t = title.lower()
-    return any(m in t for m in _NEWS_MARKERS)
+    return bool(_LISTICLE.match(title)) or any(m in t for m in _NEWS_MARKERS)
 
 
 def _score(it: dict, category: str) -> tuple:

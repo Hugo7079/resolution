@@ -177,6 +177,12 @@ def fetch_og_image(url: str) -> str:
     return ""
 
 
+# 每個來源這一輪的實際結果。分開記是因為「抓不到」和「抓到了但沒新文章」
+# 是兩件完全不同的事，混在一起報就會像 2026-09-07 那樣：
+# 週一早上把「歐美媒體週末不發文」誤判成「被 CDN 擋」。
+FETCH_RESULT: dict[str, str] = {}
+
+
 def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
     """單一 feed → items。低頻源套 LOW_FREQ_DAYS 的寬鬆時間窗。"""
     name, url = source["name"], source["url"]
@@ -196,8 +202,11 @@ def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
             if attempt == 0:
                 time.sleep(3)
     if raw is None:
+        code = getattr(last_err, "code", None)
+        FETCH_RESULT[name] = f"HTTP {code}" if code else type(last_err).__name__
         print(f"  [warn] {name} 抓取失敗: {type(last_err).__name__}: {str(last_err)[:60]}")
         return []
+    FETCH_RESULT[name] = "ok"
 
     feed = feedparser.parse(raw)
     now = datetime.now(timezone.utc)

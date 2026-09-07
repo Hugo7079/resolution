@@ -212,17 +212,61 @@ function renderIndustry() {
   });
 }
 
-async function boot() {
-  const latest = await fetch('data/latest.json').then(r => r.json());
-  const q = new URLSearchParams(location.search).get('d');
-  data = await fetch(`data/${q || latest.date}.json`).then(r => r.json());
+/* 有哪幾天可以看。出刊是有斷層的（抓取失敗、或那天沒跑），
+   所以上一天／下一天不能用日期加減 —— 減一天會直接撞 404。
+   照 index.json 列出的實際檔案走。 */
+let days = [];
 
-  const dt = new Date(data.date + 'T00:00:00+08:00');
-  const wd = '日一二三四五六'[dt.getDay()];
-  document.getElementById('date').textContent = `${data.date}（${wd}）`;
-  document.getElementById('mode').textContent = '';
-  document.getElementById('next').disabled = true;
+function fmtDate(iso) {
+  const dt = new Date(iso + 'T00:00:00+08:00');
+  return `${iso}（${'日一二三四五六'[dt.getDay()]}）`;
+}
+
+async function show(date, push) {
+  const res = await fetch(`data/${date}.json`);
+  if (!res.ok) return;                       // 檔案不在就原地不動，不要把畫面清空
+  data = await res.json();
+
+  document.getElementById('date').textContent = fmtDate(data.date);
+  const i = days.indexOf(data.date);
+  document.getElementById('prev').disabled = i <= 0;
+  document.getElementById('next').disabled = i < 0 || i >= days.length - 1;
 
   renderFilters(); renderFeature(); renderShowcase(); renderIndustry();
+  window.scrollTo(0, 0);
+
+  /* 每一天要有自己的網址，這樣分享得出去、上一頁也回得來 */
+  const url = `?d=${data.date}`;
+  if (push) history.pushState({ d: data.date }, '', url);
+  else history.replaceState({ d: data.date }, '', url);
+}
+
+function step(delta) {
+  const i = days.indexOf(data.date);
+  const j = i + delta;
+  if (i < 0 || j < 0 || j >= days.length) return;
+  show(days[j], true);
+}
+
+async function boot() {
+  const latest = await fetch('data/latest.json').then(r => r.json());
+
+  /* index.json 是後來才加的，舊的部署上可能還沒有 ——
+     沒有就退回「只有最新這天」，按鈕自己會是 disabled，不會壞掉 */
+  days = await fetch('data/index.json')
+    .then(r => r.ok ? r.json() : { dates: [] })
+    .then(j => j.dates || [])
+    .catch(() => []);
+  if (!days.includes(latest.date)) days = days.concat(latest.date).sort();
+
+  document.getElementById('prev').onclick = () => step(-1);
+  document.getElementById('next').onclick = () => step(1);
+  addEventListener('popstate', e => {
+    const d = e.state?.d || new URLSearchParams(location.search).get('d') || latest.date;
+    show(d, false);
+  });
+
+  const q = new URLSearchParams(location.search).get('d');
+  await show(q && days.includes(q) ? q : latest.date, false);
 }
 boot();

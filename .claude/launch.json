@@ -1,8 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "resolution", "runtimeExecutable": "node",
-      "runtimeArgs": ["/Users/leolee/Desktop/project/resolution/scripts/devserver.js", "8123"],
-      "port": 8123 }
+    { "name": "resolution", "runtimeExecutable": "python3",
+      "runtimeArgs": ["/private/tmp/claude-501/-Users-leolee-Desktop-project-resolution/8ccb6f12-8af5-41e2-b87a-95b489b74d77/scratchpad/serve.py"], "port": 8123 }
   ]
 }

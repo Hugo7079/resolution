@@ -23,8 +23,8 @@
 from __future__ import annotations
 import re
 
-from config import (CATEGORIES, CATEGORY_BOUNDARY_RULES, JARGON, LENSES,
-                    VISION_CFG)
+from config import (CATEGORIES, CATEGORY_BOUNDARY_RULES, JARGON, JARGON_TERMS,
+                    LENSES, VISION_CFG)
 from llm import chat_json, LLMError
 from sanitize import (simplified_leftovers, to_traditional,
                       verify_concretes, verify_subject)
@@ -77,7 +77,7 @@ _COMMON_RULES = f"""
 
 【紅線三 — 術語要翻譯】
 下面這些是設計術語：
-{"、".join(JARGON[:40])}…等
+{"、".join(JARGON_TERMS[:40])}…等
   ‣ hook 和 takeaway_everyone **一個都不准出現** —— 那是入口和出口
   ‣ angles 裡可以用，但每個用到的術語都要進 glossary，
     用一句話講給完全不懂的人聽
@@ -192,8 +192,17 @@ def _cited_in(concrete: str, text: str) -> bool:
 _MD = re.compile(r"\*\*|\*|^#{1,6}\s+|^\s*[-–—]\s+", re.M)
 
 
+# 讀圖描述判斷不出來的項目會寫 "not determinable"。prompt 要模型
+# 「不要假裝知道」，它卻直接把這個英文片語寫進中文行文
+# （實測：「採用高強度鋼板（not determinable 具體材質，但…）」）。
+# 換成中文說法，句子反而通順。
+_ND = re.compile(r"\bnot\s+determinable\b", re.I)
+
+
 def _plain(text: str) -> str:
-    text = _MD.sub("", text or "")
+    text = _ND.sub("從圖上判斷不出", text or "")
+    text = re.sub(r"(從圖上判斷不出)\s+(?=[\u4e00-\u9fff])", r"\1", text)
+    text = _MD.sub("", text)
     # 「1. 」這種編號同理，但只剝行首的，不要動「1972 年」
     text = re.sub(r"^\s*\d+[.、)]\s+", "", text, flags=re.M)
     return text.strip()
@@ -251,57 +260,38 @@ def _term_key(term: str) -> str:
 
 def _fill_glossary(doc: dict) -> None:
     """
-    用了術語卻沒進 glossary 的，補寫，而不是把整篇打回重寫。
+    用了術語就給白話解釋 —— 直接查內建的 JARGON 表，不叫模型寫。
 
-    這個閘門存在的目的是「保證讀者看得懂」，不是懲罰模型漏填欄位。
-    實測有兩個候選就是倒在漏了「陽極處理」一項 —— 為了一個詞重寫整篇，
-    代價和收穫完全不成比例。缺的詞很好認，補一句解釋是很小的一次呼叫。
+    原本是漏了就發一次小呼叫補寫，但回傳的 key 對不上時什麼都沒補上，
+    訊息卻照印「補上 N 個詞」，於是整篇卡在「用了術語但沒解釋」，
+    實測一天五個候選全倒。解釋本來就該是固定的，查表不會失敗。
+
+    模型自己寫的那份留著（它可能解釋了 JARGON 以外的詞），
+    但同一個詞以內建版本為準 —— 跨天用詞才一致。
     """
-    angles = _angles_of(doc)
-    body = " ".join(str(a.get("body", "")) for a in angles)
-    used = set(_jargon_in(body))
+    body = " ".join(str(a.get("body", "")) for a in _angles_of(doc))
 
-    # 先剪枝：模型會塞進文中根本沒出現的詞（實測多了「陽極處理」）。
-    # 術語表是為了讓讀者看懂這一篇，不是設計辭典。
-    #
-    # 比對用 _term_key：模型會把同一個詞寫成「陽極處理」和「陽極處理（anodizing）」
-    # 兩筆，字面不同但講的是同一件事，讀者會看到重複條目（實測 CI run #5）。
-    glossary, seen = [], set()
+    out, seen = [], set()
+    # 內建表優先
+    for term in _jargon_in(body):
+        key = _term_key(term)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"term": term, "plain": JARGON[term]})
+
+    # 模型多解釋的詞：文中真的出現、而且不是上面已經收錄的才留
     for g in (doc.get("glossary") or []):
         if not isinstance(g, dict):
             continue
-        term = str(g.get("term", "")).strip()
+        term, plain = str(g.get("term", "")).strip(), str(g.get("plain", "")).strip()
         key = _term_key(term)
-        if not key or key not in body or key in seen:
+        if not term or not plain or key in seen or key not in body:
             continue
         seen.add(key)
-        g["term"] = term
-        glossary.append(g)
-    doc["glossary"] = glossary
+        out.append({"term": term, "plain": plain})
 
-    have = set(seen)
-    missing = sorted(used - have)
-    if not missing:
-        return
-
-    try:
-        got = chat_json([
-            {"role": "system", "content": "你把設計術語解釋給完全不懂設計的人聽。"},
-            {"role": "user", "content":
-                "用繁體中文台灣用語，每個詞用**一句話**解釋，講給完全不懂設計的人聽，"
-                "不要再用其他術語。回一個 JSON 物件，key 是詞，value 是那句解釋：\n"
-                + "、".join(missing)},
-        ], temperature=0.2, max_tokens=600)
-    except LLMError as e:
-        print(f"  [術語表] 補寫失敗，交給品質閘處理：{str(e)[:80]}")
-        return
-
-    for term in missing:
-        plain = str(got.get(term, "") or "").strip()
-        if plain:
-            glossary.append({"term": term, "plain": plain})
-    doc["glossary"] = glossary
-    print(f"  [術語表] 補上 {len(missing)} 個詞的白話解釋：{'、'.join(missing[:5])}")
+    doc["glossary"] = out
 
 
 def _angles_of(doc: dict) -> list[dict]:
@@ -317,7 +307,12 @@ def _body_text(doc: dict) -> str:
 
 
 def _jargon_in(text: str) -> list[str]:
-    return [w for w in JARGON if w in text]
+    """
+    文中用到的術語。被更長的詞包住的就不算 ——
+    文章寫「無襯線」時它不是在用「襯線」這個詞，兩個都列出來只是雜訊。
+    """
+    hit = [w for w in JARGON_TERMS if w in text]
+    return [w for w in hit if not any(w != o and w in o for o in hit)]
 
 
 def quality_check(doc: dict) -> tuple[bool, list[str]]:
@@ -372,9 +367,10 @@ def quality_check(doc: dict) -> tuple[bool, list[str]]:
     if leftover:
         problems.append(f"還有簡體字：{'、'.join(leftover[:8])}")
 
-    explained = {str(g.get("term", "")).strip()
+    explained = {_term_key(str(g.get("term", "")))
                  for g in (doc.get("glossary") or []) if isinstance(g, dict)}
-    used = set(_jargon_in(" ".join(str(a.get("body", "")) for a in angles)))
+    used = {_term_key(w) for w in
+            _jargon_in(" ".join(str(a.get("body", "")) for a in angles))}
     missing = sorted(used - explained)
     if missing:
         problems.append(f"用了術語但沒解釋：{'、'.join(missing[:5])}")

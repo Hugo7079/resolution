@@ -23,15 +23,16 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
-from datetime import datetime, timezone, timedelta
+from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from config import (BASE_DIR, OUTPUT_DIR, CATEGORIES, DEFAULT_DAYS_BACK,
-                    DEEPDIVE_TRIES, LANG_QUOTA, category_of_day)
-from fetcher import fetch_all_sources, backfill_og_images
+                    DEEPDIVE_TRIES, LANG_QUOTA, POOL_DAYS_BACK, category_of_day)
+from fetcher import FETCH_RESULT, fetch_all_sources, backfill_og_images
 from tw_scraper import fetch_taiwan_all
 from sanitize import sanitize
 from source_health import record as record_health, check as check_health
@@ -64,6 +65,29 @@ def _save_seen(urls: list[str]) -> None:
     SEEN_FILE.write_text(json.dumps(merged, ensure_ascii=False), encoding="utf-8")
 
 
+_DAY_FILE = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")
+
+
+def _within(item: dict, today: date, days: int) -> bool:
+    """出刊窗口判斷。沒有日期的（常態展示、得獎作品）一律算數。"""
+    d = pool.pub_date(item)
+    return d is None or d >= today - timedelta(days=days)
+
+
+def _write_index() -> None:
+    """
+    web/data/index.json —— 有哪幾天可以看。
+
+    前端的上一天／下一天不能用日期加減：出刊是有斷層的
+    （抓取失敗、或這天根本沒跑），減一天會直接撞 404。
+    列出實際存在的檔案，前端照這個陣列走。
+    """
+    days = sorted(f.stem for f in WEB_DATA.glob("*.json") if _DAY_FILE.match(f.name))
+    (WEB_DATA / "index.json").write_text(
+        json.dumps({"dates": days}, ensure_ascii=False), encoding="utf-8")
+    print(f"  索引：{len(days)} 天（{days[0]} … {days[-1]}）" if days else "  索引：空的")
+
+
 def _failure_reason(diag: dict) -> str:
     if diag.get("vision_error"):
         return f"讀圖不可用：{diag['vision_error']}"
@@ -83,7 +107,9 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     print(f"\n===== 解析度 Resolution {today}（週{'一二三四五六日'[weekday]} · {label}）=====\n")
 
     # 1–3) 抓取、清洗、補圖
-    items = fetch_all_sources(days_back=days_back)
+    # 抓寬的（POOL_DAYS_BACK）給池子，出刊只用窄的（days_back）——
+    # 見 config.POOL_DAYS_BACK 的理由
+    items = fetch_all_sources(days_back=max(days_back, POOL_DAYS_BACK))
     print(f"RSS 共 {len(items)} 則")
     items.extend(fetch_taiwan_all(days_back=30, seen_winner_urls=_load_seen()))
     items, _dropped = sanitize(items)
@@ -103,9 +129,12 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     st = pool.stats()
     print(f"入池 +{added}，池內可選 {st['總數'] - st['用過']} 件")
 
-    # 4) 來源健康
-    alerts = check_health(items, [s["name"] for s in SOURCES if s["freq"] == "daily"])
-    record_health(items)
+    # 4) 來源健康。用出刊窗口內的量來判斷，不是池子的量
+    fresh = [it for it in items if _within(it, today_d, days_back)]
+    print(f"其中 {len(fresh)} 則在 {days_back} 天出刊窗口內")
+    alerts = check_health(fresh, [s["name"] for s in SOURCES if s["freq"] == "daily"],
+                          FETCH_RESULT)
+    record_health(fresh)
     for a in alerts:
         print(f"  ⚠ 來源異常 {a}")
 
@@ -147,8 +176,8 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
               "作品流與產業動態照常發布。")
 
     # 7) 配額挑選 + 在地化
-    showcase = pick_showcase(items)
-    industry = pick_industry(items)
+    showcase = pick_showcase(fresh)
+    industry = pick_industry(fresh)
     localise_items(showcase)
     localise_items(industry)
 
@@ -200,6 +229,7 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
         json.dumps(day, ensure_ascii=False, indent=2), encoding="utf-8")
     (WEB_DATA / "latest.json").write_text(
         json.dumps({"date": today}, ensure_ascii=False), encoding="utf-8")
+    _write_index()
 
     _save_seen([s["url"] for s in showcase
                 if s.get("source_name", "").startswith("金點")])
