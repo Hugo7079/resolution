@@ -166,6 +166,10 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
             "category": cat_id,
             "category_label": CATEGORIES.get(cat_id, {}).get("label", ""),
             "confidence": doc.get("confidence", 0),
+            # 讀圖有沒有真的跑 —— 之前要靠「哪個具體物在原文裡找不到」反推，
+            # 那太迂迴了，直接記下來
+            "images_read": len(doc.get("vision_notes") or []),
+            "neurons_used": doc.get("neurons_used", 0),
             "hook": doc.get("hook", ""),
             "what_it_is": doc.get("what_it_is", ""),
             "angles": doc.get("angles", []),

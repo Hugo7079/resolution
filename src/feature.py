@@ -237,6 +237,18 @@ def _localise(doc: dict) -> None:
             g["plain"] = to_traditional(str(g.get("plain", "")))
 
 
+def _term_key(term: str) -> str:
+    """
+    術語的比對用形式：只留中文本體，這樣「陽極處理」和「陽極處理（anodizing）」
+    會收斂成同一個 key。
+
+    純拉丁的詞（字體名之類）沒有中文本體，退回原字串比對 ——
+    只挑中文會把 "Söhne Halbfett" 變成 "ö"，一個字元什麼都比得到。
+    """
+    zh = "".join(ch for ch in (term or "") if "\u4e00" <= ch <= "\u9fff")
+    return zh or (term or "").strip()
+
+
 def _fill_glossary(doc: dict) -> None:
     """
     用了術語卻沒進 glossary 的，補寫，而不是把整篇打回重寫。
@@ -251,12 +263,23 @@ def _fill_glossary(doc: dict) -> None:
 
     # 先剪枝：模型會塞進文中根本沒出現的詞（實測多了「陽極處理」）。
     # 術語表是為了讓讀者看懂這一篇，不是設計辭典。
-    glossary = [g for g in (doc.get("glossary") or [])
-                if isinstance(g, dict) and str(g.get("term", "")).strip()
-                and str(g.get("term", "")).strip() in body]
+    #
+    # 比對用 _term_key：模型會把同一個詞寫成「陽極處理」和「陽極處理（anodizing）」
+    # 兩筆，字面不同但講的是同一件事，讀者會看到重複條目（實測 CI run #5）。
+    glossary, seen = [], set()
+    for g in (doc.get("glossary") or []):
+        if not isinstance(g, dict):
+            continue
+        term = str(g.get("term", "")).strip()
+        key = _term_key(term)
+        if not key or key not in body or key in seen:
+            continue
+        seen.add(key)
+        g["term"] = term
+        glossary.append(g)
     doc["glossary"] = glossary
 
-    have = {str(g.get("term", "")).strip() for g in glossary}
+    have = set(seen)
     missing = sorted(used - have)
     if not missing:
         return
