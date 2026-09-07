@@ -45,11 +45,11 @@ jobs:
       - name: Run pipeline
         id: pipeline
         env:
-          # 文字：d8ai gateway（litellm proxy，OpenAI 相容）
+          # 文字：Mistral 的開源小模型。base_url／model／rpm 由
+          # src/config.py 的 LLM_PROVIDERS 決定，這裡只給 provider 和金鑰 ——
+          # 在這邊硬寫 BASE_URL/MODEL 會蓋掉那組設定，換 provider 就換不動了。
+          RES_LLM_PROVIDER:   "mistral"
           RES_LLM_API_KEY:    ${{ secrets.RES_LLM_API_KEY }}
-          RES_LLM_BASE_URL:   "https://llm-gateway.d8ai.ai/"
-          RES_LLM_MODEL:      "gemma-4-31B-it"
-          RES_LLM_RPM:        "45"
           # 讀圖：Cloudflare Workers AI（不生圖，只描述看到什麼）
           RES_CF_ACCOUNT_ID:  ${{ secrets.RES_CF_ACCOUNT_ID }}
           RES_CF_API_TOKEN:   ${{ secrets.RES_CF_API_TOKEN }}
@@ -81,13 +81,23 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/data/
-          git diff --staged --quiet || git commit -m "資料：$(date -u +%Y-%m-%d) 當日檔"
+          # 作品池一起 commit —— Actions 每次都是乾淨的機器，
+          # 池子不存回來的話，明天的選題又只剩明天抓到的那些。
+          git add web/data/ output/pool.json
+          git diff --staged --quiet || git commit -m "資料：$(date -u +%Y-%m-%d) 當日檔與作品池"
           git push
 
       # 部署完才報失敗：內容已經上線，但缺拆解這件事必須看得見
-      - name: Fail if deep dive missing
+      - name: Fail if feature missing
         if: steps.pipeline.outputs.pipeline_exit == '2'
         run: |
-          echo "::error::當日檔已發布，但今天沒有拆解（品質閘沒過或讀圖不可用）"
+          REASON="$(cat output/last_failure.txt 2>/dev/null || echo '原因未記錄')"
+          echo "::error::當日檔已發布，但今天沒有這一件 —— $REASON"
+          {
+            echo "### 今天沒有「今日一件」"
+            echo ""
+            echo "當日檔與作品流已上線，缺的是主菜。"
+            echo ""
+            echo "原因：\`$REASON\`"
+          } >> "$GITHUB_STEP_SUMMARY"
           exit 1

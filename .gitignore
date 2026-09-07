@@ -1,6 +1,12 @@
 __pycache__/
 *.pyc
-output/
+# output/ 整個忽略，但作品池要跟著 repo 走 ——
+# GitHub Actions 每次都是乾淨的機器，池子不進版控的話，
+# 每天就只剩今天抓到的那些，「選題不限當天」整個失效。
+# 寫成 output/* 而不是 output/：git 不會進入被忽略的目錄，
+# 目錄本身被忽略時，底下的 ! 例外是不會生效的。
+output/*
+!output/pool.json
 .env
 .resolution_llm_config.json
 firebase-credentials.json

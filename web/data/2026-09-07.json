@@ -1,31 +1,123 @@
 {
   "date": "2026-09-07",
-  "weekday_mode": "category",
-  "deepdive": null,
+  "category": "product_object",
+  "feature": {
+    "title": "門檻變成設計，讓你不想再用木頭楔子",
+    "subject": {
+      "name": "Stop 門檻",
+      "designer": "Studio Gorm",
+      "client": "Pidat",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "hook": "一個門檻，用廢棄鞋底和回收塑膠瓶做成，不需要包裝，拆開來還能分類回收。它告訴你，設計不只是好看，還能讓東西更聰明。",
+    "what_it_is": "這是一個門檻，由丹麥設計工作室 Studio Gorm 設計，用廢棄鞋底和回收塑膠瓶製成。它不需要包裝，資訊印在可重複使用的棉布袋上，所有部件都能拆開回收。2023 年由芬蘭品牌 Pidat 生產，名為 Stop。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "門檻的主體是由廢棄鞋底（RCS 認證的工業回收料）磨碎後混入橡膠製成，表面有明顯的顆粒質感，像是被刻意保留的工業痕跡。繫帶則是由 100% 回收塑膠瓶（GRS 認證）製成的聚酯纖維，顏色為灰色 (#808080)。這些材質選擇不僅降低環境負擔，還讓門檻在觸感上與傳統木頭或金屬楔子不同：輕盈但不易滑動，表面有微微的粗糙感，像是握著一塊軟木。",
+        "so_what": "這個門檻告訴你，廢棄物也能變成好東西，而且摸起來還不一樣。"
+      },
+      {
+        "lens": "use",
+        "body": "門檻的設計考慮了三種狀態：使用時（橡膠塊塞在門底）、收納時（繫帶可以綁在門檻上，橡膠塊掛在棉布袋內）、回收時（所有部件都能拆開分類）。橡膠塊的重量設計在 300–500 克之間，夠重不會被風吹走，但輕到可以單手拿起。棉布袋上的字體是無襯線等寬字體（類似 Helvetica 或 Arial），字重為細體（light），顏色為米色 (#F5F5DC)，與門檻本體的粉紅 (#FFC5C5) 和灰色形成對比，確保資訊在遠處也能辨認。",
+        "so_what": "它像一個會思考的東西：放下來不會掉、收起來不佔空間、丟棄時還能分類。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了強調環保材質，設計犧牲了傳統門檻的「隱身」特性。傳統木頭或金屬門檻通常被放在門後，不佔視覺空間；但這個門檻的顏色（粉紅和灰色）和質感（顆粒狀橡膠）明顯與家具不協調，成為室內的一個「設計點」。如果目標是隱藏在角落，這個選擇就不成立；但如果目標是讓人注意到環保材質，它就成功了。",
+        "so_what": "設計總是有取捨：要隱藏還是要被看見，這個門檻選擇了後者。"
+      },
+      {
+        "lens": "message",
+        "body": "門檻本身沒有文字，但棉布袋上的資訊包括品牌名稱（Pidat）、設計師（Studio Gorm）、材質說明（recycled shoe sole + upcycled plastic），以及一個簡單的圖示（門檻的剪影）。字體大小約為 8–10pt，行距為 1.2 倍字級，排版居中對齊。這些資訊在三秒內就能掃過，但重點不是文字，而是門檻本身的存在：它像一個實體的環保宣言。",
+        "so_what": "它不說教，但每一個細節都在說：「我是用廢棄物做的，你可以放心用。」"
+      }
+    ],
+    "takeaway_everyone": "下次看到一個東西，問問自己：它是用來做什麼的，還是用來看起來好看的？這個門檻告訴你，設計可以同時做到兩件事：好用又好看，還能告訴你它的來歷。下回看到一個塑膠製品，摸摸它的質感，想像它可能是用什麼廢棄物做的。",
+    "takeaway_designer": "當你設計一個產品時，問問自己：這個東西的材質故事能不能成為它的賣點？例如，這個門檻用了兩種回收材質（鞋底 + 塑膠瓶），但並沒有用文字堆砌環保詞彙，而是通過材質本身（顆粒質感、繫帶的觸感）和包裝設計（可重複使用的棉布袋）來傳達。手法可複製：選擇一種材質，讓它的「來歷」成為產品的視覺語言。",
+    "glossary": [
+      {
+        "term": "RCS 認證",
+        "plain": "Recycled Claim Standard，一種認證系統，確保回收材質的來源和比例符合標準。"
+      },
+      {
+        "term": "GRS 認證",
+        "plain": "Global Recycled Standard，確保產品中的回收材質（如塑膠瓶）經過環保處理。"
+      },
+      {
+        "term": "無襯線等寬字體",
+        "plain": "字體沒有花體的裝飾線條，且每個字的寬度相同（如 A 和 i 的寬度一樣）。"
+      },
+      {
+        "term": "字級",
+        "plain": "字級就是字體的大小，像是你在手機上調整訊息字的大小一樣，數字越大字越大。"
+      },
+      {
+        "term": "字重",
+        "plain": "字重是指字體的粗細程度，像是細細的字（輕）或是粗粗的字（重），就跟你寫字時握筆的力道一樣。"
+      },
+      {
+        "term": "對齊",
+        "plain": "對齊是指文字或圖片在頁面上的位置排列，像是左邊靠齊、右邊靠齊，或是整齊排在中間，像是寫信時對齊信紙邊緣。"
+      },
+      {
+        "term": "無襯線",
+        "plain": "無襯線就是字體看起來沒有細細的線條在字的邊緣，像是手寫的字或是簡單的電腦字體，沒有華麗的裝飾。"
+      },
+      {
+        "term": "等寬",
+        "plain": "等寬是指每個字或符號佔的空間一樣寬，像是打字機打出來的字，每個字佔的格子都一樣大。"
+      },
+      {
+        "term": "行距",
+        "plain": "行距是指文字行與行之間的空白距離，像是你寫字時每行之間留的空白，太小看起來擠，太大又覺得空。"
+      },
+      {
+        "term": "襯線",
+        "plain": "襯線是指字體邊緣有細細的裝飾線條，像是書本裡有些字體看起來很有格調，有點像是穿了禮服的字。"
+      }
+    ],
+    "concretes": [
+      "RCS 認證的廢棄鞋底",
+      "GRS 認證的回收塑膠瓶繫帶",
+      "Helvetica 或 Arial 類型的無襯線等寬字體（light 字重）",
+      "#F5F5DC（米色）、#808080（灰色）、#FFC5C5（粉紅）",
+      "可重複使用的棉布袋包裝"
+    ],
+    "source_url": "https://www.core77.com/posts/145248/Studio-Gorm-Designs-a-Better-Doorstop",
+    "source_name": "Core77",
+    "published": "2026-09-02T15:00:00+00:00",
+    "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1848310_lead_400_145248_.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Core77．著作權屬原作者"
+  },
   "showcase": [
     {
-      "title": "2024新一代設計展：超越永續—借物計畫",
-      "title_original": "",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "title": "跨界二代：關係的本質",
+      "title_original": "Crossover ll: The Nature of Relationships",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1945",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1945/thumb_2x_image_44c666.jpeg",
       "image_fallback": "",
       "source_name": "金點設計獎 得獎作品",
       "region": "zh-tw",
       "category": null
     },
     {
-      "title": "The Dictionary (of) Radical Beauty Project",
-      "title_original": "",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "title": "「你好，人類！Hello, Human！」",
+      "title_original": "「你好，人類！Hello, Human!」",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1946",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1946/thumb_2x_image_90df2c.jpeg",
       "image_fallback": "",
       "source_name": "金點設計獎 得獎作品",
       "region": "zh-tw",
       "category": null
     },
     {
-      "title": "Field Design Practice",
-      "title_original": "",
+      "title": "場域設計實踐",
+      "title_original": "Field Design Practice",
       "url": "https://www.behance.net/gallery/254926971/Field-Design-Practice",
       "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/4ab80a254926971.Y3JvcCwxMDg2LDg1MCwxNTYsNjk.jpg",
       "image_fallback": "",
@@ -34,7 +126,17 @@
       "category": null
     },
     {
-      "title": "愛爾蘭與 Shelter Island 的高設計度假出租屋、一座標誌性現代主義住宅中的展覽等",
+      "title": "視覺識別：Obrazur Brands 的 Obrazur 概念",
+      "title_original": "Visual Identity: Obrazur Concept by Obrazur Brands",
+      "url": "https://abduzeedo.com/visual-identity-obrazur-concept-obrazur-brands/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_obrazur-concept-2023-obrazur-brands.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "愛爾蘭與 Shelter Island 的高級度假租屋、現代主義經典屋展覽及更多",
       "title_original": "High-design vacation rentals in Ireland and Shelter Island, a show in an iconic modernist house, and more",
       "url": "https://www.sightunseen.com/2026/08/high-design-vacation-rentals-in-ireland-and-shelter-island-a-show-in-an-iconic-modernist-house-and-more/",
       "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/08/By_Irina_Boersma_Cesar_Machado_OMOS_RESTAURANT_01_v1.jpg",
@@ -44,10 +146,10 @@
       "category": null
     },
     {
-      "title": "潛行在一場大水之前",
-      "title_original": "",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "title": "克拉科夫國家博物館—品牌識別",
+      "title_original": "The National Museum in Kraków—brand identity",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1952",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1952/thumb_2x_image_0abb43.jpeg",
       "image_fallback": "",
       "source_name": "金點設計獎 得獎作品",
       "region": "zh-tw",
@@ -64,29 +166,19 @@
       "category": null
     },
     {
-      "title": "TEKarrc",
-      "title_original": "",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1847",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1847/thumb_2x_image_2c3064.jpeg",
+      "title": "本週精選：觸覺印刷與動態字體",
+      "title_original": "Best of the Week: Tactile Print and Dynamic Type",
+      "url": "https://abduzeedo.com/best-week-tactile-print-and-dynamic-type/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W36.jpg",
       "image_fallback": "",
-      "source_name": "金點設計獎 得獎作品",
-      "region": "zh-tw",
-      "category": null
-    },
-    {
-      "title": "En Apnée",
-      "title_original": "",
-      "url": "https://www.behance.net/gallery/255210419/En-Apne",
-      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/788487255210419.Y3JvcCwyODc2LDIyNTAsNjQsMA.jpg",
-      "image_fallback": "",
-      "source_name": "Behance",
+      "source_name": "Abduzeedo",
       "region": "en",
       "category": null
     }
   ],
   "industry": [
     {
-      "title": "-8.0",
+      "title": "《從樹成林》回顧八年校園美感設計實踐：從一處空間到一片森林，看見教育改變如何持續發生",
       "title_original": "《從樹成林》回望八年校園美感設計實踐：從一處空間到一片森林，看見教育改變如何持續發生",
       "url": "https://www.tdri.org.tw/zh-TW/news/756",
       "source_name": "台灣設計研究院",
@@ -94,7 +186,15 @@
       "region": "zh-tw"
     },
     {
-      "title": "-8.0",
+      "title": "設計產業超越零售業，成為英國經濟1,367億英鎊的支柱",
+      "title_original": "Design sector outpaces retail to become £136.7bn pillar of UK economy",
+      "url": "https://www.designweek.co.uk/design-sector-outpaces-retail-to-become-136-7bn-pillar-of-uk-economy/",
+      "source_name": "Design Week",
+      "published": "2026-09-06T23:01:58+00:00",
+      "region": "en"
+    },
+    {
+      "title": "「勞動節」蘋果交易今年很差勁，但這些是最好的",
       "title_original": "The Labor Day Apple deals are terrible this year, but these are the best around",
       "url": "https://www.creativebloq.com/professional-development/creative-careers/apple-labor-day-deals-are-terrible-this-year-but-these-are-the-best-around",
       "source_name": "Creative Bloq",
@@ -102,20 +202,12 @@
       "region": "en"
     },
     {
-      "title": "-8.0",
-      "title_original": "LovePaper — Write a Love Letter That Becomes Its Own Typeset Page",
-      "url": "https://webdesignernews.com/lovepaper-write-a-love-letter-that-becomes-its-own-typeset-page/",
-      "source_name": "Web Designer News",
-      "published": "2026-09-06T15:13:35+00:00",
+      "title": "你還是真的在手動輸入提示嗎？",
+      "title_original": "Are you still typing your prompts, really?",
+      "url": "https://ref.wisprflow.ai/sidebar",
+      "source_name": "Sidebar",
+      "published": "2026-09-07T11:04:00+00:00",
       "region": "en"
-    },
-    {
-      "title": "-8.0",
-      "title_original": "臺日交流探討商圈永續發展 商業署發布研究成果 聚焦商圈持續發展關鍵要素",
-      "url": "https://www.tdri.org.tw/zh-TW/news/754",
-      "source_name": "台灣設計研究院",
-      "published": "2026-08-19T00:00:00+00:00",
-      "region": "zh-tw"
     }
   ]
 }

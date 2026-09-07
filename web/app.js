@@ -8,17 +8,28 @@ const CATS = [
   { id: 'space_env',      label: '空間與環境' },
 ];
 
-const MODE_LABEL = {
-  category: '', crossover: '週五 · 跨界', history: '週六 · 設計史', rest: '週日 · 本週彙整',
+/* 鏡頭代號 → 白話標籤。名稱本身就是給圈外人的入口，所以不用術語。
+   要和 src/config.py 的 LENSES 對齊。 */
+const LENS_LABEL = {
+  color: '顏色', type: '字', layout: '東西怎麼擺', material: '用什麼做的',
+  message: '它在說什麼', context: '放在同類裡看', tradeoff: '它放棄了什麼',
+  use: '用起來會怎樣', time: '放到時間裡',
 };
+
+/* 舊格式（2026-09 以前的當日檔）用固定七軸。歷史頁還讀得到那些檔案，
+   所以保留一份對照表，讓舊的日子照樣打得開。 */
+const LEGACY_AXES = [
+  ['intent', '意圖'], ['form', '形式'], ['message', '訊息'],
+  ['context', '脈絡'], ['execution', '落地'], ['tradeoff', '取捨'],
+];
 
 const REGION_FLAG = {
   'zh-tw': '台', 'zh-cn': '中', jp: '日', kr: '韓',
   de: '德', fr: '法', es: '西', it: '義', nl: '荷',
 };
 
-/* 篩選只作用在作品流與產業動態 —— 今日拆解永遠顯示。
-   每天只有一件拆解，被篩掉主版位就空了；分類均衡靠輪播保證，不靠篩選。 */
+/* 篩選只作用在作品流與產業動態 —— 今日這一件永遠顯示。
+   每天只有一件，被篩掉主版位就空了；分類均衡靠輪播保證，不靠篩選。 */
 const KEY = 'resolution.cats';
 let active = new Set(load());
 let data = null;
@@ -53,28 +64,27 @@ function renderFilters() {
   }
 }
 
-const AXES = [
-  ['intent', '意圖'], ['form', '形式'], ['message', '訊息'],
-  ['context', '脈絡'], ['execution', '落地'], ['tradeoff', '取捨'],
-];
-
-function renderDeepdive() {
-  const d = data.deepdive, root = document.getElementById('dd');
+function renderFeature() {
+  const d = data.feature || data.deepdive, root = document.getElementById('dd');
   root.innerHTML = '';
   if (!d) {
-    root.appendChild(el('p', 'dd__meta', '今天沒有通過品質檢查的拆解 —— 寧可不出，也不出空話。'));
+    root.appendChild(el('p', 'dd__meta', '今天沒有通過品質檢查的介紹 —— 寧可不出，也不出空話。'));
     return;
   }
 
   if (d.is_placeholder) {
     const w = el('div', 'placeholder');
     w.append(el('b', null, '佔位資料'),
-             el('span', null, '這篇拆解的七軸文字是手寫的示範，不是系統產出 —— '
+             el('span', null, '這篇的文字是手寫的示範，不是系統產出 —— '
                             + 'LLM 額度用盡時，正式流程會直接不出這篇，而不是出空話。'));
     root.appendChild(w);
   }
-  root.appendChild(el('div', 'dd__kicker', `今日拆解 · ${esc(d.category_label || '跨界')}`));
+
+  root.appendChild(el('div', 'dd__kicker', `今日一件 · ${esc(d.category_label || '')}`));
   root.appendChild(el('h1', 'dd__title', d.title));
+
+  /* 先看見 —— 零術語的入口，排在標題正下方，字級比內文大 */
+  if (d.hook) root.appendChild(el('p', 'dd__hook', d.hook));
 
   const s = d.subject || {};
   const meta = el('p', 'dd__meta');
@@ -100,23 +110,63 @@ function renderDeepdive() {
     root.appendChild(fig);
   }
 
-  const nav = el('nav', 'axisnav');
-  AXES.concat([['takeaway', '可借用的一招']]).forEach(([k, label]) => {
-    const a = el('a', null, label); a.href = `#ax-${k}`; nav.appendChild(a);
-  });
-  root.appendChild(nav);
+  if (d.what_it_is) {
+    const s2 = el('section', 'whatis');
+    s2.append(el('h3', null, '這是什麼'), el('p', null, d.what_it_is));
+    root.appendChild(s2);
+  }
 
-  AXES.forEach(([k, label]) => {
-    if (!d.axes?.[k]) return;
-    const sec = el('section', 'axis'); sec.id = `ax-${k}`;
-    sec.append(el('h3', 'axis__h', label), el('p', 'axis__b', d.axes[k]));
-    root.appendChild(sec);
-  });
+  const angles = d.angles || [];
+  if (angles.length) {
+    root.appendChild(el('h2', 'dd__seph', '從幾個角度看'));
+    angles.forEach((a, i) => {
+      const sec = el('section', 'angle'); sec.id = `ang-${i}`;
+      sec.append(el('h3', 'angle__h', LENS_LABEL[a.lens] || a.lens || ''),
+                 el('p', 'angle__b', a.body));
+      if (a.so_what) {
+        const sw = el('p', 'angle__so');
+        sw.append(el('span', 'angle__so__k', '所以呢'), document.createTextNode(a.so_what));
+        sec.appendChild(sw);
+      }
+      root.appendChild(sec);
+    });
+  } else if (d.axes) {
+    /* 舊格式：固定七軸，沒有「所以呢」 */
+    root.appendChild(el('h2', 'dd__seph', '七軸拆解'));
+    LEGACY_AXES.forEach(([k, label]) => {
+      if (!d.axes[k]) return;
+      const sec = el('section', 'angle');
+      sec.append(el('h3', 'angle__h', label), el('p', 'angle__b', d.axes[k]));
+      root.appendChild(sec);
+    });
+  }
 
-  if (d.axes?.takeaway) {
-    const t = el('aside', 'takeaway'); t.id = 'ax-takeaway';
-    t.append(el('h3', null, '可借用的一招'), el('p', null, d.axes.takeaway));
-    root.appendChild(t);
+  /* 帶走 —— 兩份，圈外人的那份排前面 */
+  const t1 = d.takeaway_everyone, t2 = d.takeaway_designer || d.axes?.takeaway;
+  if (t1 || t2) {
+    root.appendChild(el('h2', 'dd__seph', '帶走一點東西'));
+    if (t1) {
+      const b = el('aside', 'takeaway takeaway--all');
+      b.append(el('h3', null, '給每一個人'), el('p', null, t1));
+      root.appendChild(b);
+    }
+    if (t2) {
+      const b = el('aside', 'takeaway takeaway--pro');
+      b.append(el('h3', null, '給做設計的人'), el('p', null, t2));
+      root.appendChild(b);
+    }
+  }
+
+  if (d.glossary?.length) {
+    const g = el('details', 'glossary');
+    g.appendChild(el('summary', null, `文中的設計詞，一句話說清楚（${d.glossary.length}）`));
+    const dl = el('dl');
+    d.glossary.forEach(x => {
+      dl.appendChild(el('dt', null, x.term));
+      dl.appendChild(el('dd', null, x.plain));
+    });
+    g.appendChild(dl);
+    root.appendChild(g);
   }
 
   if (d.concretes?.length) {
@@ -170,9 +220,9 @@ async function boot() {
   const dt = new Date(data.date + 'T00:00:00+08:00');
   const wd = '日一二三四五六'[dt.getDay()];
   document.getElementById('date').textContent = `${data.date}（${wd}）`;
-  document.getElementById('mode').textContent = MODE_LABEL[data.weekday_mode] || '';
+  document.getElementById('mode').textContent = '';
   document.getElementById('next').disabled = true;
 
-  renderFilters(); renderDeepdive(); renderShowcase(); renderIndustry();
+  renderFilters(); renderFeature(); renderShowcase(); renderIndustry();
 }
 boot();

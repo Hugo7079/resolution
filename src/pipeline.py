@@ -10,26 +10,27 @@
   2) 清洗（業配、招聘、亂碼）
   3) og:image 補圖
   4) 來源健康檢查
-  5) 依星期決定拆解主題（四分類輪播 / 週五跨界 / 週六設計史 / 週日休息）
-  6) 兩段式拆解（CF 讀圖 → gateway 寫繁中七軸）
+  5) 入池 + 從池子挑今天的主角（不限當天抓到的）
+  6) 兩段式產文（CF 讀圖 → LLM 寫繁中三層漏斗）
   7) 配額挑選 + 標題在地化
   8) 寫 web/data/{date}.json 與 latest.json
 
-失敗就是失敗：抓不到東西、或該出拆解卻出不來，一律非零離開。
+失敗就是失敗：抓不到東西、或該出的那一件出不來，一律非零離開。
 沉默地產出空白比直接失敗更糟 —— 故障看起來會跟「今天真的沒東西」一模一樣。
 """
 
 from __future__ import annotations
 import argparse
 import json
+import os
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from config import (BASE_DIR, OUTPUT_DIR, CATEGORIES, WEEKLY_ROTATION,
-                    DEFAULT_DAYS_BACK, LANG_QUOTA)
+from config import (BASE_DIR, OUTPUT_DIR, CATEGORIES, DEFAULT_DAYS_BACK,
+                    DEEPDIVE_TRIES, LANG_QUOTA, category_of_day)
 from fetcher import fetch_all_sources, backfill_og_images
 from tw_scraper import fetch_taiwan_all
 from sanitize import sanitize
@@ -37,7 +38,9 @@ from source_health import record as record_health, check as check_health
 from sources import SOURCES
 from picker import pick_showcase, pick_industry
 from translate import localise_items
-from deepdive import build_deepdive
+from feature import build_feature
+from vision import disabled_reason as vision_disabled_reason
+import pool
 
 WEB_DATA = BASE_DIR / "web" / "data"
 TZ = timezone(timedelta(hours=8))
@@ -61,71 +64,23 @@ def _save_seen(urls: list[str]) -> None:
     SEEN_FILE.write_text(json.dumps(merged, ensure_ascii=False), encoding="utf-8")
 
 
-def _week_items(date_str: str, days: int = 6) -> list[dict]:
-    """週六設計史用：把本週抓過的東西全部翻出來當錨點素材。"""
-    d0 = datetime.fromisoformat(date_str).date()
-    out: list[dict] = []
-    for i in range(1, days + 1):
-        p = OUTPUT_DIR / f"raw_{(d0 - timedelta(days=i)).isoformat()}.json"
-        if p.exists():
-            try:
-                out.extend(json.loads(p.read_text(encoding="utf-8")))
-            except Exception:
-                pass
-    return out
-
-
-# 這些來源刊的是「作品」，拆解起來有東西可看；
-# 其他來源常是產業評論或懷舊長文，硬拆會變成讀後感。
-WORK_SOURCES = {
-    "visual_brand":   {"Creative Review", "Logo Design Love", "Typewolf",
-                       "Print Magazine", "PAGE Online", "Motionographer"},
-    "interface_ux":   {"Awwwards", "Muzli", "Smashing Magazine", "UX Collective"},
-    "product_object": {"Core77", "Yanko Design", "Design Milk", "Stylepark",
-                       "Dutch Design Daily"},
-    "space_env":      {"Dezeen", "ArchDaily", "designboom", "Wallpaper*",
-                       "architecturephoto", "Abitare"},
-}
-
-
-def _pick_deepdive_subject(items: list[dict], category: str | None) -> dict | None:
-    """
-    挑當天要拆解的那一件。
-
-    條件：有圖、有內文。優先序是「刊作品的來源」→「分類對得上」→ 摘要長度。
-    只按摘要長度排會挑到長篇評論（實測挑到一篇談奧美尾牙的懷舊文），
-    那種題目拆出來是讀後感不是設計拆解。
-    """
-    pool = [it for it in items
-            if it.get("image_url") and 120 < len(it.get("summary", "")) < 4000
-            and it.get("kind") in ("media", "showcase")]
-    if not pool:
-        return None
-
-    preferred = WORK_SOURCES.get(category or "", set())
-
-    def score(it: dict) -> tuple:
-        return (it.get("source_name") in preferred,
-                it.get("cat_hint") == category,
-                min(len(it.get("summary", "")), 1200))
-
-    pool.sort(key=score, reverse=True)
-    return pool[0]
+def _failure_reason(diag: dict) -> str:
+    if diag.get("vision_error"):
+        return f"讀圖不可用：{diag['vision_error']}"
+    if diag.get("llm_error"):
+        return f"文字模型失敗：{diag['llm_error']}"
+    if diag.get("problems"):
+        return f"品質閘沒過：{'；'.join(diag['problems'])}"
+    return "未知原因"
 
 
 def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     today = date_str or datetime.now(TZ).date().isoformat()
-    weekday = datetime.fromisoformat(today).weekday()
-    plan = WEEKLY_ROTATION[weekday]
-    mode, category = plan["mode"], plan["category"]
-
-    label = (CATEGORIES.get(category, {}).get("label") if category else
-             {"crossover": "跨界", "history": "設計史", "rest": "休息"}[mode])
+    today_d = datetime.fromisoformat(today).date()
+    weekday = today_d.weekday()
+    category = category_of_day(today_d)
+    label = CATEGORIES[category]["label"]
     print(f"\n===== 解析度 Resolution {today}（週{'一二三四五六日'[weekday]} · {label}）=====\n")
-
-    if mode == "rest":
-        print("週日休息 —— 不跑 pipeline，前端顯示週六產出的本週彙整。")
-        return 0
 
     # 1–3) 抓取、清洗、補圖
     items = fetch_all_sources(days_back=days_back)
@@ -142,31 +97,53 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     (OUTPUT_DIR / f"raw_{today}.json").write_text(
         json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    # 進作品池。今天挑的主角來自整個池子（90 天內），不限今天抓到的 ——
+    # 好作品不會剛好每天出現在 RSS 前幾則。
+    added = pool.add(items, today_d)
+    st = pool.stats()
+    print(f"入池 +{added}，池內可選 {st['總數'] - st['用過']} 件")
+
     # 4) 來源健康
     alerts = check_health(items, [s["name"] for s in SOURCES if s["freq"] == "daily"])
     record_health(items)
     for a in alerts:
         print(f"  ⚠ 來源異常 {a}")
 
-    # 5–6) 拆解
-    print("\n拆解中...")
-    if mode == "history":
-        doc = build_deepdive({}, mode="history", week_items=_week_items(today))
-        subject = None
-    else:
-        subject = _pick_deepdive_subject(items, category)
-        if subject is None:
-            print("[失敗] 找不到可拆解的素材（要有圖、有內文）")
-            return 1
-        print(f"  題目：{subject['title'][:70]}")
-        doc = build_deepdive(subject, mode=mode, category=category)
+    # 5–6) 今日一件
+    print("\n今日一件...")
+    diag: dict = {}
+    subject = None
+    doc = None
+    candidates = pool.candidates(category, DEEPDIVE_TRIES, today_d)
+    if not candidates:
+        print("[失敗] 池子裡沒有可介紹的作品（要有圖、有內文、沒用過）")
+        return 1
 
-    # 拆解沒過不該讓作品流與產業動態一起陪葬 —— 那兩區不需要 LLM 讀圖，
-    # 照樣有價值。當日檔照寫（deepdive 為 null，前端已能處理），
+    warned_no_vision = False
+    for i, cand in enumerate(candidates, 1):
+        print(f"  題目 {i}/{len(candidates)}：{cand['title'][:70]}"
+              f"（{cand.get('source_name', '')}）")
+        diag = {}
+        doc = build_feature(cand, category=category, diag=diag)
+        if doc is not None:
+            subject = cand
+            pool.mark_used(cand.get("url", ""), today_d)
+            break
+        print(f"  → 這題出不來（{_failure_reason(diag)}），換下一個候選")
+        # 讀圖整條斷掉時後面的候選只能靠純文字 —— 還是值得跑（原文夠厚
+        # 就過得了閘），但要講明白接下來是在什麼條件下跑的。
+        if vision_disabled_reason() and not warned_no_vision:
+            print(f"  [注意] 讀圖已停用（{vision_disabled_reason()}），"
+                  f"剩下的候選只用原文文字撰寫")
+            warned_no_vision = True
+
+    # 主角沒出來不該讓作品流與產業動態一起陪葬 —— 那兩區不需要 LLM 讀圖，
+    # 照樣有價值。當日檔照寫（feature 為 null，前端已能處理），
     # 但流程結束時仍然標記為失敗，讓 Actions 變紅、有人來看一眼。
-    deepdive_failed = doc is None
-    if deepdive_failed:
-        print("[警告] 拆解沒通過品質閘 —— 今天不出這篇（寧可失敗也不出空話）。"
+    feature_failed = doc is None
+    reason = _failure_reason(diag) if feature_failed else ""
+    if feature_failed:
+        print(f"[警告] 今天不出這一件（寧可失敗也不出空話）——「{reason}」。"
               "作品流與產業動態照常發布。")
 
     # 7) 配額挑選 + 在地化
@@ -182,17 +159,23 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     cat_id = (doc.get("category") if doc else None) or category
     day = {
         "date": today,
-        "weekday_mode": mode,
-        "deepdive": None if deepdive_failed else {
+        "category": cat_id,
+        "feature": None if feature_failed else {
             "title": doc.get("title", ""),
             "subject": doc.get("subject", {}),
             "category": cat_id,
-            "category_label": CATEGORIES.get(cat_id, {}).get("label", "跨界"),
+            "category_label": CATEGORIES.get(cat_id, {}).get("label", ""),
             "confidence": doc.get("confidence", 0),
-            "axes": doc.get("axes", {}),
+            "hook": doc.get("hook", ""),
+            "what_it_is": doc.get("what_it_is", ""),
+            "angles": doc.get("angles", []),
+            "takeaway_everyone": doc.get("takeaway_everyone", ""),
+            "takeaway_designer": doc.get("takeaway_designer", ""),
+            "glossary": doc.get("glossary", []),
             "concretes": doc.get("concretes", []),
             "source_url": (subject or {}).get("url", ""),
             "source_name": (subject or {}).get("source_name", ""),
+            "published": (subject or {}).get("published", ""),
             "image_url": (subject or {}).get("image_url", ""),
             "image_fallback": (subject or {}).get("image_fallback", ""),
             "credit": f"圖片來源：{(subject or {}).get('source_name','')}．著作權屬原作者",
@@ -218,9 +201,15 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
                 if s.get("source_name", "").startswith("金點")])
 
     print(f"\n[完成] web/data/{today}.json")
-    if deepdive_failed:
-        print("[失敗] 當日檔已產出，但沒有拆解 —— 這是這個站的主菜，不能長期缺席。")
+    if feature_failed:
+        print(f"[失敗] 當日檔已產出，但沒有今天這一件 —— 這是這個站的主菜，"
+              f"不能長期缺席。原因：{reason}")
+        # 讓 Actions 的錯誤訊息能講出原因，不必翻整份 log。
+        # ::error:: 只吃單行，CF 的原始回覆又可能帶換行，所以壓成一行再截斷。
+        (OUTPUT_DIR / "last_failure.txt").write_text(
+            " ".join(reason.split())[:300], encoding="utf-8")
         return 2
+    (OUTPUT_DIR / "last_failure.txt").unlink(missing_ok=True)
     return 0
 
 

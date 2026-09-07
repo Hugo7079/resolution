@@ -5,3 +5,4 @@ python-dateutil>=2.8
 firebase-admin>=6.5
 # 縮圖（版權原則：只存 ≤600px 縮圖，原圖連回來源）
 Pillow>=10.0
+opencc-python-reimplemented>=0.1.7

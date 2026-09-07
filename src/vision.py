@@ -129,15 +129,37 @@ class VisionError(RuntimeError):
     pass
 
 
+class VisionAuthError(VisionError):
+    """金鑰／帳號本身壞掉 —— 換一張圖、換一個題目都救不回來，整輪直接停手。"""
+
+
+# 認證一旦失敗，這一輪剩下的圖與候選題目全部不用再試 ——
+# 每次都會拿到同一個 401，只是白白多等幾十秒。
+_DISABLED_REASON: str | None = None
+
+
+def disabled_reason() -> str | None:
+    return _DISABLED_REASON
+
+
+def _disable(reason: str) -> None:
+    global _DISABLED_REASON
+    _DISABLED_REASON = reason
+
+
 def describe_image(image_url: str, max_tokens: int = 320) -> tuple[str, float]:
     """
     回傳 (英文客觀描述, 這次花掉的 neurons)。
     抓不到圖或呼叫失敗回 ("", 0.0) —— 呼叫端自行決定要不要退場。
     """
+    if _DISABLED_REASON:
+        return "", 0.0
+
     account = VISION_CFG["cf_account_id"]
     token = VISION_CFG["cf_api_token"]
     if not account or not token:
-        raise VisionError("RES_CF_ACCOUNT_ID / RES_CF_API_TOKEN 沒有設定")
+        _disable("RES_CF_ACCOUNT_ID / RES_CF_API_TOKEN 沒有設定")
+        raise VisionAuthError(_DISABLED_REASON)
 
     if budget_left() <= 0:
         print(f"  [vision] 今日自訂預算 {VISION_CFG['daily_neuron_budget']} neurons 已用完，跳過")
@@ -169,6 +191,13 @@ def describe_image(image_url: str, max_tokens: int = 320) -> tuple[str, float]:
             print("  [vision] 429 —— 帳號當日 neuron 用完（與晨誌共用），停手")
             _record(budget_left())      # 標記為用盡，本日不再嘗試
             return "", 0.0
+        if e.code in (401, 403):
+            # CF 的 code 10000 同時代表「金鑰無效」與「金鑰沒有這個資源的權限」。
+            # 兩種都要人去改設定，重試沒有意義。
+            _disable(f"讀圖金鑰失效（HTTP {e.code}）—— "
+                     f"RES_CF_API_TOKEN 需有 Workers AI 權限、"
+                     f"RES_CF_ACCOUNT_ID 需與該金鑰同一個帳號")
+            raise VisionAuthError(f"{_DISABLED_REASON}｜CF 回覆：{detail}") from e
         raise VisionError(f"HTTP {e.code}: {detail}") from e
     except Exception as e:  # noqa: BLE001
         raise VisionError(f"{type(e).__name__}: {e}") from e
@@ -185,17 +214,28 @@ def describe_image(image_url: str, max_tokens: int = 320) -> tuple[str, float]:
     return text, neurons
 
 
-def describe_images(image_urls: list[str], limit: int | None = None) -> tuple[list[str], float]:
-    """讀多張圖。回傳 (描述清單, 總 neurons)。"""
+def describe_images(image_urls: list[str],
+                    limit: int | None = None) -> tuple[list[str], float, str | None]:
+    """
+    讀多張圖。回傳 (描述清單, 總 neurons, 失敗原因)。
+
+    第三個回傳值是給呼叫端分辨用的：「讀不到圖」與「這篇本來就沒東西可拆」
+    在輸出上長得一樣（都是零張描述），但前者是故障、後者是內容問題，
+    報錯訊息必須講清楚是哪一種。
+    """
     limit = limit or VISION_CFG["max_images"]
-    out, total = [], 0.0
+    if _DISABLED_REASON:
+        return [], 0.0, _DISABLED_REASON
+
+    out, total, err = [], 0.0, None
     for u in image_urls[:limit]:
         try:
             desc, n = describe_image(u)
         except VisionError as e:
-            print(f"  [vision] {str(e)[:90]}")
+            err = str(e)
+            print(f"  [vision] {err[:140]}")
             break
         total += n
         if desc:
             out.append(desc)
-    return out, total
+    return out, total, err

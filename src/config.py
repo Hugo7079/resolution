@@ -67,39 +67,74 @@ CATEGORY_BOUNDARY_RULES = """
 
 
 # ─────────────────────────────────────────────────────────────
-# 2. 每週輪播（0 = 週一 … 6 = 週日）
+# 2. 每日一件作品
+#
+# 這個站每天只做一件事：介紹一件設計，給圈內人也給圈外人。
+# 原本的「週五跨界／週六設計史／週日休息」拿掉了 —— 那兩天談的是議題和
+# 脈絡，不是一件看得到的作品，讀者每天打開的期待會不一樣。
+# 跨界與歷史沒有消失，它們變成「多角度欣賞」裡的兩個鏡頭
+# （lens: context / time），在作品本身帶得到的時候才談。
+#
+# 分類用絕對日數輪播而不是綁星期：四個分類配七天除不盡，
+# 綁星期會讓某一類永遠比別類多曝光。
 # ─────────────────────────────────────────────────────────────
-WEEKLY_ROTATION: dict[int, dict] = {
-    0: {"mode": "category", "category": "visual_brand"},
-    1: {"mode": "category", "category": "interface_ux"},
-    2: {"mode": "category", "category": "product_object"},
-    3: {"mode": "category", "category": "space_env"},
-    4: {"mode": "crossover", "category": None},
-    5: {"mode": "history",   "category": None},
-    6: {"mode": "rest",      "category": None},
+CATEGORY_CYCLE = ["visual_brand", "interface_ux", "product_object", "space_env"]
+
+
+def category_of_day(d) -> str:
+    """d 是 datetime.date。用絕對日數輪播，四類平均分配。"""
+    return CATEGORY_CYCLE[d.toordinal() % len(CATEGORY_CYCLE)]
+
+
+# ── 作品池 ──
+# 每天抓到的東西先進池子存著，不是當天用不到就丟。
+# 好作品不會剛好每天出現在 RSS 前幾則；池子越跑越厚，選題品質才會單調上升。
+# 保鮮期 90 天：足夠讓好作品浮上來，又不會出現「這什麼老東西」。
+POOL_MAX_AGE_DAYS = int(os.getenv("RES_POOL_MAX_AGE_DAYS", "90"))
+POOL_MAX_SIZE = int(os.getenv("RES_POOL_MAX_SIZE", "1500"))
+# 一天最多試幾個候選：第一個沒過品質閘就換下一個
+DEEPDIVE_TRIES = int(os.getenv("RES_DEEPDIVE_TRIES", "3"))
+
+
+# ── 多角度欣賞的鏡頭 ──
+# 不固定七軸。每篇挑 3–5 個「這件作品真的談得動」的角度 ——
+# 對一張海報硬談「工法」、對一張椅子硬談「三秒讀到什麼」，
+# 出來的都是廢話。鏡頭名稱一律用白話，本身就是給圈外人的入口。
+LENSES = {
+    "color":    ("顏色",         "用了哪些顏色、彼此什麼關係、為什麼是這幾個"),
+    "type":     ("字",           "字的個性、粗細寬窄、大小與間距的安排"),
+    "layout":   ("東西怎麼擺",   "位置、比例、格線、視線先看哪再看哪"),
+    "material": ("用什麼做的",   "材質、表面處理、怎麼被做出來、摸起來像什麼"),
+    "message":  ("它在說什麼",   "三秒內讀到什麼、先讀到哪個、資訊的先後順序"),
+    "context":  ("放在同類裡看", "同類的東西長什麼樣，這件是跟著走還是掉頭"),
+    "tradeoff": ("它放棄了什麼", "為了得到 A 犧牲了 B；目標換成 C 這選擇就不成立"),
+    "use":      ("用起來會怎樣", "實際拿在手上／走進去／滑到它時發生什麼、看不看得清楚"),
+    "time":     ("放到時間裡",   "十年前做得出來嗎、十年後會顯得舊嗎、它的血緣是什麼"),
 }
 
-# 週五「跨界」的收納範圍
-CROSSOVER_SCOPE = [
-    "AI 對設計職業的衝擊（跨科技／勞動）",
-    "運算設計、參數化、數位製造（跨機械／建築）",
-    "版權訴訟、AI 訓練資料爭議、商標判決（跨法律）",
-    "獎項、收購、工作室興衰（跨產業動態）",
-    "無障礙法規、包裝法規、材料科學",
+# ── 術語表 ──
+# 這個站是「踏入設計的媒介」，所以術語不是不能用，是不能不解釋。
+# 入口（hook）和出口（給所有人的帶走）一個術語都不准出現；
+# 中間的角度可以用，但第一次出現要在 glossary 裡給白話解釋。
+JARGON = [
+    # 字
+    "字腔", "字重", "襯線", "無襯線", "字級", "行距", "字距", "字面", "字碗",
+    "斜體", "等寬", "字型家族", "可變字型",
+    # 排版
+    "網格", "格線", "欄位", "出血", "負空間", "視覺層級", "對齊",
+    "版心", "天地", "留白率", "跨頁", "開數",
+    # 色與印刷
+    "色相", "飽和度", "明度", "彩度", "對比度", "CMYK", "RGB", "Pantone",
+    "特別色", "專色", "燙金", "打凸", "上光", "網版", "凹版", "模切", "壓紋",
+    # 產品與材質
+    "導角", "圓角", "陽極處理", "射出成型", "沖壓", "車削", "榫接", "貼皮",
+    "公差", "分模線", "拔模角",
+    # 空間
+    "動線", "尺度", "立面", "剖面", "軸線", "採光井", "帷幕牆",
+    # 介面
+    "資訊架構", "線框", "原型", "響應式", "斷點", "可用性", "無障礙",
+    "設計系統", "元件庫", "微互動", "點擊熱區",
 ]
-
-# 週六「設計史」的受眾與寫法約束
-HISTORY_BRIEF = """
-受眾有兩種，必須同時餵飽：
-  A. 不太懂設計、但想了解的人 —— 靠「今天的事」進來
-  B. 本來就在圈內、喜歡回味的人 —— 靠「新角度」留下
-
-寫法：用本週實際發生的事件當入口 → 帶出歷史脈絡 → 給老手一個沒想過的連結。
-  ‣ 術語第一次出現時用一句話帶過，但不要整篇科普腔（會趕走 B）
-  ‣ 不要寫成維基百科條目。歷史是用來解釋「為什麼今天會這樣」的
-  ‣ 必須錨定本週素材。找不到夠強的連結就退回
-    「本週最有話題的一件 × 它的血緣」，不硬掰
-""".strip()
 
 
 # ─────────────────────────────────────────────────────────────
@@ -116,7 +151,7 @@ LANG_QUOTA = {
     "industry_min_chinese": 1,
     "industry_total": 4,
     # 拆解的地區輪替（軟約束，以月為單位檢查）
-    "deepdive_monthly_min": {"jp": 1, "eu": 1, "zh": 1},
+    "feature_monthly_min": {"jp": 1, "eu": 1, "zh": 1},
 }
 
 # 語區代碼 → 是否算「非英語圈」
@@ -161,15 +196,69 @@ def _load_json(path: Path) -> dict:
 
 _cfg = _load_json(_LLM_CFG_FILE)
 
-# d8ai gateway（litellm proxy，OpenAI 相容）。
-# 原本規劃用 Mistral 免費層，但實測那把金鑰的配額被降為 0
-# （429 且 x-ratelimit-limit-req-minute: 0），整條文字生成的路是斷的。
-LLM_CFG = {
-    "base_url": os.getenv("RES_LLM_BASE_URL") or _cfg.get("base_url", "https://llm-gateway.d8ai.ai/"),
-    "api_key":  os.getenv("RES_LLM_API_KEY")  or _cfg.get("api_key", ""),
-    "model":    os.getenv("RES_LLM_MODEL")    or _cfg.get("model", "gemma-4-31B-it"),
-    "rpm":      int(os.getenv("RES_LLM_RPM", "") or _cfg.get("rpm", 45)),
+# 文字模型可以整組切換 —— base_url／model／key 是綁在一起的，
+# 只換其中一個必壞（Mistral 的 base_url 帶 /v1，其他家不一定帶）。
+#
+# 2026-09-07 實測，這把 Mistral 金鑰的額度是**分模型**發的，不是整個 workspace 為零：
+#   ✓ ministral-3b / 8b / 14b、open-mistral-nemo、codestral   （30 req/min）
+#   ✗ mistral-small / medium / magistral                       （limit-req-minute: 0）
+# 所以選 ministral-14b —— 能用的裡面最大的一顆，而且正好是開源小模型那一系。
+# 同題實測比較：14b 的白話翻譯寫得最準；8b 三個角度用同一個句型；
+# nemo 幻覺明顯（憑空生出「左上角男性臉孔比例較大」這種畫面裡沒有的東西）。
+LLM_PROVIDERS = {
+    "mistral": {
+        "base_url": "https://api.mistral.ai/v1",
+        "model":    "ministral-14b-latest",
+        "rpm":      28,      # 實測上限 30，留兩格緩衝
+    },
+    # 之後要換成自架的開源模型走這條：Ollama／vLLM／LM Studio 都是 OpenAI 相容，
+    # 只要 base_url 指過去、model 換成本機跑的那顆，程式一行都不用改。
+    "ollama": {
+        "base_url": "http://localhost:11434/v1",
+        "model":    "qwen2.5:14b",
+        "rpm":      600,     # 自己的機器，不必節流
+    },
+    # 保留但不預設 —— 這是外部 gateway，不是自己的東西
+    "d8ai": {
+        "base_url": "https://llm-gateway.d8ai.ai/",
+        "model":    "gemma-4-31B-it",
+        "rpm":      45,
+    },
 }
+
+# Cloudflare Workers AI 也有 OpenAI 相容端點，而且讀圖那條路已經有這個帳號了 ——
+# 不必再開一個服務就有備援。實測（2026-09-07，同題）：
+#   @cf/qwen/qwen3-30b-a3b-fp8               19 neurons，中文寫得最活
+#     （「摸起來像踩在回收物上」）。是 reasoning 模型，max_tokens 要給足
+#   @cf/mistralai/mistral-small-3.1-24b      24 neurons，穩，但用詞較套語
+#   @cf/meta/llama-3.3-70b-instruct-fp8-fast 52 neurons，body 只是把材料重講一遍
+#   @cf/qwen/qwen3.8-27b、@cf/google/gemma-4-26b   回空字串，不能用
+# 一篇約兩次呼叫，成本落在 40–60 neurons/天，遠低於自訂的 1200 預算。
+_CF_ACCOUNT = os.getenv("RES_CF_ACCOUNT_ID") or _cfg.get("cf_account_id", "")
+LLM_PROVIDERS["cloudflare"] = {
+    "base_url": f"https://api.cloudflare.com/client/v4/accounts/{_CF_ACCOUNT}/ai/v1",
+    "model":    "@cf/qwen/qwen3-30b-a3b-fp8",
+    "rpm":      60,
+}
+
+LLM_PROVIDER = (os.getenv("RES_LLM_PROVIDER") or _cfg.get("provider") or "mistral").lower()
+_preset = LLM_PROVIDERS.get(LLM_PROVIDER, LLM_PROVIDERS["mistral"])
+# 每家的金鑰各自收在 providers.<name> 底下；頂層的舊欄位仍然讀得到，
+# 免得舊的設定檔一升級就整條斷掉。
+_pcfg = (_cfg.get("providers") or {}).get(LLM_PROVIDER, {})
+
+LLM_CFG = {
+    "provider": LLM_PROVIDER,
+    "base_url": os.getenv("RES_LLM_BASE_URL") or _pcfg.get("base_url") or _preset["base_url"],
+    # cloudflare 這組用的是讀圖那把 CF token，不必另外給金鑰
+    "api_key":  (os.getenv("RES_LLM_API_KEY") or _pcfg.get("api_key")
+                 or (os.getenv("RES_CF_API_TOKEN") or _cfg.get("cf_api_token", "")
+                     if LLM_PROVIDER == "cloudflare" else "")
+                 or _cfg.get("api_key", "")),
+    "model":    os.getenv("RES_LLM_MODEL")    or _pcfg.get("model") or _preset["model"],
+    "rpm":      int(os.getenv("RES_LLM_RPM", "") or _pcfg.get("rpm") or _preset["rpm"]),
+}
+
 
 VISION_CFG = {
     "cf_account_id": os.getenv("RES_CF_ACCOUNT_ID") or _cfg.get("cf_account_id", ""),

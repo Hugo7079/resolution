@@ -114,37 +114,86 @@ a { color: inherit; }
   display: flex; justify-content: space-between; gap: 1rem;
 }
 
-/* 七軸錨點導覽 —— 老手直接跳「取捨」，新手順著讀 */
-.axisnav {
-  display: flex; gap: .375rem; overflow-x: auto; padding: 1.25rem 0 .75rem;
-  scrollbar-width: none; -webkit-overflow-scrolling: touch;
-}
-.axisnav::-webkit-scrollbar { display: none; }
-.axisnav a {
-  font-size: .78125rem; color: var(--ink-2); text-decoration: none;
-  padding: .125rem .5rem; border: 1px solid var(--rule);
-  border-radius: 100px; white-space: nowrap;
+/* 先看見 —— 零術語的入口。字級刻意比內文大：
+   非設計的人只讀這一句就走也算數，所以它不能長得像前言。 */
+.dd__hook {
+  max-width: var(--measure); margin: 0 0 .875rem;
+  font-size: 1.125rem; line-height: 1.6; color: var(--ink);
+  font-weight: 500;
 }
 
-.axis { max-width: var(--measure); padding: 1rem 0; scroll-margin-top: 3.5rem; }
-.axis + .axis { border-top: 1px solid var(--rule); }
-.axis__h {
+/* 段落分隔標題 */
+.dd__seph {
+  max-width: var(--measure); margin: 2rem 0 .25rem;
+  font-size: .75rem; letter-spacing: .09em; color: var(--ink-3);
+  font-weight: 700; text-transform: none;
+  padding-bottom: .375rem; border-bottom: 1px solid var(--rule);
+}
+
+.whatis { max-width: var(--measure); margin-top: 1.25rem; }
+.whatis h3 {
   font-size: .75rem; letter-spacing: .06em; color: var(--ink-3);
   font-weight: 700; margin: 0 0 .375rem;
 }
-.axis__b { margin: 0; }
+.whatis p { margin: 0; }
 
-/* 可借用的一招 —— 抽出來獨立成卡，這是留人的關鍵 */
+/* 一個角度 = 觀察 + 一句白話翻譯。
+   「所以呢」是這個站的樞紐，所以它有自己的顏色，不是附註的灰字。 */
+.angle { max-width: var(--measure); padding: 1.125rem 0; scroll-margin-top: 3.5rem; }
+.angle + .angle { border-top: 1px solid var(--rule); }
+.angle__h {
+  font-size: .8125rem; letter-spacing: .04em; color: var(--ink);
+  font-weight: 700; margin: 0 0 .5rem;
+}
+.angle__b { margin: 0; }
+.angle__so {
+  margin: .625rem 0 0; padding-left: .75rem;
+  border-left: 2px solid var(--accent);
+  color: var(--ink-2); font-size: .9375rem; line-height: 1.65;
+}
+.angle__so__k {
+  display: block; font-size: .6875rem; letter-spacing: .08em;
+  color: var(--accent); font-weight: 700; margin-bottom: .125rem;
+}
+
+/* 帶走 —— 兩份。圈外人那份用實心底，圈內人那份收斂成描邊，
+   視覺上先給不懂的人，這是這個站的立場。 */
 .takeaway {
-  max-width: var(--measure); margin: 1.5rem 0 0;
-  background: var(--accent-bg); border-left: 3px solid var(--accent);
+  max-width: var(--measure); margin: 1rem 0 0;
   border-radius: 0 var(--radius) var(--radius) 0; padding: 1rem 1.125rem;
 }
+.takeaway--all { background: var(--accent-bg); border-left: 3px solid var(--accent); }
+.takeaway--pro {
+  background: none; border: 1px solid var(--rule);
+  border-left: 3px solid var(--ink-3); border-radius: 0 var(--radius) var(--radius) 0;
+}
 .takeaway h3 {
-  font-size: .75rem; letter-spacing: .06em; color: var(--accent);
+  font-size: .75rem; letter-spacing: .06em;
   font-weight: 700; margin: 0 0 .375rem;
 }
+.takeaway--all h3 { color: var(--accent); }
+.takeaway--pro h3 { color: var(--ink-3); }
 .takeaway p { margin: 0; }
+
+/* 術語表 —— 預設收合。圈內人不需要，圈外人點開就有，
+   兩邊都不必為對方付出版面代價。 */
+.glossary {
+  max-width: var(--measure); margin-top: 1.5rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: .625rem .875rem;
+}
+.glossary summary {
+  font-size: .8125rem; color: var(--ink-2); cursor: pointer;
+  list-style: none;
+}
+.glossary summary::-webkit-details-marker { display: none; }
+.glossary summary::before { content: "＋ "; color: var(--ink-3); }
+.glossary[open] summary::before { content: "－ "; }
+.glossary dl { margin: .75rem 0 .125rem; }
+.glossary dt {
+  font-size: .8125rem; font-weight: 700; color: var(--ink); margin-top: .5rem;
+}
+.glossary dd { margin: .125rem 0 0; font-size: .875rem; color: var(--ink-2); }
 
 /* 具體物 —— 品質保證的可見化 */
 .concretes {

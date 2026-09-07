@@ -38,8 +38,9 @@ def main() -> None:
     data = json.loads((WEB / "data" / f"{date}.json").read_text(encoding="utf-8"))
 
     print("內嵌圖片中...")
-    if data["deepdive"].get("image_url"):
-        data["deepdive"]["image_url"] = data_uri(data["deepdive"]["image_url"], 900, 78)
+    feat = data.get("feature") or data.get("deepdive") or {}
+    if feat.get("image_url"):
+        feat["image_url"] = data_uri(feat["image_url"], 900, 78)
     for it in data["showcase"]:
         it["image_url"] = data_uri(it["image_url"], 560, 70)
     data["showcase"] = [it for it in data["showcase"] if it["image_url"]]
@@ -53,9 +54,9 @@ def main() -> None:
   const dt = new Date(data.date + 'T00:00:00+08:00');
   const wd = '日一二三四五六'[dt.getDay()];
   document.getElementById('date').textContent = `${data.date}（${wd}）`;
-  document.getElementById('mode').textContent = MODE_LABEL[data.weekday_mode] || '';
+  document.getElementById('mode').textContent = '';
   document.getElementById('next').disabled = true;
-  renderFilters(); renderDeepdive(); renderShowcase(); renderIndustry();
+  renderFilters(); renderFeature(); renderShowcase(); renderIndustry();
 }
 boot();""", js)
 
