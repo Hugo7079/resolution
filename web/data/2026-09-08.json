@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-08",
+  "category": "product_object",
+  "feature": {
+    "title": "可拆解的戰靴：靴子也能像積木一樣變身",
+    "subject": {
+      "name": "Modular Combat Boots",
+      "designer": "Häme University of Applied Sciences 學生作品",
+      "client": "Smart and Sustainable Design 學位課程",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 85,
+    "images_read": 0,
+    "neurons_used": 0.0,
+    "hook": "這雙靴子像積木一樣，可以拆解重組，讓一雙鞋變成多種樣貌，還能延長使用壽命。",
+    "what_it_is": "這是芬蘭 Häme 大學應用科技學院的學生作品，設計了一款受 punk 文化啟發的黑色皮革戰靴，靴子的部件可以拆解重組，符合永續設計理念。作品出自「智慧與永續設計」學士課程，展示在 2026 年的校園展覽。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這雙靴子的設計核心在於「可拆解」的結構，讓不同部件（如靴頭、靴跟、鞋帶）可以獨立拆卸。材質選用黑色皮革，但重點不在皮革本身，而是皮革如何被切割、縫製，讓拆解後的部件仍能保持功能性。例如，靴跟可能採用可更換的設計，讓使用者能根據不同地形或需求更換。這種設計不僅延長了產品壽命，也減少了廢棄物。",
+        "so_what": "這代表設計不只是外觀，還能透過材質和結構的巧思，讓一件東西變得更環保、更多樣化。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了實現可拆解性，這雙靴子可能犧牲了部分傳統戰靴的堅固感。例如，拆解後的接縫可能需要更頻繁的維護，或者某些部件在拆解後無法完全保持原有的防水性。但這個犧牲是為了永續性——如果目標是「永遠不需要更換的靴子」，這個設計就不成立。相反地，它選擇了「可更換、可重組」的路線，符合現代消費者對環保和多功能性的需求。",
+        "so_what": "設計總是需要取捨，這裡的關鍵在於，你願意犧牲什麼（堅固性），為了得到什麼（永續性）。"
+      },
+      {
+        "lens": "context",
+        "body": "這款靴子受到 punk 文化啟發，但與傳統的 punk 靴子（如重金屬樂手的厚底靴）不同，它強調「可拆解」和「永續」。在同類的鞋履設計中，大多數戰靴或時尚靴子注重外觀或舒適性，但很少考慮「可拆解」的功能。這個作品將 punk 的反叛精神與現代永續設計結合，創造了一種新的可能性。",
+        "so_what": "設計可以跟文化對話，但也可以挑戰文化的既有規則，創造全新的玩法。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一件東西，問問自己：「如果這件東西可以拆解、重組，會變成什麼樣子？」許多產品的設計並非一成不變，透過小小的改變，比如拆解或更換部件，就能讓它變得更環保、更有趣。例如，你的背包、鞋子，甚至家具，都可能藏著這樣的潛力。",
+    "takeaway_designer": "在設計產品時，可以考慮「模組化」的概念：將產品分解成可獨立更換或重組的部件。這不僅能延長產品壽命，還能提升用戶的參與感。例如，設計一雙鞋子時，可以讓鞋帶、靴跟或面料成為可更換的模組，讓用戶能根據需求或時尚潮流調整外觀。這種設計需要在結構和材質上做精細的規劃，確保拆解後仍能保持功能性。",
+    "glossary": [
+      {
+        "term": "永續設計（Sustainable Design）",
+        "plain": "在設計時考慮環境影響，減少資源消耗和廢棄物，例如使用可拆解、可回收或可重複使用的材料。"
+      },
+      {
+        "term": "punk 文化（Punk Culture）",
+        "plain": "一種反叛傳統、強調個性和創新的亞文化，常見於音樂、時尚和藝術領域，強調 DIY（自己動手做）的精神。"
+      }
+    ],
+    "concretes": [
+      "黑色皮革",
+      "可拆解的靴頭、靴跟、鞋帶設計",
+      "永續設計理念（Smart and Sustainable Design 課程）",
+      "punk 文化啟發"
+    ],
+    "source_url": "https://www.dezeen.com/2026/09/05/combat-boots-accessories-footwear-projects-hame-university-of-applied-sciences-schoolshows/",
+    "source_name": "Dezeen",
+    "published": "2026-09-05T18:00:34+00:00",
+    "image_url": "https://static.dezeen.com/uploads/2026/08/Häme-University-of-Applied-Sciences_dezeen_2364_col_0.jpg",
+    "image_fallback": "https://static.dezeen.com/uploads/2026/08/Häme-University-of-Applied-Sciences_dezeen_2364_col_0-411x411.jpg",
+    "credit": "圖片來源：Dezeen．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "「見大象」攝影師Shawne Brown作品",
+      "title_original": "“See the Elephant” by Photographer Shawne Brown",
+      "url": "https://www.booooooom.com/2026/09/07/see-the-elephant-by-photographer-shawne-brown/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Brown1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "TEKarrc",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1847",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1847/thumb_2x_image_2c3064.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "N.L.N. 別墅",
+      "title_original": "N.L.N. Villa",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2107",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2107/thumb_2x_image_1110e9.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "蘭納稻米研究中心（清迈大学）",
+      "title_original": "Lanna Rice Research Center, Chiang Mai University",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2121",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2121/thumb_2x_image_10bd71.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "春多頌（Harudot）春武里旗艦店（Nana Coffee Roasters）",
+      "title_original": "Harudot Chonburi by Nana Coffee Roasters",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2122",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2122/thumb_2x_image_da184f.png",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "釜山設計浪潮登台！「BUSAN VIBE: WAVE」9月進駐台灣設計館",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/761",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-07T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "這款3D列印鬧鐘有弧面式延遲按鈕",
+      "title_original": "This 3D-printed alarm clock has an arcade-style snooze button",
+      "url": "https://www.fastcompany.com/91595640/endothermal-systems-cinderclock?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-07T09:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "勞動節繪圖平板最佳優惠包含從149美元起的筆電顯示器",
+      "title_original": "The best Labor Day drawing tablet deals include pen displays from just $149",
+      "url": "https://www.creativebloq.com/art/digital-art/the-best-labor-day-drawing-tablet-deals-include-pen-displays-from-just-usd149",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-07T21:01:23+00:00",
+      "region": "en"
+    },
+    {
+      "title": "你還在手動輸入提示詞嗎？",
+      "title_original": "Are you still typing your prompts, really?",
+      "url": "https://ref.wisprflow.ai/sidebar",
+      "source_name": "Sidebar",
+      "published": "2026-09-07T11:04:00+00:00",
+      "region": "en"
+    }
+  ]
+}
