@@ -1,0 +1,214 @@
+{
+  "date": "2026-09-09",
+  "category": "visual_brand",
+  "feature": {
+    "title": "選票背後的手勢：用色塊和字體說服人心",
+    "subject": {
+      "name": "",
+      "designer": "未明確（由 Sachsen-Anhalt 文化機構共同設計）",
+      "client": "Sachsen-Anhalt 地區文化機構（反對 AfD 政黨口號的聯盟）",
+      "year": ""
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 90,
+    "images_read": 1,
+    "neurons_used": 43.0,
+    "hook": "這張海報沒有用圖片，卻靠一隻手和兩塊顏色，在三秒內讓你選邊站隊。",
+    "what_it_is": "德國 Sachsen-Anhalt 地區在 2024 年地方選舉前，文化機構聯合推出的反對極右政黨口號的海報。用來張貼在公共空間，呼籲民眾支持多元價值。",
+    "angles": [
+      {
+        "lens": "type",
+        "body": "海報用了一種自訂的無襯線字體，字重粗到幾乎像印刷體，但字腔卻保持圓潤（類似 Söhne Halbfett 的寬度，但更重）。標題「#STOLZ AUF VIELFALT」用黑色（#000000），下方的「Stolz auf Welterbe」則用紫色（#6600FF），兩者字級相同（約 120pt），但紫色字體的字距被拉大，形成視覺層級。這種設計讓標題像口號，副標題像解釋，卻又不像傳統海報的主次關係。",
+        "so_what": "字體的粗細和間距，決定了你是先看口號還是先看解釋。這裡用粗字體和拉大間距，讓人先看到「#STOLZ AUF VIELFALT」這個 hashtag，像是網路運動的標籤，而不是政見發表。"
+      },
+      {
+        "lens": "color",
+        "body": "海報用了三種顏色：白底（#FFFFFF）、紫色（#6600FF）和亮綠（#33CC33）。紫色和綠色的色相相差 180 度（互補色），對比度高到幾乎像螢光筆畫在紙上。手勢部分用黑色，但手指的亮綠色卻延伸到手掌邊緣，像是用油漆刷出來的邊界。這種高對比的配色，讓海報在遠處也能一眼認出，卻又不像傳統政黨海報那麼刺眼。",
+        "so_what": "互補色的組合，讓海報在陽光下或燈光下都不會消失。這是為了確保在實體空間（如車站牆面）被看到，而不是只在螢幕上閃亮。"
+      },
+      {
+        "lens": "layout",
+        "body": "海報被一條對角線分成兩半：左半是手勢和文字，右半是建築圖。對角線從左下到右上，形成一個三角形的視覺引導，讓人從手勢（左下）往建築（右上）看。手勢的手指指向右上角，像是指向那棟建築。文字和圖形的比例是 4:6，但視覺重心明顯在左半的手勢區塊。這種佈局讓人覺得「這隻手在指向未來」，而不是單純的宣傳。",
+        "so_what": "對角線不是裝飾，而是引導你的眼睛從「現在的手勢」看向「未來的建築」。這種設計讓海報不只是貼在牆上，而是像一個動作。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這張海報犧牲了具體的人物或場景，換來抽象的手勢和建築輪廓。手勢沒有具體臉孔，建築沒有細節，但這樣反而讓人聯想到「每個人」和「共同的未來」。如果用真人照或實景圖，可能會變成某個政黨的宣傳，而不是文化機構的呼籲。不過，這種抽象也可能讓人覺得「太空洞」，無法直接連結到實際議題。",
+        "so_what": "抽象的圖形讓海報不會因為某個人或某個地點而失效。換句話說，這張海報可以貼在任何地方，卻又像是為這個地方量身訂做。"
+      }
+    ],
+    "takeaway_everyone": "下次看到海報或傳單，注意它的字體是粗是細、顏色是亮是暗、圖形是指向哪裡。一張好的視覺設計，不需要華麗，只需要在三秒內讓你看到「這是什麼」和「我該怎麼做」。比如：粗字體讓人覺得重要，對角線讓人跟著看，互補色讓人在遠處也能看到。這些都是設計師用來「說服你的眼睛」的小技巧。",
+    "takeaway_designer": "當你的作品需要在公共空間被快速識別時，可以考慮以下組合：1. 自訂的無襯線粗字體（字重 700–900，字腔圓潤）搭配 hashtag 形式的標題，強化運動感；2. 互補色（色相相差 180 度）的高對比配色，確保遠距可見性；3. 對角線分割佈局，引導視線從具象（手勢）到抽象（建築），強化敘事性。這種設計在實體媒體上，可以犧牲細節換取普遍性。",
+    "glossary": [
+      {
+        "term": "字腔",
+        "plain": "字母中間圍起來的那塊空白，像 o 和 e 中間的洞，它的大小決定字看起來鬆還是緊。"
+      },
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "無襯線",
+        "plain": "筆畫末端沒有收尾裝飾的字，看起來比較乾淨現代，手機介面幾乎都是這種。"
+      },
+      {
+        "term": "字級",
+        "plain": "字的大小。"
+      },
+      {
+        "term": "字距",
+        "plain": "字與字之間的距離。"
+      },
+      {
+        "term": "視覺層級",
+        "plain": "誰先被看到、誰後被看到的順序，靠大小、粗細、顏色排出來。"
+      },
+      {
+        "term": "色相",
+        "plain": "顏色本身是紅是藍還是綠。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "無襯線字體",
+        "plain": "沒有像手寫體那樣的小飾線（如字母上下的小尾巴）的字體，看起來簡潔現代，常用在標題或路牌上。"
+      },
+      {
+        "term": "互補色",
+        "plain": "色輪上相隔 180 度的兩種顏色，比如紅和綠、藍和橙，這兩種顏色放在一起會特別醒目。"
+      }
+    ],
+    "concretes": [
+      "#6600FF（紫色）和 #33CC33（亮綠）的互補色配色",
+      "對角線分割佈局（左下手勢 → 右上建築輪廓)",
+      "標題「#STOLZ AUF VIELFALT」字級約 120pt，紫色副標題字距拉大形成視覺層級",
+      "手勢部分黑色與亮綠色的邊界像油漆刷痕"
+    ],
+    "source_url": "https://page-online.de/kreation/vor-der-wahl-stolzaufvielfalt-kampagne-in-sachsen-anhalt/",
+    "source_name": "PAGE Online",
+    "published": "2026-09-05T05:34:16+00:00",
+    "image_url": "https://page-online.de/app/uploads/2026/08/stolzaufVielfalt_Bauhaus-Finger.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：PAGE Online．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "飛越地球",
+      "title_original": "FLY THE EARTH",
+      "url": "https://www.behance.net/gallery/243887447/FLY-THE-EARTH",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ef2fb2243887447.Y3JvcCw0OTcsMzg5LDMwMSwzNTU.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "跨越200餘件作品，新書慶祝真菌世界",
+      "title_original": "Spanning 200+ Works, a New Book Celebrates the World of Fungi",
+      "url": "https://www.thisiscolossal.com/2026/09/spanning-200-works-a-new-book-celebrates-the-world-of-fungi/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/fungi-7.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「見象」攝影師Shawne Brown作品",
+      "title_original": "“See the Elephant” by Photographer Shawne Brown",
+      "url": "https://www.booooooom.com/2026/09/07/see-the-elephant-by-photographer-shawne-brown/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Brown1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Araldica？基於聲音的動態系統",
+      "title_original": "Araldica ? Sound-based motion system",
+      "url": "https://www.behance.net/gallery/254392181/Araldica-Sound-based-motion-system",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/fbdcd7254392181.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「異界即家園」探索個人重獲、文化認同與靈性通道",
+      "title_original": "‘The Otherworld Is Home’ Explores Personal Reclamation, Cultural Identity, and Spiritual Passage",
+      "url": "https://www.thisiscolossal.com/2026/09/haggerty-museum-of-art-otherworld-is-home/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/08/Daniel-Minter-2.jpeg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "釜山設計浪潮登台！「BUSAN VIBE: WAVE」9月進駐台灣設計館",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/761",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-07T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "建築模型終於來到網頁瀏覽器",
+      "title_original": "Architectural models finally come to the browser",
+      "url": "https://www.fastcompany.com/91600728/architectural-models-finally-come-to-the-browser?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-08T15:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "任天堂 Switch 2《塞爾達》40週年紀念版看起來像是海拉爾的珍貴遺物",
+      "title_original": "The Nintendo Switch 2 Zelda 40th anniversary edition looks like a precious relic from Hyrule",
+      "url": "https://www.creativebloq.com/entertainment/gaming/the-nintendo-switch-2-zelda-40th-anniversary-edition-looks-like-a-precious-relic-from-hyrule",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-08T19:32:04+00:00",
+      "region": "en"
+    },
+    {
+      "title": "當畫布開始動起來，誰才是真正的主控者？",
+      "title_original": "When the canvas starts acting, who’s really in control?",
+      "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c",
+      "source_name": "Sidebar",
+      "published": "2026-09-08T05:04:00+00:00",
+      "region": "en"
+    }
+  ]
+}
