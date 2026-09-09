@@ -1,0 +1,192 @@
+{
+  "date": "2026-09-10",
+  "category": "interface_ux",
+  "feature": {
+    "title": "AI 設計師的畫布：你說「做個網站」，它就真的做出來了",
+    "subject": {
+      "name": "AI Canvas: Synthetic Self",
+      "designer": "Aurélie Radom（UX Collective 文章作者）",
+      "client": "UX 設計領域探討",
+      "year": ""
+    },
+    "category": "interface_ux",
+    "category_label": "介面與體驗",
+    "confidence": 85,
+    "images_read": 1,
+    "neurons_used": 25.7,
+    "hook": "這不是一個網站或 App，而是一個「指令」就能動起來的設計畫布：你輸入需求，AI 就決定該做什麼、改什麼、測試什麼。問題來了：它真的懂你的意思嗎？",
+    "what_it_is": "這是一個概念性的 AI 介面設計探討，作者 Aurélie Radom 在 UX Collective 分享。她舉例說明：過去程式設計師需要一步步操作軟體，但現在 AI 已經可以根據你的描述（例如「做個網站」），自動決定要執行哪些指令、修改哪些檔案、甚至跑哪些測試。這個概念挑戰了傳統的「使用者操作介面」觀念，因為現在介面不只是被操作的工具，它自己也會主動行動。",
+    "angles": [
+      {
+        "lens": "message",
+        "body": "這個概念的核心問題不是「介面長什麼樣」，而是「當 AI 開始主動執行任務時，誰還在掌控？」。文章舉例：你說「做個網站」，AI 可能會自動決定用哪種程式語言、哪種架構，甚至調整設計風格。這時候，使用者需要回答的問題變成：它真的理解我的意思嗎？它在做什麼？我該停止它嗎？還是該檢查它的結果？這些問題都寫在介面上，但不是以按鈕或選單的形式出現，而是以「AI 的行動」為主軸。例如，文章提到「The prompt is the product」（指令就是產品），表示未來的設計可能不再是靜態的頁面，而是一連串動態的回應。",
+        "so_what": "這代表未來的設計不只是「看起來好」或「操作方便」，而是要考慮：當機器開始幫你做決定時，你還能不能信任它？"
+      },
+      {
+        "lens": "layout",
+        "body": "雖然圖中沒有實際的介面截圖，但文章描述的邏輯可以對應到一個「動態網格」的概念。傳統介面設計會將功能分成固定的區塊（例如導覽列、按鈕、表單），但這個概念中的介面可能更像一個「可變的畫布」，AI 會根據你的指令動態調整布局。例如，如果你說「我需要一個電子商務網站」，AI 可能會自動生成產品頁面、購物車、結帳流程，而這些元素的排列不再是固定的格線，而是根據「任務」動態組合。文章提到的「What did the system understand?」（系統理解了什麼？）這個問題，就對應到介面需要提供「反饋機制」，讓使用者知道 AI 在做什麼。",
+        "so_what": "這意味著未來的設計可能不再是「固定的版面」，而是像「活生生的對話」一樣，隨著使用者的需求而變化。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "傳統的 UX 設計強調「使用者控制」，例如每一步都需要點擊確認、選擇選項。但這個概念犧牲了「使用者的明確操作」，換來的是「效率」。例如，你不需要一步步設定網站的 CSS 或 JavaScript，只需要說出需求，AI 就會幫你完成。但是，這樣一來，使用者可能會失去「理解背後邏輯」的機會。文章提到「What can I stop? What should I review?」（我該停止它嗎？該檢查什麼？），就是在強調這個權衡：快速完成任務 VS. 保有控制感。如果目標是「讓非專業人士也能輕鬆做出網站」，這個犧牲是值得的；但如果目標是「讓使用者學習設計原理」，這個設計就可能不適合。",
+        "so_what": "這代表技術進步帶來的不是「更好」或「更壞」，而是「不同的取捨」——你得決定：你想要速度，還是想要理解？"
+      },
+      {
+        "lens": "context",
+        "body": "這個概念可以放在「AI 驅動的設計工具」這個類別裡。目前市面上已經有類似的工具，例如 Figma 的 AI 插件可以根據文字描述生成設計稿，或者 GitHub Copilot 可以根據程式碼註解自動完成程式。但這個概念更進一步，它不只是「輔助設計」，而是「完全由 AI 主導的設計流程」。例如，傳統的網站設計需要你手動調整布局、色彩、字體，但這個概念中的 AI 可能會自動決定這些元素。文章提到「AI coding agents」（AI 編碼代理）可以決定「哪些檔案要改、哪些測試要跑」，這代表未來的設計工具不再是「被動的畫布」，而是「主動的夥伴」。",
+        "so_what": "這意味著設計工具不再只是「幫你畫圖」，而是「幫你做決定」——這會改變誰來當設計師，以及設計師的工作內容。"
+      }
+    ],
+    "takeaway_everyone": "下次你用一個 App 或網站時，注意看它是否「主動」幫你做事。例如，當你在線上購物時，系統可能會自動推薦商品、填寫資料，甚至幫你選擇運送方式。這些「自動化」的功能看似方便，但背後的問題是：系統真的懂你的意思嗎？它在做什麼？你還能不能控制它？未來的設計不只是「好用」，而是要讓你「信任」它。",
+    "takeaway_designer": "在設計 AI 驅動的介面時，可以參考這個概念中的三個關鍵點：1. 反饋機制：設計時要明確顯示 AI 在做什麼（例如「系統正在生成網站結構，預計 30 秒完成」），讓使用者知道系統的狀態。2. 可中斷性：提供「停止」或「檢查」的選項，讓使用者不會覺得被 AI 綁架。3. 透明的邏輯：即使 AI 自動生成內容，也要讓使用者能夠理解背後的決策（例如「為什麼這個按鈕是紅色？」）。這樣的設計可以平衡「效率」和「控制感」，避免使用者感到困惑或失去信任。",
+    "glossary": [
+      {
+        "term": "網格",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "AI coding agents",
+        "plain": "用 AI 技術自動執行程式碼相關任務的工具，例如根據你的描述自動修改檔案或跑測試，不需要人工一步步操作。"
+      },
+      {
+        "term": "prompt",
+        "plain": "在 AI 互動中，使用者輸入的指令或描述，例如「做一個綠底白字的網站」，AI 就會根據這個指令產生結果。"
+      }
+    ],
+    "concretes": [
+      "Aurélie Radom",
+      "AI coding agents（AI 編碼代理）",
+      "The prompt is the product（指令就是產品）",
+      "dark green shades（深綠色調）",
+      "medium width sans-serif（中等寬度的無襯線字體）",
+      "rounded terminal on the letter 'o'（字母 'o' 末端有圓形收尾）"
+    ],
+    "source_url": "https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6?source=rss----138adf9c44c---4",
+    "source_name": "UX Collective",
+    "published": "2026-09-06T23:49:45+00:00",
+    "image_url": "https://cdn-images-1.medium.com/max/1024/0*EjNueOq1ewkkMptH.png",
+    "image_fallback": "",
+    "credit": "圖片來源：UX Collective．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Kiabi",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/247999041/Kiabi",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/19789a247999041.Y3JvcCwxMTMyLDg4Niw4MTAsMzI1.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "微型海馬奪下 2026 年海洋攝影師年度大獎",
+      "title_original": "Diminutive Seahorses Top the 2026 Ocean Photographer of the Year Contest",
+      "url": "https://www.thisiscolossal.com/2026/09/ocean-photographer-of-the-year-2026-winners/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/opoty2026-8.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "插畫師專訪：kokooma",
+      "title_original": "Illustrator Spotlight: kokooma",
+      "url": "https://www.booooooom.com/2026/09/09/illustrator-spotlight-kokooma/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/kokooma1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Bosozoku babes",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/255247371/Bosozoku-babes",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/44b934255247371.Y3JvcCw5OTksNzgyLDAsMA.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Karla Wong 的民俗肖像作品幻化出神祕的另一世界",
+      "title_original": "Karla Wong’s Folkloric Portraits Conjure Mysterious Portals to Another World",
+      "url": "https://www.thisiscolossal.com/2026/09/karla-wong-surreal-paintings-intuit-chicago/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/wong-3.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "認識世界最有趣的椅子",
+      "title_original": "Meet the world’s most interesting chairs",
+      "url": "https://www.fastcompany.com/91603736/christies-new-classic-chairs-are-going-on-sale?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-09T12:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "白宮的《俄羅斯方塊》抄襲版似乎遭遇瓶頸",
+      "title_original": "The White House's dodgy Tetris copy seems to have hit a wall",
+      "url": "https://www.creativebloq.com/entertainment/gaming/the-white-houses-dodgy-tetris-copy-seems-to-have-hit-a-wall",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-09T17:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "限制細節數量",
+      "title_original": "Limit the number of details",
+      "url": "https://design.lightspark.com/limit-the-number-of-details",
+      "source_name": "Sidebar",
+      "published": "2026-09-09T05:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
