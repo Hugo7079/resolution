@@ -70,7 +70,8 @@ a { color: inherit; }
 .datenav button:disabled { opacity: .35; cursor: default; }
 .datenav__mode { margin-left: auto; color: var(--accent); font-weight: 600; }
 
-/* ── 分類篩選：chip 橫排、可複選、預設全看 ── */
+/* ── 分類導覽：chip 橫排、可複選、預設全看 ──
+   選了之後上一天／下一天只在那幾類的日子之間翻，不影響當天的版面 ── */
 .filters {
   position: sticky; top: 0; z-index: 20;
   display: flex; gap: .4375rem; flex-wrap: wrap;
@@ -88,6 +89,16 @@ a { color: inherit; }
 }
 .chip[aria-pressed="true"] {
   background: var(--ink); color: var(--paper); border-color: var(--ink);
+}
+/* 一天都還沒出過的分類 —— 留在原地讓人知道有這一類，但點不下去 */
+.chip:disabled { opacity: .35; cursor: default; }
+/* 出過幾天。跟在標籤後面，不另外開一行 */
+.chip__n {
+  margin-left: .3125rem; font-variant-numeric: tabular-nums;
+  font-size: .6875rem; opacity: .55;
+}
+.filters__note {
+  align-self: center; font-size: .71875rem; color: var(--ink-2); opacity: .8;
 }
 
 /* ── 今日拆解：佔滿第一屏 ── */
@@ -244,6 +255,15 @@ a { color: inherit; }
   overflow: hidden;
 }
 .card__s { font-size: .6875rem; color: var(--ink-3); margin-top: .1875rem; }
+
+/* ── 介紹過的：同一牆型，但卡片是站內的日子而不是外站連結 ── */
+.card--day .card__s { display: flex; gap: .375rem; }
+.card--day .card__s b { color: var(--accent); font-weight: 600; }
+/* 現在看的那天也留在牆上，得看得出來是哪一張 */
+.card--now img { outline: 2px solid var(--ink); outline-offset: 2px; }
+.card--now .card__t { font-weight: 700; }
+.card--now .card__s b { color: var(--ink); }
+.archive__empty { font-size: .8125rem; color: var(--ink-2); grid-column: 1 / -1; }
 
 /* ── 產業動態：純文字列表，不放圖 ── */
 .list { list-style: none; margin: 0; padding: 0; }

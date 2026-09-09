@@ -8,6 +8,8 @@ const CATS = [
   { id: 'space_env',      label: '空間與環境' },
 ];
 
+const CAT_LABEL = Object.fromEntries(CATS.map(c => [c.id, c.label]));
+
 /* 鏡頭代號 → 白話標籤。名稱本身就是給圈外人的入口，所以不用術語。
    要和 src/config.py 的 LENSES 對齊。 */
 const LENS_LABEL = {
@@ -28,8 +30,15 @@ const REGION_FLAG = {
   de: '德', fr: '法', es: '西', it: '義', nl: '荷',
 };
 
-/* 篩選只作用在作品流與產業動態 —— 今日這一件永遠顯示。
-   每天只有一件，被篩掉主版位就空了；分類均衡靠輪播保證，不靠篩選。 */
+/* 四個分類是「用哪一類看過往」，不是篩當天的版面。
+   一天只有 8 件作品流、4 則產業動態，切成四類每格剩兩件 —— 篩了也沒東西看；
+   而且作品流的來源（Behance、Colossal 這種）本來就跨類，給不出可靠的分類。
+   真正每天都有可靠分類的是「今日一件」（分類由 LLM 判、寫在 index.json），
+   所以 chip 管的是最下面那面「過往」牆，外加上一天／下一天走哪些日子：
+   點「空間與環境」＝ 牆上只留空間類的日子，前後翻也只在那幾天之間跳。
+
+   chip 不會自己換日 —— 一次點擊做兩件事（跳日 + 換牆）會讓人不知道
+   剛剛發生了什麼。要看哪一天，牆上點那張卡。 */
 const KEY = 'resolution.cats';
 let active = new Set(load());
 let data = null;
@@ -45,22 +54,38 @@ function save() {
 const el = (t, c, x) => { const n = document.createElement(t); if (c) n.className = c; if (x) n.textContent = x; return n; };
 const esc = s => String(s ?? '');
 
+/* 選了分類之後，仍然是可以前後翻的那串日子。沒選＝全部。 */
+function navDays() {
+  if (!active.size) return days.map(d => d.date);
+  return days.filter(d => active.has(d.category)).map(d => d.date);
+}
+
 function renderFilters() {
   const box = document.getElementById('filters');
   box.innerHTML = '';
+
   CATS.forEach(c => {
+    const n = days.filter(d => d.category === c.id).length;
     const b = el('button', 'chip', c.label);
+    if (n) b.appendChild(el('span', 'chip__n', n));
     b.setAttribute('aria-pressed', active.has(c.id));
+    // 一天都沒有的分類點下去只會把導覽清空，不如先擋著
+    b.disabled = !n && !active.has(c.id);
     b.onclick = () => {
       active.has(c.id) ? active.delete(c.id) : active.add(c.id);
-      save(); renderFilters(); renderShowcase(); renderIndustry();
+      save(); renderFilters(); renderDateNav(); renderArchive();
     };
     box.appendChild(b);
   });
+
   if (active.size) {
     const clear = el('button', 'chip', '全部');
-    clear.onclick = () => { active.clear(); save(); renderFilters(); renderShowcase(); renderIndustry(); };
+    clear.onclick = () => { active.clear(); save(); renderFilters(); renderDateNav(); renderArchive(); };
     box.appendChild(clear);
+
+    const list = navDays();
+    box.appendChild(el('span', 'filters__note',
+      list.length ? `這幾類共 ${list.length} 天` : '這幾類還沒有出過'));
   }
 }
 
@@ -179,10 +204,8 @@ function renderFeature() {
   }
 }
 
-const pass = it => !active.size || active.has(it.category);
-
 function renderShowcase() {
-  const rows = (data.showcase || []).filter(pass);
+  const rows = data.showcase || [];
   const box = document.getElementById('showcase');
   box.innerHTML = '';
   document.getElementById('showcase-n').textContent = `${rows.length} 件`;
@@ -197,7 +220,9 @@ function renderShowcase() {
 }
 
 function renderIndustry() {
-  const rows = (data.industry || []).filter(pass);
+  /* 產業動態不套四分類：收購、訴訟、AI 衝擊本來就跨領域，
+     硬分只會讓人多想一次（README 三之四）。 */
+  const rows = data.industry || [];
   const box = document.getElementById('industry');
   box.innerHTML = '';
   document.getElementById('industry-n').textContent = `${rows.length} 則`;
@@ -212,9 +237,58 @@ function renderIndustry() {
   });
 }
 
-/* 有哪幾天可以看。出刊是有斷層的（抓取失敗、或那天沒跑），
-   所以上一天／下一天不能用日期加減 —— 減一天會直接撞 404。
-   照 index.json 列出的實際檔案走。 */
+/* 介紹過的：同一類的好幾件擺在一起看。日期導覽一次只能給一天，
+   要比較「這一類長期長什麼樣」得看得到一整排。
+
+   現在看的那天也留在牆上（標成「現在看的」），不排除掉 ——
+   排除的話 chip 上的天數和牆上的天數會差一，而那一格差在哪沒人看得出來。
+   留著還多一個好處：一眼知道自己在這一類裡看到哪了。
+
+   主菜沒出來的日子沒有 category，自然不會進來 —— 那天沒有東西可看。
+
+   卡片是站內的日子，用 <a href="?d="> 才複製得走、也開得了新分頁，
+   但點擊走 show()，不重新載整頁。 */
+function renderArchive() {
+  const box = document.getElementById('archive');
+  const rows = days.filter(d => d.category && (!active.size || active.has(d.category)))
+                   .reverse();                       // 新的排前面
+  box.innerHTML = '';
+
+  const cats = active.size ? [...active].map(id => CAT_LABEL[id] || id).join('、') : '';
+  document.getElementById('archive-h').textContent = `介紹過的${cats}`;
+  document.getElementById('archive-n').textContent = rows.length ? `${rows.length} 天` : '';
+
+  if (!rows.length) {
+    box.appendChild(el('div', 'archive__empty', active.size
+      ? '這幾類還沒有出過 —— 每天只出一件，四類輪著來，累積需要時間。'
+      : '還沒有介紹過任何一件。'));
+    return;
+  }
+
+  rows.forEach(d => {
+    const now = d.date === data.date;
+    const a = el('a', now ? 'card card--day card--now' : 'card card--day');
+    a.href = `?d=${d.date}`;
+    a.onclick = e => { e.preventDefault(); show(d.date, true); };
+    if (now) a.setAttribute('aria-current', 'page');
+    if (d.image_url) {
+      const img = el('img'); img.alt = ''; img.loading = 'lazy';
+      if (d.image_fallback) img.onerror = () => { img.onerror = null; img.src = d.image_fallback; };
+      img.src = d.image_url;
+      a.appendChild(img);
+    }
+    a.appendChild(el('div', 'card__t', d.title || d.date));
+    const s = el('div', 'card__s');
+    s.append(el('b', null, now ? '現在看的' : (CAT_LABEL[d.category] || '')),
+             el('span', null, d.date));
+    a.appendChild(s);
+    box.appendChild(a);
+  });
+}
+
+/* 有哪幾天可以看、那天是哪一類：[{date, category, title, image_url…}]。
+   出刊是有斷層的（抓取失敗、或那天沒跑），所以上一天／下一天不能用日期加減
+   —— 減一天會直接撞 404。照 index.json 列出的實際檔案走。 */
 let days = [];
 
 function fmtDate(iso) {
@@ -227,12 +301,8 @@ async function show(date, push) {
   if (!res.ok) return;                       // 檔案不在就原地不動，不要把畫面清空
   data = await res.json();
 
-  document.getElementById('date').textContent = fmtDate(data.date);
-  const i = days.indexOf(data.date);
-  document.getElementById('prev').disabled = i <= 0;
-  document.getElementById('next').disabled = i < 0 || i >= days.length - 1;
-
-  renderFilters(); renderFeature(); renderShowcase(); renderIndustry();
+  renderDateNav();
+  renderFilters(); renderFeature(); renderShowcase(); renderIndustry(); renderArchive();
   window.scrollTo(0, 0);
 
   /* 每一天要有自己的網址，這樣分享得出去、上一頁也回得來 */
@@ -241,23 +311,41 @@ async function show(date, push) {
   else history.replaceState({ d: data.date }, '', url);
 }
 
+function renderDateNav() {
+  document.getElementById('date').textContent = fmtDate(data.date);
+  document.getElementById('prev').disabled = !stepTarget(-1);
+  document.getElementById('next').disabled = !stepTarget(1);
+}
+
+/* 往前／往後的下一天是誰。用「比目前大／小的第一個」而不是 index±1：
+   選了分類之後，或是有人直接開 ?d= 一個不在名單裡的日子，
+   目前這天可能根本不在可翻的名單裡，indexOf 會是 -1、按鈕就死了。 */
+function stepTarget(delta) {
+  const list = navDays();
+  const here = data ? data.date : '';
+  const side = delta < 0 ? list.filter(d => d < here) : list.filter(d => d > here);
+  if (!side.length) return null;
+  return delta < 0 ? side[side.length - 1] : side[0];
+}
+
 function step(delta) {
-  const i = days.indexOf(data.date);
-  const j = i + delta;
-  if (i < 0 || j < 0 || j >= days.length) return;
-  show(days[j], true);
+  const t = stepTarget(delta);
+  if (t) show(t, true);
 }
 
 async function boot() {
   const latest = await fetch('data/latest.json').then(r => r.json());
 
   /* index.json 是後來才加的，舊的部署上可能還沒有 ——
-     沒有就退回「只有最新這天」，按鈕自己會是 disabled，不會壞掉 */
-  days = await fetch('data/index.json')
-    .then(r => r.ok ? r.json() : { dates: [] })
-    .then(j => j.dates || [])
-    .catch(() => []);
-  if (!days.includes(latest.date)) days = days.concat(latest.date).sort();
+     沒有就退回「只有最新這天」，按鈕自己會是 disabled，不會壞掉。
+     days 也是後來才加的（分類導覽與過往牆要用）；只有 dates 的舊索引就當作
+     沒有分類，chip 會全部是 disabled、牆是空的，日期導覽照樣能翻。 */
+  const idx = await fetch('data/index.json')
+    .then(r => r.ok ? r.json() : {})
+    .catch(() => ({}));
+  days = idx.days || (idx.dates || []).map(d => ({ date: d, category: null }));
+  if (!days.some(d => d.date === latest.date)) days.push({ date: latest.date, category: null });
+  days.sort((a, b) => a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
 
   document.getElementById('prev').onclick = () => step(-1);
   document.getElementById('next').onclick = () => step(1);
@@ -267,6 +355,6 @@ async function boot() {
   });
 
   const q = new URLSearchParams(location.search).get('d');
-  await show(q && days.includes(q) ? q : latest.date, false);
+  await show(q && days.some(d => d.date === q) ? q : latest.date, false);
 }
 boot();

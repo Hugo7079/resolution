@@ -76,16 +76,43 @@ def _within(item: dict, today: date, days: int) -> bool:
 
 def _write_index() -> None:
     """
-    web/data/index.json —— 有哪幾天可以看。
+    web/data/index.json —— 有哪幾天可以看、那天介紹的是哪一類。
 
     前端的上一天／下一天不能用日期加減：出刊是有斷層的
     （抓取失敗、或這天根本沒跑），減一天會直接撞 404。
     列出實際存在的檔案，前端照這個陣列走。
+
+    每一天連分類、標題、縮圖一起寫出來 —— 「過往」那面牆要一眼看到
+    同一類的好幾件，如果只給日期，前端得把每一天的當日檔都抓一遍才畫得出來
+    （一年就是 365 個 request）。這裡多花幾百 bytes，那邊省掉整批往返。
+
+    分類取的是 feature 的那個而不是最外層：主菜沒出來的日子，最外層仍會留著
+    當天輪到的分類，但那天實際上沒有東西可看，不該被算進任何一類、也不該
+    出現在牆上。舊格式的當日檔用的是 deepdive。
     """
-    days = sorted(f.stem for f in WEB_DATA.glob("*.json") if _DAY_FILE.match(f.name))
+    rows = []
+    for f in sorted(WEB_DATA.glob("*.json"), key=lambda f: f.stem):
+        if not _DAY_FILE.match(f.name):
+            continue
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            print(f"  [注意] 當日檔讀不動，索引跳過：{f.name}")
+            continue
+        feat = d.get("feature") or d.get("deepdive") or {}
+        rows.append({
+            "date": f.stem,
+            "category": feat.get("category") or None,
+            "title": feat.get("title") or "",
+            "image_url": feat.get("image_url") or "",
+            "image_fallback": feat.get("image_fallback") or "",
+        })
+
     (WEB_DATA / "index.json").write_text(
-        json.dumps({"dates": days}, ensure_ascii=False), encoding="utf-8")
-    print(f"  索引：{len(days)} 天（{days[0]} … {days[-1]}）" if days else "  索引：空的")
+        json.dumps({"dates": [r["date"] for r in rows], "days": rows},
+                   ensure_ascii=False), encoding="utf-8")
+    print(f"  索引：{len(rows)} 天（{rows[0]['date']} … {rows[-1]['date']}）"
+          if rows else "  索引：空的")
 
 
 def _failure_reason(diag: dict) -> str:
