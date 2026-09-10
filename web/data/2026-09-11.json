@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-11",
+  "category": "product_object",
+  "feature": {
+    "title": "3D 列印的「機械顯示器」：不需要電池，就能變色的開關",
+    "subject": {
+      "name": "ShiftLens",
+      "designer": "MIT 電機與電腦工程系研究團隊（Yunyi Zhu 等人）",
+      "client": "MIT 研究計畫",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 90,
+    "images_read": 1,
+    "neurons_used": 20.5,
+    "hook": "一個不需要電池、也不需要電路板的開關，只要轉動就能變色提醒你「對了」或「錯了」。它不是用電子做到的，而是靠兩層透明塑膠和一個巧妙的光學原理。",
+    "what_it_is": "這是一個由 MIT 研究團隊開發的 3D 列印系統，名叫 ShiftLens。它讓設計師能夠製造出「機械式互動物件」：透過轉動或移動透明的外殼，內部的彩色條紋會因為光學變化而顯示不同的顏色或訊息。例如，一個化學藥劑瓶可以透過轉動蓋子顯示「已正確密封」的狀態，而不需要電池或感測器。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "ShiftLens 使用兩層材質：外層是透明的「透鏡層」（lenticular lens），內層則是印有高對比度彩色條紋的「模組層」。透鏡層採用類似「條紋式透鏡」（linear lenticular sheet）的結構，每條透鏡約寬 0.3 毫米，間距約 0.15 毫米。內層的彩色條紋（圖中為綠色 #8BC34A 和黑色）則是以 3D 列印方式製成，厚度約 0.5 毫米。當外層透鏡轉動時，光線透過不同角度的透鏡條紋折射，讓內層的彩色條紋呈現不同的組合，產生「顏色變化」的效果。這個系統不需要電子元件，完全靠機械結構實現互動。",
+        "so_what": "原來「變色」不一定要靠 LED 或電池：只要兩層透明材質和一個轉動的動作，就能用光學原理做出「機械式顯示器」。這讓你下次看到任何需要「提示」的物件（如開關、蓋子、按鈕），都可以問問自己：這個功能是否也能用更簡單的方式實現？"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "ShiftLens 的優點是零電子元件、零電池、零維護成本，適合在極端環境（如化學實驗室、戶外設備）使用。但它犧牲了「多樣化的顏色變化」：因為依賴光學原理，顏色組合受限於內層條紋的設計。例如，圖中只能顯示「綠色」或「黑色」，無法像 LED 那樣隨意切換 RGB。此外，透鏡條紋的精度（0.3 毫米級）需要高解析度的 3D 列印機，成本比一般塑膠件高。如果目標是「低成本的單色提示」，這個系統很合適；但如果需要「豐富的顏色變化」，可能還是得回到電子解決方案。",
+        "so_what": "設計時常常要在「成本」和「功能」之間取捨。這個例子提醒你：如果你的產品在「極端環境」使用，或者「不能有電池」，那麼「機械式互動」可能是個比電子更可靠的選擇——即使它在顏色或精度上有些限制。"
+      },
+      {
+        "lens": "use",
+        "body": "使用者體驗類似於「轉動式密碼鎖」或「機械式手錶」：當你轉動外殼（例如藥劑瓶的蓋子），內部的彩色條紋會因為透鏡角度變化而顯示不同的訊息。例如，圖中底部標示「LIFE CYCLE」的物件，可能代表「轉到綠色表示已啟動／關閉／密封」。由於沒有電子元件，反應速度較慢（約 0.5 秒變化一次），但更耐用、不怕水濕或高溫。研究團隊強調這個系統適合「用戶直覺操作」的場景，例如醫療設備、工業儀表或兒童玩具。",
+        "so_what": "下次你用一個開關或旋鈕時，試著想像：如果這個動作不需要電，也不需要螢幕，只靠「轉動」就能告訴你「對」或「錯」，你會覺得這個產品更可靠嗎？這就是 ShiftLens 的設計邏輯。"
+      },
+      {
+        "lens": "context",
+        "body": "傳統的「變色開關」通常依賴 LED 或電子感測器（如霍爾感測器），例如智慧家電的按鈕、汽車儀表板的指示燈。這些解決方案需要電池、電路板，甚至可能在極端環境（如高溫、潮濕）失效。ShiftLens 則是回到「機械式互動」的概念，類似於 19 世紀的「機械式計算器」或「機械手錶」。它的創新在於將這種古老的原理與現代的 3D 列印技術結合，讓設計師能夠在不犧牲美觀的情況下，製造出「無電子」的互動物件。在可持續設計或工業領域，這種「去電子化」的趨勢正在重新受到關注。",
+        "so_what": "許多現代產品追求「智慧化」，但也帶來了電池、維護、廢棄物的問題。這個例子展示了一種反向思考的方式：在某些場合，「 dumb 的機械」可能比「聰明的電子」更可靠、更環保。這讓你下次設計時，可以多問一句：「這個功能是否真的需要電？」"
+      }
+    ],
+    "takeaway_everyone": "下次你看到一個開關、旋鈕或蓋子，試著觀察它是否「告訴」你狀態變化（如「開／關」、「密封／未密封」）。如果它靠 LED 或螢幕顯示，問問自己：這個訊息是否也能用「轉動」或「移動」來實現？例如，一個化學藥劑瓶的蓋子，如果轉到某個位置就顯示「已密封」，而不需要電池，不是更可靠嗎？ShiftLens 教你：許多「智慧化」的功能，其實可以用更簡單、更機械的方式做到。只要你願意放棄一些「多樣性」，就能獲得「耐用性」和「低成本」。",
+    "takeaway_designer": "在設計需要「狀態提示」的產品時，考慮以下三個步驟：1. 列出所有電子解決方案（如 LED、感測器、螢幕），並計算其成本、維護、環境適應性。2. 嘗試機械式替代方案：例如，透過「透鏡條紋 + 彩色條紋」的組合，或「凹凸結構 + 光線折射」的原理，實現類似效果。3. 評估取捨：如果你的產品在「極端環境」使用（如高溫、潮濕、戶外），或者需要「零維護」，那麼機械式互動可能比電子更可行。工具方面，MIT 的研究團隊開發了專門的設計軟體，可以幫助你模擬透鏡條紋的效果——這意味著未來可能會有商業化的軟體工具，讓你在 CAD 中直接設計這類物件。",
+    "glossary": [
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "RGB",
+        "plain": "螢幕發光混出顏色的方式（紅、綠、藍）。"
+      },
+      {
+        "term": "透鏡層（lenticular lens）",
+        "plain": "一種由許多細小條紋或凸透鏡組成的透明材質，能夠依照角度變化而顯示不同的圖案或顏色，常見於 3D 浮雕海報或玩具中。"
+      },
+      {
+        "term": "條紋式透鏡（linear lenticular sheet）",
+        "plain": "一種平面的透鏡材質，上面排列著許多平行的細長透鏡條紋（像是一排排的「放大鏡條」），可以用來製造「轉動變色」的效果。"
+      },
+      {
+        "term": "機械式互動（mechanical interaction）",
+        "plain": "不依賴電子元件，而是靠物理結構（如轉動、按壓、滑動）產生反饋或變化的設計方式，例如機械手錶、密碼鎖或這個案例中的「變色開關」。"
+      },
+      {
+        "term": "光學原理（optical principle）",
+        "plain": "利用光線的反射、折射或干涉等物理現象，製造視覺效果而不需要電子顯示器的技術，例如這個案例中的「透鏡條紋」變色效果。"
+      }
+    ],
+    "concretes": [
+      "內層彩色條紋顏色：綠色 (#8BC34A) 和黑色",
+      "3D 列印材質：透明塑膠（外層）與彩色塑膠（內層）",
+      "應用案例：化學藥劑瓶的「密封提示」功能",
+      "MIT 電機與電腦工程系（EECS）"
+    ],
+    "source_url": "https://www.core77.com/posts/145281/ShiftLens-A-System-for-3D-Printing-Lenticular-Objects",
+    "source_name": "Core77",
+    "published": "2026-09-08T13:00:00+00:00",
+    "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1848814_lead_400_145281_.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Core77．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "創作者商店",
+      "title_original": "Creator Shop",
+      "url": "https://www.behance.net/gallery/252326959/Creator-Shop",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/4c223e252326959.Y3JvcCwxOTg1LDE1NTMsNDk2LDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "設計工程師職涯路徑：從初階到領導層的等級、技能、職責與成長",
+      "title_original": "The Design Engineer Career Path: Levels, Skills, Responsibilities, and Growth From Junior to Lead",
+      "url": "https://medium.muz.li/the-design-engineer-career-path-levels-skills-responsibilities-and-growth-from-junior-to-lead-a578d31dfd18?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*LYIkzZzq3jsBe6-MEzRhnQ.jpeg",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Anna Ortiz 穿越邊境的多重現實",
+      "title_original": "Anna Ortiz Traverses the Multiple Realities of the Borderlands",
+      "url": "https://www.thisiscolossal.com/2026/09/anna-ortiz-shapeshifter-paintings/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/ortiz-2.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "插畫家專訪：kokooma",
+      "title_original": "Illustrator Spotlight: kokooma",
+      "url": "https://www.booooooom.com/2026/09/09/illustrator-spotlight-kokooma/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/kokooma1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "BLASTEMA",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/255267949/BLASTEMA",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/4b7565255267949.Y3JvcCwyNDk4LDE5NTMsNDg4LDExMDY.jpeg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "115年「學美．美學—校園美感設計實踐專案」第2梯次設計提案評選結果公告",
+      "title_original": "115年「學美．美學—校園美感設計實踐計畫」 第2梯次設計提案評選結果公告！",
+      "url": "https://www.tdri.org.tw/zh-TW/news/762",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-10T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Apple 終於加入對抗偽造 AI 影像的戰爭",
+      "title_original": "At last, Apple joins the war against fake AI images",
+      "url": "https://www.fastcompany.com/91604555/apple-reference-image-war-against-fake-ai-images?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-10T10:15:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "別再談 iPhone Duo，這些超便宜的 dumb phone 提供你可能渴望的數位解毒",
+      "title_original": "Forget the iPhone Duo, these super cheap dumb phones offer the digital detox you're probably craving",
+      "url": "https://www.creativebloq.com/tech/phones-tablets/forget-the-iphone-duo-these-super-cheap-dumb-phones-offer-the-digital-detox-youre-probably-craving",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-10T19:19:19+00:00",
+      "region": "en"
+    },
+    {
+      "title": "GridScout 的品牌視覺識別設計",
+      "title_original": "GridScout’s brand identity",
+      "url": "https://the-brandidentity.com/project/skogen-borrows-from-scouting-not-tech-for-gridscouts-identity",
+      "source_name": "Sidebar",
+      "published": "2026-09-10T05:04:00+00:00",
+      "region": "en"
+    }
+  ]
+}
