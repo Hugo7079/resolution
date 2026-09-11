@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-12",
+  "category": "space_env",
+  "feature": {
+    "title": "用波浪形屋頂講一個城市的故事：米蘭的現代主義遺產如何被重新發現",
+    "subject": {
+      "name": "Nervi’s Waves",
+      "designer": "Park 設計工作室",
+      "client": "DomoMedia",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 90,
+    "images_read": 1,
+    "neurons_used": 41.1,
+    "hook": "這棟 1950 年代的米蘭建築，屋頂像波浪一樣起伏，修復時沒有改變原本的樣子，卻讓整個城市的記憶重新活起來。",
+    "what_it_is": "一棟位於米蘭的現代主義建築，原本由 20 世紀 50 年代的建築大師設計，屋頂採用波浪形狀（像神經纖維一樣），近年來由 Park 設計工作室主導修復。這棟建築沒有被列為古蹟，但修復團隊選擇保留原本的外觀和結構，讓它成為城市記憶的一部分。",
+    "angles": [
+      {
+        "lens": "message",
+        "body": "這棟建築的外觀最明顯的特徵是屋頂的波浪形狀，設計師將其稱為「Nervi’s Waves」，像是神經纖維的結構。修復計畫的文宣中，這個形狀被視為「城市的記憶」，而不是單純的建築造型。波浪形屋頂不僅是結構設計，也是對 1950 年代現代主義的致敬，讓人聯想到當時的工業美學和未來主義。在修復過程中，團隊決定不改變原本的外觀，而是透過結構加固和材質保護，讓這個「波浪」成為米蘭城市景觀的標誌。從遠處看，這棟建築的屋頂線條像是一張張重疊的波紋，讓人聯想到海洋或聲波，與周圍的直線型建築形成鮮明對比。",
+        "so_what": "建築不只是房子，它可以是一個城市的「記憶」——透過保留特殊的造型，讓過去的設計語言在現在重新被看見。"
+      },
+      {
+        "lens": "context",
+        "body": "這棟建築屬於 1950 年代的現代主義風格，當時米蘭是歐洲工業設計和建築實驗的重要據點。與同期的建築相比，它的屋頂設計並不常見，大多數現代主義建築採用平頂或簡單的斜坡屋頂。Nervi’s Waves 的波浪形屋頂可能受到工程師 Pier Luigi Nervi 的影響，他以混凝土薄殼結構聞名，這種設計在當時被視為技術創新。修復團隊選擇不改變這個特徵，讓它成為米蘭現代主義建築中的「異類」，而不是融入主流。在米蘭的城市景觀中，這棟建築像是一個「活化石」，讓人回憶起當時的設計實驗精神。",
+        "so_what": "有些建築不是跟著潮流走，而是保留了當時的「另類」設計，成為城市中獨特的記憶點。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "修復團隊選擇保留原本的波浪形屋頂，這意味著他們犧牲了現代化的外觀更新。例如，他們沒有將屋頂改成平頂或更簡單的形狀，這在現代建築修復中很常見，因為平頂更容易維護和符合當代美學。此外，保留原本的混凝土結構和波浪形狀，可能增加了維護成本，因為這種設計需要更複雜的結構加固。然而，這個選擇讓建築成為米蘭現代主義的「活化石」，而不是一棟「時髦」的現代建築。如果目標是追求低維護成本或現代感，這個設計可能不會被選擇。",
+        "so_what": "保留原本的設計可能需要付出更高的維護成本，但換來的是「歷史」而不是「時髦」——這是一個城市記憶的取捨。"
+      },
+      {
+        "lens": "use",
+        "body": "這棟建築的修復不僅是結構上的加固，也讓它成為米蘭的觀光和文化地標。波浪形屋頂在遠處就能辨識，成為城市天際線的一部分。從街道上看，這棟建築的立面和屋頂線條像是一張「活動的地圖」，讓人聯想到城市的脈動。修復後，建築內部可能會作為文化空間使用，例如展覽館或設計工作室，讓人走進去感受現代主義的設計語言。此外，這棟建築的修復過程也成為設計教育的案例，展示如何在沒有古蹟保護的情況下，透過設計保留城市記憶。",
+        "so_what": "一棟建築不只是被看，還可以被「走進」和「感受」——它的設計語言在城市中成為一種「活動的文化資產」。"
+      }
+    ],
+    "takeaway_everyone": "下次在城市裡看到一棟「奇怪」的建築時，試著問自己：這棟房子的外觀在說什麼故事？它是否像一本書，讓人透過線條和形狀就能讀到過去的設計語言？有些建築不是為了「時髦」而存在，而是為了保留一個城市的「記憶」——就像這棟波浪形屋頂，它不需要改變，只需要被重新發現。",
+    "takeaway_designer": "在修復或設計城市建築時，可以考慮以下策略：1. 保留「異類」設計：即使某個建築在當時並不主流，它的獨特性可能成為城市的特色。2. 結構與美學的平衡：透過結構加固和材質保護，而不是外觀改造，讓建築保有歷史價值。3. 創造「活化石」：將修復後的建築作為文化或教育資源，讓設計語言在現代城市中重新活躍。4. 遠近景的可識別性：設計屋頂或立面的特徵，讓建築在遠處就能成為城市的地標。",
+    "glossary": [
+      {
+        "term": "立面",
+        "plain": "建築物從正面看過去的樣子。"
+      },
+      {
+        "term": "現代主義建築",
+        "plain": "20 世紀初興起的建築風格，強調功能性、簡潔的線條和新材料（如混凝土、鋼鐵），常見於歐美城市，例如米蘭、芝加哥。"
+      },
+      {
+        "term": "波浪形屋頂",
+        "plain": "屋頂像海浪或波紋一樣起伏的設計，通常用於現代主義或未來主義建築，既是結構需求也是視覺特徵。"
+      },
+      {
+        "term": "結構加固",
+        "plain": "透過工程手法（如加強鋼筋、混凝土補強）讓老舊建築保持穩定，而不改變外觀。"
+      },
+      {
+        "term": "城市記憶",
+        "plain": "指一棟建築或設計元素如何成為城市歷史的一部分，讓人透過它聯想到過去的時代或文化。"
+      },
+      {
+        "term": "古蹟保護",
+        "plain": "政府或組織對歷史建築進行的法律保護，限制其改建或拆除，但這棟建築沒有這樣的保護，修復靠的是設計師的自覺。"
+      }
+    ],
+    "concretes": [
+      "波浪形屋頂（像神經纖維或聲波的結構）",
+      "1950 年代現代主義建築風格",
+      "混凝土薄殼結構（Pier Luigi Nervi 的設計手法）",
+      "米蘭城市天際線中的獨特地標"
+    ],
+    "source_url": "https://www.abitare.it/en/architecture/projects/2026/09/09/park-restoration-1950-building-milan/",
+    "source_name": "Abitare",
+    "published": "2026-09-09T05:30:00+00:00",
+    "image_url": "https://static2.abitare.it/wp-content/uploads/2026/09/01-studio-Park-Miano-en.jpg?v=548583",
+    "image_fallback": "https://static2.abitare.it/wp-content/uploads/2026/09/01-studio-Park-Miano-en-200x150.jpg?v=548583",
+    "credit": "圖片來源：Abitare．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "混合訊號",
+      "title_original": "MIXED SIGNALS",
+      "url": "https://www.behance.net/gallery/255506593/MIXED-SIGNALS",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ebdc57255506593.Y3JvcCwxNTI5LDExOTUsMCwxNjI.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "從概念到量產：我的行動軟體上架過程",
+      "title_original": "From concept to a production: What shipping my mobile app looked like?",
+      "url": "https://medium.muz.li/from-concept-to-a-production-what-shipping-my-mobile-app-looked-like-e10e0334bf2d?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/2048/1*PBPu0qDu7mRUBS-GKBao5g.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "對稱與生物形態特徵羅伯塔·甘特里的感官繪畫",
+      "title_original": "Symmetry and Biomorphic Forms Characterize Roberta Gentry’s Sensual Paintings",
+      "url": "https://www.thisiscolossal.com/2026/09/roberta-gentry-blood-orange-acrylic-paintings/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/gentry-1.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師專訪：Raphaël Gaultier",
+      "title_original": "Photographer Spotlight: Raphaël Gaultier",
+      "url": "https://www.booooooom.com/2026/09/11/photographer-spotlight-raphael-gaultier/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Gaultier1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "MIL900品牌設計",
+      "title_original": "MIL900 Branding.",
+      "url": "https://www.behance.net/gallery/251602081/MIL900-Branding",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/f8f57c251602081.Y3JvcCwzMDk0LDI0MjAsMjA2LDg0.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "115年「學美．美學—校園美感設計實踐計畫」第2梯次設計提案評選結果公告",
+      "title_original": "115年「學美．美學—校園美感設計實踐計畫」 第2梯次設計提案評選結果公告！",
+      "url": "https://www.tdri.org.tw/zh-TW/news/762",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-10T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "2,977架無人機創造這場震撼的9/11紀念表演，這是他們如何完成的",
+      "title_original": "It took 2,977 drones to create this stunning 9/11 memorial show. Here’s how they pulled it off",
+      "url": "https://www.fastcompany.com/91605415/911-memorial-drone-show-design?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-11T10:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "iPhone Duo即將登場，但這些經過測試的折疊手機折扣高達500美元",
+      "title_original": "iPhone Duo is coming, but these rival tried-and-tested foldable phones have up to $500 off",
+      "url": "https://www.creativebloq.com/tech/phones-tablets/iphone-duo-is-coming-but-rival-tried-and-tested-foldable-phones-have-up-to-usd500-off",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-11T21:28:33+00:00",
+      "region": "en"
+    },
+    {
+      "title": "AI讓我們建造過多東西",
+      "title_original": "AI is making us build too much",
+      "url": "https://sjg.io/writing/ai-is-making-us-build-too-much/",
+      "source_name": "Sidebar",
+      "published": "2026-09-11T05:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
