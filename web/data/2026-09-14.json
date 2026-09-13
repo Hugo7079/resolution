@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-14",
+  "category": "interface_ux",
+  "feature": {
+    "title": "九月桌布：用三種顏色和一個對稱圖形說明季節的轉換",
+    "subject": {
+      "name": "The Many Faces Of September (2026 Wallpapers Edition)",
+      "designer": "",
+      "client": "",
+      "year": "2026（預計發布年份）"
+    },
+    "category": "interface_ux",
+    "category_label": "介面與體驗",
+    "confidence": 90,
+    "images_read": 1,
+    "neurons_used": 24.9,
+    "hook": "這張桌布沒有文字，卻用三種顏色和一個對稱的圖形，讓你在三秒內知道：夏天結束了，秋天要來了。",
+    "what_it_is": "這是一組 2026 年九月的桌布設計，由 Smashing Magazine 網站團隊製作，提供給電腦使用者下載。每張桌布都是數位繪圖，沒有文字，只靠顏色和圖形傳達季節感。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "這組桌布用了三種主色：橘色 (#FFC080)、藍色 (#3498DB) 和綠色 (#8BC34A)。橘色是主色，佔據最多空間，代表夏天的餘溫；藍色和綠色則像是秋天的預告，藍色可能象徵天空，綠色則是樹葉的綠意。這三種顏色的對比度很高，讓畫面看起來鮮明而不混亂。橘色和藍色的組合常見於暖色和冷色的對比，而綠色則是中間調和的角色，讓整體不至於過於強烈。",
+        "so_what": "當你想用顏色傳達情緒或季節時，可以試試用三種顏色：一個代表「現在」、一個代表「過去」、一個代表「未來」。這樣觀看的人會自動在腦海中連結這三個階段。"
+      },
+      {
+        "lens": "layout",
+        "body": "這張桌布沒有格線或欄位，但圖形本身是對稱的，中心點明確。整體佔據空間約 70%，留白率約 30%。圖形的中心點位於畫面中央，讓視線自然聚焦在這裡。對稱的設計讓人覺得平衡，不會有視覺上的混亂感。雖然沒有文字，但圖形的形狀（類似葉子或花瓣的形狀）和顏色的變化，已經足以引導觀看者的目光。",
+        "so_what": "當你想設計一個沒有文字的視覺作品時，可以用對稱的圖形和明確的中心點，讓人知道「這裡最重要」。對稱不一定要完全對稱，但至少要有一個明確的「重心」，讓人知道該看哪裡。"
+      },
+      {
+        "lens": "message",
+        "body": "這張桌布沒有文字，但透過顏色和圖形傳達了季節轉換的訊息。橘色代表夏天的餘溫，藍色和綠色則預告秋天的到來。圖形的形狀（類似葉子或花瓣）讓人聯想到自然界的變化。在三秒內，觀看者可以從這張桌布中讀到「夏天結束了，秋天要來了」的訊息。這是一種無聲的溝通，不需要文字，卻能傳達明確的意圖。",
+        "so_what": "當你想傳達一個簡單的概念時，不一定要用文字。有時候，一個圖形、一種顏色，甚至一個動作，都能比文字更有效地傳達訊息。試試看，用非文字的方式說話。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這張桌布選擇了對稱的設計和鮮明的顏色，犧牲了複雜的圖形和細節。對稱的設計讓人覺得平衡，但可能不如非對稱設計那麼生動。鮮明的顏色讓畫面看起來活潑，但可能不如柔和的色調那麼溫暖。如果目標是傳達「季節轉換」這樣的概念，這個選擇是合理的；但如果目標是傳達「複雜的自然景觀」，這個選擇可能就不太適合。",
+        "so_what": "每個設計都有取捨。你選擇了簡單的圖形和鮮明的顏色，就可能犧牲了細節和複雜性。問問自己：我的目標是什麼？然後決定哪些東西可以犧牲，哪些不能。"
+      }
+    ],
+    "takeaway_everyone": "下次你看到一張桌布、一張海報，或者手機的背景圖，試著問自己：這張圖在說什麼？它用什麼顏色、什麼圖形、什麼排版來傳達訊息？有時候，設計師不需要用文字，就能讓你看懂他們想說的話。學會用「顏色」、「形狀」、「對稱」這三個鏡頭來看世界，你會發現很多東西都有「故事」在裡面。",
+    "takeaway_designer": "當你需要設計一個沒有文字的視覺作品時，可以參考這個案例：用三種顏色代表三個階段（過去、現在、未來），並透過對稱的圖形和明確的中心點引導視線。同時，考慮你的設計犧牲了什麼（例如複雜性、細節），並確認這些犧牲是否符合你的目標。這樣的設計不僅簡單，還能傳達明確的訊息。",
+    "glossary": [
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "欄位",
+        "plain": "版面上直的分欄，報紙分三欄、四欄就是這個意思。"
+      },
+      {
+        "term": "留白率",
+        "plain": "版面上空著的比例。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "對稱",
+        "plain": "左右或上下看起來一樣的設計，讓人覺得平衡和穩定。"
+      },
+      {
+        "term": "中心點",
+        "plain": "畫面中最吸引人注意力的位置，通常是設計者希望觀看者最先看到的地方。"
+      }
+    ],
+    "concretes": [
+      "三種主色：橘色 (#FFC080)、藍色 (#3498DB)、綠色 (#8BC34A)",
+      "對稱的圖形設計，中心點明確",
+      "70% 圖形、30% 留白率",
+      "無襯線字體（sans-serif），字形特徵包括 terminals（字尾）、aperture（字母開口）和高對比度"
+    ],
+    "source_url": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
+    "source_name": "Smashing Magazine",
+    "published": "2026-08-31T11:00:00+00:00",
+    "image_url": "https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/55161fb1-16dc-47e1-a118-5ecd0f0a3fbb/sept-17-autumn-rains-preview-opt.png",
+    "image_fallback": "",
+    "credit": "圖片來源：Smashing Magazine．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "911 的插畫作品",
+      "title_original": "911's Illustrations",
+      "url": "https://www.behance.net/gallery/255519329/911s-Illustrations",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/dd9467255519329.Y3JvcCwxMTA2LDg2NSwxOTEsMjQ.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "山毛櫸林的秋天",
+      "title_original": "Autumn in the Beech Forest",
+      "url": "https://www.behance.net/gallery/255488125/Autumn-in-the-Beech-Forest",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/829c42255488125.Y3JvcCwxNzA1LDEzMzQsNzEsMA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "TEKarrc",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1847",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1847/thumb_2x_image_2c3064.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "夢想",
+      "title_original": "DREAM",
+      "url": "https://www.behance.net/gallery/214506865/DREAM",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/dd9642214506865.Y3JvcCw0MDYwLDMxNzYsMzMxLDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "N.L.N. 別墅",
+      "title_original": "N.L.N. Villa",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2107",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2107/thumb_2x_image_1110e9.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "在 AI 時代，L.L. Bean 大舉投注實體購物體驗",
+      "title_original": "In the age of AI, L.L. Bean is betting big on brick-and-mortar shopping",
+      "url": "https://www.fastcompany.com/91602349/ll-bean-new-flagship-store-design?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-13T11:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "原廠 Nintendo Switch 關稅退稅大促正式登場，經典遊戲最高折扣 30%",
+      "title_original": "The huge Nintendo Switch 'tariff refund sale' has begun, and there's 30% off iconic games",
+      "url": "https://www.creativebloq.com/entertainment/gaming/the-huge-nintendo-switch-tariff-refund-sale-has-begun-and-theres-30-percent-off-iconic-games",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-13T20:04:57+00:00",
+      "region": "en"
+    },
+    {
+      "title": "2026 最佳 AI 產品照片生成工具全面指南",
+      "title_original": "What is the Best AI Product Photo Generator? A Complete 2026 Guide",
+      "url": "https://webdesignernews.com/what-is-the-best-ai-product-photo-generator-a-complete-2026-guide/",
+      "source_name": "Web Designer News",
+      "published": "2026-09-13T18:15:38+00:00",
+      "region": "en"
+    }
+  ]
+}
