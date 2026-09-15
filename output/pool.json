@@ -39,6 +39,19 @@
       "title": "Kobuk the Destroyer",
       "url": "https://99percentinvisible.org/?p=48496"
     },
+    "https://99percentinvisible.org/?p=48765": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://image.simplecastcdn.com/images/96792a27-13c3-40ce-b933-36bdb43a299e/82d76f05-5b84-44ec-8c76-9e9cfc0768f7/stitcher-graphics-pack-99percentinvisible-r2021-1920x1080-a.jpg",
+      "kind": "podcast",
+      "published": "2026-09-15T08:00:00+00:00",
+      "region": "en",
+      "source_name": "99% Invisible",
+      "summary": "A legendary typeface, a spectacular friendship breakup, and one extremely committed act of revenge.",
+      "title": "Doves Type",
+      "url": "https://99percentinvisible.org/?p=48765"
+    },
     "https://abduzeedo.com/apparel-brand-identity-be-more-human-defy/": {
       "_seen": "2026-09-07",
       "cat_hint": null,
@@ -376,6 +389,19 @@
       "summary": "礒健介 / 礒建築設計事務所が設計した、神奈川・座間市の「さがみ野の家」です。 住宅街の旗竿形状の敷 […]",
       "title": "礒健介 / 礒建築設計事務所による、神奈川・座間市の「さがみ野の家」。住宅街の旗竿形状の敷地。書斎を含む5部屋が必要な与件に対し、各部屋の眺望や動線などを検討して平面中央に“螺旋階段”を据える構成を考案。螺旋階段は“リズム”も生み出し“静かな動き”を暮らしにもたらす",
       "url": "https://architecturephoto.net/252051/"
+    },
+    "https://architecturephoto.net/254167/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://d6pmnsnqga8dz.cloudfront.net/wp/wp-content/uploads/2026/07/dadaarc-ooyane-experimental-house-001.jpg",
+      "kind": "media",
+      "published": "2026-09-15T21:52:27+00:00",
+      "region": "jp",
+      "source_name": "architecturephoto",
+      "summary": "渡辺恭兵 / 建築工房DADAが設計した、宮城・仙台市の「大屋根の実験住宅」です。 南向きの平坦な住 […]",
+      "title": "渡辺恭兵 / 建築工房DADAによる、宮城・仙台市の「大屋根の実験住宅」。南向きの平坦な住宅地での計画。“自然を自分でつくる”を掲げ、平面の約4割を“壁で囲んだ中庭”としてランダムな開口から“植物が見え隠れする”建築を構築。ガラス面を多用し“面積以上の開放感”も生み出す",
+      "url": "https://architecturephoto.net/254167/"
     },
     "https://architecturephoto.net/254265/": {
       "_seen": "2026-09-07",
@@ -767,6 +793,32 @@
       "title": "2026年の高松宮殿下記念世界文化賞（建築部門）を、ダニエル・リベスキンドが受賞。ヴェネツィア・ビエンナーレ金獅子賞なども受賞している建築家で、“ベルリン・ユダヤ博物館”などの代表作品で知られる",
       "url": "https://architecturephoto.net/257397/"
     },
+    "https://architecturephoto.net/257428/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://d6pmnsnqga8dz.cloudfront.net/wp/wp-content/uploads/2026/09/neysama202609-1.jpg",
+      "kind": "media",
+      "published": "2026-09-15T09:02:52+00:00",
+      "region": "jp",
+      "source_name": "architecturephoto",
+      "summary": "構造と橋梁のデザインから、“公共のかたち”を発想する「ネイ＆パートナーズジャパン」の、建築設計と構造 […]",
+      "title": "【ap job更新】 構造と橋梁のデザインから、“公共のかたち”を発想する「ネイ＆パートナーズジャパン」が、建築設計と構造設計のスタッフ（経験者・既卒・2027年新卒）を募集中",
+      "url": "https://architecturephoto.net/257428/"
+    },
+    "https://bencho.dev/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://bencho.dev/share-cover-orbit.png",
+      "kind": "industry",
+      "published": "2026-09-15T05:16:50+00:00",
+      "region": "en",
+      "source_name": "Sidebar",
+      "summary": "A library of interactive UI blocks you can explore, tweak, and take straight into your projects.",
+      "title": "Bencho",
+      "url": "https://bencho.dev/"
+    },
     "https://blog.mastykarz.nl/your-product-didnt-get-worse/": {
       "_seen": "2026-09-07",
       "cat_hint": null,
@@ -844,6 +896,19 @@
       "summary": "Well, that’s a wrap. No, not a flex-wrap, but rather today marks a new day, week, month, season, aaaand new edition of What’s important (#18), bringing you the best content that developers have produced over the last couple of weeks or so. What’s !important #18: <geolocation>, Syntax ::highlight()ing, named-feature(), and More originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
       "title": "What’s !important #18: , Syntax ::highlight()ing, named-feature(), and More",
       "url": "https://css-tricks.com/whats-important-18/"
+    },
+    "https://darioamodei.com/post/we-must-pace-the-frontier": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T05:18:01+00:00",
+      "region": "en",
+      "source_name": "Sidebar",
+      "summary": "Dario Amodei proposes a three-step framework for AI companies to slow capability progress to ensure safety systems.",
+      "title": "We must pace the frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
     },
     "https://design-milk.com/audo-copenhagen-fall-2026-collection/": {
       "_seen": "2026-09-07",
@@ -1092,6 +1157,19 @@
       "title": "Snoopy’s Fashion Résumé Gets a New Chapter in New York",
       "url": "https://design-milk.com/snoopy-in-style-nyc-fashion-exhibition/"
     },
+    "https://design-milk.com/south-african-designers-maison-objet-2026/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://design-milk.com/images/2026/09/RISING-TALENT_SIMPHIWE-MLAMBO_HALL5A_0919_MO_Sept2026_©Anne-Emmanuelle-Thion-1500x1000.jpg",
+      "kind": "media",
+      "published": "2026-09-15T20:39:44+00:00",
+      "region": "en",
+      "source_name": "Design Milk",
+      "summary": "Maison&Objet’s Rising Talent Awards put the spotlight on 7 South African designers and studios bringing new perspectives to furniture, lighting, textiles, and objects",
+      "title": "7 South African Designers to Know From Maison&Objet 2026",
+      "url": "https://design-milk.com/south-african-designers-maison-objet-2026/"
+    },
     "https://design-milk.com/studio-rosenthal-gramercy-park-apartment/": {
       "_seen": "2026-09-07",
       "cat_hint": "product_object",
@@ -1130,6 +1208,19 @@
       "summary": "Three new designs translate the fashion designer’s signature color, pattern, and Palm Springs optimism from clothing to the floor",
       "title": "Trina Turk Digs Into the Archives for Her Latest FLOR Rugs",
       "url": "https://design-milk.com/trina-turk-flor-rugs-2026/"
+    },
+    "https://design-milk.com/venus-williams-crate-barrel-grand-slam-collection/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://design-milk.com/images/2026/09/CB_SP26_GS_04_746_Vert__284-1500x1151.jpeg",
+      "kind": "media",
+      "published": "2026-09-15T13:00:04+00:00",
+      "region": "en",
+      "source_name": "Design Milk",
+      "summary": "The tennis champion and V Starr founder brings Milanese influences, mid-century modernism, and subtle nods to the court into furniture and decor for adults and kids",
+      "title": "Venus Williams Serves Up a New Collection With Crate & Barrel",
+      "url": "https://design-milk.com/venus-williams-crate-barrel-grand-slam-collection/"
     },
     "https://design-milk.com/what-the-if-design-award-reveals-about-where-global-design-is-heading-next/": {
       "_seen": "2026-09-15",
@@ -1508,6 +1599,19 @@
       "title": "전 세계 커뮤니티센터 네 곳이 ‘포용’을 디자인하는 방식",
       "url": "https://design.co.kr/article/173566/#utm_source=rss&utm_medium=rss&utm_campaign=%25ec%25a0%2584-%25ec%2584%25b8%25ea%25b3%2584-%25ec%25bb%25a4%25eb%25ae%25a4%25eb%258b%2588%25ed%258b%25b0%25ec%2584%25bc%25ed%2584%25b0-%25eb%2584%25a4-%25ea%25b3%25b3%25ec%259d%25b4-%25ed%258f%25ac%25ec%259a%25a9%25ec%259d%2584-%25eb%2594%2594%25ec%259e%2590%25ec%259d%25b8%25ed%2595%2598"
     },
+    "https://design.co.kr/article/173598/#utm_source=rss&utm_medium=rss&utm_campaign=405%25ec%259d%25bc%25ea%25b0%2584%25ec%259d%2598-%25ec%2597%25ac%25ec%25a0%2595-%25ec%2583%2588%25eb%25a1%259c%25ec%259a%25b4-%25ec%2595%2584%25ec%259a%25b0%25eb%2594%2594%25ec%259d%2598-%25eb%25aa%25a8%25eb%258d%25b8-%25ec%25a0%259c%25ec%259e%2591%25ea%25b8%25b0": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "https://design-plus.storage.googleapis.com/wp-content/uploads/2026/09/11173408/20260911083405-01-832x832.jpg",
+      "image_url": "https://design-plus.storage.googleapis.com/wp-content/uploads/2026/09/11173408/20260911083405-01.jpg",
+      "kind": "media",
+      "published": "2026-09-15T22:00:00+00:00",
+      "region": "kr",
+      "source_name": "월간디자인 月刊 Design",
+      "summary": "아우디는 몬테레이 카 위크에서 고성능 하이브리드 슈퍼카 ‘누볼라리’를 공개했다. 1,001마력의 강력한 성능과 첨단 하이브리드·공력 기술, 새로운 디자인 철학을 적용했으며, 첫 스케치부터 주행 가능한 프로토타입 완성까지 단 405일이 걸렸다. 모터스포츠 기술과 신속한 협업을 바탕으로 아우디의 미래 슈퍼카 방향성을 제시한 모델이다. The post 405일간의 여정, 새로운 아우디의 모델 제작기 appeared first on 디자인플러스 .",
+      "title": "405일간의 여정, 새로운 아우디의 모델 제작기",
+      "url": "https://design.co.kr/article/173598/#utm_source=rss&utm_medium=rss&utm_campaign=405%25ec%259d%25bc%25ea%25b0%2584%25ec%259d%2598-%25ec%2597%25ac%25ec%25a0%2595-%25ec%2583%2588%25eb%25a1%259c%25ec%259a%25b4-%25ec%2595%2584%25ec%259a%25b0%25eb%2594%2594%25ec%259d%2598-%25eb%25aa%25a8%25eb%258d%25b8-%25ec%25a0%259c%25ec%259e%2591%25ea%25b8%25b0"
+    },
     "https://design.co.kr/article/173627/#utm_source=rss&utm_medium=rss&utm_campaign=%25ec%259c%2584%25ed%2581%25b4%25eb%25a6%25ac-%25eb%2594%2594%25ec%259e%2590%25ec%259d%25b8-%25ec%259a%25b0%25eb%25a6%25ac%25ea%25b0%2580-%25eb%25aa%25b0%25eb%259e%2590%25eb%258d%2598-fb-%25eb%25b8%258c%25eb%259e%259c%25eb%2593%259c%25ec%259d%2598-%25eb%2594%2594%25ec%259e%2590%25ec%259d%25b8": {
       "_seen": "2026-09-14",
       "cat_hint": null,
@@ -1533,6 +1637,32 @@
       "summary": "'다가오는 타자'를 주제로 한 '2026 헬싱키 디자인 위크'는 결과물 대신 만남에 주목했다. 도심 곳곳의 미팅 포인트를 통해 디자인 유산을 재해석하고 공실 실험을 펼치며, 누구를 위한 디자인인지 성찰하는 계기를 마련했다 The post 헬싱키 디자인 위크가 익숙한 디자인과 도시를 다루는 방식 appeared first on 디자인플러스 .",
       "title": "헬싱키 디자인 위크가 익숙한 디자인과 도시를 다루는 방식",
       "url": "https://design.co.kr/article/173647/#utm_source=rss&utm_medium=rss&utm_campaign=%25ed%2597%25ac%25ec%258b%25b1%25ed%2582%25a4-%25eb%2594%2594%25ec%259e%2590%25ec%259d%25b8-%25ec%259c%2584%25ed%2581%25ac%25ea%25b0%2580-%25ec%259d%25b5%25ec%2588%2599%25ed%2595%259c-%25eb%2594%2594%25ec%259e%2590%25ec%259d%25b8%25ea%25b3%25bc-%25eb%258f%2584%25ec%258b%259c%25eb%25a5%25bc-%25eb%258b%25a4%25eb%25a3%25a8"
+    },
+    "https://design.co.kr/article/173677/#utm_source=rss&utm_medium=rss&utm_campaign=%25ea%25b5%25ac%25ea%25b0%2595-%25ea%25b4%2580%25eb%25a6%25ac%25ec%259d%2598-%25ec%2583%2588%25eb%25a1%259c%25ec%259a%25b4-%25ed%258c%25a8%25eb%259f%25ac%25eb%258b%25a4%25ec%259e%2584-%25eb%258b%25a4%25ec%259d%25b4%25ec%258a%25a8-%25ec%25b9%25b4%25eb%25a9%2594%25eb%259d%25bc%25ec%25a0%25af": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://design-plus.storage.googleapis.com/wp-content/uploads/2026/09/14112849/20260914022848-0-832x1109.jpg",
+      "kind": "media",
+      "published": "2026-09-15T06:00:00+00:00",
+      "region": "kr",
+      "source_name": "월간디자인 月刊 Design",
+      "summary": "수십 년간 크게 달라지지 않았던 구강 관리 방식에 다이슨이 변화를 꾀했다. 자사 최초의 오랄케어 제품 ‘다이슨 카메라젯’으로 양치와 치간 세정을 단일 과정으로 통합했다. The post 전동 칫솔의 새로운 패러다임, 다이슨 카메라젯 appeared first on 디자인플러스 .",
+      "title": "전동 칫솔의 새로운 패러다임, 다이슨 카메라젯",
+      "url": "https://design.co.kr/article/173677/#utm_source=rss&utm_medium=rss&utm_campaign=%25ea%25b5%25ac%25ea%25b0%2595-%25ea%25b4%2580%25eb%25a6%25ac%25ec%259d%2598-%25ec%2583%2588%25eb%25a1%259c%25ec%259a%25b4-%25ed%258c%25a8%25eb%259f%25ac%25eb%258b%25a4%25ec%259e%2584-%25eb%258b%25a4%25ec%259d%25b4%25ec%258a%25a8-%25ec%25b9%25b4%25eb%25a9%2594%25eb%259d%25bc%25ec%25a0%25af"
+    },
+    "https://design.co.kr/article/173729/#utm_source=rss&utm_medium=rss&utm_campaign=%25eb%25b0%2580%25eb%259d%25bc%25eb%2585%25b8-%25ed%258a%25b8%25eb%25a6%25ac%25ec%2597%2594%25eb%2582%25a0%25eb%25a0%2588%25ec%2597%2590%25ec%2584%259c-%25eb%25a7%258c%25eb%2582%259c-%25eb%2591%2590-%25ea%25b1%25b0%25ec%259e%25a5-%25ec%2595%2588%25eb%2593%259c%25eb%25a0%2588%25ec%2595%2584-%25eb%25b8%258c%25eb%259e%2580": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://design-plus.storage.googleapis.com/wp-content/uploads/2026/09/14173147/20260914083147-beb1c81_ftp-1-alqytsh4stww-423113-3465980.avif",
+      "kind": "media",
+      "published": "2026-09-15T03:00:00+00:00",
+      "region": "kr",
+      "source_name": "월간디자인 月刊 Design",
+      "summary": "밀라노 트리엔날레에서 이탈리아 디자인 거장 안드레아 브란치의 대규모 회고전 〈안드레아 브란치 바이 이토 도요: 흐르는 현재〉가 열린다. 오랜 친구이자 협업자였던 건축가 이토 도요가 공간을 설계해, 브란치의 60여 년 작업 세계를 시간순이 아닌 ‘흐르는 현재’라는 개념 아래 11개 섹션으로 풀어냈다. The post 밀라노 트리엔날레에서 만난 두 거장, 안드레아 브란치 X 이토 도요 appeared first on 디자인플러스 .",
+      "title": "밀라노 트리엔날레에서 만난 두 거장, 안드레아 브란치 X 이토 도요",
+      "url": "https://design.co.kr/article/173729/#utm_source=rss&utm_medium=rss&utm_campaign=%25eb%25b0%2580%25eb%259d%25bc%25eb%2585%25b8-%25ed%258a%25b8%25eb%25a6%25ac%25ec%2597%2594%25eb%2582%25a0%25eb%25a0%2588%25ec%2597%2590%25ec%2584%259c-%25eb%25a7%258c%25eb%2582%259c-%25eb%2591%2590-%25ea%25b1%25b0%25ec%259e%25a5-%25ec%2595%2588%25eb%2593%259c%25eb%25a0%2588%25ec%2595%2584-%25eb%25b8%258c%25eb%259e%2580"
     },
     "https://design.co.kr/article/173773/#utm_source=rss&utm_medium=rss&utm_campaign=%25eb%25a1%259c%25ec%2597%2590%25eb%25b2%25a0%25ec%2599%2580-%25eb%25b0%2595%25ec%25a2%2585%25ec%25a7%2584-%25ec%259e%2591%25ea%25b0%2580%25ea%25b0%2580-%25ec%258c%2593%25ec%2595%2584%25ec%2598%25ac%25eb%25a6%25b0-%25ec%258b%259c%25ea%25b0%2584%25ec%259d%2598-%25ec%25b8%25b5%25ec%259c%2584": {
       "_seen": "2026-09-15",
@@ -1690,6 +1820,19 @@
       "title": "BredaPhoto Festival 2026 – Our Songs Came Through",
       "url": "https://dutchdesigndaily.com/stories/bredaphoto-festival-2026-our-songs-came-through/"
     },
+    "https://dutchdesigndaily.com/stories/dda26-emerging-talent-nominees-julia-janssen-maggie-saunders-and-rosalie-apituley/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://dutchdesigndaily.com/wp-content/uploads/2026/09/Julia-Janssen-05-2026-portret-@Studio-Julia-Janssen-2-768x1024.jpg",
+      "kind": "media",
+      "published": "2026-09-15T05:00:00+00:00",
+      "region": "nl",
+      "source_name": "Dutch Design Daily",
+      "summary": "In the lead-up to Dutch Design Week 2026, we’ll be featuring three nominees each week. This week Julia Janssen, Maggie Saunders, and Rosalie Apituley. The post DDA26 Emerging Talent Nominees: Julia Janssen, Maggie Saunders, and Rosalie Apituley appeared first on Dutch Design Daily .",
+      "title": "DDA26 Emerging Talent Nominees: Julia Janssen, Maggie Saunders, and Rosalie Apituley",
+      "url": "https://dutchdesigndaily.com/stories/dda26-emerging-talent-nominees-julia-janssen-maggie-saunders-and-rosalie-apituley/"
+    },
     "https://dutchdesigndaily.com/stories/dda26-emerging-talent-nominees-studio-acte-sondi-and-gijs-schalkx/": {
       "_seen": "2026-09-09",
       "cat_hint": null,
@@ -1702,6 +1845,19 @@
       "summary": "With the Emerging Talent Award, we acknowledge designers with bold imagination, creative courage, and a strong collaborative spirit, designers who demonstrate what design can mean today and tomorrow. The post DDA26 Emerging Talent Nominees: Studio ACTE, Sondi and Gijs Schalkx appeared first on Dutch Design Daily .",
       "title": "DDA26 Emerging Talent Nominees: Studio ACTE, Sondi and Gijs Schalkx",
       "url": "https://dutchdesigndaily.com/stories/dda26-emerging-talent-nominees-studio-acte-sondi-and-gijs-schalkx/"
+    },
+    "https://dutchdesigndaily.com/stories/designer-and-scientist-collaborate-to-develop-the-hat-of-wonder-for-prinsjesdag/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://dutchdesigndaily.com/wp-content/uploads/2026/09/26-08-05-1092amolf-noorduin-en-beemer-1024x683.jpg",
+      "kind": "media",
+      "published": "2026-09-15T04:30:00+00:00",
+      "region": "nl",
+      "source_name": "Dutch Design Daily",
+      "summary": "The Hat of Wonder is an initiative by NWO to demonstrate how curiosity can lead to innovations that make our society safer, healthier, and more creative. The post Designer and scientist collaborate to develop the Hat of Wonder for Prinsjesdag appeared first on Dutch Design Daily .",
+      "title": "Designer and scientist collaborate to develop the Hat of Wonder for Prinsjesdag",
+      "url": "https://dutchdesigndaily.com/stories/designer-and-scientist-collaborate-to-develop-the-hat-of-wonder-for-prinsjesdag/"
     },
     "https://dutchdesigndaily.com/stories/ed-van-der-elsken-up-close-seeing-the-way-he-saw/": {
       "_seen": "2026-09-07",
@@ -1833,6 +1989,19 @@
       "title": "To Read a Pattern",
       "url": "https://dutchdesigndaily.com/stories/to-read-a-pattern/"
     },
+    "https://earendil.com/posts/measuring-code-sloppiness/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://earendil.com/static/og/posts/measuring-code-sloppiness.png",
+      "kind": "industry",
+      "published": "2026-09-15T05:14:50+00:00",
+      "region": "en",
+      "source_name": "Sidebar",
+      "summary": "Exploring how to measure code sloppiness, why correct code can still erode a codebase, and why human intuition and taste still matter.",
+      "title": "If coding is solved, what now?",
+      "url": "https://earendil.com/posts/measuring-code-sloppiness/"
+    },
     "https://ibelick.com/anatomy-ai-input": {
       "_seen": "2026-09-11",
       "cat_hint": null,
@@ -1898,6 +2067,32 @@
       "title": "Lucet",
       "url": "https://lucet.design/"
     },
+    "https://maggieappleton.com/planning-agents": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://maggieappleton.com/og/planning-agents.png",
+      "kind": "industry",
+      "published": "2026-09-15T05:15:24+00:00",
+      "region": "en",
+      "source_name": "Sidebar",
+      "summary": "Why we need richer, thicker interfaces and better boundary objects for collaborative planning with agents.",
+      "title": "Planning with agents",
+      "url": "https://maggieappleton.com/planning-agents"
+    },
+    "https://medium.muz.li/8-underrated-design-systems-we-keep-coming-back-to-for-inspiration-77b27026c403?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*4DRMrZfhLsdkGBD548FHjQ.png",
+      "kind": "showcase",
+      "published": "2026-09-15T12:12:05+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "Forget the buttons for a minute. These are eight lesser-known design systems we study for the thinking, patterns and decisions behind them. Co-written with Ossai Emmanuel There are a few design systems almost every product designer knows. Material. Carbon. Polaris. Atlassian. Fluent. And for good reason. They’re mature, incredibly well documented, and have shaped a lot of how we think about designing digital products today. But they’re not the only ones worth studying. Over time, we’ve found ourselves collecting design systems in much the same way we collect UI inspiration. Except we’re rarely there looking for a button to copy into Figma. We’re looking for decisions. How does another team document a complicated interaction? How do they handle errors? What do they consider a pattern rather than a component? How do they approach accessibility? How do they keep design and development aligned? What happens when a product has to work across several platforms, languages or completely different use cases? That’s where design systems become really interesting. A mature design system is almost a record of problems a product team has encountered and the decisions they’ve made while solving ",
+      "title": "8 Underrated Design Systems We Keep Coming Back to for Inspiration",
+      "url": "https://medium.muz.li/8-underrated-design-systems-we-keep-coming-back-to-for-inspiration-77b27026c403?source=rss----5969bf7021a3---4"
+    },
     "https://medium.muz.li/ai-is-making-designers-faster-its-also-making-them-lazy-e05dd99e9596?source=rss----5969bf7021a3---4": {
       "_seen": "2026-09-11",
       "cat_hint": null,
@@ -1923,6 +2118,32 @@
       "summary": "What three healthcare features taught me about designing for what happens after the interface. It’s tempting to tell this as a design mistake. A screen missed something. Testing caught it. We fixed it. That’s not what happened. Two features on the same healthcare platform, a pain report and a medication list, both worked exactly as designed. Both still failed. Two features, one pattern The pain feature let a patient tap a 3D body, identify where they felt pain, and record its severity. For the patient, the interaction was simple. Find the area. Tap. Set the pain level. Submit. The design made sense. Until we put it in front of clinicians. They could see that something had been recorded. But they couldn’t easily understand what exactly had been recorded, where, or how it related to previous reports. A patient thinks: my shoulder hurts. A clinician needs to know which region, how severe, when it was recorded, whether it’s changed, what else was reported at the same time. We had designed the moment of capture. We hadn’t designed the moment of interpretation. So the interaction changed shape on the other side. The patient could still point to the painful area; that part was intuitive. ",
       "title": "Built Right. Built Alone.",
       "url": "https://medium.muz.li/built-right-built-alone-e6336fbc60f5?source=rss----5969bf7021a3---4"
+    },
+    "https://medium.muz.li/claude-code-vs-codex-cli-vs-cursor-for-designers-where-your-design-system-actually-survives-9df451bf460c?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*RzTbHULLcmSV8lNf8MfJlQ.png",
+      "kind": "showcase",
+      "published": "2026-09-15T12:13:10+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "Two sprints after the demo, the spacing was 13px and nobody knew why. Continue reading on Muzli - Design Inspiration »",
+      "title": "Claude Code vs Codex CLI vs Cursor for Designers: Where Your Design System Actually Survives",
+      "url": "https://medium.muz.li/claude-code-vs-codex-cli-vs-cursor-for-designers-where-your-design-system-actually-survives-9df451bf460c?source=rss----5969bf7021a3---4"
+    },
+    "https://medium.muz.li/context-defines-the-ceiling-hook-defines-the-floor-0beea1e729a9?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*s63pcPgolgqPvRh-L34jNg.jpeg",
+      "kind": "showcase",
+      "published": "2026-09-15T12:13:01+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "Let the AI QA its own output, instead of a human QA-ing the AI Continue reading on Muzli - Design Inspiration »",
+      "title": "Context defines the ceiling. Hook defines the floor",
+      "url": "https://medium.muz.li/context-defines-the-ceiling-hook-defines-the-floor-0beea1e729a9?source=rss----5969bf7021a3---4"
     },
     "https://medium.muz.li/from-clicks-to-intent-why-ux-is-evolving-into-ax-a6d4d077092e?source=rss----5969bf7021a3---4": {
       "_seen": "2026-09-11",
@@ -1950,6 +2171,19 @@
       "title": "From concept to a production: What shipping my mobile app looked like?",
       "url": "https://medium.muz.li/from-concept-to-a-production-what-shipping-my-mobile-app-looked-like-e10e0334bf2d?source=rss----5969bf7021a3---4"
     },
+    "https://medium.muz.li/from-prompt-to-prototype-i-tested-5-ai-prototyping-tools-for-landing-pages-cb06f0274659?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*zenK5VURZy0P0SCKVbzlOQ.png",
+      "kind": "showcase",
+      "published": "2026-09-15T12:12:16+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "Same prompt, 5 AI tools: I compared their landing page designs, UX, customization, and prototyping speed. AI Prototyping Tools Review What happens when you give five AI prototyping tools the same landing page brief? I wanted to find out. Figma Make, Bolt.new, Lovable, v0 by Vercel, and Framer AI can all turn a written idea into something visual. But getting a page on the screen is only the beginning. What matters is what you can do with it afterward. Does the tool understand the prompt? Does the first version actually resemble what you asked for? Can you change the layout without fighting the tool? Does the result feel like a real landing page, or just a collection of generated sections? To make the comparison fair, I gave all five tools the same landing page brief and looked at how each one handled the same requirements. The differences were more noticeable than I expected. The Landing Page Brief I Used I wanted to keep the test simple enough for every tool to handle, but detailed enough to expose differences. I used the same prompt with all five tools: Create a modern, clean SaaS landing page for a fictional software product. Include a clear hero section with a strong headline, s",
+      "title": "From prompt to prototype: I tested 5 AI prototyping tools for landing pages",
+      "url": "https://medium.muz.li/from-prompt-to-prototype-i-tested-5-ai-prototyping-tools-for-landing-pages-cb06f0274659?source=rss----5969bf7021a3---4"
+    },
     "https://medium.muz.li/i-asked-ai-to-replace-a-ux-designer-it-couldnt-do-the-hardest-part-0e8b86174968?source=rss----5969bf7021a3---4": {
       "_seen": "2026-09-11",
       "cat_hint": null,
@@ -1976,6 +2210,19 @@
       "title": "I Tested 6 Wireframing Tools With the Same Prompt",
       "url": "https://medium.muz.li/i-tested-the-6-wireframing-tools-with-the-same-prompt-b27013994932?source=rss----5969bf7021a3---4"
     },
+    "https://medium.muz.li/i-used-cult-fit-for-a-year-and-kept-running-into-the-same-problem-098ffc13d972?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*6zqji_PISFcnv94QYOLvUg.png",
+      "kind": "showcase",
+      "published": "2026-09-15T12:12:24+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "How small moments of friction can probably disrupt fitness habits and impact long-term engagement! The background I remember why I joined Cult.fit. For people who don’t know about this app, it’s an Indian fitness app famous for its trainer-led group workouts. I wasn’t someone who enjoyed working out. In fact, I barely knew anything about fitness. I didn’t know how to warm up properly. I didn’t know what kind of workouts were right for me. I just knew one thing, I had to start taking my health seriously, as my body was falling apart. Group classes felt like the easiest way to begin. I didn’t have to think about what workout to do after a long day at work. I could walk into a class, follow the trainer, and go home feeling like I had done something good for myself. After enjoying the trial class, I bought a 12-month membership. For almost a year, attending group classes became a part of my routine. But there was one thing bothering me. Not during the workout. Not after the workout. Before it even began. The same task. Everyday. Every Sunday evening, I would open the app to book my classes for the upcoming week. Book Monday. Go back. Book Tuesday. Go back again. Book Wednesday. Repeat.",
+      "title": "I used Cult.fit for a year and kept running into the same problem",
+      "url": "https://medium.muz.li/i-used-cult-fit-for-a-year-and-kept-running-into-the-same-problem-098ffc13d972?source=rss----5969bf7021a3---4"
+    },
     "https://medium.muz.li/my-favorite-ai-design-tools-after-years-of-hands-on-real-testing-d45900979b60?source=rss----5969bf7021a3---4": {
       "_seen": "2026-09-07",
       "cat_hint": null,
@@ -1988,6 +2235,19 @@
       "summary": "My Favorite AI Design Tools After Years of Hands-On Real Testing From rough idea to shipped UI: an honest, hands-on breakdown of five AI design tools I actually use. dAI Design tools review If you’ve ever spent hours turning a rough product idea into wireframes, polished UI screens, and something developers can actually use, you already know the frustrating part of design isn’t always creativity; it’s the distance between an idea and a usable interface. I’ve tested a wide range of AI design tools over time, and the biggest lesson I’ve learned is that there isn’t one tool that magically does everything well; some are excellent at generating visual concepts, others are better at interactive prototypes, and a few are much stronger when the goal is turning design ideas into working code. After putting today’s tools through real design scenarios, these are the AI design tools I keep coming back to: Figma Make, Google Stitch, v0 by Vercel, Banani, and AIDesigner. My Top AI Design Tools at a Glance Figma Make What I Like It For: Interactive prototypes and design-to-code workflows Best Fit: Product designers and Figma teams Google Stitch What I Like It For: Rapid UI exploration from prompt",
       "title": "My Favorite AI Design Tools After Years of Hands-On Real Testing",
       "url": "https://medium.muz.li/my-favorite-ai-design-tools-after-years-of-hands-on-real-testing-d45900979b60?source=rss----5969bf7021a3---4"
+    },
+    "https://medium.muz.li/old-school-is-the-new-school-3f8ddf935531?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*ofdvea8aBUbq1an1FRmHvA.png",
+      "kind": "showcase",
+      "published": "2026-09-15T12:11:26+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "A dreamlike staircase with missing steps ascends through mist toward a glowing light, symbolizing an interrupted path to mastery. I’m honestly exhausted by the endless AI hype. Not because AI isn’t powerful. It is. But because the conversation around it keeps flattening the real issue . Every week, the same promises come back in slightly different forms: AI will make work frictionless. AI will make everyone faster. AI will let anyone produce something polished. AI will make expertise feel accessible. AI will make it seem as if anyone can do anything. And yes, in many ways, that is already happening. Especially in knowledge-driven disciplines, AI can accelerate research synthesis, generate options, structure thinking, remove friction, and help teams move faster. That part is true. But there is another side to this story that we are not discussing nearly enough. While AI is removing many old skills, it is simultaneously increasing the value of others: Judgment. Creativity. Leadership. Taste. Intuition. Curation. Expertise. These may become some of the most valuable capabilities of the next decade. The problem is that most of them are built through the very processes we are now skippi",
+      "title": "Old School is the New School",
+      "url": "https://medium.muz.li/old-school-is-the-new-school-3f8ddf935531?source=rss----5969bf7021a3---4"
     },
     "https://medium.muz.li/rethinking-spotify-premium-from-price-to-value-a-mini-case-study-a94453848ed8?source=rss----5969bf7021a3---4": {
       "_seen": "2026-09-11",
@@ -2106,6 +2366,19 @@
       "title": "The Top 10 design.md Files Worth Your Time in 2026",
       "url": "https://medium.muz.li/the-top-10-design-md-files-worth-your-time-in-2026-8f5bae3aadbe?source=rss----5969bf7021a3---4"
     },
+    "https://medium.muz.li/the-visual-designer-career-path-levels-skills-responsibilities-and-growth-from-junior-to-lead-044e0b78ae7e?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*OwwR-uSaael79fWE5PW8og.jpeg",
+      "kind": "showcase",
+      "published": "2026-09-15T12:12:31+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "From Associate to Principal — craft, systems, and scaling visual excellence Visual design is a specialist track within product design organisations and one that is frequently misunderstood. It is not, at its senior levels, simply about making things look good. It is about defining the visual language of a product, building and maintaining design systems that scale, and ensuring that visual communication is rigorous, consistent, and evolving alongside the product it serves. Visual designers are specialists. They typically operate across multiple teams and tribes rather than being embedded in a single squad — which means their sphere of influence is broad from relatively early in their career. Medium “A visual system is only as strong as its architecture. The designer who built a beautiful component is valuable. The designer who built the system that makes every component beautiful is irreplaceable.” The proficiency framework The core skill anatomy of visual design Five specialist skills define the visual designer’s craft profile — each building on the others to form a coherent expertise stack. How the specialist stack builds across levels Figure 1. Specialist skill requirements acro",
+      "title": "The Visual Designer Career Path: Levels, Skills, Responsibilities, and Growth From Junior to Lead",
+      "url": "https://medium.muz.li/the-visual-designer-career-path-levels-skills-responsibilities-and-growth-from-junior-to-lead-044e0b78ae7e?source=rss----5969bf7021a3---4"
+    },
     "https://medium.muz.li/ui-spacing-guide-8pt-grid-system-26cf12264438?source=rss----5969bf7021a3---4": {
       "_seen": "2026-09-11",
       "cat_hint": null,
@@ -2131,6 +2404,19 @@
       "summary": "Most of what looks like “voice doesn’t work yet” is actually “nobody designed for voice yet.” I asked a voice assistant to turn off “the lights” in a room with three lamps. It picked one, confidently, and left the other two on. Not because it misheard me, it understood every word. It just had no way to ask which lamp I meant, because nothing about the interaction gave it a path to clarify. On a screen, that’s a two-tap fix. In voice, there was no fallback, just a wrong guess delivered with total confidence. That’s usually the moment people write voice off. I think it’s the opposite signal. The failure wasn’t voice as a medium, it was a screen-shaped decision tree wearing a microphone. Nobody designed a real fallback for ambiguity, because most voice products are still built like a menu read aloud. That’s a solvable design gap, not a ceiling on the medium. Why the bar looks higher than it is Voice gets judged more harshly than screens because every flaw is felt in real time. A cluttered app screen is still usable, you scroll past what you don’t need. A cluttered voice response isn’t usable at all, you have to sit through it. That makes voice unforgiving of lazy design. It doesn’t ma",
       "title": "Voice UX Is Underused, and That’s the Opportunity",
       "url": "https://medium.muz.li/voice-ux-is-underused-and-thats-the-opportunity-0c872b19b5ec?source=rss----5969bf7021a3---4"
+    },
+    "https://medium.muz.li/what-happens-when-ai-doesnt-need-to-read-your-figma-file-5cdc3ba1c2db?source=rss----5969bf7021a3---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*LJ115sDxomtT2ZGn6QLFzQ.png",
+      "kind": "showcase",
+      "published": "2026-09-15T12:11:49+00:00",
+      "region": "en",
+      "source_name": "Muzli",
+      "summary": "I tested a different design-to-SwiftUI workflow using structured design context, Swift Package Manager, and an AI coding agent. For a while, I’ve been exploring one question around AI-assisted development: Does AI really need direct access to Figma to build an interface accurately? Most design-to-code workflows today still start from something visual. You give AI a screenshot. You connect it to Figma through MCP. You share a Figma link. Or you write a very detailed prompt explaining what the interface should look like. All of these approaches can work. But there is still a problem. The AI needs to interpret the design. It has to figure out the spacing, colors, typography, component relationships, assets, layout rules, and all the other small decisions that make up the design system. So I wanted to try something different. Instead of asking AI to read my Figma design, I wanted to see what would happen if I gave it the structured information behind the design . And because I’ve recently been experimenting with iOS and SwiftUI support in DHM Tokens, this became a good place to test that idea. The Experiment For this test, I used a Home screen from home screen, a personal expense app c",
+      "title": "What Happens When AI Doesn’t Need to Read Your Figma File?",
+      "url": "https://medium.muz.li/what-happens-when-ai-doesnt-need-to-read-your-figma-file-5cdc3ba1c2db?source=rss----5969bf7021a3---4"
     },
     "https://medium.muz.li/your-design-system-is-now-a-prompt-heres-how-to-make-it-a-good-one-d5d200899129?source=rss----5969bf7021a3---4": {
       "_seen": "2026-09-07",
@@ -2314,6 +2600,19 @@
       "title": "Infografik-Workshop im September – jetzt Platz sichern!",
       "url": "https://page-online.de/branche-karriere/erfolgsseminar-infografik-digital-jetzt-als-interaktives-webinar/"
     },
+    "https://page-online.de/branche-karriere/imaginary-friends-character-lab-midjourney-webinar/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://page-online.de/app/uploads/2026/07/ImaginaryFriends_okt-3.png",
+      "kind": "media",
+      "published": "2026-09-10T05:33:17+00:00",
+      "region": "de",
+      "source_name": "PAGE Online",
+      "summary": "Eigene Charaktere statt generischer KI-Bilder: In der Masterclass »Imaginary Friends – Character Lab« zeigt Jeannette Bergen an zwei Vormittagen, wie mit Midjourney unverwechselbare Figuren, konsistente Bildwelten und kurze Animationen ...",
+      "title": "Charaktere in Midjourney erstellen: Webinar mit Jeannette Bergen",
+      "url": "https://page-online.de/branche-karriere/imaginary-friends-character-lab-midjourney-webinar/"
+    },
     "https://page-online.de/branche-karriere/inhalte-des-neinhorn-tauchten-bei-chatgpt-auf/": {
       "_seen": "2026-09-12",
       "cat_hint": "visual_brand",
@@ -2378,6 +2677,19 @@
       "summary": "Lerne am 25. & 26. November 2026 von einem der renommiertesten Schriftgestalter, wie du Corporate Fonts strategisch einsetzt, Barrieren vermeidest und mit Technologien wie Variable Fonts gestalterisch und rechtssicher arbeitest. Jetzt anmelden!",
       "title": "Masterclass »Typographic Branding« mit Henning Skibbe",
       "url": "https://page-online.de/branche-karriere/typographic-branding-ist-zurueck-wie-schrift-marken-stark-macht/"
+    },
+    "https://page-online.de/branche-karriere/von-politischen-postern-bis-zu-praegenden-marken-erinnerungen/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://page-online.de/app/uploads/2026/09/IMG_5377.jpg",
+      "kind": "media",
+      "published": "2026-09-15T05:15:08+00:00",
+      "region": "de",
+      "source_name": "PAGE Online",
+      "summary": "PAGE hat sich am Tag der FORM/FUTURE 2026 in Berlin umgeschaut, die am 10. September stattgefunden hat, und einige Impulse für die Kreativbranche gesammelt. Ein wuchtiger Koloss aus Muschelkalk an den Fassaden, dessen historische Altlasten bis ...",
+      "title": "Von politischen Postern bis zu prägenden Marken-Erinnerungen",
+      "url": "https://page-online.de/branche-karriere/von-politischen-postern-bis-zu-praegenden-marken-erinnerungen/"
     },
     "https://page-online.de/branche-karriere/webinar-ki-in-branding-gesetz/": {
       "_seen": "2026-09-15",
@@ -2691,6 +3003,19 @@
       "title": "Oficía Mono: Viel mehr als Typo fürs Büro",
       "url": "https://page-online.de/typografie/oficia-mono-viel-mehr-als-typo-fuers-buero/"
     },
+    "https://pangrampangram.com/blogs/journal/optical-vs-mathematical-alignment": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://pangrampangram.com/cdn/shop/articles/Academy_-_optical.jpg?v=1788935638",
+      "kind": "industry",
+      "published": "2026-09-15T05:16:20+00:00",
+      "region": "en",
+      "source_name": "Sidebar",
+      "summary": "While software can place objects with mathematical precision, our eyes don’t always agree with the result.",
+      "title": "Optical vs. mathematical alignment",
+      "url": "https://pangrampangram.com/blogs/journal/optical-vs-mathematical-alignment"
+    },
     "https://rebeccawilliams.info/unwinding-the-great-tech-power-grab/": {
       "_seen": "2026-09-07",
       "cat_hint": null,
@@ -2872,6 +3197,19 @@
       "summary": "Weekly curated resources for designers — thinkers and makers. “AI coding agents are bringing some of that interaction model back. You can describe an outcome and let the agent decide which commands to run, which files to change and which tests to execute. You no longer have to operate the software step by step, but a familiar design problem comes back in another form: What did the system understand? What is it doing? What has it changed? What can I stop? What should I review? The interface is no longer just something we operate; it can act.” When the canvas starts acting, who’s really in control? → By Aurélie Radom Talk with your users in the moment → [Sponsored] Marvin’s Live Intercept launches an AI-moderated interview inside your product or website. Users talk through their experience and share their screen, giving your team fresh, contextual feedback. Try it now Editor picks Beyond the corporate stairs → Rethinking success in the world of design. By Darren Yeo AI took away engineering’s right to say no → The power to say what’s possible. By Dan Maccarone The call for an agentic standard → We need to stop shipping the same form four different times. By Patrick Neeman The UX Coll",
       "title": "AI canvas, Synthetic self, The prompt is the product",
       "url": "https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6?source=rss----138adf9c44c---4"
+    },
+    "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": "interface_ux",
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*YsoO1glOlAn8SFiqMCsHYg.png",
+      "kind": "media",
+      "published": "2026-09-15T11:13:46+00:00",
+      "region": "en",
+      "source_name": "UX Collective",
+      "summary": "AI isn’t culturally neutral. Whose culture are you designing for? Continue reading on UX Collective »",
+      "title": "The hidden culture of AI",
+      "url": "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4"
     },
     "https://uxdesign.cc/ai-in-product-teams-in-2026-the-growing-impact-on-collaboration-8ea9f6024dca?source=rss----138adf9c44c---4": {
       "_seen": "2026-09-07",
@@ -3055,6 +3393,19 @@
       "title": "Tetris had to cheat to feel random",
       "url": "https://uxdesign.cc/tetris-had-to-cheat-to-feel-random-201913dc69ed?source=rss----138adf9c44c---4"
     },
+    "https://uxdesign.cc/the-death-of-the-deliverable-cbaea0123895?source=rss----138adf9c44c---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": "interface_ux",
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/1678/1*9kBhbHVmZg6lAjgW1Pof1g.png",
+      "kind": "media",
+      "published": "2026-09-15T05:04:14+00:00",
+      "region": "en",
+      "source_name": "UX Collective",
+      "summary": "AI didn’t kill the wireframe; it exposed that the wireframe was never really the point Continue reading on UX Collective »",
+      "title": "The death of the deliverable",
+      "url": "https://uxdesign.cc/the-death-of-the-deliverable-cbaea0123895?source=rss----138adf9c44c---4"
+    },
     "https://uxdesign.cc/the-model-is-behaving-impeccably-your-information-architecture-isnt-bfe8881da3c2?source=rss----138adf9c44c---4": {
       "_seen": "2026-09-08",
       "cat_hint": "interface_ux",
@@ -3093,6 +3444,19 @@
       "summary": "A framework for emotional design that survives contact with an engagement dashboard Continue reading on UX Collective »",
       "title": "The sycophancy trap: what happens when feelings become the metric",
       "url": "https://uxdesign.cc/the-sycophancy-trap-what-happens-when-feelings-become-the-metric-14a4f1f26a75?source=rss----138adf9c44c---4"
+    },
+    "https://uxdesign.cc/the-users-were-confident-but-wrong-heres-how-to-design-for-that-4b1546dc5864?source=rss----138adf9c44c---4": {
+      "_seen": "2026-09-16",
+      "cat_hint": "interface_ux",
+      "image_fallback": "",
+      "image_url": "https://cdn-images-1.medium.com/max/2600/1*Gt0J2HNO_8hg5rgx_pnIjw.jpeg",
+      "kind": "media",
+      "published": "2026-09-15T11:13:17+00:00",
+      "region": "en",
+      "source_name": "UX Collective",
+      "summary": "How to design around confusing terminology, and users who feel confident about it Continue reading on UX Collective »",
+      "title": "The users were confident, but wrong. Here’s how to design for that.",
+      "url": "https://uxdesign.cc/the-users-were-confident-but-wrong-heres-how-to-design-for-that-4b1546dc5864?source=rss----138adf9c44c---4"
     },
     "https://uxdesign.cc/the-ux-double-diamond-is-dead-and-in-ai-only-one-survives-for-software-heres-how-to-adapt-f63b57c524ed?source=rss----138adf9c44c---4": {
       "_seen": "2026-09-15",
@@ -3340,6 +3704,19 @@
       "summary": "A pop villa Inspired by Sottsass in Rhode Island, MAD’s art caves in Shenzhen, interview with British architect Amanda Levete. The best designs seen at Milan Design Week 2026. Abitare is on newsstands from 26 August. L'articolo Abitare 657 sembra essere il primo su Abitare .",
       "title": "Abitare 657",
       "url": "https://www.abitare.it/en/current-issue/2026/08/25/abitare-657-newsstand/"
+    },
+    "https://www.abitare.it/en/design-en/products/2026/09/14/the-art-of-metalwork-at-officine-tamborrino/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static2.abitare.it/wp-content/uploads/2026/09/01-businnes-tamborrino-en-200x150.jpg?v=548744",
+      "image_url": "https://static2.abitare.it/wp-content/uploads/2026/09/01-businnes-tamborrino-en.jpg?v=548744",
+      "kind": "media",
+      "published": "2026-09-14T05:30:00+00:00",
+      "region": "it",
+      "source_name": "Abitare",
+      "summary": "Created out of an industrial enterprise in Salento, Officine Tamborrino reinterprets steel through furniture and temporary micro-architectures. It takes architects and designers on a sustainable path towards enhancing the quality of living L'articolo The art of metal sembra essere il primo su Abitare .",
+      "title": "The art of metal",
+      "url": "https://www.abitare.it/en/design-en/products/2026/09/14/the-art-of-metalwork-at-officine-tamborrino/"
     },
     "https://www.abitare.it/en/free-digital-edition-en/2026/08/25/preview-abitare-657-en/": {
       "_seen": "2026-09-07",
@@ -3705,6 +4082,19 @@
       "title": "Building the India of the Imagination: Cinema and the Making of Place",
       "url": "https://www.archdaily.com/1184295/building-the-india-of-the-imagination-cinema-and-the-making-of-place"
     },
+    "https://www.archdaily.com/1184296/beyond-the-replica-digital-heritage-and-the-limits-of-preservation": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6a96/4fd7/3847/8a01/8b33/7052/medium_jpg/beyond-the-replica-when-architecture-becomes-a-portal_6.jpg?1788235744",
+      "kind": "media",
+      "published": "2026-09-15T07:30:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "A cave in Maharashtra can now be entered without travelling to it. Through a virtual reality experience developed around Ajanta , visitors can move through a digitally reconstructed version of the caves from somewhere else entirely. The project raises an architectural question: if architecture is experienced through movement, scale, sequence and perception, what happens when those experiences can be recreated outside the physical site? IITM Pravartak's Digital Ajanta project uses 3D scanning , filming, modelling and virtual reality to document the caves and translate that record into an immersive experience.",
+      "title": "Beyond the Replica: Digital Heritage and the Limits of Preservation",
+      "url": "https://www.archdaily.com/1184296/beyond-the-replica-digital-heritage-and-the-limits-of-preservation"
+    },
     "https://www.archdaily.com/1184300/the-great-garuda-jakartas-unfinished-vision-for-a-climate-proof-coast": {
       "_seen": "2026-09-09",
       "cat_hint": "space_env",
@@ -3886,6 +4276,19 @@
       "summary": "Located in Perdizes, São Paulo, this 1950s townhouse underwent a complete renovation designed by the office Península Arquitetura. The property, with 200 m² of built area, was acquired in poor condition by a couple of business owners and grandparents — recurring clients of the firm — who wanted a well-lit, ventilated space adapted for hosting family. The project, completed in about a year and a half, sought to preserve the original characteristics of the construction while updating the floor plan to meet new contemporary demands.",
       "title": "BF2 House / Peninsula Arquitetura",
       "url": "https://www.archdaily.com/1184435/bf2-house-peninsula-arquitetura"
+    },
+    "https://www.archdaily.com/1184438/building-at-scale-how-long-span-steel-expands-architectural-possibilities": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6a98/4384/e52b/d301/896a/810d/medium_jpg/building-at-scale-how-long-span-steel-expands-architectural-possibilities_4.jpg?1788363658",
+      "kind": "media",
+      "published": "2026-09-15T06:45:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "What happens when architecture is asked to create a room without boundaries? Convention halls , stadiums , factories , and logistics centers all begin with the same architectural challenge: creating large, uninterrupted interiors that can accommodate movement, visibility, and changing uses. The larger the span, the greater the structural demands, and the greater the architectural possibilities.",
+      "title": "Building at Scale: How Long-Span Steel Expands Architectural Possibilities",
+      "url": "https://www.archdaily.com/1184438/building-at-scale-how-long-span-steel-expands-architectural-possibilities"
     },
     "https://www.archdaily.com/1184449/the-overlook-migration-studios": {
       "_seen": "2026-09-07",
@@ -4862,6 +5265,19 @@
       "title": "Dookkuubi Jib Toad House / NOMAL + ONJIUM Housing Studio",
       "url": "https://www.archdaily.com/1184854/dookkuubi-jib-toad-house-nomal-plus-onjium-housing-studio"
     },
+    "https://www.archdaily.com/1184856/vista-science-experience-center-studio-maks": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa2/b881/05b6/9900/01b5/3767/medium_jpg/STUDIO_MAKS_VISTA_2_Iwan_Baan.jpg?1789048991",
+      "kind": "media",
+      "published": "2026-09-15T07:00:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "Emerging lightly from the park landscape of the Institute of Science and Technology Austria (ISTA) near Vienna, VISTA is a new visitor and science center by Studio MAKS and Bollinger + Grohmann that brings research, landscape, and public life together under one reflective roof.",
+      "title": "VISTA Science Experience Center / STUDIO MAKS",
+      "url": "https://www.archdaily.com/1184856/vista-science-experience-center-studio-maks"
+    },
     "https://www.archdaily.com/1184858/residential-house-in-lower-pavilnys-vilnius-inblum-architects": {
       "_seen": "2026-09-12",
       "cat_hint": "space_env",
@@ -5044,6 +5460,19 @@
       "title": "Buenos Aires Architecture Biennial Celebrates 40 Years With a Free Program Under the Theme of Inhabiting",
       "url": "https://www.archdaily.com/1184927/buenos-aires-architecture-biennial-celebrates-40-years-with-a-free-program-under-the-theme-of-inhabiting"
     },
+    "https://www.archdaily.com/1184934/villa-yandara-padovani-arquitetos": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa3/6cc0/9637/5601/88df/3ce6/medium_jpg/villa-yandara-padovani-arquitetos_7.jpg?1789095121",
+      "kind": "media",
+      "published": "2026-09-15T17:00:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "Located in Trancoso, Villa Yandara was born from the desire to translate the tropicality of the Brazilian coast into every gesture of its architecture. More than a residence, the project presents itself as a continuous sensory experience between the built and the natural, where landscape ceases to be a backdrop and becomes a constituent part of the inhabited space.",
+      "title": "Villa Yandara / Padovani Arquitetos",
+      "url": "https://www.archdaily.com/1184934/villa-yandara-padovani-arquitetos"
+    },
     "https://www.archdaily.com/1184943/mobile-chicken-coop-gerrit-muller-scheessel-plus-zop-institute-for-spatial-design": {
       "_seen": "2026-09-14",
       "cat_hint": "space_env",
@@ -5135,6 +5564,19 @@
       "title": "Tsukumo Kiln Ceramic Studio / Dept.EPT.",
       "url": "https://www.archdaily.com/1184995/tsukumo-kiln-ceramic-studio-deppt"
     },
+    "https://www.archdaily.com/1185003/20-practices-expanding-architectures-agency-winners-of-the-archdaily-2026-next-practices-awards": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa8/104e/069c/1b01/89fb/74bc/medium_jpg/20-practices-expanding-architectures-agency-winners-of-the-archdaily-2026-next-practices-awards_1.jpg?1789399135",
+      "kind": "media",
+      "published": "2026-09-15T08:00:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "ArchDaily is proud to announce the winners of the 2026 Next Practices Awards , recognizing 20 emerging and forward-thinking practices expanding the possibilities of architecture today.",
+      "title": "20 Practices Expanding Architecture’s Agency: Winners of the ArchDaily 2026 Next Practices Awards",
+      "url": "https://www.archdaily.com/1185003/20-practices-expanding-architectures-agency-winners-of-the-archdaily-2026-next-practices-awards"
+    },
     "https://www.archdaily.com/1185015/dolphine-villa-idee-architects": {
       "_seen": "2026-09-15",
       "cat_hint": "space_env",
@@ -5186,6 +5628,136 @@
       "summary": "Located in Durán, a satellite city of Guayaquil, the project is set in an environment marked by social and urban tensions. These conditions have increasingly promoted closed, isolated living spaces, reducing social dynamics. A retired couple decided to purchase a run-down property to create three living spaces that would revitalize the neighborhood in a productive and safe way.",
       "title": "La Colmena - Multi-family Housing as Shared Neighborhood Infrastructure / Ancestra + Natura Futura",
       "url": "https://www.archdaily.com/1185061/la-colmena-multi-family-housing-as-shared-neighborhood-infrastructure-ancestra-plus-natura-futura"
+    },
+    "https://www.archdaily.com/1185069/crux-south-climbing-gym-derrington-building-studio": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa8/2362/a74d/1200/0125/e397/medium_jpg/43_CRUX_SOUTH_South_West_Facade.jpg?1789404044",
+      "kind": "media",
+      "published": "2026-09-15T12:00:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "The new Crux South location in Austin , Texas, designed by Derrington Building Studio, transforms a former gravel lot into a neighborhood hub centered on movement, gathering and community. Crux South is the brand's most ambitious project yet, bringing together a climbing gym, local coffee shop Switchback Coffee, a future tenant space and an outdoor food truck plaza on a single site.",
+      "title": "Crux South Climbing Gym / Derrington Building Studio",
+      "url": "https://www.archdaily.com/1185069/crux-south-climbing-gym-derrington-building-studio"
+    },
+    "https://www.archdaily.com/1185070/mata-do-paraiso-scout-park-plano-humano-arquitectos": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa2/b88e/05b6/9900/01b5/3779/medium_jpg/JM_MatadoParaiso_001.jpg?1789048999",
+      "kind": "media",
+      "published": "2026-09-15T13:00:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "The construction of the Mata do Paraíso Scouting Park was promoted by the Municipality of Vila Franca de Xira, with co-financing from the Recovery and Resilience Plan (PRR), to address the lack of infrastructure supporting scouting in the municipality.",
+      "title": "Mata do Paraíso Scout Park / Plano Humano Arquitectos",
+      "url": "https://www.archdaily.com/1185070/mata-do-paraiso-scout-park-plano-humano-arquitectos"
+    },
+    "https://www.archdaily.com/1185105/the-kiosk-cityforster": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa8/f4fa/a74d/1200/0125/ebbd/medium_jpg/Kiosk_2__A.Muraku_.jpg?1789457698",
+      "kind": "media",
+      "published": "2026-09-15T10:00:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "The Kiosk proposes a compact and adaptable model for seasonal commercial infrastructure in Dhermi's rapidly changing coastal context.",
+      "title": "The Kiosk / CITYFÖRSTER",
+      "url": "https://www.archdaily.com/1185105/the-kiosk-cityforster"
+    },
+    "https://www.archdaily.com/1185121/brutalist-asia": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa9/34bf/a74d/1200/0125/ecfa/medium_jpg/Brutalist_Asia_-_Blue_Crow_Media_-_cover_on_white_wide.jpg?1789473994",
+      "kind": "media",
+      "published": "2026-09-15T09:05:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "Brutalist Asia is the first major survey of Brutalist architecture across the entire Asian continent. Spanning twenty-eight countries, from Japan to Lebanon, the book combines architectural history, photography and regional scholarship to explore how architects across Asia reinterpreted the architectural language of Brutalism in response to local climates, materials, cultures and political conditions. Rather than presenting Brutalism as a single international style, this richly documented volume reveals an extraordinary diversity of architectural expression. It brings together celebrated landmarks, such as Le Corbusier's Palace of Assembly in Chandigarh, Kenzo Tange's Yoyogi National Gymnasium in Tokyo and Khalil Khoury's Interdesign Building in Beirut,",
+      "title": "Brutalist Asia",
+      "url": "https://www.archdaily.com/1185121/brutalist-asia"
+    },
+    "https://www.archdaily.com/1185125/aia-international-east-asia-symposium-global-cities-local-cultures-learning-from-seoul": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa9/35d8/a74d/1200/0125/ed28/medium_jpg/AIA_Banner_672x560.jpg?1789474267",
+      "kind": "media",
+      "published": "2026-09-15T09:10:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "We are excited to announce our first ever East Asia Symposium, hosted by AIA South Korea in Seoul! When: Friday 16 October - Saturday 17 October Where: Cociety (Day 1) + City tours (Day 2), Seoul, South Korea Event Description You are invited to Seoul for the East Asia Symposium! This collaborative project is hosted by AIA South Korea and supported by AIA Chapters, Sections and members across the region, including from Japan, Hong Kong and Taipei. Join us for a two-day symposium exploring the theme of ‘Global Cities, Local Cultures‘. How can cities grow and modernize while preserving their architectural heritage and",
+      "title": "AIA International East Asia Symposium - Global Cities, Local Cultures: Learning from Seoul",
+      "url": "https://www.archdaily.com/1185125/aia-international-east-asia-symposium-global-cities-local-cultures-learning-from-seoul"
+    },
+    "https://www.archdaily.com/1185129/reflexo-30-years-30-projects": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa9/4049/a74d/1200/0125/ed4c/medium_jpg/Caixa-de-Luz.jpg?1789476955",
+      "kind": "media",
+      "published": "2026-09-15T09:15:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "To mark its 30th anniversary, the studio is transforming the public space in front of its headquarters on Avenida Infante Santo into a free exhibition. Thirty large-format panels, designed to resemble giant bookmarks, present 30 projects that have defined the studio's journey back to the city. To celebrate three decades of practice, Saraiva+Associados (S+A) has chosen the public realm as the stage to showcase its history, under the title *REFLEXO. 30 Anos, 30 Projetos* (REFLECTION: 30 Years, 30 Projects). Starting September 18, the exhibition literally takes to the street, occupying the space in front of 69 A-C Avenida Infante Santo—the studio’s",
+      "title": "REFLEXO, 30 Years, 30 Projects",
+      "url": "https://www.archdaily.com/1185129/reflexo-30-years-30-projects"
+    },
+    "https://www.archdaily.com/1185133/art-omi-fall-architecture-opening": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa9/41a3/a74d/1200/0125/ed6b/medium_jpg/AO-26-LimboEngawa_MOS-Opening0HomepageBanner-v2.jpg?1789477301",
+      "kind": "media",
+      "published": "2026-09-15T09:20:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "Celebrate the opening of TAELON7: Limbo Engawa and Michael Meredith and Hilary Sample: A Dome with Four Oculi in the Sculpture & Architecture Park at Art Omi on Saturday, September 19, 2–5 PM. Free and open to all ages. RSVP appreciated. Walk-ins always welcome. Opening the afternoon: TAELON7: Limbo Engawa at 2 PM TAELON7: Limbo Engawa marks the Hudson Valley debut of a cross-continental commission between Art Omi and Accra's Limbo Museum. Designed by architect Juergen Benson-Strohmayer of TAELON7, the project was first presented at Limbo Museum in Accra, Ghana, this past March, where it was installed on the museum's unfinished concrete",
+      "title": "Art Omi Fall Architecture Opening",
+      "url": "https://www.archdaily.com/1185133/art-omi-fall-architecture-opening"
+    },
+    "https://www.archdaily.com/1185137/rozana-montiel-at-ie-school-of-architecture-and-designs-common-s-lecture-series": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa9/4263/a74d/1200/0125/ed8a/medium_jpg/Rozana_Montiel_IE_University.jpg?1789477479",
+      "kind": "media",
+      "published": "2026-09-15T09:25:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "IE School of Architecture & Design (IE University) presents a lecture by Mexican architect Rozana Montiel as part of the School's COMMON(S) 2026-27 Lecture Series. Montiel's lecture is organized in collaboration with Fundación Casa de México and Fundación Monumental México. Rozana Montiel's practice is known for a socially engaged, community-centered approach to architecture, with a particular focus on public space, participatory design and the transformation of existing environments. Her work has been exhibited internationally, including at the Venice, São Paulo and Rotterdam Biennials, and has received distinctions such as the Global Award for Sustainable Architecture, the Moira Gemmill Prize for Emerging",
+      "title": "Rozana Montiel at IE School of Architecture & Design’s COMMON(S) Lecture Series",
+      "url": "https://www.archdaily.com/1185137/rozana-montiel-at-ie-school-of-architecture-and-designs-common-s-lecture-series"
+    },
+    "https://www.archdaily.com/1185141/rural-and-future-public-programme": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa9/42cf/a74d/1200/0125/eda9/medium_jpg/K_rsal_ve_Gelecek_-_G_rsel.jpg?1789477647",
+      "kind": "media",
+      "published": "2026-09-15T09:30:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "Rural and Future meets audiences in Istanbul and Ankara this autumn! The four-year body of work produced through the architectural research and design studio 'Rural and Future: Voices from Beyond the City | Alternative Ways of Living and Architectures', conducted at Istanbul Technical University Faculty of Architecture between 2020 and 2024 and focusing on eight distinct rural geographies across Türkiye, will be presented this autumn through an extensive public program spanning Istanbul and Ankara. The program brings together an exhibition, an international symposium, and a national forum. Projects, drawings, mappings, moving images, and narratives developed through studies conducted in Şile, Bandırma, the",
+      "title": "Rural and Future Public Programme",
+      "url": "https://www.archdaily.com/1185141/rural-and-future-public-programme"
+    },
+    "https://www.archdaily.com/1185162/reconstruction-of-the-constitucion-municipal-theater-elemental": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://images.adsttc.com/media/images/6aa9/6915/069c/1b2f/7de7/f2bd/medium_jpg/reconstruccion-teatro-municipal-de-constitucion-elemental_12.jpg?1789487432",
+      "kind": "media",
+      "published": "2026-09-15T15:00:00+00:00",
+      "region": "en",
+      "source_name": "ArchDaily",
+      "summary": "On February 27, 2010, central Chile was struck by an 8.8-magnitude earthquake on the Richter scale, which was followed by a tsunami. More than half of the city of Constitución was devastated.",
+      "title": "Reconstruction of the Constitución Municipal Theater / ELEMENTAL",
+      "url": "https://www.archdaily.com/1185162/reconstruction-of-the-constitucion-municipal-theater-elemental"
     },
     "https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html": {
       "_seen": "2026-09-07",
@@ -5408,6 +5980,19 @@
       "title": "東京都写真美術館で「複製される感性－森山大道」開催。奈良女子大学学生が森山作品を選定・再構築",
       "url": "https://www.axismag.jp/posts/2026/09/722627.html"
     },
+    "https://www.axismag.jp/posts/2026/09/722748.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://www.axismag.jp/axismag-admin/wp-content/uploads/2026/09/a-2.png",
+      "kind": "media",
+      "published": "2026-09-15T11:10:00+00:00",
+      "region": "jp",
+      "source_name": "AXIS Web",
+      "summary": "アクシオム次世代宇宙服 ©Axiom Space 大阪市立科学館は、企画展「月から火星へ 宇宙探査におけるイタリア」を9月19日（土）から10月25日（日）まで開催する。日伊修好160周年および大阪・ミラノ姉妹都市提携4 […]",
+      "title": "大阪市立科学館「月から火星へ 宇宙探査におけるイタリア」展。アルテミス計画で使用予定の次世代宇宙服レプリカを日本初公開",
+      "url": "https://www.axismag.jp/posts/2026/09/722748.html"
+    },
     "https://www.axismag.jp/posts/2026/09/722762.html": {
       "_seen": "2026-09-09",
       "cat_hint": null,
@@ -5420,6 +6005,19 @@
       "summary": "消費者トレンド予測企業のWGSNと、カラーソリューションを手がけるColoro（カラロ）は、2028年のカラー・オブ・ザ・イヤーとして「ラディアント・アース（Radiant Earth）」を予測した。Coloroコードは […]",
       "title": "2028年のカラー・オブ・ザ・イヤーは、赤味を帯びた新しいニュートラルカラー「ラディアント・アース」",
       "url": "https://www.axismag.jp/posts/2026/09/722762.html"
+    },
+    "https://www.axismag.jp/posts/2026/09/722773.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "https://www.axismag.jp/axismag-admin/wp-content/uploads/2026/09/Heinz_Love_Lids_HERO_KV-720x405.jpg",
+      "image_url": "https://www.axismag.jp/axismag-admin/wp-content/uploads/2026/09/Heinz_Love_Lids_HERO_KV.jpg",
+      "kind": "media",
+      "published": "2026-09-15T02:58:35+00:00",
+      "region": "jp",
+      "source_name": "AXIS Web",
+      "summary": "トマトケチャップといえば、このボトルを思い浮かべる人は多いだろう。157年以上にわたりケチャップを展開してきたHEINZは、定番のケチャップボトルを再解釈し、ケチャップの出る量をカスタマイズできる新しいキャップ「Love […]",
+      "title": "HEINZがカスタマイズできるケチャップ用キャップ「Love Lid」を発表。好みに合わせてケチャップの量を3段階で調整",
+      "url": "https://www.axismag.jp/posts/2026/09/722773.html"
     },
     "https://www.axismag.jp/posts/2026/09/722820.html": {
       "_seen": "2026-09-10",
@@ -6019,6 +6617,19 @@
       "title": "\"DAVID\" animation movie",
       "url": "https://www.behance.net/gallery/255550143/DAVID-animation-movie"
     },
+    "https://www.behance.net/gallery/255608379/Spooky-Collection-Monsters-Ghosts-Creatures": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ef9cb0255608379.Y3JvcCw3OTEsNjE5LDY5MSw2OTE.jpg",
+      "kind": "showcase",
+      "published": "2026-09-15T15:30:28+00:00",
+      "region": "en",
+      "source_name": "Behance",
+      "summary": "Spooky Character Collection A collection of monsters, ghosts, strange creatures and spooky characters created over several years. Some of these characters were originally created for Halloween, while others came from personal experiments, sketches and ideas that simply felt at home in the darker corners of my imagination. This collection brings them together as an ongoing exploration of character design, shape, personality and visual storytelling ? from friendly little monsters to weird creatures and mischievous ghosts. Created as a personal character design project, the collection explores playful horror, fantasy, humor and expressive silhouettes while keeping a strong focus on personality and storytelling. The collection is still growing, with new creatures joining the lineup from time to time. If you're looking for character design, creature design, illustration or visual development for a project, I'd love to hear from you.",
+      "title": "Spooky Collection ? Monsters, Ghosts & Creatures",
+      "url": "https://www.behance.net/gallery/255608379/Spooky-Collection-Monsters-Ghosts-Creatures"
+    },
     "https://www.behance.net/gallery/255633025/Hatchback-Phaser-For-The-Ocean-Chorus-For-The-Moon": {
       "_seen": "2026-09-15",
       "cat_hint": null,
@@ -6044,6 +6655,19 @@
       "summary": "",
       "title": "Week 37 - Daily Renders 2026",
       "url": "https://www.behance.net/gallery/255658733/Week-37-Daily-Renders-2026"
+    },
+    "https://www.behance.net/gallery/255684893/Misty-mornings-in-Krakow": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/be9cdf255684893.Y3JvcCwxMjUyLDk3OSwwLDMxNg.jpg",
+      "kind": "showcase",
+      "published": "2026-09-15T19:30:11+00:00",
+      "region": "en",
+      "source_name": "Behance",
+      "summary": "",
+      "title": "Misty mornings in Kraków",
+      "url": "https://www.behance.net/gallery/255684893/Misty-mornings-in-Krakow"
     },
     "https://www.booooooom.com/2026/08/31/an-inherent-tear-by-photographer-raul-guillermo/": {
       "_seen": "2026-09-07",
@@ -6552,6 +7176,58 @@
       "title": "Konstantin Grcic's Industrial-Looking Grinder for Alessi",
       "url": "https://www.core77.com/posts/145353/Konstantin-Grcics-Industrial-Looking-Grinder-for-Alessi"
     },
+    "https://www.core77.com/posts/145366/How-Much-Should-You-Weigh-This-1970s-Scale-Told-You": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1849992_lead_400_145366_.jpg",
+      "kind": "media",
+      "published": "2026-09-15T13:00:00+00:00",
+      "region": "en",
+      "source_name": "Core77",
+      "summary": "A bathroom scale has one job: To tell you how much you weigh. But in the 1980s, the industrial designers at Krups decided to go further, with their Data EG scale. The scale contained a pull-out weight chart in the center. This listed different heights (in centimeters) in rows that indicated the \"ideal\" weights and \"max\" weights for both males and females. You used a little plastic slider—red for the he of the household, orange for the she—to mark your relevant number. The sticker on the left certifies the scale's accuracy. It's quaint, by today's standards, and undoubtedly sought to capitalize on the fitness crazes of the era. Also worth noting: Back then \"ideal\" weights were based on statistics compiled by life insurance companies, not medical bodies, starting in the mid-century. These figures were correlated with mortality, not physical attractiveness. The numbers did not take actual body composition, fitness, proportion of muscle to fat, etc. into account. If someone designed a scale like this today, the chart would contain considerably more columns. This particular scale is in the collection of vintage goods reseller Wertwerk .",
+      "title": "How Much Should You Weigh? This 1970s Scale Told You",
+      "url": "https://www.core77.com/posts/145366/How-Much-Should-You-Weigh-This-1970s-Scale-Told-You"
+    },
+    "https://www.core77.com/posts/145367/The-Rainwater-Wall-A-Space-Saving-Water-Harvesting-Tank": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1850012_lead_400_145367_.jpg",
+      "kind": "media",
+      "published": "2026-09-15T14:00:00+00:00",
+      "region": "en",
+      "source_name": "Core77",
+      "summary": "In many parts of the world, people harvest rainwater. In rural America, where I live, you'll see people using two solutions. The first is a rain barrel. Rain barrels are something you permanently site: Once they're at their 55-gallon capacity, they weigh around 450 lbs, so you're not moving them. Another solution is Industrial Bulk Containers, or IBCs. Your typical 275-gallon IBC holds five times as much water as a rain barrel. They're on palettes, so if you've got a tractor with pallet forks, you can move them around the property. Occasionally you see people getting creative with these. If you live in a city, or a space-tight non-rural environment, you may not have the space for either a rain barrel or an IBC. Hence Turkish company Harves Technology developed this Rainwater Wall , which stores nearly as much as an IBC—264 gallons, or 1,000 liters—in a slimmer footprint. The units are meant to line walls or fences, and measure just 89\" x 69\" x 12\" (225 x 175 x 30cm). The units are modular; you can daisy-chain together as many of these as you have the space for. Unfortunately the company doesn't publish prices.",
+      "title": "The Rainwater Wall: A Space-Saving Water Harvesting Tank",
+      "url": "https://www.core77.com/posts/145367/The-Rainwater-Wall-A-Space-Saving-Water-Harvesting-Tank"
+    },
+    "https://www.core77.com/posts/145368/Cea-Designs-Incredibly-Modernist-Hideaway-Toilet": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1850053_lead_400_145368_.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:00:00+00:00",
+      "region": "en",
+      "source_name": "Core77",
+      "summary": "This Abaco bathroom system is by Cea Design, an Italian manufacturer of high-end bathrooms. It's designed to not look like a toilet at all, when not in use, and is made of stainless steel. It can also be customized with wood or marble. The seating surface is heated, and there's a built-in bidet. Check out this demo, by Ukrainian bathroom installer Concept Hall:",
+      "title": "Cea Design's Incredibly Modernist Hideaway Toilet",
+      "url": "https://www.core77.com/posts/145368/Cea-Designs-Incredibly-Modernist-Hideaway-Toilet"
+    },
+    "https://www.creativebloq.com/3d/3d-art/final-fantasy-vii-inspired-this-artist-to-create-her-own-worlds": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/qYgH3uL2L7dTnrsufUXExS-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T09:00:00+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "Tian Gan on how she became an artist.",
+      "title": "Final Fantasy VII inspired this artist to create her own worlds",
+      "url": "https://www.creativebloq.com/3d/3d-art/final-fantasy-vii-inspired-this-artist-to-create-her-own-worlds"
+    },
     "https://www.creativebloq.com/3d/3d-art/korean-games-and-character-art-played-a-big-part-in-inspiring-me-to-become-a-3d-character-artist": {
       "_seen": "2026-09-07",
       "cat_hint": null,
@@ -7007,6 +7683,19 @@
       "title": "Save up to 52% on creative tech from Creality this Labor Day",
       "url": "https://www.creativebloq.com/creative-inspiration/digital-crafting/save-up-to-52-percent-on-creative-tech-from-creality-this-labor-day"
     },
+    "https://www.creativebloq.com/creative-inspiration/embrace-the-fashion-week-flavour-with-these-colourful-kitchen-accessories": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/rLuAVgytCmEtzTMpeZzRSi-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T12:00:00+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "Get up to 43% off big brands like Smeg and Le Creuset.",
+      "title": "Embrace the Fashion Week flavour with these colourful kitchen accessories",
+      "url": "https://www.creativebloq.com/creative-inspiration/embrace-the-fashion-week-flavour-with-these-colourful-kitchen-accessories"
+    },
     "https://www.creativebloq.com/design/advertising/a-kick-in-the-face-to-every-woman-sydney-sweeney-torn-apart-for-racy-sports-ad": {
       "_seen": "2026-09-15",
       "cat_hint": null,
@@ -7254,6 +7943,32 @@
       "title": "This logo just turned 40, but it could have been made yesterday",
       "url": "https://www.creativebloq.com/design/logos-icons/this-logo-just-turned-40-but-it-could-have-been-made-yesterday"
     },
+    "https://www.creativebloq.com/design/poster-design/the-digger-poster-design-strikes-graphic-design-gold": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/vj2KPHkrfCUMZUvdGz3Y33-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T08:00:00+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "The movie poster makes a nod to the legacy of a graphic design legend.",
+      "title": "The Digger poster strikes graphic design gold",
+      "url": "https://www.creativebloq.com/design/poster-design/the-digger-poster-design-strikes-graphic-design-gold"
+    },
+    "https://www.creativebloq.com/design/poster-design/theres-no-way-this-elon-musk-movie-poster-isnt-ironic": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/7jt5sqEnKpmxQZCrfNryBS-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T14:26:11+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "It’s giving clip art…",
+      "title": "There's no way this Elon Musk movie poster isn't ironic",
+      "url": "https://www.creativebloq.com/design/poster-design/theres-no-way-this-elon-musk-movie-poster-isnt-ironic"
+    },
     "https://www.creativebloq.com/design/product-design/iphone-18-pro-leaks-suggest-photographers-are-finally-getting-the-feature-theyve-been-waiting-for": {
       "_seen": "2026-09-07",
       "cat_hint": null,
@@ -7305,6 +8020,19 @@
       "summary": "Are we really worried about a 'video game girlfriend'?",
       "title": "The GTA 6 'romance' controversy is everything that's wrong with the internet",
       "url": "https://www.creativebloq.com/design/the-gta-6-romance-controversy-is-everything-thats-wrong-with-the-internet"
+    },
+    "https://www.creativebloq.com/design/the-new-us-space-force-uniforms-look-like-the-star-wars-empire-meets-the-ss": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/387ypfWeW8J32jSt6gFeh-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T14:24:07+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "Someone didn't understand that Starship Troopers was a satire.",
+      "title": "The new US Space Force uniforms look like the Star Wars Empire meets the SS",
+      "url": "https://www.creativebloq.com/design/the-new-us-space-force-uniforms-look-like-the-star-wars-empire-meets-the-ss"
     },
     "https://www.creativebloq.com/entertainment/fans-think-beyonces-usd1000-empty-wooden-box-is-a-sign": {
       "_seen": "2026-09-12",
@@ -7435,6 +8163,19 @@
       "summary": "This co-op Switch 2 exclusive charms with its commitment to retro anime aesthetics.",
       "title": "Orbitals review: a co-op playable anime dream",
       "url": "https://www.creativebloq.com/entertainment/gaming/orbitals-review-a-co-op-playable-anime-dream"
+    },
+    "https://www.creativebloq.com/entertainment/gaming/pre-order-the-legend-of-zelda-ocarina-of-time-remake-theres-only-one-downside": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/PTy7eJhZBFHpXtyGgvCrz3-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T20:08:25+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "You'll still have to wait 2 months until you get your hands on it!",
+      "title": "Pre-order The Legend of Zelda: Ocarina of Time remake: There's only one downside",
+      "url": "https://www.creativebloq.com/entertainment/gaming/pre-order-the-legend-of-zelda-ocarina-of-time-remake-theres-only-one-downside"
     },
     "https://www.creativebloq.com/entertainment/gaming/the-huge-nintendo-switch-tariff-refund-sale-has-begun-and-theres-30-percent-off-iconic-games": {
       "_seen": "2026-09-14",
@@ -7644,6 +8385,19 @@
       "title": "This teeny but powerful MacBook charger looks like it could be perfect for travel, and it costs under $90",
       "url": "https://www.creativebloq.com/tech/accessories/this-teeny-but-powerful-macbook-charger-looks-like-it-could-be-perfect-for-travel-and-it-costs-under-usd90"
     },
+    "https://www.creativebloq.com/tech/chairs-desks/oof-turns-out-ai-is-as-annoying-in-office-chairs-as-it-is-everywhere-else": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/wp6Ky2QWCtBkcZmBUsR8ji-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T14:00:00+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "The Hbada X7 chair packs AI-assisted automated lumbar support, plus warming, cooling and massage systems.",
+      "title": "Oof! Turns out AI is as annoying in office chairs as it is everywhere else",
+      "url": "https://www.creativebloq.com/tech/chairs-desks/oof-turns-out-ai-is-as-annoying-in-office-chairs-as-it-is-everywhere-else"
+    },
     "https://www.creativebloq.com/tech/chairs-desks/sihoo-m56c-review-a-cheap-chair-thats-only-good-for-short-sits": {
       "_seen": "2026-09-09",
       "cat_hint": null,
@@ -7852,6 +8606,19 @@
       "title": "Eizo FlexScan EV3450XC review: a well‑rounded ultrawide with everyday smarts",
       "url": "https://www.creativebloq.com/tech/monitors/eizo-flexscan-ev3450xc-review-a-well-rounded-ultrawide-with-everyday-smarts"
     },
+    "https://www.creativebloq.com/tech/monitors/the-lenovo-yoga-pro-27ud-10-review-an-all-in-one-monitor-that-earns-its-keep": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/zeNZNHxnfgizCTC2ZM4PEH-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T07:00:00+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "A stunning 4K OLED panel, a webcam good enough for vlogging and speakers you’ll actually use, all in one neat package.",
+      "title": "The Lenovo Yoga Pro 27UD-10 review: an all-in-one monitor that earns its keep",
+      "url": "https://www.creativebloq.com/tech/monitors/the-lenovo-yoga-pro-27ud-10-review-an-all-in-one-monitor-that-earns-its-keep"
+    },
     "https://www.creativebloq.com/tech/peripherals/hand-picked-labor-day-savings-to-upgrade-your-desktop-for-a-fresh-start": {
       "_seen": "2026-09-08",
       "cat_hint": null,
@@ -7942,6 +8709,19 @@
       "summary": "Save up to 39% on big brands like Sony and JBL.",
       "title": "The best Labor Day speaker deals starting from $60",
       "url": "https://www.creativebloq.com/tech/the-best-labor-day-speaker-deals-starting-from-usd60"
+    },
+    "https://www.creativebloq.com/tech/the-branding-of-apples-rumoured-iphone-gaming-controllers-is-kind-of-weird": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/QDsMc5sGrkfcg3x7tcnAbG-1280-80.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T06:00:00+00:00",
+      "region": "en",
+      "source_name": "Creative Bloq",
+      "summary": "If Apple's finally taking gaming seriously, why use a secondary brand?",
+      "title": "The branding of Apple's rumoured iPhone gaming controllers is kind of weird",
+      "url": "https://www.creativebloq.com/tech/the-branding-of-apples-rumoured-iphone-gaming-controllers-is-kind-of-weird"
     },
     "https://www.creativebloq.com/tech/the-hp-omen-35l-for-2026-may-be-gaming-focused-but-it-delivers-for-creatives-too": {
       "_seen": "2026-09-07",
@@ -8294,6 +9074,19 @@
       "title": "compact forest cabin by wiki world takes shape as a red wooden submarine",
       "url": "https://www.designboom.com/architecture/compact-forest-cabin-wiki-world-red-wooden-submarine-china/"
     },
+    "https://www.designboom.com/architecture/compressed-agricultural-waste-complete-building-system-new-york-house-ltl-architects/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/compressed-agricultural-waste-complete-building-system-new-york-house-ltl-architects-designboom-700-500x400-22b08q85r720.jpg",
+      "kind": "media",
+      "published": "2026-09-15T14:15:42+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "prefabricated over two months at princeton’s architecture lab, the prototype uses 16 large straw units whose density and limitations directly shape the house’s form. The post agricultural waste forms complete building system in new york house by LTL architects appeared first on designboom | architecture & design magazine .",
+      "title": "agricultural waste forms complete building system in new york house by LTL architects",
+      "url": "https://www.designboom.com/architecture/compressed-agricultural-waste-complete-building-system-new-york-house-ltl-architects/"
+    },
     "https://www.designboom.com/architecture/curved-joinery-bold-color-1960s-apartment-madrid-imperial-alessio-lamarca-marta-ciabattini/": {
       "_seen": "2026-09-11",
       "cat_hint": "space_env",
@@ -8580,6 +9373,19 @@
       "title": "SO arquitetura stacks tiny azores home onto 13 square-meter footprint",
       "url": "https://www.designboom.com/architecture/so-arquitetura-tiny-azores-home-mini-atalhada-portugal/"
     },
+    "https://www.designboom.com/architecture/spiral-timber-beams-steel-tiny-40-sqm-tokyo-home-musashi-koyama-tato-architects-yo-shimada/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/house-musashi-koyama-tato-architects-yo-shimada-tiny-family-home-tokyo-designboom-700-500x400-22b08q85r861.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:55:32+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "skip floors create interconnected levels throughout the house. The post a spiral of timber beams and steel frames tiny 40-sqm tokyo home appeared first on designboom | architecture & design magazine .",
+      "title": "a spiral of timber beams and steel frames tiny 40-sqm tokyo home",
+      "url": "https://www.designboom.com/architecture/spiral-timber-beams-steel-tiny-40-sqm-tokyo-home-musashi-koyama-tato-architects-yo-shimada/"
+    },
     "https://www.designboom.com/architecture/stefano-boeri-affordable-housing-ibiza-modular-timber-blocks-sa-casa/": {
       "_seen": "2026-09-10",
       "cat_hint": "space_env",
@@ -8683,6 +9489,19 @@
       "summary": "underground homes reveal a tension between the physical comfort of shelter and the psychological pull of the world above. The post why does living underground feel so strange? appeared first on designboom | architecture & design magazine .",
       "title": "why does living underground feel so strange?",
       "url": "https://www.designboom.com/architecture/why-does-living-underground-feel-so-strange/"
+    },
+    "https://www.designboom.com/architecture/zav-architects-colorful-vaults-iran-gelareh-house/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/zav-architects-gelareh-house-iran-designboom-700-500x400-22b08q85r044.jpg",
+      "kind": "media",
+      "published": "2026-09-15T18:10:57+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "weaving new living spaces between fruit trees, a chain of colorful masonry vaults shapes ZAV architects' gelareh house. The post ZAV architects sends colorful vaulted rooms through iranian orchard appeared first on designboom | architecture & design magazine .",
+      "title": "ZAV architects sends colorful vaulted rooms through iranian orchard",
+      "url": "https://www.designboom.com/architecture/zav-architects-colorful-vaults-iran-gelareh-house/"
     },
     "https://www.designboom.com/art/atlas-re-edificatoria-exhibition-renovation-photography-contemporary-catalan-art-adria-goula/": {
       "_seen": "2026-09-07",
@@ -8866,6 +9685,32 @@
       "title": "2,977 lights recreate twin towers over new york harbor 25 years after 9/11",
       "url": "https://www.designboom.com/art/lights-twin-towers-new-york-harbor-25-years-after-9-11/"
     },
+    "https://www.designboom.com/art/luca-battaglia-ghostly-glow-disappearing-carousels-long-exposure-photography/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/luca-battaglia-ghostly-glow-disappearing-carousels-long-exposure-photography-designboom-700-500x400-22b08q85r316.jpg",
+      "kind": "media",
+      "published": "2026-09-15T08:20:57+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "using exposures of up to 30 seconds, the photographer captures spinning carousels as their horses and decorations dissolve into bands of light. The post luca battaglia looks at carousels through the changing perception of movement appeared first on designboom | architecture & design magazine .",
+      "title": "luca battaglia looks at carousels through the changing perception of movement",
+      "url": "https://www.designboom.com/art/luca-battaglia-ghostly-glow-disappearing-carousels-long-exposure-photography/"
+    },
+    "https://www.designboom.com/art/safety-curtain-series-contemporary-art-center-stage-vienna-state-opera/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/safety-curtain-designboom-700-500x400-22b08q85r255.jpg",
+      "kind": "media",
+      "published": "2026-09-15T09:25:49+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "from joan jonas to cy twombly, the safety curtain series has worked with leading figures in contemporary art to transform the viennese stage. The post safety curtain series puts contemporary art center stage at vienna state opera appeared first on designboom | architecture & design magazine .",
+      "title": "safety curtain series puts contemporary art center stage at vienna state opera",
+      "url": "https://www.designboom.com/art/safety-curtain-series-contemporary-art-center-stage-vienna-state-opera/"
+    },
     "https://www.designboom.com/art/spok-brillor-geometry-tennis-court-felipe-pantone-casa-axis/": {
       "_seen": "2026-09-07",
       "cat_hint": "space_env",
@@ -8905,6 +9750,19 @@
       "title": "white stainless-steel cylinders form coral-like swing installation on chinese coast",
       "url": "https://www.designboom.com/art/white-stainless-steel-cylinders-coral-like-swing-installation-chinese-coast-xbtw-office/"
     },
+    "https://www.designboom.com/design/2000-hussein-chalayan-collection-living-room-after-words/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/hussein-chalayan-after-words-fw2000-london-designboom-700-500x400-22b08q85r104.jpg",
+      "kind": "media",
+      "published": "2026-09-15T10:15:11+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "the 2000 runway turns looking into part of the design as furniture reveals an unexpected second life. The post hussein chalayan staged a living room, then let his models wear it away appeared first on designboom | architecture & design magazine .",
+      "title": "hussein chalayan staged a living room, then let his models wear it away",
+      "url": "https://www.designboom.com/design/2000-hussein-chalayan-collection-living-room-after-words/"
+    },
     "https://www.designboom.com/design/amsterdam-fashion-week-2026-design-highlights-performance/": {
       "_seen": "2026-09-07",
       "cat_hint": "space_env",
@@ -8917,6 +9775,19 @@
       "summary": "from supermarket aisles to a monumental windmill, AFW26 explores identity, community and everyday life through fashion. The post amsterdam fashion week 2026 turns the city into a stage for design and performance appeared first on designboom | architecture & design magazine .",
       "title": "amsterdam fashion week 2026 turns the city into a stage for design and performance",
       "url": "https://www.designboom.com/design/amsterdam-fashion-week-2026-design-highlights-performance/"
+    },
+    "https://www.designboom.com/design/analog-sound-installation-yont-studio-berlin-kadewe/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/yont-studio_designboom_700-500x400-22b08q85r502.jpg",
+      "kind": "media",
+      "published": "2026-09-15T14:00:12+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "namilia and telekom electronic beats present an immersive soundscape designed by YONT studio, inviting visitors to slow down and listen. The post analog sound installation by YONT studio captures road trip nostalgia inside berlin’s KaDeWe appeared first on designboom | architecture & design magazine .",
+      "title": "analog sound installation by YONT studio captures road trip nostalgia inside berlin’s KaDeWe",
+      "url": "https://www.designboom.com/design/analog-sound-installation-yont-studio-berlin-kadewe/"
     },
     "https://www.designboom.com/design/continuous-white-dj-console-turntables-mixers-hidden-cables-modek-evolution-pro/": {
       "_seen": "2026-09-07",
@@ -9022,6 +9893,19 @@
       "title": "ancient korean hanji paper transformed into sustainable biomaterials at maison&objet 2026",
       "url": "https://www.designboom.com/design/korean-hanji-paper-sustainable-biomaterial-maison-et-objet-2026/"
     },
+    "https://www.designboom.com/design/lasvit-lighting-fixture-installation-for-napa-valley-home/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/lasvit_designboom_700-500x400-22b08q85r999.jpg",
+      "kind": "media",
+      "published": "2026-09-15T10:00:46+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "with it’s herbarium, lasvit creates a hand blown crystal installation for a private home in napa valley. The post lasvit imprints bohemian meadows into custom lighting fixture for napa valley home appeared first on designboom | architecture & design magazine .",
+      "title": "lasvit imprints bohemian meadows into custom lighting fixture for napa valley home",
+      "url": "https://www.designboom.com/design/lasvit-lighting-fixture-installation-for-napa-valley-home/"
+    },
     "https://www.designboom.com/design/leisurama-promise-fabulous-mid-century-vacationing-for-all/": {
       "_seen": "2026-09-07",
       "cat_hint": "space_env",
@@ -9126,6 +10010,19 @@
       "title": "Xbox controller shapes become furniture in IKEA’s nine-piece YXSTABY collection",
       "url": "https://www.designboom.com/design/xbox-controller-furniture-ikea-yxstaby-collection-gaming/"
     },
+    "https://www.designboom.com/editorials/the-hacienda-must-be-built-spectacle-wonder-disenchanted-world/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/spectator-spectacle-chapter-editor-letter-designboom-700-500x400-22b08q85r013.jpg",
+      "kind": "media",
+      "published": "2026-09-15T10:49:11+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "what if we are not overwhelmed by spectacle, but starved of it? our days are measured, optimized and increasingly predictable. we have never been exposed to more images, and rarely felt less enchanted by them. what feels missing is the kind of spectacle that cannot be scrolled past, with real stakes and an uncertain ending. in spectator and spectacle we look at the radical discotheques, the museum galleries staged like psychodramas, and the garments that turn the body into a walking act of rebellion. this chapter asks how wonder gets built, and how it might return some mystery to a world that has measured most of it away. The post the hacienda must be built: on spectacle and wonder in a disenchanted world appeared first on designboom | architecture & design magazine .",
+      "title": "the hacienda must be built: on spectacle and wonder in a disenchanted world",
+      "url": "https://www.designboom.com/editorials/the-hacienda-must-be-built-spectacle-wonder-disenchanted-world/"
+    },
     "https://www.designboom.com/readers/3d-printing-ai-reused-objects-bathing-prototype-year-2050-sustainable-decadence-v2-0-ross-stevens/": {
       "_seen": "2026-09-12",
       "cat_hint": "space_env",
@@ -9151,6 +10048,19 @@
       "summary": "esoteric t-01 turntable uses patented magnedrive technology for contactless, vibration-free vinyl playback The post esoteric’s T-01 turntable lets magnets do the spinning, with no belt in sight appeared first on designboom | architecture & design magazine .",
       "title": "esoteric’s T-01 turntable lets magnets do the spinning, with no belt in sight",
       "url": "https://www.designboom.com/technology/esoterics-t-01-turntable-magnets-spinning-magnedrive-system/"
+    },
+    "https://www.designboom.com/technology/ferraris-rarest-paint-finish-on-its-only-matte-enzo-at-auction/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/ferraris-rarest-paint-finish-on-its-only-matte-enzo-at-auction-designboom-2-500x400-22b08q85r307.jpg",
+      "kind": "media",
+      "published": "2026-09-15T17:19:43+00:00",
+      "region": "en",
+      "source_name": "designboom",
+      "summary": "the one-off 2004 ferrari enzo in matte nero opaco joins rm sotheby’s sealed september sale. The post ferrari’s rarest paint finish on its only matte enzo at auction appeared first on designboom | architecture & design magazine .",
+      "title": "ferrari’s rarest paint finish on its only matte enzo at auction",
+      "url": "https://www.designboom.com/technology/ferraris-rarest-paint-finish-on-its-only-matte-enzo-at-auction/"
     },
     "https://www.designboom.com/technology/hissy-cooling-jacket-co%e2%82%82-cartridges-technical-apparel-extreme-urban-heat/": {
       "_seen": "2026-09-07",
@@ -10491,6 +11401,110 @@
       "title": "\"Is touching really asking too much?\"",
       "url": "https://www.dezeen.com/2026/09/14/touching-design-alice-fisher-opinion/"
     },
+    "https://www.dezeen.com/2026/09/15/chromatic-architecture-worlds-best-colourful-buildings/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/chromatic-architecture_dezeen_2364_sq_0-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/chromatic-architecture_dezeen_2364_sq_0.jpg",
+      "kind": "media",
+      "published": "2026-09-15T10:00:19+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "A new book from designer Adam Nathaniel Furman and Dezeen contributor Kate Mazade spotlights the most radical examples of colourful architecture from across history. Here, the authors pick six favourites. Published by RIBA Publishing, Chromatic Architecture explores colour as an intrinsic element of architecture, rather than just decoration. Across 34 examples, the book shows how The post Chromatic Architecture authors pick six of the world's best colourful buildings appeared first on Dezeen .",
+      "title": "Chromatic Architecture authors pick six of the world's best colourful buildings",
+      "url": "https://www.dezeen.com/2026/09/15/chromatic-architecture-worlds-best-colourful-buildings/"
+    },
+    "https://www.dezeen.com/2026/09/15/grimshaw-north-plaza-allegiant-boring-company-las-vegas/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/grimshaw-north-plaza-allegiant-stadium-las-vegas_dezeen_2364_sq-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/grimshaw-north-plaza-allegiant-stadium-las-vegas_dezeen_2364_sq.jpg",
+      "kind": "media",
+      "published": "2026-09-15T14:30:32+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "Architecture studio Grimshaw has released plans for a reimagined entry plaza for Allegiant Stadium in Las Vegas, transforming parking lots into transport infrastructure and walkways. Grimshaw's plans for the redesign of the entryway mark both the city's commitment to the Boring Company's series of underground car tunnels and the move away from parking in the The post Grimshaw to integrate Boring Company station into elevated Las Vegas stadium plaza appeared first on Dezeen .",
+      "title": "Grimshaw to integrate Boring Company station into elevated Las Vegas stadium plaza",
+      "url": "https://www.dezeen.com/2026/09/15/grimshaw-north-plaza-allegiant-boring-company-las-vegas/"
+    },
+    "https://www.dezeen.com/2026/09/15/house-beyond-mango-trees-inle-architects/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/house-beyond-the-mango-trees-indian-home-inle-architects-sq_dezeen_2364_col_0-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/house-beyond-the-mango-trees-indian-home-inle-architects-sq_dezeen_2364_col_0.jpg",
+      "kind": "media",
+      "published": "2026-09-15T10:30:54+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "Timber shutters and the canopies of two large trees shade the interiors of House Beyond the Mango Trees, a home in Kerala by Indian practice InLe Architects. InLe Architects founder Afiz Ubaid described the existing trees on the site in Kannur as its \"biggest opportunity\", providing shade and filtered sunlight while also buffering noise from a The post Mango trees shade \"restrained and calming\" home in India by InLe architects appeared first on Dezeen .",
+      "title": "Mango trees shade \"restrained and calming\" home in India by InLe architects",
+      "url": "https://www.dezeen.com/2026/09/15/house-beyond-mango-trees-inle-architects/"
+    },
+    "https://www.dezeen.com/2026/09/15/jony-ive-lovefrom-moncler-new-york/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/lovefrom-moncler-jony-ive-new-york_dezeen_2364_col_sq1-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/lovefrom-moncler-jony-ive-new-york_dezeen_2364_col_sq1.jpg",
+      "kind": "media",
+      "published": "2026-09-15T09:45:18+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "Designer Jony Ive's studio LoveFrom has created its second collection for fashion brand Moncler, using symbols including its signature bear climbing the Empire State Building to celebrate the brand's flagship New York store. The collection is organised around the down-filled Moncore jacket, which can be complemented by three interchangeable outer layers. These consist of a The post Jony Ive decorates Moncler outerwear collection with New York symbols appeared first on Dezeen .",
+      "title": "Jony Ive decorates Moncler outerwear collection with New York symbols",
+      "url": "https://www.dezeen.com/2026/09/15/jony-ive-lovefrom-moncler-new-york/"
+    },
+    "https://www.dezeen.com/2026/09/15/lee-broom-1970s-glamour-chant-chambers-installation/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/chant-chambers-lee-broom_dezeen_2364_col_sq-1-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/chant-chambers-lee-broom_dezeen_2364_col_sq-1.jpg",
+      "kind": "media",
+      "published": "2026-09-15T08:00:17+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "Designer Lee Broom has created an \"atmospheric environment\" in his Shoreditch showroom with The Chant Chambers, an installation showcasing his glass-block Chant lighting collection at London Design Festival. The Chant Chambers displays the modular light in a variety of forms – as a portable lamp, wall lamp, linear pendants and oversized chandeliers. All are presented inside The post Lee Broom evokes 1970s glamour with The Chant Chambers installation appeared first on Dezeen .",
+      "title": "Lee Broom evokes 1970s glamour with The Chant Chambers installation",
+      "url": "https://www.dezeen.com/2026/09/15/lee-broom-1970s-glamour-chant-chambers-installation/"
+    },
+    "https://www.dezeen.com/2026/09/15/poke-ball-themed-hotel-not-a-hotel/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/poke-ball-themed-hotel-not-a-hotel-japan_dezeen_2364_sq_0-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/poke-ball-themed-hotel-not-a-hotel-japan_dezeen_2364_sq_0.jpg",
+      "kind": "media",
+      "published": "2026-09-15T01:00:36+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "Hotelier Not A Hotel has revealed its latest guesthouse will take the form of a human-sized Pokémon Poké Ball, nestled beside a lake in Hokkaido, Japan. Set to be built in Tomakomai City, the Poké Ball-Themed Hotel will feature a three-metre-diameter spherical guest room shaped like the balls used to catch and store wild creatures The post Not A Hotel reveals design for giant Poké Ball guest room in Japan appeared first on Dezeen .",
+      "title": "Not A Hotel reveals design for giant Poké Ball guest room in Japan",
+      "url": "https://www.dezeen.com/2026/09/15/poke-ball-themed-hotel-not-a-hotel/"
+    },
+    "https://www.dezeen.com/2026/09/15/shoreditch-design-week-ldf-duncan-riches-interview/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/ldf-dispatch-duncan-riches-interview_dezeen_2364_col_sq-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/ldf-dispatch-duncan-riches-interview_dezeen_2364_col_sq.jpg",
+      "kind": "media",
+      "published": "2026-09-15T09:00:10+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "As Shoreditch Design Week kicks off its inaugural edition at this year's London Design Festival, we interviewed creative director Duncan Riches about how he aims to bring design back to the east London neighbourhood. If you ask people in London's design scene which of the ever-increasing London Design Festival (LDF) districts are a must-visit, chances The post London has \"the best architecture and interior design community in Europe\" says Duncan Riches appeared first on Dezeen .",
+      "title": "London has \"the best architecture and interior design community in Europe\" says Duncan Riches",
+      "url": "https://www.dezeen.com/2026/09/15/shoreditch-design-week-ldf-duncan-riches-interview/"
+    },
+    "https://www.dezeen.com/2026/09/15/veronica-mishaan-bogota-colombia-penthouse/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "https://static.dezeen.com/uploads/2026/09/bogota-apartment-veronica-mishaan_dezeen_2364_sq2-411x411.jpg",
+      "image_url": "https://static.dezeen.com/uploads/2026/09/bogota-apartment-veronica-mishaan_dezeen_2364_sq2.jpg",
+      "kind": "media",
+      "published": "2026-09-15T18:00:15+00:00",
+      "region": "en",
+      "source_name": "Dezeen",
+      "summary": "Local designer Veronica Mishaan has revamped a penthouse apartment with bursts of colour and animal prints in Bogotá, Colombia. The 580-square-metre apartment was redesigned to balance the needs of the family with the ability to host, while preserving and displaying the clients' art and antiques collection. \"We aimed to preserve the essence of the space The post Veronica Mishaan carries out \"successful juxtaposition\" of patterns in Bogotá penthouse appeared first on Dezeen .",
+      "title": "Veronica Mishaan carries out \"successful juxtaposition\" of patterns in Bogotá penthouse",
+      "url": "https://www.dezeen.com/2026/09/15/veronica-mishaan-bogota-colombia-penthouse/"
+    },
     "https://www.dialkit.dev/": {
       "_seen": "2026-09-11",
       "cat_hint": null,
@@ -10751,6 +11765,19 @@
       "title": "特斯拉量产版Cybercab发布，太失望了！",
       "url": "https://www.digitaling.com/articles/1575706.html"
     },
+    "https://www.digitaling.com/articles/1575713.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260904/remote_178851689534523.png",
+      "kind": "media",
+      "published": "2026-09-15T01:52:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "情绪故事是支撑拼豆传播的核心动力。 拼豆消费，成为这两年行业中近乎现象级的趋势。 玩法其实非常简单，一张图纸、一把镊子，将五颜六色的塑料豆粒，按图排布，最后通过熨烫定型即可。但就是这样一款低门槛、轻量化的休闲产品，让无数年轻人主动为它戒掉“网瘾”，花钱埋头坐上两三个小时，甚至更久。 各大平台的数据也印证了拼豆的爆发式增长。 抖音2026年春节消费数据显示，Z世代拼豆团购下单量同比增幅高达9018%，平台相关话题总播放量突破298亿次； 在淘宝发布的《2025年度十大商品》榜单中，拼豆凭借近500%的搜索量同比增速位列第二； 小红书平台#我染上了拼豆 话题浏览量突破117亿次，用户自发传播的热度居高不下。 图源：小红书&抖音 不过就在前不久，市场监管总局专门发布拼豆产品质量安全公告，对面向不同年龄段的产品分别提出认证、标注和安全标准要求。换个思路看， 一个新兴消费品类能够触发国家级专项监管规范，也证明了其在市场体量、受众规模上形成的影响力。 当然，行业内部对这一现象的争议也一直存在，有从业者认为拼豆将会是另一场流量泡沫。但与过往爆款不同的是，拼豆的走红由用户自发完成，品牌反而走在后面。这也是本文想拆解的核心问题： 在流量投放常态化的当下，一场没有品牌主导、用户自驱动的传播是如何发生的，它又能为当下的营销和公关带来哪些新的思考？ 一、拼豆：卖的是一种“确定感” 理解拼豆持续走红的原因前，得先搞清楚消费者为之买单的到底是什么。 表面来看，拼豆只是一套塑料小圆柱搭配带孔板的手工产品。但真正让年轻人愿意沉浸下来创作的，是当下生活里越来越稀缺的一种体验—— 确定感。 照着图纸排布豆粒，每一颗都有固定的位置，完成后经熨烫即可得到成品。 只要一步步耐心做，就会有明确的反馈。 上海社会科学院应用经济研究所研究员曹祎遐将这种体验概括为 “确定性的成就感”。 在充满不确定性的当下，拼豆提供的这种踏实感及情绪价值，才是许多年轻人真正愿意投入的核心。 图源：MARD 这种情绪价值还延伸出三个具体方向。 一是解压。 拼豆创作需要全程专注，手眼高度配合，焦虑和杂念自然会被弱化。很多用户描述创作状态是“那两个小时脑子里什么都没想”，这种屏蔽外界干扰、完全沉浸的体验，也即是我们常说的“心流”。 二是礼物价值。 手工制作的作品自带情感温度，拼豆成品作为礼物，兼具用心、个性、可展示的特点，精准契合年轻世代的社交表达逻辑。 三是分享动机。 拼豆成品是色彩饱和的复古像素风产物，辨识度高、差异化强，极其适合在社交平台传播。量产的标准化商品可能很难让人有分享欲，但亲手做出来的作品，哪怕只是一枚可能没什么用的小装饰，也值得拍照分享。 拼豆最重要的产品特质就在于， 它的情绪属性明确，且都指向社交分享。 再加上门槛低，任何人都可以成为内容的生产者，这也让拼豆形成了充足的UGC传播土壤。 二、品类热度，由“情绪",
+      "title": "一年过去，年轻人还在埋头烫拼豆",
+      "url": "https://www.digitaling.com/articles/1575713.html"
+    },
     "https://www.digitaling.com/articles/1575734.html": {
       "_seen": "2026-09-08",
       "cat_hint": "visual_brand",
@@ -10815,6 +11842,19 @@
       "summary": "十个不容错过的好创意。 广告行业每天都会涌现各种各样的案例，数量众多并且都有自己的独特之处。但即使是关注度颇高的从业者，也没有精力浏览完所有的案例。「营销看点」精心为你挑选出那些值得一看的项目，并附上几句点评，力求给你带来新的启发与感悟。 在本期的营销看点中，你将看到：亚朵星球携手导演邵艺辉，讲述了一个在第一名以外的故事；美的用一组热到融化的广告牌，控诉重庆到底有多热；全联用一场阴阳两界的迁徙活动，在中元节创造了一个介于现实与想象之间的奇幻世界...... （点击带下划线的标题可查看项目详情） 1、 亚朵星球：睡觉第一名 品牌：ATOUR 亚朵 代理商：未知 在一个凡事都要争第一的社会里，睡个好觉这件最不需要努力的事，反而成了奢侈品。亚朵星球联合导演邵艺辉，在2026年推出一支品牌故事短片《睡觉第一名》。 借一个孩子对第一名的执念，向当下盛行的优绩主义发出温柔质询，并将睡个好觉升维成一种不与世界较劲的生活哲学。 短片精准切中了当代人被优绩主义裹挟的普遍焦虑，亚朵星球借此将品牌的睡眠哲学“睡眠是最小的长假，而你每天都拥有一个”， 从一个产品功能点，提升为一种对抗社会规训的态度。 短片的最大特点，是用电影级的叙事质感，完成了一次品牌内容的降维打击。故事的主角王苗苗是一个总也当不了第一的普通小孩，在睡觉这件事上，她领悟到睡不着也可以不睡、你不努力，可能就是第一名。这个简单的故事，照见了无数成年人的影子。邵艺辉执导、编剧，齐溪、邱天等实力派演员出演，确保了作品的艺术水准。 2、 宜家给产品定价，加了好多个0 品牌：IKEA 宜家 代理商：未知 钱花出去的瞬间是肉疼的，但价值却要慢慢体现。宜家的策略是将一次性付款摊薄成无数次可兑现的回报，例如，一张499欧元的沙发，换算成孩子每次开心跳跃的成本，仅为€0.00000063。 创意的精髓在于把产品的价格转换为快乐的计量单位，这个方法可以套用在宜家成千上万个SKU上，让创意具备长久的生命力。 广告牌同时展示了产品的零售价和微乎其微的单价。那些长到荒谬的小数点与常规价格形成极端反差，制造了一个会心一笑的时刻。海报上没有产品参数，只有产品在生活场景中的画面——狗叼着玩具、小女孩在沙发上蹦跳。 文案也极度克制，把解释权交给受众，让他们自己去脑补画面中的幸福。 3、 美团买药：别成为无聊的大人 品牌：美团 代理商：中好 上海 今年七夕，美团买药没有讲述浪漫故事，而是敏锐地洞察到，在稳定的亲密关系中，人们常常被“改天吧”、“下次”等话语敷衍，关系陷入一种完成任务式的倦怠。基于此，美团买药提出了“别成为无聊的大人”的核心主张，鼓励人们在亲密关系中停止敷衍，重新开始对彼此身体与爱的探索。 短片是这次创意的灵魂， 其最大的特点在于全片没有任何人物出镜。 唯一的视觉符号是一架秋千，秋千的起落，隐喻着亲密关系的起伏， 这种无人物、重意象的留白",
       "title": "「营销看点」8月精彩案例复盘，给你好看！",
       "url": "https://www.digitaling.com/articles/1576686.html"
+    },
+    "https://www.digitaling.com/articles/1576882.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260907/remote_178877611260585.jpg",
+      "kind": "media",
+      "published": "2026-09-15T02:37:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "凯乐石，为什么让我爱之深又恨之切? 作者:刀姐doris、小水井，编辑：刀姐doris “成就中国好品牌，带领走向全世界。”我每年都像路飞喊着我是要做海贼王，找到 ONE PIECE 那样，喊着这句话。 喊久了，我也会问自己：我的 ONE PIECE 到底是什么？ 也许，它不是找到一个已经存在的答案，而是和一群中国品牌一起，把那个答案亲手创造出来。 哪些品牌真正具有这种潜力？ 这几年我一直反复研究 lululemon，它让我着迷的是：它是从一代人群中生长出来的品牌，它敢定高价，也做配得上它的价格的高价值产品，而对那群超级女孩来说，穿着高品质瑜伽服的高频次，让它的价格平均分配下来也显得如此划算。 凝聚一群人的偏爱，有自己的文化，有明确的取舍，有很强的精神力量，并且从产品技术和品质上真的站得住—— 这是我对这个时代超级品牌的定义。 如果说 1998 年在北美诞生了 lululemon，中国在当下是否正在萌生未来的超级品牌？ 我慢慢关注到了凯乐石。 前段时间，我们刀法团队联合一起对凯乐石做了深度的研究，包括去企业内部和创始团队深度访谈。 我对凯乐石爱之深，也同时恨之切。 爱它，因为它有很多 lululemon 当时的影子——窄门入，敢于做专业，企业文化优秀，创始人基因与众不同。 恨它，因为它的产品、渠道和专业能力已经进入国际一线竞争区间，但品牌认知与文化资产的建设，还没有跟上业务发展的速度。 今天这第一篇，我想写写我对它的爱之深——为什么凯乐石是值得关注的中国潜力好品牌。 而下一篇，我会写写对它的恨之切，凯乐石这家企业，如果要成为中国好品牌，此刻最痛、最迫切、最棘手的问题是什么？到底要怎么解？ 为什么爱凯乐石？ 1、这个品牌是真实玩家玩出来的，不是人工造出来的。 很多品牌后来都会为自己补写一个漂亮的创始故事。 故事里通常有一个精准的市场洞察，一张巨大的行业蓝图，以及创始人仿佛从第一天就看见了二十年后的远方。 凯乐石不是这样。它的起点甚至有点“不正经”，是两个玩家不想被生意困住，为了“ 更好地玩 ”才创立的。这个品牌是从真实体验和社群里玩出来的。 凯乐石鼓励每一个员工成为真正的户外玩家，因为只有在真实场景中才能测试出一款产品是否真的能扛住极端的自然环境。 公司墙面上写着员工自己玩出来的徒步指南。就连直播间的主播都是深度运动参与者，主播的“卷”可能不在于卖货，而是去了哪座山、哪条赛道。 2、它敢于做高端，走窄路。 在整个行业都涌向大众市场、追逐时尚潮流的时候， 它做了一个“逆势”的决定：砍掉70%的产品线，重新回到山上，选择走窄门。 这个决定，差点让它亏钱，却也最终让它成为了今天的凯乐石。 今天凯乐石定价高端，主要打的是“把命交给山”的极限山野攀登者，70% 的销量都来自于这群“很窄”的人群。这也和我们刀法所说的人群战略不谋而合—— 窄门入，宽门出。与其找到 1000",
+      "title": "万字复盘凯乐石：品牌想做壮士，要先舍得断腕",
+      "url": "https://www.digitaling.com/articles/1576882.html"
     },
     "https://www.digitaling.com/articles/1576889.html": {
       "_seen": "2026-09-11",
@@ -11089,6 +12129,19 @@
       "title": "8个月6版方案后反成被告，对话立入禁止",
       "url": "https://www.digitaling.com/articles/1580942.html"
     },
+    "https://www.digitaling.com/articles/1581691.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260914/1789376534593561.jpeg",
+      "kind": "media",
+      "published": "2026-09-15T05:10:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "国产精油品牌拍出口碑系列，《气味游耕》。 好用的营销概念发展到“成熟”，往往会流于形式。 前有 文化营销 ， 情绪营销 ，今天则是好听又讲究的 内容营销 。 出现率之高、覆盖面之广，叹为观止。 播客、纪录片、纸媒是，各种种草广子是，就连线下玩法都可以带着内容思路。 “内容”弹性之大，确实给足我们随时随地下定义的空间。 但问题是，这样的内容营销发展到尽头会怎样？ 形式在模仿借鉴中重复，真正的内容性因为客观主观原因被稀释，也就难怪越来越审美疲劳。传播局限在自媒体营销号中，跟脱口秀比赛从业者一样——我们也玩上了内部梗。 原本要借内容营销解决信任问题的初衷，绕了一圈后，又绕回了原点。这何尝不是另一种内卷的恶果。 直到一天，偶然刷到一条视频，冲着烹饪封面下意识点开才意识到，其实是精油品牌拍的芳香植物纪录片。 《气味游耕》第二季 由雏菊的天空出品 美食？精油品牌？气质一个南，一个北，下意识就会想区别对待的两个品类，竟然交汇在一颗植物上。 转念一想——所谓的品类和具体用途确实只在人类语境中存在，同一个植物可以提炼精油，当然也可以烹饪、入药、泡水喝。 一旦跳出品类的自恋，客观而平视，会发现另一重内容空间。 一、不要屈从于“应该和正确”，去尝试找立场 sku简单、不依赖高频上新的品牌，更考验心智的稳固性。与此同时叙事却面临着话题有限的困境。 作为精油品牌，要么讲功能，要么讲相关的生活方式、种种价值观。 后者听起来有想象力，但也属于下意识就想到的正确思路，品牌要自证、烘托气氛到什么程度，才能和相同赛道、选择同样策略的精油品牌、护肤品竞争，更何况还要打出辨识度。 浅算一下各种成本，小众品牌根本耗不起也卷不起。 而且客观地说，精油品类和以油养肤相关的消费习惯并没有普及开。更多人对精油、纯露、芳疗的功能性，还处于疑问阶段。针对这些，需要解决更根本的信任问题。 而在纪录片之前，雏菊的天空的叙事并不算多特别，尚未形成统一的价值观。品牌形象，用户对其的想象和再诠释，也都很模糊，更不存在辨识度。 要论功效，绕不开同品类的阿芙和林清轩，后者的体量高出数倍。 说到环保、为地球减负、精简护肤，能想到至本以及一系列可能的名字。 这时，品类溯源就成了相对确定的那条路。 该叙事的有效性在于，当品牌不执迷于自证产地原材料的优越，去还原芳香植物和人类社会生产关系的种种发生，反而拿到更惊喜的结果——争取到更大也更真的立场。 品牌有权有空间去讲不止于精油品类的故事。而讲的这些故事，又和精油品类有着或具象或抽象的联系。 1）具象如，人和植物的关系。 #是互相依存的，还是难免会因为某个记忆、情结而对植物有特殊的依恋。 #现代人为什么会视植物为种种力量的源泉，心理上缺失的到底是什么，反映在皮肤问题上又是什么？ #再比如，草本气味话题。 人们对某种气味的主观喜恶，以及与之相反的，气味对植物自身而言，其实是一种信息素，因",
+      "title": "既然内容营销这么卷，干脆做一部代表作",
+      "url": "https://www.digitaling.com/articles/1581691.html"
+    },
     "https://www.digitaling.com/articles/1581803.html": {
       "_seen": "2026-09-15",
       "cat_hint": "visual_brand",
@@ -11101,6 +12154,58 @@
       "summary": "不要回答，不要回答，不要回答。 01 考验野人先生公关的时候到了 还是熟悉的味道，罗永浩一开口，就是满满的攻击性。 最近，罗永浩在社交平台上公开吐槽野人先生冰淇淋： 难吃，还贵。 紧接着又补了一刀：请千万不要惹我。 罗永浩还是太有自知之明了，清楚地知道，自己的吐槽对品牌的杀伤力到底有多大。 网友大玩特玩《三体》梗： 不要回答！不要回答！不要回答！ 为什么大家都在劝野人先生不要回应？原因其实不难理解。 口味本来就是一件很主观的事，有人吐槽难吃，就有人觉得好吃。越解释反而越容易越描越黑。 可是一旦下场回应，就等于亲手给这波热点续了命，让原本只是一句“难吃”的评价，变成一场品牌与罗永浩之间的公开battle。 而这场battle，大概率不会有什么好下场。 去年罗永浩吐槽西贝预制菜，西贝选择正面硬刚，创始人贾国龙甚至放话要起诉。结果网友顺着这条线一路深挖，从预制菜一路扒到西贝的产品、价格和经营问题，甚至还牵扯到背后的咨询公司华与华，最终舆论彻底失控。 万幸，野人先生的公关也主打一个听劝。 官方没有任何公开回应的意思 ，就连客服面对相关询问，也只是表示：已上报相关问题。 热闹看完了，不少人也和罗永浩一样，忍不住产生了一个疑问：野人先生究竟是怎么火起来的？为什么还有这么多人买单？ 02 杯子能吃？也是很野人了 说起野人先生，很多人的第一印象，可能不是某一款冰淇淋，而是铺天盖地的地铁广告。 说自己是 “夏天的第一支冰淇淋” ，配合免费领取活动，让消费者先尝再说。 而一旦消费者真的走进门店，野人先生还有一套完整的“体验设计”。 借钟薛高 “雪糕刺客” 之后消费者对预制甜品的不信任，野人先生主打看得见的新鲜。 把“现做冰淇淋”直接写到了门头上。 哪怕你只是路过，没有进店的打算，店员也会主动递上一小口，让你先尝尝味道。 晚上9点过后，还会直接买一送一。 一方面，学生等价格敏感的人群，有了更低的尝试门槛；另一方面，也能把当天做好的冰淇淋尽可能卖完，既做了促销，又顺手给“当天现做、拒绝隔夜”这句话做了背书。 营销上面，野人先生还有个挺有意思的小细节。 不少人印象中，野人先生宣传过自己的冰淇淋杯子是玉米淀粉做的可以直接吃。（冰淇淋吃完，杯子也不放过，难怪叫野人先生bushi）。 而设计本身就很有记忆点，也很容易成为消费者主动分享的“小彩蛋”。 导致虽然现在官方一再强调后面加了纸浆，改版了不能吃。网上还是有人拿到冰淇淋之后直接啃“盒子”。 对品牌来说，这也算是送上门的免费自来水了。 03 会是下一个钟薛高吗？ 罗永浩这次开喷野人先生，多少还有点替钟薛高打抱不平的意思。 巧合的是就在今天，被罗永浩怀念的钟薛高，完成了资产易主。 好好的国货品牌，现在再次出现在公众眼前，居然是因为无形资产部分已经切割完毕。想当年风光无限，如今却以这样的方式重新被大家提起，也多少让人有些唏嘘。 而同样主打高端",
       "title": "开喷野人先生！罗永浩能不能别霍霍中国品牌了",
       "url": "https://www.digitaling.com/articles/1581803.html"
+    },
+    "https://www.digitaling.com/articles/1582069.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260915/remote_178943850180531.jpg",
+      "kind": "media",
+      "published": "2026-09-15T03:55:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "把喜欢的事情做好，这种生命力永远稀缺。 作者：姚兰；来源： 姚兰Yvonne “很抱歉以这种方式和你介绍昼夜” 2025年11月20日，我在 《段永平说“我不知道”，唐彬森不谈明年的规划》 一文中写道： “文化好，最主要的就是最终它会走回正道，有一个北斗星在指引着它，它到底该干什么。不是为了生意，你仅仅讨论生意是很容易犯错误的。”段永平认为，文化好的公司，不是不会犯错，而是最终能走回正道。 2026年9月7日，茶颜悦色通过一篇8000余字的公众号长文，宣布：面市于2024年4月15日的子品牌“昼夜诗酒茶·艺文小酒馆”（简称“昼夜”），将于2026年10月31日前陆续关闭所有门店。“昼夜”是茶颜家族今年继“小神闲茶馆”撤店之后，第二个宣布关店的子品牌。 为何关停“昼夜”？茶颜悦色给出的回应是： 不能说一分钱不赚，但商业模型确实没有被验证——情绪下消费的堂食酒水和第三微醺空间并不是刚需，无法形成持续性的健康流水。 “想喝酒的人来了，觉得这里不够酒吧。不喝酒的人来了，却要面对一半的酒类菜单。” 茶颜家族仍在运营的品牌包括茶颜悦色（主品牌）、鸳央咖啡、古德墨柠，其中鸳央咖啡、古德墨柠的首批门店分别开设于2022年10月、2023年9月。 “茶、咖啡、青柠乳茶，这三个品类关键词，在茶颜悦色、鸳央咖啡、古德墨柠的身上很清晰。但若说昼夜的品类关键词是【酒】，现在需要打上一个问号了。”茶颜悦色这么问自己。 “昼夜”留下了什么？茶颜悦色写道： “爱折腾的研发老师们还在，创新不会停止，灵感会流淌向其他子品牌。”例如：鲜打氮气冰茶、水果奶茶等成果已转化为主品牌茶颜悦色的饮品；“情书”将于9月下旬在鸳央咖啡以另一种形态重现；“黄油啤酒”也会在茶颜悦色给出另一种答案。 走多品牌路线是为了发掘业绩增长点，茶颜悦色是第一批搭建多品牌矩阵的头部茶饮品牌，是第一个公开发文讲述子品牌为何失败的茶饮品牌。 试错需要勇气，正视自己的失败、袒露脆弱也同样需要勇气。如一位网友所言，商业世界里，知道什么时候该停，和知道什么时候该冲一样重要，茶颜悦色给了“昼夜”一个体面的收尾。用我的话说，对于创业公司的业务探索，少些嘲讽，从我做起。 2025年5月，我在 《茶颜悦色吕良与00后诗人惊竹娇，都想捉住那些白日梦》 一文中写道： 茶颜悦色喜欢举办诗歌比赛和作文比赛， 它始终是最具文艺气质的头部茶饮品牌，仍然关心文学，仍然在用文字诠释国风、记录日常，不嫌絮叨。 在宣布“昼夜”关停的这篇文章中，我看到了仍然碎碎念、仍然感性的茶颜悦色。 两个月前，我在与 卡旺卡 有关的文章中写道： 茶颜悦色是最具代表性的区域性奶茶品牌，它甚至成了一种代名词，用于证明当地人对本土奶茶品牌的偏爱，比如阿嬷手作、茶话弄、卡旺卡分别被一些网友称为广西版茶颜悦色、陕西版茶颜悦色、安徽版茶颜悦色。 前述四家茶饮品牌中，茶颜悦色、卡旺卡、 阿嬷手",
+      "title": "茶颜悦色有自己的脆弱、感性、碎碎念",
+      "url": "https://www.digitaling.com/articles/1582069.html"
+    },
+    "https://www.digitaling.com/articles/1582104.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260915/1789453069846601.png",
+      "kind": "media",
+      "published": "2026-09-15T06:43:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "花一份钱得到两种商品。 作者：梦婕 来源： 咖门 原标题：《买咖啡奶茶送面膜！Manner、CoCo都在用这招抢流量》 茶饮店的引流方式变了，这次“盯”上新消费品牌。 Manner买咖啡送面膜、洗发水；CoCo都可把粉饼、乳霜装进奶茶套餐；LINLEE林里甚至开始送猫粮、狗粮体验装。一个月内，类似玩法接连出现。 这些“真能用、真能试”的赠品，正在成为新的下单理由。“买饮品送小样”，成茶饮新的流量入口？ 01 买奶茶“顺便逛美妆店”？ 茶饮店开始批量送小样 饮品品牌赠送的周边， 越来越实用了 。 9月1日，Manner携手洗护品牌Off&Relax推出秋日联名，15元单杯美式套餐赠送75ml桂花香氛 洗发水 。隔天，30元双杯套餐再增加联名随行包和同款洗发水。 10天前，Manner还与雅漾上线限时联动。20元单杯套餐可获赠 面膜、精华 派样包；40元双杯套餐再增加联名化妆包。 近几年，Manner已分别联名优色林、赫莲娜、祖玛珑、薇诺娜等品牌，多次随饮品派送精华、防晒、香水等 小样、试用装 。 8月，CoCo都可与花间颂围绕七夕推出联名套餐，加入粉饼、贴贴乳霜、化妆刷等 美妆产品 。 同月，茉莉奶白与护肤品牌摇滚动物园的联名，根据品牌热卖的4种饮品风味打造专属 护手霜 ；永璞咖啡与香水品牌槐序推出 香水体验装 。 7月，瑞幸与Crocs围绕洞洞鞋元素开发联名 洞洞鞋 、挂件、洞洞杯等产品。 4月，LINLEE林里与网易严选联名，消费者购买指定双杯套餐，可限量获得犬粮或猫粮体验装，全国发放8万份。 明显感受到，除了游戏、动漫热门IP，饮品品牌正在寻找新的联名对象： 美妆、个护、服饰甚至宠物食品，这些年轻人熟悉的消费品牌，都开始进入饮品套餐。 联名提供的，不再只是一个符号，而是能真正可以使用的商品。 02 从“收藏周边”到“试用产品” 联名的下单理由变了 从面膜、粉饼到洗发水、宠物粮，这些看起来和饮品毫无关系的产品，为什么开始集中出现在饮品店？ 1、没有“粉丝门槛”，实用品覆盖人群更广 过去常见的游戏、动漫IP联名，建立在消费者对IP感兴趣的基础上。 每日经济新闻今年初发布的调查显示，对于IP联名，23.85%的受访者表示“完全无感”，明确表示“会为了周边去消费”的仅占17.43%。 这或许意味着，单纯依靠IP形象和限定周边，越来越难吸引消费者下单。 尤其是徽章、贴纸、立牌等常见周边，天然存在一道“粉丝门槛”。 相比之下，面膜、洗发水、粉饼等产品，不要求消费者预先了解某个IP，判断标准更直接——“我用不用得上”。 吸引力从特定IP粉丝，扩展到更广泛的消费人群。 2、从“收藏”到“实用”，赠品价值更直观 周边是否值得买，很大程度上取决于消费者对IP的喜爱程度，但消费品意味着，顾客拿到后可以直接使用。 加上不少大牌小样获取渠道本就有限，甚至需要单独购买。当它们被加入",
+      "title": "买咖啡奶茶送面膜！茶饮联名开始走向实用",
+      "url": "https://www.digitaling.com/articles/1582104.html"
+    },
+    "https://www.digitaling.com/articles/1582482.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260915/1789459764248412.jpg",
+      "kind": "media",
+      "published": "2026-09-15T09:15:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "情绪为先是品牌的一套完整的商业战略。 9月10-11日，第十二届GDMS全球数字营销峰会在上海宝华万豪酒店圆满闭幕。 本届大会以 「Emotion First 情绪为先」为年度核心主题 ，汇聚4500+海内外品牌广告主、平台方、营销技术服务商， 围绕AI时代下的情绪营销展开为期两天的深度思想碰撞。 大会伊始，伴随着开场主题视频《情绪代码》的播出，GDMS创始人Ken Lee 登台抛出直击当下的行业灵魂拷问： 当AI高速发展，产品功能趋于同质化，品牌到底靠什么真正留住消费者？ 这个答案藏在更为细腻的 “情绪” 之中。在他看来，“情绪为先” 对于品牌而言，不只是一句传播口号，而是 一套完整的商业战略 ：这要求品牌既能洞察社会情绪图谱，捕捉大众真实的精神刚需，又要在全渠道触点打造高记忆度的情绪时刻，同时还要具备沉淀可长期经营的品牌情感资产的能力。 大会现场完成两项重磅发布。 第一项， GDMS 创始人Ken Lee携手明略科技副总裁、秒针营销科学院院长谭北平，正式 推出国内首份立足于品牌方视角的《2026品牌GEO行动指南》，并正式公布《GEO服务商名录》。 伴随生成式引擎成为全新消费决策入口，品牌GEO行动指南为品牌提供了从战略评估、布局规划、落地执行、效果度量到服务商甄选的全链路实操框架，帮助企业应对 GEO 时代的营销新挑战； 同步公布的《GEO 服务商名录》，不仅筛选了行业内优质服务商资源，为有布局需求的品牌提供选型参考，并且降低品牌甄别服务商的时间成本，助力品牌在 AI 生成引擎时代，找到适配自身业务的落地伙伴。 关注“GDMS全球数字营销峰会”公众号，订阅并回复“GEO”即可获取《2026品牌GEO行动指南》。 第二项， Ken现场正式发布一个全新的商业圈层、一个专为新生代经营者而生的新商学平台——格澜新商学Grandor Academy。 “过去二十年，中国的商业教育、圈层社交，大多服务的是成熟企业家、传统公司老板。但今天，真正扛起中国商业未来、接棒时代增长力量的，已经悄然换了一代人，是 1985 至 1998 年的新生代经营者，而这一代新生代经营者当前的处境是：他们真正稀缺的，从来不是课程、不是资源、不是饭局。而是稀缺三样东西：稀缺的同频、稀缺的理解、稀缺可以长期共生的同行者。” Ken坚定地认为“每一位坚持深耕、坚持创新、坚持托举企业前行的85-98新生代掌舵人本身就是Grandor，我们唯一要做的就是让认真做事的人，彼此赋能；让持续精进的人，彼此同行；让坚守商业初心的新生代力量，聚成浪潮、自成江海。” 格澜Grandor新商学拒绝大众化通识商学教育，摒弃单向的知识灌输，面向新生代企业掌舵人打造专属高阶圈层，构建「以学破局，以游结邻，以愈养心」的学、游、愈三维共生成长体系。 本届GDMS主论坛依旧维持行业顶级嘉宾阵容，内容精彩纷呈， 汇聚海内外多",
+      "title": "情绪为先，第十二届GDMS全球数字营销峰会圆满闭幕",
+      "url": "https://www.digitaling.com/articles/1582482.html"
+    },
+    "https://www.digitaling.com/projects/376130.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260827/1787821417876759.png",
+      "kind": "media",
+      "published": "2026-09-15T09:05:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "这是个什么片子？ 不知道啊……ta们的身材/力量/核心很曼妙。 先看↓ Brief 9.9元是好开始，那开始之前呢？ 这次全民运动季，美团的利益点一如既往直接：【运动健身9.9元起】。 以足够低的价格，降低新手尝试运动的门槛，让更多人愿意先试一次。 但9.9元解决的是“开始不贵”，我们的传播还需要回答更前置的问题： 为什么大家会想开始运动？什么情况下会种草一项运动？ 洞察 运动人的心机，我们的人形种草机 亲眼看见他人已获得的好成果，就是最直观的种草，运动这件事更是如此。 比起抽象的坚持与热爱，更吸引人的，是运动者身上藏不住的训练痕迹——六块腹肌、挺拔体态、灵敏反应……一眼就知道“练过”的身材、身手与状态。 于是， 他们是真的爱秀——有时，确实是超经意露出，但更多时候，是练过的身体先出了手，肌肉记忆占领了意识高地。这些有意或无意的小心机，都是美团运动的人形种草机。 ↑来自广大运动网友的一些“证据” 练高尔夫的人，扫地扫出挥杆范儿；练深蹲的人，捡东西都像展示臀线； 练胸的人，吵架都格外挺胸抬头理直气壮；练篮球的人，扔垃圾也要投个三分； 练街舞的人，摔倒都能接套地板动作；练蹦床的人，音乐节蹦得像在刷纪录… … 执行 四大品类，四个藏不住的小反转 结合平台核心品类，视频最终锚定了四个场景。 从日常出发，用藏不住的小反转，让大家先种草藏不住的身手、身材，再吸收【运动健身9.9元起】的超值利益点。 【攀岩篇】 一个急刹，输给惯性？ 蜘蛛侠抓力觉醒，练过攀岩藏不住 【羽毛球篇】 扇个风，起到造型的作用… 扣杀绝技不请自来，练过羽毛球藏不住 【健身篇】 指路太热心，唤醒肌肉记忆 越秀越上头，练过健身藏不住 【游泳篇】 体检走个流程，他却游完全程 练过游泳藏不住，忘记还的手环也是 线下，我们尝试让媒介成为运动的一部分，沉浸展现藏不住的实力： 从框外的跳水台跃入框内——游泳；把广告框变成人体旗帜的抓手——健身； 一拍“打破”广告框，展现惊人爆发力——网球；重量一直加加加到出框——举铁； 各项运动最具辨识度的训练成果被放大，身材、身手与力量第一眼可见，“练过藏不住”的表达更直接。 藏不住的运动成果，不经意完成一次种草。当我也想试试的念头冒出来，【运动健身9.9元起】能更自然接住，心动更容易变成行动。 练过的人，继续藏不住，被种草的人，9.9元迈出第一步！ 创作人员名单 CD：何小白 ACD：顺子 Art：Leo、sissi Copy：香蕉、辣辣 Account：Ailly、Chris 制作公司：NOTED 导演：Chill 相关推荐阅读： 美团闪购七夕：突发奇想的爱意，都能即刻兑现 美团买药：没有周年回顾的5周年 美团外卖暑期呈现：小候鸟的食堂 美团民宿：推开窗，四海房东带你玩～ 美团买药×万爱皆可：七夕，别成为无聊的大人 更多精彩内容请访问 数英网 - 文章频道 - 项目频道 ",
+      "title": "美团全民运动季：练过藏不住",
+      "url": "https://www.digitaling.com/projects/376130.html"
     },
     "https://www.digitaling.com/projects/376179.html": {
       "_seen": "2026-09-07",
@@ -11297,6 +12402,19 @@
       "title": "天猫小黑盒×Mr.Miss：用音乐奏响友谊故事",
       "url": "https://www.digitaling.com/projects/377103.html"
     },
+    "https://www.digitaling.com/projects/377117.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260908/1788857305547470.png",
+      "kind": "media",
+      "published": "2026-09-15T03:04:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "健力士的最新营销活动，采用了极具巧思且极简的视觉设计， 用品牌标志性的竖琴图案替换了“Lovely”一词中的字母“V”。 这场以 “LoVely”（美好） 为主题的户外广告极具感染力，是对品牌主张 “Lovely Day for a Guinness”（喝健力士的美好一天） 的全新演绎。 在视觉呈现上，活动选用了 Dan Burn-Forti 和 Peter Franklyn Banks 拍摄的摄影作品。这些照片捕捉了充满真实感的美好瞬间，画面中既有健力士黑啤，也有贴近日常生活的特写镜头。 这套灵活的视觉系统，使其能够轻松适配全球不同市场、各类场景以及“Lovely Day”的不同版本。 无论是赞助爱尔兰的 Electric Picnic 音乐节，还是全球各地的英超联赛，都能完美契合，并向大众传递出 “无论何时何地，每一天都可以是喝健力士的美好一天” 的理念。 健力士全球品牌总监Stephen O’Kelly表示： 这场活动展现了人们在日常中那些微小却充满意义的连接时刻。 我特别喜欢它真实地捕捉到了那些让瞬间变得难忘的温暖与幽默。 它也真实反映了如今消费者享受健力士的场景正变得越来越丰富，从球场、音乐节，到酒吧和家中，无处不在。” 相关推荐阅读： 美团闪购七夕：突发奇想的爱意，都能即刻兑现 美团买药：没有周年回顾的5周年 美团外卖暑期呈现：小候鸟的食堂 美团民宿：推开窗，四海房东带你玩～ 美团买药×万爱皆可：七夕，别成为无聊的大人 健力士啤酒户外广告：浪涌奇观，眼见为实 健力士啤酒广告：为了追赶太阳，我们差点移出了爱尔兰 加拿大啤酒广告：一夜之间，麦田上长出了啤酒罐 啤酒不装酒，改装活蚯蚓，钓鱼佬狂喜 科罗娜户外广告：还是恰到好处的圆满 更多精彩内容请访问 数英网 - 文章频道 - 项目频道 - 招聘频道",
+      "title": "健力士：毫无违和感的换字游戏",
+      "url": "https://www.digitaling.com/projects/377117.html"
+    },
     "https://www.digitaling.com/projects/377131.html": {
       "_seen": "2026-09-10",
       "cat_hint": "visual_brand",
@@ -11453,6 +12571,32 @@
       "title": "印度这支珠宝广告，只能用震撼来形容",
       "url": "https://www.digitaling.com/projects/377593.html"
     },
+    "https://www.digitaling.com/projects/377642.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/cover/20260914/20260914190453_53546.png",
+      "kind": "media",
+      "published": "2026-09-15T01:37:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "iPhone Duo发布后，全世界各地的三星官方，整了不少活。 新西兰三星，就起用了一位与苹果前CEO蒂姆·库克同名同貌的男子推销Galaxy Z Fold 8。 出现在新广告里的，其实是“来自北帕默斯顿的蒂姆·库克”（Tim Cook from Palmerston North，北帕默斯顿是新西兰北岛的一座城市）， 一位恰好与苹果前掌门人同名、长相也高度相似的新西兰人。 片子完全模仿苹果产品发布会那套精致的影像语言，“假库克”对着镜头说“未来已来”，展示机身折叠时的轻巧感，以及打开后的大屏幕和AI功能；还顺带拿真库克最近换过的个人头像调侃了一波。 还有一支广告片采用了完全不同的打法。 画面里，一双双手把折叠屏手机像拍手一样反复开合，仿佛在为iPhone Duo鼓掌；婴儿摇铃、奶瓶等婴儿用品也随之入画。 这些细节暗示，iPhone Duo是折叠屏世界里真正的“新生儿”，而三星才是那个能发出祝贺的“成年人”。 相关推荐阅读： 美团闪购七夕：突发奇想的爱意，都能即刻兑现 美团买药：没有周年回顾的5周年 美团外卖暑期呈现：小候鸟的食堂 美团民宿：推开窗，四海房东带你玩～ 美团买药×万爱皆可：七夕，别成为无聊的大人 健力士啤酒户外广告：浪涌奇观，眼见为实 健力士啤酒广告：为了追赶太阳，我们差点移出了爱尔兰 加拿大啤酒广告：一夜之间，麦田上长出了啤酒罐 啤酒不装酒，改装活蚯蚓，钓鱼佬狂喜 科罗娜户外广告：还是恰到好处的圆满 世界杯最火的挪威球衣字体，好看到被封杀 过年回家应付亲戚，耐克用运动来破局 安德玛：跑步的人，不等谁邀请 安德玛户外：偏爱闯关，野心关不住 三星：蜘蛛侠买不起折叠屏？现场打印一台 三星圣诞广告，用AI让想象成真 iPhone新户外广告，看得人分分钟心跳加速 Apple×岳云鹏第4季：隐私保护用 iPhone，省心 更多精彩内容请访问 数英网 - 文章频道 - 项目频道 - 招聘频道",
+      "title": "找假库克拍广告，三星胆子肥嘟嘟的",
+      "url": "https://www.digitaling.com/projects/377642.html"
+    },
+    "https://www.digitaling.com/projects/377663.html": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://file.digitaling.com/eImg/uimages/20260914/1789368746219922.png",
+      "kind": "media",
+      "published": "2026-09-15T02:19:00+00:00",
+      "region": "zh-cn",
+      "source_name": "數英 digitaling",
+      "summary": "《认定就乐在其中》 为什么要运动？ 大概是喜欢，也喜欢自己全情投入其中的状态。 近日，UNDER ARMOUR 安德玛发布全新品牌主张 「认定，就乐在其中」 ，把目光从运动结果，转向那些爱上运动的理由。 视频中，奔放激烈的鼓点，把人拉回运动现场，只要运动的心在，运动就能随时随地发生。 项目邀请中国首位 MMA 综合格斗世界冠军张伟丽、职业拳击运动员张志磊、篮球运动员朱正、腰旗橄榄球运动员冯浩霖与中国女子曲棍球队等人共同出镜。不同项目、不同阶段的运动员，也给出了各自关于“乐在其中”的答案。 海报 相关推荐阅读： 美团闪购七夕：突发奇想的爱意，都能即刻兑现 美团买药：没有周年回顾的5周年 美团外卖暑期呈现：小候鸟的食堂 美团民宿：推开窗，四海房东带你玩～ 美团买药×万爱皆可：七夕，别成为无聊的大人 健力士啤酒户外广告：浪涌奇观，眼见为实 健力士啤酒广告：为了追赶太阳，我们差点移出了爱尔兰 加拿大啤酒广告：一夜之间，麦田上长出了啤酒罐 啤酒不装酒，改装活蚯蚓，钓鱼佬狂喜 科罗娜户外广告：还是恰到好处的圆满 世界杯最火的挪威球衣字体，好看到被封杀 过年回家应付亲戚，耐克用运动来破局 安德玛：跑步的人，不等谁邀请 安德玛户外：偏爱闯关，野心关不住 更多精彩内容请访问 数英网 - 文章频道 - 项目频道 - 招聘频道",
+      "title": "安德玛：认定就乐在其中",
+      "url": "https://www.digitaling.com/projects/377663.html"
+    },
     "https://www.distributedthoughts.org/2026-09-07-one-floor-up/": {
       "_seen": "2026-09-11",
       "cat_hint": null,
@@ -11569,6 +12713,19 @@
       "summary": "In the summer of 2021, Eric Pacifici started living a double life. By day, he was one of thousands of associates at Kirkland & Ellis, one of the largest corporate law firms in the world. Outside work hours, though, he was moonlighting on Twitter as @SMB_Attorney , an anonymous account where he shared the kind of legal insight behind real multimillion-to-billion-dollar merger and acquisition deals that one wouldn’t typically find outside a law firm’s deal room. There, he was one of one. At first, the secret account was just a hobby. Within a matter of months, though, Pacifici’s inbox was flooded with the same kinds of requests: “I have a 2, 4, 6, 8, $10 million deal: Can you help me with it?” he recalls. Five years later, those same followers are the core clientele of SMB Law Group , Pacifici’s boutique M&A firm that’s doing hundreds of deals annually and has hit more than $1.9 billion in total deal flow since 2022. “Lawyers are risk averse by nature,” Pacifici says. “My big law mentor had an expression: ‘The nail that sticks out is going to get pounded in.’ Basically, wear your blue or white shirt, shut up, do your work.” Pacifici has found the opposite to be true. He attributes hi",
       "title": "Personal Brand Special Report: 207 insights and ideas to grow your brand and career",
       "url": "https://www.fastcompany.com/91582246/personal-brand-special-report-207-insights-ideas-grow-brand-career?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    },
+    "https://www.fastcompany.com/91587895/walmart-ceo-john-furner-ai-revolution?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-2-91587895-john-furner-walmart.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T09:00:00+00:00",
+      "region": "en",
+      "source_name": "Fast Company Design",
+      "summary": "As he belts the last note of his pop hit “Mystical Magical,” Benson Boone, in a white muscle tee and skintight jeans, backflips off his piano—and 10,000 people inside the Bud Walton Arena in Fayetteville, Arkansas, erupt into raucous applause. And he’s just the warm-up act. Boone is followed by Shaboozey, who sends the audience line dancing in the aisles, then Pink, who blasts through her hits. But the morning’s biggest rock-star reception is reserved for a clean-cut guy in a gray suit jacket, his hair flecked with silver. He steps into the spotlight, an electric guitar slung across his chest, and rips into the intro of Journey’s “Don’t Stop Believin’.” The crowd lets loose its largest cheers yet. John Furner, 51 and just four months into his role as CEO of Walmart, has been preparing for the spotlight for more than three decades. This Friday morning concert in early June is the culmination of Walmart’s Associates Week, the company’s annual celebration of the people who stock its shelves and ring up its customers. Some 6,500 Walmart workers have flown into Arkansas from 19 countries and across the United States to hear what Furner has planned for the 64-year-old company. After all,",
+      "title": "Walmart CEO John Furner is turning the retailer’s 5,200 U.S. stores into an unstoppable AI engine",
+      "url": "https://www.fastcompany.com/91587895/walmart-ceo-john-furner-ai-revolution?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
     },
     "https://www.fastcompany.com/91589828/accessible-design-innovation-by-design-2026?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
       "_seen": "2026-09-15",
@@ -12038,6 +13195,19 @@
       "title": "Team Lake Ontario, or team Lake America? There’s a hat for both camps",
       "url": "https://www.fastcompany.com/91603521/trump-lake-ontario-lake-america-hats?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
     },
+    "https://www.fastcompany.com/91603710/rga-brdna-sequencer-ai-tool?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-91603710-brdna-sequencer-rga.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T12:00:00+00:00",
+      "region": "en",
+      "source_name": "Fast Company Design",
+      "summary": "The creative company R/GA thinks the marketing and advertising campaigns of the future will act like living systems, evolving with real-time data and responding to site-specific conditions. To make that possible, it says new platforms will have to come online—and it’s starting with a new AI tool called the BRDNA Sequencer. The BRDNA Sequencer trains itself on a company’s brand guidelines—including fonts, colors, layout rules, and tone of voice—and translates them into a format that artificial intelligence agents can read and understand. (BRDNA stands for “brand DNA.”) From there, the company can use simple plain language prompts to generate directly editable assets like social assets, marketing emails, and CRM systems. R/GA is launching the tool this month as a service for its direct clients. R/GA Global Chief Business Officer Sadie Thoma [Photo: R/GA] Other major AI companies, including Canva and Anthropic , have released features that allow companies to upload their brand guidelines as a code base for visual projects. According to Sadie Thoma, a 15-year Google alum and R/GA’s new global chief business officer, what makes the BRDNA sequencer different is that it’s “platform-agnost",
+      "title": "R/GA’s new tool helps brands embrace the hyper-personalized future of advertising",
+      "url": "https://www.fastcompany.com/91603710/rga-brdna-sequencer-ai-tool?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    },
     "https://www.fastcompany.com/91603728/trump-mail-in-ballot-envelope-design-ruling?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
       "_seen": "2026-09-12",
       "cat_hint": null,
@@ -12116,6 +13286,19 @@
       "title": "The iPhone Duo is the perfect screen to watch the full Imax version of Christopher Nolan’s ‘Odyssey’",
       "url": "https://www.fastcompany.com/91605302/the-iphone-duo-screen-size?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
     },
+    "https://www.fastcompany.com/91605356/boll-branch-mastered-ethical-cotton-now-its-taking-on-cashmere?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-91605356-boll-and-branch-ethical-cashmere-blanket.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T10:00:00+00:00",
+      "region": "en",
+      "source_name": "Fast Company Design",
+      "summary": "For centuries, cashmere was a fabric so rare that Persian merchants dubbed it “soft gold.” Mughal emperors and European aristocrats gave them as gifts to one another. It was sourced from Himalayan goats that needed delicate undercoats to survive freezing, high-altitude climates—then hand-combed by herders and spun into prized shawls. Today, however, the “fiber of kings” has undergone a massive industrial shift. What was once a prized heirloom piece has been democratized into $45 Walmart sweaters and $130 Quince throw blankets . But the plummeting price tag of modern cashmere comes with hidden costs, from overgrazing to the abuse of goats. [Photo: Boll & Branch] Now Boll & Branch—a brand built on pioneering ethical supply chains—is setting out to redefine what luxury cashmere should look like. The direct-to-consumer pioneer has launched a cashmere blanket, making it among the first home brands in the world to be certified by the Good Cashmere Standard. Boll & Branch is targeting a luxury consumer with this blanket, pricing it at $999. But having built a cult following around its $300 organic sheets and $700 ultra-premium Reserve Collection, the brand believes there is a market of co",
+      "title": "Boll & Branch mastered ethical cotton. Now it’s taking on cashmere",
+      "url": "https://www.fastcompany.com/91605356/boll-branch-mastered-ethical-cotton-now-its-taking-on-cashmere?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    },
     "https://www.fastcompany.com/91605415/911-memorial-drone-show-design?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
       "_seen": "2026-09-12",
       "cat_hint": null,
@@ -12155,6 +13338,19 @@
       "title": "Zoom wants to reintroduce itself, courtesy of SNL’s biggest stars",
       "url": "https://www.fastcompany.com/91606280/zoom-wants-to-reintroduce-itself-courtesy-of-snls-biggest-stars?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
     },
+    "https://www.fastcompany.com/91606367/autodesks-ai-assistant-could-radically-change-how-buildings-are-designed-and-built?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-1-91606367-autodesk-ai-assist.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T16:18:48+00:00",
+      "region": "en",
+      "source_name": "Fast Company Design",
+      "summary": "The 3D model behind almost every building project today is as powerful as it is confusing. The precision of digital modeling brings every tiny detail to bear, which is great for building complex architecture, but not so great for the person having to search through thousands of square feet of digital model to find a misaligned beam or incorrect handrail height. Take that same model and toss it into the variously trained hands of engineers, consultants, and contractors and things can quickly go awry. Mistakes can cascade, spanning the spectrum from annoying to very, very expensive. Autodesk , the software company behind some of the most-used modeling tools of the architecture, engineering, and construction industries, understands this problem because, in many ways, it helped cause it. That’s also why Autodesk is trying to bring the digital building model into a new, less complicated, era. Its new tool, Autodesk Assistant, uses AI to simplify the process of creating and using a 3D building model. Just announced at the company’s annual Autodesk University convention , Autodesk Assistant uses the power of AI to automate more of the process of making building models and streamline the w",
+      "title": "Autodesk’s AI assistant could radically change how buildings are designed and built",
+      "url": "https://www.fastcompany.com/91606367/autodesks-ai-assistant-could-radically-change-how-buildings-are-designed-and-built?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    },
     "https://www.fastcompany.com/91606896/why-mouthfeel-trending-globally-food-beverage-industry?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
       "_seen": "2026-09-15",
       "cat_hint": null,
@@ -12167,6 +13363,32 @@
       "summary": "Texture is having a crunchy, gooey moment in the food and beverage industry . For many people, the way a menu item or packaged snack feels in the mouth has become as big a draw as flavor, although consumers don’t always recognize the part texture plays in their cravings for crispier takeout, frothier coffees and juicier candies, according to industry experts. The importance of “mouthfeel,” a food science term for oral sensation , has inspired new products like Starbucks’ Aerocano, an air-whipped iced espresso; PowerCrunch, a wafer-like protein bar; and Trolli Gummi Popz, which are frozen but still soft and chewy. Texture “has evolved from a complementary feature to a defining aspect of food quality,” Puratos, a Belgian company that develops commercial-grade ingredients for chocolate and baked goods, says. “It is reshaping how consumers evaluate food and make purchasing decisions.” The trend is a global one. Stretchy yogurt is a fast-growing trend in China, while Swedish confectioner Cloetta just released Sprinkled Foamies, which have a crunchy coating and a marshmallow center. Parisian bakers are experimenting with new pastries like the crookie, a crispy croissant with a melty choc",
       "title": "Why mouthfeel is trending globally in the food and beverage industry",
       "url": "https://www.fastcompany.com/91606896/why-mouthfeel-trending-globally-food-beverage-industry?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    },
+    "https://www.fastcompany.com/91607221/an-apple-alum-revamped-gms-truck-interface-for-the-screen-fatigue-era?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-91607221-GM-new-car-interface.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T17:03:02+00:00",
+      "region": "en",
+      "source_name": "Fast Company Design",
+      "summary": "The newest trucks from General Motors are getting a completely redesigned user interface. For most car companies throughout the past decade, this kind of redesign would typically mean one thing: bigger screens. But sitting in the driver’s seat of a preproduction version of one of these trucks, there’s just as much to push, turn, and click as there is to see. Coming to the 2027 Chevrolet Silverado 1500 and 2027 GMC Sierra 1500 when they roll off the production line later this year, GM’s new in-cabin user interface is not the screen overload many have come to bemoan . Instead, it’s a carefully balanced blend of analog buttons and knobs and minimally configured screens intended to focus on only the most important information. It’s an approach that GM plans to expand across its portfolio. “There’s this economy that I wanted to really make sure that we expressed in the interface,” says Sebastian Bauer, GM’s head of human interface design . “What are the things that we need, what are the things that are important in any given context you’re in, and really starting to surface that at the right moments and in the right way.” This new user interface, in the works for the past two years, has",
+      "title": "An Apple alum revamped GM’s truck interface for the screen fatigue era",
+      "url": "https://www.fastcompany.com/91607221/an-apple-alum-revamped-gms-truck-interface-for-the-screen-fatigue-era?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    },
+    "https://www.fastcompany.com/91608012/inside-nikes-innovation-reset?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/FCIF26_Thumbs_Panels_InsideNikesInnovationReset.jpg",
+      "kind": "industry",
+      "published": "2026-09-15T21:28:30+00:00",
+      "region": "en",
+      "source_name": "Fast Company Design",
+      "summary": "Featuring Cade Cunningham, All-NBA First Team, Two-Time NBA All-Star, Pistons Guard, Nike; Sabrina Ionescu, Olympic Gold Medalist, Four-Time WNBA All-Star, New York Liberty Guard , Nike and Phil McCartney, Chief Innovation, Design, and Product Officer, Nike Moderated by Brendan Vaughan, Editor-in-Chief, Fast Company Nike built its reputation by turning athletic insight into breakthrough products. Now as the sportswear giant works to reignite growth, it’s betting that the way back is through innovation—and putting athletes at the center of the process. This session unpacks how Nike is rebuilding its product engine, from neuroscience and robotics to the next generation of performance footwear. Find out how Nike plans to move faster, take bigger creative risks, and turn its most important partners—its athletes—into cocreators of what comes next.",
+      "title": "Inside Nike’s Innovation Reset",
+      "url": "https://www.fastcompany.com/91608012/inside-nikes-innovation-reset?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
     },
     "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/132": {
       "_seen": "2026-09-07",
@@ -13039,6 +14261,19 @@
       "title": "The Daily Heller: A Day for Laboring Over the Drawing Board",
       "url": "https://www.printmag.com/daily-heller/the-daily-heller-a-day-for-laboring-over-the-drawing-board/"
     },
+    "https://www.printmag.com/daily-heller/the-daily-heller-about-civilization/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/unnamed-1.jpg?resize=960%2C986&quality=89&ssl=1",
+      "kind": "media",
+      "published": "2026-09-15T12:00:00+00:00",
+      "region": "en",
+      "source_name": "Print Magazine",
+      "summary": "Jill Lepore and 'The Rise and Fall of the Artificial State.' The post The Daily Heller: About Civilization as We Knew It appeared first on PRINT Magazine .",
+      "title": "The Daily Heller: About Civilization as We Knew It",
+      "url": "https://www.printmag.com/daily-heller/the-daily-heller-about-civilization/"
+    },
     "https://www.printmag.com/daily-heller/the-daily-heller-activate-your-art/": {
       "_seen": "2026-09-07",
       "cat_hint": "visual_brand",
@@ -13182,6 +14417,19 @@
       "title": "James Cook Creates Visual Masterpieces with His Typewriter, One Clickety-Clack At a Time",
       "url": "https://www.printmag.com/designer-profiles/james-cook-typewriter-art/"
     },
+    "https://www.printmag.com/type-tuesday/beach-blankets-bell-bottoms-bold-type/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/image-1-16.png?resize=1000%2C215&quality=80&ssl=1",
+      "kind": "media",
+      "published": "2026-09-15T13:00:00+00:00",
+      "region": "en",
+      "source_name": "Print Magazine",
+      "summary": "Graphics keeps summer alive with chunky ’70s swagger, sun-soaked nostalgia, and enough typographic heat to carry us straight into fall. The post Beach Blankets, Bell-Bottoms & Bold Type appeared first on PRINT Magazine .",
+      "title": "Beach Blankets, Bell-Bottoms & Bold Type",
+      "url": "https://www.printmag.com/type-tuesday/beach-blankets-bell-bottoms-bold-type/"
+    },
     "https://www.printmag.com/type-tuesday/lost-in-translation-a-designers-guide-to-japanese-type/": {
       "_seen": "2026-09-09",
       "cat_hint": "visual_brand",
@@ -13207,6 +14455,19 @@
       "summary": "Annika Welander reflects on how her competitive drive, creativity, humor, and journey through sobriety have shaped both her leadership and her life, from building imaginative worlds as a child to building meaningful brands and learning to appreciate her accomplishments along the way. The post What Matters to Annika Welander appeared first on PRINT Magazine .",
       "title": "What Matters to Annika Welander",
       "url": "https://www.printmag.com/what-matters/what-matters-to-annika-whelander/"
+    },
+    "https://www.printmag.com/what-matters/what-matters-to-johanna-augustin/": {
+      "_seen": "2026-09-16",
+      "cat_hint": "visual_brand",
+      "image_fallback": "",
+      "image_url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/Johanna_Augustin-scaled.jpg?fit=2197%2C2560&quality=89&ssl=1",
+      "kind": "media",
+      "published": "2026-09-15T12:30:00+00:00",
+      "region": "en",
+      "source_name": "Print Magazine",
+      "summary": "Johanna Augustin reflects on how curiosity, collaboration, family, and a healthy dose of perfectionism have shaped her life and leadership at Pond Design, where she finds creativity in bringing people and ideas together. The post What Matters to Johanna Augustin appeared first on PRINT Magazine .",
+      "title": "What Matters to Johanna Augustin",
+      "url": "https://www.printmag.com/what-matters/what-matters-to-johanna-augustin/"
     },
     "https://www.printmag.com/what-matters/what-matters-to-rachel-effendy/": {
       "_seen": "2026-09-09",
@@ -13689,6 +14950,32 @@
       "title": "《薩爾達傳說 時之笛》為何經典？重製版 4 大設計亮點：可以吹的實體「時之笛」，無畏強碰《GTA 6》",
       "url": "https://www.shoppingdesign.com.tw/post/view/13777"
     },
+    "https://www.shoppingdesign.com.tw/post/view/13780": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-09/htxn-1789453834.jpg?w=1600&output=webp",
+      "kind": "media",
+      "published": "2026-09-15T06:24:00+00:00",
+      "region": "zh-tw",
+      "source_name": "Shopping Design",
+      "summary": "法國百年精品 Goyard 睽違 9 年重返台北 Bellavita！高保值率一度超車愛馬仕，到底厲害在哪？",
+      "title": "消失９年後重返台灣！保值率一度超越愛馬仕，法國百年精品 Goyard 九月落腳台北信義，品牌特色一次看",
+      "url": "https://www.shoppingdesign.com.tw/post/view/13780"
+    },
+    "https://www.shoppingdesign.com.tw/post/view/13782": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-09/z9k6-1789470220.jpg?w=1600&output=webp",
+      "kind": "media",
+      "published": "2026-09-15T11:00:00+00:00",
+      "region": "zh-tw",
+      "source_name": "Shopping Design",
+      "summary": "睽違 7 年回歸！teamLab《福岡城跡 光之祭》10/30 登場，以 400 年歷史的福岡城為舞台，結合光影、聲音與互動打造 8 件藝術裝置。",
+      "title": "teamLab 福岡城跡光之祭 10 月回歸！630 米古石牆成巨大畫布，2 件與氣流、地衣共創新作亮相",
+      "url": "https://www.shoppingdesign.com.tw/post/view/13782"
+    },
     "https://www.sightunseen.com/2026/08/high-design-vacation-rentals-in-ireland-and-shelter-island-a-show-in-an-iconic-modernist-house-and-more/": {
       "_seen": "2026-09-07",
       "cat_hint": null,
@@ -14157,6 +15444,19 @@
       "title": "Art History and Pop Culture Converge in Frederich Kunath’s ‘The Nearest Faraway Place’",
       "url": "https://www.thisiscolossal.com/2026/09/frederich-kunath-nearest-faraway-place-exhibition-paintings/"
     },
+    "https://www.thisiscolossal.com/2026/09/friedrich-kunath-nearest-faraway-place-exhibition-paintings/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/kunath-6.jpeg",
+      "kind": "showcase",
+      "published": "2026-09-14T15:26:32+00:00",
+      "region": "en",
+      "source_name": "Colossal",
+      "summary": "The artist describes that he aims to make his paintings “feel like songs.” Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Art History and Pop Culture Converge in Friedrich Kunath’s ‘The Nearest Faraway Place’ appeared first on Colossal .",
+      "title": "Art History and Pop Culture Converge in Friedrich Kunath’s ‘The Nearest Faraway Place’",
+      "url": "https://www.thisiscolossal.com/2026/09/friedrich-kunath-nearest-faraway-place-exhibition-paintings/"
+    },
     "https://www.thisiscolossal.com/2026/09/haggerty-museum-of-art-otherworld-is-home/": {
       "_seen": "2026-09-09",
       "cat_hint": null,
@@ -14221,6 +15521,19 @@
       "summary": "“There is the world, and there is the photograph. The photograph is not the world, it’s a completely different thing.\" Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Henry Wessel’s Candid California Photos Underscore the Art of Noticing appeared first on Colossal .",
       "title": "Henry Wessel’s Candid California Photos Underscore the Art of Noticing",
       "url": "https://www.thisiscolossal.com/2026/09/henry-wessel-grolier-club-photography-california/"
+    },
+    "https://www.thisiscolossal.com/2026/09/hew-locke-the-wanderers-ship-sculptures/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/locke-6.jpg",
+      "kind": "showcase",
+      "published": "2026-09-15T19:54:16+00:00",
+      "region": "en",
+      "source_name": "Colossal",
+      "summary": "How people, capital, cargo, and ideas traverse the globe has long been central to Hew Locke's work. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article The Legacy of Colonialism Haunts Hew Locke’s Era-Defying Flotilla appeared first on Colossal .",
+      "title": "The Legacy of Colonialism Haunts Hew Locke’s Era-Defying Flotilla",
+      "url": "https://www.thisiscolossal.com/2026/09/hew-locke-the-wanderers-ship-sculptures/"
     },
     "https://www.thisiscolossal.com/2026/09/houston-center-for-contemporary-craft-silver-exhibition/": {
       "_seen": "2026-09-15",
@@ -14312,6 +15625,19 @@
       "summary": "Ever imagined a pear or an apple with a personality? Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Say Hello to PÉPET, a Pear-Shaped, Palm-Size Paper Pal appeared first on Colossal .",
       "title": "Say Hello to PÉPET, a Pear-Shaped, Palm-Size Paper Pal",
       "url": "https://www.thisiscolossal.com/2026/09/masae-nagao-takeo-pepet-paper-friends/"
+    },
+    "https://www.thisiscolossal.com/2026/09/meg-webster-environmental-land-art-installations/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/webster-2.jpg",
+      "kind": "showcase",
+      "published": "2026-09-15T15:56:41+00:00",
+      "region": "en",
+      "source_name": "Colossal",
+      "summary": "Inside Webster's interdisciplinary practice that advocates for nature. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article How Monumental Environmental Works by Meg Webster Cultivate Reconnection appeared first on Colossal .",
+      "title": "How Monumental Environmental Works by Meg Webster Cultivate Reconnection",
+      "url": "https://www.thisiscolossal.com/2026/09/meg-webster-environmental-land-art-installations/"
     },
     "https://www.thisiscolossal.com/2026/09/ocean-photographer-of-the-year-2026-winners/": {
       "_seen": "2026-09-10",
@@ -14638,6 +15964,32 @@
       "title": "A new house in Croatia is broken down into components to create a curious composition",
       "url": "https://www.wallpaper.com/architecture/residential/a-new-house-in-croatia-is-broken-down-into-components-to-create-a-curious-composition"
     },
+    "https://www.wallpaper.com/architecture/residential/anamesa-k-studio-mykonos-house-greece": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/w65GjJVQxtTwVkppBJFSi4-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:15:18+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "Anamesa by K-Studio is a Mykonos house that draws on its Greek island setting's architectural vernacular and rocky landscape – while offering a haven of peace for its inhabitants",
+      "title": "Step inside this smart Mykonos house, designed for solitude or celebration",
+      "url": "https://www.wallpaper.com/architecture/residential/anamesa-k-studio-mykonos-house-greece"
+    },
+    "https://www.wallpaper.com/architecture/residential/chilean-holiday-home-loyco-ccra": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/2Gv5oXWmVki2Kg488DDkAC-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:19:21+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "LoyCo House is a new Chilean holiday home on the shores of Vichuquén Lake; its creators, architects Ricardo Atanacio and Carolina Contreras, respond to the region's distinct identity to craft a home that feels entirely of its place",
+      "title": "Tour a Chilean holiday home designed to weave daily life into its lakeside site",
+      "url": "https://www.wallpaper.com/architecture/residential/chilean-holiday-home-loyco-ccra"
+    },
     "https://www.wallpaper.com/architecture/residential/dallas-modern-family-home": {
       "_seen": "2026-09-12",
       "cat_hint": "space_env",
@@ -14820,6 +16172,19 @@
       "title": "Georgia O’Keeffe was captivated by architecture, as a landmark new show at the Detroit Institute of Arts proves",
       "url": "https://www.wallpaper.com/art/exhibitions-shows/georgia-okeeffe-architecture-detroit-institute-of-arts"
     },
+    "https://www.wallpaper.com/art/exhibitions-shows/sujin-lee-where-we-once-stood-saatchi-yates": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/cuBhp5DVR9nhKb8dbdPMwM-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T16:03:15+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "Sujin Lee’s exhibition ‘Where We Once Stood’, considers the stillness after an event",
+      "title": "At Saatchi Yates, Sujin Lee’s figures are frozen in introspection",
+      "url": "https://www.wallpaper.com/art/exhibitions-shows/sujin-lee-where-we-once-stood-saatchi-yates"
+    },
     "https://www.wallpaper.com/art/music/david-bowie-music-lover-book-review": {
       "_seen": "2026-09-07",
       "cat_hint": "space_env",
@@ -14924,6 +16289,32 @@
       "title": "Willo Perron creates a triumphant set design for Céline Dion's return to the stage",
       "url": "https://www.wallpaper.com/design-interiors/celine-dion-paris-stage-willo-perron-2026"
     },
+    "https://www.wallpaper.com/design-interiors/design-events/chris-watson-wapping-power-station-london-design-festival-2026": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Dx5SMkrzfu4FAH9hgCxzEG-1280-80.png",
+      "kind": "media",
+      "published": "2026-09-15T10:22:03+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "For London Design Festival 2026, sound artist Chris Watson draws upon Hull’s rich maritime heritage in his ‘sound voyage’, ‘Trent Falls’",
+      "title": "Wapping Power Station becomes the London Design Festival’s centre of sound",
+      "url": "https://www.wallpaper.com/design-interiors/design-events/chris-watson-wapping-power-station-london-design-festival-2026"
+    },
+    "https://www.wallpaper.com/design-interiors/design-events/deoron-berlin-2026-review": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/4rSAWi5BTsKmPTLHRvQ9zP-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T11:30:33+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "Deoron staged its third in-person event in Berlin, bringing together more than 65 designers, brands and independent studios",
+      "title": "Deoron brings its ‘instinct for the unexpected’ to Berlin",
+      "url": "https://www.wallpaper.com/design-interiors/design-events/deoron-berlin-2026-review"
+    },
     "https://www.wallpaper.com/design-interiors/design-events/es-devlin-homo-faber-2026-review": {
       "_seen": "2026-09-07",
       "cat_hint": "space_env",
@@ -15001,6 +16392,19 @@
       "summary": "One of three guest editors of Wallpaper* October 2026, Es Devlin went all out to create a spectacular, strictly limited-edition cover that lets her story unfold. Here's how to get yours.",
       "title": "Snap up a collectors' edition of Wallpaper* – with Es Devlin's 16-page concertina cover",
       "url": "https://www.wallpaper.com/design-interiors/es-devlin-16-page-concertina-cover-for-october-2026-wallpaper"
+    },
+    "https://www.wallpaper.com/design-interiors/interior-design/lighting/feldspar-lighting-collection": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Q2LSHT95qftKLQBktjfpSn-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T11:13:45+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "The Devon-based design studio launches a series of pendants and lamps, responding to the urge to create pieces the designers would want to own themselves",
+      "title": "Feldspar’s new lighting continues the brand’s playfully dimpled aesthetic",
+      "url": "https://www.wallpaper.com/design-interiors/interior-design/lighting/feldspar-lighting-collection"
     },
     "https://www.wallpaper.com/design-interiors/isabel-helen-the-conran-shop-motion-sickness-london-design-festival-2026": {
       "_seen": "2026-09-08",
@@ -15145,6 +16549,19 @@
       "title": "After 40 years in Shoreditch, SCP makes a new home in Clerkenwell",
       "url": "https://www.wallpaper.com/design-interiors/scp-clerkenwell-opening"
     },
+    "https://www.wallpaper.com/design-interiors/the-product-design-100-hits-the-shelves-to-showcase-the-state-of-the-industry": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/aMDu2HEoTtuGsdMbQcBvWb-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T09:00:00+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "We cast our eyes over the first volume of The Product Design 100: A Snapshot of Industrial Design Today, a welcome physical monograph created to sum up the modern design landscape",
+      "title": "The Product Design 100 hits the shelves to showcase the state of the industry",
+      "url": "https://www.wallpaper.com/design-interiors/the-product-design-100-hits-the-shelves-to-showcase-the-state-of-the-industry"
+    },
     "https://www.wallpaper.com/design-interiors/visual-comms/ben-drury-interview-palace-creative-universe": {
       "_seen": "2026-09-07",
       "cat_hint": "space_env",
@@ -15170,6 +16587,19 @@
       "summary": "Still life tablescapes, and a Britpop playlist – the interior designer knows how to throw a party",
       "title": "How We Host: Dinner with Nicole Hollis will quickly turn into a dance party",
       "url": "https://www.wallpaper.com/entertaining/how-we-host-nicole-hollis"
+    },
+    "https://www.wallpaper.com/entertaining/l-objet-jessica-mccormack-tableware-collaboration": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/3MZ76p9YQaAW6ZoRe77MxB-1280-80.png",
+      "kind": "media",
+      "published": "2026-09-15T09:45:44+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "The homeware brand and the jewellery designer create shell-inspired tableware and cutlery with oceans of style",
+      "title": "L’Objet and Jessica McCormack’s new tableware is inspired by ocean treasures",
+      "url": "https://www.wallpaper.com/entertaining/l-objet-jessica-mccormack-tableware-collaboration"
     },
     "https://www.wallpaper.com/fashion-beauty/accessories/best-evening-bags-trend": {
       "_seen": "2026-09-15",
@@ -15248,6 +16678,19 @@
       "summary": "First appearing as part of the house’s June menswear show and available later this week, the collaboration sees Michael Rider put a colourful spin on the Reebok Freestyle Lo 1982",
       "title": "‘Paris street, American movement’: Celine’s sneaker collaboration with Reebok is revealed in full",
       "url": "https://www.wallpaper.com/fashion-beauty/celine-reebok-collaboration-freestyle-lo-cneaker"
+    },
+    "https://www.wallpaper.com/fashion-beauty/claudia-schiffer-healf-advent-calendar": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/ye9G6ee4oV3XoKKW9WRQBa-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:34:53+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "The supermodel tells Wallpaper* about her favourite products from the annual viral sensation and shares some of her own wellness non-negotiables",
+      "title": "Claudia Schiffer on the best thing about Healf’s healthy advent calendar",
+      "url": "https://www.wallpaper.com/fashion-beauty/claudia-schiffer-healf-advent-calendar"
     },
     "https://www.wallpaper.com/fashion-beauty/diane-von-furstenberg-ss-2027-henry-zankov-debut-interview": {
       "_seen": "2026-09-11",
@@ -15392,6 +16835,19 @@
       "title": "At New York Fashion Week, Tory Burch says ‘more is more’",
       "url": "https://www.wallpaper.com/fashion-beauty/tory-burch-ss-2027-new-york-fashion-week-review"
     },
+    "https://www.wallpaper.com/fashion-beauty/ulla-johnson-ss-2027-runway-show-review-nyfw": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/WnAALRQFu5SkR5YfqWDYQZ-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:24:00+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "Created after a grass-roots campaign to reclaim the area under the Brooklyn Bridge, Manhattan’s Gotham Park provided the backdrop for Ulla Johnson’s latest runway show – afterwards, the American designer will work with Field Operations on the garden’s planting",
+      "title": "Ulla Johnson channels the ‘urban pastoral’ at New York’s reclaimed Gotham Park",
+      "url": "https://www.wallpaper.com/fashion-beauty/ulla-johnson-ss-2027-runway-show-review-nyfw"
+    },
     "https://www.wallpaper.com/tech/apple-iphone-duo-18-pro-max": {
       "_seen": "2026-09-10",
       "cat_hint": "space_env",
@@ -15534,6 +16990,32 @@
       "summary": "A visit to Lego House kickstarts a brick-built Porsche and a deep dive into the company’s four-wheeled collaborations",
       "title": "Lego teams up with Formula 1 to create new family activities at Billund’s Lego House",
       "url": "https://www.wallpaper.com/transportation/lego-teams-up-with-formula-1-to-create-new-family-activities-at-billunds-lego-house"
+    },
+    "https://www.wallpaper.com/transportation/rolls-royce-phantom-hummingbird": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/r7xXXUpuhNGSMzYZRF7rLN-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T14:00:00+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "The latest unique Rolls-Royce has us all aflutter, thanks to the laborious and innovative application of iridescent abalone shells",
+      "title": "The Rolls-Royce Phantom Hummingbird is a private commission with an avian theme",
+      "url": "https://www.wallpaper.com/transportation/rolls-royce-phantom-hummingbird"
+    },
+    "https://www.wallpaper.com/transportation/this-pocket-sized-porsche-from-hedley-studios-is-the-perfect-electric-track-day-companion": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/BdqGMMLGXt2ZZgFbeWVXbF-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:00:00+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "The new Porsche 550 J from Hedley Studios continues the British manufacturer’s strategy of miniaturising, electrifying and elevating the everyday driving experience of a host of classic automobiles",
+      "title": "This pocket-sized Porsche from Hedley Studios is the perfect electric track day companion",
+      "url": "https://www.wallpaper.com/transportation/this-pocket-sized-porsche-from-hedley-studios-is-the-perfect-electric-track-day-companion"
     },
     "https://www.wallpaper.com/transportation/we-audition-the-ineos-quartermaster-across-field-and-dale-to-check-out-its-true-credentials": {
       "_seen": "2026-09-15",
@@ -15691,6 +17173,19 @@
       "title": "London’s omakase scene gets a meaty new contender",
       "url": "https://www.wallpaper.com/travel/restaurants/wagyu-yakiniku-ushio-london-review"
     },
+    "https://www.wallpaper.com/travel/sala-pedra-preta-sao-paulo-brazil-estudio-campana": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/7X3dsPT3p6T4hEZSkkW7Wf-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T13:51:11+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "Itaú opens Sala Pedra Preta, a new Brazilian design lounge at São Paulo Guarulhos Airport",
+      "title": "Estúdio Campana brings Brazilian soul to a São Paulo airport lounge",
+      "url": "https://www.wallpaper.com/travel/sala-pedra-preta-sao-paulo-brazil-estudio-campana"
+    },
     "https://www.wallpaper.com/travel/taschen-national-geographic-the-united-states-of-america-book": {
       "_seen": "2026-09-11",
       "cat_hint": "space_env",
@@ -15703,6 +17198,19 @@
       "summary": "‘National Geographic. The United States of America’ captures all 50 states through over 700 images of landscape, leisure, industry and social change",
       "title": "Taschen celebrates America’s 250th anniversary with a colossal new book",
       "url": "https://www.wallpaper.com/travel/taschen-national-geographic-the-united-states-of-america-book"
+    },
+    "https://www.wallpaper.com/watches-jewellery/chopard-happy-diamonds-50-years": {
+      "_seen": "2026-09-16",
+      "cat_hint": "space_env",
+      "image_fallback": "",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/cuV5rYqvXwh4JW85MJtBdC-1280-80.jpg",
+      "kind": "media",
+      "published": "2026-09-15T13:05:11+00:00",
+      "region": "en",
+      "source_name": "Wallpaper*",
+      "summary": "Defined by diamonds that cut their own fluid path across watches and jewellery, the ‘Happy Diamonds’ series gets a new anniversary collection",
+      "title": "Chopard celebrates 50 years of ‘Happy Diamonds’ with a new collection",
+      "url": "https://www.wallpaper.com/watches-jewellery/chopard-happy-diamonds-50-years"
     },
     "https://www.wallpaper.com/watches-jewellery/rachel-boston-relic-collection-mens-engagement-rings": {
       "_seen": "2026-09-07",
@@ -17030,6 +18538,136 @@
       "title": "The Mini Brda Classic Is the Tiniest A-Frame You Can Actually Live In",
       "url": "https://www.yankodesign.com/2026/09/14/the-mini-brda-classic-is-the-tiniest-a-frame-you-can-actually-live-in/?utm_source=rss&utm_medium=rss&utm_campaign=the-mini-brda-classic-is-the-tiniest-a-frame-you-can-actually-live-in"
     },
+    "https://www.yankodesign.com/2026/09/15/a-backyard-greenhouse-that-moonlights-as-an-outdoor-living-room/?utm_source=rss&utm_medium=rss&utm_campaign=a-backyard-greenhouse-that-moonlights-as-an-outdoor-living-room": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/a-backyard-greenhouse-that-moonlights-as-an-outdoor-living-room/the-eco-oasis-pavilion-concept-08.jpg",
+      "kind": "media",
+      "published": "2026-09-15T16:20:21+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "A Backyard Greenhouse That Moonlights as an Outdoor Living Room Most backyard greenhouses ask you to choose a side. Either you’re hunched over seedlings in a cramped glass box, or you’re lounging on a deck...",
+      "title": "A Backyard Greenhouse That Moonlights as an Outdoor Living Room",
+      "url": "https://www.yankodesign.com/2026/09/15/a-backyard-greenhouse-that-moonlights-as-an-outdoor-living-room/?utm_source=rss&utm_medium=rss&utm_campaign=a-backyard-greenhouse-that-moonlights-as-an-outdoor-living-room"
+    },
+    "https://www.yankodesign.com/2026/09/15/a-woodland-cabin-where-the-forest-floor-becomes-the-ceiling/?utm_source=rss&utm_medium=rss&utm_campaign=a-woodland-cabin-where-the-forest-floor-becomes-the-ceiling": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/bathers-cabin/bathers_cabin_yanko_design_01.jpg",
+      "kind": "media",
+      "published": "2026-09-15T22:30:30+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "A Woodland Cabin Where the Forest Floor Becomes the Ceiling Built Works’ Bather’s Cabin doesn’t ask to be noticed — it earns it. Nestled deep within the woodland at Great Park Farm in East Sussex,...",
+      "title": "A Woodland Cabin Where the Forest Floor Becomes the Ceiling",
+      "url": "https://www.yankodesign.com/2026/09/15/a-woodland-cabin-where-the-forest-floor-becomes-the-ceiling/?utm_source=rss&utm_medium=rss&utm_campaign=a-woodland-cabin-where-the-forest-floor-becomes-the-ceiling"
+    },
+    "https://www.yankodesign.com/2026/09/15/finally-a-cd-player-gen-z-actually-wants-to-own/?utm_source=rss&utm_medium=rss&utm_campaign=finally-a-cd-player-gen-z-actually-wants-to-own": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/finally-a-cd-player-gen-z-actually-wants-to-own/r400-00.jpg",
+      "kind": "media",
+      "published": "2026-09-15T13:20:31+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "Finally, a CD Player Gen Z Actually Wants to Own It really warms my heart when I see Gen Z and Gen Alpha kids collecting physical media from their favorite artists. These are people who...",
+      "title": "Finally, a CD Player Gen Z Actually Wants to Own",
+      "url": "https://www.yankodesign.com/2026/09/15/finally-a-cd-player-gen-z-actually-wants-to-own/?utm_source=rss&utm_medium=rss&utm_campaign=finally-a-cd-player-gen-z-actually-wants-to-own"
+    },
+    "https://www.yankodesign.com/2026/09/15/finally-a-pepper-grinder-your-hands-actually-understand/?utm_source=rss&utm_medium=rss&utm_campaign=finally-a-pepper-grinder-your-hands-actually-understand": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/finally-a-pepper-grinder-your-hands-actually-understand/salt-pepper-spice-00.jpg",
+      "kind": "media",
+      "published": "2026-09-15T21:30:53+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "Finally, a Pepper Grinder Your Hands Actually Understand Pick up almost any pepper mill in an average kitchen drawer and you’ll notice the same small, dumb problem: you have to guess which part...",
+      "title": "Finally, a Pepper Grinder Your Hands Actually Understand",
+      "url": "https://www.yankodesign.com/2026/09/15/finally-a-pepper-grinder-your-hands-actually-understand/?utm_source=rss&utm_medium=rss&utm_campaign=finally-a-pepper-grinder-your-hands-actually-understand"
+    },
+    "https://www.yankodesign.com/2026/09/15/ford-bronco-basecamp-turns-iconic-4x4-into-electric-adventure-suv-you-can-sleep-and-camp-in/?utm_source=rss&utm_medium=rss&utm_campaign=ford-bronco-basecamp-turns-iconic-4x4-into-electric-adventure-suv-you-can-sleep-and-camp-in": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/ford-bronco-basecamp-turns-iconic-4x4-into-electric-adventure-suv-you-can-sleep-and-camp-in/Ford-Bronco-Basecamp-5.jpg",
+      "kind": "media",
+      "published": "2026-09-15T20:30:08+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "Ford Bronco Basecamp turns iconic 4×4 into electric adventure SUV you can sleep and camp in Ford Bronco has earned its reputation for being one of the most rugged, mid-size 4×4 SUVs designed for outdoor adventures. Now, it’s changing that image...",
+      "title": "Ford Bronco Basecamp turns iconic 4×4 into electric adventure SUV you can sleep and camp in",
+      "url": "https://www.yankodesign.com/2026/09/15/ford-bronco-basecamp-turns-iconic-4x4-into-electric-adventure-suv-you-can-sleep-and-camp-in/?utm_source=rss&utm_medium=rss&utm_campaign=ford-bronco-basecamp-turns-iconic-4x4-into-electric-adventure-suv-you-can-sleep-and-camp-in"
+    },
+    "https://www.yankodesign.com/2026/09/15/hkc-debuts-a-48-3-inch-4k-curved-monitor-that-splits-into-two-or-three-sections-for-power-users/?utm_source=rss&utm_medium=rss&utm_campaign=hkc-debuts-a-48-3-inch-4k-curved-monitor-that-splits-into-two-or-three-sections-for-power-users": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/hkc-debus-a-48-3-inch-4k-curved-monitor-that-can-be-split-into-two-or-three-sections/HKC-Tianqi-43H180C-Ultra-Wide-Monitor-1.jpg",
+      "kind": "media",
+      "published": "2026-09-15T15:20:17+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "HKC debuts a 48.3-inch 4K curved monitor that splits into two or three sections for power users There are no limits as to how wide you can go with a desktop monitor, especially for power users and pro gamers. You can have...",
+      "title": "HKC debuts a 48.3-inch 4K curved monitor that splits into two or three sections for power users",
+      "url": "https://www.yankodesign.com/2026/09/15/hkc-debuts-a-48-3-inch-4k-curved-monitor-that-splits-into-two-or-three-sections-for-power-users/?utm_source=rss&utm_medium=rss&utm_campaign=hkc-debuts-a-48-3-inch-4k-curved-monitor-that-splits-into-two-or-three-sections-for-power-users"
+    },
+    "https://www.yankodesign.com/2026/09/15/the-5-best-home-office-gadgets-of-september-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-5-best-home-office-gadgets-of-september-2026": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2025/07/clever-gadgets-tools-to-upgrade-your-remote-work-setup/10_best_clever_tools_remote_workers_yanko_design_hero.jpg",
+      "kind": "media",
+      "published": "2026-09-15T11:40:11+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "The 5 Best Home Office Gadgets of September 2026 The home office has been redesigned more times than anyone can count. Most of those attempts involve cable management trays and monitor arms that take...",
+      "title": "The 5 Best Home Office Gadgets of September 2026",
+      "url": "https://www.yankodesign.com/2026/09/15/the-5-best-home-office-gadgets-of-september-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-5-best-home-office-gadgets-of-september-2026"
+    },
+    "https://www.yankodesign.com/2026/09/15/the-mac-mini-form-factor-is-so-perfect-literally-everyone-is-copying-it/?utm_source=rss&utm_medium=rss&utm_campaign=the-mac-mini-form-factor-is-so-perfect-literally-everyone-is-copying-it": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/the-mac-mini-form-factor-is-so-perfect-literally-everyone-is-copying-it/mac_mini_design_template_1.jpeg",
+      "kind": "media",
+      "published": "2026-09-15T19:15:48+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "The Mac mini Form Factor is So Perfect, Literally Everyone is Copying It Apple’s Mac mini is a 127 by 127 by 50mm aluminum square, and the PC industry has spent 2026 rebuilding that square with different logos...",
+      "title": "The Mac mini Form Factor is So Perfect, Literally Everyone is Copying It",
+      "url": "https://www.yankodesign.com/2026/09/15/the-mac-mini-form-factor-is-so-perfect-literally-everyone-is-copying-it/?utm_source=rss&utm_medium=rss&utm_campaign=the-mac-mini-form-factor-is-so-perfect-literally-everyone-is-copying-it"
+    },
+    "https://www.yankodesign.com/2026/09/15/the-traffic-cone-charger-that-actually-keeps-you-off-your-phone/?utm_source=rss&utm_medium=rss&utm_campaign=the-traffic-cone-charger-that-actually-keeps-you-off-your-phone": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/the-traffic-cone-charger-that-actually-keeps-you-off-your-phone/cone-00.jpg",
+      "kind": "media",
+      "published": "2026-09-15T14:20:59+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "The Traffic Cone Charger That Actually Keeps You Off Your Phone Whenever I need to charge my smartphone, I still can’t resist using it, even though I know it will juice up faster if I just...",
+      "title": "The Traffic Cone Charger That Actually Keeps You Off Your Phone",
+      "url": "https://www.yankodesign.com/2026/09/15/the-traffic-cone-charger-that-actually-keeps-you-off-your-phone/?utm_source=rss&utm_medium=rss&utm_campaign=the-traffic-cone-charger-that-actually-keeps-you-off-your-phone"
+    },
+    "https://www.yankodesign.com/2026/09/15/these-30-chopsticks-were-refined-40-times-to-fix-your-tired-hand/?utm_source=rss&utm_medium=rss&utm_campaign=these-30-chopsticks-were-refined-40-times-to-fix-your-tired-hand": {
+      "_seen": "2026-09-16",
+      "cat_hint": "product_object",
+      "image_fallback": "",
+      "image_url": "https://www.yankodesign.com/images/design_news/2026/09/these-30-chopsticks-were-refined-40-times-to-fix-your-tired-hand/FineLine-Chopstick-Rest-YD-Select-2_1728x.jpg",
+      "kind": "media",
+      "published": "2026-09-15T17:20:05+00:00",
+      "region": "en",
+      "source_name": "Yanko Design",
+      "summary": "These $30 Chopsticks Were Refined 40 Times to Fix Your Tired Hand I didn’t grow up in a chopsticks household. Spoons and forks were de rigueur at our table, but once I learned how to use chopsticks,...",
+      "title": "These $30 Chopsticks Were Refined 40 Times to Fix Your Tired Hand",
+      "url": "https://www.yankodesign.com/2026/09/15/these-30-chopsticks-were-refined-40-times-to-fix-your-tired-hand/?utm_source=rss&utm_medium=rss&utm_campaign=these-30-chopsticks-were-refined-40-times-to-fix-your-tired-hand"
+    },
     "https://yorokobu.es/agueda-valle-upcycling/": {
       "_seen": "2026-09-10",
       "cat_hint": null,
@@ -17068,6 +18706,19 @@
       "summary": "Charlie Under tiene un amigo metido en una secta. Cuando se enteró, hizo lo que haría cualquier persona sensata en su misma situación: preocuparse. Y después hizo lo que probablemente no haría ninguna persona sensata: infiltrarse en la secta. Al menos, esa es la historia que él mismo cuenta. Under dice que su idea era investigar aquella realidad para tratar de recuperar a su amigo. Pero Charlie es cómico, no periodista, y en algún momento decidió que aquella investigación podía convertirse en una serie. Una en la que la realidad y la ficción se mezclaran hasta que el espectador dejara La entrada Charlie Under y el ‘stand up’ de investigación se publicó primero en Yorokobu .",
       "title": "Charlie Under y el ‘stand up’ de investigación",
       "url": "https://yorokobu.es/charlie-under/"
+    },
+    "https://yorokobu.es/desbloqueo-movil/": {
+      "_seen": "2026-09-16",
+      "cat_hint": null,
+      "image_fallback": "",
+      "image_url": "https://yorokobu.es/wp-content/uploads/2026/09/shutterstock_1671280858-e1789458871363.webp",
+      "kind": "media",
+      "published": "2026-09-15T07:32:01+00:00",
+      "region": "es",
+      "source_name": "Yorokobu",
+      "summary": "Desbloquear la pantalla es el equivalente moderno a cuando nuestros ancestros miraban de reojo un matorral por si aparecía un depredador o una oportunidad. Un chequeo de seguridad existencial que además funciona como escudo social. Ignorantes e ignorados ¿Sabes el viejo truco de mirar el teléfono para ignorar a un extraño? Goffman lo llamaría desatención cortés. La cobertura en un ascensor es lo de menos. Hacer como que prestas atención a tu smartphone es un código social que dice: «Estoy ocupado, no me hables, no existo en este plano analógico». En las ciudades grandes, donde todo va más rápido y La entrada La impaciencia del espejo negro: ¿desbloqueamos el móvil por vicio? se publicó primero en Yorokobu .",
+      "title": "La impaciencia del espejo negro: ¿desbloqueamos el móvil por vicio?",
+      "url": "https://yorokobu.es/desbloqueo-movil/"
     },
     "https://yorokobu.es/holly-farrell/": {
       "_seen": "2026-09-15",
@@ -17172,6 +18823,7 @@
     "https://www.core77.com/posts/145262/The-James-Brands-Handsome-Designey-Alternative-to-the-Swiss-Army-Knife": "2026-09-07",
     "https://www.core77.com/posts/145281/ShiftLens-A-System-for-3D-Printing-Lenticular-Objects": "2026-09-11",
     "https://www.core77.com/posts/145316/The-Bulldog-Binder-Improving-the-Design-of-the-Ratchet-Binder": "2026-09-15",
+    "https://www.designboom.com/editorials/the-hacienda-must-be-built-spectacle-wonder-disenchanted-world/": "2026-09-16",
     "https://www.dezeen.com/2026/09/05/combat-boots-accessories-footwear-projects-hame-university-of-applied-sciences-schoolshows/": "2026-09-08"
   }
 }

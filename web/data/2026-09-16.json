@@ -1,0 +1,213 @@
+{
+  "date": "2026-09-16",
+  "category": "space_env",
+  "feature": {
+    "title": "一張海報讓人停下來看：不只是圖片，是一場等著你進去的故事",
+    "subject": {
+      "name": "《the hacienda must be built》海報（設計作品集之一）",
+      "designer": "DesignBoom",
+      "client": "DesignBoom",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 85,
+    "images_read": 1,
+    "neurons_used": 19.8,
+    "hook": "這張海報不是告訴你「看這裡」，而是讓你覺得「那裡有東西等著你」。它用最簡單的顏色和字體，創造出一種「前往未知」的緊張感。",
+    "what_it_is": "這是一張展覽或設計作品集的海報，用來吸引人走進一個充滿「奇觀」和「神秘」的空間。海報本身沒有文字，只靠圖像和設計語言暗示內容。它是《DesignBoom》雜誌探討「失去奇觀的世界」專題的一部分，可能用於實體展覽或線下活動。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "海報只用兩種顏色：黑色（#000000）和白色（#FFFFFF），對比度極高。黑色不只是背景，也是構成圖像的主要元素，例如倉庫內的結構、人影和光線。這種高對比讓視覺焦點集中在「黑色的物體」上，同時白色的空間（如天花板、牆面）成為「未知的領域」。這種顏色選擇不只是美學，還暗示了「黑暗中隱藏的奇觀」——像是倉庫裡突然出現的燈光、或是人群中突兀的動作。在設計中，高對比的黑白不僅強調「存在」，還製造「缺席」的感覺：你會先看到黑色的物體，然後才意識到白色空間的「等待」。",
+        "so_what": "黑白對比不只是「好看」，它讓你看到的東西和看不到的東西都變得重要。這張海報教你：設計可以用顏色創造「緊張感」，讓人覺得「那裡有東西在等你」，即使什麼都沒說。"
+      },
+      {
+        "lens": "layout",
+        "body": "海報的佈局沒有嚴格的格線，但有明顯的「左對齊」結構：所有元素（人影、倉庫結構、光線）都朝向左邊對齊，形成一條無形的「視覺通道」。這條通道引導你的眼睛從左下角（倉庫入口）往右上角（光源或焦點）移動，像是邀請你「進入」這個空間。中心位置的空白（約30–40%留白率）並非隨意，而是像一個「門檻」：你會先被吸引到黑色的物體，然後發現空白處「有東西在等你去填補」。這種佈局在設計中稱為「非對稱平衡」，它不靠對稱取悅你，而是靠「引導」讓你自己發現重點。",
+        "so_what": "佈局不一定要對稱才好看。這張海報用「左對齊」和「空白門檻」告訴你：設計可以像導遊一樣，帶領你的眼睛「走進」一個故事，而不是硬塞給你答案。"
+      },
+      {
+        "lens": "message",
+        "body": "海報沒有文字，但透過圖像傳達三個關鍵訊息：1. 「這裡有東西」（倉庫內的黑色物體和人影）；2. 「那裡有光」（右上角的亮點）；3. 「你可以進去」（視覺通道和空白的邀請）。這種「無文字的敘事」在設計中稱為「視覺隱喻」，它不直接說「這是展覽」，而是說「這裡有你不知道的東西」。例如，倉庫的結構暗示「工業美學」，但人影的動作（如舉手、跳躍）又帶出「表演」或「狂歡」的感覺。這種混合讓人覺得「這不是普通的展覽」，而是一場「等著你參與的奇觀」。",
+        "so_what": "沒有文字也能說故事。這張海報教你：設計可以用「物體的形狀」、「光的方向」、「人影的動作」來暗示「這裡有什麼」，而不需要一句解釋。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這張海報為了製造「神秘感」，犧牲了兩件事：1. 具體資訊：沒有標題、日期或地點，讓人無法馬上知道「這是什麼展覽」。2. 明確焦點：圖像沒有突出一個明星人物或物品，而是讓所有元素「共同參與」故事。這種犧牲在設計中稱為「模糊焦點」，它讓觀眾「自己去填補缺口」。例如，如果海報加上標題「奇觀展」，可能會失去「等待被發現」的感覺；但如果保持模糊，觀眾會覺得「這裡有秘密」。這個選擇適合「概念性」的展覽，但不適合「商業推廣」——因為商業需要快速傳達資訊。",
+        "so_what": "設計有時候要「故意不說清楚」，才能讓人覺得「有東西在等你去發現」。這張海報的教訓是：如果你的目標是「吸引人進入」，就別把所有答案都寫在上面。"
+      },
+      {
+        "lens": "use",
+        "body": "這張海報的設計考慮了「實體展覽」的使用情境：1. 距離感：在遠處看時，黑白對比和左對齊的結構會自動吸引注意力；2. 接近感：走近時，倉庫的細節（如梁柱、人影）會讓人聯想到「真實空間」；3. 觸發感：海報上的光源和動作暗示「這裡有活動」，讓人想「進去看看」。這種設計在實體空間中非常有效，因為它不依賴螢幕或互動，而是靠「紙質材料」的質感（如厚紙、上光）增強「真實感」。例如，如果這張海報放在展覽入口附近，觀眾會先被吸引，然後因為「好奇」而進入。",
+        "so_what": "海報不是只給人看的，而是給人「帶路」的。這張設計教你：在實體空間裡，一張紙可以用「顏色」、「佈局」和「隱喻」來製造「進入」的欲望，而不需要動畫或互動。"
+      }
+    ],
+    "takeaway_everyone": "下次你看到一張海報、一個展覽入口，或是一個廣告，試著問自己三個問題：1. 這張東西在「邀請」我做什麼？（進入、點擊、購買）2. 它用什麼「暗示」讓我覺得「那裡有東西」？（光、人影、空白）3. 如果沒有文字，我還能看出什麼？（形狀、動作、比例）。這張《the hacienda》海報的厲害之處在於：它不賣東西，不解釋內容，只賣「好奇心」。你可以用這雙眼睛看任何設計：它們在做什麼，為什麼要這樣做，而不是那樣。",
+    "takeaway_designer": "當你設計一個「吸引人進入」的空間或展覽時，可以參考這三個具體手法：1. 黑白對比的視覺通道：用高對比色創造「引導線」，讓觀眾的眼睛「走進」設計（例如，在展覽海報中，用黑色標示「路徑」，白色標示「未知區域」）。2. 非對稱平衡的佈局：不要依賴對稱，而是用「左對齊」或「中心空白」製造「門檻感」（例如，在海報中，將80%元素放在左側，20%空白放在右側，形成「等待被填補」的感覺）。3. 視覺隱喻的敘事：用「物體的形狀」、「光的方向」、「人影的動作」暗示故事，而不是直接說明（例如，在展覽設計中，用「倉庫結構」暗示「工業美學」，用「人群動作」暗示「表演」）。這些手法在「概念性」的設計中特別有效，但需要犧牲「快速傳達資訊」的能力。",
+    "glossary": [
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "對齊",
+        "plain": "把元素的邊或中心線對到同一條線上。"
+      },
+      {
+        "term": "留白率",
+        "plain": "版面上空著的比例。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "上光",
+        "plain": "在印刷品表面加一層膜，可以是亮的或霧的。"
+      },
+      {
+        "term": "左對齊（left-aligned）",
+        "plain": "所有元素都靠左邊排列，形成一條無形的線，引導眼睛從左到右移動，像是「帶路」一樣。"
+      },
+      {
+        "term": "視覺隱喻（visual metaphor）",
+        "plain": "用圖像暗示意思，而不直接說出來，例如用「倉庫」暗示「工業美學」，用「人影動作」暗示「表演」。"
+      },
+      {
+        "term": "非對稱平衡（asymmetrical balance）",
+        "plain": "版面不對稱，但元素的「重量」和「位置」讓整體看起來平衡，例如左邊重、右邊輕，但整體不覺得傾斜。"
+      }
+    ],
+    "concretes": [
+      "#000000（黑色）",
+      "#FFFFFF（白色）",
+      "左對齊的視覺通道（倉庫結構、人影、光線）",
+      "30–40% 的留白率（中心空白區域）",
+      "倉庫內的梁柱結構（暗示工業美學）",
+      "人影的動作（舉手、跳躍，暗示表演或狂歡）"
+    ],
+    "source_url": "https://www.designboom.com/editorials/the-hacienda-must-be-built-spectacle-wonder-disenchanted-world/",
+    "source_name": "designboom",
+    "published": "2026-09-15T10:49:11+00:00",
+    "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/spectator-spectacle-chapter-editor-letter-designboom-700-500x400-22b08q85r013.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：designboom．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "徹底美麗詞典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "克拉科夫霧濛晨曦",
+      "title_original": "Misty mornings in Kraków",
+      "url": "https://www.behance.net/gallery/255684893/Misty-mornings-in-Krakow",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/be9cdf255684893.Y3JvcCwxMjUyLDk3OSwwLDMxNg.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Claude Code vs Codex CLI vs Cursor 給設計師的設計系統存活之道",
+      "title_original": "Claude Code vs Codex CLI vs Cursor for Designers: Where Your Design System Actually Survives",
+      "url": "https://medium.muz.li/claude-code-vs-codex-cli-vs-cursor-for-designers-where-your-design-system-actually-survives-9df451bf460c?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*RzTbHULLcmSV8lNf8MfJlQ.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "殖民地遺毒：Hew Locke 的時代超越型船隊",
+      "title_original": "The Legacy of Colonialism Haunts Hew Locke’s Era-Defying Flotilla",
+      "url": "https://www.thisiscolossal.com/2026/09/hew-locke-the-wanderers-ship-sculptures/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/locke-6.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「島中之島」 by succco",
+      "title_original": "“An island within the island” by succco",
+      "url": "https://www.booooooom.com/2026/09/14/an-island-within-the-island-by-succco/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/aiwti-01.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Spooky Collection：怪物、幽靈與生物",
+      "title_original": "Spooky Collection ? Monsters, Ghosts & Creatures",
+      "url": "https://www.behance.net/gallery/255608379/Spooky-Collection-Monsters-Ghosts-Creatures",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ef9cb0255608379.Y3JvcCw3OTEsNjE5LDY5MSw2OTE.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Nike 創新重啟的內部運作",
+      "title_original": "Inside Nike’s Innovation Reset",
+      "url": "https://www.fastcompany.com/91608012/inside-nikes-innovation-reset?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-15T21:28:30+00:00",
+      "region": "en"
+    },
+    {
+      "title": "預購《塞爾達傳說：時之奧卡里納》重製版：唯一的缺點",
+      "title_original": "Pre-order The Legend of Zelda: Ocarina of Time remake: There's only one downside",
+      "url": "https://www.creativebloq.com/entertainment/gaming/pre-order-the-legend-of-zelda-ocarina-of-time-remake-theres-only-one-downside",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-15T20:08:25+00:00",
+      "region": "en"
+    },
+    {
+      "title": "我們必須逐步開拓邊界",
+      "title_original": "We must pace the frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "source_name": "Sidebar",
+      "published": "2026-09-15T05:18:01+00:00",
+      "region": "en"
+    }
+  ]
+}
