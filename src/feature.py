@@ -62,6 +62,19 @@ BANNED_JUDGEMENT = [
     "應該要改", "不夠好", "略顯", "美中不足",
 ]
 
+# 紅線四：不准用推測把空缺填起來。
+# 抓不到原文時模型不會承認「不知道」，它會改用「可能」「推測」把版面填滿
+# （實測 2026-09-16 那篇 403 抓不到正文的 Dezeen 公寓：
+#  「雖然原文沒有具體說明，但可以推測可能與中野區的地形有關」，
+#  取捨那一段整段五個「可能」）。這種句子讀者拿不走任何東西，
+# 偏偏它長得跟事實一模一樣 —— 比空話更危險。
+BANNED_SPECULATION = ["推測", "猜測", "或許", "大概是", "應該是", "我認為",
+                      "不排除", "想必", "據推斷", "沒有具體說明"]
+
+# 「可能」本身在寫取捨時是正當的（「換個目標這個選擇就不成立」），
+# 但一個角度裡出現三次以上，那一段就是在猜而不是在看。
+MAX_MAYBE_PER_ANGLE = 2
+
 # 紅線三：「給所有人的帶走」不准預設讀者是設計師。
 # 非設計的人沒有案子、沒有客戶、不會開 Figma —— 對他們講這些，
 # 這一段就等於不存在。
@@ -97,6 +110,12 @@ _COMMON_RULES = f"""
   ‣ angles 裡可以用，但每個用到的術語都要進 glossary，
     用一句話講給完全不懂的人聽
   ‣ takeaway_everyone 不准預設讀者是設計師（他沒有案子、沒有客戶）
+
+【紅線四 — 不准推測】
+不知道就寫「原文沒寫」「從圖上判斷不出」，不要用「可能」「推測」「或許」
+「應該是」把空缺填起來。禁用詞：{"、".join(BANNED_SPECULATION[:8])} 等。
+一個角度裡「可能」最多兩次 —— 超過就代表那一段是在猜，不是在看。
+寧可少寫一個角度，也不要寫一段猜的。
 
 【語言與格式】
 一律繁體中文、台灣用語。
@@ -253,6 +272,16 @@ def _plain(text: str) -> str:
 # 音譯的專有名詞是假資訊 —— 讀者拿「約翰與溫希·阿恩特」查不到任何東西。
 # prompt 裡寫了「保留原文」還是擋不住（實測），所以在這裡機械處理：
 # 一個欄位同時有拉丁字和括號中文時，留拉丁那半。
+# 中間點只有音譯的外國人名在用（「費南達·卡納萊斯」）。中文人名不用它，
+# 所以兩邊都是中文字時，那就是一個音譯出來的名字 —— 讀者拿它查不到任何東西。
+# prompt 裡寫了「保留原文」，欄位也有 _drop_transliteration 顧著，
+# 但行文裡照樣會冒出來（實測 2026-09-16：subject.designer 正確寫著
+# Fernanda Canales，what_it_is 卻寫成「費南達·卡納萊斯」）。
+# 兩側各抓五個字就夠認人（名字再長也看得出是哪一個），
+# 不設上限的話整句話會被當成命中的字串印進錯誤訊息裡
+_TRANSLIT_IN_BODY = re.compile(r"[\u4e00-\u9fff]{1,5}[·・][\u4e00-\u9fff]{1,5}")
+
+
 _TRANSLIT_AFTER = re.compile(
     r"([A-Za-z][A-Za-z0-9 .&'’\-]*?)\s*[（(][\u4e00-\u9fff·・、，\s]+[）)]")
 _TRANSLIT_BEFORE = re.compile(
@@ -414,6 +443,18 @@ def quality_check(doc: dict, source_text: str = "",
     if judged:
         problems.append(f"批評寫成了評分：{'、'.join(judged[:5])}")
 
+    # 推測只驗事實那幾段 —— 帶走是給建議的，「或許你會注意到」很正常
+    factual = " ".join([str(doc.get("hook", "")), str(doc.get("what_it_is", ""))]
+                       + [str(a.get("body", "")) for a in angles])
+    guessed = [w for w in BANNED_SPECULATION if w in factual]
+    if guessed:
+        problems.append(f"用推測填空缺：{'、'.join(guessed[:5])}")
+    maybe = [str(a.get("lens", "?")) for a in angles
+             if str(a.get("body", "")).count("可能") > MAX_MAYBE_PER_ANGLE]
+    if maybe:
+        problems.append(f"這些角度整段在猜（「可能」超過 {MAX_MAYBE_PER_ANGLE} 次）："
+                        f"{'、'.join(maybe)}")
+
     # ── 「看得懂」閘 ──
     entry = str(doc.get("hook", "")) + " " + str(doc.get("what_it_is", ""))
     exit_ = str(doc.get("takeaway_everyone", ""))
@@ -425,6 +466,10 @@ def quality_check(doc: dict, source_text: str = "",
     assumed = [w for w in BANNED_ASSUMES_DESIGNER if w in exit_]
     if assumed:
         problems.append(f"「給所有人的帶走」預設讀者是設計師：{'、'.join(assumed[:3])}")
+
+    translit = _TRANSLIT_IN_BODY.findall(body)
+    if translit:
+        problems.append(f"人名音譯了（要照抄原文）：{'、'.join(translit[:3])}")
 
     leftover = simplified_leftovers(body + " ".join(str(c) for c in concretes))
     if leftover:
@@ -474,7 +519,8 @@ def resolve_article_text(item: dict) -> tuple[str, str]:
 
 def build_feature(item: dict, category: str | None = None,
                   extra_images: list[str] | None = None,
-                  diag: dict | None = None) -> dict | None:
+                  diag: dict | None = None,
+                  article: tuple[str, str] | None = None) -> dict | None:
     """
     產一篇「今日一件」。品質閘沒過就重寫一次，再沒過回 None（換下一個候選）。
 
@@ -485,7 +531,9 @@ def build_feature(item: dict, category: str | None = None,
     vision_notes: list[str] = []
     neurons = 0.0
 
-    article_text, how = resolve_article_text(item)
+    # 呼叫端可能已經先抓過了（pipeline 要靠正文長度決定候選順序），
+    # 不要為了同一篇再發一次 HTTP
+    article_text, how = article if article is not None else resolve_article_text(item)
     diag["article_chars"] = len(article_text)
     if article_text:
         print(f"  原文正文 {len(article_text)} 字元（{how}）")

@@ -41,7 +41,7 @@ from sources import SOURCES
 from picker import pick_showcase, pick_industry
 from screen import screen_works
 from translate import localise_items
-from feature import build_feature
+from feature import TYPE_EVIDENCE_MIN_CHARS, build_feature, resolve_article_text
 from vision import disabled_reason as vision_disabled_reason
 import pool
 
@@ -187,13 +187,25 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     content_by_url = {it["url"]: it["content_text"] for it in items
                       if it.get("content_text")}
 
-    warned_no_vision = False
-    for i, cand in enumerate(candidates, 1):
-        print(f"  題目 {i}/{len(candidates)}：{cand['title'][:70]}"
-              f"（{cand.get('source_name', '')}）")
+    # 正文先抓好，拿得到的排前面。
+    # 沒有正文的候選不是不能寫，是寫出來一定變成「可能」「推測」——
+    # 實測 2026-09-16 那篇 Dezeen 公寓（頁面 403、feed 也滾掉了），
+    # 四個角度有三個在猜。順序一換就換得掉，成本只是幾個 HTTP。
+    ready = []
+    for cand in candidates:
         cand = {**cand, "content_text": content_by_url.get(cand.get("url", ""), "")}
+        ready.append((cand, resolve_article_text(cand)))
+    ready.sort(key=lambda r: len(r[1][0]) >= TYPE_EVIDENCE_MIN_CHARS, reverse=True)
+    print(f"  候選 {len(ready)} 個，其中 "
+          f"{sum(1 for _, (t, _h) in ready if len(t) >= TYPE_EVIDENCE_MIN_CHARS)} "
+          f"個有原文正文（排前面）")
+
+    warned_no_vision = False
+    for i, (cand, article) in enumerate(ready, 1):
+        print(f"  題目 {i}/{len(ready)}：{cand['title'][:70]}"
+              f"（{cand.get('source_name', '')}）")
         diag = {}
-        doc = build_feature(cand, category=category, diag=diag)
+        doc = build_feature(cand, category=category, diag=diag, article=article)
         if doc is not None:
             subject = cand
             pool.mark_used(cand.get("url", ""), today_d)
