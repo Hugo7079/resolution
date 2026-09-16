@@ -2,7 +2,7 @@
 抓取層
 ======
 
-  ‣ fetch_rss(source)      — 單一 feed，含圖片抽取
+  ‣ fetch_rss(source)      — 單一 feed，含圖片與全文抽取
   ‣ fetch_all_sources()    — 平行抓 sources.SOURCES
   ‣ fetch_og_image(url)    — feed 沒圖時 fallback 抓 og:image
 
@@ -32,7 +32,17 @@ import feedparser  # type: ignore
 
 from config import (FETCH_TIMEOUT, MAX_PER_SOURCE, USER_AGENT,
                     LOW_FREQ_DAYS, LOW_FREQ_MAX)
+
 from sources import SOURCES
+
+# feed 的 content:encoded 常常就是整篇文章（實測 Dezeen 2,579 字元、
+# designboom 4,139、Design Milk 9,048），而 summary 只有一句導言。
+# 今日一件要寫得準，靠的就是這一段 —— 而且它已經在手上了，不必再發一次 HTTP，
+# 對 Dezeen 這種會把 CI 的 IP 擋在門外（403）的站台更是唯一拿得到全文的路。
+#
+# 只活在記憶體與 output/raw_*.json（都不進版控）。**不寫進作品池** ——
+# pool.json 是每天 commit 的，1,500 則各帶幾 KB 全文會把 repo 撐爆。
+CONTENT_TEXT_MAX = 6000
 
 # 少數站台憑證設定有問題，但內容本身可信 —— 只在抓取時放寬
 _LAX = ssl.create_default_context()
@@ -229,6 +239,11 @@ def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
             continue
 
         img, img_from = extract_image(entry, base)
+        summary = _strip_html(entry.get("summary", ""))
+        content_text = _strip_html((entry.get("content") or [{}])[0].get("value", "") or "")
+        # 有些 feed 的 content 就是 summary 原封不動，那存了也沒有多一個字
+        if len(content_text) <= len(summary):
+            content_text = ""
         # 原圖給版面用，縮圖留著當 onerror fallback（去後綴不一定存在）
         img_full = upgrade_image_url(img)
         # tags 是業配偵測的主要訊號（Dezeen 的 Promotions /
@@ -238,7 +253,8 @@ def fetch_rss(source: dict, days_back: int = 2) -> list[dict]:
         items.append({
             "title":       title,
             "url":         link,
-            "summary":     _strip_html(entry.get("summary", ""))[:1200],
+            "summary":     summary[:1200],
+            "content_text": content_text[:CONTENT_TEXT_MAX],
             "published":   pub.isoformat() if pub else "",
             "source_name": name,
             "region":      source["region"],

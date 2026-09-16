@@ -2,7 +2,15 @@
 每日一件：三層漏斗
 ==================
 
-拿 vision.py 的英文客觀描述 + 原文，寫成一篇「介紹一件設計」。
+拿**原文正文** + vision.py 的英文客觀描述，寫成一篇「介紹一件設計」。
+
+順序是有意義的：正文在前，讀圖在後。原本只給 RSS 摘要（實測中位數 203 字元，
+一半以上不到 200），模型等於只能看著圖猜，於是出現最傷的那種錯 ——
+版面上那張圖是展場照或列表縮圖，文章卻整篇在拆「這張海報」，
+讀者點連結進去裡面根本沒有海報。
+
+現在「這是什麼東西」一律以原文為準，而且要模型把判斷依據從原文抄出來
+（artefact_type / type_evidence），抄不出來就重寫。圖只用來談長什麼樣子。
 
 結構不是七個並列的軸 —— 那是寫給同行看的評論，圈外人不知道從哪進去。
 改成有順序的三層：
@@ -15,6 +23,8 @@
 翻譯成讀者自己生活裡用得上的東西。少了它，這就只是一篇專業評論。
 
 品質不靠祈禱，靠**可驗證的輸出契約**：
+  ‣ artefact_type / type_evidence：這是什麼東西，以及原文哪一句這樣說，
+    依據回原文比對不到就是看圖猜的
   ‣ concretes：模型必須交出它實際引用的具體物，少於四項判定為空話
   ‣ glossary：用了術語就要有白話解釋，入口與出口一個術語都不准出現
 交不出來就重寫一次，再不行就換下一個候選（見 pipeline）。
@@ -23,12 +33,17 @@
 from __future__ import annotations
 import re
 
+from article import fetch_article
 from config import (CATEGORIES, CATEGORY_BOUNDARY_RULES, JARGON, JARGON_TERMS,
                     LENSES, VISION_CFG)
 from llm import chat_json, LLMError
-from sanitize import (simplified_leftovers, to_traditional,
+from sanitize import (quote_in_source, simplified_leftovers, to_traditional,
                       verify_concretes, verify_subject)
 from vision import describe_images
+
+# 正文有這麼多字，才有資格要求模型「把品類的依據從原文抄出來」。
+# 比這少的時候原文本來就沒交代，硬要它交依據只會逼它編一句。
+TYPE_EVIDENCE_MIN_CHARS = 300
 
 # ─────────────────────────────────────────────────────────────
 # 紅線一：禁止抽象形容詞
@@ -93,29 +108,54 @@ _COMMON_RULES = f"""
 前端是直接把字放上版面的，符號會原樣印出來。來源若是簡體中文，要做用詞在地化
 （介面 / 軟體 / 影片 / 專案 / 品質 / 網路 / 螢幕 / 檔案 / 程式）。
 
-【誠實】
-視覺描述來自模型讀圖，可能有誤。凡是描述裡寫 "not determinable" 的項目，
-不要在文章裡假裝知道。原文和圖上都沒有的東西，不要生出來。
+【誠實 — 品類以原文為準，不以圖為準】
+版面上那張圖常常是列表縮圖、展場照或情境照，**未必就是作品本身**。
+  ‣ 「這是什麼東西」（海報／識別／椅子／展覽／建築／App 介面…）
+    只能從原文判斷。原文說是展覽就不要寫成海報，說是包裝就不要寫成書，
+    說是一整季的服裝就不要寫成一件單品。
+  ‣ 原文與讀圖描述打架時，一律以原文為準。圖上看得到、原文沒提的東西，
+    要寫就寫成「圖上是…」，不要當成這件作品的事實。
+  ‣ 視覺描述來自模型讀圖，可能有誤。凡是描述裡寫 "not determinable" 的項目，
+    不要在文章裡假裝知道。
+  ‣ 原文和圖上都沒有的東西，不要生出來。
+  ‣ 原文若是一次介紹好幾件作品的整理文（校園展、年度精選、清單文），
+    只寫版面那張圖對應的那一件，並以原文裡談那一件的那幾句為準；
+    原文裡認不出圖上是哪一件，就不要編那一件的細節 ——
+    改談原文真的講了的東西，並在 what_it_is 說清楚這是一批作品裡的一件。
 """.strip()
 
 
-def _mk_context(item: dict, vision_notes: list[str]) -> str:
+def _mk_context(item: dict, vision_notes: list[str], article_text: str = "") -> str:
     notes = "\n\n".join(f"[圖 {i+1}]\n{n}" for i, n in enumerate(vision_notes)) \
         or "（沒有可用的視覺描述，請只依文字資訊撰寫，並在 concretes 誠實反映）"
+
+    if article_text:
+        body = ("── 原文正文（連結頁的內容，這是最可靠的一份材料）──\n"
+                + article_text)
+    else:
+        body = ("── 原文正文 ──\n"
+                "（抓不到正文，手上只有上面的標題與摘要。這種狀態下「這是什麼東西」"
+                "只能講標題與摘要講得出來的那些 —— 其餘一律不要斷言，"
+                "尤其不要從圖上推測品類與用途。）")
+
     return f"""
 標題：{item.get('title', '')}
 來源：{item.get('source_name', '')}（{item.get('region', '')}）
 連結：{item.get('url', '')}
 原文摘要：
-{(item.get('summary') or '')[:2000]}
+{(item.get('summary') or '')[:1200]}
+
+{body}
 
 ── 讀圖得到的客觀視覺描述（英文，未經評價）──
 {notes}
+（提醒：這只是在描述那張圖，不保證那張圖就是作品本身）
 """.strip()
 
 
 def _prompt(item: dict, vision_notes: list[str], category: str | None,
-            strict_retry: bool = False, problems: list[str] | None = None) -> list[dict]:
+            strict_retry: bool = False, problems: list[str] | None = None,
+            article_text: str = "") -> list[dict]:
     cat = CATEGORIES.get(category or "", {})
     framing = (f"今天輪到的分類是「{cat.get('label', '')}」"
                f"（{cat.get('desc', '')}）。\n{CATEGORY_BOUNDARY_RULES}")
@@ -146,6 +186,8 @@ def _prompt(item: dict, vision_notes: list[str], category: str | None,
 {{
   "title": "繁中標題，點出這件作品最關鍵的一個選擇，不要照抄作品原名",
   "subject": {{"name": "作品名", "designer": "設計者或工作室", "client": "業主", "year": "年份"}},
+  "artefact_type": "這是什麼東西，四到十個字的品類，例如「單張海報」「展覽主視覺」「餐椅」「一場展覽」「行動應用程式介面」。只能依原文判斷，不准看圖猜",
+  "type_evidence": "原文裡讓你這樣判斷的那一句，照抄原文、不要翻譯也不要改寫，最多一句、30 字以內。原文真的沒明說就寫「原文未明說」",
   "category": "visual_brand | interface_ux | product_object | space_env",
   "hook": "一句話（40–60 字）：這件東西在做什麼、為什麼值得停下來看三秒。零術語。",
   "what_it_is": "這是什麼（60–100 字）：品類、誰做的、給誰用的、什麼時候的事。零術語。",
@@ -163,7 +205,7 @@ def _prompt(item: dict, vision_notes: list[str], category: str | None,
 }}
 
 ── 素材 ──
-{_mk_context(item, vision_notes)}"""},
+{_mk_context(item, vision_notes, article_text)}"""},
     ]
 
 
@@ -232,8 +274,11 @@ def _localise(doc: dict) -> None:
     模型引用簡中來源時會照抄原文進 concretes 和內文（實測漏出
     「Häme 应用科技大学」）。這件事在寫完之後統一處理，不靠 prompt 祈禱。
     """
-    for k in ("title", "hook", "what_it_is", "takeaway_everyone", "takeaway_designer"):
+    for k in ("title", "artefact_type", "hook", "what_it_is",
+              "takeaway_everyone", "takeaway_designer"):
         doc[k] = _plain(to_traditional(str(doc.get(k, ""))))
+    # type_evidence 是照抄原文的一句話（多半是英文），刻意不轉換 ——
+    # 轉了就跟原文對不起來，溯源會變成永遠失敗
     doc["subject"] = {k: _drop_transliteration(to_traditional(str(v)))
                       for k, v in (doc.get("subject") or {}).items()}
     for a in _angles_of(doc):
@@ -315,9 +360,27 @@ def _jargon_in(text: str) -> list[str]:
     return [w for w in hit if not any(w != o and w in o for o in hit)]
 
 
-def quality_check(doc: dict) -> tuple[bool, list[str]]:
-    """回傳 (是否通過, 失敗原因清單)。"""
+def quality_check(doc: dict, source_text: str = "",
+                  check_type: bool = False) -> tuple[bool, list[str]]:
+    """
+    回傳 (是否通過, 失敗原因清單)。
+
+    check_type 開著時多驗一件事：「這是什麼東西」有沒有原文依據。
+    只有正文夠厚（TYPE_EVIDENCE_MIN_CHARS）時才開 —— 原文自己都沒交代的時候
+    要求它交依據，等於逼它編一句出來，比不驗還糟。
+    """
     problems: list[str] = []
+
+    if check_type:
+        atype = str(doc.get("artefact_type", "")).strip()
+        ev = str(doc.get("type_evidence", "")).strip()
+        if not atype:
+            problems.append("沒說這是什麼東西（artefact_type 空的）")
+        elif not quote_in_source(ev, source_text):
+            # 依據抄不出來，就代表品類是看圖推的 —— 正是「圖是展場照、
+            # 文章卻在拆海報」那種錯的來源
+            why = "沒給依據" if not ev or ev.startswith("原文未明說") else "原文裡找不到這句"
+            problems.append(f"「{atype}」在原文裡沒有依據（{why}）")
 
     concretes = [c for c in (doc.get("concretes") or []) if str(c).strip()]
     if len(concretes) < 4:
@@ -381,6 +444,34 @@ def quality_check(doc: dict) -> tuple[bool, list[str]]:
 # ─────────────────────────────────────────────────────────────
 # 對外
 # ─────────────────────────────────────────────────────────────
+def resolve_article_text(item: dict) -> tuple[str, str]:
+    """
+    這一則的原文正文。回傳 (正文, 怎麼來的)。
+
+    兩條路，先便宜的：
+      1. feed 的 content:encoded —— 抓 RSS 時就一起拿到了，不必再發 HTTP，
+         而且 Dezeen 這種會把 CI 的 IP 擋掉（403）的站台只剩這條路拿得到全文
+      2. 連結頁現抓 —— 池子裡的舊條目已經沒有 feed 全文了（不進 pool.json，
+         見 fetcher.CONTENT_TEXT_MAX 的理由），而且 Core77、ArchDaily
+         這些站的 feed 本來就只給摘要
+
+    兩邊都拿得到就用長的那份。都拿不到回 ("", 原因)，呼叫端照樣寫，
+    只是 prompt 會切到「低證據」模式。
+    """
+    feed_text = (item.get("content_text") or "").strip()
+    if len(feed_text) >= 1200:
+        return feed_text, "feed 全文"
+
+    got = fetch_article(item.get("url", ""))
+    page_text = (got.get("text") or "").strip()
+
+    if len(page_text) >= len(feed_text) and page_text:
+        return page_text, "連結頁"
+    if feed_text:
+        return feed_text, "feed 全文"
+    return "", got.get("error") or "沒有正文"
+
+
 def build_feature(item: dict, category: str | None = None,
                   extra_images: list[str] | None = None,
                   diag: dict | None = None) -> dict | None:
@@ -394,6 +485,14 @@ def build_feature(item: dict, category: str | None = None,
     vision_notes: list[str] = []
     neurons = 0.0
 
+    article_text, how = resolve_article_text(item)
+    diag["article_chars"] = len(article_text)
+    if article_text:
+        print(f"  原文正文 {len(article_text)} 字元（{how}）")
+    else:
+        print(f"  [注意] 抓不到原文正文（{how}）—— 只靠標題與摘要寫，"
+              f"品類不做斷言")
+
     urls = [u for u in ([item.get("image_url", "")] + (extra_images or [])) if u]
     if urls:
         vision_notes, neurons, verr = describe_images(urls, VISION_CFG["max_images"])
@@ -401,12 +500,18 @@ def build_feature(item: dict, category: str | None = None,
             diag["vision_error"] = verr
         print(f"  讀圖 {len(vision_notes)}/{len(urls)} 張，花費 {neurons:.0f} neurons")
 
+    # 正文夠厚才要求模型交出品類的原文依據（見 quality_check）
+    check_type = len(article_text) >= TYPE_EVIDENCE_MIN_CHARS
+    src_texts = [item.get("title", ""), item.get("summary", ""), article_text]
+
     problems: list[str] = []
     for strict in (False, True):
-        msgs = _prompt(item, vision_notes, category, strict, problems)
+        msgs = _prompt(item, vision_notes, category, strict, problems, article_text)
         try:
+            # 3000 會被寫滿（實測 2026-09-16 一篇長文回傳半截 JSON），
+            # 而契約又多了 artefact_type / type_evidence 兩欄
             doc = chat_json(msgs, temperature=0.35 if not strict else 0.15,
-                            max_tokens=3000)
+                            max_tokens=3500)
         except LLMError as e:
             diag["llm_error"] = str(e)
             print(f"  [今日一件] {str(e)[:120]}")
@@ -416,22 +521,28 @@ def build_feature(item: dict, category: str | None = None,
 
         # 事實錨定：設計者／業主／年份與具體物都必須能溯源，
         # 否則就是模型自己生的 —— 這是這個產品最危險的失誤。
-        src_texts = [item.get("title", ""), item.get("summary", "")] + vision_notes
+        # 正文進來之後這一關才真的錨得住：原本只有標題加一句摘要，
+        # 真的寫在文章裡的設計師名字一樣會被當成幻覺清掉。
+        anchors = src_texts + vision_notes
         doc["subject"], unverified = verify_subject(doc.get("subject") or {},
-                                                    " ".join(src_texts))
+                                                    " ".join(anchors))
         if unverified:
             print(f"  [事實錨定] 原文找不到，已清空：{'、'.join(unverified)}")
-        kept, unsourced = verify_concretes(doc.get("concretes") or [], src_texts)
+        kept, unsourced = verify_concretes(doc.get("concretes") or [], anchors)
         if unsourced:
             print(f"  [事實錨定] 具體物無法溯源，已移除：{'、'.join(map(str, unsourced))}")
         doc["concretes"] = kept
         _fill_glossary(doc)
 
-        ok, problems = quality_check(doc)
+        ok, problems = quality_check(doc, " ".join(src_texts), check_type)
         diag["problems"] = problems
         if ok:
+            if doc.get("artefact_type"):
+                print(f"  品類判定：{doc['artefact_type']}"
+                      f"（依據：{str(doc.get('type_evidence', ''))[:60]}）")
             doc["vision_notes"] = vision_notes
             doc["neurons_used"] = round(neurons, 1)
+            doc["article_chars"] = len(article_text)
             doc["source_url"] = item.get("url", "")
             doc["source_name"] = item.get("source_name", "")
             return doc

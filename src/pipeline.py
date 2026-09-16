@@ -10,8 +10,8 @@
   2) 清洗（業配、招聘、亂碼）
   3) og:image 補圖
   4) 來源健康檢查
-  5) 入池 + 從池子挑今天的主角（不限當天抓到的）
-  6) 兩段式產文（CF 讀圖 → LLM 寫繁中三層漏斗）
+  5) 入池 + 從池子挑今天的主角（不限當天抓到的）+ 初篩掉不是作品的
+  6) 兩段式產文（抓原文正文 + CF 讀圖 → LLM 寫繁中三層漏斗）
   7) 配額挑選 + 標題在地化
   8) 寫 web/data/{date}.json 與 latest.json
 
@@ -31,13 +31,15 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from config import (BASE_DIR, OUTPUT_DIR, CATEGORIES, DEFAULT_DAYS_BACK,
-                    DEEPDIVE_TRIES, LANG_QUOTA, POOL_DAYS_BACK, category_of_day)
+                    DEEPDIVE_TRIES, LANG_QUOTA, POOL_DAYS_BACK,
+                    SCREEN_CANDIDATES, category_of_day)
 from fetcher import FETCH_RESULT, fetch_all_sources, backfill_og_images
 from tw_scraper import fetch_taiwan_all
 from sanitize import sanitize
 from source_health import record as record_health, check as check_health
 from sources import SOURCES
 from picker import pick_showcase, pick_industry
+from screen import screen_works
 from translate import localise_items
 from feature import build_feature
 from vision import disabled_reason as vision_disabled_reason
@@ -170,15 +172,26 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     diag: dict = {}
     subject = None
     doc = None
-    candidates = pool.candidates(category, DEEPDIVE_TRIES, today_d)
+    candidates = pool.candidates(category, SCREEN_CANDIDATES, today_d)
     if not candidates:
         print("[失敗] 池子裡沒有可介紹的作品（要有圖、有內文、沒用過）")
         return 1
+
+    # 初篩：把訪談、專欄、徵件公告這類「不是一件看得到的作品」的挑掉。
+    # 機械規則到 pool.is_roundup 為止，剩下的靠模型判（見 screen.py）。
+    candidates = screen_works(candidates)[:DEEPDIVE_TRIES]
+
+    # 候選是從池子挑的，池子為了控制 repo 體積不存 feed 全文
+    # （見 fetcher.CONTENT_TEXT_MAX）。今天剛抓到的那批還在手上，
+    # 對得上就把全文補回去 —— 那是 Dezeen 這種擋 CI 的站台唯一的正文來源。
+    content_by_url = {it["url"]: it["content_text"] for it in items
+                      if it.get("content_text")}
 
     warned_no_vision = False
     for i, cand in enumerate(candidates, 1):
         print(f"  題目 {i}/{len(candidates)}：{cand['title'][:70]}"
               f"（{cand.get('source_name', '')}）")
+        cand = {**cand, "content_text": content_by_url.get(cand.get("url", ""), "")}
         diag = {}
         doc = build_feature(cand, category=category, diag=diag)
         if doc is not None:
@@ -225,6 +238,9 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
             # 讀圖有沒有真的跑 —— 之前要靠「哪個具體物在原文裡找不到」反推，
             # 那太迂迴了，直接記下來
             "images_read": len(doc.get("vision_notes") or []),
+            # 這篇是有正文可依據，還是只靠標題加一句摘要寫出來的。
+            # 「圖文不符」查起來第一個要看的就是這個數字。
+            "article_chars": doc.get("article_chars", 0),
             "neurons_used": doc.get("neurons_used", 0),
             "hook": doc.get("hook", ""),
             "what_it_is": doc.get("what_it_is", ""),

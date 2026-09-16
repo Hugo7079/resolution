@@ -225,6 +225,41 @@ def verify_concretes(concretes: list, sources: list[str]) -> tuple[list, list]:
     return ok, unsourced
 
 
+def quote_in_source(quote: str, source_text: str) -> bool:
+    """
+    模型宣稱「原文是這樣寫的」那一句，原文裡是不是真的有。
+
+    用在「這是什麼東西」的溯源上 —— 版面上那張圖常常是列表縮圖或展場照，
+    模型看圖就會把一個展覽寫成一張海報。要它把判斷的依據從原文抄出來，
+    再回頭比對，猜的那些就過不了。
+
+    不能整句嚴格比對：模型會改標點、換大小寫、順手把長句截短。
+    三層放寬，任何一層過了就算數：
+      1. 正規化後整串包含（最常見的情況：真的照抄）
+      2. 拉丁詞與數字 token 六成以上出現（它把英文原句重排或截斷）
+      3. 中文字集合重疊七成（中文來源）
+    """
+    quote, hay = (quote or "").strip(), (source_text or "")
+    if len(quote) < 4:
+        return False
+
+    if _normalise(quote) and _normalise(quote) in _normalise(hay):
+        return True
+
+    toks = _TOKEN.findall(quote)
+    if len(toks) >= 2:
+        low = hay.lower()
+        hit = sum(1 for t in toks if t.lower() in low)
+        if hit / len(toks) >= 0.6:
+            return True
+
+    zh = {ch for ch in quote if "\u4e00" <= ch <= "\u9fff"}
+    if len(zh) >= 6:
+        return sum(1 for ch in zh if ch in hay) / len(zh) >= 0.7
+
+    return False
+
+
 # ─────────────────────────────────────────────────────────────
 # 簡體 → 繁體（台灣用詞）
 #

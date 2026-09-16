@@ -97,6 +97,10 @@ POOL_MAX_SIZE = int(os.getenv("RES_POOL_MAX_SIZE", "1500"))
 # 被事實錨定砍光）。一次失敗約兩次呼叫，而 Mistral 的額度是
 # 30 req/min，多試兩個的成本遠低於「主菜缺席一天」。
 DEEPDIVE_TRIES = int(os.getenv("RES_DEEPDIVE_TRIES", "5"))
+# 初篩看幾個候選（見 screen.py）。池子的排序是機械規則，
+# 擋得掉清單文擋不掉訪談與專欄，所以前 N 個先讓模型判一次
+# 「這是不是一件看得到的作品」，篩完才挑 DEEPDIVE_TRIES 個去寫。
+SCREEN_CANDIDATES = int(os.getenv("RES_SCREEN_CANDIDATES", "10"))
 
 
 # ── 多角度欣賞的鏡頭 ──

@@ -133,14 +133,60 @@ def _prune(pool: dict, today: date) -> None:
             used.pop(url, None)
 
 
-# 「5 Lamps Designed for…」「10 Best…」這種清單文是 N 件作品的集合，
-# 不是一件。硬寫會變成把五個東西各講一句，每個角度都踩不到具體物。
-_LISTICLE = re.compile(r"^\s*\d{1,2}\s+\S|^\s*(top|best)\s+\d", re.I)
+# ─────────────────────────────────────────────────────────────
+# 整理文一律不當「今日一件」的主角
+#
+# 校園展、年度精選、清單文、社論專題 —— 一篇談十件作品，
+# 但版面上只放得下一張圖。那張圖是十件裡的一件（甚至是拼圖封面），
+# 文章卻在談整批，讀者看到的圖和讀到的內容就是對不起來。
+# 實測兩次都栽在這裡：
+#   2026-09-08 Dezeen「…among footwear projects from Häme University」
+#              → 寫成「這雙可拆解的戰靴」，連結點進去是十件學生作品
+#   2026-09-16 designboom /editorials/
+#              → 寫成「這是一張展覽或設計作品集的海報…可能用於實體展覽」
+#              （「或」「可能」就是沒有依據的意思）
+#
+# 「5 Lamps Designed for…」「10 Best…」同理：硬寫會變成把五個東西各講一句，
+# 每個角度都踩不到具體物。原本這只是評分上扣一點分，擋不住 ——
+# 扣分歸扣分，沒有別的候選時它照樣會被選上。
+#
+# 這是**硬排除**不是降權：今日一件是這個站的主菜，寧可換一件也不能圖文不符。
+# 供給撐得住 —— 池子常態上千件可選，一天只要一件。
+# ─────────────────────────────────────────────────────────────
+_ROUNDUP_TITLE = re.compile(
+    # 「Six colourful buildings…」「12 Lamps…」開頭就是數字的清單文。
+    # 數字只認 2–20 且後面直接接英文字：清單文不會說「37 Dwellings」
+    # （那是一棟住宅的戶數），也不會是「2,977 lights recreate…」（一件裝置）
+    r"^\s*(?:[2-9]|1\d|20)\s+[A-Za-z]"
+    r"|^\s*(?:five|six|seven|eight|nine|ten|twelve)\b"
+    r"|^\s*(?:top|best)\s+\d"
+    # 「six of the world's best」「10 most…」
+    r"|\b(?:\d{1,2}|five|six|seven|eight|nine|ten)\s+(?:of\s+the\s+)?"
+    r"(?:best|top|favourite|favorite|most)\b"
+    # 精選、專欄、校園展的固定句型
+    r"|\b(?:round-?up|best of|our favourites?|editors?'?s? picks?"
+    r"|picks?\s+(?:six|five|ten|\d{1,2})|gift guide|highlights? from"
+    r"|projects? from|school\s?shows?"
+    r"|(?:graduate|degree|student)\s+(?:show|shows|projects?))\b"
+    r"|精選|盤點|合輯|懶人包|一次看",
+    re.I)
+
+# 站台自己就把整理文放在固定路徑下（Dezeen 的 -schoolshows/、
+# designboom 的 /editorials/），比猜標題可靠
+_ROUNDUP_URL = re.compile(
+    r"[-/](?:school-?shows?)/"
+    r"|/(?:editorials?|roundups?|best-of|gift-guide|lists?)/", re.I)
+
+
+def is_roundup(item: dict) -> bool:
+    """一次介紹很多件的整理文，不是「一件看得到的作品」。"""
+    return bool(_ROUNDUP_TITLE.search(item.get("title", ""))
+                or _ROUNDUP_URL.search(item.get("url", "")))
 
 
 def _looks_like_news(title: str) -> bool:
     t = title.lower()
-    return bool(_LISTICLE.match(title)) or any(m in t for m in _NEWS_MARKERS)
+    return any(m in t for m in _NEWS_MARKERS)
 
 
 def _score(it: dict, category: str) -> tuple:
@@ -162,12 +208,17 @@ def _score(it: dict, category: str) -> tuple:
 
 
 def candidates(category: str, n: int, today: date) -> list[dict]:
-    """挑今天的候選：沒用過、有圖有內文，依「像不像一件作品」排序。"""
+    """挑今天的候選：沒用過、有圖有內文、不是整理文，依「像不像一件作品」排序。"""
     pool = _load()
     used = pool.get("used", {})
     rows = [it for url, it in pool.get("items", {}).items()
             if url not in used and it.get("image_url")
             and len(it.get("summary") or "") > 120]
+
+    before = len(rows)
+    rows = [it for it in rows if not is_roundup(it)]
+    if before != len(rows):
+        print(f"  整理文排除 {before - len(rows)} 件（清單、校園展、社論專題）")
 
     rows.sort(key=lambda it: _score(it, category), reverse=True)
 

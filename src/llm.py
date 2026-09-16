@@ -86,7 +86,13 @@ def chat(messages: list[dict],
 
 
 def chat_json(messages: list[dict], **kw) -> dict:
-    """要求 JSON 輸出並解析。模型偶爾會包 ```json 圍欄，這裡一併處理。"""
+    """
+    要求 JSON 輸出並解析。模型偶爾會包 ```json 圍欄，這裡一併處理。
+
+    解不動一律丟 LLMError —— 呼叫端只接這一種。寫滿 max_tokens 被截斷時
+    回來的是半截 JSON，原本會讓 JSONDecodeError 一路竄出去，
+    整天的流程連當日檔都不會寫（那是「換下一個候選」就能救的情況）。
+    """
     raw = chat(messages, json_mode=True, **kw)
     text = raw.strip()
     if text.startswith("```"):
@@ -94,7 +100,12 @@ def chat_json(messages: list[dict], **kw) -> dict:
     try:
         return json.loads(text)
     except json.JSONDecodeError:
-        start, end = text.find("{"), text.rfind("}")
-        if start >= 0 and end > start:
+        pass
+
+    start, end = text.find("{"), text.rfind("}")
+    if start >= 0 and end > start:
+        try:
             return json.loads(text[start:end + 1])
-        raise LLMError(f"回傳不是合法 JSON：{text[:200]}")
+        except json.JSONDecodeError:
+            pass
+    raise LLMError(f"回傳不是合法 JSON（可能是寫到 max_tokens 被截斷）：{text[:160]}")
