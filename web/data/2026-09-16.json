@@ -2,131 +2,119 @@
   "date": "2026-09-16",
   "category": "space_env",
   "feature": {
-    "title": "一張海報讓人停下來看：不只是圖片，是一場等著你進去的故事",
+    "title": "一棟房子變成日夜兩用的「時間測量儀」",
     "subject": {
-      "name": "《the hacienda must be built》海報（設計作品集之一）",
-      "designer": "DesignBoom",
-      "client": "DesignBoom",
+      "name": "House 720 Degrees",
+      "designer": "Fernanda Canales",
+      "client": "",
       "year": ""
     },
     "category": "space_env",
     "category_label": "空間與環境",
-    "confidence": 85,
+    "confidence": 95,
     "images_read": 1,
-    "neurons_used": 19.8,
-    "hook": "這張海報不是告訴你「看這裡」，而是讓你覺得「那裡有東西等著你」。它用最簡單的顏色和字體，創造出一種「前往未知」的緊張感。",
-    "what_it_is": "這是一張展覽或設計作品集的海報，用來吸引人走進一個充滿「奇觀」和「神秘」的空間。海報本身沒有文字，只靠圖像和設計語言暗示內容。它是《DesignBoom》雜誌探討「失去奇觀的世界」專題的一部分，可能用於實體展覽或線下活動。",
+    "article_chars": 3227,
+    "neurons_used": 40.8,
+    "hook": "這棟房子沒有牆壁分隔日夜，白天把山和火山框進視野，晚上則讓內院成為沉思的舞臺。",
+    "what_it_is": "墨西哥建築師 Fernanda Canales 在距離墨西哥城三小時車程的極端氣候地區，設計了一棟完全圓形的住宅，給兩個家庭使用。房子沒有傳統的「室內」和「室外」之分，而是靠光影和開合的牆面調節時間與季節。",
     "angles": [
       {
-        "lens": "color",
-        "body": "海報只用兩種顏色：黑色（#000000）和白色（#FFFFFF），對比度極高。黑色不只是背景，也是構成圖像的主要元素，例如倉庫內的結構、人影和光線。這種高對比讓視覺焦點集中在「黑色的物體」上，同時白色的空間（如天花板、牆面）成為「未知的領域」。這種顏色選擇不只是美學，還暗示了「黑暗中隱藏的奇觀」——像是倉庫裡突然出現的燈光、或是人群中突兀的動作。在設計中，高對比的黑白不僅強調「存在」，還製造「缺席」的感覺：你會先看到黑色的物體，然後才意識到白色空間的「等待」。",
-        "so_what": "黑白對比不只是「好看」，它讓你看到的東西和看不到的東西都變得重要。這張海報教你：設計可以用顏色創造「緊張感」，讓人覺得「那裡有東西在等你」，即使什麼都沒說。"
+        "lens": "layout",
+        "body": "這棟房子的平面設計完全打破直線思維：兩個同心圓（內外各一個）構成了整棟建築的骨架，讓原本 360 度的視野變成 720 度。設計師說這是「幾何與光學裝置」，實際上就是把房子變成一座「太陽時鐘」——白天時，外圓的大窗戶把山和火山納入視野；晚上則關閉外圓，讓內院成為私密的聚光點。平面上，所有功能空間（臥室、廚房、浴室）都是矩形，但被故意擺在曲線上，讓彎曲的空間專門留給流動和過渡。這樣的設計不僅解決了兩個家庭的空間需求，還讓每個房間都能「看見」不同的時間節奏。",
+        "so_what": "原來一棟房子可以設計成「日夜兩用」的空間，靠著幾何形狀和開合的牆面，就能讓同一個空間在不同時段扮演完全不同的角色。"
       },
       {
-        "lens": "layout",
-        "body": "海報的佈局沒有嚴格的格線，但有明顯的「左對齊」結構：所有元素（人影、倉庫結構、光線）都朝向左邊對齊，形成一條無形的「視覺通道」。這條通道引導你的眼睛從左下角（倉庫入口）往右上角（光源或焦點）移動，像是邀請你「進入」這個空間。中心位置的空白（約30–40%留白率）並非隨意，而是像一個「門檻」：你會先被吸引到黑色的物體，然後發現空白處「有東西在等你去填補」。這種佈局在設計中稱為「非對稱平衡」，它不靠對稱取悅你，而是靠「引導」讓你自己發現重點。",
-        "so_what": "佈局不一定要對稱才好看。這張海報用「左對齊」和「空白門檻」告訴你：設計可以像導遊一樣，帶領你的眼睛「走進」一個故事，而不是硬塞給你答案。"
+        "lens": "material",
+        "body": "房子的外牆用當地土壤混合水泥打造，顏色接近周圍巖石的灰褐色（近似 #8B7D6B），讓建築「融入」地景。內部則使用當地木材和石材，連家具和地板都是由當地工匠手工製作。設計師強調「材質和形狀要與景觀融為一體」，這不只是美學，更是實用的生態策略：當地氣候極端（一天溫差 30 度，半年雨季），房子沒有使用任何機械系統（如空調），而是靠「透氣的牆面」和「雨水收集」來調節溫度和濕度。例如，牆面上的「可彎曲開口」可以調節通風，而地板下的太陽能板則提供能源。",
+        "so_what": "這棟房子的材質和結構不是為了「看起來好看」，而是直接解決當地的氣候問題，讓建築和環境成為一體。"
       },
       {
         "lens": "message",
-        "body": "海報沒有文字，但透過圖像傳達三個關鍵訊息：1. 「這裡有東西」（倉庫內的黑色物體和人影）；2. 「那裡有光」（右上角的亮點）；3. 「你可以進去」（視覺通道和空白的邀請）。這種「無文字的敘事」在設計中稱為「視覺隱喻」，它不直接說「這是展覽」，而是說「這裡有你不知道的東西」。例如，倉庫的結構暗示「工業美學」，但人影的動作（如舉手、跳躍）又帶出「表演」或「狂歡」的感覺。這種混合讓人覺得「這不是普通的展覽」，而是一場「等著你參與的奇觀」。",
-        "so_what": "沒有文字也能說故事。這張海報教你：設計可以用「物體的形狀」、「光的方向」、「人影的動作」來暗示「這裡有什麼」，而不需要一句解釋。"
+        "body": "設計師引用哲學家 Gaston Bachelard 的話：「一切存在都是環狀的、迂迴的、循環的」，這棟房子的核心概念就是「時間的循環」。白天時，外圓的大窗戶（寬度約佔整棟建築外牆的 1/3）把自然景觀納入視野，讓居住者「測量」時間；晚上則關閉外圓，內院成為獨立的空間，燈光和聲音在圓形牆面反射，創造「沉思的氛圍」。設計師說：「房子不是靜態的，而是隨著光影、季節和白晝黑夜的變化而改變。」例如，雨季時，牆面的開口可以調節，讓水流進內院形成小池；旱季則關閉開口，保持室內涼爽。",
+        "so_what": "這棟房子不是單純的住所，而是一座「時間的紀錄儀」，靠著光影和開合的牆面，讓居住者「看見」時間流動。"
       },
       {
         "lens": "tradeoff",
-        "body": "這張海報為了製造「神秘感」，犧牲了兩件事：1. 具體資訊：沒有標題、日期或地點，讓人無法馬上知道「這是什麼展覽」。2. 明確焦點：圖像沒有突出一個明星人物或物品，而是讓所有元素「共同參與」故事。這種犧牲在設計中稱為「模糊焦點」，它讓觀眾「自己去填補缺口」。例如，如果海報加上標題「奇觀展」，可能會失去「等待被發現」的感覺；但如果保持模糊，觀眾會覺得「這裡有秘密」。這個選擇適合「概念性」的展覽，但不適合「商業推廣」——因為商業需要快速傳達資訊。",
-        "so_what": "設計有時候要「故意不說清楚」，才能讓人覺得「有東西在等你去發現」。這張海報的教訓是：如果你的目標是「吸引人進入」，就別把所有答案都寫在上面。"
+        "body": "設計師選擇完全圓形的平面，犧牲了傳統房屋的「直線對齊」和「明確方向性」，但換來的是「無限延伸的視野」和「流動的空間感」。例如，圓形設計讓所有房間都能「看見」外面的景觀，而不需要依賴走廊或轉角。然而，這也意味著房子的「私密性」需要靠其他方式解決：設計師用「可彎曲的牆面」和「內院的燈光」來創造「日夜兩用」的空間，而不是依賴固定的牆壁。如果目標換成「最大化私密性」，這個圓形設計可能就不成立了。",
+        "so_what": "圓形設計讓房子「無處不見景」，但也讓「私密性」成為挑戰，設計師用「動態的牆面」和「光影」來平衡這兩者。"
       },
       {
-        "lens": "use",
-        "body": "這張海報的設計考慮了「實體展覽」的使用情境：1. 距離感：在遠處看時，黑白對比和左對齊的結構會自動吸引注意力；2. 接近感：走近時，倉庫的細節（如梁柱、人影）會讓人聯想到「真實空間」；3. 觸發感：海報上的光源和動作暗示「這裡有活動」，讓人想「進去看看」。這種設計在實體空間中非常有效，因為它不依賴螢幕或互動，而是靠「紙質材料」的質感（如厚紙、上光）增強「真實感」。例如，如果這張海報放在展覽入口附近，觀眾會先被吸引，然後因為「好奇」而進入。",
-        "so_what": "海報不是只給人看的，而是給人「帶路」的。這張設計教你：在實體空間裡，一張紙可以用「顏色」、「佈局」和「隱喻」來製造「進入」的欲望，而不需要動畫或互動。"
+        "lens": "context",
+        "body": "這棟房子位於墨西哥城北方三小時車程的「La Reserva Peñitas」谷地，當地氣候極端（一天溫差 30 度，半年雨季），且沒有基礎設施（如電力、水管）。在這樣的環境下，大多數建築會選擇「封閉式」設計（如厚牆、小窗戶），但這棟房子卻選擇「開放式」的圓形結構，靠「自然通風」和「雨水收集」來調節環境。設計師說：「我們不想使用技術系統，而是回到傳統的生態策略。」例如，當地的「石牆」和「木屋頂」在雨季可以防水，旱季則保持涼爽。這棟房子的設計不僅回應了當地氣候，還「重新發明」了當地建築的語彙。",
+        "so_what": "在極端氣候下，這棟房子不僅「適應」環境，還「重新定義」了當地建築的可能性，從「封閉」變成「開放」。"
       }
     ],
-    "takeaway_everyone": "下次你看到一張海報、一個展覽入口，或是一個廣告，試著問自己三個問題：1. 這張東西在「邀請」我做什麼？（進入、點擊、購買）2. 它用什麼「暗示」讓我覺得「那裡有東西」？（光、人影、空白）3. 如果沒有文字，我還能看出什麼？（形狀、動作、比例）。這張《the hacienda》海報的厲害之處在於：它不賣東西，不解釋內容，只賣「好奇心」。你可以用這雙眼睛看任何設計：它們在做什麼，為什麼要這樣做，而不是那樣。",
-    "takeaway_designer": "當你設計一個「吸引人進入」的空間或展覽時，可以參考這三個具體手法：1. 黑白對比的視覺通道：用高對比色創造「引導線」，讓觀眾的眼睛「走進」設計（例如，在展覽海報中，用黑色標示「路徑」，白色標示「未知區域」）。2. 非對稱平衡的佈局：不要依賴對稱，而是用「左對齊」或「中心空白」製造「門檻感」（例如，在海報中，將80%元素放在左側，20%空白放在右側，形成「等待被填補」的感覺）。3. 視覺隱喻的敘事：用「物體的形狀」、「光的方向」、「人影的動作」暗示故事，而不是直接說明（例如，在展覽設計中，用「倉庫結構」暗示「工業美學」，用「人群動作」暗示「表演」）。這些手法在「概念性」的設計中特別有效，但需要犧牲「快速傳達資訊」的能力。",
+    "takeaway_everyone": "下次看到一棟房子，可以試著問自己：「這棟房子是為了『遮風避雨』，還是為了『與時間對話』？」例如，一扇大窗戶不只是「讓光線進來」，也可能是「把景觀納入時間的計算」。生活中的許多東西（如門、牆、窗戶）都有「雙重功能」，只要觀察它們在不同時段的「變化」，就能發現更多設計的可能性。",
+    "takeaway_designer": "在極端環境下設計時，可以考慮「幾何形狀」和「材質」如何共同解決問題。例如，這棟房子的「圓形平面」不僅創造了「無限視野」，還讓「牆面」成為「可調節的介面」。具體手法包括：1. 用「同心圓」設計平面，讓空間「日夜轉換」功能；2. 用「當地材質」創造「生態系統」（如雨水收集、自然通風）；3. 用「可彎曲的開口」替代固定的門窗，讓建築「呼吸」。這些手法可以應用在任何需要「時間調節」的空間設計中。",
     "glossary": [
-      {
-        "term": "格線",
-        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
-      },
       {
         "term": "對齊",
         "plain": "把元素的邊或中心線對到同一條線上。"
       },
       {
-        "term": "留白率",
-        "plain": "版面上空著的比例。"
+        "term": "同心圓（concentric circles）",
+        "plain": "兩個或以上圓心相同的圓，常用來創造「層次感」或「無限延伸」的視覺效果。"
       },
       {
-        "term": "對比度",
-        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+        "term": "生態策略（bioclimatic strategies）",
+        "plain": "設計時考慮氣候、地形和材質，讓建築「自然調節」溫度、濕度和通風，而不是依賴機械系統（如空調）。"
       },
       {
-        "term": "上光",
-        "plain": "在印刷品表面加一層膜，可以是亮的或霧的。"
+        "term": "可彎曲開口（flexible openings）",
+        "plain": "牆面上的可調節開口，可以根據季節或時間改變大小，讓空氣或光線進出。"
       },
       {
-        "term": "左對齊（left-aligned）",
-        "plain": "所有元素都靠左邊排列，形成一條無形的線，引導眼睛從左到右移動，像是「帶路」一樣。"
-      },
-      {
-        "term": "視覺隱喻（visual metaphor）",
-        "plain": "用圖像暗示意思，而不直接說出來，例如用「倉庫」暗示「工業美學」，用「人影動作」暗示「表演」。"
-      },
-      {
-        "term": "非對稱平衡（asymmetrical balance）",
-        "plain": "版面不對稱，但元素的「重量」和「位置」讓整體看起來平衡，例如左邊重、右邊輕，但整體不覺得傾斜。"
+        "term": "太陽時鐘（solar clock）",
+        "plain": "利用太陽光影來測量時間的裝置，常見於古代建築或公園裝置。"
       }
     ],
     "concretes": [
-      "#000000（黑色）",
-      "#FFFFFF（白色）",
-      "左對齊的視覺通道（倉庫結構、人影、光線）",
-      "30–40% 的留白率（中心空白區域）",
-      "倉庫內的梁柱結構（暗示工業美學）",
-      "人影的動作（舉手、跳躍，暗示表演或狂歡）"
+      "720 度（360 度 × 2）的視野設計",
+      "可彎曲開口的牆面（調節通風和光線）",
+      "內外兩個同心圓（內院和外牆）",
+      "雨水收集系統（內院的水池）",
+      "太陽能板（地板下的能源來源)"
     ],
-    "source_url": "https://www.designboom.com/editorials/the-hacienda-must-be-built-spectacle-wonder-disenchanted-world/",
-    "source_name": "designboom",
-    "published": "2026-09-15T10:49:11+00:00",
-    "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/spectator-spectacle-chapter-editor-letter-designboom-700-500x400-22b08q85r013.jpg",
-    "image_fallback": "",
-    "credit": "圖片來源：designboom．著作權屬原作者"
+    "source_url": "https://www.abitare.it/en/architecture/projects/2026/09/02/fernanda-canales-circular-villa-mexico/",
+    "source_name": "Abitare",
+    "published": "2026-09-02T05:30:00+00:00",
+    "image_url": "https://static2.abitare.it/wp-content/uploads/2026/09/07-Citta-del-Messico-Fernanda-Canales-en.jpg?v=548469",
+    "image_fallback": "https://static2.abitare.it/wp-content/uploads/2026/09/07-Citta-del-Messico-Fernanda-Canales-en-200x150.jpg?v=548469",
+    "credit": "圖片來源：Abitare．著作權屬原作者"
   },
   "showcase": [
     {
-      "title": "2024 新一代設計展：超越永續—借物計畫",
-      "title_original": "2024新一代設計展：超越永續—借物計畫",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "title": "陳林松、黃碩 能量堆5混動Hybrid氮化鎵移動電源適配器",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/699",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/699/thumb_2x_709193bb98371e07b07bacc6cec37b43.jpg",
       "image_fallback": "",
       "source_name": "金點設計獎 得獎作品",
       "region": "zh-tw",
       "category": null
     },
     {
-      "title": "徹底美麗詞典計畫",
-      "title_original": "The Dictionary (of) Radical Beauty Project",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "title": "Edwind Tan Yi Fong IRIS",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/710",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/710/thumb_2x_58e9c919b446b170622c95b76cc1f5ac.jpg",
       "image_fallback": "",
       "source_name": "金點設計獎 得獎作品",
       "region": "zh-tw",
       "category": null
     },
     {
-      "title": "克拉科夫霧濛晨曦",
-      "title_original": "Misty mornings in Kraków",
-      "url": "https://www.behance.net/gallery/255684893/Misty-mornings-in-Krakow",
-      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/be9cdf255684893.Y3JvcCwxMjUyLDk3OSwwLDMxNg.jpg",
+      "title": "編輯插畫",
+      "title_original": "Editorial illustrations",
+      "url": "https://www.behance.net/gallery/255742367/Editorial-illustrations",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/96f44d255742367.Y3JvcCwxMjAwLDkzOCwwLDE1MQ.jpg",
       "image_fallback": "",
       "source_name": "Behance",
       "region": "en",
       "category": null
     },
     {
-      "title": "Claude Code vs Codex CLI vs Cursor 給設計師的設計系統存活之道",
+      "title": "Claude Code vs Codex CLI vs Cursor 給設計師的設計系統存活之地在哪？",
       "title_original": "Claude Code vs Codex CLI vs Cursor for Designers: Where Your Design System Actually Survives",
       "url": "https://medium.muz.li/claude-code-vs-codex-cli-vs-cursor-for-designers-where-your-design-system-actually-survives-9df451bf460c?source=rss----5969bf7021a3---4",
       "image_url": "https://cdn-images-1.medium.com/max/1672/1*RzTbHULLcmSV8lNf8MfJlQ.png",
@@ -136,10 +124,20 @@
       "category": null
     },
     {
-      "title": "殖民地遺毒：Hew Locke 的時代超越型船隊",
-      "title_original": "The Legacy of Colonialism Haunts Hew Locke’s Era-Defying Flotilla",
-      "url": "https://www.thisiscolossal.com/2026/09/hew-locke-the-wanderers-ship-sculptures/",
-      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/locke-6.jpg",
+      "title": "品牌設計：Auren 視覺識別設計 by Nathalia Ultramar",
+      "title_original": "Branding Design: Auren Visual Identity by Nathalia Ultramar",
+      "url": "https://abduzeedo.com/branding-design-auren-visual-identity-nathalia-ultramar/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_auren-nathalia-ultramar_0.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "請勿拍照！短片聚焦遊客捕捉瞬間的執迷",
+      "title_original": "Please No Photos! A Short Film Focuses on Tourists’ Obsession with Capturing the Moment",
+      "url": "https://www.thisiscolossal.com/2026/09/the-spectacle-short-film-new-yorker/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/spectacle-3.jpg",
       "image_fallback": "",
       "source_name": "Colossal",
       "region": "en",
@@ -156,37 +154,27 @@
       "category": null
     },
     {
-      "title": "潛行在一場大水之前",
+      "title": "張景祐 LOCK+",
       "title_original": "",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/753",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/753/thumb_2x_062fdaa30e180d6236908e88a0e7f2c7.jpg",
       "image_fallback": "",
       "source_name": "金點設計獎 得獎作品",
       "region": "zh-tw",
-      "category": null
-    },
-    {
-      "title": "Spooky Collection：怪物、幽靈與生物",
-      "title_original": "Spooky Collection ? Monsters, Ghosts & Creatures",
-      "url": "https://www.behance.net/gallery/255608379/Spooky-Collection-Monsters-Ghosts-Creatures",
-      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ef9cb0255608379.Y3JvcCw3OTEsNjE5LDY5MSw2OTE.jpg",
-      "image_fallback": "",
-      "source_name": "Behance",
-      "region": "en",
       "category": null
     }
   ],
   "industry": [
     {
-      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
-      "title_original": "",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
       "source_name": "金點設計獎",
       "published": "",
       "region": "zh-tw"
     },
     {
-      "title": "Nike 創新重啟的內部運作",
+      "title": "Nike 內部創新重啟的秘密",
       "title_original": "Inside Nike’s Innovation Reset",
       "url": "https://www.fastcompany.com/91608012/inside-nikes-innovation-reset?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
       "source_name": "Fast Company Design",
@@ -194,19 +182,19 @@
       "region": "en"
     },
     {
-      "title": "預購《塞爾達傳說：時之奧卡里納》重製版：唯一的缺點",
-      "title_original": "Pre-order The Legend of Zelda: Ocarina of Time remake: There's only one downside",
-      "url": "https://www.creativebloq.com/entertainment/gaming/pre-order-the-legend-of-zelda-ocarina-of-time-remake-theres-only-one-downside",
-      "source_name": "Creative Bloq",
-      "published": "2026-09-15T20:08:25+00:00",
+      "title": "AREA 17 為世界最古老的藥房打造數位旗艦店",
+      "title_original": "AREA 17 crafts digital flagship for the world’s oldest apothecary",
+      "url": "https://www.designweek.co.uk/area-17-crafts-digital-flagship-for-the-worlds-oldest-apothecary/",
+      "source_name": "Design Week",
+      "published": "2026-09-15T05:00:32+00:00",
       "region": "en"
     },
     {
-      "title": "我們必須逐步開拓邊界",
-      "title_original": "We must pace the frontier",
-      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
-      "source_name": "Sidebar",
-      "published": "2026-09-15T05:18:01+00:00",
+      "title": "AI 或在十年內毀滅人類，但 Autodesk 總裁看見藝術家面臨更即時的威脅",
+      "title_original": "AI might kill humanity in 10 years, but Autodesk’s CEO sees a more immediate threat to artists",
+      "url": "https://www.creativebloq.com/ai/ai-might-kill-humanity-in-10-years-but-autodesks-ceo-sees-a-more-immediate-threat-to-artists",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-15T23:46:16+00:00",
       "region": "en"
     }
   ]
