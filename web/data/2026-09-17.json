@@ -1,0 +1,196 @@
+{
+  "date": "2026-09-17",
+  "category": "visual_brand",
+  "feature": {
+    "title": "地圖投影方案：讓非洲不再被縮小",
+    "subject": {
+      "name": "Eckert IV 地圖投影方案",
+      "designer": "United Nations General Assembly",
+      "client": "",
+      "year": "2026"
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5000,
+    "neurons_used": 18.7,
+    "hook": "這張地圖不是為了美觀，而是為了讓非洲不再被故意縮小。它改變了你對世界的第一印象。",
+    "what_it_is": "聯合國大會在 2026 年通過一項決議，推廣「Eckert IV」地圖投影方案。這不是一張實體地圖，而是一種數位計算方式，能讓地圖上的非洲、南美洲等地區不再被人為縮小，更準確反映陸塊的實際面積。這項決議不強制全球統一使用，但鼓勵教育機構、媒體和公共空間採用這種投影，以挑戰歐洲中心主義的地理認知。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "Eckert IV 投影方案在視覺上做了兩個關鍵調整：首先，它用淺綠色 (#008000) 取代傳統地圖的深藍海洋，讓陸地與海洋的對比度提高，強化陸塊的視覺重量。其次，海洋區域被人為加亮 (#FFFF00)，讓陸地輪廓更清晰，避免因海洋過暗而讓非洲等中間地區被忽略。這兩種顏色選擇都不是為了美觀，而是為了強迫觀看者注意到非洲和南美洲的實際大小。傳統地圖（如墨卡託投影）會將非洲縮小到南美洲的一半，但這張地圖讓兩者面積比例接近真實的 1:1.4。",
+        "so_what": "顏色不是隨便選的：淺綠色讓陸地「跳」出來，黃色海洋讓你「看」得到陸地的邊界。這教你，設計不只是好看，更是為了讓人「看到」原本被忽略的事物。"
+      },
+      {
+        "lens": "layout",
+        "body": "Eckert IV 投影放棄了經線緯線的傳統網格，改用 15° 的經緯線間距 (#F5F5DC 灰色線條) 作為參考。這些線條不是為了美觀，而是為了幫助使用者快速比較陸塊的實際面積。例如，非洲在這張地圖上被放大到與南美洲相近的尺寸，而歐洲則被明顯縮小。這種布局強迫觀看者重新評估大陸的相對重要性，而非依賴習慣性的視覺記憶。圖例和比例尺被放在邊緣位置，避免分散注意力。",
+        "so_what": "地圖不是讓你看「哪裡」，而是讓你看「比例」。這教你，設計的「擺放」可以決定人們「先看什麼」，進而影響他們的想法。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了讓非洲和南美洲的面積更準確，Eckert IV 投影犧牲了形狀的精確性：格陵蘭看起來比實際更大，而非洲的形狀被拉長。這是一個明確的取捨——犧牲「形狀」的真實性，換取「面積」的公平性。傳統地圖（如墨卡託投影）則相反，保留了形狀的準確性，但扭曲了面積。這張地圖的設計者選擇「面積」作為優先級，因為歷史上歐洲中心主義的地圖一直低估非洲的重要性。",
+        "so_what": "設計總是有取捨：你可以讓東西「看起來對」，或者「實際上公平」。這張地圖選擇了後者，教你設計不只是美觀，更是「價值觀」的體現。"
+      },
+      {
+        "lens": "message",
+        "body": "這張地圖的「訊息」不是「這裡有什麼國家」，而是「非洲為什麼被縮小」。它通過視覺手法（如非洲面積的放大）直接挑戰觀看者的既有認知。例如，傳統地圖會讓非洲看起來像南美洲的一半，但這張地圖讓兩者面積比例接近真實的 1:1.4。這種視覺對比強迫人們質疑：「為什麼我以前從來沒注意到非洲這麼大？」地圖下方的文字（如「Eckert IV Projection」和「UN Promoted」）則強化了這項決議的權威性。",
+        "so_what": "地圖不只是「資訊」，更是「質問」。這教你，設計可以用視覺語言「問問題」，而不只是「回答問題」。"
+      }
+    ],
+    "takeaway_everyone": "下次你看地圖時，先問自己兩個問題：1. 這張地圖是為了「準確」還是為了「習慣」？2. 誰決定了這張地圖的「標準」？例如，為什麼大部分地圖會讓非洲看起來比南美洲小？為什麼教科書裡的世界地圖總是把歐洲放在中間？這些不是地理問題，而是「設計」的問題。未來，當你看到一張「不一樣」的地圖時，別先問「好看嗎」，先問「它在說什麼」。",
+    "takeaway_designer": "當你的設計需要「挑戰既有認知」時，可以參考這張地圖的三個手法：1. 犧牲次要屬性：放大關鍵訊息（如非洲面積），即使這會扭曲其他屬性（如形狀）。2. 顏色的政治性：用高對比色 (#008000 vs #FFFF00) 強化訊息，而非單純美觀。3. 布局的權力結構：將習慣被忽略的元素（如非洲）放在視覺中心，而非邊緣。例如，如果你設計一份報告，想讓讀者注意「女性收入」的數據，可以用顏色或尺寸放大這部分，即使這會犧牲其他數據的「精確性」。",
+    "glossary": [
+      {
+        "term": "網格",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "墨卡託投影",
+        "plain": "最常見的地圖投影方式，保留了形狀的準確性，但嚴重扭曲了面積（如非洲被縮小）。歐洲殖民時代以來，這種投影被廣泛採用，強化了歐洲中心主義的視角。"
+      },
+      {
+        "term": "Eckert IV",
+        "plain": "一種專為強調陸地面積準確性而設計的地圖投影，由美國地理學家 Max Eckert 發明。它犧牲形狀的精確性，讓非洲、南美洲等地區的面積更接近真實比例。"
+      },
+      {
+        "term": "經緯線間距",
+        "plain": "地圖上用來標示經度和緯度的線條間隔，通常以度數為單位（如 15°）。這些線條幫助使用者判斷距離和比例，但不同的投影會有不同的間距設計。"
+      }
+    ],
+    "concretes": [
+      "Eckert IV 地圖投影",
+      "#008000（淺綠色陸地）",
+      "#FFFF00（加亮海洋）",
+      "15° 經緯線間距",
+      "聯合國大會決議（2026）"
+    ],
+    "source_url": "https://www.archdaily.com/1184844/a-proposal-for-a-new-world-map-and-two-new-sports-complexes-this-weeks-review",
+    "source_name": "ArchDaily",
+    "published": "2026-09-10T05:30:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/6aa2/2df3/237b/e901/8be9/62f6/medium_jpg/this-weeks-review_10.jpg?1789013503",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "徹底美學詞典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "THE DOLOMITES ? VOL. II",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/255789735/THE-DOLOMITES-VOL-II",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/1a956b255789735.Y3JvcCwxNzA0LDEzMzMsMTQ3LDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Claude Code vs Codex CLI vs Cursor 給設計師的設計系統存活之道",
+      "title_original": "Claude Code vs Codex CLI vs Cursor for Designers: Where Your Design System Actually Survives",
+      "url": "https://medium.muz.li/claude-code-vs-codex-cli-vs-cursor-for-designers-where-your-design-system-actually-survives-9df451bf460c?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*RzTbHULLcmSV8lNf8MfJlQ.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "人類創作、為人類：編輯總監的信",
+      "title_original": "Art by Humans, For Humans: A Letter from Our Editorial Director",
+      "url": "https://www.thisiscolossal.com/2026/09/art-by-humans-for-humans/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/marija.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：Benjamin Styer",
+      "title_original": "Artist Spotlight: Benjamin Styer",
+      "url": "https://www.booooooom.com/2026/09/16/artist-spotlight-benjamin-styer/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Styer1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "TDW 2D 人物角色 2026",
+      "title_original": "TDW 2D Characters 2026",
+      "url": "https://www.behance.net/gallery/247282455/TDW-2D-Characters-2026",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ae6345247282455.Y3JvcCwxMDg4LDg1MSw4MCwxNzc.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.tdri.org.tw/zh-TW/news/764",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-16T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Novo Nordisk 精簡重新品牌化是否預示 DTC 復興新時代？",
+      "title_original": "Does Novo Nordisk’s slimmed down rebrand signal a new era of DTC revivalism?",
+      "url": "https://www.fastcompany.com/91607732/novo-nordisk-rebrand?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-16T15:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "這副耳機在 2015 年售價高達 3,000 美元，現在價格降至 949 美元，成為我心目中「性價比」最高端的選擇",
+      "title_original": "These headphones were $3,000 back in 2015 –at $949 today, they're my 'value' high-end cans of choice",
+      "url": "https://www.creativebloq.com/tech/headphones-earbuds/these-headphones-were-usd3-000-back-in-2015-at-usd949-today-theyre-my-value-high-end-cans-of-choice",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-16T15:48:41+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Dario, please",
+      "title_original": "",
+      "url": "https://pop.rdi.sh/dario-please/",
+      "source_name": "Sidebar",
+      "published": "2026-09-16T07:47:35+00:00",
+      "region": "en"
+    }
+  ]
+}
