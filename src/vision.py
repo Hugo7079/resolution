@@ -36,12 +36,19 @@ _USAGE_FILE = OUTPUT_DIR / "cf_usage.json"
 NEURONS_PER_M_INPUT = 4_410
 NEURONS_PER_M_OUTPUT = 61_493
 
+# SUBJECT 那一行是給圖文比對用的（feature.check_image_match）。
+# 其他欄位照設計分析的習慣寫，會把一盞燈寫成「三個灰色圓柱體」——
+# 描述沒錯，但拿去跟「可攜式檯燈」比，文字模型只能判不符。
 DESCRIBE_PROMPT = """You are a visual analyst documenting a design artefact.
 
 Describe ONLY what is objectively visible. Do NOT evaluate, praise, or criticise.
 Do NOT speculate about intent.
 
 Report these, each on its own line:
+- SUBJECT: in one plain sentence, what the photo mainly shows, named as an everyday
+  thing (e.g. "two table lamps on a shelf", "a white museum building in a city skyline",
+  "a world map", "a poster on a wall", "a phone app screen"). This is identification,
+  not interpretation.
 - TYPOGRAPHY: classification (serif/sans/slab/script/display), weight, width,
   distinctive letterform features (terminals, aperture, contrast, x-height).
   Name the typeface ONLY if you are certain; otherwise describe the features.
@@ -55,7 +62,7 @@ Report these, each on its own line:
 If something cannot be determined from the image, write "not determinable".
 Never guess. Guessing a typeface name is worse than describing its features.
 
-Be terse. Under 180 words total."""
+Be terse. Under 200 words total."""
 
 
 def _load_usage() -> dict:

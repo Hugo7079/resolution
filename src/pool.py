@@ -167,6 +167,9 @@ _ROUNDUP_TITLE = re.compile(
     r"|\b(?:round-?up|best of|our favourites?|editors?'?s? picks?"
     r"|picks?\s+(?:six|five|ten|\d{1,2})|gift guide|highlights? from"
     r"|projects? from|school\s?shows?"
+    # 週報：一篇講好幾件不相干的事（實測 2026-09-17 ArchDaily 的
+    # 「…: This Week's Review」，文章寫地圖投影、版面圖是博物館）
+    r"|(?:this|last)\s+week'?s\s+review|week\s+in\s+review|weekly\s+(?:review|digest|recap)"
     r"|(?:graduate|degree|student)\s+(?:show|shows|projects?))\b"
     r"|精選|盤點|合輯|懶人包|一次看",
     re.I)
@@ -175,7 +178,8 @@ _ROUNDUP_TITLE = re.compile(
 # designboom 的 /editorials/），比猜標題可靠
 _ROUNDUP_URL = re.compile(
     r"[-/](?:school-?shows?)/"
-    r"|/(?:editorials?|roundups?|best-of|gift-guide|lists?)/", re.I)
+    r"|/(?:editorials?|roundups?|best-of|gift-guide|lists?)/"
+    r"|[-/](?:this-weeks-review|week-in-review)\b", re.I)
 
 
 def is_roundup(item: dict) -> bool:

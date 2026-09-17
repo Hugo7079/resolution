@@ -63,7 +63,7 @@ def screen_works(cands: list[dict]) -> list[dict]:
         out = chat_json(
             [{"role": "system", "content": _SYSTEM},
              {"role": "user", "content": f"{_RULES}\n\n── 候選 ──\n{listing}"}],
-            temperature=0.0, max_tokens=900)
+            temperature=0.0, max_tokens=1600)   # 20 則 × 每則一行判定
     except LLMError as e:
         print(f"  [初篩] 跳過（{str(e)[:90]}）—— 照池子的排序走")
         return cands

@@ -31,6 +31,7 @@
 """
 
 from __future__ import annotations
+import json
 import re
 
 from article import fetch_article
@@ -39,11 +40,15 @@ from config import (CATEGORIES, CATEGORY_BOUNDARY_RULES, JARGON, JARGON_TERMS,
 from llm import chat_json, LLMError
 from sanitize import (quote_in_source, simplified_leftovers, to_traditional,
                       verify_concretes, verify_subject)
-from vision import describe_images
+from vision import describe_images, disabled_reason as vision_disabled_reason
 
 # 正文有這麼多字，才有資格要求模型「把品類的依據從原文抄出來」。
 # 比這少的時候原文本來就沒交代，硬要它交依據只會逼它編一句。
 TYPE_EVIDENCE_MIN_CHARS = 300
+
+# 第一版沒過之後修幾次稿。原本是「重寫一次」，實測小模型重寫會把
+# 同樣的禁用詞再寫一遍；改成拿上一版修，並多給一次機會。
+REVISE_ROUNDS = 2
 
 # ─────────────────────────────────────────────────────────────
 # 紅線一：禁止抽象形容詞
@@ -172,19 +177,52 @@ def _mk_context(item: dict, vision_notes: list[str], article_text: str = "") -> 
 """.strip()
 
 
+# 修稿時交回給模型的欄位（其餘是流程自己加的，不必給它看）
+_DRAFT_KEYS = ("title", "subject", "artefact_type", "type_evidence", "category",
+               "hook", "what_it_is", "angles", "takeaway_everyone",
+               "takeaway_designer", "glossary", "concretes", "confidence")
+
+
+def _revision_block(previous: dict, problems: list[str],
+                    removed: list[str]) -> str:
+    """
+    修稿指示。
+
+    原本重寫只給一句「上一版沒過，原因：…」，模型就從頭再寫一篇，
+    同一個禁用詞又冒出來（實測 2026-09-17：五個候選、十次呼叫，
+    「精緻」「大氣」「視覺衝擊」輪流出現，全倒）。小模型改稿比重寫可靠得多，
+    所以把上一版原封交回去，只要它修掉點名的那幾處。
+    """
+    draft = json.dumps({k: previous.get(k) for k in _DRAFT_KEYS if k in previous},
+                       ensure_ascii=False, indent=1)
+    gone = (f"\n這些具體物在原文裡找不到、已經刪掉，不准再加回去："
+            f"{'、'.join(map(str, removed))}") if removed else ""
+    return f"""
+
+【修稿】下面是你上一版的稿子，品質閘沒過。問題逐條：
+{chr(10).join("  ‣ " + p for p in problems)}{gone}
+
+只修這些問題，其他沒被點名的段落原樣保留：
+  ‣ 用了禁用詞 → 改寫成具體的觀察（寫出看到了什麼），不是換一個同義的形容詞
+  ‣ 批評寫成評分 → 改成「為了得到 A，它放棄了 B」
+  ‣ 開頭或帶走用了術語 → 那一段改用白話講同一件事
+  ‣ 具體物不夠、角度沒引用到 → 從原文正文找數字、材料、名稱，補進角度與 concretes；
+    找不到就刪掉那個角度（至少留 3 個）
+  ‣ 用推測填空缺、「可能」太多 → 刪掉那些句子，原文沒寫的就不寫
+  ‣ 品類沒有依據 → type_evidence 從原文正文照抄一句
+  ‣ 人名音譯 → 改回原文拼法
+
+上一版：
+{draft}
+
+輸出修好之後的完整 JSON，格式與上面相同。"""
+
+
 def _prompt(item: dict, vision_notes: list[str], category: str | None,
-            strict_retry: bool = False, problems: list[str] | None = None,
-            article_text: str = "") -> list[dict]:
+            article_text: str = "", revision: str = "") -> list[dict]:
     cat = CATEGORIES.get(category or "", {})
     framing = (f"今天輪到的分類是「{cat.get('label', '')}」"
                f"（{cat.get('desc', '')}）。\n{CATEGORY_BOUNDARY_RULES}")
-
-    extra = ""
-    if strict_retry:
-        why = ("；".join(problems or []))[:300]
-        extra = (f"\n\n【重寫要求】上一版沒過，原因：{why}。"
-                 "這一版每個角度至少引用一項 concretes 裡的東西，"
-                 "其中至少一個角度要引用兩項。寧可寫短，不要寫滿。")
 
     return [
         {"role": "system",
@@ -193,7 +231,7 @@ def _prompt(item: dict, vision_notes: list[str], category: str | None,
         {"role": "user",
          "content": f"""{framing}
 
-{_COMMON_RULES}{extra}
+{_COMMON_RULES}
 
 【可用的角度（鏡頭）】挑 3–5 個**這件作品真的談得動**的，不要硬套：
 {_LENS_SPEC}
@@ -224,7 +262,7 @@ def _prompt(item: dict, vision_notes: list[str], category: str | None,
 }}
 
 ── 素材 ──
-{_mk_context(item, vision_notes, article_text)}"""},
+{_mk_context(item, vision_notes, article_text)}{revision}"""},
     ]
 
 
@@ -487,6 +525,102 @@ def quality_check(doc: dict, source_text: str = "",
 
 
 # ─────────────────────────────────────────────────────────────
+# 圖文比對：版面那張圖，拍的是不是文章寫的那一件
+#
+# 前面每一關都只看文字。讀圖描述回答的是「圖上有什麼」，
+# 沒有人去問「那是不是我們在寫的東西」。
+# 實測 2026-09-17：ArchDaily 的週報一篇講兩件事，版面那張圖是
+# MAD 的 Lucas 博物館，文章寫的卻是聯合國的地圖投影 ——
+# 還把博物館照片的顏色硬套成「海洋改用淺綠色 #008000」。
+#
+# 為什麼不直接問讀圖模型「是不是這件」：實測同一組圖文問兩次，
+# 一次 NO 一次 YES（溫度 0 也一樣）。它描述「圖上是什麼」倒是很穩 ——
+# 兩次都說「一片城市景觀，中間一棟白色建築」。所以分工：
+# 讀圖模型負責看，文字模型負責比。
+# ─────────────────────────────────────────────────────────────
+MATCH_OK, MATCH_BAD, MATCH_UNSURE, MATCH_UNCHECKED = "match", "mismatch", "unsure", "unchecked"
+
+
+def check_image_match(doc: dict, vision_notes: list[str]) -> tuple[str, str, str]:
+    """
+    回傳 (判定, 圖上實際是什麼, 理由)。
+
+    只看第一則描述 —— 那是 item["image_url"]，也就是版面上真的會放的那張。
+    unchecked 是「沒比成」（沒有讀圖描述、呼叫失敗），不是模型說不確定。
+    """
+    # 空描述一定要在這裡擋掉：實測描述是空字串時，文字模型會自己
+    # 幻想出「一張非洲被放大的世界地圖」，然後判 match
+    if not vision_notes or len(vision_notes[0].strip()) < 40:
+        return MATCH_UNCHECKED, "", "沒有讀圖描述"
+
+    subj = doc.get("subject") or {}
+    work = " ／ ".join(x for x in (subj.get("name"), subj.get("designer")) if x)
+    msgs = [
+        {"role": "system",
+         "content": "你只做一件事：判斷一張配圖拍的是不是文章寫的那件作品。"},
+        {"role": "user",
+         "content": f"""文章寫的作品：
+  名稱：{work or "（未寫）"}
+  品類：{doc.get("artefact_type", "")}
+  原文怎麼定義它：{doc.get("type_evidence", "")}
+  文章的介紹：{doc.get("what_it_is", "")}
+
+讀圖模型對那張配圖的描述（英文，只描述看到什麼）：
+{vision_notes[0][:1500]}
+
+判斷那張圖拍的是不是這件作品（整體、局部、細節、使用情境都算）。
+
+第一步：兩邊各歸到一個大類 ——
+  建築與空間（建築外觀、室內、庭院、階梯、牆面、屋頂、展場）
+  物件與產品（家具、燈、器具、服裝、包裝的實物）
+  平面與印刷（海報、書、標誌、字體、插畫）
+  數位介面（網站、App、螢幕畫面）
+  地圖與圖表
+  人物肖像
+  純自然風景（完全沒有人造結構）
+
+注意：描述裡只要出現牆、階梯、開口、屋簷這類人造結構，就是「建築與空間」，
+就算讀圖模型把它叫成 landscape。讀圖模型不知道作品叫什麼，
+描述裡沒有作品名稱是正常的，不能當成理由。
+
+第二步：
+  ‣ mismatch：大類不同（文章寫地圖、圖上是建築；文章寫海報、圖上是建築；
+    文章寫椅子、圖上是城市天際線；文章寫 App、圖上是人像）
+  ‣ match：大類相同，而且描述沒有跟作品的明確特徵直接打架
+    （作品是圓形住宅，圖上是「圓弧牆圍起的庭院」→ match；
+     作品是圓柱底座的檯燈，圖上是「幾盞 LED 檯燈」→ match）
+  ‣ unsure：大類相同，但描述**明確寫出**跟作品相反的特徵
+    （作品是圓形住宅，圖上是「一棟方正的玻璃高樓」）
+
+描述「沒提到」作品的某個特徵不算打架 —— 讀圖模型常常漏講
+（沒說圓形、沒說材質都很正常）。只有寫出相反的東西才算。
+輸出 JSON：{{"work_kind": "作品的大類",
+            "image_kind": "圖的大類",
+            "verdict": "match | mismatch | unsure",
+            "image_shows": "圖上實際是什麼，十五字以內",
+            "why": "二十字以內"}}"""},
+    ]
+    try:
+        out = chat_json(msgs, temperature=0.0, max_tokens=300)
+    except LLMError as e:
+        return MATCH_UNCHECKED, "", f"比對呼叫失敗：{str(e)[:60]}"
+
+    verdict = str(out.get("verdict", "")).strip().lower()
+    if verdict not in (MATCH_OK, MATCH_BAD, MATCH_UNSURE):
+        verdict = MATCH_UNSURE
+    # 大類不同就是不符 —— 這條由程式判，不靠模型自律。
+    # 反過來的情況（大類相同卻判 mismatch）留給模型：週報裡兩棟不同的建築
+    # 就是大類相同的不符，放行的話正好漏掉這次要擋的那種錯。
+    wk = re.sub(r"\s", "", str(out.get("work_kind", "")))
+    ik = re.sub(r"\s", "", str(out.get("image_kind", "")))
+    if wk and ik and wk != ik:
+        verdict = MATCH_BAD
+    return (verdict,
+            to_traditional(str(out.get("image_shows", "")))[:40],
+            to_traditional(str(out.get("why", "")))[:60])
+
+
+# ─────────────────────────────────────────────────────────────
 # 對外
 # ─────────────────────────────────────────────────────────────
 def resolve_article_text(item: dict) -> tuple[str, str]:
@@ -553,12 +687,13 @@ def build_feature(item: dict, category: str | None = None,
     src_texts = [item.get("title", ""), item.get("summary", ""), article_text]
 
     problems: list[str] = []
-    for strict in (False, True):
-        msgs = _prompt(item, vision_notes, category, strict, problems, article_text)
+    revision = ""
+    for attempt in range(1 + REVISE_ROUNDS):
+        msgs = _prompt(item, vision_notes, category, article_text, revision)
         try:
             # 3000 會被寫滿（實測 2026-09-16 一篇長文回傳半截 JSON），
             # 而契約又多了 artefact_type / type_evidence 兩欄
-            doc = chat_json(msgs, temperature=0.35 if not strict else 0.15,
+            doc = chat_json(msgs, temperature=0.35 if not attempt else 0.15,
                             max_tokens=3500)
         except LLMError as e:
             diag["llm_error"] = str(e)
@@ -588,12 +723,32 @@ def build_feature(item: dict, category: str | None = None,
             if doc.get("artefact_type"):
                 print(f"  品類判定：{doc['artefact_type']}"
                       f"（依據：{str(doc.get('type_evidence', ''))[:60]}）")
+
+            # 圖文比對放在最後：前面的閘全過了才值得多花這一次呼叫。
+            # 沒過不重寫 —— 文章怎麼改，版面那張圖都不會變。
+            # 沒比成（unchecked）也不放行：圖文對不對得上是這一件最基本的要求，
+            # 驗不了就換下一個，整天都驗不了就讓當天缺席、Actions 變紅。
+            verdict, shows, why = check_image_match(doc, vision_notes)
+            print(f"  圖文比對：{verdict}（圖上是：{shows or '—'}；{why}）")
+            if verdict != MATCH_OK:
+                label = {MATCH_BAD: "圖文不符", MATCH_UNSURE: "看不出圖是不是這件",
+                         MATCH_UNCHECKED: "圖文沒比成"}[verdict]
+                diag["problems"] = [f"{label}：圖上是「{shows or '？'}」，"
+                                    f"文章寫的是「{doc.get('artefact_type', '')}」（{why}）"]
+                if verdict == MATCH_UNCHECKED and vision_disabled_reason():
+                    diag["vision_error"] = vision_disabled_reason()
+                return None
+
+            doc["image_match"] = verdict
+            doc["image_shows"] = shows
             doc["vision_notes"] = vision_notes
             doc["neurons_used"] = round(neurons, 1)
             doc["article_chars"] = len(article_text)
             doc["source_url"] = item.get("url", "")
             doc["source_name"] = item.get("source_name", "")
             return doc
-        print(f"  [品質閘] {'重寫後仍' if strict else ''}未過：{'；'.join(problems)}")
+        print(f"  [品質閘] {f'修稿 {attempt} 次後仍' if attempt else ''}"
+              f"未過：{'；'.join(problems)}")
+        revision = _revision_block(doc, problems, list(unsourced))
 
     return None

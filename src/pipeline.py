@@ -253,6 +253,9 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
             # 這篇是有正文可依據，還是只靠標題加一句摘要寫出來的。
             # 「圖文不符」查起來第一個要看的就是這個數字。
             "article_chars": doc.get("article_chars", 0),
+            # 版面那張圖拍的是不是這一件，以及讀圖模型說圖上是什麼
+            "image_match": doc.get("image_match", ""),
+            "image_shows": doc.get("image_shows", ""),
             "neurons_used": doc.get("neurons_used", 0),
             "hook": doc.get("hook", ""),
             "what_it_is": doc.get("what_it_is", ""),
