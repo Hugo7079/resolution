@@ -1,0 +1,189 @@
+{
+  "date": "2026-09-18",
+  "category": "space_env",
+  "feature": {
+    "title": "用 25 年租約讓一棟 500 年老宅不被拆除",
+    "subject": {
+      "name": "Bromley Hall 工作空間改造計畫",
+      "designer": "Assemble",
+      "client": "Assemble Workspace",
+      "year": "2026（計畫宣布）"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5000,
+    "image_match": "match",
+    "image_shows": "磚造房屋與金屬圍籬",
+    "neurons_used": 16.1,
+    "hook": "一棟 1485 年的英國古蹟，被設計團隊以 25 年租約（可買斷）取得，並改造成能容納 14,000 平方尺創意工廠的空間。他們的目標不是賣房子，而是用設計手法延長建築的生命，同時保護 London 逐漸消失的工業用地。",
+    "what_it_is": "London 的設計集體 Assemble 以 25 年租約（可買斷）取得一棟 500 年歷史的 Bromley Hall（英國二級古蹟），將它與附屬建築改造成創意工廠空間。這棟建築歷經多重用途，包括亨利八世情婦的住所、彈藥工廠、紡織印染廠。Assemble 的目標是透過長期租約保護這類即將消失的工業用地，並為當地藝術家、手工業者提供穩定的工作環境。這是他們第六個這樣的計畫，也是最大的一次。",
+    "angles": [
+      {
+        "lens": "context",
+        "body": "London 到 2041 年將損失 30% 工業用地，而 Bromley Hall 這棟建築歷經 15 世紀以來的多重用途：從亨利八世情婦的住所、彈藥工廠、紡織印染廠，最後變成創意空間。Assemble 的改造策略不是拆掉重建，而是「適應性再利用」（adaptive reuse），也就是保留原有結構，但改變內部功能。他們過去做過類似案子，比如 2018 年改造一座維多利亞時代的公共浴室成藝術中心。這次的 Bromley Hall 不僅是工作空間，還要成為「長期的文化、社會與經濟資產」，讓當地居民也能進來參觀或參與活動。這個選擇的背後邏輯是：在房地產市場壓力下，創意產業需要穩定的據點，而古蹟保護法又限制了拆除重建的可能性。於是，他們選擇「租下來再改造」，用設計手法延長建築的使用壽命。",
+        "so_what": "下次看到一棟老房子被改造成新用途時，可以觀察它是否保留了原有的結構和歷史痕跡，還是只是換了外觀。例如，如果一間工廠被改成咖啡廳，但卻拆掉了原有的大門和高天花板，那它可能只是換了用途，而不是被「再利用」。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "Assemble 的改造計畫有兩個核心目標：一是保護古蹟（Bromley Hall 是英國二級古蹟），二是提供創意產業穩定的工作空間。為了達成第一個目標，他們選擇「最小干預」的改造方式，比如保留原有的磚牆和木梁結構。這意味著他們無法大規模拆除重建，也無法自由調整室內格線或結構。例如，原有的磚牆和金屬圍籬都是原有材質，改造時只能做表面處理（如清洗、修補），不能更換。為了第二個目標，他們則需要增加現代設備，比如電力、通風、消防設備，這些可能會破壞原有的牆面。這個取捨的關鍵在於「租約長度」——25 年的租期讓他們有足夠時間做深度改造，同時又不必擔心未來被迫拆除。如果目標換成「短期高收益的商業空間」，這個選擇就不成立了。",
+        "so_what": "設計時常常要在「保留歷史」和「滿足現代需求」之間做選擇。這個案例顯示，當你有足夠的時間（25 年租約）和資源（長期投資），就可以用設計手法讓過去和未來共存。"
+      },
+      {
+        "lens": "use",
+        "body": "這個空間的設計不是為了「看起來好」，而是為了「用起來方便」。Assemble 的過去案例顯示，他們的工作空間會特別設計給「嘈雜、亂七八糟、需要實驗」的創作者。例如，過去的租戶包括：一個社區桑拿製作者、一個鋁製家具品牌、一個當地蔬果批發商，甚至一個復興古典音樂的唱片公司。這些用戶需要的不是寧靜的辦公室，而是能容納大型設備（如織布機、金屬切割機）、有足夠電力和通風的空間。在 Bromley Hall 的改造中，他們可能會保留原有的高天花板和大窗戶（提供自然光），但同時增加隔音牆或活動隔間，讓不同類型的工作能共存。例如，金屬圍籬可能暗示著未來的室外工作區或儲存空間。這個設計的核心邏輯是：「空間應該服務於使用者的需求，而不是反過來。」",
+        "so_what": "下次看到一間辦公室或工廠時，可以觀察它是否適合「真實的工作方式」？例如，是否有足夠的電源插座、是否能容納大型設備、是否有隔音空間？這些細節才是決定一個空間「好用」的關鍵。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一棟老房子被改造成新用途時，可以問三個問題：1. 這個空間是否保留了原有的結構和歷史痕跡？2. 誰是這個設計的真正使用者（藝術家、商人、居民）？3. 這個改造是為了「短期利潤」還是「長期價值」？例如，如果一間工廠被改成咖啡廳，但卻拆掉了原有的大門和高天花板，那它可能只是換了用途，而不是被「再利用」。設計的力量在於，它能讓過去和未來共存，而不是簡單地「覆蓋」過去。",
+    "takeaway_designer": "當面對歷史建築或限制條件時，可以參考 Assemble 的「適應性再利用」策略：1. 分析原有結構的限制（如承重牆、管線位置）和使用者的需求（如電力需求、噪音容忍度）。2. 選擇最小干預的改造方式，比如保留原有材質（磚牆、木梁）但增加現代設備（電力、通風）。3. 用長期租約或合約鎖定空間的使用權，避免短期投機行為破壞設計的持續性。4. 設計「可變動的空間」，比如活動隔間或可拆卸的設備，讓未來能適應新的用途。這個方法特別適合在房地產市場壓力下保護文化遺產或工業用地。",
+    "glossary": [
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "適應性再利用（adaptive reuse）",
+        "plain": "將舊建築或設施改造成新用途，而不是拆除重建，例如將廠房改成住宅或藝術空間。"
+      },
+      {
+        "term": "Grade II*-listed（英國二級古蹟）",
+        "plain": "英國古蹟保護等級，表示這棟建築具有「特別重要的歷史或建築價值」，改造時需要特別審查。"
+      },
+      {
+        "term": "最小干預（minimal intervention）",
+        "plain": "在改造時盡量保留原有結構和材質，只做必要的修繕或增加現代設備。"
+      }
+    ],
+    "concretes": [
+      "Bromley Hall（1485 年建造，英國二級古蹟）",
+      "25 年租約（可買斷）",
+      "14,000 平方尺的創意工廠空間",
+      "磚牆與金屬圍籬（原有材質）",
+      "過去租戶：社區桑拿製作者、鋁製家具品牌、當地蔬果批發商"
+    ],
+    "source_url": "https://www.archdaily.com/1184991/assemble-to-transform-grade-ii-star-listed-bromley-hall-into-a-new-creative-and-light-industrial-workspace-in-london",
+    "source_name": "ArchDaily",
+    "published": "2026-09-14T05:30:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/6aa5/ea88/c1eb/5301/897f/18a9/medium_jpg/assemble-to-transform-grade-ii-listed-bromley-hall-into-a-new-creative-and-light-industrial-workspace-in-london_6.jpg?1789258401",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "ALPINESTARS MX 目錄",
+      "title_original": "ALPINESTARS MX CATALOG",
+      "url": "https://www.behance.net/gallery/255819031/ALPINESTARS-MX-CATALOG",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/27223d255819031.Y3JvcCw0OTgyLDM4OTcsMCww.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Three.js 舉辦首次會議，舞台上最精彩的是一顆按鈕 | Muzli 部落格",
+      "title_original": "Three.js threw its first conference. The best thing on stage was a button. | Muzli Blog",
+      "url": "https://medium.muz.li/three-js-threw-its-first-conference-the-best-thing-on-stage-was-a-button-muzli-blog-8553d4cdd83a?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/0*Ed6qdbTiyiDM5Pwg.jpg",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "南蒂羅爾的防空洞承載二戰歷史：文森佐·帕格留卡的肖像",
+      "title_original": "South Tyrol’s Bunkers Shoulder WWII History in Vincenzo Pagliuca’s Portraits",
+      "url": "https://www.thisiscolossal.com/2026/09/vincenzio-pagliuca-photography-bunker-book/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/pagliuca-6.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：Benjamin Styer",
+      "title_original": "Artist Spotlight: Benjamin Styer",
+      "url": "https://www.booooooom.com/2026/09/16/artist-spotlight-benjamin-styer/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Styer1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "平凡日常 - NYC",
+      "title_original": "Ordinary Days - NYC",
+      "url": "https://www.behance.net/gallery/255774583/Ordinary-Days-NYC",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/7ecad7255774583.Y3JvcCw5MjAsNzIwLDcyLDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.tdri.org.tw/zh-TW/news/764",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-16T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "紐約時裝周回顧：從 Ralph Lauren 到 Eckhaus Latta，歡樂穿著主導春季 2027",
+      "title_original": "New York Fashion Week recap: from Ralph Lauren to Eckhaus Latta, joyful dressing takes over for Spring 2027",
+      "url": "https://www.fastcompany.com/91608913/new-york-fashion-week-recap-ralph-lauren-eckhaus-latta-joyful-dressing-takes-over-spring-2027?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-17T17:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Autodesk 認為 AI 应該讓藝術家有時間實驗，而不是讓他們工作速度加倍",
+      "title_original": "Autodesk says AI should give artists time to experiment, not make them work twice as fast",
+      "url": "https://www.creativebloq.com/3d/autodesk-says-ai-should-give-artists-time-to-experiment-not-make-them-work-twice-as-fast",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-17T18:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "五個 UX 設計時代與 AI 時代應保留的教訓",
+      "title_original": "Five eras of UX design and the lessons to keep in the AI era",
+      "url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9",
+      "source_name": "Sidebar",
+      "published": "2026-09-17T04:40:11+00:00",
+      "region": "en"
+    }
+  ]
+}
