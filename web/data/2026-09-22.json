@@ -1,0 +1,212 @@
+{
+  "date": "2026-09-22",
+  "category": "space_env",
+  "feature": {
+    "title": "31 平方公尺的咖啡店：不塞東西也能讓空間看起來寬敞",
+    "subject": {
+      "name": "Mellow Café（未建造概念店內設計）",
+      "designer": "Wrong Door Studio",
+      "client": "",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 2986,
+    "image_match": "match",
+    "image_shows": "不銹鋼櫃檯咖啡店櫃臺",
+    "neurons_used": 24.5,
+    "hook": "一間只有 31 平方公尺的速食咖啡店，設計師沒有用牆上的裝飾畫或擺滿家具，而是讓天花板、櫃檯和照明變成「功能骨架」——懸吊式金屬天花板不僅是結構，還隱藏了燈光和設備，讓空間看起來寬敞又現代。",
+    "what_it_is": "這是法國設計工作室 Wrong Door Studio 為一間小鎮速食咖啡店設計的概念店內空間。他們沒有用傳統的裝飾手法，而是透過懸吊式金屬天花板、不銹鋼櫃檯和淺藍色點綴，讓 31 平方公尺的空間看起來既現代又寬敞。設計重點在於「效率」和「顧客流程」，讓點單、製作、取貨和展示商品的每個步驟都有明確的空間對應，而不需要額外的裝飾物。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "這間咖啡店的空間設計採用「功能區整合」的策略，而不是單純劃分區域。原文提到「functional zones are visually integrated into the interior」，例如點單區、製作區和取貨區都透過不銹鋼櫃檯和懸吊式金屬天花板的設計自然劃分，而不是用牆壁或裝飾物隔開。懸吊式金屬天花板本身就是一個系統，整合了照明和技術設備，讓空間看起來「開放、易讀且不擁擠」。例如，天花板下方的燈光和設備都被隱藏在金屬網格結構中，讓空間保持簡潔。此外，透明和反射面的運用（如透光材質和鏡面效果）進一步強化了空間的連貫性，讓 31 平方公尺的空間感覺寬敞。",
+        "so_what": "這間店教我們：空間設計不需要塞滿東西，只要把「功能」和「美感」整合進結構裡，就能讓小地方看起來大。比如家裡的書架，如果同時當作照明、儲物和裝飾，就不需要再擺其他東西。"
+      },
+      {
+        "lens": "material",
+        "body": "材質選用了兩種對比強烈的風格：一種是「生鐵感」的不銹鋼（stainless steel），用在主要工作面和櫃檯上，呈現工業感；另一種是「近乎無重量」的質感，透過紋理金屬板和懸吊結構帶來深度感，卻不壓縮空間。例如，不銹鋼的打磨表面（brushed finish）讓櫃檯看起來既實用又現代，而懸吊式金屬天花板則透過光影效果創造層次。此外，淺藍色的配色（pale blue accents）出現在家具、標誌、貨架和圖形元素中，這些微妙的干擾讓整體保持中性，卻不失視覺識別性。",
+        "so_what": "這間店用「工業材質」和「柔和色彩」的組合，讓空間既有質感又不顯得沉重。這種材質搭配的技巧，可以用在家裡的裝修上，比如用金屬和木頭混搭，既現代又溫暖。"
+      },
+      {
+        "lens": "color",
+        "body": "色彩採用「中性主調」加「淺藍色點綴」的策略。主色調是近乎乳白的淺灰色（off-white，#F2F0EB），配合深灰色（dark gray，#333333）和淺灰色（light gray，#E5E5EA）的輔助色，形成高對比度的視覺層級。例如，櫃檯和工作面使用深灰色不銹鋼，與乳白色牆面形成鮮明對比，強化功能區的視覺識別。而淺藍色（pale blue accents）則出現在家具、標誌和貨架細節中，作為視覺識別的「標記色」，讓整體不至於過於單調。這種色彩運用避免了過度裝飾，卻透過微妙的對比強化了空間的層次感。",
+        "so_what": "這間店的顏色選擇教我們：不需要用鮮豔色彩就能讓空間有層次。只要用「主色調」和「點綴色」的組合，就能讓空間既簡潔又有識別性。比如家裡的牆面，如果用白色當主色調，再加上一個淺藍色的枕頭或窗簾，就能讓整體看起來有重點。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這間咖啡店的設計選擇犧牲了「傳統的裝飾性元素」，例如牆上的裝飾畫或過多的家具，而是將重點放在「功能整合」和「空間流暢性」上。例如，原文提到「Rather than filling the limited space with decorative elements, the design uses the architecture itself to organize the experience」，這表示他們放棄了「視覺上的豐富感」，換取了「實用性和開放感」。如果目標是追求「視覺華麗」，這種設計可能會顯得過於簡約；但如果目標是「高效率的商業空間」，這種選擇就非常合理。例如，他們用懸吊式金屬天花板整合照明和技術設備，雖然看起來簡單，但實際上隱藏了複雜的功能。",
+        "so_what": "這間店的設計選擇告訴我們：空間設計可以有不同的「取捨」。如果你想要「實用又寬敞」，就要犧牲一些「裝飾性的華麗」。這種取捨在家裡裝修時也很重要，比如選擇「簡單的牆面」而不是「複雜的壁紙」，換取更寬敞的感覺。"
+      },
+      {
+        "lens": "use",
+        "body": "這間咖啡店的設計強調「顧客流程」（customer flow）的直觀性。例如，點單、製作、取貨和商品展示的每個步驟都有明確的空間對應，讓顧客不需要思考就能順暢移動。例如，懸吊式金屬天花板不僅是結構，還整合了照明和技術設備，讓空間看起來「開放且易讀」。此外，數位菜單（projected digital menu）減少了實體視覺雜亂，強化了空間的簡潔感。這種設計讓顧客在實際使用時，能夠快速理解空間的功能分區，並且感受到「精準」和「現代」的氛圍。",
+        "so_what": "這間店的設計教我們：空間設計要考慮「人在裡面的使用感受」。如果每個區域都有明確的功能，人就不會覺得擁擠或混亂。這種原則也可以用在家裡的佈置上，比如廚房和客廳的區隔要清晰，讓人一進門就知道該去哪裡。"
+      }
+    ],
+    "takeaway_everyone": "下次你走進一間小店，留意看看牆上、櫃檯和天花板是否只是「擺東西」的地方，還是「有功能」的地方。例如，一個懸吊式的燈具可能同時是照明、裝飾和空間劃分的工具；一個簡單的顏色組合可能比華麗的壁紙更能讓空間看起來寬敞。設計不一定要塞滿東西，只要把「功能」和「美感」整合進去，就能讓小地方變得更有效率、更舒適。",
+    "takeaway_designer": "在設計小型商業空間時，可以參考以下幾個具體手法：1. 功能整合：將照明、通風和技術設備整合進結構設計中（如懸吊式金屬天花板），避免額外的裝飾物。2. 材質對比：用工業材質（如不銹鋼）和柔和色彩（如淺藍色）組合，創造質感對比，同時保持空間開放感。3. 色彩策略：採用中性主調（如乳白色，#F2F0EB）加上一個點綴色（如淺藍色），強化視覺識別性，同時保持簡潔。4. 顧客流程：透過空間劃分和視覺引導，讓使用者能夠直觀理解功能區域，減少混亂感。5. 數位整合：使用投影式數位菜單或LED照明，減少實體視覺雜亂，強化空間的現代感。",
+    "glossary": [
+      {
+        "term": "網格",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "視覺層級",
+        "plain": "誰先被看到、誰後被看到的順序，靠大小、粗細、顏色排出來。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "懸吊式金屬天花板",
+        "plain": "從天花板上方吊下來的金屬結構，可以隱藏燈光、通風和設備，同時創造視覺層次。"
+      },
+      {
+        "term": "不銹鋼（stainless steel）",
+        "plain": "不易生銹的金屬材料，常用於工業和現代設計中，表面可以打磨成不同的質感。"
+      },
+      {
+        "term": "打磨表面（brushed finish）",
+        "plain": "金屬表面經過打磨處理，呈現出細緻的紋理和光澤，看起來既實用又現代。"
+      },
+      {
+        "term": "顧客流程（customer flow）",
+        "plain": "設計空間時考慮使用者的移動路線和互動步驟，讓使用者能夠順暢完成任務。"
+      }
+    ],
+    "concretes": [
+      "31 平方公尺",
+      "懸吊式金屬天花板（suspended metal grid ceiling）",
+      "不銹鋼（stainless steel，打磨表面，#333333）",
+      "淺藍色（pale blue accents）",
+      "off-white (#F2F0EB)",
+      "投影式數位菜單（projected digital menu）"
+    ],
+    "source_url": "https://www.designboom.com/architecture/suspended-metal-grid-ceiling-translucent-reflective-surfaces-french-cafe-mellow-wrong-door-studio/",
+    "source_name": "designboom",
+    "published": "2026-09-12T14:15:38+00:00",
+    "image_url": "https://www.designboom.com/wp-content/uploads/2026/09/suspended-metal-grid-ceiling-translucent-reflective-surfaces-french-cafe-mellow-wrong-door-studio-designboom-700-1-500x400-22b08q85r416.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：designboom．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "徹底美麗詞典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "品牌設計 | 企業設計 | 資訊科技公司",
+      "title_original": "BRANDING | CORPORATE | IT COMPANY",
+      "url": "https://www.behance.net/gallery/255984309/BRANDING-CORPORATE-IT-COMPANY",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/aa4af7255984309.Y3JvcCw0OTA5LDM4NDAsODM4LDA.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "法國慶祝攝影雙百年紀念 以主題展覽巡迴展出",
+      "title_original": "France Celebrates the Bicentennial of Photography with Traveling Themed Exhibitions",
+      "url": "https://www.thisiscolossal.com/2026/09/grandpalaisrmn-200-year-photography-exhibition/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/bicentennial-5.jpeg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「在古老蘋果樹的陰影下」攝影師Elena Serafimova作品",
+      "title_original": "“In the shadow of an old apple tree” by Photographer Elena Serafimova",
+      "url": "https://www.booooooom.com/2026/09/21/in-the-shadow-of-an-old-apple-tree-by-photographer-elena-serafimova/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Serafimova1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "巴黎設計回顧、重新翻新的九十年代好萊塢珠寶、藝術燭台等",
+      "title_original": "A Paris Design Roundup, a Revamped ’90s Hollywood Gem, Art Candelabras, and More",
+      "url": "https://www.sightunseen.com/2026/09/a-paris-design-roundup-a-revamped-90s-hollywood-gem-art-candelabras-and-more/",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/09/OmeDezin-WoodrowWilson235681_2.jpg",
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/09/OmeDezin-WoodrowWilson235681_2-728x570.jpg",
+      "source_name": "Sight Unseen",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Love is the way",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/255926087/Love-is-the-way",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ad6b6a255926087.6aad940310e0b.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "「2027 第46屆新一代設計展」策展團隊徵選 資格說明",
+      "title_original": "「2027第46屆新一代設計展」策展團隊徵選 資格說明",
+      "url": "https://www.tdri.org.tw/zh-TW/news/768",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-21T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "原文無法確定意思",
+      "title_original": "The Trump admin is so toxic, brands now have crisis responses for being used in propaganda",
+      "url": "https://www.fastcompany.com/91610424/trump-admin-brands-memes?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-21T17:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "藝術系學生：開學前節省高達53%用品費用",
+      "title_original": "Art students: save up to 53% on supplies before term starts",
+      "url": "https://www.creativebloq.com/art/art-supplies/art-students-grab-your-last-minute-supplies-with-up-to-53-percent-off",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-21T16:19:37+00:00",
+      "region": "en"
+    },
+    {
+      "title": "原文無法確定意思",
+      "title_original": "The AI notepad for back-to-back meetings",
+      "url": "https://bit.ly/side-gra5",
+      "source_name": "Sidebar",
+      "published": "2026-09-21T08:00:00+00:00",
+      "region": "en"
+    }
+  ]
+}
