@@ -183,6 +183,70 @@ _DRAFT_KEYS = ("title", "subject", "artefact_type", "type_evidence", "category",
                "takeaway_designer", "glossary", "concretes", "confidence")
 
 
+# 犯規的詞在稿子的哪裡
+# ====================
+# 原本修稿只說「用了抽象形容詞：精緻、高級感」，然後把整份稿子交回去，
+# 要模型自己在四段文字加五個角度裡把那兩個詞找出來。14B 的模型找不到：
+# 實測 2026-09-21，五個候選有三個死在這上面，而且修了兩輪還在原地 ——
+#   候選 3：未過「精緻、高級感」→ 修稿 1「精緻、高級感」→ 修稿 2「精緻、高級感」
+#   候選 1：「精緻」修掉了，下一輪又自己長回來
+# 改成連所在欄位與前後文一起點名，讓它只要動那一句。
+_FIELD_LABELS = {
+    "hook": "開頭（hook）",
+    "what_it_is": "這是什麼（what_it_is）",
+    "takeaway_everyone": "給所有人的帶走（takeaway_everyone）",
+    "takeaway_designer": "給設計師的帶走（takeaway_designer）",
+}
+_CONTEXT_CHARS = 12
+
+
+def _draft_fields(previous: dict) -> list[tuple[str, str]]:
+    """上一版裡所有會被品質閘檢查的文字段落，附上人看得懂的欄位名。"""
+    out = [(label, str(previous.get(key, "")))
+           for key, label in _FIELD_LABELS.items()]
+    for a in _angles_of(previous):
+        lens = str(a.get("lens", "?"))
+        out.append((f"角度 {lens} 的本文", str(a.get("body", ""))))
+        out.append((f"角度 {lens} 的「所以呢」", str(a.get("so_what", ""))))
+    return out
+
+
+def _locate(previous: dict, words: list[str],
+            only_fields: tuple[str, ...] | None = None) -> list[str]:
+    """把犯規的詞逐一定位成「欄位：…前後文…  ← 那個詞」。"""
+    lines = []
+    for label, text in _draft_fields(previous):
+        if only_fields and not any(_FIELD_LABELS.get(k, "") == label
+                                   for k in only_fields):
+            continue
+        for w in words:
+            i = text.find(w)
+            if i < 0:
+                continue
+            start = max(0, i - _CONTEXT_CHARS)
+            end = min(len(text), i + len(w) + _CONTEXT_CHARS)
+            frag = ("…" if start else "") + text[start:end] + ("…" if end < len(text) else "")
+            lines.append(f"  ‣ {label}：{frag}　← 改掉「{w}」")
+    return lines
+
+
+def _offence_map(previous: dict) -> str:
+    """修稿時附的「犯規的句子在這裡」。沒有可定位的就回空字串。"""
+    lines = _locate(previous, BANNED_VAGUE + BANNED_JUDGEMENT + BANNED_SPECULATION)
+    # 「你的案子」這類只有在「給所有人的帶走」才算犯規 ——
+    # 給設計師的那一段本來就是要講他自己的案子
+    lines += _locate(previous, BANNED_ASSUMES_DESIGNER,
+                     only_fields=("takeaway_everyone",))
+    # 術語只在入口與出口是犯規，角度裡用是允許的（進 glossary 就好）
+    entry_exit = ("hook", "what_it_is", "takeaway_everyone")
+    jargon = _jargon_in(" ".join(str(previous.get(k, "")) for k in entry_exit))
+    lines += _locate(previous, jargon, only_fields=entry_exit)
+    if not lines:
+        return ""
+    return ("\n\n【犯規的句子在這裡】逐句照這個清單改，其他句子一個字都不要動：\n"
+            + "\n".join(lines[:12]))
+
+
 def _revision_block(previous: dict, problems: list[str],
                     removed: list[str]) -> str:
     """
@@ -200,7 +264,7 @@ def _revision_block(previous: dict, problems: list[str],
     return f"""
 
 【修稿】下面是你上一版的稿子，品質閘沒過。問題逐條：
-{chr(10).join("  ‣ " + p for p in problems)}{gone}
+{chr(10).join("  ‣ " + p for p in problems)}{gone}{_offence_map(previous)}
 
 只修這些問題，其他沒被點名的段落原樣保留：
   ‣ 用了禁用詞 → 改寫成具體的觀察（寫出看到了什麼），不是換一個同義的形容詞
@@ -540,6 +604,78 @@ def quality_check(doc: dict, source_text: str = "",
 # ─────────────────────────────────────────────────────────────
 MATCH_OK, MATCH_BAD, MATCH_UNSURE, MATCH_UNCHECKED = "match", "mismatch", "unsure", "unchecked"
 
+# 七個大類是一組固定的選項，不是自由填空。模型會寫成「建築與空間（室內）」
+# 或只寫「建築」，字串直接比就變成不同類，程式一比就判不符。
+_KINDS = ("建築與空間", "物件與產品", "平面與印刷", "數位介面",
+          "地圖與圖表", "人物肖像", "純自然風景")
+_KIND_HINTS = {
+    "建築與空間": ("建築", "空間", "室內", "景觀", "展場", "庭院", "街道"),
+    "物件與產品": ("物件", "產品", "家具", "器具", "服裝", "包裝"),
+    "平面與印刷": ("平面", "印刷", "海報", "書", "字體", "插畫", "標誌"),
+    "數位介面": ("數位", "介面", "網站", "螢幕"),
+    "地圖與圖表": ("地圖", "圖表", "資訊圖"),
+    "人物肖像": ("人物", "肖像"),
+    "純自然風景": ("自然風景", "純自然"),
+}
+
+
+def _kind_of(raw: str) -> str:
+    """把模型寫的大類歸回七個選項之一。歸不了就回空字串（那就別拿來判不符）。"""
+    s = re.sub(r"\s", "", str(raw))
+    if not s:
+        return ""
+    for k in _KINDS:
+        if k in s or s in k:
+            return k
+    for k, hints in _KIND_HINTS.items():
+        if any(h in s for h in hints):
+            return k
+    return ""
+
+
+_PAREN = re.compile(r"[（(][^）)]*[）)]")
+
+
+def _coarse_type(atype: str) -> str:
+    """
+    給圖文比對用的品類。
+
+    契約寫的是「四到十個字的品類」，實際常常交回一整串限定詞：
+    「景觀設計專案（垂直綠化系統與城市生態空間）」。整串餵給比對模型，
+    它就從「這張圖是不是這件東西」變成「這張圖上有沒有垂直綠化、
+    有沒有水文系統」—— 一項找不到就判不符（實測 2026-09-21）。
+    括號裡的補充拿掉、截到契約長度，比對回到大類層級。
+    """
+    return _PAREN.sub("", str(atype)).strip()[:12]
+
+
+# 品牌識別沒有自己的大類
+# ======================
+# 七個大類裡沒有「識別系統」這一格，所以一套品牌識別會被歸成「平面與印刷」，
+# 而設計媒體放的版面圖幾乎一定是它被用在哪裡 —— 商品、招牌、包裝、店面。
+# 於是「作品是平面、圖是產品」→ 大類不同 → 程式判不符。
+# 實測 2026-09-21 候選 1（PAGE 的 Fore 高爾夫品牌）就是這樣倒的：
+# 圖上是高爾夫主題商品陳列架，那正是這套識別本身。
+# 識別類的作品，大類不同是常態，不能拿來當硬判準。
+_IDENTITY_WORK = re.compile(
+    r"識別|品牌|標誌|商標|視覺系統|形象系統|logo|brand|identity|VI|CI", re.I)
+
+# 「只拍到局部」也不是矛盾 —— prompt 第一句就寫了局部、細節、使用情境都算，
+# 但模型照樣拿它當判不符的理由（實測 2026-09-21 候選 4：
+# 「圖片僅展示局部櫃臺，非整體空間設計」）。
+_PARTIAL_ONLY = re.compile(r"僅|只(?:有|是|拍|展)|局部|部分|細節|單一|一角")
+
+# 「圖上沒有 X」不是矛盾，是沒拍到。讀圖描述本來就常常漏講
+# （prompt 裡已經寫明這一條，但小模型照樣拿缺席當理由），所以由程式再擋一次。
+_ABSENCE_ONLY = re.compile(r"^(?:[^，。]*?(?:無|沒有|缺乏|未見|未呈現|不具|看不到|非)[^，。]*)"
+                           r"(?:[，。][^，。]*?(?:無|沒有|缺乏|未見|未呈現|不具|看不到|非)[^，。]*)*$")
+
+
+def _is_absence(text: str) -> bool:
+    """這個「矛盾」是不是只是在講圖上少了什麼。"""
+    t = re.sub(r"\s", "", str(text))
+    return bool(t) and bool(_ABSENCE_ONLY.match(t))
+
 
 def check_image_match(doc: dict, vision_notes: list[str]) -> tuple[str, str, str]:
     """
@@ -561,7 +697,7 @@ def check_image_match(doc: dict, vision_notes: list[str]) -> tuple[str, str, str
         {"role": "user",
          "content": f"""文章寫的作品：
   名稱：{work or "（未寫）"}
-  品類：{doc.get("artefact_type", "")}
+  品類：{_coarse_type(doc.get("artefact_type", ""))}
   原文怎麼定義它：{doc.get("type_evidence", "")}
   文章的介紹：{doc.get("what_it_is", "")}
 
@@ -594,10 +730,18 @@ def check_image_match(doc: dict, vision_notes: list[str]) -> tuple[str, str, str
 
 描述「沒提到」作品的某個特徵不算打架 —— 讀圖模型常常漏講
 （沒說圓形、沒說材質都很正常）。只有寫出相反的東西才算。
-輸出 JSON：{{"work_kind": "作品的大類",
-            "image_kind": "圖的大類",
+
+**判 mismatch 或 unsure 一定要在 contradiction 填出圖上那個打架的東西，
+而且要寫「圖上是什麼」，不准寫「圖上沒有什麼」。**
+  ✗ 「圖中無垂直綠化」「缺乏空間整體特徵」「非城市景觀」← 這是沒拍到，不是矛盾
+  ✓ 「圖上是方正的玻璃高樓，作品是圓形住宅」← 這才是矛盾
+找不到這種東西就判 match，contradiction 留空字串。
+
+輸出 JSON：{{"work_kind": "作品的大類（照上面七個抄，不要加括號補充）",
+            "image_kind": "圖的大類（同上）",
             "verdict": "match | mismatch | unsure",
-            "image_shows": "圖上實際是什麼，十五字以內",
+            "contradiction": "圖上那個跟作品打架的東西，沒有就空字串",
+            "image_shows": "圖上實際是什麼，十五字以內，只寫看到什麼、不寫沒有什麼",
             "why": "二十字以內"}}"""},
     ]
     try:
@@ -608,16 +752,45 @@ def check_image_match(doc: dict, vision_notes: list[str]) -> tuple[str, str, str
     verdict = str(out.get("verdict", "")).strip().lower()
     if verdict not in (MATCH_OK, MATCH_BAD, MATCH_UNSURE):
         verdict = MATCH_UNSURE
+
     # 大類不同就是不符 —— 這條由程式判，不靠模型自律。
-    # 反過來的情況（大類相同卻判 mismatch）留給模型：週報裡兩棟不同的建築
-    # 就是大類相同的不符，放行的話正好漏掉這次要擋的那種錯。
-    wk = re.sub(r"\s", "", str(out.get("work_kind", "")))
-    ik = re.sub(r"\s", "", str(out.get("image_kind", "")))
-    if wk and ik and wk != ik:
+    # 先歸回七個選項：模型會寫「建築與空間（室內）」對上「建築與空間」，
+    # 字串直接比就是兩類，這種寫法差異不該變成「圖文不符」。
+    wk, ik = _kind_of(out.get("work_kind", "")), _kind_of(out.get("image_kind", ""))
+    why = to_traditional(str(out.get("why", "")))[:60]
+    contradiction = to_traditional(str(out.get("contradiction", "")))
+
+    coarse = _coarse_type(doc.get("artefact_type", ""))
+    identity = bool(_IDENTITY_WORK.search(f"{coarse} {work}"))
+
+    if wk and ik and wk != ik and not identity:
         verdict = MATCH_BAD
+    elif verdict != MATCH_OK:
+        # 判不符只在模型指得出「圖上的什麼東西跟作品打架」時才算。
+        # 這保留了要擋的那種錯（週報裡兩棟不同的建築），同時擋掉真正的病灶 ——
+        # 拿缺席或「只拍到局部」當理由。讀圖描述漏講是常態，局部照本來就算數
+        # （prompt 第一句就寫了），一路照收的結果就是連兩天沒有今日一件。
+        excuse = ""
+        if not contradiction.strip():
+            excuse = "說不出圖上哪裡打架"
+        elif _is_absence(contradiction):
+            excuse = "理由是圖上沒拍到，不是矛盾"
+        elif _PARTIAL_ONLY.search(contradiction):
+            excuse = "理由是只拍到局部，局部照算數"
+        if excuse:
+            verdict = MATCH_OK
+            why = f"{excuse}（原判：{(contradiction or why)[:24]}）"
+
+    if verdict != MATCH_OK:
+        # 這一關是最常擋掉整天的那一關，判不符時把判斷依據一起留在 log 裡，
+        # 不然只看得到結論、看不到它是踩哪一條規則
+        print(f"    [圖文比對] 作品大類={wk or '?'} 圖的大類={ik or '?'}"
+              f"{'（識別類，不套大類硬判）' if identity else ''} "
+              f"矛盾={contradiction[:40] or '（空）'}")
+
     return (verdict,
             to_traditional(str(out.get("image_shows", "")))[:40],
-            to_traditional(str(out.get("why", "")))[:60])
+            why)
 
 
 # ─────────────────────────────────────────────────────────────

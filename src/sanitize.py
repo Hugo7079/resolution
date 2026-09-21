@@ -197,6 +197,101 @@ def verify_subject(subject: dict, source_text: str) -> tuple[dict, list[str]]:
 # 等於整條驗證失效。
 _TOKEN = re.compile(r"#[0-9A-Fa-f]{3,8}|[0-9][0-9,.]*[0-9]|[A-Za-z][A-Za-z\-'’]{2,}")
 
+# 色票要按顏色比，不能按字串比
+# ==============================
+# 契約要求的是「色票**近似** hex」，讀圖模型給的也是近似值 ——
+# 兩邊都在估同一片顏色，估出來的六位數幾乎不可能一模一樣。
+# 用字串比對等於：只要模型不是逐字抄讀圖描述，色票一律判成幻覺刪掉。
+#
+# 實測 2026-09-21 五個候選裡有兩個死在這上面：
+#   「鮮紅（#E53E3E）」「淡粉紅（#F4C2C2，透明度 30%）」被清掉 → 具體物剩 3 項
+#   「深藍（#0A2463）」被清掉 → 剩 2 項
+# 然後撞上「具體物需 ≥4」那一關，怎麼修稿都補不回來 ——
+# 紅線一要它從圖上讀色票，事實錨定又把讀到的色票全刪掉。
+#
+# 改成比顏色距離：讀圖描述裡有一片相近的顏色，就算溯源得到。
+# 「圖上根本沒有紅色，卻寫出一個紅色色票」仍然擋得下來，
+# 那才是這一關真正要防的。
+_HEX6 = re.compile(r"#([0-9A-Fa-f]{6})\b")
+
+# RGB 歐氏距離的門檻。實測：讀圖說 #4F7942，行文寫 #3E6B34（同一片綠）距離 26；
+# 紅 #E53E3E 對綠 #4F7942 距離 178。60 夠寬容納估色誤差，又分得開色相。
+_HEX_TOLERANCE = 60.0
+
+
+def _rgb(hex6: str) -> tuple[int, int, int]:
+    v = int(hex6, 16)
+    return (v >> 16) & 255, (v >> 8) & 255, v & 255
+
+
+# 讀圖模型常常根本不給 hex
+# ==========================
+# vision.DESCRIBE_PROMPT 要的是「approximate hex values」，但實測
+# 2026-09-21 ArchDaily 那張學校照，CF 回的是
+#   COLOR: White (dominant), Blue (accent), Yellow (accent)
+# 一個 hex 都沒有。寫手照紅線一把「Blue accent」寫成「#B8D4E3（淺天藍）」，
+# 忠實轉述了讀圖結果，卻因為原文裡沒有這串字而被當成幻覺刪掉 ——
+# 那天三個色票全刪，具體物剩 2 項，修兩輪都補不回來。
+#
+# 所以色票再多一條路：把 hex 歸到色相，看讀圖描述裡有沒有講過這個顏色。
+# 「圖上說白、藍、黃，寫手寫暗橄欖綠」仍然擋得下來。
+_HUE_WORDS = {
+    "red":    ("red", "crimson", "scarlet", "紅"),
+    "orange": ("orange", "amber", "橙", "橘"),
+    "yellow": ("yellow", "gold", "golden", "黃"),
+    "green":  ("green", "olive", "綠"),
+    "cyan":   ("cyan", "teal", "turquoise", "青"),
+    "blue":   ("blue", "navy", "azure", "藍"),
+    "purple": ("purple", "violet", "lilac", "紫"),
+    "pink":   ("pink", "magenta", "rose", "粉"),
+    "brown":  ("brown", "tan", "beige", "terracotta", "棕", "褐"),
+    "white":  ("white", "ivory", "off-white", "白"),
+    "black":  ("black", "charcoal", "黑"),
+    "grey":   ("grey", "gray", "silver", "灰"),
+}
+
+
+def _hue_of(r: int, g: int, b: int) -> str:
+    """把一個顏色歸到粗略的色相名。"""
+    mx, mn = max(r, g, b), min(r, g, b)
+    v = mx / 255
+    s = 0.0 if mx == 0 else (mx - mn) / mx
+    if v < 0.18:
+        return "black"
+    if s < 0.12:
+        return "white" if v > 0.85 else "grey"
+
+    d = mx - mn
+    if mx == r:
+        h = 60 * (((g - b) / d) % 6)
+    elif mx == g:
+        h = 60 * ((b - r) / d + 2)
+    else:
+        h = 60 * ((r - g) / d + 4)
+
+    # 暗一點的橙紅在日常語言裡叫棕色，不叫橙色
+    if 10 <= h < 50 and v < 0.6:
+        return "brown"
+    for lo, hi, name in ((15, 45, "orange"), (45, 70, "yellow"), (70, 170, "green"),
+                         (170, 200, "cyan"), (200, 250, "blue"), (250, 290, "purple"),
+                         (290, 345, "pink")):
+        if lo <= h < hi:
+            return name
+    return "red"
+
+
+def _hex_observed(tok: str, source_hexes: list[str], hay_lower: str) -> bool:
+    """這個色票，讀圖描述／原文裡有沒有講過這片顏色（比色相，不比字串）。"""
+    m = _HEX6.fullmatch(tok)
+    if not m:
+        return False          # #RGB 這種短寫沒有足夠精度，照舊走字串比對
+    r, g, b = _rgb(m.group(1))
+    for h in source_hexes:
+        hr, hg, hb = _rgb(h)
+        if ((r - hr) ** 2 + (g - hg) ** 2 + (b - hb) ** 2) ** 0.5 <= _HEX_TOLERANCE:
+            return True
+    return any(w in hay_lower for w in _HUE_WORDS.get(_hue_of(r, g, b), ()))
+
 
 def verify_concretes(concretes: list, sources: list[str]) -> tuple[list, list]:
     """
@@ -212,13 +307,16 @@ def verify_concretes(concretes: list, sources: list[str]) -> tuple[list, list]:
     代價是純中文的捏造（例如「十二欄格線」）擋不住，但那個風險面小得多，
     而且形式軸的具體物幾乎都帶字體名或色票。
     """
-    hay = " ".join(sources).lower()
+    hay = " ".join(sources)
+    hay_lower = hay.lower()
+    src_hexes = [m.lower() for m in _HEX6.findall(hay)]
     ok, unsourced = [], []
     for c in concretes or []:
         toks = _TOKEN.findall(str(c))
         if not toks:
             ok.append(c)          # 沒有可比對的東西，不強求
-        elif any(tok.lower() in hay for tok in toks):
+        elif any(tok.lower() in hay_lower or _hex_observed(tok, src_hexes, hay_lower)
+                 for tok in toks):
             ok.append(c)
         else:
             unsourced.append(c)

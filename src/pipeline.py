@@ -25,6 +25,7 @@ import json
 import os
 import re
 import sys
+from collections import Counter
 from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 
@@ -127,6 +128,60 @@ def _failure_reason(diag: dict) -> str:
     return "未知原因"
 
 
+# 品質閘的訊息帶著數字與引號（「具體物只有 2 項（需 ≥4）」），直接拿來統計
+# 會因為數字不同而每個候選各成一類，統計就失去意義。壓成固定的短標籤。
+_KIND_LABELS = (
+    ("圖文不符", "圖文不符"),
+    ("看不出圖是不是這件", "圖文存疑"),
+    ("圖文沒比成", "圖文沒比成"),
+    ("具體物", "具體物不足"),
+    ("抽象形容詞", "空話"),
+    ("術語", "入口出口有術語"),
+    ("推測", "用推測填空缺"),
+    ("在猜", "用推測填空缺"),
+    ("沒有依據", "品類沒有原文依據"),
+    ("評分", "批評寫成評分"),
+    ("預設讀者是設計師", "帶走寫給設計師"),
+    ("音譯", "人名音譯"),
+    ("簡體", "還有簡體字"),
+    ("角度", "角度不合格"),
+)
+
+
+def _reason_kind(reason: str) -> str:
+    """把一個候選的失敗原因壓成短標籤，好讓 N 個候選的死因可以統計。"""
+    head, _sep, rest = reason.partition("：")
+    if head != "品質閘沒過":
+        return head          # 讀圖不可用／文字模型失敗／未知原因
+    first = rest.split("；")[0]
+    for needle, label in _KIND_LABELS:
+        if needle in first:
+            return label
+    return "品質閘"
+
+
+def _failure_summary(attempts: list[tuple[str, str]]) -> str:
+    """
+    今天為什麼沒有這一件 —— 全部候選的死因，不是最後一個的。
+
+    原本 Actions 的錯誤訊息只講得出最後一個候選的原因（diag 每輪覆蓋），
+    於是連續兩天都顯示「圖文不符」，看起來像同一個閘壞掉。
+    實際上 2026-09-21 那天五個候選是 3 個死在空話與具體物、2 個死在圖文比對 ——
+    指著錯的地方查，就查不出來。
+    """
+    if not attempts:
+        return "沒有候選"
+    counts = Counter(_reason_kind(r) for _t, r in attempts)
+    tally = "、".join(f"{k}×{n}" if n > 1 else k for k, n in counts.most_common())
+    return f"{len(attempts)} 個候選都沒過（{tally}）；最後一個：{attempts[-1][1]}"
+
+
+def _failure_detail(attempts: list[tuple[str, str]]) -> str:
+    """給 Actions 的步驟摘要用：一個候選一行，標題加完整原因。"""
+    return "\n".join(f"{i}. **{t[:70]}**  \n   {r}"
+                     for i, (t, r) in enumerate(attempts, 1))
+
+
 def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     today = date_str or datetime.now(TZ).date().isoformat()
     today_d = datetime.fromisoformat(today).date()
@@ -201,6 +256,9 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
           f"個有原文正文（排前面）")
 
     warned_no_vision = False
+    # 每個候選的死因都要留下來 —— 只記最後一個的話，報錯訊息會一路指著
+    # 最後那個候選的問題，前面幾個為什麼倒完全看不見（見 _failure_summary）
+    attempts: list[tuple[str, str]] = []
     for i, (cand, article) in enumerate(ready, 1):
         print(f"  題目 {i}/{len(ready)}：{cand['title'][:70]}"
               f"（{cand.get('source_name', '')}）")
@@ -210,7 +268,8 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
             subject = cand
             pool.mark_used(cand.get("url", ""), today_d)
             break
-        print(f"  → 這題出不來（{_failure_reason(diag)}），換下一個候選")
+        attempts.append((cand.get("title", ""), _failure_reason(diag)))
+        print(f"  → 這題出不來（{attempts[-1][1]}），換下一個候選")
         # 讀圖整條斷掉時後面的候選只能靠純文字 —— 還是值得跑（原文夠厚
         # 就過得了閘），但要講明白接下來是在什麼條件下跑的。
         if vision_disabled_reason() and not warned_no_vision:
@@ -222,10 +281,12 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     # 照樣有價值。當日檔照寫（feature 為 null，前端已能處理），
     # 但流程結束時仍然標記為失敗，讓 Actions 變紅、有人來看一眼。
     feature_failed = doc is None
-    reason = _failure_reason(diag) if feature_failed else ""
+    reason = _failure_summary(attempts) if feature_failed else ""
     if feature_failed:
-        print(f"[警告] 今天不出這一件（寧可失敗也不出空話）——「{reason}」。"
-              "作品流與產業動態照常發布。")
+        print("[警告] 今天不出這一件（寧可失敗也不出空話）。候選逐個的死因：")
+        for i, (title, why) in enumerate(attempts, 1):
+            print(f"    {i}. {title[:60]} —— {why}")
+        print("  作品流與產業動態照常發布。")
 
     # 7) 配額挑選 + 在地化
     showcase = pick_showcase(fresh)
@@ -300,8 +361,12 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
         # ::error:: 只吃單行，CF 的原始回覆又可能帶換行，所以壓成一行再截斷。
         (OUTPUT_DIR / "last_failure.txt").write_text(
             " ".join(reason.split())[:300], encoding="utf-8")
+        # 步驟摘要放得下完整清單，::error:: 那一行放不下
+        (OUTPUT_DIR / "last_failure_detail.md").write_text(
+            _failure_detail(attempts), encoding="utf-8")
         return 2
     (OUTPUT_DIR / "last_failure.txt").unlink(missing_ok=True)
+    (OUTPUT_DIR / "last_failure_detail.md").unlink(missing_ok=True)
     return 0
 
 

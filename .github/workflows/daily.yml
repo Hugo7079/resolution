@@ -99,5 +99,13 @@ jobs:
             echo "當日檔與作品流已上線，缺的是主菜。"
             echo ""
             echo "原因：\`$REASON\`"
+            # 候選逐個的死因。只看 ::error:: 那一行會被最後一個候選誤導 ——
+            # 那一行講的是第 N 個候選，不是今天整體的病因。
+            if [ -s output/last_failure_detail.md ]; then
+              echo ""
+              echo "#### 每個候選倒在哪裡"
+              echo ""
+              cat output/last_failure_detail.md
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
           exit 1

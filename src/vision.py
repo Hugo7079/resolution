@@ -52,7 +52,9 @@ Report these, each on its own line:
 - TYPOGRAPHY: classification (serif/sans/slab/script/display), weight, width,
   distinctive letterform features (terminals, aperture, contrast, x-height).
   Name the typeface ONLY if you are certain; otherwise describe the features.
-- COLOR: dominant colors as approximate hex values, how many, and the contrast relationship.
+- COLOR: every colour you name MUST be written as a #RRGGBB hex estimate, e.g.
+  "off-white #F2F0EB (dominant), olive #6B7A44 (accent)". Never write a colour
+  name on its own. Also say how many there are and the contrast relationship.
 - COMPOSITION: grid or column structure if visible, alignment, symmetry,
   approximate proportion of empty space, where the focal point sits.
 - MATERIAL: for physical objects — material, finish, apparent production method.
