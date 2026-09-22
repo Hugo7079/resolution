@@ -1,0 +1,194 @@
+{
+  "date": "2026-09-23",
+  "category": "space_env",
+  "feature": {
+    "title": "木頭的永續改造：為了讓建築活得更久，它犧牲了原來的樣子",
+    "subject": {
+      "name": "Pedrali Pavilion",
+      "designer": "AMDL CIRCLE（Michele De Lucchi 主導）",
+      "client": "Pedrali",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 4394,
+    "image_match": "match",
+    "image_shows": "木質建築有對稱入口和格狀結構",
+    "neurons_used": 39.2,
+    "hook": "這棟建築原本是臨時展覽棚，現在卻變成永久建築，關鍵在於設計師在改造時做出的材料取捨：屋頂換成銅皮延長壽命，但屋內保留木頭結構，讓空間仍有溫暖感。",
+    "what_it_is": "Pedrali Pavilion 是義大利家具品牌 Pedrali 為慶祝六十週年而興建的展覽空間。原本是臨時展覽棚，後來由 Michele De Lucchi 設計改造，變成一棟永久建築，內部有講堂、展覽區和戶外休憩空間。建築尺寸為 50 公尺長、12 公尺寬、9 公尺高，主要材料是 PEFC 認證的雲杉木，並結合銅皮屋頂、石材鋪地和大面積玻璃牆。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這棟建築的核心材料是雲杉木，但改造時屋頂換成銅皮覆蓋（brass cladding），延長建築壽命。原文提到「brass cladding enhances the building’s durability」，這讓建築從臨時變永久。屋內仍保留雲杉木結構和橡木地板，讓空間保有溫暖感；屋外則用「Luserna stone」鋪設，與木頭形成對比。設計師 Michele De Lucchi 甚至說：「木頭是來自生命本身的材料，我們必須尊重它的生命過程。」這裡的「尊重」體現在改造時保留木頭結構，而不是全部拆除重建。此外，原本屋頂拆下的木瓦被重新利用，與當地藝術學校學生合作製作成新的裝置。",
+        "so_what": "建築的永續不只是用環保材料，還包括在改造時如何平衡材料的壽命、質感和環境影響。這棟建築展現了「用久才是真的環保」的理念，而不是單純追求新材料。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "原本的展覽棚是臨時性的，屋頂用木瓦，但改造後為了永久使用，屋頂換成銅皮覆蓋。這個選擇讓建築壽命延長，但犧牲了原本木頭的自然質感。不過，設計師並沒有完全放棄木頭：屋內保留了雲杉木結構和橡木地板，讓空間仍有溫暖感；屋外則用石材鋪設，與木頭形成對比。此外，原本屋頂拆下的木瓦被重新利用，與當地藝術學校學生合作製作成新的裝置。這樣的取捨展現了設計師對材料的敬重，而不是單純追求永久性。",
+        "so_what": "設計時常常需要在兩個目標之間取捨，比如永久性和自然質感。這棟建築的改造展現了如何在犧牲一部分的同時，仍然保留原有的價值，例如用銅皮屋頂延長壽命，但保留木頭結構維持溫暖感。"
+      },
+      {
+        "lens": "use",
+        "body": "這棟建築的設計考慮了多種使用方式：屋內有講堂、展覽區和戶外休憩空間，還有連接室內外的大面積玻璃牆（large-scale glazing）。原文提到「open timber structure on the ground floor has been fitted with large-scale glazing」，這讓室內外空間連續，讓人可以自由進出。屋頂的銅皮覆蓋不僅延長壽命，還讓建築看起來更「永久」，而屋內的木頭結構則保留了溫暖感。此外，建築還結合了太陽能板和地熱能源系統，讓使用過程也更環保。",
+        "so_what": "建築不只是房子，還是一種生活方式。這棟建築的設計展現了如何讓空間既實用又舒適，同時還能與環境融合，例如用玻璃牆連接室內外，讓人可以自由進出。"
+      },
+      {
+        "lens": "context",
+        "body": "Pedrali Pavilion 位於義大利 Bergamo 附近，周圍是自然景觀。設計師在改造時特別強調與景觀的連續性，例如用大面積玻璃牆連接室內外，並用石材和綠化帶強化室外空間。原文提到「Architecture, design and the unobstructed view of the landscape thus interact with one another」，也就是建築、設計和景觀是相互影響的。這棟建築不只是一個展覽空間，還是一個與自然對話的場域。例如，屋外的「Luserna stone」鋪地和綠化帶，讓室外空間成為休憩和活動的場地。",
+        "so_what": "建築不應該孤立存在，而是應該與環境融為一體。這棟建築的設計展現了如何讓建築成為景觀的一部分，例如用玻璃牆連接室內外，並用石材和綠化帶強化室外空間。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一棟建築時，可以觀察它是如何與環境互動的。例如，它是否使用了當地材料（如石材、木頭）？是否有連接室內外的設計（如玻璃牆）？是否在改造時保留了原有的結構（如木頭屋架）？這些細節不只關係到美觀，還關係到建築的永續性和使用者的體驗。例如，這棟建築用銅皮屋頂延長壽命，但保留木頭結構維持溫暖感，展現了如何在取捨中平衡目標。",
+    "takeaway_designer": "在改造舊建築時，可以考慮以下幾點：1. 保留原有結構的部分，而不是全部拆除重建，這樣可以減少材料浪費（例如保留木頭屋架）。2. 在材料選擇上，可以犧牲部分美感來延長建築壽命（例如用銅皮覆蓋屋頂）。3. 結合當地資源，例如重新利用拆下的材料（如木瓦），或使用當地石材和木頭。4. 設計時要考慮建築的多功能性，例如同時作為展覽空間、講堂和休憩區。5. 使用大面積玻璃牆連接室內外，強化與環境的互動。",
+    "glossary": [
+      {
+        "term": "brass cladding",
+        "plain": "用銅合金（黃銅）作為建築外牆或屋頂的覆蓋材料，可以防水、防腐，並延長建築壽命。"
+      },
+      {
+        "term": "Luserna stone",
+        "plain": "一種義大利產的石材，質地堅硬且耐用，常用於建築和鋪地。"
+      },
+      {
+        "term": "大面積玻璃牆（large-scale glazing）",
+        "plain": "建築上使用大片玻璃作為牆面，讓室內外光線和空間連續，增強與環境的互動。"
+      }
+    ],
+    "concretes": [
+      "PEFC 認證的雲杉木（spruce timber）",
+      "brass cladding（銅皮覆蓋屋頂）",
+      "Luserna stone（石材鋪地）",
+      "50 公尺長 × 12 公尺寬 × 9 公尺高的建築尺寸",
+      "大面積玻璃牆（large-scale glazing）",
+      "#F2F0EB（屋外主色，近似乳白）",
+      "#6B7A44（屋外輔色，近似橄欖綠）",
+      "橡木地板（oak flooring）",
+      "地熱能源系統（geothermal energy plant）"
+    ],
+    "source_url": "https://www.stylepark.com/en/news/pedrali-michele-de-lucchi-amdl-circle-pavilion-furniture-italy-architecture-design-stylepark-magazine",
+    "source_name": "Stylepark",
+    "published": "2026-09-21T22:00:00+00:00",
+    "image_url": "https://www.stylepark.com/assets/articles/TS_QF_PedraliPavilion_Bergamo.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Stylepark．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "馬戲團系列",
+      "title_original": "Circus Series",
+      "url": "https://www.behance.net/gallery/254940853/Circus-Series",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/54e739254940853.Y3JvcCw0NTAwLDM1MTksMCwxNzI2.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "我以為聊天機器人很簡單，直到我自己做了一個",
+      "title_original": "I thought chatbots were simple. Then I built my first one",
+      "url": "https://medium.muz.li/i-thought-chatbots-were-simple-then-i-built-my-first-one-a6ebb54cbd25?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*z4QfnUlx9demxTML_EnRzQ.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "顯微鏡下的微觀宇宙在 Nikon「微觀世界動態影像」競賽中復活",
+      "title_original": "Microscopic Universes Come Alive in Nikon’s Small World in Motion Contest",
+      "url": "https://www.thisiscolossal.com/2026/09/2026-nikon-small-world-in-motion-video-competition/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/nikon-swim-2026-1.gif",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "《交接》由 Pig Iron Works 設計",
+      "title_original": "“Handover” by Pig Iron Works",
+      "url": "https://www.booooooom.com/2026/09/22/handover-by-pig-iron-works/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Handover1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "BOLERO 雜誌",
+      "title_original": "BOLERO MAGAZINE",
+      "url": "https://www.behance.net/gallery/254075001/BOLERO-MAGAZINE",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ea1b6e254075001.Y3JvcCwzOTM5LDMwODEsMCw4ODc.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "「2027 第 46 屆新一代設計展」策展團隊徵選 資格說明",
+      "title_original": "「2027第46屆新一代設計展」策展團隊徵選 資格說明",
+      "url": "https://www.tdri.org.tw/zh-TW/news/768",
+      "source_name": "台灣設計研究院",
+      "published": "2026-09-21T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Patagonia 將贈送你 100 美元鼓勵朋友投票",
+      "title_original": "Patagonia will give you $100 to get your friends to vote",
+      "url": "https://www.fastcompany.com/91610270/patagonia-will-pay-you-100-if-you-can-get-your-friends-to-vote?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-22T14:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Bambu Lab R1 雷射切割機的第一印象評測",
+      "title_original": "First impressions of the beastly new Bambu Lab R1 laser cutter",
+      "url": "https://www.creativebloq.com/creative-inspiration/digital-crafting/first-impressions-of-the-beastly-new-bambu-lab-r1-laser-cutter",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-22T15:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "我經常說錯話",
+      "title_original": "I am often wrong",
+      "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+      "source_name": "Sidebar",
+      "published": "2026-09-22T04:45:36+00:00",
+      "region": "en"
+    }
+  ]
+}
