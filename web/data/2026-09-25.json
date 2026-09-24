@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-25",
+  "category": "visual_brand",
+  "feature": {
+    "title": "紙本遊戲雜誌：只為遊戲，只為紙張",
+    "subject": {
+      "name": "《Ira Blossom》",
+      "designer": "Ira Blossom",
+      "client": "",
+      "year": ""
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 65,
+    "images_read": 1,
+    "article_chars": 0,
+    "image_match": "match",
+    "image_shows": "人拿著十字綜合雜誌",
+    "neurons_used": 42.3,
+    "hook": "一本只印遊戲、不連網的紙本雜誌，在紐約報攤販售，讓人在數位世界裡重新體驗紙張的專注力。",
+    "what_it_is": "這是一本專門收錄各式遊戲（如字謎、拼圖）的紙本雜誌，由前 Google UX 研究經理自資出版，並在紐約報攤販售。它不連網、不數位，只為了紙張和遊戲本身。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "雜誌採用米白底色（近似 #F2F0EB）和橄欖綠（近似 #6B7A44）作為主要顏色，並搭配淡綠、淺藍和黃色。這些顏色組合不刺眼，但足夠鮮明，讓遊戲區塊（如字謎、拼圖）能夠清晰區隔。從圖上判斷不出是否使用專色，但整體色調給人溫和、經典的感覺，適合長時間遊戲時的專注需求。",
+        "so_what": "這樣的顏色選擇讓人覺得舒服又不會分心，適合在公共場所閱讀時不刺眼。"
+      },
+      {
+        "lens": "type",
+        "body": "雜誌使用帶襯線的字體，字重中等（medium weight），字形端莖圓潤，字腔開放。這種字體風格在紙本出版物中常見，提供良好的可讀性，同時又不失經典感。遊戲題目和說明文字的字級較小，但行距寬鬆，讓文字不會擁擠。從圖上判斷不出具體字體名稱，但這類字體通常屬於經典報紙體。",
+        "so_what": "這種字體和排版方式讓人覺得熟悉又舒服，適合在紙上玩遊戲時不會覺得眼睛疲勞。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這本雜誌選擇完全脫離數位世界，只提供紙本版本。這意味著它犧牲了即時更新、互動性（如線上解答或社群分享）以及數位廣告收入。相反地，它獲得了紙張的觸感、獨立閱讀的專注力，以及不受螢幕光害的舒適感。這種選擇在當今數位主導的時代顯得格外珍貴，因為它為紙本媒體提供了一個新的用途。",
+        "so_what": "這本雜誌告訴我們，有些東西不需要數位化也能保有價值，甚至能帶來不同的體驗。"
+      },
+      {
+        "lens": "use",
+        "body": "這本雜誌設計給想要脫離螢幕、專注於紙本遊戲的讀者。它的紙質觸感（smooth finish）和手持尺寸（從圖上判斷約為 A5 大小）讓人容易攜帶，適合在公共場所（如地鐵、咖啡廳）閱讀。遊戲題目和解答區域的設計讓人能夠輕鬆填寫，而不需要電腦或手機。",
+        "so_what": "這本雜誌讓人重新發現紙本媒體的便利性，不需要電池或網路，就能帶來樂趣。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一本雜誌或書時，可以留意它的紙質、字體和版面設計是否讓你覺得舒服。例如，如果你覺得螢幕太刺眼，不妨試試紙本遊戲或閱讀，看看是否能讓你更專注。有些東西不需要數位化，紙本也能帶來專注和樂趣。",
+    "takeaway_designer": "在設計紙本出版物時，可以考慮犧牲數位互動性，專注於紙張的觸感和專注力。例如，使用溫和的色彩和經典字體，讓閱讀者能專注於內容；採用寬鬆的行距和適中的字級，提升可讀性；並確保尺寸和紙質適合手持閱讀。這樣的設計能夠在數位時代中提供獨特的體驗。",
+    "glossary": [
+      {
+        "term": "字腔",
+        "plain": "字母中間圍起來的那塊空白，像 o 和 e 中間的洞，它的大小決定字看起來鬆還是緊。"
+      },
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "襯線",
+        "plain": "筆畫末端那個小小的收尾，像印刷體的「一」兩端翹起來的地方。"
+      },
+      {
+        "term": "字級",
+        "plain": "字的大小。"
+      },
+      {
+        "term": "行距",
+        "plain": "上下兩行之間的距離，太擠會看不下去，太鬆會散掉。"
+      },
+      {
+        "term": "專色",
+        "plain": "四色油墨調不出來、要另外單獨調的顏色，例如金色、螢光色。"
+      }
+    ],
+    "concretes": [
+      "近似 #F2F0EB 的米白底色",
+      "近似 #6B7A44 的橄欖綠",
+      "帶襯線的中等字重字體（medium weight）",
+      "紙質觸感（smooth finish）"
+    ],
+    "source_url": "https://designobserver.com/ira-blossom-created-a-games-only-print-only-newspaper-and-its-sold-at-a-newsstand-in-new-york-city/",
+    "source_name": "Design Observer",
+    "published": "2026-09-14T16:57:45+00:00",
+    "image_url": "https://designobserver.com/wp-content/uploads/2026/09/DG_080926_NewspaperClub_SundayClub_206-683x1024.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Design Observer．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "誰反對陽光",
+      "title_original": "Who Objects To Sunshine",
+      "url": "https://www.behance.net/gallery/255915765/Who-Objects-To-Sunshine",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ebc1a8255915765.Y3JvcCwxMDUzLDgyNCw0MDEsMTAyNA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "介面／使用者介面設計：Sungsik Kim 的精準咖啡因應用程式",
+      "title_original": "UI/UX Design: dose Precision Caffeine App by Sungsik Kim",
+      "url": "https://abduzeedo.com/uiux-design-dose-precision-caffeine-app-sungsik-kim/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_dose-sungsik-kim.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Taehyoung Maria Jeon 的數位插畫中誕生的奇幻植物",
+      "title_original": "Fantastic Plants Spring from Taehyoung Maria Jeon’s Digital Illustrations",
+      "url": "https://www.thisiscolossal.com/2026/09/taehyoung-maria-jeon-folium-botanical-illustration-book/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/Plant-196.jpeg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：Tommy Carroll",
+      "title_original": "Artist Spotlight: Tommy Carroll",
+      "url": "https://www.booooooom.com/2026/09/23/artist-spotlight-tommy-carroll/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Carroll1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Strata",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/255358653/Strata",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/cf0eac255358653.Y3JvcCwxOTk5LDE1NjQsMCwyMTc.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Meta 的 Muse Charm 讓 AI 進入可愛時代",
+      "title_original": "With Meta’s Muse Charm, AI enters its kawaii era",
+      "url": "https://www.fastcompany.com/91612532/with-metas-muse-charm-ai-enters-its-kawaii-era?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-24T18:45:41+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Amazon 的首日 Prime Day 交易包含各式咖啡機的大幅折扣",
+      "title_original": "Amazon's early Prime Day deals include massive discounts on coffee makers of every kind",
+      "url": "https://www.creativebloq.com/design/product-design/amazons-early-prime-day-deals-include-massive-discounts-on-coffee-makers-of-every-kind",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-24T17:59:59+00:00",
+      "region": "en"
+    },
+    {
+      "title": "對 AI 的恐懼",
+      "title_original": "The fear of AI",
+      "url": "https://voiceinthemachine.com/2026/09/21/the-fear-of-ai/",
+      "source_name": "Sidebar",
+      "published": "2026-09-24T07:28:31+00:00",
+      "region": "en"
+    }
+  ]
+}
