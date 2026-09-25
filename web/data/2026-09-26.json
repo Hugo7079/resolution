@@ -1,0 +1,191 @@
+{
+  "date": "2026-09-26",
+  "category": "space_env",
+  "feature": {
+    "title": "校園屋頂變公共廣場，用混凝土拱形拒絕標準化",
+    "subject": {
+      "name": "Shenzhen Futian Lvzhou Primary School",
+      "designer": "CCDI Dongxiying Studio",
+      "client": "Shenzhen Futian District Construction Works Authority",
+      "year": "2024"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 2424,
+    "image_match": "match",
+    "image_shows": "現代建築帶藍色圓頂和混凝土結構",
+    "neurons_used": 21.9,
+    "hook": "這所深圳小學的屋頂不是教室，而是社區的公共廣場：混凝土拱形結構（#ADD8E6 藍色）讓鄰近住戶也能來坐下聊天，直接在建築上打造「第三空間」。",
+    "what_it_is": "深圳福田區新洲的一所小學，位於混合商住的村鎮地帶。設計師利用高密度校園（FAR 2.26）的屋頂空間，用混凝土拱形結構創造社區共享的公共廣場，而不是傳統的操場或教室。這裡不是為了美觀或效率，而是要保留城市中難得的「有機成長」和「社會多樣性」。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "屋頂的藍色拱形結構（#ADD8E6）和灰色混凝土表面（近似 #333333）並非裝飾，而是結構與功能的雙重解答。原文提到「cast-in-place concrete」（現澆混凝土）工法，讓這個空間能承受人群活動，同時成為社區的「第三空間」。混凝土的光滑表面處理（圖中可見）讓它看起來不像一般校園操場，而是更像一個公共廣場。這種材質選擇犧牲了「輕盈」或「視覺華麗」，但換來了「耐用」和「社會包容性」。",
+        "so_what": "這讓你看到：混凝土不只是「灰色建材」，它可以透過形狀（拱形）和色彩（藍色）變成社區的聚集地，而不需要昂貴的材料。"
+      },
+      {
+        "lens": "layout",
+        "body": "屋頂設計採用對稱的格線結構，但視覺焦點放在中央的藍色拱形（圖中佔比約 30% 空間），而不是傳統校園的操場格線。這個拱形不僅是結構支撐，還成為社區居民的聚集點。原文提到「rational overall layout」（合理整體佈局）是經過多方案比較後的結果，但最終選擇將屋頂開放給社區，而非封閉成學校專用空間。這意味著設計師犧牲了「獨立性」（例如圍牆或私密操場），換取「空間包容性」。",
+        "so_what": "這讓你看到：建築的「格線」不只是美觀，它可以決定誰能進來、誰能使用這個空間。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了讓屋頂成為社區的「第三空間」，設計師放棄了兩樣東西：一是傳統校園的「私密性」（例如圍牆或獨立操場），二是「標準化美觀」（例如高效率的建築外觀）。原文明確說這裡「不是最美觀或高效率」，但卻保留了「社會多樣性」和「有機成長」。例如，屋頂的藍色拱形（#ADD8E6）與周圍灰色混凝土的對比，象徵著這個空間既屬於學校，也屬於社區。如果目標換成「最低成本」或「最快建造」，這個設計就不成立——它需要額外的結構支撐和維護。",
+        "so_what": "這讓你看到：設計時，每個選擇都有代價。如果你想要「不一樣的東西」，可能要先放棄「最便宜」或「最快」的選項。"
+      },
+      {
+        "lens": "context",
+        "body": "這所學校坐落在深圳福田區新洲，一個混合商業、住宅和舊式街道的地區。原文提到這裡「不是最美觀或高效率」，但卻保留了社區的「不可預測性」和「有機成長」。設計師沒有用傳統的校園規劃（例如圍牆、獨立操場），而是將建築與周邊社區緊密連結。例如，屋頂設計不僅是學校的結構需求，還成為鄰近住戶的公共空間。這與深圳常見的高密度校園（FAR 2.26）不同，它犧牲了部分「效率」來換取社區的「包容性」。",
+        "so_what": "這讓你看到：城市不需要完全標準化，有時候「不完美」的地方反而能創造更豐富的生活。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一棟建築，試著觀察它的「屋頂」或「陽臺」是否也能成為公共空間。例如，學校的屋頂可以變成社區的聚集地，公園的長椅可以變成街友的休息站。設計不一定要追求「最好看」或「最實用」，有時候「留下不完美」反而能讓更多人使用。",
+    "takeaway_designer": "在高密度城市設計校園或公共建築時，可以考慮以下手法：1. 材質與功能結合：用混凝土拱形結構（#ADD8E6 藍色）同時解決結構需求和社區使用，而非單純裝飾。2. 犧牲獨立性：不要用圍牆或高牆封閉空間，而是透過設計（例如屋頂、陽臺）讓建築與社區連結。3. 視覺焦點引導使用：在格線佈局中，用顏色（藍色拱形）或形狀（拱形）明確標示社區可以使用的空間。4. 接受「不完美」：在標準化城市中，保留「有機成長」的空間，可以創造更豐富的社會價值。",
+    "glossary": [
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "第三空間（Third Space）",
+        "plain": "指既不是家也不是工作場所的公共空間，例如咖啡廳、公園或社區廣場，讓人可以自由聚集和互動。"
+      },
+      {
+        "term": "現澆混凝土（Cast-in-place concrete）",
+        "plain": "在現場澆築的混凝土結構，可以根據設計需求調整形狀和強度，但工法較複雜且成本較高。"
+      }
+    ],
+    "concretes": [
+      "CCDI Dongxiying Studio",
+      "#ADD8E6（藍色拱形屋頂）",
+      "FAR 2.26（高密度校園）",
+      "現澆混凝土（Cast-in-place concrete）",
+      "深圳福田區新洲（村鎮混合區）",
+      "Fuqiang Road（附近噪音來源）"
+    ],
+    "source_url": "https://www.archdaily.com/1038149/shenzhen-futian-lvzhou-primary-school-ccdi-dongxiying-studio",
+    "source_name": "ArchDaily",
+    "published": "2026-09-18T00:00:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/6973/cb88/2755/8a01/8794/b8f3/medium_jpg/shenzhen-futian-lvzhou-primary-school-ccdi-dongxiying-studio_3.jpg?1769196442",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "|插畫| Trần Trịnh Bình",
+      "title_original": "|ILLUSTRATION| Tranh T? Bình",
+      "url": "https://www.behance.net/gallery/256172929/ILLUSTRATION-Tranh-T-Binh",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/4fa36f256172929.Y3JvcCwxMTc2LDkyMCwyMCwzOTk.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "空間設計：Eurojust 隱私呈現（由 Silo 設計）",
+      "title_original": "Spatial Design: Eurojust Privacy Manifestations by Silo",
+      "url": "https://abduzeedo.com/spatial-design-eurojust-privacy-manifestations-silo/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_spatial-branding-privacy-eurojust-offices-silo-agency-spatial-branding.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "倫敦艾爾斯伯里住宅遺跡中的具體記憶：Harriet Mena Hill 保存社區",
+      "title_original": "On Concrete Remnants of London’s Aylesbury Estate, Harriet Mena Hill Preserves a Community",
+      "url": "https://www.thisiscolossal.com/2026/09/harriet-mena-hill-aylesbury-estate-paintings/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/hill-9.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「划船者」攝影專案（Jacob Faulkner攝）",
+      "title_original": "“Rowers” by Photographer Jacob Faulkner",
+      "url": "https://www.booooooom.com/2026/09/25/rowers-by-photographer-jacob-faulkner/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Faulkner1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家如何生活？新展以鮮豔細節展現",
+      "title_original": "How does an artist live? A new exhibition shows us in Technicolor detail",
+      "url": "https://www.sightunseen.com/2026/09/how-does-an-artist-live-a-new-exhibition-shows-us-in-technicolor-detail/",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/09/09172026_RB_Lynda_Keeler_3.jpg",
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/09/09172026_RB_Lynda_Keeler_3-728x582.jpg",
+      "source_name": "Sight Unseen",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "酵母菌可能是建造第一座火星城市的關鍵",
+      "title_original": "Yeast could be the key to building the first Martian cities",
+      "url": "https://www.fastcompany.com/91610092/yeast-could-be-the-key-to-building-the-first-martian-cities?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-25T13:30:52+00:00",
+      "region": "en"
+    },
+    {
+      "title": "這款價格僅 30 美元的手機充電器速度媲美牆面插座，現價降至 23 美元",
+      "title_original": "This $30 phone charger gives speeds to rival wall plugs, and it's down to $23",
+      "url": "https://www.creativebloq.com/tech/headphones-earbuds/this-usd30-phone-charger-gives-speeds-to-rival-wall-plugs-and-its-down-to-usd23",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-25T16:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "I don’t want the details",
+      "title_original": "",
+      "url": "https://michaelheap.com/i-dont-want-the-details/",
+      "source_name": "Sidebar",
+      "published": "2026-09-25T08:09:42+00:00",
+      "region": "en"
+    }
+  ]
+}
