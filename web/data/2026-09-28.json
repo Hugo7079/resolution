@@ -1,0 +1,191 @@
+{
+  "date": "2026-09-28",
+  "category": "space_env",
+  "feature": {
+    "title": "細胞分裂的建築：上海研究園區如何用連接的空間講故事",
+    "subject": {
+      "name": "Chia Tai Tianqing Pharmaceutical Group 研究園區",
+      "designer": "BDP 建築工作室",
+      "client": "Chia Tai 天青藥業集團",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3466,
+    "image_match": "match",
+    "image_shows": "玻璃建築連接天橋",
+    "neurons_used": 45.4,
+    "hook": "這個研究園區的四棟建築像細胞分裂一樣連接，讓人走進去就能感受到科學與城市的對話。",
+    "what_it_is": "位於上海虹橋國際中央商務區的研究園區，由四棟建築組成，設計靈感來自細胞分裂的動態。園區包含實驗室、行政大樓、員工宿舍和會議中心，並透過天橋連接，形成一個開放且互動的空間。設計師 BDP 將細胞結構轉化為建築語言，讓科研與日常生活融合。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "園區的四棟建築被設計成兩對，每對像細胞分裂般連接，透過玻璃覆蓋的天橋串聯。這些天橋不僅是結構連接，還創造了室內外交流空間，例如一樓的天橋環繞整個園區，連接所有建築，並提供咖啡廳、餐廳和健身房等設施。設計師將整個園區分解成多個「目的地」，讓員工能在實驗室、休息區和社交空間間自由切換。例如，行政大樓是最高點，成為園區的視覺焦點，而中央公園則對公眾開放，打破園區與城市的隔離。",
+        "so_what": "這不是單純的建築群，而是一個有故事的空間網絡，每個連接點都像一個章節，讓人在移動中理解整體。"
+      },
+      {
+        "lens": "message",
+        "body": "園區的設計語言來自細胞分裂的科學概念：兩對建築像細胞核分裂，核心區域（實驗室）位於建築兩端，提供靈活的樓層空間。這不僅是科學主題的視覺化，更象徵研究的動態性——像細胞一樣不斷分裂、成長。例如，建築物的外牆採用低輻射玻璃和太陽能板，形成獨特的色塊圖案，強化園區的科技感。設計師 Tianyi Gu 說：「這是一個面向城市和使用者的研究空間，不是封閉的實驗室。」",
+        "so_what": "建築不只是容納研究，更是用形狀和材質講述科學故事，讓員工每天都能感受到自己工作的意義。"
+      },
+      {
+        "lens": "material",
+        "body": "園區使用了大量玻璃和鋼結構，但不只是冷冰冰的現代感。例如，太陽能板的排列形成視覺節奏，而玻璃天橋的曲線設計讓空間感更柔和。低輻射玻璃（Low-E glass）不僅節能，還調節室內光線，讓實驗室保持舒適。此外，園區採用被動式設計（如自然通風和外牆遮陽），減少能源消耗。這些材質和工法不僅實用，還強化了園區的科技與永續形象。",
+        "so_what": "材質的選擇不只是好看或結實，更是為了讓空間呼吸、與自然對話，讓員工在工作時感受到科技與環境的平衡。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了強調細胞分裂的概念，設計師將建築核心區域分散到兩端，這犧牲了傳統辦公樓的集中式核心（如電梯和設備區集中在中間）。這樣的設計雖然提供更靈活的實驗室空間，但可能增加建築結構的複雜性。同時，園區的開放式天橋雖然促進交流，但也可能在惡劣天氣下影響員工出行。設計師在「科學動態性」和「實用性」之間做了取捨，但最終選擇了更符合研究機構未來發展的靈活性。",
+        "so_what": "設計總是有犧牲，這裡的犧牲是「方便」換來的「可能性」，讓空間不只是現在的容器，更是未來的舞臺。"
+      }
+    ],
+    "takeaway_everyone": "下次走進一棟大樓或園區，留意它的「連接點」：樓梯、天橋、走廊。這些看似無關緊要的空間，其實決定了你在裡面的感受。如果設計師把它們當成「故事的章節」來設計，你會發現自己不只是「走路」，而是在「體驗」一個概念。例如，天橋不只是通道，更是社交的起點；玻璃牆不只是隔間，更是光線的調節器。下次，試著問自己：「這個空間在講什麼故事？」",
+    "takeaway_designer": "在設計連接式空間時，可以參考這個案例的三個關鍵手法：1. 概念驅動的結構：將抽象概念（如細胞分裂）轉化為實體連接（天橋、建築形狀），讓使用者在移動中理解設計意圖。2. 功能與象徵的平衡：例如，太陽能板不僅節能，還成為園區的視覺標誌。3. 犧牲與目標的明確性：明確犧牲什麼（如集中式核心）來換取什麼（如靈活空間），並確保犧牲不影響核心功能。此外，細緻規劃「目的地」和「交流點」能讓大型空間不顯得冗長。",
+    "glossary": [
+      {
+        "term": "被動式設計（Passive design）",
+        "plain": "不依賴機械設備（如冷氣、暖氣），而是透過建築設計（如自然通風、遮陽、隔熱材料）來調節室內環境溫度和光線。"
+      },
+      {
+        "term": "低輻射玻璃（Low-E glass）",
+        "plain": "一種能反射紅外線和紫外線的玻璃，減少熱量進入室內，同時保持透明度，常用於節能建築。"
+      },
+      {
+        "term": "核心區域（Core area）",
+        "plain": "建築中集中設備（如電梯、水管、電線）的區域，通常位於建築中央，影響樓層的靈活性。"
+      }
+    ],
+    "concretes": [
+      "細胞分裂的建築連接概念",
+      "186,000 平方公尺的研究園區面積",
+      "低輻射玻璃（Low-E glass）與太陽能板的外牆設計",
+      "一樓環繞式天橋連接四棟建築",
+      "行政大樓作為園區的視覺焦點",
+      "中央公園對公眾開放"
+    ],
+    "source_url": "https://www.dezeen.com/2026/09/25/bdp-research-campus-chia-tai-tianqing-pharmaceutical-group-shanghai/",
+    "source_name": "Dezeen",
+    "published": "2026-09-25T09:33:17+00:00",
+    "image_url": "https://static.dezeen.com/uploads/2026/09/bdp-cttq-research-campus-shanghai-china_dezeen_1704_col_exclusive_sq.jpg",
+    "image_fallback": "https://static.dezeen.com/uploads/2026/09/bdp-cttq-research-campus-shanghai-china_dezeen_1704_col_exclusive_sq-411x411.jpg",
+    "credit": "圖片來源：Dezeen．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "歐洲血液學協會",
+      "title_original": "European Hematology Association",
+      "url": "https://www.behance.net/gallery/223713587/European-Hematology-Association",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/e8a218223713587.Y3JvcCwyODc2LDIyNTAsNTYyLDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "本週精選：結構式包裝與瑞士格線",
+      "title_original": "Best of the Week: Structural Packaging and Swiss Grids",
+      "url": "https://abduzeedo.com/best-week-structural-packaging-and-swiss-grids/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W39.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Navi by VNGGames",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/254917035/Navi-by-VNGGames",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/62c965254917035.Y3JvcCwxOTk5LDE1NjQsMCww.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "編輯設計：Adam Pendleton 專輯（由 SAVVY STUDIO 設計）",
+      "title_original": "Editorial Design: Adam Pendleton Monograph by SAVVY STUDIO",
+      "url": "https://abduzeedo.com/editorial-design-adam-pendleton-monograph-savvy-studio/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_adam-pendleton-savvy-studio.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "TEKarrc",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1847",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1847/thumb_2x_image_2c3064.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "MoMA 探索資訊設計的實用美學",
+      "title_original": "MoMA explores the useful beauty of information design",
+      "url": "https://www.fastcompany.com/91612965/moma-explores-the-useful-beauty-of-information-design?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-27T11:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Marvel 的《金剛狼》評論：視覺華麗，卻過於保守",
+      "title_original": "Marvel's Wolverine review: visually spectacular, but frustratingly safe",
+      "url": "https://www.creativebloq.com/entertainment/gaming/marvels-wolverine-review-visually-spectacular-but-frustratingly-safe",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-27T12:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Bro, 這是文章投稿表單。不能直接提交 Inspo AI 首頁—截圖上已明確寫著「不接受首頁提交」。必須提交與 Inspo AI 相關的實際部落格/文章網址。 好角度：標題：AI 如何改變設計師尋找介面靈感的方式",
+      "title_original": "Bro, இது article submission form. Inspo AI homepage-ஐ direct submit பண்ணக்கூடாது — screenshot-லேயே “No homepage submissions”ன்னு சொல்லிருக்காங்க. Inspo AI-க்கு relevant-ஆ ஒரு actual blog/article URL submit பண்ணணும். Good angle: Title: How AI Is Changing the Way Designers Find UI Inspiration",
+      "url": "https://webdesignernews.com/bro-%e0%ae%87%e0%ae%a4%e0%af%81-article-submission-form-inspo-ai-homepage-%e0%ae%90-direct-submit-%e0%ae%aa%e0%ae%a3%e0%af%8d%e0%ae%a3%e0%ae%95%e0%af%8d%e0%ae%95%e0%af%82%e0%ae%9f%e0%ae%be%e0%ae%a4/",
+      "source_name": "Web Designer News",
+      "published": "2026-09-27T18:31:26+00:00",
+      "region": "en"
+    }
+  ]
+}
