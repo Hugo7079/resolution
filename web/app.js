@@ -110,7 +110,12 @@ function renderFeature() {
   const d = data.feature || data.deepdive, root = document.getElementById('dd');
   root.innerHTML = '';
   if (!d) {
-    root.appendChild(el('p', 'dd__meta', '今天沒有通過品質檢查的介紹 —— 寧可不出，也不出空話。'));
+    // 週日休息（src/config.py 的 REST_WEEKDAYS）。之後週日不會再有當日檔，
+    // 這句是給 09-20、09-27 那兩個照樣跑出來的舊檔用的。
+    const sunday = new Date(data.date + 'T00:00:00+08:00').getDay() === 0;
+    root.appendChild(el('p', 'dd__meta', sunday
+      ? '週日休息 —— 今天不出介紹。'
+      : '今天沒有通過品質檢查的介紹 —— 寧可不出，也不出空話。'));
     return;
   }
 

@@ -32,7 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from config import (BASE_DIR, OUTPUT_DIR, CATEGORIES, DEFAULT_DAYS_BACK,
-                    DEEPDIVE_TRIES, LANG_QUOTA, POOL_DAYS_BACK,
+                    DEEPDIVE_TRIES, LANG_QUOTA, POOL_DAYS_BACK, REST_WEEKDAYS,
                     SCREEN_CANDIDATES, category_of_day)
 from fetcher import FETCH_RESULT, fetch_all_sources, backfill_og_images
 from tw_scraper import fetch_taiwan_all
@@ -186,6 +186,10 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     today = date_str or datetime.now(TZ).date().isoformat()
     today_d = datetime.fromisoformat(today).date()
     weekday = today_d.weekday()
+    if weekday in REST_WEEKDAYS:
+        print(f"\n===== 解析度 Resolution {today}（週{'一二三四五六日'[weekday]} · 休息）=====\n"
+              "週日休息 —— 不跑 pipeline、不出當日檔，站上停在週六那一期。")
+        return 0
     category = category_of_day(today_d)
     label = CATEGORIES[category]["label"]
     print(f"\n===== 解析度 Resolution {today}（週{'一二三四五六日'[weekday]} · {label}）=====\n")
