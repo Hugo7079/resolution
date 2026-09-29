@@ -1,0 +1,211 @@
+{
+  "date": "2026-09-29",
+  "category": "visual_brand",
+  "feature": {
+    "title": "「熱帶」不是椰子樹，是兩種顏色和一個「T」",
+    "subject": {
+      "name": "Tropical Smoothie Cafe 全新品牌識別系統",
+      "designer": "JKR",
+      "client": "Tropical Smoothie Cafe",
+      "year": ""
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 90,
+    "images_read": 1,
+    "article_chars": 1998,
+    "image_match": "match",
+    "image_shows": "TROPICAL SMOOTHIE CAFE 數位標誌",
+    "neurons_used": 40.6,
+    "hook": "這家連鎖店的新標誌沒有椰子樹或海灘，卻用兩種顏色和一個「棕櫚樹 T」讓人感受到「熱帶」的能量——設計師把「陽光、放鬆、活力」變成看得見的視覺語言，而不只是畫一棵樹。",
+    "what_it_is": "Tropical Smoothie Cafe 是一家在美國快速成長的熱帶果汁連鎖店。JKR 為它重新設計了品牌識別系統，包括標誌、色彩、字體和插畫風格。這套系統不強調「熱帶」的地點，而是透過視覺元素傳達「熱帶」的感覺：陽光、放鬆和能量。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "這套識別系統用了兩種核心顏色：Palm Frond Green（原文提及，但圖上未見，近似 #006400 的深綠色）和 Sunset Orange（#FF9900，橘紅色）。圖上標誌只用了米白色（#F2F0EB）和橘紅色（#FF9900），橘紅色作為輔色出現在「棕櫚樹 T」造型上，讓視覺焦點立刻被吸引。設計師選擇這兩種顏色，是為了傳達「熱帶」的「能量」而非「景象」——橘紅代表陽光，綠色則代表活力（在包裝或環境設計中可能更明顯）。兩種顏色的對比度高，確保在任何尺寸下都能識別。原文提到這兩種顏色代表「陽光普照」（sun-soaked），但實際運用時，橘紅色更像是「能量」的視覺符號。",
+        "so_what": "顏色不是隨便選的：如果你想讓人感受到「能量」，就別用藍天白雲的顏色，而是用能直接刺激感官的色彩，像這樣用橘紅和綠色組合，讓人一眼就知道這不是冰冷的飲料。"
+      },
+      {
+        "lens": "type",
+        "body": "標誌使用的字體是寬體無襯線字（wide sans-serif），字重介於中粗到粗（medium to bold），字腔（x-height）高，字尾（terminals）圓潤。這種字體風格在圖上看不出具體名稱，但可以觀察到它的特點：寬度大（wide）讓文字看起來更「寬鬆」，而高字腔和圓潤的字尾則傳達「溫暖」的感覺。原文提到新識別系統「更有個性」（more personality），這種字體選擇正符合這個目標——它不像冷酷的等寬字體（如程式碼編輯器用的字），也不像手寫字體，而是介於兩者之間，適合快餐連鎖的親和力。",
+        "so_what": "字體的「寬度」和「圓潤」決定了它是「溫暖」還是「冷酷」：寬體字看起來更「放鬆」，圓潤的字尾則像陽光照在葉子上一樣柔和，適合賣「能量」的飲料。"
+      },
+      {
+        "lens": "layout",
+        "body": "標誌的設計採用了「棕櫚樹 T」的造型（Palm T），這個造型將品牌名稱「Tropical Smoothie Cafe」的首字母「T」轉化為一組棕櫚樹葉的形狀。這個造型在圖上佔據左側位置，成為視覺焦點，而文字則緊接其後，形成一個整體。雖然圖上看不到格線，但整體構圖的對稱性（bilateral symmetry）和左側的焦點安排，讓人在三秒內就能認出這是一個「熱帶」主題的標誌。設計師選擇將造型放在左側，可能是為了在水平排列的環境中（如店面招牌或包裝）更易識別。",
+        "so_what": "標誌的「造型」和「文字」不能分開：如果你想讓人一眼認出品牌，就別把標誌和文字分開設計，而是要讓它們成為一體，像這樣用「T」變成棕櫚樹，讓記憶更深刻。"
+      },
+      {
+        "lens": "message",
+        "body": "原文明確指出，這套識別系統的目標是將「熱帶」從「地點」（a destination）轉化為「感覺」（a feeling）——「溫暖、活力、放鬆、充滿能量」。在視覺上，這體現在三個層面：1. 色彩（Sunset Orange 和 Palm Frond Green）傳達「陽光和能量」；2. 棕櫚樹造型的「T」標誌象徵「熱帶」，但不限於地理位置；3. 寬體字體的「溫暖」感覺。標誌本身沒有直接寫出「熱帶果汁」，而是透過視覺元素讓人「感受」到這種能量。這種設計策略讓品牌不再只是「賣飲料」，而是「賣體驗」。",
+        "so_what": "品牌設計的目標不是「賣產品」，而是「賣感覺」：如果你想讓人買單，就別只說「這是熱帶果汁」，而是要讓他們「感受」到熱帶的陽光和能量，像這樣用顏色和造型來傳達。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了強調「熱帶感覺」而非「熱帶地點」，設計師犧牲了兩樣東西：1. 具體的熱帶景象（如海灘、椰子樹）被抽象化為「棕櫚樹 T」和兩種顏色；2. 字體選擇了寬體無襯線而非手寫或細體，這意味著犧牲了「個性化」的細節換取「廣泛親和力」。如果目標是「高級熱帶度假」，可能會選擇更複雜的插畫和更細緻的字體；但這家連鎖店的目標是「快餐體驗」，所以選擇了簡潔且易識別的視覺語言。",
+        "so_what": "設計總是有取捨：如果你想讓更多人認得出來，就別太過個性化；如果你想讓人感受到「能量」，就別用冰冷的顏色或複雜的造型，而是要用簡單的元素來傳達感覺。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一家連鎖店或產品，試著問自己：「這個設計在賣什麼？」如果它賣的是「產品」，你會看到具體的圖片和文字；但如果它賣的是「感覺」，你會看到顏色、字體和造型共同營造的氛圍。例如，一家咖啡店可能用深色調和細體字傳達「高級」，而這家果汁店用亮色和寬體字傳達「能量」。學會看「感覺」的設計，你就能更快理解品牌的真正意圖。",
+    "takeaway_designer": "當客戶說「我們需要一個熱帶主題」時，別直接想到椰子樹或海灘，而是問：「熱帶」對他們代表什麼感覺？是「陽光」還是「放鬆」？是「能量」還是「度假」？然後用兩三種顏色（如橘紅和綠色）、一個簡單的造型（如這裡的「棕櫚樹 T」），和一種能傳達感覺的字體（寬體無襯線），將抽象的概念具體化。這個案例的關鍵手法是：1. 用色彩和造型傳達「能量」而非「地點」；2. 將標誌和文字融為一體，強化記憶；3. 犧牲具體細節換取廣泛的識別性。",
+    "glossary": [
+      {
+        "term": "字腔",
+        "plain": "字母中間圍起來的那塊空白，像 o 和 e 中間的洞，它的大小決定字看起來鬆還是緊。"
+      },
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "無襯線",
+        "plain": "筆畫末端沒有收尾裝飾的字，看起來比較乾淨現代，手機介面幾乎都是這種。"
+      },
+      {
+        "term": "等寬",
+        "plain": "每個字佔一樣寬的字，程式碼編輯器用的就是這種。"
+      },
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "字尾（terminals）",
+        "plain": "字母筆畫末端的形狀，例如「n」的最後一筆是尖的還是圓的。"
+      }
+    ],
+    "concretes": [
+      "Palm Frond Green（原文提及，近似 #006400）",
+      "Sunset Orange（#FF9900）",
+      "寬體無襯線字體（wide sans-serif，字重 medium to bold，字腔高，字尾圓潤）",
+      "「棕櫚樹 T」標誌造型",
+      "米白色背景（#F2F0EB）"
+    ],
+    "source_url": "https://www.printmag.com/branding-identity-design/palm-trees-sunshine-and-a-fresh-look-for-tropical-smoothie-cafe/",
+    "source_name": "Print Magazine",
+    "published": "2026-09-18T17:37:59+00:00",
+    "image_url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/09/TSC_Logo_Primary_Wordmark.jpg?resize=1000%2C563&quality=89&ssl=1",
+    "image_fallback": "",
+    "credit": "圖片來源：Print Magazine．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "雨季時光",
+      "title_original": "Monsoon Hours",
+      "url": "https://www.behance.net/gallery/255876111/Monsoon-Hours",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/eb4eab255876111.Y3JvcCwxOTk5LDE1NjQsMCwxMzgx.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "2026 年設計思考的五個階段並非使用者介面設計流程",
+      "title_original": "The 5 Stages of Design Thinking Are Not the UX Design Process in 2026.",
+      "url": "https://medium.muz.li/the-5-stages-of-design-thinking-are-not-the-ux-design-process-in-2026-d52227367e8b?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*4KLck2XhLE-yrWv9_lQ07A.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Himkok RTD：探索 OlssønBarbieri 的新包裝設計",
+      "title_original": "Himkok RTD: Inside OlssønBarbieri's New Packaging Design",
+      "url": "https://abduzeedo.com/himkok-rtd-inside-olssonbarbieris-new-packaging-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_himkok-rtd-olssnbarbieri.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "2026 年 10 月機會：藝術家公開徵選、駐村計畫與補助",
+      "title_original": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
+      "url": "https://www.thisiscolossal.com/2026/09/october-2026-opportunities-for-artists/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2021/02/agnetun-6.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「大櫻桃」攝影師 Ksenia Mikhailova 作品",
+      "title_original": "“Big Cherry” by Photographer Ksenia Mikhailova",
+      "url": "https://www.booooooom.com/2026/09/28/big-cherry-by-photographer-ksenia-mikhailova/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Mikhailova1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "208 個可愛寶寶入侵威尼斯雙年展日本館",
+      "title_original": "208 Cool Babies Invade the Japan Pavilion at the Venice Biennale",
+      "url": "https://trendland.com/208-cool-babies-invade-the-japan-pavilion-at-the-venice-biennale/",
+      "image_url": "https://trendland.com/wp-content/uploads/2026/09/img5-artnewsjapan.jpg",
+      "image_fallback": "https://trendland.com/wp-content/uploads/2026/09/img5-artnewsjapan-770x578.jpg",
+      "source_name": "Trendland",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單公布！文創總處雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造競逐最高榮譽",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "即使 AI 也無法完美組裝 IKEA 家具—至少目前還不行",
+      "title_original": "Even AI can’t perfectly assemble Ikea furniture—yet",
+      "url": "https://www.fastcompany.com/91612548/ikea-ai-benchmark?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-28T11:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "這 9 個廚房用品是設計經典，Amazon 早鳥 Prime 大減價都有大折扣",
+      "title_original": "These 9 kitchen items are icons of design, and they all have big discounts in Amazon's early Prime Big Deals",
+      "url": "https://www.creativebloq.com/design/product-design/these-9-kitchen-items-are-icons-of-design-and-they-all-have-big-discounts-in-amazons-early-prime-big-deals",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-28T22:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "連續會議族的生產力解決方案",
+      "title_original": "Productivity for people with back to back meetings",
+      "url": "https://bit.ly/side-gra6",
+      "source_name": "Sidebar",
+      "published": "2026-09-28T07:09:00+00:00",
+      "region": "en"
+    }
+  ]
+}
