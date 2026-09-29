@@ -390,6 +390,14 @@ Sight Unseen (8/19)、品牌志 BrandInLabs (8/21)
 
 **完全不使用 AI 生成圖。** 對設計媒體來說，生成的封面是自傷。
 
+### 顯示：一律不送 Referer
+
+圖是直接熱連結到來源站。有些站開了防盜連，看到 Referer 是別的網域就擋
+（2026-09-25 Design Observer：Cloudflare 轉去 `__hp-blocked` 回 403），
+不帶 Referer 則照給。pipeline 抓圖本來就不帶，所以後台讀圖成功、前台卻破圖。
+前端所有 `<img>` 都經 `web/app.js` 的 `pic()` 產生，統一 `referrerPolicy = 'no-referrer'`；
+原圖 → feed 縮圖 → 透明圖（只留底色框）三段退路。
+
 影片：feed 裡幾乎拿不到，需從文章頁挖 YouTube / Vimeo embed。列為加分項，不列主力。
 
 ### 版權原則（四條，不可妥協）

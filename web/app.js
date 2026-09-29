@@ -54,6 +54,23 @@ function save() {
 const el = (t, c, x) => { const n = document.createElement(t); if (c) n.className = c; if (x) n.textContent = x; return n; };
 const esc = s => String(s ?? '');
 
+/* 圖全是外站的熱連結。有的站開了防盜連（例：Design Observer 的 Cloudflare），
+   看到 Referer 是我們的網域就轉去 __hp-blocked 回 403，不帶 Referer 則照給 ——
+   pipeline 抓圖本來就不帶，所以讀圖成功、上線卻破圖（2026-09-25）。
+   一律不送 Referer，所有 <img> 都從這裡生，別自己 el('img')。
+   退路：原圖 → feed 縮圖（fallback）→ 都載不到就換成透明圖，只留底色框，不露破圖示。 */
+const BLANK = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+function pic(src, fallback, loading) {
+  const n = el('img'); n.alt = ''; n.loading = loading; n.referrerPolicy = 'no-referrer';
+  let tried = !fallback;
+  n.onerror = () => {
+    if (!tried) { tried = true; n.src = fallback; return; }
+    n.onerror = null; n.src = BLANK;
+  };
+  n.src = src;
+  return n;
+}
+
 /* 選了分類之後，仍然是可以前後翻的那串日子。沒選＝全部。 */
 function navDays() {
   if (!active.size) return days.map(d => d.date);
@@ -122,10 +139,8 @@ function renderFeature() {
 
   if (d.image_url) {
     const fig = el('figure', 'figure');
-    const img = el('img'); img.alt = ''; img.loading = 'eager';
     // 原圖是把 CMS 尺寸後綴去掉猜出來的，不一定存在 —— 載不到就退回 feed 縮圖
-    if (d.image_fallback) img.onerror = () => { img.onerror = null; img.src = d.image_fallback; };
-    img.src = d.image_url;
+    const img = pic(d.image_url, d.image_fallback, 'eager');
     const cap = el('figcaption');
     cap.appendChild(el('span', null, d.credit || ''));
     const a = el('a', null, `原文：${esc(d.source_name)} ↗`);
@@ -211,10 +226,7 @@ function renderShowcase() {
   document.getElementById('showcase-n').textContent = `${rows.length} 件`;
   rows.forEach(it => {
     const a = el('a', 'card'); a.href = it.url; a.target = '_blank'; a.rel = 'noopener';
-    const img = el('img'); img.alt = ''; img.loading = 'lazy';
-    if (it.image_fallback) img.onerror = () => { img.onerror = null; img.src = it.image_fallback; };
-    img.src = it.image_url;
-    a.append(img, el('div', 'card__t', it.title), el('div', 'card__s', it.source_name));
+    a.append(pic(it.image_url, it.image_fallback, 'lazy'), el('div', 'card__t', it.title), el('div', 'card__s', it.source_name));
     box.appendChild(a);
   });
 }
@@ -271,12 +283,7 @@ function renderArchive() {
     a.href = `?d=${d.date}`;
     a.onclick = e => { e.preventDefault(); show(d.date, true); };
     if (now) a.setAttribute('aria-current', 'page');
-    if (d.image_url) {
-      const img = el('img'); img.alt = ''; img.loading = 'lazy';
-      if (d.image_fallback) img.onerror = () => { img.onerror = null; img.src = d.image_fallback; };
-      img.src = d.image_url;
-      a.appendChild(img);
-    }
+    if (d.image_url) a.appendChild(pic(d.image_url, d.image_fallback, 'lazy'));
     a.appendChild(el('div', 'card__t', d.title || d.date));
     const s = el('div', 'card__s');
     s.append(el('b', null, now ? '現在看的' : (CAT_LABEL[d.category] || '')),
