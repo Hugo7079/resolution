@@ -33,6 +33,8 @@
 from __future__ import annotations
 import json
 import re
+import unicodedata
+import urllib.parse
 
 from article import fetch_article
 from config import (CATEGORIES, CATEGORY_BOUNDARY_RULES, JARGON, JARGON_TERMS,
@@ -677,11 +679,69 @@ def _is_absence(text: str) -> bool:
     return bool(t) and bool(_ABSENCE_ONLY.match(t))
 
 
-def check_image_match(doc: dict, vision_notes: list[str]) -> tuple[str, str, str]:
+# 缺席的另一種寫法：矛盾欄寫得像矛盾，理由欄卻自己招了是「描述沒提到」。
+# 實測 09-24、09-27 那組日本工藝喇叭：圖上三個木喇叭、文章寫三款喇叭，
+# 矛盾欄是「圖上是木質音響，但作品明確提及三種工藝」，
+# 理由欄是「描述未明確提及特定工藝」—— 連兩次被這樣擋掉。
+_SAID_UNMENTIONED = re.compile(r"描述[中裡]?並?(?:未|沒有?)(?:明確)?(?:提及|提到|寫到|說明)")
+
+
+# 出版方自己替圖取的檔名
+# ======================
+# 比對模型對同一組圖文會翻來覆去：09-24 判 ArchDaily 深圳綠洲小學那張
+# 「藍穹頂和校園特徵不符」，09-26 同一篇同一張圖判 match 上了版面；
+# 09-27 判 BDP 上海研究園區不符，09-28 也是同一張上了版面。
+# 可是那兩張圖的檔名就寫著 shenzhen-futian-lvzhou-primary-school-ccdi-dongxiying-studio_3、
+# bdp-cttq-research-campus-shanghai-china —— 媒體替圖取的名字比小模型看圖猜的穩。
+#
+# 錨只能是「作品本身」（名稱／設計者／業主），不能是文章標題或網址：
+# 09-17 那篇週報的標題本來就列著好幾件，拿標題比，MAD 博物館那張圖一樣對得上。
+# 標題和網址只用來湊第二個字。
+_SLUG_NOISE = frozenset("""
+jpg jpeg png gif webp avif img image images photo photos pic hero lead cover
+thumb thumbnail feature featured medium large small full scaled crop cropped
+resize copy final web main header banner col exclusive min optimize ezgif com
+www uploads content media assets files original originals default sites
+dezeen archdaily designboom yanko wallpaper stylepark abitare smashing
+printmag colossal behance motionographer
+design designs designed designer studio studios architecture architects architect
+project projects the and for with from into its new how why what this that
+""".split())
+
+
+def _slug_words(text: str) -> set[str]:
+    """拆成拉丁字母的字：去重音、拆駝峰（MotionPlusDesign）、濾掉通用字。"""
+    s = unicodedata.normalize("NFKD", str(text))
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"([a-z])([A-Z])", r"\1 \2", s)
+    s = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1 \2", s)
+    return {w for w in re.findall(r"[a-z]+", s.lower())
+            if len(w) >= 3 and w not in _SLUG_NOISE}
+
+
+def _named_by_publisher(item: dict | None, doc: dict) -> list[str]:
+    """圖檔名裡跟這件作品對得上的字。空＝檔名幫不上忙（不代表不符）。"""
+    if not item or not item.get("image_url"):
+        return []
+    path = urllib.parse.unquote(urllib.parse.urlsplit(item["image_url"]).path)
+    img = _slug_words(" ".join(path.rstrip("/").split("/")[-2:]))
+    subj = doc.get("subject") or {}
+    anchor = img & _slug_words(" ".join(str(subj.get(k) or "")
+                                        for k in ("name", "designer", "client")))
+    if not anchor:
+        return []
+    page = urllib.parse.unquote(urllib.parse.urlsplit(item.get("url", "")).path)
+    shared = anchor | (img & _slug_words(f"{item.get('title', '')} {page}"))
+    return sorted(shared) if len(shared) >= 2 else []
+
+
+def check_image_match(doc: dict, vision_notes: list[str],
+                      item: dict | None = None) -> tuple[str, str, str]:
     """
     回傳 (判定, 圖上實際是什麼, 理由)。
 
     只看第一則描述 —— 那是 item["image_url"]，也就是版面上真的會放的那張。
+    item 給了就多一道檔名比對（見 _named_by_publisher）。
     unchecked 是「沒比成」（沒有讀圖描述、呼叫失敗），不是模型說不確定。
     """
     # 空描述一定要在這裡擋掉：實測描述是空字串時，文字模型會自己
@@ -775,11 +835,21 @@ def check_image_match(doc: dict, vision_notes: list[str]) -> tuple[str, str, str
             excuse = "說不出圖上哪裡打架"
         elif _is_absence(contradiction):
             excuse = "理由是圖上沒拍到，不是矛盾"
+        elif _SAID_UNMENTIONED.search(f"{contradiction} {why}"):
+            excuse = "理由是描述沒提到，不是矛盾"
         elif _PARTIAL_ONLY.search(contradiction):
             excuse = "理由是只拍到局部，局部照算數"
         if excuse:
             verdict = MATCH_OK
             why = f"{excuse}（原判：{(contradiction or why)[:24]}）"
+
+    # 檔名就寫著這件 → 蓋過模型的判斷，連大類不同也蓋（室內案配一張燈具特寫是局部）。
+    # 人像例外：媒體常拿設計師肖像當首圖，檔名也帶設計師名字，
+    # 但那張圖上不是作品 —— 照它寫顏色材質，寫的就是人。
+    named = _named_by_publisher(item, doc) if verdict != MATCH_OK else []
+    if named and (ik != "人物肖像" or wk == ik):
+        verdict = MATCH_OK
+        why = f"圖檔名就是這件：{'、'.join(named[:4])}（原判：{(contradiction or why)[:24]}）"
 
     if verdict != MATCH_OK:
         # 這一關是最常擋掉整天的那一關，判不符時把判斷依據一起留在 log 裡，
@@ -901,7 +971,7 @@ def build_feature(item: dict, category: str | None = None,
             # 沒過不重寫 —— 文章怎麼改，版面那張圖都不會變。
             # 沒比成（unchecked）也不放行：圖文對不對得上是這一件最基本的要求，
             # 驗不了就換下一個，整天都驗不了就讓當天缺席、Actions 變紅。
-            verdict, shows, why = check_image_match(doc, vision_notes)
+            verdict, shows, why = check_image_match(doc, vision_notes, item)
             print(f"  圖文比對：{verdict}（圖上是：{shows or '—'}；{why}）")
             if verdict != MATCH_OK:
                 label = {MATCH_BAD: "圖文不符", MATCH_UNSURE: "看不出圖是不是這件",
