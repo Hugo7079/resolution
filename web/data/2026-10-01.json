@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-01",
+  "category": "product_object",
+  "feature": {
+    "title": "相機變魔術方塊：四種拍攝模式，每次拍照都是新體驗",
+    "subject": {
+      "name": "Polaroid Mod 即拍相機",
+      "designer": "Polaroid",
+      "client": "Polaroid",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3477,
+    "image_match": "match",
+    "image_shows": "懸掛的即時相機和貓",
+    "neurons_used": 39.1,
+    "hook": "這臺相機沒有螢幕，卻有四種拍攝模式，每種模式都像是把照片變成魔術方塊，拍出來的照片每次都不一樣。",
+    "what_it_is": "Polaroid Mod 是一臺即時相機，2026 年推出，價格 169.99 美元。它沒有數位螢幕，而是用實體旋鈕切換四種拍攝模式，讓使用者在拍照時就能直接體驗不同的視覺效果，而不需要後製軟體。這臺相機重量輕（1.15 磅），適合隨身攜帶，但每張底片價格高（19 美元，可拍 8 張）。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這臺相機採用注塑成型的塑膠外殼，表面採用啞光處理，手感細緻但不滑。相機重量輕（1.15 磅），比之前的 Polaroid 相機更輕便。旋鈕的材質看起來與機身一致，但觸感較為凹凸，方便手指辨識。這種設計讓使用者在黑暗環境中也能輕鬆切換模式，不需依賴螢幕。原文提到「dedicated dial」（專用旋鈕）強調實體操作的重要性，而非數位介面。",
+        "so_what": "這代表設計師選擇用實體旋鈕取代螢幕，讓使用者在拍照時不需看螢幕，就能專注在創作上，同時也降低了相機的複雜性。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "Polaroid Mod 放棄了數位螢幕和後製軟體，將創意模式直接融入相機的實體設計中。這意味著使用者無法預覽拍攝效果，也無法透過軟體調整參數。例如，Split Shot 模式需要使用者旋轉附件 180 度並拍攝兩次，才能合成一張照片；Motion Freeze 模式則需在暗環境中延遲閃光，捕捉動態效果。這些模式的設計犧牲了易用性，但換來的是「不可預測性」和「實體互動」的樂趣。原文提到「unpredictability」（不可預測性）是這臺相機的核心賣點。",
+        "so_what": "這表示設計師選擇用「不可預測」的體驗取代「精準控制」，讓使用者在拍照時能感受到驚喜，而不是追求完美的結果。"
+      },
+      {
+        "lens": "use",
+        "body": "這臺相機的四種模式分別是：Split Shot（將照片分成兩半，拍攝兩次合成）、Motion Freeze（延遲閃光捕捉動態）、Double Exposure（重疊兩張照片）、Light Painting（長時間曝光捕捉光線軌跡）。每種模式都需要使用者親自操作，例如旋轉附件、調整環境光線或手動繪製光線。例如，Light Painting 模式需要使用者在黑暗中移動光源，創造出抽象的光線軌跡。這些模式的設計讓使用者必須「慢下來」，並透過實體互動創造效果。原文提到「slow down, experiment and embrace the curiosity」（慢下來、實驗、擁抱好奇心）是這臺相機的核心理念。",
+        "so_what": "這表示使用者不僅是按下快門的人，也是參與創作過程的一部分，每次拍照都像是一次小實驗。"
+      },
+      {
+        "lens": "context",
+        "body": "Polaroid Mod 繼承了 Polaroid 即時相機的傳統，但加入了現代創意需求。傳統即時相機強調即時性和實體照片，而這臺相機則強調「創意模式」和「不可預測性」。例如，Double Exposure 模式讓使用者能像暗房技術一樣重疊照片，但不需專業設備。這種設計讓即時相機不再只是拍照工具，也成為了一種創意玩具。原文提到「analogue photography unique」（類比攝影的獨特性）是這臺相機的設計核心。",
+        "so_what": "這表示設計師將傳統即時相機的「即時性」與現代創意工具的「可玩性」結合，讓使用者能在拍照時就體驗到創意效果。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一臺相機或創意工具時，可以觀察它是否讓使用者「參與」創作過程，而不只是「操作」工具。例如，是否需要使用者親自調整環境、動作或時間，才能創造出效果？這臺 Polaroid Mod 相機的設計提醒我們，創意不一定要靠軟體後製，也可以透過實體互動和不可預測的過程來實現。",
+    "takeaway_designer": "在設計產品時，可以考慮將「創意模式」融入實體設計中，而不是依賴數位介面。例如，透過旋鈕、附件或環境互動，讓使用者在使用過程中感受到「不可預測性」和「參與感」。這種設計不僅能提升產品的趣味性，也能強化使用者的記憶和情感連結。",
+    "glossary": [
+      {
+        "term": "注塑成型",
+        "plain": "一種將熔融塑膠注入模具中，冷卻後形成固體物件的製造方法，常用於大量生產塑膠產品。"
+      },
+      {
+        "term": "啞光處理",
+        "plain": "表面處理方式，讓物件看起來不反光，手感較為細緻。"
+      },
+      {
+        "term": "長時間曝光",
+        "plain": "相機快門保持開啟狀態較長時間，讓光線持續照射底片或感光元件，用於捕捉動態光線或夜間景物。"
+      }
+    ],
+    "concretes": [
+      "注塑成型塑膠外殼",
+      "啞光表面處理",
+      "1.15 磅重量",
+      "四種拍攝模式（Split Shot、Motion Freeze、Double Exposure、Light Painting）",
+      "專用旋鈕（dedicated dial）",
+      "i-Type 底片（每張 19 美元，可拍 8 張）"
+    ],
+    "source_url": "https://www.yankodesign.com/2026/09/30/polaroid-mod-point-and-shoot-camera-brings-unpredictability-back-into-play-with-four-creatives-modes/?utm_source=rss&utm_medium=rss&utm_campaign=polaroid-mod-point-and-shoot-camera-brings-unpredictability-back-into-play-with-four-creatives-modes",
+    "source_name": "Yanko Design",
+    "published": "2026-09-30T14:20:17+00:00",
+    "image_url": "https://www.yankodesign.com/images/design_news/2026/09/polaroid-mod-point-and-shoot-camera-brings-unpredictability-back-into-play-with-four-creatives-modes/Polaroid-Mod-Point-and-Shoot-Camera-4.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Yanko Design．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Alfa Romeo Edizione Luna Rossa",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/256228211/Alfa-Romeo-Edizione-Luna-Rossa",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/38f26d256228211.Y3JvcCw3Mjg2LDU2OTgsMjU5NiwxOTgz.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "每月設計精選：2026年9月",
+      "title_original": "Pixels of the Month: September 2026",
+      "url": "https://medium.muz.li/pixels-of-the-month-september-2026-523535282ae5?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1920/1*BCWVeVAD3DWMzG-61Ch6ow.jpeg",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Voluta：探索Tiago Araujo的新視覺識別設計",
+      "title_original": "Voluta: Inside Tiago Araujo's New Visual Identity",
+      "url": "https://abduzeedo.com/voluta-inside-tiago-araujos-new-visual-identity/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_voluta-branding-visual-identity-tiago-araujo.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Eddy Firmin 以挑釁性雕塑探討歷史與殖民力量",
+      "title_original": "Eddy Firmin Interrogates History and Colonizing Forces in Provocative Sculptures",
+      "url": "https://www.thisiscolossal.com/2026/09/eddy-firmin-sculptures-installation-colonization-knowledge/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/09/firmin-6.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：Ella Webber",
+      "title_original": "Artist Spotlight: Ella Webber",
+      "url": "https://www.booooooom.com/2026/09/30/artist-spotlight-ella-webber/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Webber1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Louis Vuitton、Porsche與Singer在巴黎打造最狂野的911車款",
+      "title_original": "Louis Vuitton, Porsche and Singer Just Built the Wildest 911s in Paris",
+      "url": "https://trendland.com/louis-vuitton-porsche-and-singer-just-built-the-wildest-911s-in-paris/",
+      "image_url": "https://trendland.com/wp-content/uploads/2026/09/photo-10-1-770x1026.jpg",
+      "image_fallback": "",
+      "source_name": "Trendland",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "紐約市長 Mamdani 僱用一群「超市宅男」設計市屬市場",
+      "title_original": "Mayor Mamdani just hired a bunch of ‘grocery store nerds’ to design NYC’s city-owned markets",
+      "url": "https://www.fastcompany.com/91615853/nyc-owned-grocery-store-branding-agencies?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-09-30T19:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "現在可以用 ChatGPT 和 Claude 加速 Cinema 4D 的 3D 藝術創作",
+      "title_original": "You can now use ChatGPT and Claude to speed up 3D art in Cinema 4D",
+      "url": "https://www.creativebloq.com/ai/you-can-now-use-chatgpt-and-claude-to-speed-up-3d-art-in-cinema-4d",
+      "source_name": "Creative Bloq",
+      "published": "2026-09-30T16:14:50+00:00",
+      "region": "en"
+    },
+    {
+      "title": "AI 是一項無聊的科技",
+      "title_original": "AI is a boring technology",
+      "url": "https://www.chrbutler.com/ai-is-a-boring-technology",
+      "source_name": "Sidebar",
+      "published": "2026-09-30T04:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
