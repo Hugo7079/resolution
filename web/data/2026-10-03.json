@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-03",
+  "category": "visual_brand",
+  "feature": {
+    "title": "等待的人們：日曆裡的城市肖像，用兩種顏色講一個故事",
+    "subject": {
+      "name": "Die Wartenden 2027",
+      "designer": "Anna Eickhoff",
+      "client": "",
+      "year": ""
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 2752,
+    "image_match": "match",
+    "image_shows": "日曆插畫：維也納車站等待者肖像",
+    "neurons_used": 42.5,
+    "hook": "這本日曆沒有照片，只有兩種顏色和簡單線條：一個淡米色背景，像是素描紙；一個粉紅色塊，像是用水彩濕潤後的效果。每一頁都是一個等待的人，從維也納車站到斯德哥爾摩長椅，他們的手機、姿勢和表情，都被這兩種顏色「剪」出來。",
+    "what_it_is": "德國設計師 Anna Eickhoff 從 2019 年開始每年發行一本《等待的人們》日曆，收錄她在世界各地拍攝的等待者肖像。2027 年版本繼續這個主題，但加入了更多城市（如維也納、斯德哥爾摩、哥本哈根）和細節，比如手機螢幕的姿勢、行李箱的擺放。這本日曆有兩種尺寸，A6 版 10 歐元、A4 版 18 歐元，可以在她的網站購買。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "日曆的背景是統一的淡米色 (#F2F0EB)，類似手繪素描紙的質感，讓畫面看起來像是被剪貼在舊日記本上。每個人物則用兩種顏色區隔：深棕色 (#754975) 勾勒輪廓和陰影，粉紅色 (#FFC7CE) 填充臉部、手機螢幕或行李箱。粉紅色的飽和度很高，幾乎像是水彩濕潤後的效果，讓人物從背景中「浮」起來。原文提到她「用顏色和面積（farblich und flächig）凸顯人物」，這裡的「面積」指的是粉紅色塊的大小，讓視線無法忽視。例如圖上右頁的女性，手機螢幕被放大成粉紅色塊，但她的手卻放在腿上，形成視覺上的對比。",
+        "so_what": "當你想用顏色吸引注意力時，不一定要用鮮豔的色彩：一個高對比的單色塊，比如粉紅或黃色，放在中性背景上，也能讓東西「跳」出來。這裡的關鍵不在顏色本身，而在於它佔據的「面積」和「位置」——像是一個視覺的「重量」"
+      },
+      {
+        "lens": "layout",
+        "body": "每頁日曆的設計都採用「一個人物、一個場景」的格式，但人物的位置並不居中。例如圖上左頁的老人，他的腳和拐杖被放在頁面左下角，而身體則延伸到右上角，形成一條對角線。背景線條（可能是格線或是素描線）則是水平或垂直排列，形成一個「框架」，讓人物成為「畫中畫」。原文提到「在黑色線條背景下（vor schwarz linierten Hintergründen）」，這些線條可能代表車站的柱子、長椅的邊緣，或是城市的建築線條。日曆的日期和標題則被放在頁面的最下方，字體細小，不會干擾畫面。",
+        "so_what": "當你想讓一張圖或一個物件「動」起來時，可以試試把它「斜」著放：不對齊版心，不居中，讓它的邊緣形成一條線，比如對角線或是之字形。這樣的佈局不但能創造動感，還能讓人覺得這個東西「有生命」"
+      },
+      {
+        "lens": "message",
+        "body": "這本日曆的「文案」不在文字，而在於人物的選擇和排列。例如圖上右頁的女性，她的手機螢幕被放大成粉紅色塊，但她的手卻放在腿上，像是正在「休息」。這種細節暗示了現代人的矛盾：雖然手機佔據了生活，但等待的時候，人們仍然需要「放下」它。原文提到 Anna Eickhoff 專注於「等待者的姿勢、手機、和他們在這一瞬間的表情」，這些都是無聲的「故事」。日曆的標題「Die Wartenden in der Bahn in Wien」則直接點出場景，但文字本身並不多，不會分散注意力。",
+        "so_what": "有時候，一件設計不需要說太多話：只需要選擇幾個關鍵的細節，比如一個人的手勢、一個物件的位置，就能讓別人「看見」你想說的意思。這裡的「文案」不是文字，而是「畫面裡的取捨」"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這本日曆的設計選擇了「手繪風格」的線條和顏色，但犧牲了精確的比例和細節。例如人物的手機螢幕被簡化成粉紅色塊，而背景的線條雖然簡潔，但並不完全精確。這種風格讓日曆看起來像是「手工」製作，但實際上是數位繪圖的結果。如果目標是「簡單的視覺吸引力」，這種選擇是合理的；但如果目標是「精確的肖像」，這種風格就會顯得粗糙。原文提到她「用顏色和面積凸顯人物」，這意味著她願意犧牲細節，換取「視覺的重點」。",
+        "so_what": "當你在設計時，總是要做取捨：要麼追求精確的細節，要麼追求整體的「氣氛」。這本日曆選擇了後者，用簡單的線條和鮮明的顏色，讓人「一眼」就能抓住重點，而不是被細節分散注意力"
+      },
+      {
+        "lens": "context",
+        "body": "這本日曆屬於「觀察日記」的類型，類似於 19 世紀的素描集或是現代的街頭攝影集。但不同於傳統的日曆，它不強調「日期」或「功能性」，而是強調「人」和「場景」。在同類的日曆設計中，大多數會採用統一的字體、色彩和圖案，但這本日曆卻用「不同的人物」作為主角，每一頁都是一個獨立的故事。原文提到她「不區分等待者之間的差異」，這讓日曆的內容變得「普遍」而非「個別」。",
+        "so_what": "當你想設計一件東西時，可以問自己：「這件東西是要『記事』還是要『講故事』？」這本日曆選擇了後者，用「人」而不是「日期」作為主角，讓它成為一個「觀察的紀錄」而非單純的功能品"
+      }
+    ],
+    "takeaway_everyone": "下次你在車站或公車站等人時，試著觀察周圍的人：他們的手機螢幕在放什麼、他們的姿勢是緊張還是放鬆、他們的目光是望向遠方還是低著頭。這些細節不需要用文字說明，只需要用「一張圖」或「一個動作」就能讓別人「看見」你想表達的意思。比如，一個人坐在長椅上，手機放在膝蓋上，但目光卻望向窗外——這個畫面本身就能說明「等待」的複雜性。",
+    "takeaway_designer": "在設計時，如果你想用「顏色」或「佈局」來引導視線，可以參考這本日曆的手法：選擇一個「高對比」的單色塊（比如粉紅或黃色），並將它放在「非中心」的位置（比如對角線上），這樣能讓視線自然集中在這個區域。同時，在處理複雜場景時，可以犧牲一些細節（比如手機螢幕的精確顏色），換取整體的「可讀性」。這種方法特別適合用在海報、包裝或是日曆設計上。",
+    "glossary": [
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "飽和度",
+        "plain": "顏色有多鮮豔，從灰灰的到很濃的。"
+      },
+      {
+        "term": "面積（flächig）",
+        "plain": "指設計中某個顏色或形狀佔據的空間大小，讓視線自然集中在這個區域。"
+      },
+      {
+        "term": "背景線條",
+        "plain": "在圖片或設計中，用來輔助主題的線條，比如車站的柱子、長椅的邊緣，或是手繪的素描線。"
+      }
+    ],
+    "concretes": [
+      "粉紅色 (#FFC7CE)",
+      "深棕色 (#754975)",
+      "淡米色背景 (#F2F0EB)",
+      "對角線佈局（人物從左下延伸到右上）",
+      "手機螢幕被簡化成粉紅色塊",
+      "A6 和 A4 兩種尺寸（10 歐元和 18 歐元）",
+      "維也納、斯德哥爾摩、哥本哈根等城市場景"
+    ],
+    "source_url": "https://page-online.de/bild/kalender-2027-mit-wartenden-durchs-jahr-und-um-die-welt/",
+    "source_name": "PAGE Online",
+    "published": "2026-09-25T05:35:27+00:00",
+    "image_url": "https://page-online.de/app/uploads/2026/09/WartendeKalender27-12.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：PAGE Online．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "La Poste - NFTimbre 5",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/251333757/La-Poste-NFTimbre-5",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ef8ded251333757.Y3JvcCwxMDQ0LDgxNywxNDcsMA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Auren：探索 tubik 設計工作室的新 UI/UX 設計",
+      "title_original": "Auren: Inside tubik studio's New UI UX Design",
+      "url": "https://abduzeedo.com/auren-inside-tubik-studios-new-ui-ux-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_auren-tubik-studio.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Gaia Alari 的搖曳動畫是逐格繪製而成",
+      "title_original": "Gaia Alari’s Lilting Animations are Drawn Frame by Frame",
+      "url": "https://www.thisiscolossal.com/2026/10/gaia-alari-animation/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/alari-3.gif",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師 Christian Badach 的「河西」",
+      "title_original": "“West of the River” by Photographer Christian Badach",
+      "url": "https://www.booooooom.com/2026/10/02/west-of-the-river-by-photographer-christian-badach/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Badach1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "巴塞隆納與米蘭的舊空間變身新家、秋季最佳設計書籍及其他",
+      "title_original": "Old Spaces Become New Homes in Barcelona and Milan, the Best Fall Design Books, and More",
+      "url": "https://www.sightunseen.com/2026/10/old-spaces-become-new-homes-in-barcelona-and-milan-the-best-fall-design-books-and-more/",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/VialeMonza_1_2.jpg",
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/VialeMonza_1_2-728x597.jpg",
+      "source_name": "Sight Unseen",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "115年「學美．耕心—大專校院輔導諮商空間改造計畫」設計提案評選結果公告",
+      "title_original": "115年「學美．耕心—大專校院輔導諮商空間改造計畫」設計提案評選結果公告！",
+      "url": "https://www.tdri.org.tw/zh-TW/news/772",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-01T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "社群網路使用者操弄演算法保護康乃爾大學的「Jane Doe」",
+      "title_original": "Social media users are gaming the algorithm to protect Cornell’s Jane Doe",
+      "url": "https://www.fastcompany.com/91616898/social-media-users-are-gaming-the-algorithm-to-protect-cornells-jane-doe?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-02T14:00:52+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Amazon早鳥Prime Day大減價：適合初學者的多色3D列印機價格降低130美元",
+      "title_original": "The best multicolour 3D printer for beginners has $130 off in Amazon's early Prime Day sale",
+      "url": "https://www.creativebloq.com/3d/3d-printing/the-best-multicolour-3d-printer-for-beginners-has-usd130-off-in-amazons-early-prime-day-sale",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-02T17:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "當你能自己建造所有東西時會發生什麼事",
+      "title_original": "What happens when you can build it all yourself",
+      "url": "https://www.renatovaldes.com/essays/what-happens-when-you-can-build-it-all-yourself/",
+      "source_name": "Sidebar",
+      "published": "2026-10-02T09:03:28+00:00",
+      "region": "en"
+    }
+  ]
+}
