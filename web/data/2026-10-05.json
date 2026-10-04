@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-05",
+  "category": "product_object",
+  "feature": {
+    "title": "手錶機芯像拉滿的弓：瞬時跳秒的秘密在哪裡？",
+    "subject": {
+      "name": "Patek Philippe Ref. 5978P-010",
+      "designer": "Patek Philippe",
+      "client": "Patek Philippe",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5399,
+    "image_match": "match",
+    "image_shows": "鉑金腕錶、紅色布帶、紅線繡飾",
+    "neurons_used": 49.5,
+    "hook": "這只手錶的機芯像拉滿的弓，不是一點一點推動指針，而是把能量累積到某個時刻，瞬間釋放，讓日曆、秒針、計時器都在 0.03 秒內跳到下一個位置。",
+    "what_it_is": "Patek Philippe 在 2026 年推出的限量版手錶（僅 120 只鉑金版，售價 33 萬美元），結合手繞機芯與「瞬時永久日曆」功能。原本這種高級機械只出現在正式場合，但這次卻配上了潛水錶風的布帶和紅色配件，讓人意外。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這只手錶的機芯（型號 CH 29-535 PS QI）由 500 個零件組成，採用鉑金外殼（直徑 42 毫米、厚 14.24 毫米），並融合了兩種原本獨立的機械：一個 2009 年的計時器基座，加上另一款能在 0.03 秒內瞬時跳秒的日曆模組。外殼採用凹凸不平的「Calatrava」風格（參考 5208 系列），但配上了潛水錶常見的布質表帶（織布紋理），而非傳統的鱷魚皮。手錶表盤以深藍色 (#333333) 為主，配上紅色 (#FF0000) 的計時器針和白金鑲嵌的指標，讓人聯想到潛水錶而非正式場合的手錶。",
+        "so_what": "材質的選擇決定了手錶的「身分」——鉑金和機械結構讓它高級，但布帶和紅色配件卻讓它看起來運動感十足。這是設計師故意混合兩種不同世界的結果。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這只手錶的「瞬時跳秒」機制，犧牲了傳統日曆機芯在午夜逐漸推進的動態效果。原本日曆盤會在午夜時逐漸轉動，但這款手錶卻是將能量累積到某個時刻（類似拉滿的弓），然後瞬間釋放，讓所有指針（日、月、年、跳秒計時器）在 0.03 秒內同時跳到下一個位置。這樣的設計確保了精準性，但失去了傳統機械手錶在時間流逝中的「動態美感」。此外，為了配合這個機制，手錶內部沒有旋轉器（rotor），讓整個機芯結構能透過蓋子看到，但也意味著手錶必須手動上繞（而非自動上繞），增加了使用者的維護成本。",
+        "so_what": "設計師在這裡選擇了「精準」而非「動態」，讓手錶在功能上更可靠，但在觀賞性上可能較為單調。這是許多高級機械手錶常見的取捨：追求完美的機械表現，還是保留傳統的動態魅力？"
+      },
+      {
+        "lens": "context",
+        "body": "Patek Philippe 過去的手錶（如 1518 系列）通常採用黑金色調，配上正式的鱷魚皮表帶，象徵高級時尚。但這次的 5978P-010 卻採用深藍 (#333333) 和紅色 (#FF0000) 的配色，並配上布質表帶，讓人聯想到潛水錶（如 Aquanaut 系列）。這是 Patek Philippe 第一次將「運動感」融入到高級機械手錶中。原文提到，這只手錶是為了米蘭展覽（Watch Art Grand Exhibition）量身打造，表盤上的日曆文字甚至用意大利文（如「SAB」代表星期六），而表帶上也有意大利國旗色彩的縫線，強調了當地文化。",
+        "so_what": "這只手錶不只是機械的創新，更是品牌形象的實驗：高級機械手錶是否可以脫離傳統的正式風格，融入運動感？答案是肯定的，但前提是要找到兩者之間的平衡點。"
+      },
+      {
+        "lens": "use",
+        "body": "這只手錶的機芯設計讓所有指針（日曆、秒針、計時器）在瞬間跳動，避免了傳統機械手錶在午夜時逐漸轉動的模糊狀態。這樣的設計確保了使用者在任何時間都能立即讀取時間，而不必等待指針移動到下一個位置。此外，手錶的表盤採用白金鑲嵌的指標（dauphine hands）和發光塗層，提高了夜間可讀性。但同時，手動上繞的設計可能增加了使用者的維護成本，因為需要定期手動上繞以保持機芯運作。",
+        "so_what": "這只手錶的設計考慮了「實用性」——瞬時跳秒讓時間讀取更快速，但犧牲了部分傳統機械手錶的「動態美感」。設計師在這裡選擇了「功能優先」，而不是「觀賞優先」。"
+      }
+    ],
+    "takeaway_everyone": "下次看到手錶時，可以留意它的「機芯動作」——有些手錶的指針是一點一點移動（如傳統機械手錶），有些則是瞬間跳動（如數位手錶或這款 Patek Philippe）。這不只是設計差異，更關係到手錶的「精準性」和「觀賞性」之間的取捨。同時，手錶的表帶和配色也能透露它的「身分」——是正式場合的配件，還是運動休閒的選擇。",
+    "takeaway_designer": "在產品設計中，材質和機械結構的選擇會影響使用者的「感知」和「體驗」。這款手錶展示了如何將兩種截然不同的風格（高級機械 + 潛水錶）融合，並透過機芯設計（瞬時跳秒）強化產品的「實用性」。設計師可以參考這個案例，思考如何在產品中平衡「傳統」和「創新」、以及如何透過機械結構（而非單純外觀）提升使用者體驗。",
+    "glossary": [
+      {
+        "term": "Calatrava 風格（Calatrava-style）",
+        "plain": "Patek Philippe 手錶外殼的一種設計風格，採用凹凸不平的線條，類似哥特式建築的細節。"
+      },
+      {
+        "term": "dauphine hands",
+        "plain": "手錶指針的一種設計，採用細長的三角形或菱形形狀，常見於高級手錶中。"
+      },
+      {
+        "term": "rotor（旋轉器）",
+        "plain": "手錶機芯中的一個零件，能自動上繞發條，但這款手錶為了展示機芯結構而移除了它。"
+      }
+    ],
+    "concretes": [
+      "CH 29-535 PS QI（機芯型號）",
+      "#333333（深藍色表盤）",
+      "#FF0000（紅色計時器針）",
+      "42 毫米（手錶直徑）",
+      "14.24 毫米（手錶厚度）",
+      "布質表帶（織布紋理）",
+      "28,800 振動/小時（機芯頻率）",
+      "SAB（表盤上的意大利文星期六）",
+      "米蘭展覽限定版（120 只鉑金版）"
+    ],
+    "source_url": "https://www.yankodesign.com/2026/10/04/after-15-years-patek-philippe-returns-with-a-hand-wound-chronograph-that-stores-energy-like-a-bow/?utm_source=rss&utm_medium=rss&utm_campaign=after-15-years-patek-philippe-returns-with-a-hand-wound-chronograph-that-stores-energy-like-a-bow",
+    "source_name": "Yanko Design",
+    "published": "2026-10-04T20:45:20+00:00",
+    "image_url": "https://www.yankodesign.com/images/design_news/2026/10/652112/patek_philippe_5978p_chronograph_1.jpeg",
+    "image_fallback": "",
+    "credit": "圖片來源：Yanko Design．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Piega",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/256523233/Piega",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/13ea09256523233.Y3JvcCwyODQxLDIyMjIsNjI1LDI1Mw.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Watermelon Pictures 品牌視覺設計解析",
+      "title_original": "Inside the Watermelon Pictures brand identity by One Design",
+      "url": "https://abduzeedo.com/inside-watermelon-pictures-brand-identity-one-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_61.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "我們的首次繪畫展覽",
+      "title_original": "Our very first painting exhibition",
+      "url": "https://www.behance.net/gallery/249266497/Our-very-first-painting-exhibition",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/a0a630249266497.Y3JvcCwyODAwLDIxOTAsMCw4NTk.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Mix Interiors 品牌視覺設計精粹",
+      "title_original": "Mix Interiors Brand Identity Is a Masterclass by Marçal Prats",
+      "url": "https://abduzeedo.com/mix-interiors-brand-identity-masterclass-marcal-prats/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero-1600_1.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "TEKarrc",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1847",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1847/thumb_2x_image_2c3064.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "世界亂成一團。讓我們預訂一次郵輪之旅！",
+      "title_original": "The world is a mess. Let’s book a cruise!",
+      "url": "https://www.fastcompany.com/91616748/the-world-is-a-mess-lets-book-a-cruise?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-04T10:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "我參觀了 Lucas 敘事藝術博物館，它不只是關於《星際大戰》",
+      "title_original": "I visited the Lucas Museum of Narrative Art, and it's not just about Star Wars",
+      "url": "https://www.creativebloq.com/art/traditional-art/i-visited-the-lucas-museum-of-narrative-art-and-its-not-just-about-star-wars",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-04T13:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "用 Wispr Flow 省時（輸入速度提升 4 倍）",
+      "title_original": "Save time with Wispr Flow (4x faster than typing)",
+      "url": "https://bit.ly/side-wis1",
+      "source_name": "Sidebar",
+      "published": "2026-10-05T04:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
