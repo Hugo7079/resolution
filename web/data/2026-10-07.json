@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-07",
+  "category": "space_env",
+  "feature": {
+    "title": "「設計不是看的，而是用的」——博物館內院變成花園，讓參觀者走進幕後",
+    "subject": {
+      "name": "Design Museum Gent 新館及整修工程",
+      "designer": "Carmody Groarke 與 ATAMA",
+      "client": "Design Museum Gent",
+      "year": "2026"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5000,
+    "image_match": "match",
+    "image_shows": "城市建築群及水面",
+    "neurons_used": 16.2,
+    "hook": "這個博物館的內院原本是被遺忘的通道和空地，現在變成了開放的花園，讓參觀者不只「看」設計，還能「走進」幕後。",
+    "what_it_is": "根特設計博物館在 2026 年重新開放，由 Carmody Groarke 和 ATAMA 團隊設計新館，並整修原有的 18 世紀建築 Hotel de Coninck。他們將原本被遺棄的內院改造成花園，並新增六個功能區（如工作坊、講堂、藝品處理區），讓設計不只是被動觀賞，而是主動參與的空間。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "新館的設計將原本被遺棄的內院（courtyard）改造成博物館的「心臟」，並以此為中心規劃六個功能區：地下的藝品處理區（讓參觀者看到幕後）、一樓的 Stadskamer（接待與商店）、Forum（講堂）、Atelier（工作坊）、Vitrine（臨時展覽），最後到四樓的 Loft（活動空間）。這些區域依照「歡迎、開放、可變」三原則排列，例如藝品處理區雖在地下，卻設計成讓人「看得到」的空間，打破傳統博物館的「神秘感」。原文提到，新館的磚塊尺寸與歷史建築一致，但使用了「Gent Waste Brick」（由當地垃圾製成的石灰磚），減少環境負擔。",
+        "so_what": "設計空間時，別只管「看起來」好看，還要管「用起來」是否方便。這裡的「六個區域」不是為了分類，而是為了讓人「流動」並「參與」——例如，從接待區到工作坊再到展覽，每個步驟都在邀請你「做」什麼。"
+      },
+      {
+        "lens": "material",
+        "body": "新館使用了「Gent Waste Brick」（根特廢棄物磚），這是一種用當地建築廢料經石灰固化而成的磚塊，不需要高溫燒製，減少碳排放。原文提到，這種磚塊的顏色和質感與歷史建築的磚塊相呼應，但材質卻是全新的可持續解決方案。此外，整修過程盡量重複使用舊材料，例如保留原有的內部結構，並改善隔熱和通風系統。這種「材料的故事」讓參觀者不只看到設計，還能感受到「如何做到」的過程。",
+        "so_what": "設計時，材料不只是「看起來」的問題，還關係到「做起來」的環境和成本。這裡的磚塊不是單純的建材，而是一種「可持續」的設計宣言，讓人看得到「環保」是如何實踐的。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這個設計犧牲了「傳統博物館的神秘感」，換來的是「參與感」。例如，原本的內院過去被南側通道和閒置土地佔據，現在變成了博物館的「心臟」——一個可供參觀的花園。這樣的改變讓空間更「開放」，但也可能讓一些「純粹展示」的收藏品失去「專屬空間」。此外，新館的磚塊雖然環保，但成本可能比傳統磚塊高，且生產過程需要更多時間監控。如果目標換成「最快速完成」，這些選擇就不成立。",
+        "so_what": "設計時，每個決定都有代價。這裡選擇「開放」而不是「神秘」，選擇「環保」而不是「便宜」，這些取捨決定了空間的「性格」——例如，內院變花園讓人「走進」幕後，但可能讓某些展品失去專屬空間。"
+      }
+    ],
+    "takeaway_everyone": "下次你走進一個空間（比如博物館、圖書館或咖啡廳），試著留意：這個地方是讓你「看」還是讓你「用」？例如，如果博物館的展品後臺對參觀者開放，那它就不是單純的「展示」，而是「體驗」。這個案例顯示，設計不只是「好看」，而是讓空間「發生」什麼事——比如，內院變花園不只是美化，而是邀請你「走進」幕後。",
+    "takeaway_designer": "在設計「第三空間」（如博物館、共享工作室、社區中心）時，可以參考以下三個具體手法：1. 功能區串聯：將空間分成「歡迎→開放→可變」的流線，讓使用者自然流動（例如：接待→工作坊→展覽→活動空間）。2. 材料敘事：選用當地可持續材料（如廢棄物磚），並強調其「來源與過程」（例如：公開生產流程）。3. 打破神秘感：將幕後區域（如藝品處理區）設計成可見的空間，讓使用者感受「如何運作」。這三點可以幫助設計不只是「展示」，而是「參與」。",
+    "glossary": [
+      {
+        "term": "Gent Waste Brick",
+        "plain": "用根特當地建築廢料經石灰固化而成的磚塊，不需要高溫燒製，減少碳排放。"
+      },
+      {
+        "term": "內院（courtyard）",
+        "plain": "建築中間的開放空間，通常用於通風或休憩。這裡被設計成博物館的「心臟」。"
+      },
+      {
+        "term": "六個功能區",
+        "plain": "新館依照「歡迎、開放、可變」原則規劃的六個區域：藝品處理區（幕後）、Stadskamer（接待）、Forum（講堂）、Atelier（工作坊）、Vitrine（臨時展覽）、Loft（活動空間)。"
+      }
+    ],
+    "concretes": [
+      "DE40（40 位根特居民民意小組）",
+      "六個功能區（藝品處理區、Stadskamer、Forum、Atelier、Vitrine、Loft）",
+      "Gent Waste Brick（石灰固化廢棄物磚，#6B7A44 近似顏色）",
+      "「歡迎、開放、可變」三原則",
+      "Hotel de Coninck（18 世紀歷史建築）"
+    ],
+    "source_url": "https://www.archdaily.com/1186376/design-museum-gent-reopens-with-new-wing-by-carmody-groarke-and-atama",
+    "source_name": "ArchDaily",
+    "published": "2026-10-06T05:30:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/6ac4/0948/90e2/9d01/89d2/e18f/medium_jpg/design-museum-gent_21.jpg?1791232558",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "徹底美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "鳥類",
+      "title_original": "Birds",
+      "url": "https://www.behance.net/gallery/252403987/Birds",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/9a16df252403987.Y3JvcCw1NzQsNDQ5LDMxNCw0MDI.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "探索Zelt的工藝：Cuberto的網路設計",
+      "title_original": "Inside the Craft of Zelt: Web Design by Cuberto",
+      "url": "https://abduzeedo.com/inside-craft-zelt-web-design-cuberto/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_zelt-website-design-cuberto.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "漢娜·林以英新雕塑式鼻煙壺詮釋雙重文化遺產",
+      "title_original": "Hannah Lim Draws on Her British-Singaporean Heritage in Sculptural Snuff Bottles",
+      "url": "https://www.thisiscolossal.com/2026/10/hannah-lim-sculptures-snuff-bottles/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/lim-4.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師Jason Travis的「完美一擊」",
+      "title_original": "“Bang-Up Job” by Photographer Jason Travis",
+      "url": "https://www.booooooom.com/2026/10/05/bang-up-job-by-photographer-jason-travis/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Travis1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "創造節：品牌設計",
+      "title_original": "So:tvorenie. Festival branding",
+      "url": "https://www.behance.net/gallery/256188757/Sotvorenie-Festival-branding",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/5f48d1256188757.Y3JvcCw1MDUwLDM5NTAsMCww.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "水水水源——踅踅水源 · 集水水！",
+      "title_original": "水水水源——踅踅水源 ‧ 集水水！",
+      "url": "https://www.tdri.org.tw/zh-TW/news/773",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-06T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Hark 如何設計出真正有用的 AI 助理",
+      "title_original": "How Hark designed an AI assistant that’s actually helpful",
+      "url": "https://www.fastcompany.com/91618831/how-hark-designed-an-ai-assistant-thats-actually-helpful?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-06T16:15:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "2026 年最驚艷的低於 200 美元耳機剛降價 20% 至 152 美元",
+      "title_original": "One of the most impressive sub-$200 earphones of 2026 just got reduced by 20% to $152",
+      "url": "https://www.creativebloq.com/tech/headphones-earbuds/one-of-the-most-impressive-sub-usd200-earphones-of-2026-just-got-reduced-by-20-percent-to-usd152",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-06T22:06:29+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Prompting 作為自畫像",
+      "title_original": "Prompting as self-portrait",
+      "url": "https://www.doc.cc/humankind/self-portrait",
+      "source_name": "Sidebar",
+      "published": "2026-10-06T07:43:38+00:00",
+      "region": "en"
+    }
+  ]
+}
