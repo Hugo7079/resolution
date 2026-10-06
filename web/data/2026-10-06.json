@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-06",
+  "category": "space_env",
+  "feature": {
+    "title": "用藍色牆面調節陽光，讓燈光設計不被「淹沒」",
+    "subject": {
+      "name": "Federico Stefanovich 工作室改造（Edificio Humboldt 內）",
+      "designer": "Federico Stefanovich 與 Nama Studio",
+      "client": "",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 4180,
+    "image_match": "match",
+    "image_shows": "木架子、桌椅和「exclusive」字樣",
+    "neurons_used": 45.2,
+    "hook": "這間工作室用多層藍色牆面調節陽光，讓燈光設計不必與外面的光源競爭—— 同時保留原建築的鐵窗、陽臺，又加入現代的「層疊藍」色調，讓展示區成為燈光作品的專屬舞臺。",
+    "what_it_is": "墨西哥城中心一棟 1922 年建造的歷史建築「Edificio Humboldt」原本是旅館，現在是藝文空間。燈光設計師 Federico Stefanovich 與 Nama Studio 將其中一間陽臺房改造成自己的工作室、展示空間和製作車間。他們保留了原建築的鐵窗、陽臺和木質細節，但加入了自訂的藍色牆面（類似礦物風化的質感）、黃色纖維板隔間（半透明，像和紙），以及手工調色的家具，讓空間既有歷史感又能展現他的燈光設計風格。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "這間工作室的藍色牆面不是單一色塊，而是由多層近似 #4A6B8A 和 #2E5A7D 的藍色調混合而成，表面呈現「風化」質感，像是經過時間侵蝕的礦物。設計師說這種顏色「有深度和變化」，而不是單一的平面色塊。為了避免陽光直射讓燈光設計「淹沒」在自然光中，他們在原本透明的窗戶前加裝了這種藍色的背景板，讓燈光作品在展示時有獨立的「舞臺」。牆面的藍色與室內家具的巧克力色調（chocolate-toned plaster）和木材的棕色（brown-stained wood）形成對比，但又不至於過於強烈，讓空間保持平衡。",
+        "so_what": "當你想展示某樣東西時，背景顏色不只是「不刺眼」—— 它要幫助主角「出鏡」。這裡的藍色牆面不是單純的襯託，而是「調節光線」的工具，讓燈光設計不必與外面的陽光競爭。"
+      },
+      {
+        "lens": "material",
+        "body": "除了顏色，材質的選擇也直接影響空間的「可讀性」。原建築的鐵窗和陽臺被精心保留，但新增的家具和牆面採用了混合材質：藍色牆面是多層油漆層疊而成，黃色的纖維板隔間（fibreglass panels）則像是日本和紙（washi paper）般半透明，讓光線能穿透但不完全透明。這些纖維板還被設計成可滑動的門，藏起工作車間裡的實用家具（如膠合板桌、MDF 板和鋼架儲物櫃）。設計師說這些材質「手工感十足」，與他設計的燈光作品（如 Salina Collection 系列）中的纖維板材質呼應，讓整個空間成為一個「統一的語言」。",
+        "so_what": "材質不只是「看起來好看」，它決定了空間的「功能」和「故事」。這裡的纖維板不只是隔間，還是「連結」—— 它與燈光作品的材質對話，又能藏起不美觀的車間區域，一舉兩得。"
+      },
+      {
+        "lens": "layout",
+        "body": "進入工作室後，訪客會先經過一個有展示櫃的座椅區，然後進入主空間。主空間的設計採用「中軸線」原則：一端是休息區（配有設計師自製的半圓形沙發），另一端是長桌展示區。藍色牆面並非完整覆蓋整面牆，而是在窗戶處中斷，形成「節奏感」，讓歷史建築的鐵窗和新增的牆面之間產生對話。這種「斷續」的設計不僅是視覺上的變化，也讓自然光能均勻分佈，避免某些區域過於明亮或陰暗。此外，可滑動的纖維板隔間將工作車間與展示區分開，但又不完全隔絕，保持空間的流動性。",
+        "so_what": "一間空間的「流程」決定了你會先看到什麼、再看到什麼。這裡的設計不只是「擺東西」，而是「引導視線」—— 從入口的展示櫃，到主空間的沙發區，再到長桌的燈光展示，每一步都像是為了讓你「發現」設計師的作品而設。"
+      },
+      {
+        "lens": "use",
+        "body": "這間工作室的實際使用體驗分為三個區域：展示區（供客戶參觀）、工作車間（供製作）、和休息區（供設計師使用）。進入後，訪客會先被引導到展示區，透過藍色牆面和長桌的設計，燈光作品能在自然光下仍然「出鏡」。工作車間則被纖維板隔間隱藏，但半透明的材質讓光線仍能流通，避免空間感過於封閉。休息區的沙發和窗戶設計則讓設計師能在工作間隙享受陽臺的視野。整體來說，空間的設計考慮了「展示」、「製作」和「休息」三種不同的使用場景，但每個區域的功能又不至於過於明顯，保持了整體的「統一感」。",
+        "so_what": "一間空間的「用起來」感覺決定了它是否真正「有用」。這裡的設計不只是「好看」，還考慮了「參觀者」的視覺體驗、「設計師」的工作流程，以及「作品」的展示需求。例如，藍色牆面不是單純的裝飾，而是「解決問題」的工具。"
+      }
+    ],
+    "takeaway_everyone": "下次你參觀一間展覽或工作室時，試著觀察這些細節：牆面的顏色是否在「調節光線」？材質是否在「講故事」？空間的「流程」是否在引導你「發現」某些東西？例如，如果一間展覽的背景顏色過於明亮，可能會「淹沒」主角；如果材質過於統一，可能無法與作品對話。設計不只是「好看」，而是「解決問題」—— 這間工作室用顏色、材質和佈局「解決」了燈光設計展示時的「光線競爭」問題。",
+    "takeaway_designer": "當你設計一個展示空間時，可以參考這些具體手法：1. 背景顏色的功能性：選擇顏色時，不只是「襯託」主角，而是要「調節環境光線」，讓作品在自然光下仍然「可見」。例如，這裡的藍色牆面不僅是裝飾，也是「光線過濾器」。2. 材質的「對話」：使用與作品相呼應的材質（如纖維板），但同時考慮其「實用性」（如可滑動的隔間）。3. 空間的「流程設計」：從入口到展示區再到休息區，每一步都應該有明確的「引導」和「目的」。",
+    "glossary": [
+      {
+        "term": "軸線",
+        "plain": "貫穿空間的一條主要方向線，人會不自覺沿著它走。"
+      },
+      {
+        "term": "纖維板（fibreglass panels）",
+        "plain": "一種輕質、半透明的合成材料，像是塑膠和玻璃纖維的混合體，常用於隔間或裝飾，這裡被設計成可滑動的門，既能遮擋又能透光。"
+      },
+      {
+        "term": "巧克力色調（chocolate-toned plaster）",
+        "plain": "類似巧克力色的淺棕色調，用於牆面或家具，讓空間有溫暖但不刺眼的質感。"
+      },
+      {
+        "term": "和紙（washi paper）",
+        "plain": "日本傳統的紙張，質地薄且半透明，這裡的纖維板隔間被設計成類似的質感，讓光線能穿透但不完全透明。"
+      }
+    ],
+    "concretes": [
+      "層疊藍（近似 #4A6B8A 和 #2E5A7D，風化質感）",
+      "可滑動纖維板隔間（半透明，類似和紙質感）",
+      "巧克力色調牆面（chocolate-toned plaster）",
+      "1922 年建造的 Edificio Humboldt（歷史建築，保留鐵窗和陽臺）",
+      "Salina Collection（Federico Stefanovich 的燈光設計系列）"
+    ],
+    "source_url": "https://www.dezeen.com/2026/09/23/nama-studio-federico-stefanovich-studio-1920s-mexico-building/",
+    "source_name": "Dezeen",
+    "published": "2026-09-23T14:00:24+00:00",
+    "image_url": "https://static.dezeen.com/uploads/2026/09/stefanovich-studio-nama-mexico-city-lighting_dezeen_2364_sq.jpg",
+    "image_fallback": "https://static.dezeen.com/uploads/2026/09/stefanovich-studio-nama-mexico-city-lighting_dezeen_2364_sq-411x411.jpg",
+    "credit": "圖片來源：Dezeen．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "創造：品牌設計節",
+      "title_original": "So:tvorenie. Festival branding",
+      "url": "https://www.behance.net/gallery/256188757/Sotvorenie-Festival-branding",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/5f48d1256188757.Y3JvcCw1MDUwLDM5NTAsMCww.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "斯塔萬格冰酒：OlssønBarbieri 包裝設計",
+      "title_original": "Stavanger Ysteri: OlssønBarbieri Packaging Design",
+      "url": "https://abduzeedo.com/stavanger-ysteri-olssonbarbieri-packaging-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_stavanger-ysteri-olssnbarbieri.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "哥倫布前古代考古學遇上科幻：Max Lehman 的奇特雕塑",
+      "title_original": "Pre-Columbian Archaeology Meets Science Fiction in Max Lehman’s Quirky Sculptures",
+      "url": "https://www.thisiscolossal.com/2026/10/max-lehman-ceramic-sculptures/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/lehman-1.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「完美一擊」攝影師 Jason Travis 作品",
+      "title_original": "“Bang-Up Job” by Photographer Jason Travis",
+      "url": "https://www.booooooom.com/2026/10/05/bang-up-job-by-photographer-jason-travis/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Travis1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "OTZ LAB",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/256658949/OTZ-LAB",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/3ebd99256658949.Y3JvcCwyMzI2LDE4MTksMzk3LDE4OQ.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "以設計力塑造外交場域：從葛瑪榮文化中心到PIF專屬服裝回應國際交流現場",
+      "title_original": "以設計力形塑外交場域：從葛瑪榮文化中心到PIF專屬服裝回應國際交流現場",
+      "url": "https://www.tdri.org.tw/zh-TW/news/774",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-05T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Elon Musk 因特朗普言論將重新品牌化其3個月大的公司",
+      "title_original": "Elon Musk is going to rebrand his 3-month-old company because Trump says so",
+      "url": "https://www.fastcompany.com/91618420/elon-musk-spacexai-rebrand?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-05T19:45:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "早鳥Prime Day Apple優惠撤銷今年大漲價格，Mac最多折扣200美元",
+      "title_original": "Early Prime Day Apple deals just rewound this year's big price hikes with up to $200 off Macs",
+      "url": "https://www.creativebloq.com/tech/laptops/early-prime-day-apple-deals-just-rewound-this-years-big-price-hikes-with-up-to-usd200-off-macs",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-05T22:54:14+00:00",
+      "region": "en"
+    },
+    {
+      "title": "用Wispr Flow省時（輸入速度是打字的4倍）",
+      "title_original": "Save time with Wispr Flow (4x faster than typing)",
+      "url": "https://bit.ly/side-wis1",
+      "source_name": "Sidebar",
+      "published": "2026-10-05T04:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
