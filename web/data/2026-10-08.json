@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-08",
+  "category": "interface_ux",
+  "feature": {
+    "title": "十月桌面圖：用一張圖講一個場景的小故事",
+    "subject": {
+      "name": "Under Autumn’s Spell (October 2026 Wallpapers)",
+      "designer": "全球設計師團隊（包含 PopArt Studio、Ricardo Gimenes、Football Charts 等）",
+      "client": "Smashing Magazine",
+      "year": "2026"
+    },
+    "category": "interface_ux",
+    "category_label": "介面與體驗",
+    "confidence": 90,
+    "images_read": 1,
+    "article_chars": 5000,
+    "image_match": "match",
+    "image_shows": "「OCTOBER」秋季主題插畫文字設計",
+    "neurons_used": 34.5,
+    "hook": "這組桌面圖不只是背景，每張都像一個小場景：足球場的夜晚、萬聖節的燭光街道、秋日清晨的咖啡。它們用圖形和顏色講故事，讓螢幕不再只是空白。",
+    "what_it_is": "Smashing Magazine 每年九月推出的免費桌面圖系列，由全球設計師自行創作，主題圍繞十月的季節特色（如萬聖節、秋天景色、運動賽事）。每張圖都有日曆版本，提供從 320×480 到 5120×2880 的解析度選項，讓用戶可以根據自己的螢幕尺寸選擇。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "這組桌面圖的顏色選擇非常明確，幾乎每張都以秋天的三原色（紅、橙、黃）為基礎，但調整明暗和濃淡來區分不同主題。《Coffee Weather》使用近似 #8B4513（深棕色）、#F5DEB3（米色）和 #D2B48C（咖啡色）的配色，營造溫暖的秋日早餐氛圍；而《Under The Floodlights》則採用深藍色（#000033）和淺灰（#808080）的低明度調色盤，讓人聯想到夜晚的足球場。從原文描述判斷，這些顏色都經過數位處理，並非印刷專色。",
+        "so_what": "顏色的明暗決定了一個畫面的「心情」。深棕色讓人想到咖啡的溫暖，深藍色則讓人想到夜晚的寧靜。下次看到一張圖時，可以試著找出「最亮的顏色」和「最暗的顏色」，看看它們傳達的情緒是否一致。"
+      },
+      {
+        "lens": "layout",
+        "body": "這組桌面圖的佈局設計非常靈活，沒有統一的格線，但每張都有明確的視覺焦點。《Under The Floodlights》將足球場的幾何圖形放在畫面左下角，留出右上角的空白給用戶的桌面圖示，形成非對稱佈局。《A Night Of Universal Magic And Joy》則將「OCTOBER」這個關鍵字放在畫面中心，周圍環繞著萬聖節的元素，形成放射狀的視覺焦點。從原文描述判斷，這些佈局都經過手動調整，確保主題元素不會被其他應用程式圖示遮擋。",
+        "so_what": "佈局不一定要對稱，但要有「主角」和「配角」。一張圖如果沒有明顯的「最先看見的東西」，就容易讓人覺得「雜亂」。下次整理桌面時，可以試著問自己：「如果只能保留一個元素，我會選哪個？」"
+      },
+      {
+        "lens": "message",
+        "body": "每張桌面圖都透過圖形和文字傳達十月的特定場景。《Under The Floodlights》用幾何圖形描繪足球場的夜晚，並標註「October football begins under the lights」，讓人聯想到運動賽事的開始。《Coffee Weather》則用一杯咖啡和落葉傳達秋日清晨的溫暖感。從原文描述判斷，這些圖形都經過簡化處理，確保在不同解析度下仍然可辨識。",
+        "so_what": "一張圖不需要說太多話，但要說清楚「這是什麼場景」。例如，一張有燈光和足球場的圖，讓人馬上知道「這是運動賽事的夜晚」。下次看到一張圖時，可以試著用一句話描述它的場景。"
+      },
+      {
+        "lens": "use",
+        "body": "這組桌面圖的實際使用場景是電腦或手機的背景圖，因此設計者特別注意了「解析度適配」和「文字可讀性」。每張圖都提供了從 320×480 到 5120×2880 的多種尺寸，確保用戶在不同螢幕上都能看到清晰的畫面。此外，文字（如「OCTOBER」）的大小和字重都經過調整，確保在縮小或放大時仍然可讀。原文提到這些圖片可以自由下載，但未明確提及檔案格式。",
+        "so_what": "桌面圖不只是「好看」，還要「適合放大或縮小」。下次調整手機相片時，可以試著問自己：「如果這張圖被放大或縮小，文字還看得清楚嗎？」"
+      }
+    ],
+    "takeaway_everyone": "下次看到一張桌面圖或手機壁紙時，可以試著從三個角度觀察它：1. 顏色是否讓人聯想到某個季節或情緒？例如，深棕色讓人想到秋天的咖啡，深藍色則讓人想到夜晚。2. 佈局是否有明確的「主角」？例如，一張圖如果把燈光和足球場放在左下角，就讓人知道「這是運動賽事的夜晚」。3. 這張圖在說什麼故事？例如，一張有咖啡和落葉的圖，可能在說「秋天的清晨」。設計不一定要複雜，但要有「故意」的選擇。",
+    "takeaway_designer": "在設計數位產品（如桌面圖、App 介面）時，可以參考這組作品的三個技巧：1. 顏色調整：降低明度可以讓畫面看起來「柔和」，提高對比度可以讓畫面「跳出來」。2. 佈局原則：非對稱佈局適合「呼吸空間」，對稱佈局適合「正式感」。3. 解析度適配：提供多種尺寸確保作品在不同螢幕上都能保持品質。此外，設計時要考慮「文字可讀性」，確保在縮小或放大時仍然清晰。",
+    "glossary": [
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "明度",
+        "plain": "顏色有多亮或多暗。"
+      },
+      {
+        "term": "專色",
+        "plain": "四色油墨調不出來、要另外單獨調的顏色，例如金色、螢光色。"
+      },
+      {
+        "term": "解析度（resolution）",
+        "plain": "圖片的畫素數量，例如 1920×1080 表示寬度有 1920 個點，高度有 1080 個點。"
+      },
+      {
+        "term": "非對稱佈局",
+        "plain": "東西擺得不對稱，但仍然有重點的佈局方式，讓畫面看起來不呆板。"
+      }
+    ],
+    "concretes": [
+      "#8B4513（深棕色）",
+      "#F5DEB3（米色）",
+      "320×480 到 5120×2880 的解析度選項",
+      "非對稱佈局（如《Under The Floodlights》）",
+      "「October football begins under the lights」"
+    ],
+    "source_url": "https://smashingmagazine.com/2026/09/desktop-wallpaper-calendars-october-2026/",
+    "source_name": "Smashing Magazine",
+    "published": "2026-09-30T13:30:00+00:00",
+    "image_url": "https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0fdda8cd-7c63-4b61-86f6-f3188d312aaf/oct-20-magical-october-preview-opt.png",
+    "image_fallback": "",
+    "credit": "圖片來源：Smashing Magazine．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "hibernation...",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/244465149/hibernation",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/fa9356244465149.Y3JvcCwxNjAxLDEyNTIsMTkwLDU1.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "排版的小黑裙：如何設計生技信任",
+      "title_original": "The Little Black Dress of Typography: How We Design for Biotech Trust",
+      "url": "https://medium.muz.li/the-little-black-dress-of-typography-how-we-design-for-biotech-trust-c41bafa204ab?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/0*MC_wJzIpbUT7eg9c.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Polestar 4：Lundgren+Lindqvist 海報設計",
+      "title_original": "Polestar 4: Lundgren+Lindqvist Poster Design",
+      "url": "https://abduzeedo.com/polestar-4-lundgrenlindqvist-poster-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_polestar-4-poster-series-lundgrenlindqvist.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "超過18,000種野生物種出現在Joel Sartore野心勃勃的「攝影方舟」（目前為止！）",
+      "title_original": "More Than 18,000 Wildlife Species Populate Joel Sartore’s Ambitious ‘Photo Ark’ (So Far!)",
+      "url": "https://www.thisiscolossal.com/2026/10/joel-sartore-photo-ark-national-geographic-animals-portraits-photography/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/photo-ark-7.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：Hannah Motzel Brown",
+      "title_original": "Artist Spotlight: Hannah Motzel Brown",
+      "url": "https://www.booooooom.com/2026/10/07/artist-spotlight-hannah-motzel-brown/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/08/Brown1-1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "水水水源——踅踅水源‧集水水！",
+      "title_original": "水水水源——踅踅水源 ‧ 集水水！",
+      "url": "https://www.tdri.org.tw/zh-TW/news/773",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-06T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Jaguar 終於推出新電動車。這是大家的看法",
+      "title_original": "Jaguar finally launched its new EV. Here’s what people are saying",
+      "url": "https://www.fastcompany.com/91619962/jaguar-finally-launched-its-new-ev-heres-what-people-are-saying?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-07T20:45:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "新 Microsoft Surface Ultra 專為跨領域創作者打造",
+      "title_original": "The new Microsoft Surface Ultra is literally built for multi-disciplinary creatives",
+      "url": "https://www.creativebloq.com/tech/laptops/the-new-microsoft-surface-ultra-is-literally-built-for-multi-disciplinary-creatives",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-07T19:38:16+00:00",
+      "region": "en"
+    },
+    {
+      "title": "不只是設計師的身分",
+      "title_original": "On being anything other than a designer",
+      "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
+      "source_name": "Sidebar",
+      "published": "2026-10-07T04:07:01+00:00",
+      "region": "en"
+    }
+  ]
+}
