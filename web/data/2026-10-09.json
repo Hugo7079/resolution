@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-09",
+  "category": "product_object",
+  "feature": {
+    "title": "桌下跑步機變成「運動伴侶」：它放棄跑者，專注在辦公室工作者的「走路」需求",
+    "subject": {
+      "name": "MERACH W60 Plus",
+      "designer": "MERACH",
+      "client": "MERACH",
+      "year": "2026"
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5000,
+    "image_match": "match",
+    "image_shows": "女人在家用桌下跑步機運動",
+    "neurons_used": 42.6,
+    "hook": "這臺跑步機不是給跑者設計的，而是專為辦公室工作者在家裡「走路」而生。它的 12 個坡度調整、隨步頻變化的彩色燈光和內建音箱，讓你在工作時不必放棄運動，甚至能變成一場「運動體驗」。",
+    "what_it_is": "MERACH W60 Plus 是一臺桌下跑步機，專為辦公室工作者設計，讓他們在家工作時能邊走路邊辦公。它有 12 個自動坡度調整、3.5 馬力無刷馬達、330 磅承重、隨步頻變化的彩色燈光和內建音箱，價格在 288 美元到 499.99 美元之間。這臺機器不只是健身器材，更像是一臺「運動伴侶」，讓你在家裡也能維持運動習慣。",
+    "angles": [
+      {
+        "lens": "tradeoff",
+        "body": "這臺跑步機的最大特色是「12 個自動坡度調整」，但這個設計明確放棄了跑者的需求。原文提到「speed range of 0.6 to 4.0 MPH」，最高速度僅約 6.4 公里/小時，遠低於一般跑步機的 8–12 公里/小時。MERACH 選擇限制速度，換取的是「辦公室工作者在家裡走路」的核心需求。如果目標是吸引跑者，這臺機器的設計就不成立。",
+        "so_what": "設計時總是要做取捨，這臺跑步機明確放棄了跑者，專注在「辦公室工作者」這個族群，讓人看見設計不是萬能的，而是要針對特定需求。"
+      },
+      {
+        "lens": "material",
+        "body": "這臺跑步機的機架採用「重型鋼材」，並通過 SGS 認證測試，承重達 330 磅（約 150 公斤）。原文提到「The heavy-duty steel frame doesn’t wobble under a real walking load」，表示它的穩定性遠高於一般桌下跑步機。此外，馬達採用「3.5 馬力無刷馬達」，壽命長達 15,000 小時，遠超過一般市面上的 300–800 小時。這些材質和工法的選擇，讓這臺機器不再是「一次性消耗品」，而是能長期使用的健身伴侶。",
+        "so_what": "材質和工法決定了產品的壽命和品質，這臺跑步機用鋼材和無刷馬達，讓它不再是「用完就丟」的產品，而是能陪伴你長久的健身夥伴。"
+      },
+      {
+        "lens": "use",
+        "body": "這臺跑步機的設計考慮到「辦公室工作者」的實際使用場景。例如，它的「16.5 英吋寬 × 41.3 英吋長」跑步帶（約 42 × 105 公分），比一般桌下跑步機寬 33%，讓使用者能更自然地走路，特別是身材較高或臀部較寬的人。此外，它的「12 個自動坡度調整」讓使用者可以在不調整設定的情況下，輕鬆切換運動強度。原文提到「Team USA heptathlete Annie Kunz」使用這臺機器進行「活動恢復和步數累積」，顯示它不僅適合辦公室工作者，也適合運動員的日常訓練。",
+        "so_what": "設計要考慮實際使用者的需求，這臺跑步機的寬度和坡度調整，讓不同身材和運動需求的人都能舒適使用，而不是只針對某一群人。"
+      },
+      {
+        "lens": "color",
+        "body": "從圖上判斷，這臺跑步機的顏色主要有四種：主色調是「近似 #F2F0EB 的米白色」，輔以「#6B7A44 的橄欖綠」和「#FF9900 的橘色」作為配色。原文提到「RGB 燈光」會根據步頻和音樂節奏變化，這種動態顏色不僅是視覺上的吸引，更是一種「運動反饋機制」，讓使用者在運動時能感受到「節奏和樂趣」。",
+        "so_what": "顏色和燈光不只是美觀，還能影響使用者的情緒和體驗，這臺跑步機的設計讓運動不再單調，而是能帶來視覺和心理上的愉悅。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一件產品時，可以觀察它是為誰設計的。例如，這臺跑步機明確放棄了跑者，專注在「辦公室工作者」這個族群。同時，也可以留意產品的材質和尺寸，例如鋼材和寬闊的跑步帶，這些決定了產品的實用性和舒適度。最後，注意顏色和燈光的變化，它們不只是美觀，還能影響使用者的情緒和體驗。",
+    "takeaway_designer": "在設計產品時，要明確目標族群，並做出相應的取捨。例如，這臺跑步機犧牲了跑者的需求，換取辦公室工作者的便利性。同時，材質和尺寸的選擇要考慮產品的實用性和舒適度，例如使用鋼材和寬闊的跑步帶。此外，顏色和燈光的設計要能帶來使用者的情緒和體驗，例如隨步頻變化的彩色燈光。最後，別忘了考慮產品的實際使用場景，讓不同身材和需求的人都能舒適使用。",
+    "glossary": [
+      {
+        "term": "RGB",
+        "plain": "螢幕發光混出顏色的方式（紅、綠、藍）。"
+      },
+      {
+        "term": "無刷馬達",
+        "plain": "一種沒有電刷的馬達，通常比有刷馬達更耐用、效率更高，但價格較貴。"
+      },
+      {
+        "term": "SGS 認證",
+        "plain": "由瑞士檢驗協會（Société Générale de Surveillance）頒發的產品品質和安全認證。"
+      },
+      {
+        "term": "RGB 燈光",
+        "plain": "可以混合紅、綠、藍三原色的燈光系統，能產生多種顏色和變化效果。"
+      },
+      {
+        "term": "承重",
+        "plain": "產品能承受的最大重量，通常以磅（lbs）或公斤（kg）為單位。"
+      }
+    ],
+    "concretes": [
+      "12 個自動坡度調整",
+      "3.5 馬力無刷馬達",
+      "330 磅承重",
+      "16.5 英吋寬 × 41.3 英吋長的跑步帶",
+      "#F2F0EB 的米白色主色調",
+      "隨步頻變化的彩色燈光系統"
+    ],
+    "source_url": "https://www.yankodesign.com/2026/10/04/merachs-new-w60-plus-walking-pad-boasts-12-incline-levels-rgb-lights-and-a-built-in-bluetooth-speaker/?utm_source=rss&utm_medium=rss&utm_campaign=merachs-new-w60-plus-walking-pad-boasts-12-incline-levels-rgb-lights-and-a-built-in-bluetooth-speaker",
+    "source_name": "Yanko Design",
+    "published": "2026-10-05T01:45:44+00:00",
+    "image_url": "https://www.yankodesign.com/images/design_news/2026/09/the-desk-treadmill-gets-a-serious-upgrade-12-incline-levels-rgb-lights-and-a-built-in-bluetooth-speaker/Merach-UltraWalk-W60-Plus.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Yanko Design．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Null Project Vol.1",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/256699129/Null-Project-Vol1",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/cf6e8b256699129.Y3JvcCwxODAwLDE0MDcsMCw0OTA.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "AI時代Figma是否過時？為何AI讓介面／使用者體驗階段更重要",
+      "title_original": "Is Figma Dead in the AI Era? Why AI Makes the UI/UX Phase More Important",
+      "url": "https://medium.muz.li/is-figma-dead-in-the-ai-era-why-ai-makes-the-ui-ux-phase-more-important-21279a950809?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/2600/0*_h3kRlWqX4L6U1lG",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "探索Reserva的工藝：Plau的字型設計",
+      "title_original": "Inside the Craft of Reserva: Typography Design by Plau",
+      "url": "https://abduzeedo.com/inside-craft-reserva-typography-design-plau/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_reserva-script-plau-design.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Woo Jin Joo 以纖維與拾得物塑造詭異雕塑，講述神話故事",
+      "title_original": "Woo Jin Joo Conjures Mythic Tales from Uncanny Sculptures of Fiber and Found Objects",
+      "url": "https://www.thisiscolossal.com/2026/10/woo-jin-joo-mixed-media-sculptures/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/joo-8.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家唐硕的「借來的歷史」",
+      "title_original": "“Borrowed History” by Artist Tang Shuo",
+      "url": "https://www.booooooom.com/2026/10/08/borrowed-history-by-artist-tang-shuo/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/10/Tang1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "116「城市美學 — 公共場域設計共創」徵選開跑，即日起開放申請！",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/777",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-08T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "大型科技公司為其AI代理人進行可愛化包裝",
+      "title_original": "Big Tech is cutewashing its AI agents",
+      "url": "https://www.fastcompany.com/91620091/big-tech-is-cutewashing-its-ai-agents?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-08T10:45:04+00:00",
+      "region": "en"
+    },
+    {
+      "title": "KeyShot 2026評測：快速、簡易3D渲染，並附有可能實用的AI工具",
+      "title_original": "KeyShot 2026 review: fast, easy 3D rendering and with AI tools you might actually use",
+      "url": "https://www.creativebloq.com/3d/keyshot-2026-review-fast-easy-3d-rendering-and-with-ai-tools-you-might-actually-use",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-08T17:03:41+00:00",
+      "region": "en"
+    },
+    {
+      "title": "代理人不需要記憶力，它們需要文件紀錄",
+      "title_original": "Agents don’t need memory. They need documentation.",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "source_name": "Sidebar",
+      "published": "2026-10-08T07:32:38+00:00",
+      "region": "en"
+    }
+  ]
+}
