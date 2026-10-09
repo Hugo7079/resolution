@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-10",
+  "category": "space_env",
+  "feature": {
+    "title": "波浪立方體：讓建築「動」起來的空間起伏設計",
+    "subject": {
+      "name": "Wave Cube",
+      "designer": "Scenic Architecture Office",
+      "client": "Shanghai Fengxian New City Construction and Development Co., Ltd.",
+      "year": "2025"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 90,
+    "images_read": 1,
+    "article_chars": 2676,
+    "image_match": "match",
+    "image_shows": "現代建築有綠色屋頂和大窗戶",
+    "neurons_used": 18.0,
+    "hook": "這棟建築的屋頂不是平的，而是像波浪一樣起伏，讓人在裡面走動時感受到空間的高低變化，像是進入真實的水波世界。",
+    "what_it_is": "這是上海的一座主題公園與文化中心，面積達 29700 平方公尺。設計團隊嘗試將波浪的形態轉化為建築語言，讓原本平面的空間變得有起伏感。設計概念來自「free cell」，結合科技與空間體驗，讓建築不再是靜態的盒子。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "建築外觀採用格線狀立方體結構，但屋頂卻呈現波浪狀起伏。從圖上可見，建築主體部分由重複的立方體單元組成，但屋頂線條並非水平，而是像波浪一樣上下變化。這種設計讓原本對稱的格線結構（類似電腦螢幕的網格）變得「活」起來。設計團隊在原文提到，他們希望打破建築與波浪之間的對比，讓空間不再是靜態的盒子。這種起伏的屋頂設計，讓人在走動時感受到空間的「呼吸」。",
+        "so_what": "建築的「擺放」不只是美觀，還能影響人在裡面的感受。這棟建築用波浪形狀打破了方方正正的格線，讓空間變得更有層次，像是把抽象的概念變成實實在在的走動體驗。"
+      },
+      {
+        "lens": "message",
+        "body": "這座建築的設計概念來自「波浪」的形態。原文提到波浪在文學與科學中既普遍又神秘，但人造建築卻難以直接比擬，因為建築通常是靜態的平面結構。設計團隊透過「free cell」方向，將波浪的連續起伏（如山水、屋頂聚落、細胞複製、資訊傳遞）轉化為建築語言。從圖上看，建築外觀呈現出格線狀的立方體結構，但屋頂與立面有明顯的波浪起伏，打破傳統的直線與平面感。這種設計不僅是視覺上的變化，更是邀請使用者「進入」波浪的空間體驗。",
+        "so_what": "設計不只是看起來好看，還能讓人在裡面感受到不同的空間氛圍。這棟建築像是把抽象的波浪概念，變成實實在在的走動體驗，讓人覺得自己在波浪裡面。"
+      },
+      {
+        "lens": "context",
+        "body": "這座建築屬於「主題公園與文化中心」，與傳統的辦公樓或住宅不同。在同類型的建築中，許多文化中心或公園設計強調開放性與互動性，例如迪士尼樂園的建築或上海的「東方藝術中心」。但 Wave Cube 的設計更進一步，將抽象的波浪概念具體化為空間體驗。設計團隊提到「surfers 進入海浪內部」的體驗，這種概念在建築中相當罕見。這棟建築不僅是文化中心，更像是一個「波浪主題樂園」，讓人在裡面感受到不同的空間故事。",
+        "so_what": "這棟建築不只是文化中心，更像是一個「主題樂園」，讓人在裡面感受到不同的空間故事。設計師透過波浪形狀，讓人覺得自己在波浪裡面，而不是只是看著波浪。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一棟建築，可以觀察它的屋頂、牆面或地板是否有「動態」的設計。例如，是否有起伏、彎曲或重複的形狀？這些細節可能不是為了好看，而是為了讓人在裡面感受到不同的空間氛圍。像 Wave Cube 這樣的設計，讓建築不再只是靜態的盒子，而是有「故事」的空間。",
+    "takeaway_designer": "在設計空間時，可以嘗試將抽象的概念（如波浪、水流、生物形態）具體化為結構或材質的選擇。例如，透過屋頂的起伏、牆面的彎曲，讓使用者在走動時感受到空間的「動態」。這種設計需要評估結構的可行性與成本效益，但能帶來獨特的使用者體驗。",
+    "glossary": [
+      {
+        "term": "網格",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "立面",
+        "plain": "建築物從正面看過去的樣子。"
+      },
+      {
+        "term": "free cell",
+        "plain": "一種建築設計概念，透過科技與空間體驗創造新的建築形式，類似於「自由細胞」的結構，強調動態與互動性。"
+      },
+      {
+        "term": "立方體結構",
+        "plain": "由重複的立方體單元組成的建築結構，類似電腦螢幕的網格，但這裡的立方體並非完全規則，而是有波浪狀的變化。"
+      }
+    ],
+    "concretes": [
+      "波浪狀屋頂",
+      "格線狀立方體結構",
+      "29700 平方公尺",
+      "Scenic Architecture Office",
+      "free cell 設計概念"
+    ],
+    "source_url": "https://www.archdaily.com/1039118/wave-cube-scenic-architecture-office",
+    "source_name": "ArchDaily",
+    "published": "2026-10-08T00:00:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/699f/943c/6e4f/1a01/8977/b429/medium_jpg/wave-cube-scenic-architecture-office_14.jpg?1772065903",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "潮汐雕塑？冰島",
+      "title_original": "TIDAL SCULPTURES ? Iceland",
+      "url": "https://www.behance.net/gallery/256833389/TIDAL-SCULPTURES-Iceland",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/70e327256833389.Y3JvcCwxNjAwLDEyNTEsMCwxNQ.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "人工智慧時代的使用者介面設計：為何更優質的產品需超越更好的介面",
+      "title_original": "UX Design in the AI Era: Why Better Products Need More Than Better Interfaces",
+      "url": "https://medium.muz.li/ux-design-in-the-ai-era-why-better-products-need-more-than-better-interfaces-b9505b9cc402?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*IMrvkLDKDurtDv8i0vUvQA.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "非瑜伽：品牌兄弟探索視覺識別設計",
+      "title_original": "Not Yoga: Brand Brothers Explores Visual Identity",
+      "url": "https://abduzeedo.com/not-yoga-brand-brothers-explores-visual-identity/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_not-yoga-brand-identity-brand-brothers.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Jonathan Knight 的冥想系列「呼氣」邀請我們放慢腳步並練習觀察",
+      "title_original": "Jonathan Knight’s Meditative Series ‘Exhale’ Invites Us to Slow Down and Practice Noticing",
+      "url": "https://www.thisiscolossal.com/2026/10/jonathan-knight-exhale-seascape-photographs/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/knight-8.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師 David Blakeman 的「今日萬物皆美」",
+      "title_original": "“Everything Is Beautiful Today” by Photographer David Blakeman",
+      "url": "https://www.booooooom.com/2026/10/09/everything-is-beautiful-today-by-photographer-david-blakeman/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Blakeman1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "116「城市美學 — 公共空間設計共創」徵選啟動，即日起接受報名！",
+      "title_original": "116「城市美學 — 公共場域設計共創」徵選開跑，即日起開放申請！",
+      "url": "https://www.tdri.org.tw/zh-TW/news/777",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-08T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Trump’s D.C. 拱門面臨新法律行動，最新訴訟相關資訊",
+      "title_original": "Trump’s D.C. arch is up against new legal action. What to know about the latest lawsuit",
+      "url": "https://www.fastcompany.com/91621416/trumps-d-c-arch-up-against-new-legal-action-know-about-latest-lawsuit?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-09T16:15:07+00:00",
+      "region": "en"
+    },
+    {
+      "title": "測試：Mac Studio M5 Max 宣稱成為 Apple 全系列電腦之王",
+      "title_original": "Tested: The Mac Studio M5 Max claims its crown as the best of all Apple computers",
+      "url": "https://www.creativebloq.com/reviews/tested-the-mac-studio-m5-max-claims-its-crown-as-the-best-of-all-apple-computers",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-09T19:11:59+00:00",
+      "region": "en"
+    },
+    {
+      "title": "AI 侵入式設計",
+      "title_original": "AI invasive design",
+      "url": "https://jovo.design/writing/ai-invasive-design",
+      "source_name": "Sidebar",
+      "published": "2026-10-09T07:32:19+00:00",
+      "region": "en"
+    }
+  ]
+}
