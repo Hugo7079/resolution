@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-12",
+  "category": "space_env",
+  "feature": {
+    "title": "陽臺旋轉成樓房的「垂直樹枝」結構",
+    "subject": {
+      "name": "Miramar Tower",
+      "designer": "OODA",
+      "client": "",
+      "year": "2025"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 1292,
+    "image_match": "match",
+    "image_shows": "對稱高樓、平頂、周圍樹木",
+    "neurons_used": 18.3,
+    "hook": "這棟大樓的陽臺不是平的，而是像樹枝一樣向上延伸，每層樓的陽臺都旋轉 360 度，讓住戶能夠看到不同的景色。",
+    "what_it_is": "這是葡萄牙波爾圖的一棟住宅建築，設計工作室 OODA 在 2025 年完成。它的設計重點在於每層樓的陽臺面積超過 200 平方公尺，並透過垂直樹枝狀的結構和旋轉設計，讓住戶能夠環視周圍景色。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "這棟大樓的設計核心是「垂直樹枝狀」的結構，原文提到「structuralist matrix with vertical dendriform section」。每層樓的陽臺不是平行排列，而是以旋轉的方式排列，形成一種視覺上的螺旋結構。從圖上判斷，建築物的中心線對稱，但陽臺的旋轉打破了傳統的水平對齊，讓每層樓的陽臺都像是獨立的觀景平臺。這種設計不僅增加了住戶的私密性，還讓整棟樓房在遠處看起來像一個旋轉的柱體。原文提到「apparent rotation and modelling of the terraces at 360 degrees」，強調了陽臺的設計在視覺和實體上的雙重效果。",
+        "so_what": "這種設計讓住戶不必走到樓梯間就能感受到不同的景觀，像是把整棟樓房變成一座可以環視的觀景塔。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了實現每層樓超過 200 平方公尺的陽臺面積，設計師採用了垂直樹枝狀的結構，這與傳統的方格網格設計不同。原文提到「By locating the building in the most central part of the plot, it ensures maximum spacing for all adjacent buildings」，表示這棟樓房在佈局上犧牲了與鄰近建築的緊密排列，以獲得更大的陽臺空間。這種設計雖然增加了陽臺的空間和視覺效果，但可能需要更複雜的結構支撐，並且在建造過程中增加成本。",
+        "so_what": "這棟樓房的設計選擇在於「犧牲緊密佈局來換取更大的陽臺空間」，這在傳統住宅設計中是一種創新。"
+      },
+      {
+        "lens": "context",
+        "body": "這棟大樓位於波爾圖，與附近的 Pasteleira Park 區域在比例和尺寸上相似，但設計概念完全不同。原文提到「similar to the buildings in Pasteleira Park to the north, in proportion and dimension, but otherwise completely distinctive in its concept approach」，表示這棟樓房在外觀上並沒有模仿周圍的建築風格，而是採用了獨特的垂直樹枝狀設計。這種設計在波爾圖這樣的城市環境中，能夠突顯出其獨特性，同時也與海景的環境相呼應。",
+        "so_what": "這棟樓房的設計不僅與周圍建築在比例上相似，更在概念上完全不同，成為城市景觀中的獨特地標。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一棟大樓時，可以觀察它的陽臺或外牆是否有特別的設計。例如，陽臺是否旋轉、是否有不同的形狀或結構，這些細節可能會影響到住戶的生活體驗。如果你注意到一棟樓房的設計與眾不同，可以想像住在裡面的人每天會看到什麼樣的景色，以及這些設計如何影響他們的日常生活。",
+    "takeaway_designer": "在設計住宅建築時，可以考慮打破傳統的格線化設計，透過垂直樹枝狀或旋轉的陽臺設計來增加住戶的視覺體驗。例如，可以嘗試將陽臺設計成非對稱或旋轉的形式，讓住戶能夠在不同樓層看到不同的景觀。同時，也要考慮結構支撐和成本問題，確保設計在實際使用中仍然可行。",
+    "glossary": [
+      {
+        "term": "網格",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "對齊",
+        "plain": "把元素的邊或中心線對到同一條線上。"
+      },
+      {
+        "term": "樹枝狀（dendriform）",
+        "plain": "形狀像樹枝一樣分支延伸，通常用來描述建築或結構的非線性設計。"
+      }
+    ],
+    "concretes": [
+      "每層樓超過 200 平方公尺的陽臺面積",
+      "垂直樹枝狀結構（dendriform section）",
+      "360 度旋轉的陽臺設計",
+      "波爾圖 Pasteleira Park 區域的建築比例參考"
+    ],
+    "source_url": "https://www.archdaily.com/1034516/miramar-tower-ooda",
+    "source_name": "ArchDaily",
+    "published": "2026-10-06T13:00:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/68da/8b6d/3df7/b301/8857/b383/medium_jpg/torre-de-miramar-ooda_24.jpg?1759153016",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Straykids × Do It",
+      "title_original": "Straykids ? Do It",
+      "url": "https://www.behance.net/gallery/256033581/Straykids-Do-It",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/60523a256033581.Y3JvcCw0MjY3LDMzMzcsMCwxNTEw.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "08 個設計師必看的標誌靈感網站",
+      "title_original": "08 Best Logo Inspiration Websites for Designers",
+      "url": "https://medium.muz.li/08-best-logo-inspiration-websites-for-designers-52db60e37f70?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*Qa0JAJh-eMx8navmMmDHwg.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "how cheeeeese 為 TGLF 重塑品牌識別",
+      "title_original": "How cheeeeese Reimagined Brand Identity for TGLF",
+      "url": "https://abduzeedo.com/how-cheeeeese-reimagined-brand-identity-tglf/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_3.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "吉祥物系列",
+      "title_original": "Mascot Collection",
+      "url": "https://www.behance.net/gallery/256830075/Mascot-Collection",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/24c54a256830075.Y3JvcCwxNjE2LDEyNjQsMCww.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "如何在 2026 年成為 AI 設計師",
+      "title_original": "How to Become an AI Designer in 2026",
+      "url": "https://medium.muz.li/how-to-become-an-ai-designer-2026-b77b7f844bf8?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*odChOsw2e7OFy8omIb0I5Q.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總處雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "它不是「AI」，也不是「超智慧」。那麼，它究竟是什麼？",
+      "title_original": "It’s not ‘AI,’ and it’s not ‘superintelligence.’ So, what is it?",
+      "url": "https://www.fastcompany.com/91621442/its-not-ai-and-its-not-superintelligence-so-what-is-it?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-10T11:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "「創意不是你下班後就結束的工作」：與 Chloé Templeman 的 5 個問題",
+      "title_original": "\"Creativity isn’t a job you clock out of\": 5 questions with Chloé Templeman",
+      "url": "https://www.creativebloq.com/features/creativity-isnt-a-job-you-clock-out-of-5-questions-with-chloe-templeman",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-11T11:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "讓你的會議發揮功效",
+      "title_original": "Put your meetings to work",
+      "url": "https://bit.ly/side-gra7",
+      "source_name": "Sidebar",
+      "published": "2026-10-12T03:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
