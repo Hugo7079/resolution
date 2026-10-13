@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-14",
+  "category": "space_env",
+  "feature": {
+    "title": "在拆除前的混凝土殼裡，木材與鋼鐵的雕塑如何重新定義空間",
+    "subject": {
+      "name": "GHOST BARSTAIRS: Temporary Hypotheses",
+      "designer": "{'architects': 'Sukchulmok', 'artist': 'Kangyeon Lee', 'spatial_intervention': 'BRBB'}",
+      "client": "",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5000,
+    "image_match": "match",
+    "image_shows": "白色金屬屋頂狀雕塑在木質牆前",
+    "neurons_used": 18.2,
+    "hook": "一棟即將拆除的混凝土建築，在拆除前被暫時「佔領」—— 設計師與藝術家用木材、鋼鐵與膠合板，在空無一物的殼裡重新編織出一個短暫的「假設性空間」。",
+    "what_it_is": "這是一場名為《GHOST BARSTAIRS》的展覽，由設計工作室Sukchulmok與藝術家Kangyeon Lee共同策劃，在韓國首爾一棟即將拆除的混凝土建築內進行。展覽利用建築的原始結構框架，結合實驗性家具、雕塑與臨時結構，探索「拆除前」與「重建後」之間的空白。參觀者可以走進這個即將消失的空間，體驗它的「未完成」狀態。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "展覽裡的每件作品都選擇了與混凝土建築結構形成對話的材質。Sukchulmok工作室在一樓中央設置了一個半圓形木材與鋼錐組合的「展示亭」，木材的質感（#A87F4C，類似於橡木）與鋼鐵的冷硬（#6B7A44，類似於深綠色金屬）形成鮮明對比。藝術家Kangyeon Lee則使用金屬與塑膠，創造出模糊的「匿名人物」形象，暗喻消費與遺忘的循環。而BRBB設計工作室在地下室使用膠合板（#F2F0EB，類似於白色）打造自支撐結構，這些板材被彎曲、傾斜，甚至「懸空」組合，看起來像是即將崩塌的碎片。這些材質的選擇不僅是視覺上的對比，更是對建築「殘骸」與「重生」的實體詮釋。",
+        "so_what": "原來材質不僅決定東西看起來怎麼樣，更能決定它「說」什麼—— 這裡的木材、鋼鐵與膠合板，每一種都像是建築過去與未來的「證人」。"
+      },
+      {
+        "lens": "layout",
+        "body": "展覽的佈局完全依附於建築的原始結構框架，但又不被它束縛。原本的牆壁痕跡（混凝土殘留的矩形空間）成為「天然的格線」，而光線從地下室穿透到頂樓，成為空間的「導引」。Sukchulmok的展示亭位於一樓中央，成為整個空間的「錨點」，而Kangyeon Lee的藝術作品則「漂浮」在各層樓的空間裡，像是被風吹散的碎片。BRBB的膠合板結構則完全不依賴原有的牆壁或通道，而是靠著彼此的「傾斜與支撐」自成系統。這種佈局讓參觀者無法一眼看盡整個空間，而是必須「走動」才能發現每一個細節。",
+        "so_what": "空間的設計不一定要「填滿」每一個角落，有時候「留白」與「不完整」才是最強的表達方式—— 這裡的佈局像是一場「未完成的對話」，等待你走進去補上缺口。"
+      },
+      {
+        "lens": "message",
+        "body": "展覽的標題《GHOST BARSTAIRS》暗示了三個關鍵詞：「幽靈」（GHOST，指消失的痕跡）、「吧檯」（BAR，指新的結構與邊界）、「樓梯」（STAIRS，指垂直的層次與移動）。這些詞在展覽裡被具體化：Kangyeon Lee的作品《Chickens》像是「消費循環」中的匿名角色，而BRBB的膠合板結構則像是「即將崩塌的碎片」。光線從地下穿透到頂樓，象徵著時間的流動與空間的「重生」。最重要的訊息不在文字，而在於「這個空間正在被重新定義」—— 它既不是過去，也不是未來，而是兩者之間的「假設」。",
+        "so_what": "有時候設計不需要明確的答案，只需要提出問題—— 這個展覽讓你感受到「即將消失」與「即將誕生」之間的緊張感，而這種感覺，正是城市變遷最真實的寫照。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了強調建築的「未完成」狀態，展覽刻意保留了混凝土結構的「生硬」質感，沒有進行任何裝修或美化。這意味著參觀者必須適應粗糙的地板、不穩定的光線，甚至是部分結構的「危險感」。然而，這種「不完美」卻成為展覽最大的優勢—— 它讓空間擁有了「即時性」與「真實感」，而不是一個精心打造的「展覽盒子」。換句話說，如果目標是打造一個「完美」的展覽空間，這個選擇就不成立；但如果目標是探索「拆除前的最後時刻」，這就是最直接的方式。",
+        "so_what": "有時候「不完美」才是最真實的表達—— 這個展覽選擇「不修飾」建築的原始狀態，讓每一個參觀者都能感受到時間的痕跡，而不是一個被包裝過的「完美」空間。"
+      },
+      {
+        "lens": "use",
+        "body": "參觀者進入展覽後，首先會被光線從地下穿透而來的「垂直通道」引導，然後必須在各層樓間「走動」才能發現不同的作品。Sukchulmok的展示亭位於一樓中央，成為「第一個焦點」，但藝術家的作品則分散在各個角落，需要「靠近」才能看清楚細節。BRBB的膠合板結構則完全不依賴傳統的「通道」設計，參觀者必須「繞行」才能理解它們的支撐邏輯。這種設計讓展覽成為一場「探索之旅」，而不是單純的「觀賞」體驗。",
+        "so_what": "好的空間設計不該是「被動」的觀賞，而是「主動」的探索—— 這裡的每一個角落都像是一個謎題，等待你走進去解開。"
+      }
+    ],
+    "takeaway_everyone": "下次在城市裡看到一棟即將拆除的建築，你可以試著問自己：「這個空間還有什麼故事沒被說出來？」有時候，最有意義的設計不是「建造」新的東西，而是「重新發現」已經存在的可能性。例如，你可以觀察：一個空無一物的房間，如果放進不同的家具或藝術品，會變成什麼樣子？一個即將消失的空間，如果被暫時「佔領」，會有什麼樣的對話發生？這些問題不需要專業知識，只需要一雙願意「看見」的眼睛。",
+    "takeaway_designer": "在處理即將拆除或即將重建的空間時，可以考慮以下手法：1. 利用原始結構框架作為設計的「骨架」，而不是完全覆蓋它；2. 選擇材質對話—— 例如，在混凝土建築裡使用木材與金屬，強調「過去」與「未來」的對比；3. 設計「不完整」的體驗—— 讓參觀者必須「走動」才能理解空間，而不是一眼看盡；4. 光線作為導引—— 透過自然光線創造「垂直」或「水平」的視覺通道，引導觀者的移動。這些手法不僅適用於展覽空間，也可以用在商店、辦公室或公共藝術裡，探索「暫時性」與「永續性」之間的平衡。",
+    "glossary": [
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "自支撐結構（self-supporting structures）",
+        "plain": "指不依賴外部支撐（如牆壁或柱子）的結構，完全靠自身形狀和材質穩定，例如BRBB的膠合板結構。"
+      },
+      {
+        "term": "匿名人物（anonymous figures）",
+        "plain": "指在藝術或設計中，用模糊或重複的形象代表「無名的群眾」，例如Kangyeon Lee的作品《Chickens》象徵消費循環中的普通人。"
+      }
+    ],
+    "concretes": [
+      "Sukchulmok工作室的半圓形木材與鋼錐組合展示亭",
+      "#A87F4C（類似於橡木色）與#6B7A44（類似於深綠色金屬）的材質對比",
+      "BRBB的膠合板結構（#F2F0EB，類似於白色）",
+      "從地下室穿透到頂樓的光線導引",
+      "Kangyeon Lee的藝術作品《Chickens》"
+    ],
+    "source_url": "https://www.designboom.com/art/sculptures-timber-steel-raw-concrete-shell-seoul-demolition-ghost-barstairs-temporary-hypotheses-sukchulmok-kangyeon-lee-brbb/",
+    "source_name": "designboom",
+    "published": "2026-10-12T18:10:04+00:00",
+    "image_url": "https://www.designboom.com/wp-content/uploads/2026/10/ghost-barstairs-temporary-hypotheses-exhibition-seoul-sukchulmok-kangyeon-lee-brbb-designboom-700-500x400-22b08q85r040.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：designboom．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "設計超越形式：與Further Ther的Tomás Fernandes及Natasza Grzeskiewicz對談",
+      "title_original": "Design Beyond Form: At Home with Tomás Fernandes and Natasza Grzeskiewicz of Further Ther",
+      "url": "https://www.ignant.com/2026/10/12/design-beyond-form-at-home-with-tomas-fernandes-and-natasza-grzeskiewicz-of-further-ther/",
+      "image_url": "https://www.ignant.com/wp-content/uploads/2026/10/ignant-furtherther-lisbon-clemens-poloczek-28.jpg",
+      "image_fallback": "https://www.ignant.com/wp-content/uploads/2026/10/ignant-furtherther-lisbon-clemens-poloczek-28-720x960.jpg",
+      "source_name": "Ignant",
+      "region": "de",
+      "category": null
+    },
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "驚悚真實故事",
+      "title_original": "Terrifying True Tales",
+      "url": "https://www.behance.net/gallery/256890111/Terrifying-True-Tales",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/cc464d256890111.Y3JvcCwxNDAwLDEwOTUsMCwxNDI.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "竊取我的設計流程：從構想到最終螢幕的過程",
+      "title_original": "Steal My Design Process: How I Go From Idea to Final Screen",
+      "url": "https://medium.muz.li/ux-design-process-idea-to-final-screen-0499f05ba9e5?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*oaJKpkE-t0ISKM6wfJo8-Q.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Ochi Design的工藝內幕：Obys工作室的網路設計",
+      "title_original": "Inside the Craft of Ochi Design: Web Design by Obys Agency",
+      "url": "https://abduzeedo.com/inside-craft-ochi-design-web-design-obys-agency/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_ochi-design-obys-agency.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "221個暗箱填滿Pneuhaus的沉浸式、可充氣、捕捉影像的裝置",
+      "title_original": "221 Camera Obscuras Fill Pneuhaus’ Immersive, Inflatable, Image-Capturing Installation",
+      "url": "https://www.thisiscolossal.com/2026/10/pneuhaus-compound-camera-3-inflatable-installation/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/pneuhaus-7.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師Eva Verbeeck的「美國女孩，夢想的邊緣」",
+      "title_original": "“America’s Girls, On the Edge of a Dream” by Photographer Eva Verbeeck",
+      "url": "https://www.booooooom.com/2026/10/13/americas-girls-on-the-edge-of-a-dream-by-photographer-eva-verbeeck/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Verbeeck1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "即將革命化公共空間的家具系列",
+      "title_original": "The furniture collection that’s about to revolutionize public spaces",
+      "url": "https://www.sightunseen.com/2026/10/the-furniture-collection-thats-about-to-revolutionize-public-spaces/",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/HBF-1.jpg",
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/HBF-1-728x570.jpg",
+      "source_name": "Sight Unseen",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "這個酷炫互動視覺論證：生成藝術始於洞穴",
+      "title_original": "This cool interactive visual argues that generative art began in a cave",
+      "url": "https://www.fastcompany.com/91619904/this-cool-interactive-visual-says-generative-art-began-in-a-cave?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-13T10:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "這款可攜式 SSD 讓 iPhone 影片拍攝升級，現正進行 150 美元折扣活動",
+      "title_original": "This tiny portable SSD that transforms iPhone videography has $150 off",
+      "url": "https://www.creativebloq.com/deals/this-tiny-portable-ssd-that-transforms-iphone-videography-has-usd150-off",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-13T18:07:50+00:00",
+      "region": "en"
+    },
+    {
+      "title": "設計的匯聚",
+      "title_original": "The convergence of design",
+      "url": "https://www.lukew.com/ff/2166/the-convergence-of-design",
+      "source_name": "Sidebar",
+      "published": "2026-10-13T07:39:13+00:00",
+      "region": "en"
+    }
+  ]
+}
