@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-13",
+  "category": "product_object",
+  "feature": {
+    "title": "一輛車可以變身，但座位不會消失",
+    "subject": {
+      "name": "Fiat Multiplay Concept",
+      "designer": "Fiat Inside",
+      "client": "Fiat",
+      "year": "2026（概念車，預計 2026 巴黎車展亮相）"
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3470,
+    "image_match": "match",
+    "image_shows": "綠色 Fiat 車頂置自行車架",
+    "neurons_used": 40.6,
+    "hook": "這輛車的後車廂可以滑動變形，變成皮卡車時座位不會消失，還能變出小桌子、寵物座椅、甚至是躺椅。",
+    "what_it_is": "Fiat Multiplay 是一輛概念車，設計團隊 Fiat Inside 為家庭出行與戶外活動量身打造。車身長 4.45 公尺，結合 MPV 空間、SUV 外型與皮卡載貨能力，核心創意是後車廂可滑動變形，滿足不同需求。例如：六座家用車模式、四座皮卡模式，甚至能變出寵物座椉、小桌子或存放自行車。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "車內採用「無縫 3D 編織」技術製成的單一材質布料（monomaterial textiles），減少廢料。車廂內部還有防水處理，特別針對小孩與寵物區域設計。外觀則以綠色車身（#008080）模仿西瓜皮，紅色與粉紅內飾則呼應西瓜果肉的色彩。車頂的自行車架可以旋轉，同時兼具裝飾功能。",
+        "so_what": "這代表設計不只是好看，還要考慮實用性：比如防水布料是為了家庭日常需求，而單一材質編織則是環保選擇。"
+      },
+      {
+        "lens": "layout",
+        "body": "後車廂採用「C-Pillar Metamorfosi」系統，可滑動變形。六座模式時，後排可放兩個小孩或一個成人；皮卡模式時，後車廂變成開放式貨臺，但前後座位依然保留。車內還有「Petsenger 座椅」，可拆卸座墊當作繫狗繩，門內藏有折疊碗。前排座椅更能轉向，變成躺椅模式（Sunseat），車頂全景天窗讓自然光進入車廂。",
+        "so_what": "這輛車的設計顛覆了「多功能車」的傳統觀念：它不只是空間變大，而是座位、儲物空間與娛樂功能都能隨需調整。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了變形功能，車身長度固定在 4.45 公尺，但犧牲了傳統皮卡車的長貨臺空間。同時，後車廂變形時需要滑軌導引，可能增加製造成本。不過，Fiat 選擇犧牲貨臺長度，換來的是「座位不會消失」的設計，讓家庭出行時仍能保留乘客空間。",
+        "so_what": "這個取捨顯示，設計時必須權衡「空間」與「功能」：如果只追求載貨量，可能需要放棄乘客空間；但如果只追求乘坐舒適，又可能無法滿足戶外活動的需求。"
+      },
+      {
+        "lens": "context",
+        "body": "這輛概念車延續 Fiat 1956 年的六座 Fiat 600 Multipla 與 1998 年的 Multipla 系列，但加入了現代科技與可變形設計。與傳統皮卡車或 MPV 比較，Multiplay 的創新在於「動態變形」而非靜態空間擴充。例如，傳統 MPV 可能只有後車廂可變，但 Multiplay 的前排座椅也能轉向變成躺椅，顯示 Fiat 更注重「生活場景」而非單純的空間利用。",
+        "so_what": "這輛車不是單純的「多功能車」，而是為「家庭生活場景」量身打造的解決方案，例如：週末郊遊時變皮卡載行李，平日通勤時變六座家用車，甚至能變出寵物座椅或小桌子。"
+      },
+      {
+        "lens": "use",
+        "body": "車內儲物設計細節包括：門內藏折疊碗、座椅可拆卸座墊當繫狗繩、彈性繩帶與口袋整理雜物。後車廂滑動變形時，可放置自行車、運動器材或大件行李，但前後座位依然保留。例如：皮卡模式時，後車廂變成開放式貨臺，但前後座位不會消失，適合家庭出遊時既載行李又載小孩。",
+        "so_what": "這輛車的設計顯示，實用性不只是「能放什麼」，還包括「如何方便使用」：例如折疊碗、可拆卸座墊等細節，都是為了讓家庭日常生活更便利。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一輛車或家具時，可以觀察它是否「只做一件事」或「能變出多種用途」。例如：一張桌子是否可以變成床、一個書架是否可以變成衣櫥？這輛 Fiat Multiplay 顯示，設計不只是「好看」或「大」，還要考慮「如何隨需調整」，讓同一件東西能滿足不同的需求。",
+    "takeaway_designer": "在設計可變形產品時，可以參考 Fiat Multiplay 的「模組化思維」：將產品分解為可動態調整的部件（如後車廂、座椅、儲物空間），並確保每個模組都有明確的實用功能。例如：座椅可拆卸座墊當繫狗繩、門內藏折疊碗等細節，都是將「廢料」轉化為「功能」。此外，材質選擇也要考慮「單一材質」與「防水處理」等實用需求。",
+    "glossary": [
+      {
+        "term": "monomaterial textiles",
+        "plain": "單一材質的布料，透過無縫 3D 編織技術製成，減少廢料並提高耐用性。"
+      },
+      {
+        "term": "C-Pillar Metamorfosi",
+        "plain": "Fiat 為 Multiplay 設計的後車廂變形系統，可滑動調整車廂布局，例如從六座家用車變成四座皮卡車。"
+      },
+      {
+        "term": "Sunseat",
+        "plain": "前排座椅可轉向的設計，變成躺椅模式，車頂全景天窗提供自然光。"
+      },
+      {
+        "term": "Petsenger 座椅",
+        "plain": "可調整的後車廂座椅，可放置小孩座椅、寵物或變成小桌子，座墊還能拆下當繫狗繩。"
+      },
+      {
+        "term": "3D 編織",
+        "plain": "不需要縫紉的編織技術，可以製造出複雜的形狀與結構，減少材料浪費。"
+      }
+    ],
+    "concretes": [
+      "4.45 公尺（車身長度）",
+      "#008080（綠色車身，模仿西瓜皮）",
+      "C-Pillar Metamorfosi（後車廂滑動變形系統）",
+      "Petsenger 座椅（可拆卸座墊、折疊碗、門內儲物）",
+      "Sunseat（前排座椅轉向變躺椅）",
+      "monomaterial textiles（單一材質 3D 編織布料）",
+      "六座家用車模式 / 四座皮卡模式（可變形布局）"
+    ],
+    "source_url": "https://www.yankodesign.com/2026/10/12/fiat-multiplay-concept-is-a-family-car-that-turns-into-a-pickup-when-more-space-is-needed/?utm_source=rss&utm_medium=rss&utm_campaign=fiat-multiplay-concept-is-a-family-car-that-turns-into-a-pickup-when-more-space-is-needed",
+    "source_name": "Yanko Design",
+    "published": "2026-10-12T18:20:46+00:00",
+    "image_url": "https://www.yankodesign.com/images/design_news/2026/10/fiat-multiplay-concept-is-a-family-car-that-turns-into-a-pickup-when-more-space-is-needed/Fiat-Multipla-Concept-4.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Yanko Design．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "設計超越形式：與Further Ther的Tomás Fernandes和Natasza Grzeskiewicz對談",
+      "title_original": "Design Beyond Form: At Home with Tomás Fernandes and Natasza Grzeskiewicz of Further Ther",
+      "url": "https://www.ignant.com/2026/10/12/design-beyond-form-at-home-with-tomas-fernandes-and-natasza-grzeskiewicz-of-further-ther/",
+      "image_url": "https://www.ignant.com/wp-content/uploads/2026/10/ignant-furtherther-lisbon-clemens-poloczek-28.jpg",
+      "image_fallback": "https://www.ignant.com/wp-content/uploads/2026/10/ignant-furtherther-lisbon-clemens-poloczek-28-720x960.jpg",
+      "source_name": "Ignant",
+      "region": "de",
+      "category": null
+    },
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "V.M.H品牌視覺設計",
+      "title_original": "V.M.H Brand Identity Design",
+      "url": "https://www.behance.net/gallery/256935659/VMHBrand-Identity-Design",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/54a1f8256935659.Y3JvcCwxMTkyLDkzMywxMDMsMA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "設計師如何現在運用AI，加上工具與五個提示",
+      "title_original": "How designers work with AI now, plus tools and five prompts.",
+      "url": "https://medium.muz.li/how-designers-work-with-ai-now-plus-tools-and-five-prompts-99fad685d38d?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/0*FULQ7H0BZOVQN24g.jpg",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Shake-it Mixer：探索OlssønBarbieri包裝設計",
+      "title_original": "Shake-it Mixer: Inside OlssønBarbieri Packaging Design",
+      "url": "https://abduzeedo.com/shake-it-mixer-inside-olssonbarbieri-packaging-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_shake-it-mixer-olssnbarbieri.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師Ryer Spann的「藍泉」",
+      "title_original": "“Blue Spring” by Photographer Ryer Spann",
+      "url": "https://www.booooooom.com/2026/10/12/blue-spring-by-photographer-ryer-spann/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Spann1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "即將革命化公共空間的家具系列",
+      "title_original": "The furniture collection that’s about to revolutionize public spaces",
+      "url": "https://www.sightunseen.com/2026/10/the-furniture-collection-thats-about-to-revolutionize-public-spaces/",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/HBF-1.jpg",
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/HBF-1-728x570.jpg",
+      "source_name": "Sight Unseen",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "徹底美學辭典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "The Trump administration just cut down a century’s worth of history at a D.C. golf course",
+      "title_original": "",
+      "url": "https://www.fastcompany.com/91622297/trump-administration-cut-down-trees-government-golf-course?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-12T19:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "所有串流平台最終都會播放廣告，以下是原因",
+      "title_original": "All streaming platforms will eventually run ads, and here’s why",
+      "url": "https://www.creativebloq.com/news/all-streaming-platforms-will-eventually-run-ads-and-heres-why",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-12T12:07:53+00:00",
+      "region": "en"
+    },
+    {
+      "title": "讓你的會議發揮功能",
+      "title_original": "Put your meetings to work",
+      "url": "https://bit.ly/side-gra7",
+      "source_name": "Sidebar",
+      "published": "2026-10-12T03:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
