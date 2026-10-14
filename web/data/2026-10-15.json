@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-15",
+  "category": "space_env",
+  "feature": {
+    "title": "黑色木板與白色時鐘：一座不像「標準規格」的板球場休憩室",
+    "subject": {
+      "name": "Dulwich Cricket Pavilion",
+      "designer": "Andy Matthews Studio",
+      "client": "Streatham & Marlborough Cricket Club",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5625,
+    "image_match": "match",
+    "image_shows": "黑木板建築帶時鐘和斜屋頂",
+    "neurons_used": 45.8,
+    "hook": "這座板球場休憩室用黑色木板和白色時鐘顛覆傳統白色建築，讓整座建築看起來像是「融入」自然的一部分，而不是突兀的「標準規格」建築。",
+    "what_it_is": "這是英國倫敦南部一座板球場休憩室，由 Andy Matthews Studio 設計，給 Streatham & Marlborough Cricket Club 使用。它是一座現代化的板球場休憩室，但採用傳統板球場的「單斜屋頂」設計，並用黑色木板和白色時鐘顛覆傳統白色建築的慣例。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "這座休憩室用了兩種顏色：黑色 (#000000) 和白色 (#FFFFFF)。黑色木板（日本焦燒落葉松）覆蓋整個建築外牆，與傳統板球場的白色建築形成鮮明對比。白色則專門用在時鐘上，形成視覺上的「亮點」。設計師 Andy Matthews 說，黑色能讓建築「融入」天空和景觀，看起來像是「自然的一部分」。這種顏色選擇不僅是視覺上的突破，也讓建築看起來更「低調」和「自然」。",
+        "so_what": "顏色不只是好看，還能讓建築「隱身」在環境裡，像是這座休憩室一樣，黑色讓它看起來像是「長久以來」就存在的自然景觀。"
+      },
+      {
+        "lens": "material",
+        "body": "建築外牆採用黑色日本焦燒落葉松木板，這種材質不僅耐候性強，還能隨時間變得更深沉。屋頂則是黑色波紋鋼板，與木板形成統一的黑色調性。設計師選擇「質感」而非「顏色」作為主要視覺元素，讓建築看起來更「自然」而非「工業化」。此外，建築內部採用大面積玻璃門，讓室內外空間連結，並提供觀看球場的視野。",
+        "so_what": "材質的選擇不僅影響外觀，還影響建築的「感覺」——黑色木板和鋼板讓它看起來更「接地」，而玻璃門則讓室內外空間「呼應」。"
+      },
+      {
+        "lens": "layout",
+        "body": "休憩室的設計採用「單斜屋頂」的傳統板球場形式，但被「拆分」並延伸成遮陽篷，形成入口和公共區域。這種設計不僅提供遮蔽，還創造了小型聚集空間。室內則是一個多功能廳，兩側有全高滑動玻璃門，讓室內能看到兩個球場。設計師將傳統板球場的「單斜屋頂」拆解重組，讓建築既「熟悉」又「新穎」。",
+        "so_what": "建築的「擺放」不只是功能性的，還能透過「拆解傳統形式」創造新的空間感受，像是這裡的遮陽篷和玻璃門設計。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這座休憩室犧牲了傳統板球場的「白色」和「簡單屋頂」設計，換來黑色木板和現代化的空間感。如果目標是「低成本」或「快速建造」，這種設計可能不會選擇高質感的木板和複雜的屋頂結構。但設計師認為，社區建築應該「專屬」而非「標準規格」，因此選擇了更高質感的材料和設計。",
+        "so_what": "設計總是有取捨，這裡選擇「高質感」而非「低成本」，讓建築看起來更「專屬」而非「通用」。"
+      },
+      {
+        "lens": "use",
+        "body": "這座休憩室不僅是板球場的功能空間，還設計成多用途場地，可以舉辦婚禮、派對、瑜伽課程等活動。室內的玻璃門和遮陽篷設計讓室內外空間連結，讓使用者能在室內觀看球場，也能在室外享受自然光。設計師強調，這種「靈活性」不僅提升使用體驗，還能為俱樂部帶來額外收入。",
+        "so_what": "一座建築不只是「用來做什麼」，還能「如何讓人使用」——這裡的設計讓休憩室變成「多功能」的社區空間。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一座建築，可以觀察它的「顏色」是否與環境融合，或者是否突兀；材質是否讓人感受到「自然」或「工業」的質感；空間是否「拆解」傳統形式創造新的體驗。例如，這座休憩室用黑色木板和白色時鐘顛覆傳統白色建築，讓它看起來更「自然」和「專屬」。",
+    "takeaway_designer": "在設計社區建築時，可以考慮以下手法：1. 選擇「顏色」和「材質」來強化建築與環境的關係（如黑色木板融入天空）；2. 拆解傳統形式（如單斜屋頂）並重組創造新的空間感受；3. 設計「多功能」空間，讓建築能產生額外收入；4. 使用高質感材料（如焦燒木板）提升建築的專屬性，即使預算有限。",
+    "glossary": [
+      {
+        "term": "單斜屋頂",
+        "plain": "一種只有一個斜面的屋頂，常見於傳統板球場或農舍設計。"
+      },
+      {
+        "term": "焦燒落葉松",
+        "plain": "一種經過高溫處理的木材，顏色深沉，耐候性強，常用於外牆或地板。"
+      },
+      {
+        "term": "遮陽篷",
+        "plain": "屋頂延伸出來的結構，用於遮擋陽光，同時創造室外聚集空間。"
+      },
+      {
+        "term": "滑動玻璃門",
+        "plain": "可以左右滑動的玻璃門，能開闊室內外空間，提供視野和通風。"
+      }
+    ],
+    "concretes": [
+      "黑色 (#000000) 和白色 (#FFFFFF)",
+      "日本焦燒落葉松木板",
+      "黑色波紋鋼板屋頂",
+      "單斜屋頂拆分並延伸成遮陽篷",
+      "全高滑動玻璃門",
+      "100 平方公尺（比原建築小）"
+    ],
+    "source_url": "https://www.dezeen.com/2026/10/14/dulwich-cricket-pavilion-andy-matthews-studio-streatham-marlborough/",
+    "source_name": "Dezeen",
+    "published": "2026-10-14T10:30:35+00:00",
+    "image_url": "https://static.dezeen.com/uploads/2026/10/dulwich-cricket-pavilion-andy-matthews-studio-streatham-marlborough_dezeen_2364_sq_7.jpg",
+    "image_fallback": "https://static.dezeen.com/uploads/2026/10/dulwich-cricket-pavilion-andy-matthews-studio-streatham-marlborough_dezeen_2364_sq_7-411x411.jpg",
+    "credit": "圖片來源：Dezeen．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "第41週 - 每日渲染預覽 2026",
+      "title_original": "Week 41 - Daily Renders 2026",
+      "url": "https://www.behance.net/gallery/256951301/Week-41-Daily-Renders-2026",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/07f3df256951301.Y3JvcCwxOTk5LDE1NjQsMCwxOQ.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "如何用 AI 將 Figma 設計轉換成可運作的網頁",
+      "title_original": "How to Turn a Figma Design Into a Working Website With AI",
+      "url": "https://medium.muz.li/how-to-turn-a-figma-design-into-a-working-website-with-ai-c752856b3fc9?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*scMJKd0m0jt5hXbCamQASg.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Four Squares Cafe 是咖啡店品牌設計的經典範例",
+      "title_original": "Four Squares Cafe Is a Masterclass in Cafe Branding",
+      "url": "https://abduzeedo.com/four-squares-cafe-masterclass-cafe-branding/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero-1600_9.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "歡迎來到「不詳谷」，Haas Brothers 的奇幻與俏皮宇宙",
+      "title_original": "Welcome to the ‘Uncanny Valley,’ the Haas Brothers’ Fantastic and Cheeky Universe",
+      "url": "https://www.thisiscolossal.com/2026/10/haas-brothers-uncanny-valley-austin-exhibition/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/haas-3.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師 Eva Verbeeck 的「美國女孩，夢想的邊緣」",
+      "title_original": "“America’s Girls, On the Edge of a Dream” by Photographer Eva Verbeeck",
+      "url": "https://www.booooooom.com/2026/10/13/americas-girls-on-the-edge-of-a-dream-by-photographer-eva-verbeeck/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Verbeeck1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "25 年來首款新型防曬產品登陸美國實體店",
+      "title_original": "The first new sunscreen type in 25 years hits U.S. store shelves",
+      "url": "https://www.fastcompany.com/91623761/bemotrizinol-bemt-new-sunscreen-ingredient-fda?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-14T19:39:13+00:00",
+      "region": "en"
+    },
+    {
+      "title": "GTA 3 原始封面因 911 恐攻而被刪除，其藝術家質疑此說法",
+      "title_original": "GTA 3’s original cover was axed after 9/11, and its artist disputes the story",
+      "url": "https://www.creativebloq.com/news/gta-3s-original-cover-was-axed-after-9-11-and-its-artist-disputes-the-story",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-14T13:43:13+00:00",
+      "region": "en"
+    },
+    {
+      "title": "AI 時代應該給你什麼",
+      "title_original": "What the AI era owes you",
+      "url": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3",
+      "source_name": "Sidebar",
+      "published": "2026-10-15T03:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
