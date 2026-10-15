@@ -30,7 +30,9 @@ _POOL_FILE = OUTPUT_DIR / "pool.json"
 WORK_SOURCES = {
     "visual_brand":   {"Creative Review", "Logo Design Love", "Typewolf",
                        "Print Magazine", "PAGE Online", "Motionographer"},
-    "interface_ux":   {"Awwwards", "Muzli", "Smashing Magazine", "UX Collective"},
+    # UX Collective、Smashing 刊的是評論與教學，不算作品源 —— 放在這裡
+    # 會讓它們佔滿介面類候選的前段，被初篩擋光之後整天讓給別類
+    "interface_ux":   {"Awwwards", "One Page Love", "Muzli"},
     "product_object": {"Core77", "Yanko Design", "Design Milk", "Stylepark",
                        "Dutch Design Daily"},
     "space_env":      {"Dezeen", "ArchDaily", "designboom", "Wallpaper*",
@@ -211,8 +213,26 @@ def _score(it: dict, category: str) -> tuple:
     )
 
 
-def candidates(category: str, n: int, today: date) -> list[dict]:
-    """挑今天的候選：沒用過、有圖有內文、不是整理文，依「像不像一件作品」排序。"""
+def _category_of(it: dict) -> str | None:
+    """這一則屬於哪一類：feed 給的先驗，沒有就看它是哪一類的作品源。"""
+    if it.get("cat_hint"):
+        return it["cat_hint"]
+    src = it.get("source_name", "")
+    return next((c for c, srcs in WORK_SOURCES.items() if src in srcs), None)
+
+
+def candidates(category: str, n: int, today: date,
+               fallback: list[str] | None = None) -> list[dict]:
+    """
+    挑今天的候選：沒用過、有圖有內文、不是整理文，依「像不像一件作品」排序。
+
+    當天這一類的排前面；後段是這一類全倒時的退位，照 fallback 的分類順序排
+    （呼叫端給「最近最少出現的類」在前）。
+
+    以前後段只靠 _score 的第三欄「至少是作品源」排，誰件數多、正文厚誰就接手 ——
+    那永遠是空間類（池內五百多件，Dezeen、ArchDaily 都有全文）。
+    2026-09-18、22、26 三個介面日全部變成建築，最近十二期有七期是空間。
+    """
     pool = _load()
     used = pool.get("used", {})
     rows = [it for url, it in pool.get("items", {}).items()
@@ -224,7 +244,17 @@ def candidates(category: str, n: int, today: date) -> list[dict]:
     if before != len(rows):
         print(f"  整理文排除 {before - len(rows)} 件（清單、校園展、社論專題）")
 
-    rows.sort(key=lambda it: _score(it, category), reverse=True)
+    order = [c for c in (fallback or []) if c != category]
+
+    def key(it: dict) -> tuple:
+        s = _score(it, category)
+        if s[0] or s[1]:                       # 當天這一類
+            return (0, 0, tuple(-x for x in s))
+        cat = _category_of(it)
+        rank = order.index(cat) if cat in order else len(order)
+        return (1, rank, tuple(-x for x in _score(it, cat or category)))
+
+    rows.sort(key=key)
 
     # 同一家來源連續佔滿候選沒有意義：那幾篇通常長得一樣，
     # 第一篇寫不出來，其他篇多半也寫不出來。

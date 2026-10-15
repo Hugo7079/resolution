@@ -32,7 +32,10 @@ SOURCES: list[dict] = [
     {"name": "Smashing Magazine",    "url": "https://www.smashingmagazine.com/feed/",           "region": "en", "cat": "interface_ux",   "kind": "media", "img": "feed", "freq": "daily"},
     {"name": "A List Apart",         "url": "https://alistapart.com/main/feed/",                "region": "en", "cat": "interface_ux",   "kind": "media", "img": "og",   "freq": "low"},
     {"name": "UX Collective",        "url": "https://uxdesign.cc/feed",                         "region": "en", "cat": "interface_ux",   "kind": "media", "img": "feed", "freq": "daily"},
-    {"name": "CSS-Tricks",           "url": "https://css-tricks.com/feed/",                     "region": "en", "cat": "interface_ux",   "kind": "media", "img": "og",   "freq": "daily"},
+    # 上面幾家刊的是評論與教學，初篩幾乎全擋。真正一件一件介紹網站的是這家
+    # （連結頁有三到七百字的描述，2026-10-15 實測）。Awwwards 在作品流那段。
+    {"name": "One Page Love",        "url": "https://onepagelove.com/feed",                     "region": "en", "cat": "interface_ux",   "kind": "media", "img": "feed", "freq": "daily"},
+    {"name": "CSS-Tricks",          "url": "https://css-tricks.com/feed/",                     "region": "en", "cat": "interface_ux",   "kind": "media", "img": "og",   "freq": "daily"},
 
     # ───────────────────────── 產品與物件 ─────────────────────────
     {"name": "Core77",       "url": "https://www.core77.com/feed",       "region": "en", "cat": "product_object", "kind": "media", "img": "feed", "freq": "daily"},
@@ -74,7 +77,10 @@ SOURCES: list[dict] = [
 
     # ───────────────────────── 作品流（只取圖，不做分析） ─────────────────────────
     {"name": "Behance",    "url": "https://www.behance.net/feeds/projects",             "region": "en", "cat": None, "kind": "showcase", "img": "feed", "freq": "daily"},
-    {"name": "Awwwards",   "url": "https://www.awwwards.com/blog/feed/",                "region": "en", "cat": "interface_ux", "kind": "showcase", "img": "feed", "freq": "daily"},
+    # Awwwards 用的是得獎網站的 feed（Site of the Day / Honorable Mention），一則一個網站。
+    # 原本接的 /blog/feed/ 是訪談與業配，2026-10 實測最新一篇停在 08-31，
+    # 池子裡一件都沒有 —— 介面類因此只剩評論文，輪到它的日子全被空間類補位。
+    {"name": "Awwwards",   "url": "https://www.awwwards.com/feed/",                     "region": "en", "cat": "interface_ux", "kind": "showcase", "img": "feed", "freq": "daily"},
     {"name": "Muzli",      "url": "https://medium.com/feed/muzli-design-inspiration",   "region": "en", "cat": None, "kind": "showcase", "img": "feed", "freq": "daily"},
     {"name": "Abduzeedo",  "url": "https://abduzeedo.com/rss.xml",                      "region": "en", "cat": None, "kind": "showcase", "img": "feed", "freq": "daily"},
     {"name": "Colossal",   "url": "https://www.thisiscolossal.com/feed/",               "region": "en", "cat": None, "kind": "showcase", "img": "feed", "freq": "daily"},

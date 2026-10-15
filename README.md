@@ -80,6 +80,21 @@ The Conversation: Heritage in Design                                   對談
 交給模型判，判錯的成本只是換下一個候選。**初篩壞掉就原樣放行** ——
 它是加分項，不該讓「今天沒有今日一件」多一個原因。
 
+### 當天這一類全倒時退給誰（2026-10-15）
+
+候選分兩段：前段是當天這一類，後段是退位。後段原本只靠「是不是作品源」排，
+誰件數多、正文厚誰就接手 —— 那永遠是空間類（池內五百多件，Dezeen、ArchDaily 都有全文）。
+結果 09-18、09-22、09-26 三個介面日全變成建築，最近十二期有七期是空間。
+
+現在後段照 `pipeline._fallback_order` 排：看 `index.json` 最近 12 期**實際出刊**的分類，
+出現最少的先退，一樣少就比誰比較久沒出現。輪播表上四類永遠平均，失衡是退位造成的，
+所以要看實際結果。
+
+病根是介面類的作品源太少：原本接的 Awwwards `/blog/feed/` 是訪談，08-31 後就停了，
+池子裡一件都沒有；UX Collective、Smashing 是評論與教學，被初篩擋光。
+改接 Awwwards 得獎網站的 `/feed/`，再加上 One Page Love，
+並把 UX Collective、Smashing 移出 `WORK_SOURCES`（它們還是介面類，只是不再排在最前面）。
+
 ---
 
 ## 二、分類（四類）
@@ -314,10 +329,10 @@ BDP 上海研究園區 09-27 判不符、09-28 上了版面。病因兩個：
 | 分類 | 來源 |
 |---|---|
 | 視覺與品牌 | Creative Review (12)、Print Mag (40)、Logo Design Love (10)、Design Observer (12)、Typewolf (10)、I Love Typography (7)⚠、Motionographer (10) |
-| 介面與體驗 | NN/g (20)⚠、Smashing (40)、A List Apart (20)、UX Collective (10)、CSS-Tricks (15) |
+| 介面與體驗 | One Page Love (10)、NN/g (20)⚠、Smashing (40)、A List Apart (20)、UX Collective (10)、CSS-Tricks (15) |
 | 產品與物件 | Core77 (15)、Yanko Design (10)、Design Milk (12) |
 | 空間與環境 | Dezeen (50)、ArchDaily (24)⚠、Wallpaper* (20)、designboom (10) |
-| 作品流 | Behance (36)、Awwwards (30)、Muzli (10)、Abduzeedo (50)、Colossal (10)、Booooooom (7) |
+| 作品流 | Behance (36)、Awwwards 得獎網站 (13)、Muzli (10)、Abduzeedo (50)、Colossal (10)、Booooooom (7) |
 | 產業動態 | Fast Company Design (20)、Design Week UK (20)、Creative Bloq UK (25)、Sidebar (20)、Web Designer News (20) |
 | Podcast | 99% Invisible (823 集)、Shoptalk (100) |
 

@@ -77,6 +77,23 @@ def _within(item: dict, today: date, days: int) -> bool:
     return d is None or d >= today - timedelta(days=days)
 
 
+def _fallback_order(today: date, recent: int = 12) -> list[str]:
+    """
+    當天的分類全倒時，退給哪一類：最近 recent 期出現最少的在前，
+    同樣少的就比誰比較久沒出現。看的是實際出刊的分類（index.json），
+    不是輪播表 —— 輪播表上四類永遠平均，失衡是退位造成的。
+    """
+    try:
+        days = json.loads((WEB_DATA / "index.json").read_text(encoding="utf-8"))["days"]
+    except (OSError, ValueError, KeyError):
+        days = []
+    shown = [d["category"] for d in days
+             if d.get("category") and d.get("date", "") < today.isoformat()][-recent:]
+    count = Counter(shown)
+    last = {c: i for i, c in enumerate(shown)}
+    return sorted(CATEGORIES, key=lambda c: (count[c], last.get(c, -1)))
+
+
 def _write_index() -> None:
     """
     web/data/index.json —— 有哪幾天可以看、那天介紹的是哪一類。
@@ -231,7 +248,10 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
     diag: dict = {}
     subject = None
     doc = None
-    candidates = pool.candidates(category, SCREEN_CANDIDATES, today_d)
+    fallback = _fallback_order(today_d)
+    print(f"  {label}全倒時依序退給：" + " → ".join(
+        CATEGORIES[c]["label"] for c in fallback if c != category))
+    candidates = pool.candidates(category, SCREEN_CANDIDATES, today_d, fallback)
     if not candidates:
         print("[失敗] 池子裡沒有可介紹的作品（要有圖、有內文、沒用過）")
         return 1
