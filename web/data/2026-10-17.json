@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-17",
+  "category": "space_env",
+  "feature": {
+    "title": "從監獄到奢華客房：如何讓歷史建築「活」起來",
+    "subject": {
+      "name": "Hoshinoya Nara Prison",
+      "designer": "Rie Azuma（吳美惠，Azuma Environmental Architectural Research Institute）",
+      "client": "Hoshino Resorts",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5128,
+    "image_match": "match",
+    "image_shows": "軍事基地或政府設施建築群",
+    "neurons_used": 46.6,
+    "hook": "這間酒店不是單純的改建，而是讓一座百年監獄「復活」——保留牢房的原始結構，卻變成了奢華客房，讓人在走廊裡感受到歷史的「呼吸」。",
+    "what_it_is": "這是一座原本用來關押犯人的明治時代監獄，經過建築師吳美惠團隊改建後，變成了星野樂居旗下的 48 間奢華客房。設計團隊不僅保留了原有的磚牆和放射狀走廊，還將原本狹小的牢房連通成寬敞的套房。這不是簡單的翻新，而是讓一座歷史建築「活」起來的實驗。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "原本用來關人的監獄，改建後卻讓材質變成了故事的主角。設計團隊保留了原有的手工磚牆和石膏天花，但為了加強結構安全，新增了陽極處理鋁製的抗震支撐。這些金屬支撐不僅是結構需求，還成為了視覺上的對比：粗糙的磚牆與光滑的金屬線條交織，讓人感受到「過去」與「現在」的張力。同時，木質面板的加入則是為了軟化空間，讓冷硬的監獄結構變得溫暖。原文提到「exposed steel seismic reinforcements」和「warm timber paneling」的組合，正是這種「硬」與「軟」的平衡。",
+        "so_what": "下次看到一間房子或建築，你可以觀察牆上的材質：哪些是原本就有的，哪些是後來加上的？這些材質的組合，往往能講出一座建築的「前世今生」。"
+      },
+      {
+        "lens": "layout",
+        "body": "監獄的原始設計是「放射狀」的 Haviland 系統：五條走廊從中央警衛室延伸出去，每條走廊都有牢房。設計團隊沒有破壞這個結構，反而將其轉化為酒店的特色。例如，原本獨立的牢房被打通連接，形成寬敞的套房，如「The 11-Cell Deluxe」將 11 個牢房合併成一個空間。這不僅解決了空間不足的問題，還讓客人能在走廊散步時，感受到原本監獄的「監視」結構，卻變成了酒店的「舒適」節奏。原文提到「preserving the original circulation routes」和「emphasizing the architectural rhythm of the long corridors」。",
+        "so_what": "下次走進一棟建築，試著觀察走廊的形狀：是直的、曲的，還是放射狀？這些設計不只是「路」，而是決定了你在裡面的「感覺」——是被「監視」還是被「包圍」？"
+      },
+      {
+        "lens": "context",
+        "body": "這座監獄不是隨意選擇的，它是日本明治時代「五大監獄」中唯一完整保存下來的建築。設計團隊不僅保留了原有的結構，還在裝潢上融入了當時西方文化的影響：例如，星野樂居首次在這裡使用了歐式家具，與原本的日本建築風格對話。此外，酒店還與現場的「奈良監獄博物館」直接相連，讓客人可以在住宿時體驗到這座建築的「前世」與「今生」。原文提到「European furnishings」和「connected directly to the on-site Nara Prison Museum」。",
+        "so_what": "下次參觀一個歷史場館或古蹟，試著找找看：哪些東西是「原來就有的」，哪些是後來「加上去的」？這些「加法」往往能讓歷史故事變得更生動。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這個設計的核心挑戰在於「保留」與「改變」的平衡。例如，原本用來隔離犯人的牢房，現在需要變成寬敞的客房。設計團隊選擇「打通牢房」來擴大空間，但犧牲了原本的獨立性。如果目標是「完全保留監獄的原貌」，這個選擇就不成立；但因為目標是「奢華酒店」，所以必須犧牲部分歷史感來換取實用性。原文提到「converting the narrow, isolated detention cells into expansive luxury suites」。",
+        "so_what": "下次看到一個改建案，問問自己：這個設計是為了「保留」還是「改變」？每一個選擇都有犧牲，關鍵在於知道「犧牲什麼」才能得到想要的。"
+      },
+      {
+        "lens": "use",
+        "body": "這裡的設計不只是讓人「住」進去，還讓人「體驗」歷史。例如，走廊上的燈光設計由當地藝術家手工製作的陶瓷燈具提供，營造出「月光般」的柔和光線，讓人在夜晚感受到監獄原本的「寧靜」。而庭院則採用「外在的內部空間」概念，將原本用於監視的開放空間，變成了供客人休息的私密花園。原文提到「lighting inspired by distant moonlight」和「outside within concept」。",
+        "so_what": "下次在一間房子或建築裡，試著閉上眼睛感受：燈光是亮的還是暗的？牆壁是冷的還是溫暖的？這些細節不僅影響你的「視覺」，還影響你的「感覺」——是舒適還是壓抑。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一棟老建築，試著想像：如果它不是用來「住」的，而是用來「關人」的，那麼現在的設計師會如何將它變成一個「家」？觀察牆上的材質、走廊的形狀，甚至燈光的溫度，都能讓你發現：每一個設計都有它的「前世今生」。不需要是設計師，只要用心看，就能看到建築背後的故事。",
+    "takeaway_designer": "在改建案中，材質的「保留」與「新增」可以成為故事的線索。例如，這個案子中，陽極處理鋁支撐（用於抗震）與手工磚牆的對比，不僅解決了結構問題，還成為了視覺上的「歷史敘事」。設計師可以嘗試：在改建時，選擇一兩個關鍵材質「保留」原貌，再用另一種材質「對話」，讓空間既有歷史感，又不失現代性。此外，布局的「放射狀」結構也可以被重新詮釋：原本用於監視的走廊，現在可以成為引導視線的「節奏」。",
+    "glossary": [
+      {
+        "term": "陽極處理",
+        "plain": "鋁製品表面的一層電化學處理，讓它更耐刮、也能上色，手機和筆電外殼常見。"
+      },
+      {
+        "term": "Haviland 系統",
+        "plain": "一種監獄建築設計，中央有一個警衛室，多條走廊從中延伸出去，像車輪一樣放射狀分布。"
+      },
+      {
+        "term": "陽極處理鋁",
+        "plain": "一種表面處理方法，讓鋁材更耐腐蝕、更光亮，常用在建築結構或裝飾上。"
+      },
+      {
+        "term": "抗震支撐",
+        "plain": "為了增強建築物抵抗地震的能力，特別加上的鋼筋或金屬結構。"
+      },
+      {
+        "term": "陶瓷燈具",
+        "plain": "用陶土燒製而成的燈具，通常手工製作，質感溫暖，光線柔和。"
+      }
+    ],
+    "concretes": [
+      "Haviland 系統（放射狀監獄布局）",
+      "陽極處理鋁支撐（#808080 近似色，用於抗震）",
+      "手工磚牆（原始監獄結構，保留原貌）",
+      "11 個牢房合併成「The 11-Cell Deluxe」套房",
+      "歐式家具（星野樂居首次在日本使用）",
+      "陶瓷燈具（手工製作，光線柔和）",
+      "奈良監獄博物館（與酒店直接相連）"
+    ],
+    "source_url": "https://design-milk.com/hoshinoya-nara-prison-hotel/",
+    "source_name": "Design Milk",
+    "published": "2026-10-16T20:42:24+00:00",
+    "image_url": "https://design-milk.com/images/2026/10/HOSHINOYA-Nara-Prison_Property-Overview.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Design Milk．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Metria AI - 加密儲蓄軟體即服務平台與介面設計",
+      "title_original": "Metria AI - Crypto Savings SaaS Platform & UX UI Design",
+      "url": "https://www.behance.net/gallery/256813357/Metria-AI-Crypto-Savings-SaaS-Platform-UX-UI-Design",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/8bbb12256813357.Y3JvcCwzMTk2LDI0OTksMCww.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "OFFF論壇",
+      "title_original": "OFFFForum",
+      "url": "https://www.awwwards.com/sites/offfforum",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6a96ee63ba3f3137560669.jpg",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "10 大使用者介面法則，7 分鐘解說",
+      "title_original": "10 UX Laws Explained in 7 Minutes",
+      "url": "https://medium.muz.li/10-ux-laws-explained-simply-9de62b97a91a?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*GEBg1XuUSWAmtvn1P8NWNA.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Bastét：Wedge 為新口腔護理品牌打造的品牌設計",
+      "title_original": "Bastét: Inside Wedge's New Oral Care Branding",
+      "url": "https://abduzeedo.com/bastet-inside-wedges-new-oral-care-branding/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_73.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Robin F. Williams：科技永無止盡的迷人與恐懼",
+      "title_original": "Robin F. Williams Suspends the Allure and Horror of Technology in an Endless Loop",
+      "url": "https://www.thisiscolossal.com/2026/10/robin-f-williams-paintings-act-natural/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/williams-6.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "《大西洋黃昏》攝影師 Patricia Reyes",
+      "title_original": "“Atlantic Ocean Twilight” by Photographer Patricia Reyes",
+      "url": "https://www.booooooom.com/2026/10/16/atlantic-ocean-twilight-by-photographer-patricia-reyes/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Patricia_Reyes_01.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "臺北時裝週SS27空總國家文化基地揭幕！13場品牌展演、11組響應活動、2場國際時尚沙龍及風格展接力登場",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/779",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-15T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "為何我們無法移開從Zuck的吉尼斯苦笑",
+      "title_original": "Why we couldn’t look away from Zuck’s Guinness wince",
+      "url": "https://www.fastcompany.com/91624365/why-we-couldnt-look-away-from-zucks-guinness-wince?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-16T13:50:56+00:00",
+      "region": "en"
+    },
+    {
+      "title": "特斯拉的「飛行車」看起來和Cybertruck像艘船一樣不真實",
+      "title_original": "Tesla's 'flying car' is as convincing as the Cybertruck being a boat",
+      "url": "https://www.creativebloq.com/news/teslas-flying-car-is-as-convincing-as-the-cybertruck-being-a-boat",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-16T15:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "設計擁有連貫性",
+      "title_original": "Design owns coherence",
+      "url": "https://www.petermerholz.com/newsletter/newsletter-design-owns-coherence/",
+      "source_name": "Sidebar",
+      "published": "2026-10-16T04:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
