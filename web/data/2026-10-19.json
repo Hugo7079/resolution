@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-19",
+  "category": "visual_brand",
+  "feature": {
+    "title": "用「屁股」教人別亂用抗菌濕紙巾",
+    "subject": {
+      "name": "Wet Ones 抗菌濕紙巾廣告系列",
+      "designer": "Bartle Bogle Hegarty USA (BBH) 策略團隊、Ale Burset 攝影",
+      "client": "Wet Ones",
+      "year": ""
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 2455,
+    "image_match": "match",
+    "image_shows": "手指拍成屁股形狀，配標語「Just for hands. No ifs, and",
+    "neurons_used": 46.4,
+    "hook": "一場用「屁股」當教材的廣告，教人別把手部抗菌濕紙巾當成廁所用品——它的創意不在圖片本身，而在於如何用視覺迷思讓人記住「只能用在手上」這件事。",
+    "what_it_is": "這是一場由廣告公司 BBH 為抗菌濕紙巾品牌 Wet Ones 設計的戶外廣告系列，針對消費者調查發現有人將濕紙巾當成廁所用品的問題。設計團隊用攝影手法將手指拍成屁股形狀，配上「Just for hands. No ifs, ands or butts」的標語，在紐約全城 60 個公車站牌、WiFi 柱、報攤和 Times Square 貼出。",
+    "angles": [
+      {
+        "lens": "message",
+        "body": "廣告的核心訊息「Just for hands. No ifs, ands or butts」直接回應了消費者調查中發現的問題：有人將濕紙巾用在廁所。這句文案用了雙關語，字面意思是「只能用在手上，沒有其他用途」，但「ands or butts」更直接指向「屁股」（butts）。攝影師 Ale Burset 將手指拍成屁股形狀，讓視覺和文字形成完整的雙關，強化記憶。文案採用無襯線字體（從圖上判斷近似 Helvetica 或 Arial 的變體），字重適中，易讀性高，適合戶外環境。標語採用彎曲排版，跟屁股的曲線呼應，讓文字成為圖形的一部分。",
+        "so_what": "這個廣告用「說話帶點」的方式，讓人在看圖的同時，也能聽到「別亂用」的訊息，而且因為雙關語的關係，記憶深刻。"
+      },
+      {
+        "lens": "color",
+        "body": "廣告圖片採用兩種顏色：皮膚部位為 #A48E73（接近棕色的皮膚色調），文字則為 #F2F0EB（淺米色）。這兩種顏色的對比度高，確保在戶外環境下仍然清晰可見。皮膚色調的選擇讓圖片看起來真實，而文字顏色則選擇接近紙張或白色背景的淺色，避免與皮膚色調混淆。這樣的顏色搭配在戶外廣告中常見，因為它們不會因為陽光或陰影而失真。",
+        "so_what": "戶外廣告的顏色不能太複雜，否則在陽光下會變得難以辨認。這個設計選擇兩種高對比的顏色，確保在任何光線下都能清楚看到訊息。"
+      },
+      {
+        "lens": "layout",
+        "body": "廣告的版面設計簡單直接，沒有格線或複雜的排版結構。標語「Just for hands. No ifs, ands or butts」採用彎曲排版，跟屁股的形狀呼應，形成視覺上的統一性。文字位於圖片上方，品牌名稱和標語則位於下方，形成明確的視覺層級。這樣的排版讓人們在第一眼就能看到核心訊息，而不需要仔細閱讀。圖片佔據了大部分版面，確保注意力集中在視覺迷思上。",
+        "so_what": "戶外廣告的設計要簡單明瞭，讓人在幾秒內就能理解訊息。這個設計用視覺迷思吸引注意力，再用文字強化訊息，讓人在笑過之後還能記住品牌的用途。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這個廣告犧牲了「高雅」或「專業」的形象，選擇用戲謔和視覺迷思來吸引注意力。這樣的選擇讓廣告在社群媒體上容易被分享，也能在戶外環境中脫穎而出。然而，這種風格可能不適合所有品牌，特別是那些追求嚴肅或高端形象的產品。對於 Wet Ones 這樣的日用品牌來說，這種輕鬆的風格反而能夠更好地傳達產品的實用性和親民形象。",
+        "so_what": "廣告的風格要配合品牌的定位。這個設計選擇用戲謔的方式吸引人，但如果品牌形象需要更嚴肅，這種手法可能就不適合了。"
+      },
+      {
+        "lens": "use",
+        "body": "這個廣告系列在紐約全城的公車站牌、WiFi 柱和 Times Square 貼出，確保了高度的曝光率。由於使用了視覺迷思，廣告在社群媒體上也容易被轉發和討論，進一步擴大了影響力。然而，這種戲謔的設計可能會引發爭議，例如紐約交通局最初拒絕在地鐵站播放這則廣告。設計團隊因此調整了展示位置，將廣告放在公車站牌和報攤上，確保了廣告的曝光效果。",
+        "so_what": "戶外廣告的設計要考慮實際的展示環境。這個設計雖然在社群媒體上很吸睛，但在某些公共場合可能會受到限制，因此需要靈活調整展示位置。"
+      }
+    ],
+    "takeaway_everyone": "下次看到戶外廣告時，可以留意它們是如何用簡單的視覺元素（比如顏色、形狀或文字）來吸引你的注意力。例如，這個廣告用「屁股」的形狀和文字雙關，讓人在笑過之後還能記住產品的用途。這種設計手法在日常生活中很常見，但通常不會這麼明顯地展現出來。",
+    "takeaway_designer": "在設計戶外廣告時，可以考慮以下幾點：1. 使用高對比的顏色確保在戶外環境下清晰可見；2. 簡化版面設計，確保核心訊息在幾秒內就能被理解；3. 利用視覺迷思或雙關語增強記憶效果；4. 考慮展示環境的限制，靈活調整設計以適應不同的展示位置。此外，可以參考 Ale Burset 的攝影風格，利用視覺迷思創造出獨特的廣告效果。",
+    "glossary": [
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "無襯線",
+        "plain": "筆畫末端沒有收尾裝飾的字，看起來比較乾淨現代，手機介面幾乎都是這種。"
+      },
+      {
+        "term": "字面",
+        "plain": "一個字實際佔掉的框有多滿。"
+      },
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "視覺層級",
+        "plain": "誰先被看到、誰後被看到的順序，靠大小、粗細、顏色排出來。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "無襯線字體",
+        "plain": "字體沒有明顯的筆畫起筆和收筆的線條，看起來比較簡潔，例如常見的 Arial 或 Helvetica。"
+      },
+      {
+        "term": "戶外廣告",
+        "plain": "在公共場所（如公車站牌、報攤、WiFi 柱等）展示的廣告，通常需要簡單明瞭且易於辨認。"
+      }
+    ],
+    "concretes": [
+      "「Just for hands. No ifs, ands or butts」",
+      "#A48E73（皮膚色調）和 #F2F0EB（文字顏色）",
+      "彎曲排版的標語",
+      "Ale Burset 攝影風格的視覺迷思"
+    ],
+    "source_url": "https://page-online.de/kreation/sind-das-etwa-nein-sind-es-nicht/",
+    "source_name": "PAGE Online",
+    "published": "2026-10-11T07:00:58+00:00",
+    "image_url": "https://page-online.de/app/uploads/2026/10/Wet-Ones_hoch-links.jpeg",
+    "image_fallback": "",
+    "credit": "圖片來源：PAGE Online．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "本土本土",
+      "title_original": "Local Local",
+      "url": "https://www.behance.net/gallery/256938115/Local-Local",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/f67254256938115.Y3JvcCw3ODEsNjEwLDMwOSwxNjA.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Signal-A 設計工作室",
+      "title_original": "Signal-A Studio",
+      "url": "https://www.awwwards.com/sites/signal-a-studio",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/01/69761964571b9601514717.jpg",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "設計師現在可以實際發布產品了：上線前檢查 AI 程式碼的 8 個提示",
+      "title_original": "Designers Can Ship Real Products Now. 8 Prompts to Check Your AI Code Before You Go Live",
+      "url": "https://medium.muz.li/designers-can-ship-real-products-now-8-prompts-to-check-your-ai-code-before-you-go-live-f83f411a442a?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/2600/0*vFglnxYy818L4-Wi",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "包裝設計：Beemore 重新設計（Boundless 設計工作室）",
+      "title_original": "Packaging: The Beemore Rebrand by Boundless",
+      "url": "https://abduzeedo.com/packaging-beemore-rebrand-boundless/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_1600_7.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "GREEN VEINS ? 冰島",
+      "title_original": "GREEN VEINS ? Iceland",
+      "url": "https://www.behance.net/gallery/257035015/GREEN-VEINS-Iceland",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/683cb8257035015.Y3JvcCwxNjA5LDEyNTksMTksMTM5.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "那些 NFL 球員頭像帽的來頭？",
+      "title_original": "What’s with those bobblehead NFL helmets?",
+      "url": "https://www.fastcompany.com/91623293/whats-with-those-bobblehead-nfl-helmets?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-18T09:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "我將 Nvidia RTX Spark 推到最愛的創意筆電極限",
+      "title_original": "I pushed Nvidia’s RTX Spark to its limits in our favourite creative laptop",
+      "url": "https://www.creativebloq.com/reviews/i-pushed-nvidias-rtx-spark-to-its-limits-in-our-favourite-creative-laptop",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-18T20:32:32+00:00",
+      "region": "en"
+    },
+    {
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社會福利永續庇護園區、OSIM AI 智慧按摩椅獲肯定",
+      "title_original": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    }
+  ]
+}
