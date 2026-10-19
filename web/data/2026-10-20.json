@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-20",
+  "category": "visual_brand",
+  "feature": {
+    "title": "消毒水味的香水廣告：用假象吸引真正的關注",
+    "subject": {
+      "name": "「Un parfum sans frontières」廣告活動（含附贈氣味樣品）",
+      "designer": "Mediaplus（Serviceplan Group）",
+      "client": "Ärzte ohne Grenzen",
+      "year": ""
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 2266,
+    "image_match": "match",
+    "image_shows": "雜誌廣告文字片段，紅色強調",
+    "neurons_used": 49.5,
+    "hook": "一則看似高級香水廣告的雜誌廣告，附贈的小樣卻散發消毒水味——這個設計故意製造假象，讓人在驚訝中意識到醫療救援的真正需求。",
+    "what_it_is": "這是德國雜誌《Cosmopolitan》、《Brigitte》等刊登的廣告，模仿高級香水廣告形式，但附贈的氣味樣品卻是消毒水味。由廣告公司 Mediaplus 為「醫生無國界」（Ärzte ohne Grenzen）設計，2023 年推出，目的是吸引注意力，提醒人們醫療救援的緊迫性。",
+    "angles": [
+      {
+        "lens": "message",
+        "body": "廣告文案開頭重複「Dieser Duft verändert alles」（這股氣味改變一切），但實際附贈的樣品卻是消毒水味，而不是香水。文案中提到「Dieser Duft kennt keine Grenzen」（這股氣味不分國界），但實際上，這股氣味在廣告中被「偽裝」成奢侈品。原文明確指出「健康是最大的奢侈品」，而消毒水味正是醫療現場的必需品。廣告中還出現「1971」這個數字，指的是「醫生無國界」成立的年份，暗示這股氣味（醫療需求）已經存在半世紀。",
+        "so_what": "設計可以用「假象」吸引注意力，然後揭露真相——在生活中，我們常被表象迷惑，但設計可以透過反差讓人更快看到真相。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這則廣告犧牲了「真實性」來獲得「注意力」。原文提到「這種特別的氣味」讓人「驚訝」（verblüfft），而這種驚訝正是設計者想要的效果。廣告在《Cosmopolitan》等女性雜誌刊登，這些媒體通常刊登高級香水廣告，但附贈的樣品卻是消毒水味。這種犧牲在廣告界並不常見，因為通常消費者會對「假貨」產生反感。但這次，消毒水味反而成為吸引人的關鍵，因為它直接連結到醫療救援的核心需求。",
+        "so_what": "有時候，設計會故意「騙」人，但目的不是欺騙，而是讓人更快理解核心訊息。這種手法在社會議題的傳達中特別有效。"
+      },
+      {
+        "lens": "context",
+        "body": "這則廣告出現在《Cosmopolitan》、《Brigitte》等女性雜誌，以及《Douglas》等化妝品店的戶外廣告中，這些都是高級香水廣告常見的刊登媒體。原文提到「在美容沙龍和化妝品店」也有類似的樣品派送，這讓這則廣告在高級消費品的環境中顯得格外突出。廣告中使用的紅色（#FF0000）和襯線體（終端圓潤、開口寬鬆）都是高級香水廣告常見的視覺元素，但附贈的氣味樣品卻完全顛覆了這種期待。",
+        "so_what": "設計可以利用人們熟悉的環境來傳達新的訊息，讓人在無意間產生聯想。"
+      },
+      {
+        "lens": "use",
+        "body": "使用者在翻開雜誌時，首先看到的是高級香水廣告的視覺風格：圖上判斷為襯線體的字體（終端圓潤、開口寬鬆）、紅色強調（#FF0000），以及「附贈樣品」的承諾。但當他們打開樣品時，卻聞到的是消毒水味，而不是預期中的香水味。原文提到「這種特別的氣味」讓人「驚訝」，而這種驚訝正是設計者希望達到的效果。此外，廣告中還有 QR 碼連結到「醫生無國界」的網站，讓使用者可以進一步了解組織的工作。",
+        "so_what": "設計可以透過「使用者的體驗」來傳達訊息，讓人在互動中自然理解核心概念。"
+      }
+    ],
+    "takeaway_everyone": "下次看到廣告或產品時，試著問自己：「這個設計在騙我什麼？」有時候，設計會故意製造假象，但目的不是欺騙，而是讓你更快看到真相。例如，一則看起來像是推銷奢侈品的廣告，實際上在傳達更重要的訊息。學會在驚訝中停下來，可能會發現更深的意義。",
+    "takeaway_designer": "在設計傳達訊息時，可以考慮「犧牲真實性來獲得注意力」的策略。例如，利用使用者對某種形式的期待（如香水廣告），然後在關鍵點（如附贈樣品）製造反差，讓人在驚訝中理解核心訊息。這種手法在社會議題的傳達中特別有效，因為它能突破使用者的防禦心理。同時，確保反差點與核心訊息之間的關聯性，避免讓人感到被欺騙。",
+    "glossary": [
+      {
+        "term": "襯線",
+        "plain": "筆畫末端那個小小的收尾，像印刷體的「一」兩端翹起來的地方。"
+      },
+      {
+        "term": "襯線體（serif typeface）",
+        "plain": "字體的邊緣有小飾線（稱為「襯線」），例如常見的 Times New Roman，看起來比較正式和優雅。"
+      },
+      {
+        "term": "戶外廣告（OOH，Out of Home）",
+        "plain": "在公共場所（如車站、商店）的廣告，例如路牌或海報，目的是吸引路過的人。"
+      },
+      {
+        "term": "QR 碼",
+        "plain": "一種二維條碼，用手機掃描後可以連結到網頁或顯示資訊。"
+      },
+      {
+        "term": "終端（terminal）",
+        "plain": "字體筆畫末端的形狀，例如襯線體的「一」兩端翹起來的地方。"
+      },
+      {
+        "term": "開口（aperture）",
+        "plain": "字體中間空隙的寬度，例如字母「e」中間的空間。"
+      }
+    ],
+    "concretes": [
+      "消毒水味（實際附贈樣品的氣味）",
+      "「Dieser Duft verändert alles」（廣告文案開頭）",
+      "#FF0000（紅色強調色）",
+      "《Cosmopolitan》、《Brigitte》等女性雜誌（刊登媒體）",
+      "QR 碼（連結到「醫生無國界」網站）",
+      "1971（醫生無國界成立年份）"
+    ],
+    "source_url": "https://page-online.de/kreation/so-riecht-das-parfuem-von-aerzte-ohne-grenzen/",
+    "source_name": "PAGE Online",
+    "published": "2026-10-17T05:36:43+00:00",
+    "image_url": "https://page-online.de/app/uploads/2026/10/Aerzte_ohne_Grenzen_Visual2-Kopie.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：PAGE Online．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "身體",
+      "title_original": "Bodies",
+      "url": "https://www.behance.net/gallery/257246497/Bodies",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/5412d3257246497.Y3JvcCwzMjU3LDI1NDgsMTUzLDkxMQ.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "FORMAT",
+      "title_original": "",
+      "url": "https://www.awwwards.com/sites/format",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6a9965c9beb49063820691.jpg",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "人工智慧改變了我的設計方式，但沒有取代我設計的原因",
+      "title_original": "AI Changed How I Design. It Didn’t Replace Why I Design.",
+      "url": "https://medium.muz.li/ai-changed-how-i-design-it-didnt-replace-why-i-design-fc015408447b?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*RqwV6_PfncRCFDDJNLefgA.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Ambijus：探索OlssønBarbieri包裝設計",
+      "title_original": "Ambijus: Inside OlssønBarbieri Packaging Design",
+      "url": "https://abduzeedo.com/ambijus-inside-olssonbarbieri-packaging-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_ambijus-olssnbarbieri.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Rithika Merchant 在《夢境領域》中召喚古老神話與神秘主義",
+      "title_original": "Rithika Merchant Summons Ancient Mythology and Mysticism in ‘The Dreaming Realm’",
+      "url": "https://www.thisiscolossal.com/2026/10/rithika-merchant-the-dreaming-realm-paintings/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/merchant-2.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Max Radford 設計的刺激倫敦室內空間、三場實驗設計展覽及其他",
+      "title_original": "An Edgy London Interior by Max Radford, Three Experimental Design Exhibitions, and More",
+      "url": "https://www.sightunseen.com/2026/10/an-edgy-london-interior-by-max-radford-three-experimental-design-exhibitions-and-more/",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/Clement_Gerard_VOLTAIRE_1.jpg",
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/Clement_Gerard_VOLTAIRE_1-728x570.jpg",
+      "source_name": "Sight Unseen",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "臺北時裝週SS27精彩閉幕 觀展人數和商務實績創歷年同期新高",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/782",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-19T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Stefan Sagmeister 的新鞋款設計其實是行走中的資訊圖示",
+      "title_original": "Stefan Sagmeister’s new shoe designs are actually walking infographics",
+      "url": "https://www.fastcompany.com/91623596/stefan-sagmeisters-new-shoe-designs-are-actually-walking-infographics?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-19T15:41:47+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Sketchbook 特刊！ImagineFX 第272期",
+      "title_original": "Sketchbook special! Issue 272 of ImagineFX",
+      "url": "https://www.creativebloq.com/news/sketchbook-special-issue-272-of-imaginefx-clone",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-19T23:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "精美圖示讓產品感覺高級",
+      "title_original": "Beautiful icons that make products feel premium",
+      "url": "https://bit.ly/side-hug1",
+      "source_name": "Sidebar",
+      "published": "2026-10-19T05:11:00+00:00",
+      "region": "en"
+    }
+  ]
+}
