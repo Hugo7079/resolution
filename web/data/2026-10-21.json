@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-21",
+  "category": "product_object",
+  "feature": {
+    "title": "收音機不再是家庭聚會的道具，而是你的私人音樂盒",
+    "subject": {
+      "name": "Telefunken Match",
+      "designer": "Richard Sapper",
+      "client": "Telefunken",
+      "year": "1962"
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3274,
+    "image_match": "match",
+    "image_shows": "Telefunken 牌可攜式收音機",
+    "neurons_used": 24.0,
+    "hook": "這臺收音機用皮革和鋁金屬做成，看起來像是手錶或相機，而不是塑膠玩具。它讓收音機不再只是家庭聚會的道具，而是你隨身攜帶的私人音樂盒。",
+    "what_it_is": "Telefunken Match 是 1962 年 Richard Sapper 為德國電器品牌 Telefunken 設計的可攜式收音機。當時收音機還是家庭聚會的中心，但這臺機器改變了一切：它小到可以放進口袋，材質卻像是手錶或相機，讓收音機不再只是「聽」的工具，而是你的私人音樂盒。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "Telefunken Match 用了兩種材質：陽極處理鋁金屬和深棕色皮革（近似 #964B00）。鋁金屬部分採陽極處理，表面呈現銀色光澤但手感卻是細緻的啞光，不像一般塑膠收音機那樣滑溜。皮革部分則是深棕色，質地看起來像是牛皮，與鋁金屬的接縫處理得非常緊密，沒有明顯的縫隙或膠水痕跡。這種組合讓人聯想到高級手錶或相機，而不是廉價的電子產品。從圖上判斷不出皮革的具體處理工法（如打蠟或染色），但整體感覺像是經過精細的手工製作。",
+        "so_what": "材質決定了一件產品的感覺：塑膠讓人覺得便宜，金屬讓人覺得堅固，皮革讓人覺得高級。這臺收音機用三種材質的組合，一下子就把它從「電子產品」變成了「私人配件」——像是你的耳朵專屬的音樂盒。"
+      },
+      {
+        "lens": "context",
+        "body": "Telefunken Match 出現的 1960 年代，可攜式收音機已經不是新鮮事，但大多數設計都像是「縮小版的家用收音機」，用塑膠做成，看起來像是玩具。Richard Sapper 卻選擇用鋁金屬和皮革，這在當時是非常不尋常的選擇。當時的競爭對手如 Regency TR-1（1954 年，塑膠材質）或 Sony TR-63（1957 年，塑膠或木質外殼）都採用較為簡單的材質。而 Telefunken Match 的設計更接近高級相機或手錶的風格，這種選擇讓它在同類產品中顯得格格不入，卻也成為日後隨身聽（Walkman）等產品的設計先驅。",
+        "so_what": "設計不是單獨存在的，它總是在和同類的東西比較。當大家都用塑膠做收音機時，Sapper 卻選擇了金屬和皮革，這不只是材質的選擇，更是對「收音機該長什麼樣子」這個問題的重新定義。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "Telefunken Match 的設計犧牲了「便宜」和「輕量」來換取「精密感」和「耐用性」。鋁金屬和皮革的組合讓它看起來像是手工打造的精密物件，但同時也讓生產成本大幅提高，重量也比塑膠收音機重了許多。當時的競爭對手如 Regency TR-1 或 Sony TR-63 都採用注塑成型的塑膠外殼，成本低、重量輕，適合大量生產。但 Sapper 的設計卻像是為「有品味的使用者」量身打造，而不是追求大眾市場。這種取捨在當時可能限制了銷量，但卻為日後的「設計導向」產品樹立了標竿。",
+        "so_what": "每件設計都有取捨：你可以做得便宜、輕量，但可能看起來廉價；或者你可以犧牲一些實用性，換取更高的品質感。Telefunken Match 的設計告訴我們，有時候「不跟隨大眾」反而能創造出更經典的作品。"
+      },
+      {
+        "lens": "use",
+        "body": "Telefunken Match 的設計考慮了實際使用場景。皮革部分可能是為了防止滑落或提供握持感，而鋁金屬的邊緣處理得非常圓滑，不會劃到手。從圖上判斷，按鈕和旋鈕的位置設計得非常人體工學，即使是單手操作也能輕鬆調整頻率和音量。此外，皮革帶的設計讓它可以掛在身上，像是一個隨身配件，而不是單純的收音機。估算尺寸約在 15×10×5 公分左右，正好放進口袋或背帶。",
+        "so_what": "好設計不只是好看，還要考慮「用起來」的感覺。Telefunken Match 的每一個細節——從皮革的握持感到按鈕的位置——都在告訴你：「這不是普通的收音機，它是你的私人音樂伴侶。」"
+      }
+    ],
+    "takeaway_everyone": "下次你拿起一件產品時，試著問自己兩個問題：第一，這件東西用什麼材質做的？塑膠、金屬、木頭、布料，每種材質都會讓人聯想到不同的價值感。第二，這件東西的設計是跟隨大眾還是別出心裁？當大家都用塑膠做收音機時，Telefunken Match 卻選擇了金屬和皮革，這不只是材質的選擇，更是對「這件東西該長什麼樣子」的重新定義。以後看到一件產品，你也可以這樣問問自己：「為什麼要這樣做？」而不是「這樣做好不好看」。",
+    "takeaway_designer": "在產品設計中，材質的選擇往往決定了產品的定位和感知價值。Telefunken Match 的案例提供了三個具體的啟示：1. 材質組合的象徵意義：鋁金屬和皮革的組合不僅提升了產品的實用性，更傳達了「高級」和「精密」的品牌形象。設計師可以透過材質的對比（如硬與軟、光澤與啞光）來強化產品的故事性。2. 與同類競爭的差異化：當市場上充斥著相似的設計時，選擇與眾不同的材質或工法（如陽極處理鋁、真皮）可以成為產品的競爭力。3. 使用場景的細節設計：從握持感到按鈕的位置，每一個細節都應該考慮實際使用者的需求。例如，皮革帶的設計不僅美觀，更提升了產品的可攜性。設計師可以透過模型測試（如手感測試、人體工學評估）來驗證這些細節是否真正符合使用者需求。",
+    "glossary": [
+      {
+        "term": "陽極處理",
+        "plain": "鋁製品表面的一層電化學處理，讓它更耐刮、也能上色，手機和筆電外殼常見。"
+      },
+      {
+        "term": "注塑成型（injection molding）",
+        "plain": "一種大量生產塑膠零件的方法，將熔融的塑膠注入模具中冷卻成型，常用於便宜、輕量的產品。"
+      },
+      {
+        "term": "人體工學（ergonomics）",
+        "plain": "設計時考慮人體的動作和舒適度，例如按鈕的位置、握持的手感，讓產品更好用。"
+      }
+    ],
+    "concretes": [
+      "陽極處理鋁（anodized aluminum）",
+      "深棕色皮革（近似 #964B00）",
+      "15×10×5 公分（估算尺寸）",
+      "皮革帶設計（可掛在身上）",
+      "Regency TR-1（競爭對手，塑膠材質，1954 年）",
+      "Sony TR-63（競爭對手，塑膠或木質外殼，1957 年）"
+    ],
+    "source_url": "https://www.core77.com/posts/145588/An-Industrial-Design-Classic-Richard-Sappers-Telefunken-Match",
+    "source_name": "Core77",
+    "published": "2026-10-07T14:00:00+00:00",
+    "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1852890_lead_400_145588_.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Core77．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "伊比薩的房屋：洛卡視野",
+      "title_original": "House in Ibiza, The Roca Views",
+      "url": "https://www.behance.net/gallery/257347319/House-in-Ibiza-The-Roca-Views",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/8c5853257347319.Y3JvcCw3MDQsNTUwLDM4OCw0OTY.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Cartier - 《石之合唱》",
+      "title_original": "Cartier - Le Chœur des Pierres",
+      "url": "https://www.awwwards.com/sites/cartier-le-choeur-des-pierres",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6a9860ad909a8461187548.png",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "簡單測試顯示你的 AI 設計會在哪裡斷裂",
+      "title_original": "The Simple Test That Shows Where Your AI Design Will Break",
+      "url": "https://medium.muz.li/the-simple-test-that-shows-where-your-ai-design-will-break-ba7b6b29a638?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/2600/0*7HvUKMWQgtz3r51N",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Transform9：網頁設計由 tubik studio 完成",
+      "title_original": "Transform9: Web Design by tubik studio",
+      "url": "https://abduzeedo.com/transform9-web-design-tubik-studio/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_transform9-tubik-studio.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Álvaro Urbano 致敬墨西哥城標誌性 Casa Cueva 的失落標本",
+      "title_original": "Álvaro Urbano Honors the Lost Specimens of Mexico City’s Iconic Casa Cueva",
+      "url": "https://www.thisiscolossal.com/2026/10/alvaro-urbano-metal-sculptures-casa-cueva-helen/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/urbano-4.jpeg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師專訪：Patrick DeWitt",
+      "title_original": "Photographer Spotlight: Patrick DeWitt",
+      "url": "https://www.booooooom.com/2026/10/19/photographer-spotlight-patrick-dewitt/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/PATRICK_DEWITT_01.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "臺北時裝週SS27精彩閉幕 觀展人數和商務實績創歷年同期新高",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/782",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-19T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "iPhone mini 迷信仍然蓬勃發展",
+      "title_original": "The cult of the iPhone mini is alive and thriving",
+      "url": "https://www.fastcompany.com/91625181/the-cult-of-the-iphone-mini-is-alive-and-thriving?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-20T10:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "DaVinci Resolve Studio 獲得極為罕見的20%折扣",
+      "title_original": "DaVinci Resolve Studio just got a very rare 20% discount",
+      "url": "https://www.creativebloq.com/deals/davinci-resolve-studio-just-got-a-super-rare-20-percent-discount",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-20T15:21:10+00:00",
+      "region": "en"
+    },
+    {
+      "title": "網路商店無障礙狀況報告2026",
+      "title_original": "State of Ecommerce Accessibility 2026",
+      "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+      "source_name": "Sidebar",
+      "published": "2026-10-20T09:06:39+00:00",
+      "region": "en"
+    }
+  ]
+}
