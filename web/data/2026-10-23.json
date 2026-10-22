@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-23",
+  "category": "product_object",
+  "feature": {
+    "title": "兩個形狀拼出的桌子：為什麼它看起來像是一體",
+    "subject": {
+      "name": "Kokeshi Table",
+      "designer": "Luis Gimeno（Meguso 工作室）",
+      "client": "",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 90,
+    "images_read": 1,
+    "article_chars": 4233,
+    "image_match": "match",
+    "image_shows": "兩張黑白木質雙面側桌",
+    "neurons_used": 37.1,
+    "hook": "這張桌子由黑色圓柱體和木質圓盤組成，兩者在中間形成一條細緻的腰線，看起來像是兩個拼圖片段天生要在一起。",
+    "what_it_is": "Kokeshi Table 是一張由西班牙設計師 Luis Gimeno（Meguso 工作室）設計的側桌，靈感來自日本傳統木偶 Kokeshi 的比例，但不照抄原樣。它由黑色圓柱體和木質圓盤組成，兩者在中間形成一條細緻的腰線，讓人覺得這兩個形狀「天生」要在一起。這張桌子不只是好看，還有兩個不同的表面，適合放不同用途的物品。",
+    "angles": [
+      {
+        "lens": "shape",
+        "body": "這張桌子的設計靈感來自日本傳統木偶 Kokeshi 的比例，但只借用了「圓柱體和圓形頭部」的概念。設計師沒有直接模仿木偶的樣子，而是將這兩個形狀翻譯成現代家具語言：一個黑色的圓柱體和一個木質的圓盤。兩者在中間形成一條細緻的腰線，讓人覺得這兩個形狀「天生」要在一起。原文提到「兩個看似不同的形狀卻完美結合」，這種視覺效果來自於兩個形狀在接觸處的曲線設計，讓人覺得一個形狀是為了另一個形狀而存在。",
+        "so_what": "當你在生活中看到兩個不同的東西卻能完美結合時，其實是在看設計師如何用形狀和曲線創造出「天然」的關係，而不是硬拼湊。這張桌子讓人覺得「這樣設計很自然」，其實背後有精準的幾何計算。"
+      },
+      {
+        "lens": "material",
+        "body": "桌子的黑色部分採用了啞光黑漆，表面平滑但不反光，給人穩重的感覺。木質部分則是保留了木材的自然紋理，顏色接近 #F2F0EB，質感柔和。兩者材質的對比不僅是視覺上的，也影響了實際使用：黑色部分適合放不常移動的物品（如書或裝飾品），木質部分則適合放暫時性的東西（如咖啡杯）。設計師在原文提到「黑色提供視覺重心，木質帶來溫暖對比」，這種材質的選擇不只是美觀，還和功能緊密相關。",
+        "so_what": "當你選擇家具時，注意材質如何影響使用感。這張桌子用兩種不同的材質，不僅讓視覺更豐富，也讓每個表面有不同的「用途語言」——黑色像是「永久的地方」，木質像是「暫時的空間」。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這張桌子的設計犧牲了傳統桌子的「單一表面」概念，改用兩個不同的表面來區分「長期」和「短期」的物品。這種設計帶來了視覺上的趣味性，但可能讓人覺得「不夠統一」。例如，如果目標是追求「簡單的線條」，這種雙重形狀可能會被視為過於複雜。不過，設計師的選擇是有意而為之的：他希望桌子能「適應不同的習慣」，而不是強迫使用者遵循固定的規則。因此，這個犧牲（統一性）是為了獲得更大的靈活性。",
+        "so_what": "設計總是有取捨。這張桌子放棄了「單一表面」的簡單性，換來的是「兩個表面有不同用途」的靈活性。如果你的目標是「統一感」，可能會選擇單一形狀的桌子；但如果想要「適應不同的生活習慣」，這種雙面設計就很有價值。"
+      },
+      {
+        "lens": "use",
+        "body": "這張桌子的實際使用方式很有趣：黑色圓柱體部分可以放置不常移動的物品（如書、裝飾品或小植物），而木質圓盤則適合放暫時性的東西（如咖啡杯或正在閱讀的書）。設計師在原文提到「黑色表面適合『留下來的東西』，木質表面適合『暫時放置的東西』」，這種區分讓使用者在無意識間就能形成習慣。此外，桌子的高度和形狀也適合放在沙發旁或床頭，成為一個「隨手可及」的空間。",
+        "so_what": "好設計不只是好看，還要讓人在使用時「不需要思考」。這張桌子的兩個表面其實在教使用者「哪些東西該留下來，哪些是暫時的」，這種隱含的「使用規則」讓生活更有秩序。"
+      }
+    ],
+    "takeaway_everyone": "下次你看到兩個不同的東西卻能完美結合時，試著觀察它們的形狀和材質是否暗示了不同的用途。例如，這張桌子的黑色和木質部分不僅是視覺上的對比，還在教你「哪些東西該留下來，哪些是暫時的」。這種設計不只是好看，還在引導你如何使用它。",
+    "takeaway_designer": "當你設計一件有多個功能的物品時，可以考慮用「形狀」和「材質」來區分不同的用途。例如，這張桌子用兩個不同的幾何形狀和材質來暗示「長期」和「短期」的使用區別。這種方法不需要額外的標籤或說明，使用者就能直覺理解。另外，在處理複雜形狀時，確保曲線和比例的設計能讓人覺得「天然」結合，而不是強行拼湊。",
+    "glossary": [
+      {
+        "term": "Kokeshi",
+        "plain": "日本傳統手工木偶，通常有圓柱形身體和圓形頭部，代表不同地區的風俗。"
+      },
+      {
+        "term": "啞光黑漆",
+        "plain": "表面不反光的黑色塗料，常用在家具或工業產品上，給人穩重、現代的感覺。"
+      },
+      {
+        "term": "腰線（waistline）",
+        "plain": "兩個形狀在中間形成的細緻線條，讓整體看起來更有節奏感。"
+      },
+      {
+        "term": "比例（proportion）",
+        "plain": "物體各部分尺寸之間的關係，例如這張桌子的圓柱體和圓盤高度寬度的搭配，讓整體看起來和諧。"
+      }
+    ],
+    "concretes": [
+      "Kokeshi 木偶的圓柱形身體和圓形頭部比例概念",
+      "#F2F0EB 的木質表面",
+      "黑色啞光塗料",
+      "兩個形狀在中間形成的細緻腰線"
+    ],
+    "source_url": "https://www.yankodesign.com/2026/10/18/this-japanese-doll-inspired-side-table-fits-two-contrasting-shapes-together-like-a-perfect-puzzle/?utm_source=rss&utm_medium=rss&utm_campaign=this-japanese-doll-inspired-side-table-fits-two-contrasting-shapes-together-like-a-perfect-puzzle",
+    "source_name": "Yanko Design",
+    "published": "2026-10-18T11:40:27+00:00",
+    "image_url": "https://www.yankodesign.com/images/design_news/2026/10/this-japanese-doll-inspired-side-table-fits-two-contrasting-shapes-together-like-a-perfect-puzzle/Kokeshi_table_furniture_01.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Yanko Design．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "百年戰士 | 標誌符號、品牌設計與包裝設計",
+      "title_original": "Centennial Warrior | Logo Symbol, Branding & Packaging",
+      "url": "https://www.behance.net/gallery/257392659/Centennial-Warrior-Logo-Symbol-Branding-Packaging",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/bb7796257392659.Y3JvcCwxMjY1LDk5MCw2NSww.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "情感代理",
+      "title_original": "Emotion Agency",
+      "url": "https://www.awwwards.com/sites/emotion-agency-1",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6a9ad27402bed148704137.jpg",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "為什麼每個 AI 產品看起來都一樣，以及如何設計出不一樣的產品",
+      "title_original": "Why Every AI Product Looks the Same, and How to Design One That Doesn’t",
+      "url": "https://medium.muz.li/why-every-ai-product-looks-the-same-and-how-to-design-one-that-doesnt-270f0137cc46?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*zUaKBtT-VEwrHFhoACsf0w.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Puustelli Miinus 品牌識別設計",
+      "title_original": "Inside Puustelli Miinus: Brand Identity by BOND",
+      "url": "https://abduzeedo.com/inside-puustelli-miinus-brand-identity-bond/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_puustelli-miinus-bond-creative-agency.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Wangari Mathenge 的鮮豔繪畫探索肯亞 1960 年代的範式轉移",
+      "title_original": "Wangari Mathenge’s Vibrant Paintings Tap into Kenya’s Paradigm Shift in the 1960s",
+      "url": "https://www.thisiscolossal.com/2026/10/wangari-mathenge-remembering-paintings-kenya-1960s/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/mathenge-levy-2.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：Ykha Amelz",
+      "title_original": "Artist Spotlight: Ykha Amelz",
+      "url": "https://www.booooooom.com/2026/10/21/artist-spotlight-ykha-amelz-2/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/YkhaAmelz1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "這些可調整的外套一次購買就能變換你的冬季衣櫥",
+      "title_original": "These adaptable coats switch up your winter wardrobe with one purchase",
+      "url": "https://www.fastcompany.com/91624482/these-adaptable-coats-switch-up-your-winter-wardrobe-with-one-purchase?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-22T14:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "這款專為影片剪輯與 3D 繪圖設計的創意筆電，現在突然折扣一千美元",
+      "title_original": "There's suddenly $1,000 off this absolute beast of a creative laptop cut out for heavy video editing and 3D rendering",
+      "url": "https://www.creativebloq.com/deals/theres-suddenly-usd1-000-off-this-absolute-beast-of-a-creative-laptop-cut-out-for-heavy-video-editing-and-3d-rendering",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-22T18:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "UX 界的最快槍手",
+      "title_original": "The fastest gun in UX",
+      "url": "https://www.doc.cc/articles/fastest-gun",
+      "source_name": "Sidebar",
+      "published": "2026-10-22T04:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
