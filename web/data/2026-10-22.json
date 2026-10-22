@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-22",
+  "category": "space_env",
+  "feature": {
+    "title": "一棟房子像一張拉長的桌子，光線從北邊的窗戶一路鋪進來",
+    "subject": {
+      "name": "T-237 House",
+      "designer": "UNO MÁS UNO Arquitectos（Celeste Gomez Lahoz, Nahuel Salcedo）",
+      "client": "",
+      "year": "2026"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 1335,
+    "image_match": "match",
+    "image_shows": "屋頂花園的建築俯瞰圖",
+    "neurons_used": 22.1,
+    "hook": "這棟房子沒有門、沒有走廊、沒有轉角，所有空間都排成一條直線，北邊的窗戶全開，讓院子的光線一路鋪進來，像是把室內外連成一片。",
+    "what_it_is": "一棟位於阿根廷的小型住宅，面積只有 120 平方公尺（約 1290 平方呎），設計師將廚房、餐廳、客廳、兩間臥室和一間浴室全部排成一條直線，全開向北邊的院子。設計師沒有用牆壁分割空間，而是靠材質和光線來區隔不同功能區域。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "這棟房子的平面圖是一個長方形，寬 5.5 公尺、長 18 公尺，所有空間都排成一條直線，沒有轉角、沒有走廊。原文提到「a succession of contiguous spaces」，意思是每個空間都連續相接，沒有門或牆壁完全隔開。例如，廚房和餐廳之間沒有門，而是靠地板材質的變化來區隔。這種設計讓北邊的窗戶可以全開，院子的光線可以一路鋪進來，形成一條「光的走廊」。",
+        "so_what": "這種設計讓你在家裡走動時，不會覺得被牆壁卡住，而是像在一個連續的空間裡移動，光線和景色也會隨著你的步伐變化。"
+      },
+      {
+        "lens": "message",
+        "body": "這棟房子的設計傳達了一個訊息：「生活不需要複雜的分隔。」原文提到「a precise response to the essential conditions of living」，意思是設計師用最簡單的方式解決住的需求。例如，沒有門的設計讓空間感更開闊，而全開向院子的窗戶則強調了與外界的連結。這種設計可能適合喜歡簡單、自然光線的人，而不是追求私密性或複雜裝飾的人。",
+        "so_what": "這棟房子在說：「我們不需要很多牆壁，也不需要很多東西來填滿空間。光線、材質和開放的視野，就夠了。」"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了得到「連續的空間」和「自然光線」，設計師犧牲了「私密性」和「傳統的房間區隔」。例如，沒有門的設計讓空間感開闊，但也意味著沒有私人空間。如果目標換成「每個房間都需要門」，這種設計就不成立。此外，全開向院子的窗戶讓光線充足，但可能在夜晚或陰雨天時，室內光線不均勻。設計師在原文提到「reducing formal complexity」，意思是他們有意識地簡化了設計，但這也帶來了某些限制。",
+        "so_what": "設計總是有取捨：你可以選擇開放的空間和自然光線，但可能需要放棄一些私密性；或者選擇更多的隔間，但可能會失去連續的空間感。"
+      },
+      {
+        "lens": "use",
+        "body": "這棟房子的設計讓使用者在家裡走動時，可以感受到空間的連續性。例如，從廚房走到客廳，光線和景色會逐漸變化，但不會被牆壁或門卡住。全開向院子的窗戶則讓室內外的空間感更融合。不過，由於沒有門，可能在夜晚或需要私密空間時，會感覺不適。此外，由於設計簡單，可能在裝修或擺設家具時，需要更謹慎地選擇顏色和材質，以避免與整體風格衝突。",
+        "so_what": "住在這樣的房子裡，你會覺得家是一個流動的空間，而不是被牆壁分割的區塊。但也需要接受，有些時候可能需要額外的屏風或布簾來調整私密性。"
+      }
+    ],
+    "takeaway_everyone": "下次參觀一棟房子時，注意看牆壁是否把空間切成一塊一塊，或者是否像這棟房子一樣，用材質和光線來區隔空間。如果房子的窗戶全開向一個方向，比如院子或花園，設計師可能希望你感受到室內外的連續性。這種設計不一定適合所有人，但它展示了如何用最簡單的方式，創造出豐富的空間體驗。",
+    "takeaway_designer": "在設計住宅時，可以嘗試用「連續的空間」來組織生活，而不是傳統的「房間」概念。例如，用地板材質的變化（顏色、紋理）來區隔不同功能區域，而不是用牆壁。此外，可以考慮全開向一個方向的窗戶，讓自然光線成為空間的主角。這種設計需要犧牲一些私密性，但可以帶來更開放、更連續的空間感。",
+    "glossary": [],
+    "concretes": [
+      "18 公尺長 × 5.5 公尺寬的長條式平面",
+      "北邊全開的窗戶",
+      "120 平方公尺的面積",
+      "廚房、餐廳、客廳、兩間臥室和一間浴室排成一條直線",
+      "沒有門的設計（靠材質區隔空間）"
+    ],
+    "source_url": "https://www.archdaily.com/1187266/t-237-house-uno-mas-uno-arquitectos",
+    "source_name": "ArchDaily",
+    "published": "2026-10-21T15:00:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/6ad8/7432/db5c/2001/882c/f25d/medium_jpg/casa-t-237-uno-mas-uno-arquitectos_6.jpg?1792570441",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "第42週 - 每日渲染作品 2026",
+      "title_original": "Week 42 - Daily Renders 2026",
+      "url": "https://www.behance.net/gallery/257263333/Week-42-Daily-Renders-2026",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/ca2c13257263333.Y3JvcCwzMjAwLDI1MDIsMCwzODA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "情感代理",
+      "title_original": "Emotion Agency",
+      "url": "https://www.awwwards.com/sites/emotion-agency-1",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6a9ad27402bed148704137.jpg",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "為何每個 AI 產品看起來都一樣，以及如何設計出不一樣的產品",
+      "title_original": "Why Every AI Product Looks the Same, and How to Design One That Doesn’t",
+      "url": "https://medium.muz.li/why-every-ai-product-looks-the-same-and-how-to-design-one-that-doesnt-270f0137cc46?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*zUaKBtT-VEwrHFhoACsf0w.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "包裝設計：Tenderleaf 植物護理（Svetlana Kalinova 作品）",
+      "title_original": "Packaging Design: Tenderleaf Botanical Care by Svetlana Kalinova",
+      "url": "https://abduzeedo.com/packaging-design-tenderleaf-botanical-care-svetlana-kalinova/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_tenderleaf-branding-packaging-svetlana-kalinova.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "2026 年《海邊雕塑展》中數十件雕塑點綴邦迪海灘",
+      "title_original": "Dozens of Sculptures Dot Bondi Beach in the 2026 Sculpture by the Sea Exhibition",
+      "url": "https://www.thisiscolossal.com/2026/10/bondi-beach-sculpture-by-the-sea-exhibition-2026/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/bondi-1.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：Ykha Amelz",
+      "title_original": "Artist Spotlight: Ykha Amelz",
+      "url": "https://www.booooooom.com/2026/10/21/artist-spotlight-ykha-amelz-2/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/YkhaAmelz1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "從島嶼壓力淬鍊設計創新！2026 荷蘭設計週台灣館展現材料轉化與製造實力",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/784",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-20T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Apple Music 新手繪標誌運用聲學科學",
+      "title_original": "The new, handmade Apple Music logo leans into the science of sound",
+      "url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-21T16:15:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Autodesk 揭露《貓在帽子裡》製作過程的新《Made to Make》系列",
+      "title_original": "Autodesk reveals how The Cat in the Hat was made in the new Made to Make series",
+      "url": "https://www.creativebloq.com/news/autodesk-reveals-how-the-cat-in-the-hat-was-made-in-the-new-made-to-make-series-",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-21T18:55:07+00:00",
+      "region": "en"
+    },
+    {
+      "title": "UX 界最快的槍手",
+      "title_original": "The fastest gun in UX",
+      "url": "https://www.doc.cc/articles/fastest-gun",
+      "source_name": "Sidebar",
+      "published": "2026-10-22T04:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
