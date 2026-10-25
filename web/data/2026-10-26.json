@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-26",
+  "category": "space_env",
+  "feature": {
+    "title": "華沙「死城」的解構：一個空間如何從「上班機器」變成「活體社區」",
+    "subject": {
+      "name": "Modern Mokotów",
+      "designer": "BBGK Architekci",
+      "client": "Służewiec Przemysłowy 更新計畫",
+      "year": "2025"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 1623,
+    "image_match": "match",
+    "image_shows": "遊樂場與格子狀建築",
+    "neurons_used": 24.5,
+    "hook": "這個華沙辦公區原本是「白天上班族的監獄」，設計團隊拆掉舊有的單一功能格局，讓它變成白天有公園、晚上有餐廳、週末有社區活動的「活體」空間。",
+    "what_it_is": "華沙莫科託夫區原本是一個1990年代建造的單一功能辦公區，被當地人戲稱「Mordor」（死城），因為只有上班時間才有活力。BBGK Architekci團隊在2025年重新設計這個區域，將其轉型為混合住宅、商業和公共空間的社區，讓它不再只是「工作機器」，而是有血有肉的城市組織。",
+    "angles": [
+      {
+        "lens": "context",
+        "body": "這個案子的背景是華沙莫科託夫區從農地→工業區→辦公區的三次「單一功能」轉變。原本的辦公區設計完全依照「9到5」的上班節奏，白天擠滿人潮、晚上死氣沉沉。設計團隊的挑戰在於如何打破這種「單一功能」的空間邏輯，讓一個區域能同時容納住宅、商業、公共空間，並且讓這些功能在不同時段自然切換。例如：白天的公園區域（圖中紅色遊樂場區域）晚上可能變成餐廳的戶外座位；週末則成為社區活動的場地。這種「時間切換」的設計思維，讓一個原本僵化的空間獲得了「呼吸」。",
+        "so_what": "下次看到一個地方「白天熱鬧、晚上冷清」，你可以觀察它是否被設計成只服務特定時間的人。例如：一個公園是否只在白天有活力，或者它是否能夠像人一樣，在不同時段有不同的「表情」？"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了打破原本的「單一功能」格局，設計團隊犧牲了傳統辦公區的「嚴謹規劃」和「專業形象」。例如：他們不再追求每一棟建築的「完美對稱」，而是採用非對稱的設計，讓不同功能的空間能夠自然銜接。在材質選擇上，他們放棄了高檔辦公區常見的玻璃幕牆，改用混凝土和木材的組合，讓空間看起來更「真實」而非「機械化」。這些選擇讓空間變得更「柔軟」，但同時可能降低了某些商業空間的「專業感」。例如：圖中可以看到的紅色遊樂場（#FF0000）和綠色植被，雖然增加了活力，但可能不符合傳統辦公區對「嚴肅形象」的要求。",
+        "so_what": "設計總是有取捨：你可以追求「專業形象」但犧牲「活力」，或者犧牲「專業感」但獲得「多樣性」。這個案子選擇了後者，讓空間不再只是「工具」，而是「家」的延伸。"
+      },
+      {
+        "lens": "use",
+        "body": "這個設計的核心在於「使用者的多樣性」。例如：原本的辦公區只有上班族使用，但現在住宅、商店、餐廳和公共空間的混合，讓不同族群在不同時段都能找到屬於自己的空間。圖中可以看到的遊樂場（紅色（#FF0000）和綠色（#008000）的組合）不僅是兒童的遊戲區，也是辦公族午休時的休閒空間；而建築外牆的非對稱設計（混合了off-white（#F2F0EB）、dark brown（#452B1F）和beige（#F5F5DC）色彩）則讓不同的功能區有不同的「視覺語言」，讓使用者能夠快速辨識哪裡是住宅、哪裡是商業區。此外，建築的「開放式」設計（例如：陽臺和公共空間的銜接）讓居民和辦公族能夠自然互動，打破了原本的「隔離」感。",
+        "so_what": "一個好設計不只是「看起來好」，而是讓不同的人在不同的時間都能找到「屬於自己的角落」。這個案子的成功關鍵在於，它不再問「這個空間是給誰用的？」，而是問「這個空間可以給誰用？」"
+      },
+      {
+        "lens": "material",
+        "body": "設計團隊選擇混凝土和木材的組合，而不是傳統辦公區常見的玻璃幕牆。混凝土的質感（圖中呈現的暗棕色（#452B1F）和粗糙質地）帶來穩重感，而木材的元素則增加了溫暖感。這些材質的選擇不僅改變了視覺效果，也影響了使用者的觸覺體驗。例如：混凝土的表面可以用於公共空間的座椅或牆面，讓人感受到「堅實」和「永續」的質感；而木材則可能出現在住宅區的陽臺或公園的長椅上，帶來「溫暖」和「自然」的感覺。這些材質的組合讓空間不再只是「冷冰冰」的辦公區，而是更「真實」和「有人情味」的社區。",
+        "so_what": "下次你走進一個空間，試著摸一摸牆面或座椅：它們是否讓你感受到「冷漠」或「溫暖」？材質的選擇不僅影響視覺，也影響你的觸覺和情緒。這個案子展示了如何透過材質的組合，讓一個空間從「機械」變成「有生命」的地方。"
+      }
+    ],
+    "takeaway_everyone": "下次你走進一個地方，試著觀察它是否只服務特定的人（例如：只有上班族的辦公區、只有學生的校園）。如果是，問問自己：這個空間是否有辦法變得更「柔軟」？例如：一個公園可以白天是休閒區、晚上是戶外餐廳；一個走廊可以白天是通道、晚上是展覽空間。設計不只是「擺東西」，而是「安排時間」——讓一個空間能夠在不同時段有不同的「角色」。",
+    "takeaway_designer": "在城市更新或混合用途設計中，可以參考這個案子的「時間切換」策略：1. 分析空間在不同時段的使用需求（例如：白天vs.晚上、平日vs.週末）。2. 設計「可變動」的元素（例如：可移動的家具、多功能的空間、靈活的分隔）。3. 透過材質和色彩（例如：混凝土的穩重感和木材的溫暖感）創造視覺上的「功能區隔」，讓使用者能夠快速辨識空間的用途。4. 犧牲部分「專業形象」或「高效率」，換取「多樣性」和「活力」。例如：放棄玻璃幕牆的「冷冰冰」感覺，改用混凝土和木材的「真實感」。",
+    "glossary": [
+      {
+        "term": "非對稱設計（asymmetrical design）",
+        "plain": "不追求左右對稱的設計，而是透過不規則的佈局創造更自然、靈活的空間。"
+      },
+      {
+        "term": "視覺語言（visual language）",
+        "plain": "透過色彩、材質、形狀等視覺元素，傳達空間的功能或氛圍（例如：紅色遊樂場代表活力，混凝土牆面代表穩重）。"
+      },
+      {
+        "term": "時間切換（time-based switching）",
+        "plain": "設計空間時，考慮不同時段的使用需求，並透過可變動的元素（例如：家具、分隔）讓空間能夠隨時間調整功能。"
+      }
+    ],
+    "concretes": [
+      "Mordor（華沙辦公區的戲稱）",
+      "red #FF0000（遊樂場色彩）",
+      "off-white #F2F0EB、dark brown #452B1F、beige #F5F5DC（建築外牆色彩）",
+      "混凝土和木材的組合（材質選擇）",
+      "非對稱設計（佈局策略）",
+      "白天公園／晚上餐廳戶外座（時間切換策略）"
+    ],
+    "source_url": "https://www.archdaily.com/1186424/modern-mokotow-bbgk-architekci",
+    "source_name": "ArchDaily",
+    "published": "2026-10-22T06:00:00+00:00",
+    "image_url": "https://images.adsttc.com/media/images/6ac4/f52b/07c3/d100/017f/d8ad/medium_jpg/Nate_Cook_Wo_oska_28.jpg?1791292829",
+    "image_fallback": "",
+    "credit": "圖片來源：ArchDaily．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "MBSL - Intervalle",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/257513529/MBSL-Intervalle",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/faa6fc257513529.Y3JvcCwxNjE2LDEyNjQsMCww.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Forge Automotive",
+      "title_original": "",
+      "url": "https://www.awwwards.com/sites/forge-automotive",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6a9dd26911421823414798.jpg",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "7 個每位產品設計師都該知道的格式塔原則（附標誌與介面範例）",
+      "title_original": "7 Gestalt Principles Every Product Designer Should Know (With Logos and UI Examples)",
+      "url": "https://medium.muz.li/7-gestalt-principles-every-product-designer-should-know-with-logos-and-ui-examples-0f4a87ce8aa1?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*ATVIMAoAT4tKv7vdaLg0iQ.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "本週精選：單色空間、雕刻棉布與罐裝葡萄酒",
+      "title_original": "Best of the Week: Monospaces, Engraved Cotton, and Can Wine",
+      "url": "https://abduzeedo.com/best-week-monospaces-engraved-cotton-and-can-wine/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W43.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "NAVER_FACESIGN",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/257443093/NAVER_FACESIGN",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/48fc2a257443093.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "What’s really fueling the recent generosity boom",
+      "title_original": "",
+      "url": "https://www.fastcompany.com/91628347/whats-really-fueling-the-recent-generosity-boom?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-25T10:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "These beautiful buds bring expertly tuned audiophile sound to wireless inner-ear headphones",
+      "title_original": "",
+      "url": "https://www.creativebloq.com/deals/these-beautiful-buds-bring-audiophile-sound-quality-to-wireless-inner-ear-headphones",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-25T15:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社會福利永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "title_original": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    }
+  ]
+}
