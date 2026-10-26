@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-27",
+  "category": "product_object",
+  "feature": {
+    "title": "智慧眼鏡的時尚選擇：不只是功能，還有真皮紋理的質感",
+    "subject": {
+      "name": "Even Realities Even G2 Brown 2 眼鏡框",
+      "designer": "Even Realities",
+      "client": "Even Realities",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 4066,
+    "image_match": "match",
+    "image_shows": "棕色與淺白色塑膠或金屬眼鏡框",
+    "neurons_used": 43.9,
+    "hook": "這副眼鏡不只是能翻譯、接電話，它的框架還像真正烏龜殼一樣，層層紋理透過整個材質，讓你戴起來不只是功能，還有質感。",
+    "what_it_is": "Even Realities 是深圳一家三歲的創業公司，推出 Even G2 Brown 2 眼鏡框，結合真皮紋理（仿烏龜殼）與AR顯示功能。它不像 Meta 或 Google 的智慧眼鏡，只能選黑色或沙色，這款有層次豐富的棕色系，每副經過 20 小時打磨，讓紋理獨一無二。售價 649 美元，比 Meta 的 Ray-Ban 還便宜。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這副眼鏡的框架採用 Even Realities 自行開發的「專屬醋酸纖維混合材質」（proprietary acetate blend），解決了傳統醋酸纖維在高溫濕氣下變形的問題。原文提到它「經過 20 小時的滾筒打磨」（tumbled for 20 hours），這是傳統眼鏡製作工藝，讓每副紋理都不一樣。材質厚度約 1.5mm，層層紋理從外到內貫穿整個框架，不是表面印刷。色系包含蜂蜜色 (#F4D03F)、慄色 (#8B4513) 和深咖啡色 (#3E2723)，接近真烏龜殼的自然色調。丹麥眼鏡品牌 Lindberg 的創始人 Nikolaj Schnoor 設計了這兩款經典造型：圓形（Panto）和方形，都能穿越時尚潮流。",
+        "so_what": "下次看到眼鏡或配件，注意它們的材質是「表面貼紙」還是「整體融入」——前者容易磨損，後者才能經年不變。"
+      },
+      {
+        "lens": "color",
+        "body": "Brown 2 的色系設計參考了 1973 年國際貿易禁止真烏龜殼後，眼鏡師傅們保留下來的「棕色調色板」。原文說它「從蜂蜜色 (#F4D03F) 過渡到深咖啡色 (#3E2723)」，這些顏色在光線下會產生「三維暖光效果」（three-dimensional glow），因為層層紋理讓光線折射。相比之下，同系列的 Brown 1 是單色平板棕色 (#8B4513)，看起來像一般電子產品的塑膠。Even 還推出配件：銀灰色極光鏡片（#A8A9AD）和砂磨不鏽鋼鏈條（gunmetal stainless steel），都延續了眼鏡的色系。",
+        "so_what": "顏色不只是顏色，它們會「說話」——層次豐富的色系讓人聯想到奢華，單色則像工業產品。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "Even 犧牲了「大規模量產的一致性」來換取「手工打磨的獨特性」。原文提到每副眼鏡都經過 20 小時的滾筒打磨，這意味著生產速度慢、成本高，但能讓每副紋理都不一樣。相比之下，Meta 的 Ray-Ban Display 只提供黑色和沙色，顯然優先考慮「大量生產」而非「個人風格」。Even 的設計師選擇了經典的圓形和方形造型（Panto 和 square），這些造型在時尚界已流行超過 50 年，代表穩定性，但也意味著它不會追求「前衛」。如果目標是「時尚潮流」，這個選擇就不成立。",
+        "so_what": "設計總是有取捨：要快速量產還是精心打造？要追求潮流還是經典？這副眼鏡選擇了後者。"
+      },
+      {
+        "lens": "use",
+        "body": "Even G2 Brown 2 的重量僅 36 克（1.27 盎司），比 Meta 的 Ray-Ban Display 還輕。框架採用「專屬醋酸纖維混合材質」，不會因為高溫或濕氣而變形，確保 AR 顯示器（waveguide）與眼睛保持精確對齊。原文提到它提供「即時翻譯、通知和浮動提示詞」（teleprompter），但設計重點放在「框架本身的美感」上。例如，配件如極光鏡片和不鏽鋼鏈條都經過精心設計，讓整體看起來像一件時尚配件而非科技產品。",
+        "so_what": "好設計讓使用者忘記它是「科技」，只覺得它是「好東西」——輕到不覺得重，功能在背後，外觀才是重點。"
+      }
+    ],
+    "takeaway_everyone": "下次看到眼鏡或配件，留意它們的「材質」和「色彩層次」：如果框架的紋理只在表面，它可能會隨時間磨損；如果顏色單調，它可能更像工業產品。Even 的設計告訴我們，即使是科技產品，也能像傳統手工藝一樣，透過材質和工藝傳達品質感。",
+    "takeaway_designer": "當客戶要求「時尚」的科技產品時，可以考慮以下手法：1. 材質深度：不只是表面印刷，而是讓紋理或顏色貫穿整個產品（如層層醋酸纖維）。2. 色系故事：參考禁用材質後的傳統色調（如烏龜殼禁用後的棕色調色板）。3. 工藝獨特性：即使是量產品，也能透過手工步驟（如 20 小時打磨）創造獨一無二的感覺。4. 配件統一：延伸產品的設計語言到配件（如鏈條、鏡片），強化整體風格。",
+    "glossary": [
+      {
+        "term": "對齊",
+        "plain": "把元素的邊或中心線對到同一條線上。"
+      },
+      {
+        "term": "醋酸纖維（acetate）",
+        "plain": "一種常見的眼鏡框架材質，輕巧且可塑性高，但容易受溫度和濕氣影響變形。"
+      },
+      {
+        "term": "滾筒打磨（tumbling）",
+        "plain": "將材料放進滾筒裡，與磨料一起旋轉打磨，常用於眼鏡或珠寶製作，能產生自然的紋理。"
+      },
+      {
+        "term": "waveguide",
+        "plain": "一種光學元件，能將光線導引到特定位置，常用於 AR/VR 眼鏡中顯示影像。"
+      },
+      {
+        "term": "Panto 造型",
+        "plain": "經典的圓形眼鏡造型，源自 1920 年代，至今仍流行。"
+      }
+    ],
+    "concretes": [
+      "Even G2 Brown 2 眼鏡框（專屬醋酸纖維混合材質）",
+      "蜂蜜色 (#F4D03F) 到深咖啡色 (#3E2723) 的層次色系",
+      "20 小時滾筒打磨工藝",
+      "36 克重量（1.27 盎司）",
+      "銀灰色極光鏡片 (#A8A9AD)",
+      "Panto 圓形和方形造型"
+    ],
+    "source_url": "https://www.yankodesign.com/2026/10/26/even-realities-new-tortoise-shell-frame-is-so-gorgeous-id-buy-the-smart-glasses-just-for-the-design/?utm_source=rss&utm_medium=rss&utm_campaign=even-realities-new-tortoise-shell-frame-is-so-gorgeous-id-buy-the-smart-glasses-just-for-the-design",
+    "source_name": "Yanko Design",
+    "published": "2026-10-26T21:30:50+00:00",
+    "image_url": "https://www.yankodesign.com/images/design_news/2026/10/even-realities-new-tortoise-shell-frame-is-so-gorgeous-id-buy-the-smart-glasses-just-for-the-design/even_realities_brown_2_1.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Yanko Design．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "矢野敬二藝術書發表會",
+      "title_original": "Keiji Yano Art Book Launch Fair",
+      "url": "https://www.behance.net/gallery/257578345/Keiji-Yano-Art-Book-Launch-Fair",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/731179257578345.6ade8bafc89bc.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "A24",
+      "title_original": "",
+      "url": "https://www.awwwards.com/sites/a24",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6aa063830971d331326333.png",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "7 個每位產品設計師應知的格式塔原則（附標誌與介面範例）",
+      "title_original": "7 Gestalt Principles Every Product Designer Should Know (With Logos and UI Examples)",
+      "url": "https://medium.muz.li/7-gestalt-principles-every-product-designer-should-know-with-logos-and-ui-examples-0f4a87ce8aa1?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*ATVIMAoAT4tKv7vdaLg0iQ.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "WA3RM：探索倫德格倫與林德奎斯特（Lundgren+Lindqvist）包裝設計",
+      "title_original": "WA3RM: Inside Lundgren+Lindqvist Packaging Design",
+      "url": "https://abduzeedo.com/wa3rm-inside-lundgrenlindqvist-packaging-design/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_wa3rm-id-packaging-lundgren-lindqvist.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "瑞貝卡·茲萬吉克（Rebecca Zwanzig）的夢幻數位插畫：融合藝術史與懷舊情懷",
+      "title_original": "Dreamy Digital Illustrations by Rebecca Zwanzig Tap into Art History and Nostalgia",
+      "url": "https://www.thisiscolossal.com/2026/10/rebecca-zwanzig-digital-flowers-illustrations/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/zwanzig-9.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：米雪兒·拉明（Michelle Ramin）",
+      "title_original": "Artist Spotlight: Michelle Ramin",
+      "url": "https://www.booooooom.com/2026/10/26/artist-spotlight-michelle-ramin/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/10/Ramin1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "為何 Instagram 即將更像 YouTube",
+      "title_original": "Why Instagram is about to look a lot more like YouTube",
+      "url": "https://www.fastcompany.com/91630089/why-instagram-is-about-to-look-a-lot-more-like-youtube?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-26T19:20:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "通勤族對意外視覺迷幻廣告感到震驚",
+      "title_original": "Commuters appalled by accidental optical illusion ad",
+      "url": "https://www.creativebloq.com/news/commuters-appalled-by-accidental-optical-illusion-ad",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-26T16:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "手工藝：由真正設計師打造的介面設計",
+      "title_original": "Craftwork: UI made by real designers",
+      "url": "https://craftwork.design/?ref=sidebar",
+      "source_name": "Sidebar",
+      "published": "2026-10-26T08:15:00+00:00",
+      "region": "en"
+    }
+  ]
+}
