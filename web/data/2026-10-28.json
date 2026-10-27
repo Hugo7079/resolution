@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-28",
+  "category": "product_object",
+  "feature": {
+    "title": "用廢料磚頭拼出大學健康中心的外牆，顏色像紅酒、紋理三種不同",
+    "subject": {
+      "name": "Princeton University Frist Health Centre 外牆磚塊設計",
+      "designer": "Glen-Gery",
+      "client": "Princeton University",
+      "year": "2025"
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 2162,
+    "image_match": "match",
+    "image_shows": "米白與深綠磚牆建築大窗前小樹",
+    "neurons_used": 36.9,
+    "hook": "這棟大學健康中心的外牆，用廠商自己製程中回收的廢料做成深褐色磚頭，表面有三種不同紋理，讓牆面看起來既有質感又不失現代感。",
+    "what_it_is": "普林斯頓大學在 2025 年落成的 Frist Health Centre 是一棟專注學生身心健康的建築，外牆使用美國製造商 Glen-Gery 的「Ponderosa Western」系列磚塊，這些磚頭採用該公司製程中回收的廢料製成，顏色為深褐色（類似紅酒色），並以水平交錯疊砌的方式鋪設。這棟建築也結合了金屬遮陽板、礦棉保溫層和生態景觀設計，以提升能源效率和使用者舒適度。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這些磚塊名為「Ponderosa Western」，屬於 Glen-Gery 的 Western Series，採用「擠壓法」（extruded）製成，表面結合了三種不同的紋理：絨面（velour）、刻痕（grooved）和砂磨（sanded）。這些紋理讓磚頭表面能夠捕捉不同角度的光線，產生明暗變化。原文提到這些磚頭使用了該公司製程中回收的廢料，這意味著它們的製作過程減少了對新資源的需求。磚塊的排列方式為「水平交錯疊砌」（horizontal running bond pattern），每排磚頭的接縫位置與上下排不同，形成交錯的效果，增加穩定性和視覺節奏感。",
+        "so_what": "這些磚頭的材質和紋理不只是好看，還能讓建築看起來更有層次，同時也傳達出環保的價值觀。"
+      },
+      {
+        "lens": "color",
+        "body": "磚塊的顏色被描述為「burgundy-coloured」，也就是深褐色，類似紅酒的顏色。這種顏色與普林斯頓大學歷史建築「Eno Hall」的哥德式磚牆（建於 1924 年）形成呼應，但又因為現代的製程和材質而顯得新穎。原文沒有明確提到具體的色票編號，但「burgundy」這個詞明確指出它是一種深沉的紅褐色，與傳統磚紅（如 #8B4513）不同，更接近高飽和度的深色調。這種顏色選擇可能是為了與周圍環境形成對比，同時也與建築的功能（專注身心健康）產生聯想。",
+        "so_what": "顏色不只是好看，還能連結過去和現在，讓建築在視覺上既尊重歷史又有現代感。"
+      },
+      {
+        "lens": "layout",
+        "body": "磚塊採用「水平交錯疊砌」（horizontal running bond pattern）的排列方式，這種排列方式讓每一排磚頭的接縫都呈現出水平線條，同時因為交錯疊砌，垂直線條也隱約可見。從圖中可以看出，這種排列讓建築的外牆看起來既有秩序感，又不失動感。此外，磚塊的表面紋理（velour、grooved、sanded）也讓光影效果更加豐富，增強了視覺層次。這種設計手法讓建築的外牆看起來既穩重又有節奏感。",
+        "so_what": "磚頭的排列方式不只是功能性的，還能讓建築看起來更有層次和動感，像是一幅活動的圖案。"
+      },
+      {
+        "lens": "context",
+        "body": "這棟建築位於普林斯頓大學校園內，與 1924 年建造的哥德式磚牆建築「Eno Hall」相鄰。設計師選擇了與歷史建築呼應的深褐色磚塊，但又透過現代的製程（如回收材料）和工法（如水平交錯疊砌）創造出新的視覺語言。這種設計手法讓新建築既尊重校園的歷史風貌，又展現出現代的設計理念。此外，建築周圍的金屬遮陽板、綠色屋頂和生態景觀也強化了這種現代與傳統的對話。",
+        "so_what": "在設計中，可以透過材質、顏色和工法來連結過去和現在，讓新的建築既不顯突兀，又不失個性。"
+      }
+    ],
+    "takeaway_everyone": "下次你看到一棟建築時，可以觀察它的外牆材質和顏色是否有特別的意義。例如，這棟大學健康中心的磚頭不只是好看，還是用廢料做的，顏色選擇也和歷史建築呼應。你也可以留意身邊的建築，看看牆面、窗戶或材質是否有特別的紋理或顏色，而不只是單純的功能。",
+    "takeaway_designer": "在建築或產品設計中，材質選擇和工法不僅影響視覺效果，還能傳達品牌或項目的價值觀。例如，這個案例展示了如何透過回收材料和特定的顏色工法，在尊重歷史的同時創造現代感。設計師可以考慮以下幾點：1. 材質的來源和製程是否與項目的價值觀一致？2. 顏色和紋理是否能與周圍環境對話？3. 工法（如磚塊的排列方式）是否能增強視覺層次？這些選擇可以幫助設計更有意義，也更具故事性。",
+    "glossary": [
+      {
+        "term": "飽和度",
+        "plain": "顏色有多鮮豔，從灰灰的到很濃的。"
+      },
+      {
+        "term": "擠壓法（extruded）",
+        "plain": "一種製造磚頭的方法，將泥漿壓縮成型後烘乾，能夠精確控制磚頭的形狀和表面紋理。"
+      },
+      {
+        "term": "水平交錯疊砌（horizontal running bond pattern）",
+        "plain": "一種磚牆鋪設方式，每排磚頭水平排列，但每排的接縫位置與上下排不同，形成交錯的效果，增加穩定性和視覺節奏。"
+      },
+      {
+        "term": "velour（絨面）",
+        "plain": "磚頭表面的一種紋理，類似絨布的觸感，能夠增加摩擦力和視覺質感。"
+      },
+      {
+        "term": "grooved（刻痕）",
+        "plain": "磚頭表面有刻出的線條或紋路，能夠影響光影效果和觸感。"
+      },
+      {
+        "term": "sanded（砂磨）",
+        "plain": "磚頭表面經過砂紙打磨，讓表面更光滑或呈現特定的紋理。"
+      }
+    ],
+    "concretes": [
+      "Ponderosa Western（磚塊系列名稱）",
+      "burgundy（深褐色，類似紅酒色）",
+      "水平交錯疊砌（horizontal running bond pattern）",
+      "velour、grooved、sanded（三種磚頭表面紋理）",
+      "Glen-Gery（磚塊製造商）",
+      "Eno Hall（1924 年哥德式建築）"
+    ],
+    "source_url": "https://www.dezeen.com/2026/10/21/glen-gery-frist-health-centre/",
+    "source_name": "Dezeen",
+    "published": "2026-10-21T07:00:00+00:00",
+    "image_url": "https://static-2026.dezeen.com/uploads/2026/10/GlenGery_sq1_dezeen_2364_col_0-1024x1024.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Dezeen．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "蟲女手記",
+      "title_original": "Insects Girl Cronicles",
+      "url": "https://www.behance.net/gallery/255350615/Insects-Girl-Cronicles",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/3cc407255350615.Y3JvcCwxNDAwLDEwOTUsMCwyMzU.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "獎項競賽",
+      "title_original": "Awards Racing",
+      "url": "https://www.awwwards.com/sites/awards-racing",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6a9e9f5bdabf9983024717.png",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "馬賽國家芭蕾舞團：動態網路設計與 CSS 字型",
+      "title_original": "Ballet National de Marseille: Kinetic Web Design & CSS Type",
+      "url": "https://abduzeedo.com/ballet-national-de-marseille-kinetic-web-design-css-type/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_ballet-national-de-marseille-hover-states.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Zebu 以遊戲感活潑抽象壁畫點綴都市牆面",
+      "title_original": "Playfully Vibrant Abstract Murals by Zebu Enliven Urban Walls",
+      "url": "https://www.thisiscolossal.com/2026/10/zebu-vibrant-abstract-murals/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/zebu-1.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師 Benjamin Jossinet 的「無證據之證明」",
+      "title_original": "“Proof Without Claim” by Photographer Benjamin Jossinet",
+      "url": "https://www.booooooom.com/2026/10/27/proof-without-claim-by-photographer-benjamin-jossinet/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/1-25.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "為何政府希望自駕車發出青藍色光芒",
+      "title_original": "Why the government wants self-driving cars to glow cyan",
+      "url": "https://www.fastcompany.com/91630053/why-the-government-wants-self-driving-cars-to-glow-cyan?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-27T16:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "這款螢幕燈亮化了我的心情——價格更降至35美元！",
+      "title_original": "This monitor light has lightened my mood – and it's down to $35!",
+      "url": "https://www.creativebloq.com/news/this-monitor-light-has-lightened-my-mood-and-its-down-to-usd35",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-27T16:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Glashütte Trash Clock",
+      "title_original": "",
+      "url": "https://niklasroy.com/gtc/",
+      "source_name": "Sidebar",
+      "published": "2026-10-28T04:04:00+00:00",
+      "region": "en"
+    }
+  ]
+}
