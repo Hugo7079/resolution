@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-29",
+  "category": "product_object",
+  "feature": {
+    "title": "水壺蓋拆解三秒，讓水壺不再藏汙納垢",
+    "subject": {
+      "name": "Memobottle Round 水壺蓋設計",
+      "designer": "Memobottle",
+      "client": "Memobottle",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3165,
+    "image_match": "match",
+    "image_shows": "可拆解式水壺蓋與吸管",
+    "neurons_used": 15.5,
+    "hook": "這個水壺蓋拆解速度比你喝水還快，三秒內就能拆成三塊，每一塊都能清洗到，讓水壺不再成為細菌溫床。",
+    "what_it_is": "Memobottle 是澳洲一家專門設計便於攜帶的水壺品牌。他們的新品 Memo Round 是一款圓柱形水壺，特別設計了一個可拆解的蓋子，解決一般水壺蓋內部結構複雜、清洗不徹底的問題。這個設計讓每一個接觸水的部件都能輕鬆拆下清洗，避免黴菌滋生。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這個水壺蓋使用了最少的零件（口嘴、蓋子本體、內部塞子），每個部件都採用注塑成型的塑膠材質，表面採用啞光處理，減少水垢附著。內部塞子固定不鏽鋼吸管，而口嘴可以旋轉至飲用或收納兩種狀態。設計者特別強調「每個接觸水的部件都能拆下清洗」，這意味著材質選擇和結構設計都以易清潔為優先。從圖上判斷不出具體塑膠材質型號，但啞光表面處理是常見的防滑和減少水垢附著的工法。",
+        "so_what": "這個設計告訴我們，材質和結構的選擇不僅關係到產品的外觀，更關係到它的實用性。例如，啞光表面不只好看，還能減少水垢，而拆解設計則讓清潔變成一件簡單的事。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "為了讓水壺蓋能夠快速拆解清洗，設計者犧牲了部分結構的緊密性。例如，一般水壺蓋內部有密封圈和複雜的通道，這些設計雖然能保持密封性，卻難以清洗。Memobottle 的設計則選擇簡化結構，將蓋子分成三個部分，每個部分都能獨立拆下。這意味著在密封性和清潔性之間，設計者優先考慮了後者。此外，口嘴的旋轉設計雖然增加了使用上的便利性，但可能在某些情況下不如固定式蓋子緊密。",
+        "so_what": "這個例子展示了設計時常見的取捨：為了獲得某種功能（如易清潔），可能需要犧牲其他功能（如密封性）。在日常生活中，你也可以思考，哪些功能對你最重要，然後決定是否願意犧牲其他部分。"
+      },
+      {
+        "lens": "use",
+        "body": "使用者可以在三秒內將蓋子拆解成三個部分：口嘴、蓋子本體和內部塞子。每個部分都能輕鬆清洗，而口嘴還能旋轉至兩種狀態（飲用或收納）。設計者特別加入了「detentes」（一種機械結構，能讓口嘴在旋轉時發出「咔嗒」聲響），這不僅提供了使用上的反饋感，還能讓使用者確認口嘴已經鎖定在正確位置。從圖上可以看到，蓋子的顏色採用深紅色（#A32044）和銀色（#B1B1B1）的高對比設計，讓每個部件在拆解後都能清楚區分。",
+        "so_what": "這個設計展示了如何透過簡單的機械結構和視覺設計，讓使用者在使用過程中感受到便利和確認。例如，你可以觀察日常用品，看看哪些設計讓你使用起來更順手，哪些設計讓你覺得「這個東西好用」。"
+      },
+      {
+        "lens": "message",
+        "body": "這個設計的核心訊息是「易清潔」。原文明確指出一般水壺蓋內部結構複雜，難以清洗，導致水垢和黴菌滋生。Memobottle 的設計則通過簡化結構和可拆解的設計，傳達「清潔不再是問題」的訊息。在視覺上，雖然圖中沒有直接展示清潔過程，但拆解後的三個部分和高對比的顏色設計，都在暗示「每個部件都能輕鬆處理」。此外，產品名稱「Memo Round」和品牌名稱「Memobottle」都強調了「記憶」和「便於攜帶」的概念，但易清潔才是這次設計的核心創新。",
+        "so_what": "這個例子展示了如何透過產品設計傳達核心價值。例如，當你購買一件產品時，可以觀察它的設計是否傳達了製造者想要強調的訊息，比如「環保」、「耐用」或「易清潔」。"
+      }
+    ],
+    "takeaway_everyone": "下次你使用一件產品時，可以觀察它的設計是否真的解決了你的痛點。例如，這個水壺蓋設計的核心不是外觀，而是「易清潔」這個功能。你可以思考，在日常生活中，哪些產品的設計讓你覺得「這個東西真的方便」，而哪些則讓你覺得「這個設計有什麼用」。例如，你可以檢查家裡的水壺、牙刷或其他容易藏汙納垢的物品，看看是否有更簡單的設計能讓清潔變得容易。",
+    "takeaway_designer": "在設計產品時，可以考慮以下幾點：1. 材質和結構的選擇：優先考慮使用者的實際需求，例如易清潔、耐用或環保。2. 取捨的明確性：在設計時，明確哪些功能是優先的，並願意犧牲次要功能。例如，這個水壺蓋犧牲了部分密封性，但獲得了易清潔的優勢。3. 使用者反饋的設計：透過機械結構（如 detentes）或視覺設計（如高對比顏色），提供使用者明確的反饋感，讓他們知道產品當前的狀態。4. 核心訊息的傳達：設計不僅要解決問題，還要清楚傳達解決方案的核心價值。例如，這個設計通過可拆解的結構和簡化的零件，強調「易清潔」這一核心訊息。",
+    "glossary": [
+      {
+        "term": "detentes",
+        "plain": "一種機械結構，能讓物體在旋轉或移動時發出「咔嗒」聲響，並鎖定在特定位置，提供使用者明確的反饋感。"
+      },
+      {
+        "term": "注塑成型",
+        "plain": "一種製造方法，將熔融的塑膠材料注入模具中，冷卻後形成特定形狀的產品。"
+      },
+      {
+        "term": "啞光處理",
+        "plain": "表面處理方式，讓物體表面看起來不反光，通常能減少汙垢附著。"
+      },
+      {
+        "term": "不鏽鋼",
+        "plain": "一種耐腐蝕的金屬材料，常用於製造水壺、餐具等接觸食物或水的產品。"
+      }
+    ],
+    "concretes": [
+      "三秒拆解成三個部分（口嘴、蓋子本體、內部塞子）",
+      "深紅色 #A32044 和銀色 #B1B1B1 的高對比設計",
+      "detentes（發出「咔嗒」聲響的機械結構）",
+      "不鏽鋼吸管"
+    ],
+    "source_url": "https://www.core77.com/posts/145650/Memobottles-Easy-to-Clean-Water-Bottle-Lid-Design",
+    "source_name": "Core77",
+    "published": "2026-10-15T13:00:00+00:00",
+    "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1853824_lead_400_145650_.jpeg",
+    "image_fallback": "",
+    "credit": "圖片來源：Core77．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "激進美學詞典計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Dansàneu 2026",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/257462857/Dansaneu-2026",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/6411b7257462857.Y3JvcCwxNjAwLDEyNTEsMCwxNQ.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "G. Colombel — 2026 個人作品集",
+      "title_original": "G. Colombel — Portfolio 2026",
+      "url": "https://www.awwwards.com/sites/g-colombel-portfolio-2026",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6ab287b7b1b30467092149.png",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "如何為 Googlebook 筆電設計 Android 應用程式",
+      "title_original": "How to Design Android Apps for Googlebook Laptops",
+      "url": "https://medium.muz.li/how-to-design-android-apps-for-googlebook-laptops-cc6801545c6a?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*TFICecHAlkJNIcdGwGkbjw.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Aira：庫爾帕·霍斯克（Kurppa Hosk）清潔能源視覺識別設計內幕",
+      "title_original": "Aira: Inside Kurppa Hosk's Clean Energy Visual Identity",
+      "url": "https://abduzeedo.com/aira-inside-kurppa-hosks-clean-energy-visual-identity/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_aira-kurppahosk-com.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "羅穆瓦爾·哈祖梅（Romuald Hazoumè）的拾得物面具：以同理對抗悲傷",
+      "title_original": "Found Object Masks by Romuald Hazoumè Counter Sorrow with Sympathy",
+      "url": "https://www.thisiscolossal.com/2026/10/romuald-hazoume-plastic-jug-mask-sculptures/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/hazoume-3.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "藝術家專訪：阿莉娜-翁迪娜·斯利莫夫希（Alina-Ondine Slimovschi）",
+      "title_original": "Artist Spotlight: Alina-Ondine Slimovschi",
+      "url": "https://www.booooooom.com/2026/10/28/artist-spotlight-alina-ondine-slimovschi-5/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Slimovschi1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "這些人正在削減雜亂，並以 AI 重新設計他們的智慧型電視",
+      "title_original": "These people are cutting the clutter and redesigning their smart TVs with AI",
+      "url": "https://www.fastcompany.com/91630508/vibe-coding-smart-tv-redesign?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-28T15:30:43+00:00",
+      "region": "en"
+    },
+    {
+      "title": "他們做到了！Sennheiser HD 480 Pro 是我聽過最佳封閉式耳機（而且完全不是同一級別）",
+      "title_original": "They did it! Sennheiser HD 480 Pro are the best closed-back headphones I’ve heard (and it's not even close)",
+      "url": "https://www.creativebloq.com/reviews/they-did-it-sennheiser-hd-480-pro-is-the-best-closed-back-headphone-ive-heard-and-its-not-even-close",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-28T16:42:10+00:00",
+      "region": "en"
+    },
+    {
+      "title": "沒有人要求閃爍按鈕",
+      "title_original": "Nobody asked for the sparkle button",
+      "url": "https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6",
+      "source_name": "Sidebar",
+      "published": "2026-10-28T04:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
