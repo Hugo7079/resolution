@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-30",
+  "category": "space_env",
+  "feature": {
+    "title": "回收家具與香蕉樹皮燈：設計過程的藝術",
+    "subject": {
+      "name": "Apple Designers of Tomorrow 2026 展覽（包含四件作品：Salem S Charabi 的燈、Yoonjeong Lee 的燈、Isabel Rower 的椅子、Parafernalia 的 MonoAmbiente 1）",
+      "designer": "Salem S Charabi、Yoonjeong Lee、Isabel Rower、Parafernalia（Sebastián Zorrilla & Genki Matsumura）",
+      "client": "Apple（策展：Rodman Primack）",
+      "year": "2026"
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3978,
+    "image_match": "match",
+    "image_shows": "展覽空間內家具陳列",
+    "neurons_used": 41.0,
+    "hook": "這場展覽不賣東西，只展示設計師用 Apple 產品創作時的「過程」——比如用香蕉樹皮做燈罩、把垃圾椅重新塑形、或用 5000 層薄木堆疊成桌子。",
+    "what_it_is": "Apple 在 Design Miami.Paris 2026 的「Designers of Tomorrow」展覽，邀請四位新銳設計師展示他們用 Apple 產品創作時的過程與作品。展覽主題是「Design for Presence」，強調「創作中的藝術」。這場展覽不賣東西，只展示設計師如何用工具、材料和時間，把想法變成實體。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "展覽裡的四件作品都用了「被忽視的材料」：Salem S Charabi 的燈用尼羅河三角洲的香蕉樹皮紙、薩卡拉的棕櫚葉、加拉拉山的石灰巖；Isabel Rower 的椅子用路邊撿來的舊家具重塑，外層貼上 1500 顆手工陶珠；Yoonjeong Lee 的燈桌用 5000 層薄木疊積而成。這些材料不是「高級」或「時尚」，而是「被重新發現」的——比如香蕉樹皮紙原本是埃及農民的廢棄物，棕櫚葉則是傳統手藝「qafassin」的工法。Parafernalia 的不鏽鋼作品則用酸蝕工法，讓光線透過表面的凹凸顯現細節。這些工法都不是新發明，但被設計師「重新組合」成新意義。",
+        "so_what": "下次看到一件東西，問問自己：「這個材料為什麼被選中？」有時候不是因為它貴，而是因為它被忽略了。"
+      },
+      {
+        "lens": "message",
+        "body": "展覽的核心訊息不是「看這件作品多好」，而是「看設計師如何做出來」。Apple 在官方聲明裡說：「Designers of Tomorrow 慶祝的是『過程』——創作中的藝術。」這在展覽設計上體現為：每件作品都帶著「製作痕跡」，比如 Charabi 的燈保留了石灰巖的重複紋路、Rower 的椅子露出木屑和廢紙的混合痕跡、Lee 的桌子明顯有疊積的層理。這些痕跡不是「瑕疵」，而是「證據」——證明這件東西不是工廠流水線出來的，而是設計師「親手」和時間一起做出來的。",
+        "so_what": "一件東西的價值不在它「完成」後，而在它「如何完成」。下次看到一件東西，留意它身上的「痕跡」——那些看似不完美的地方，可能才是它最真實的故事。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這場展覽選擇「展示過程」而非「賣作品」，所以犧牲了商業價值：作品無法買走，也沒有明確的「產品說明」。但換來的是「時間的維度」——觀眾可以看到設計師如何從「想法」到「實體」的每一步。例如 Yoonjeong Lee 的燈桌，展覽裡可能會放一支鉛筆和釘子，讓觀眾聯想到她最初用鉛筆釘紙的實驗。這種犧牲在商業展覽裡少見，但在 Apple 這樣強調「創意工具」的品牌下，卻成為了「體驗」的核心。",
+        "so_what": "有時候，一件東西的價值不在它「能賣多少錢」，而在它「能講多少故事」。如果你的目標是「讓人感受」而非「賣東西」，就要問問自己：我願意犧牲什麼，才能讓故事更完整？"
+      },
+      {
+        "lens": "context",
+        "body": "這場展覽的背景是 Apple 的「Designers of Tomorrow」系列，去年在同一場地展出過「看起來像奶油的桌子」。今年主題是「Design for Presence」，強調「存在感」而非「科技感」。這與 Apple 過去在設計展覽中常見的「未來感」或「科技感」形成對比。例如 Parafernalia 的 MonoAmbiente 1 用不鏽鋼做成「風景」，讓觀眾在展覽裡「走進」一個場景，而不是單純「看」一件作品。這種設計語言更接近「建築」或「環境藝術」，而非「產品設計」。",
+        "so_what": "一件東西的「風格」不是隨便選的，它會跟著「時代」和「品牌」的聲音變化。如果你的作品要「與眾不同」，先問問自己：現在的人們想要什麼樣的「存在感」？"
+      }
+    ],
+    "takeaway_everyone": "下次逛展覽或看設計作品時，試著問自己三個問題：①「這個東西是用什麼材料做的？為什麼選它？」（比如香蕉樹皮、廢木頭）②「這件作品身上有什麼『痕跡』？」（比如石頭的紋路、疊積的層理）③「這個展覽在講什麼故事？」（比如「過程」而非「結果」）這三個問題不需要懂設計，只需要「留意細節」和「問一個為什麼」。",
+    "takeaway_designer": "如果你的案子需要「展示過程」而非「賣產品」，可以參考這場展覽的三個手法：①「材料的故事」——選擇有「背景」的材料（如廢棄物、手工藝材料），並強調其「來源」和「工法」。②「痕跡的設計」——故意保留製作過程的痕跡（如疊積的層理、手工拼接的縫隙），讓觀眾「看得到」過程。③「環境的體驗」——設計作品與空間的互動（如 Parafernalia 的「風景」設計），讓觀眾「走進」而非「看過」作品。這三種手法都可以用在展覽、產品說明或品牌故事裡。",
+    "glossary": [
+      {
+        "term": "qafassin",
+        "plain": "埃及傳統手藝人，專門用棕櫚葉製作盒子和託盤。"
+      },
+      {
+        "term": "酸蝕工法",
+        "plain": "用酸性溶液腐蝕金屬表面，製造出凹凸紋理的工藝。"
+      },
+      {
+        "term": "尼羅河三角洲",
+        "plain": "埃及北部地區，以農業和手工藝聞名，也是香蕉樹皮紙的主要產地。"
+      },
+      {
+        "term": "加拉拉山",
+        "plain": "埃及西奈半島的山脈，出產石灰巖，當地人用來製作建築材料。"
+      }
+    ],
+    "concretes": [
+      "香蕉樹皮紙（來自尼羅河三角洲）",
+      "5000 層薄木疊積而成的桌子（Yoonjeong Lee）",
+      "1500 顆手工陶珠（Isabel Rower 的椅子）",
+      "酸蝕不鏽鋼表面（Parafernalia 的 MonoAmbiente 1）",
+      "棕櫚葉和石灰巖的紋理（Salem S Charabi 的燈）"
+    ],
+    "source_url": "https://www.dezeen.com/2026/10/21/apple-designers-of-tomorrow-show-2026/",
+    "source_name": "Dezeen",
+    "published": "2026-10-21T08:00:00+00:00",
+    "image_url": "https://static-2026.dezeen.com/uploads/2026/10/apple-designers-of-tomorrow_dezeen_2364_col_sq2-1024x1024.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Dezeen．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Intuit Mailchimp 圖例系統",
+      "title_original": "Intuit Mailchimp illustration System",
+      "url": "https://www.behance.net/gallery/257515383/Intuit-Mailchimp-illustration-System",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/f0a394257515383.Y3JvcCw5MjQsNzIzLDI2NSw2MQ.png",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Unbelievably Crap",
+      "title_original": "",
+      "url": "https://www.awwwards.com/sites/unbelievably-crap",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6aa06aafa4f85878540881.png",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "每個人都說設計師需要「品味」，那該如何培養它？",
+      "title_original": "Everyone Says Designers Need “Taste”. How Do You Actually Develop It?",
+      "url": "https://medium.muz.li/everyone-says-designers-need-taste-how-do-you-actually-develop-it-c8c09f0e2605?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/2600/0*yBantlZqliDF1Vz1",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "字體設計：PP Altera 可變字型",
+      "title_original": "Typography: PP Altera Variable Typeface by Pangram Pangram",
+      "url": "https://abduzeedo.com/typography-pp-altera-variable-typeface-pangram-pangram/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_pp-altera.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "2026 年 11 月機會：藝術家公開徵選、駐村計畫與獎助金",
+      "title_original": "November 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
+      "url": "https://www.thisiscolossal.com/2026/10/november-2026-opportunities-open-calls-residencies-and-grants-for-artists/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/monet.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「面紗」攝影作品，攝影師 Jennilee Marigomen",
+      "title_original": "“Veil” by Photographer Jennilee Marigomen",
+      "url": "https://www.booooooom.com/2026/10/29/veil-by-photographer-jennilee-marigomen/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/10/Marigomen1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "紫色在金融科技中無所不在。這家銀行重新設計品牌但保留了顏色",
+      "title_original": "Purple is everywhere in fintech. This bank rebranded but kept the color",
+      "url": "https://www.fastcompany.com/91631436/purple-is-everywhere-in-fintech-nu-bank-redesign?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-29T15:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Apple 的觸控式 MacBook Pro 比你想的更有意義",
+      "title_original": "Apple’s touchscreen MacBook Pro makes more sense than you might think",
+      "url": "https://www.creativebloq.com/news/apples-touchscreen-macbook-pro-makes-more-sense-than-you-might-think",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-29T17:08:45+00:00",
+      "region": "en"
+    },
+    {
+      "title": "軟體工廠忘記了設計",
+      "title_original": "The software factory forgot about design",
+      "url": "https://atifaz.am/writing/the-software-factory-forgot-about-design",
+      "source_name": "Sidebar",
+      "published": "2026-10-29T07:25:26+00:00",
+      "region": "en"
+    }
+  ]
+}
