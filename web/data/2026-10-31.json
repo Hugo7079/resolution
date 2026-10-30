@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-31",
+  "category": "visual_brand",
+  "feature": {
+    "title": "3000件包裝，一套規則讓人一眼就找到對的藥",
+    "subject": {
+      "name": "CVS Health 連鎖藥妝店自有品牌包裝系統",
+      "designer": "Pearlfisher 工作室",
+      "client": "CVS Health",
+      "year": "2025–2026"
+    },
+    "category": "visual_brand",
+    "category_label": "視覺與品牌",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 6000,
+    "image_match": "match",
+    "image_shows": "CVS 標誌加藥丸、藥品圖示",
+    "neurons_used": 28.0,
+    "hook": "一個藥妝店的自有品牌有 3000 件產品，從止痛藥到嬰兒奶粉，每件包裝都不一樣卻又像同一個品牌。設計師不是靠漂亮圖案，而是靠一套規則讓人在三秒內找到對的藥。",
+    "what_it_is": "CVS 是美國最大的連鎖藥妝店之一，他們的自有品牌包裝過去亂七八糟，讓顧客在買藥時手忙腳亂。Pearlfisher 工作室花了一年多時間，設計出一套適用於 3000 件產品的包裝系統。這套系統不只讓包裝看起來統一，還讓人在買藥時能快速找到需要的東西，特別是那些急著買藥又抱著小孩的顧客。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "這套系統的核心是「固定的位置、可變的內容」。每件包裝的前面板都有固定的格線：CVS 紅色標誌放在上方，接著是一塊顏色區塊代表產品類別（如止痛藥用藍色、嬰兒用品用綠色），然後是產品名稱用粗體大寫字體，最後是數量顯示在底部。這樣的排版讓人一眼就能看出「這是 CVS 的產品」，而且類別顏色讓人快速分類。例如，止痛藥和感冒藥的包裝雖然形狀不同，但類別顏色和標誌位置一樣，讓人覺得它們是同一個品牌。圖上看到的紅色標誌 (#FF0000) 和白色背景 (#FFFFFF) 對比度極高，確保在藥櫃前一眼就能認出。",
+        "so_what": "下次你在超市看到一排包裝，如果每件都把重要資訊放在同一個位置，你就知道這是一套設計好的系統，而不是亂七八糟的東西。"
+      },
+      {
+        "lens": "type",
+        "body": "字體選擇簡單直接：無襯線字體（sans-serif），字重中等，字距寬鬆，讓人在匆忙時也能快速閱讀。產品名稱用粗體大寫字體（bold uppercase），這種字體在視覺上比一般字體更突出，特別是當顧客在藥櫃前快速掃視時。例如，圖上雖然沒有完整的字體樣式，但原文提到「product name in bold capitals」，這種字體組合在實體包裝上會讓人一眼就看到產品名稱。此外，嬰兒用品類別還加入了「瓢蟲圖案」作為視覺標記，讓急著買奶粉的父母在三秒內就能認出。",
+        "so_what": "當你看到一個包裝上的字體又粗又大，而且都是大寫，這代表設計師希望你在匆忙時也能快速讀到重點。"
+      },
+      {
+        "lens": "color",
+        "body": "顏色系統分為兩部分：固定的 CVS 紅色標誌 (#FF0000) 和可變的類別顏色。例如，止痛藥類別用藍色 (#007BFF)，嬰兒用品類別用綠色 (#28A745)。這些顏色不只代表類別，還讓包裝在整體系統中保持一致性。原文提到「a block of flat color identifies the category」，這種「扁平色塊」（flat color）的設計讓類別區分清晰，同時避免了過於複雜的圖案。此外，包裝上的產品實物（如藍色軟膠囊或白色藥丸）也會出現在包裝上，讓人一眼就知道這是什麼東西。",
+        "so_what": "當你看到一排包裝，每個類別都用不同的顏色區塊，這代表設計師在幫你分類，讓你不需要一個一個看就能找到想要的東西。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這套系統犧牲了每件包裝的「獨特性」，換取整體的「可識別性」。例如，止痛藥和嬰兒奶粉的包裝形狀和大小完全不同，但他們都遵守同一套規則：標誌在上、類別顏色在中、產品名稱在下。這樣的設計讓人在買藥時不需要花時間比較每件包裝的細節，而是直接找到類別顏色和產品名稱。然而，這也意味著每件包裝無法有太多獨特的設計元素，因為那會打亂系統的統一性。例如，圖上看到的紅色標誌和白色背景對比度極高，這是為了在藥櫃前確保人們能快速認出 CVS 的品牌，而不是為了美觀。",
+        "so_what": "當你看到一件設計作品看起來很統一，但每件都不一樣，這代表設計師在犧牲個別的獨特性，換取整體的易用性。"
+      },
+      {
+        "lens": "use",
+        "body": "這套系統的設計考慮到實際使用情境：例如，抱著小孩又發燒的人在藥櫃前只能快速掃視。因此，包裝設計將重要資訊放在前面板，並使用高對比度的顏色和粗體字體。此外，包裝的側面和背面則留給次要資訊，例如「與其他品牌比較」的說明。原文提到「a dedicated tab holds the 'Compare to' callout」，這種設計讓人在選擇藥品時能快速比較，而不需要翻看每件包裝的背面。這樣的設計讓人在匆忙時也能做出正確的選擇。",
+        "so_what": "當你看到一件設計作品在實際使用時能讓人快速找到資訊，這代表設計師在考慮真實的使用情境，而不是只追求美觀。"
+      }
+    ],
+    "takeaway_everyone": "下次在超市或藥妝店看到一排包裝，試著看看每件包裝上的重要資訊是否都放在同一個位置。如果是，這代表設計師在幫你分類，讓你不需要一個一個看就能找到想要的東西。例如，如果每件包裝的類別顏色、產品名稱和數量都在固定的位置，這就是一套好的系統設計。反之，如果每件包裝都亂七八糟，你就會知道為什麼有人會在藥櫃前手忙腳亂。",
+    "takeaway_designer": "在設計一套大型系統時，先確定「固定的元素」和「可變的元素」是關鍵。例如，CVS 的包裝系統中，CVS 標誌和類別顏色位置是固定的，而產品名稱和圖案則是可變的。這樣的設計讓每件產品都能保持獨特性，同時又能在整體系統中保持一致性。在設計時，可以參考以下步驟：1. 確定系統的核心元素（如標誌、類別顏色）；2. 定義每個元素的位置和功能；3. 測試系統在實際使用情境中的效果。這樣的設計方法不僅能提升使用者體驗，還能節省未來的設計成本。",
+    "glossary": [
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "無襯線",
+        "plain": "筆畫末端沒有收尾裝飾的字，看起來比較乾淨現代，手機介面幾乎都是這種。"
+      },
+      {
+        "term": "字距",
+        "plain": "字與字之間的距離。"
+      },
+      {
+        "term": "格線",
+        "plain": "看不見的格子線，用來把文字和圖片對齊，讓版面看起來是安排過的。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "無襯線字體（sans-serif）",
+        "plain": "沒有細細的線條（襯線）在字體邊緣的字體，看起來簡潔明快，適合快速閱讀。"
+      },
+      {
+        "term": "扁平色塊（flat color）",
+        "plain": "一塊單一顏色的區域，沒有陰影或光澤效果，看起來簡單直接。"
+      },
+      {
+        "term": "粗體大寫字體（bold uppercase）",
+        "plain": "字體又粗又大，而且都是大寫字母，讓人一眼就能看到重點。"
+      }
+    ],
+    "concretes": [
+      "CVS 紅色標誌 (#FF0000)",
+      "類別顏色區塊（如止痛藥藍色、嬰兒用品綠色）",
+      "粗體大寫字體（bold uppercase）",
+      "固定的格線位置（標誌在上、類別顏色在中、產品名稱在下）",
+      "瓢蟲圖案（用於嬰兒用品類別）"
+    ],
+    "source_url": "https://www.printmag.com/branding-identity-design/cvs-and-pearlfisher-make-the-case-for-systems-design/",
+    "source_name": "Print Magazine",
+    "published": "2026-10-30T18:34:59+00:00",
+    "image_url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/10/2_PF_CVS_AwardsVisuals_02.png?resize=1000%2C542&quality=80&ssl=1",
+    "image_fallback": "",
+    "credit": "圖片來源：Print Magazine．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "鄉村生活",
+      "title_original": "Village Life",
+      "url": "https://www.behance.net/gallery/257683925/Village-Life",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/19aada257683925.Y3JvcCw4MTYsNjM5LDcwLDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Spyker Cars",
+      "title_original": "",
+      "url": "https://www.awwwards.com/sites/spyker-cars",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/08/6a914a3ee8da2510874104.png",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "我們沒有新點子了嗎？不，我們都抄同一份功課",
+      "title_original": "Are we out of new things? No. We’re all copying the same homework.",
+      "url": "https://medium.muz.li/are-we-out-of-new-things-no-were-all-copying-the-same-homework-567bee0764c5?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/0*c14sUijhVpKh2feg.jpg",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "AKT London：探索 Two Times Elliott 的視覺識別設計",
+      "title_original": "AKT London: Inside Two Times Elliott’s Visual Identity",
+      "url": "https://abduzeedo.com/akt-london-inside-two-times-elliotts-visual-identity/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_AKT-London.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師 Timothy Boomer 拍攝昆蟲瘤體的詭異世界",
+      "title_original": "Timothy Boomer Captures the Uncanny World of Insect Galls",
+      "url": "https://www.thisiscolossal.com/2026/10/timothy-boomer-photographs-plant-galls/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/boomer-8.jpg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師鈴木純也的「後美學」",
+      "title_original": "“Aesthetic of After” by Photographer Junya Suzuki",
+      "url": "https://www.booooooom.com/2026/10/30/aesthetic-of-after-by-photographer-junya-suzuki/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/09/Junya1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "以設計提升全民防災力！「台灣全民安全包」設計成果開源共享",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/785",
+      "source_name": "台灣設計研究院",
+      "published": "2026-10-30T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "隨著 AI 廢料充斥飼料，奢侈品牌全力投入手工廣告",
+      "title_original": "As AI slop floods feeds, luxury brands are going all in on handmade ads",
+      "url": "https://www.fastcompany.com/91632291/prada-ad-luxury-brands-all-in-on-handmade-ads?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-30T14:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "這位藝術家如何將童年噩夢轉化為電玩怪物",
+      "title_original": "How this artist turned childhood nightmares into video game monsters",
+      "url": "https://www.creativebloq.com/features/how-this-artist-turned-childhood-nightmares-into-video-game-monsters",
+      "source_name": "Creative Bloq",
+      "published": "2026-10-30T15:57:20+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Struggle together",
+      "title_original": "",
+      "url": "https://ryo.lu/journal/struggle-together",
+      "source_name": "Sidebar",
+      "published": "2026-10-30T11:26:07+00:00",
+      "region": "en"
+    }
+  ]
+}
