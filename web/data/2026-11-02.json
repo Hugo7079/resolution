@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-02",
+  "category": "space_env",
+  "feature": {
+    "title": "選票箱、獎章、國徽：民主的象徵為什麼要重新設計？",
+    "subject": {
+      "name": "《Eagles, Medals, Ballot Boxes: Redesigning Democratic Representation》展覽",
+      "designer": "Prof. Dr. Sven T. Siefken 與 Prof. Dr. Friedrich von Borries",
+      "client": "Volkswagen Foundation",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 5000,
+    "image_match": "match",
+    "image_shows": "海報貼在牆上，紅白色文字「REDESIGNING DEMOCRATIC REPR",
+    "neurons_used": 43.6,
+    "hook": "這場展覽不展示新設計，而是用設計方法拆解三個民主符號：選票箱、獎章、國徽。它問的是：這些看似固定的東西，是否還適合當代社會？答案藏在「誰來決定它們的樣子」這個問題裡。",
+    "what_it_is": "一場由政治科學家與設計理論家共同策劃的展覽，以三個民主象徵物件（聯邦鷹徽章、聯邦功績十字勳章、選票箱）為切入點，探討設計如何重新詮釋民主代表性。展覽不僅分析現有問題，還邀請藝術家與觀眾共同思考：這些物件的設計是否還能反映現代社會對民主的期待？",
+    "angles": [
+      {
+        "lens": "context",
+        "body": "展覽選擇的三個物件各代表不同的民主層面：聯邦鷹徽章代表國家整體形象，聯邦功績十字勳章象徵國家與社會的關係，選票箱則是公民授權的瞬間。特別是選票箱，原文明確提到德國許多選票箱來自「回收的垃圾桶」，這種實用但不尊重的設計反映了民主程式被視為「功能性」而非「儀式性」的事物。展覽的核心在於：這些物件的設計是否還能反映現代社會對民主的期待？例如，選票箱的設計是否應該更強調「公民參與」而非「實用性」？",
+        "so_what": "原來民主的符號不是固定的，而是可以被重新詮釋的。比如選票箱，你可能從沒想過它的設計背後藏著「民主的嚴肅性」與「公民權力」的訊息，而不只是一個「好用」的容器。"
+      },
+      {
+        "lens": "message",
+        "body": "展覽的核心訊息在於「民主的複雜性不應被簡化」，但設計卻可以幫助解構這些複雜性。例如，聯邦鷹徽章代表「國家權威」，聯邦功績十字勳章代表「公民貢獻」，選票箱代表「權力授予」。這三個物件的設計語言（如材質、形狀、顏色）都在傳達不同的價值觀。原文提到，設計不僅是「分析」，更是「提出具體替代方案」。例如，選票箱的重新設計可能會使用更「莊重」的材質（如木材或金屬），而不是回收的塑膠桶，以強化投票的儀式感。",
+        "so_what": "一個物件的設計可以傳達不同的訊息。比如選票箱，它的材質和形狀不只是「好用」，還在說「這個國家如何看待公民的權力」。"
+      },
+      {
+        "lens": "material",
+        "body": "展覽特別關注選票箱的材質問題。原文提到，德國許多選票箱來自「回收的垃圾桶」，這種材質雖然實用（防水、結實、成本低），卻缺乏「儀式感」。相比之下，聯邦鷹徽章和聯邦功績十字勳章通常使用金屬或貴金屬，強化其「莊重」與「權威」的象徵意義。展覽的討論在於：選票箱的材質是否應該更接近獎章的「莊重感」，而不是垃圾桶的「實用性」？",
+        "so_what": "一個東西的材質不只是關係到「好用」，還關係到「它想傳達什麼」。比如選票箱，如果用塑膠桶做，可能暗示「民主是實用的」，但如果用木頭或金屬做，可能暗示「民主是莊嚴的」。"
+      }
+    ],
+    "takeaway_everyone": "下次看到選票箱、國徽或獎章時，試著問自己：「這個東西是用來做什麼的？」「它的材質和形狀在說什麼？」例如，選票箱如果是用回收的垃圾桶做的，可能暗示「民主是實用的」，但如果用木頭或金屬做的，可能暗示「民主是莊嚴的」。設計不只是「好看」，更是「傳達價值觀」的工具。",
+    "takeaway_designer": "在處理「象徵性」的設計時，可以參考這場展覽的方法：1. 先觀察現有物件的「功能」與「意義」之間的平衡；2. 找出哪些部分被忽略（如選票箱的「儀式感」）；3. 提出具體的替代方案，並評估犧牲哪些功能以獲得新的意義。例如，如果客戶希望強化「品牌的莊重感」，可以考慮犧牲部分實用性（如成本或體積），以獲得更強的視覺象徵。",
+    "glossary": [
+      {
+        "term": "儀式性（ritualistic）",
+        "plain": "指設計不只是實用，還要傳達某種精神或價值，例如宗教儀式中的道具、國家象徵的莊重感。"
+      },
+      {
+        "term": "象徵意義（symbolic meaning）",
+        "plain": "物件的設計不僅代表實際功能，還代表更深層的概念，例如選票箱不只是容器，還代表「公民權力」或「民主程式」。"
+      }
+    ],
+    "concretes": [
+      "《Eagles, Medals, Ballot Boxes: Redesigning Democratic Representation》",
+      "Prof. Dr. Sven T. Siefken",
+      "Prof. Dr. Friedrich von Borries",
+      "回收的垃圾桶（德國選票箱的常見材質）",
+      "聯邦鷹徽章（國家權威的象徵）",
+      "聯邦功績十字勳章（公民貢獻的象徵）",
+      "Volkswagen Foundation（福斯基金會）",
+      "Museum of Applied Arts（應用藝術博物館，法蘭克福）"
+    ],
+    "source_url": "https://www.stylepark.com/en/news/shaping-democracy-sven-siefken-politics-election-order-stylepark-magazine",
+    "source_name": "Stylepark",
+    "published": "2026-10-20T22:00:00+00:00",
+    "image_url": "https://www.stylepark.com/assets/articles/TS_QF_AdlerUrne_MuseumAngewandteKunst.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Stylepark．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "徹底美麗辭典專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "虎虎",
+      "title_original": "Tiger Tiger",
+      "url": "https://www.behance.net/gallery/257866603/Tiger-Tiger",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/cdcf74257866603.Y3JvcCwxMzgwLDEwODAsMjcwLDA.gif",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "下一個UX問題：如果AI正好做了我們要求的，但不是我們真正想要的呢？",
+      "title_original": "The Next UX Problem: What If AI Does Exactly What We Asked, But Not What We Meant?",
+      "url": "https://medium.muz.li/the-next-ux-problem-what-if-ai-does-exactly-what-we-asked-but-not-what-we-meant-c3ac1e7f8431?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*PxphBQJPOZo7ioVXjOteYA.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "andstudio 發表 Werf Rotterdam 視覺識別",
+      "title_original": "andstudio Unveils the Werf Rotterdam Identity",
+      "url": "https://abduzeedo.com/andstudio-unveils-werf-rotterdam-identity/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_92.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "為了被看見而打造",
+      "title_original": "Built to Be Seen",
+      "url": "https://www.behance.net/gallery/257267307/Built-to-Be-Seen",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/eaed6c257267307.Y3JvcCwxMTkyLDkzMywxMDMsMA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "iOS 27 的液態玻璃：如何用新滑桿測試你的介面",
+      "title_original": "Liquid Glass in iOS 27: How to Test Your UI With the New Slider",
+      "url": "https://medium.muz.li/liquid-glass-in-ios-27-how-to-test-your-ui-with-the-new-slider-2f87b64fab85?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1672/1*XlLVQJNFO_EV3MUEgh5mDg.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文創總會雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "title_original": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    },
+    {
+      "title": "NYC 將在短短數小時內從萬聖節變身馬拉松賽道",
+      "title_original": "NYC will flip the streets from Halloween to the marathon in just a few hours. Here’s how",
+      "url": "https://www.fastcompany.com/91632474/nyc-flips-streets-halloween-to-the-marathon?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-10-31T11:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "若智慧眼鏡風行，我預測戶外廣告看板將迎來新黃金時代",
+      "title_original": "If smart glasses take off, I predict a new golden age for the billboard",
+      "url": "https://www.creativebloq.com/news/if-smart-glasses-take-off-i-predict-a-new-golden-age-for-the-billboard",
+      "source_name": "Creative Bloq",
+      "published": "2026-11-01T15:48:22+00:00",
+      "region": "en"
+    },
+    {
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社會福利永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "title_original": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135",
+      "source_name": "金點設計獎",
+      "published": "",
+      "region": "zh-tw"
+    }
+  ]
+}
