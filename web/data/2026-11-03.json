@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-03",
+  "category": "space_env",
+  "feature": {
+    "title": "用舊料堆出教堂：倫敦劇場如何從臨時變永久",
+    "subject": {
+      "name": "The Yard Theatre",
+      "designer": "Takero Shimazaki Architects",
+      "client": "The Yard Theatre（原始設計：Practice Architecture）",
+      "year": ""
+    },
+    "category": "space_env",
+    "category_label": "空間與環境",
+    "confidence": 98,
+    "images_read": 1,
+    "article_chars": 3478,
+    "image_match": "match",
+    "image_shows": "手機地圖App搜尋畫面",
+    "neurons_used": 45.2,
+    "hook": "倫敦黑客尼威克區的臨時劇場，原本三個月就要拆除，卻被改造成永久空間，外牆用舊磚、屋頂用回收鋼管和木材疊出教堂樣的立方體，連起重機塔都變成了透光的煙囪。",
+    "what_it_is": "The Yard Theatre 原是 2011 年由 Practice Architecture 設計的臨時倉庫劇場，三個月後就要拆除。Takero Shimazaki Architects 在 2026 年將其改建為永久表演場地，加入酒吧、後臺和社區空間，並保留原有工業風格，卻透過教堂式的建築語言讓空間變得莊嚴。所有新增材料都來自回收或舊料，包括 95% 回收材質的 K-Briq 磚塊、纖維水泥板和半透明聚碳酸酯板。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "這座劇場的材質選擇完全顛覆了「新建築」的常規：原本是倉庫和啤酒廠的舊磚牆被保留，新增的部分則使用 95% 回收材質的 K-Briq 磚塊（尺寸約 200×200×50mm）、纖維水泥板（厚度約 10mm）和半透明聚碳酸酯板（厚度約 8mm）。屋頂結構採用層積木材（laminated veneer lumber，厚度約 45mm）和回收的鋼管（直徑約 150mm），連拆除時的廢料也被重新利用，例如外牆的磚塊和填充材料。這些材質本身看似粗糙，卻因為組織方式（如教堂式的立方體疊加）而變得莊重。例如，原本的起重機塔被改造成 23 公尺高的通風煙囪，外皮用半透明聚碳酸酯板包覆，形成夜間的燈塔效果。",
+        "so_what": "原來舊料不只能省錢，還能透過組合方式變得高貴。這裡的關鍵不是材質本身，而是如何用它們講故事，讓人覺得「這些東西原本就該這樣擺在一起」。"
+      },
+      {
+        "lens": "layout",
+        "body": "劇場的外觀設計像是將三個立方體疊在倉庫頂上，打破了原本水平的工業語言，創造出「教堂」般的垂直感。內部則是保留原有的磚牆，但新增的 224 席劇場採用半圓形的劇場座位（amphitheatre seating），讓觀眾能環繞舞臺。這種設計不只改變了劇場的容量（從原本的 110 席擴大到 224 席），還讓空間變得更有層次。例如，酒吧和大廳在原劇場建築內，而後臺則藏在觀眾席下方，透過電梯和樓梯連接。這些元素讓使用者不只能「看」到空間，還能「走」進它的內在結構。",
+        "so_what": "空間的「層次」不只看得見，還能「走」得出來。這裡的設計讓人不只能看見劇場，還能體驗到它的「內在骨架」，就像讀一本書時，不只看封面，還能翻到裡面的章節。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這座劇場的設計犧牲了「全新材質」的光鮮感，卻獲得了「永續」和「歷史感」。例如，原本的起重機塔被改造成 23 公尺高的通風煙囪，外皮用半透明聚碳酸酯板包覆，成為夜間的燈塔。這個選擇意味著它無法像現代玻璃幕牆那樣閃亮，而是選擇用「舊料的新用途」來吸引目光。如果目標是「現代感」，這個設計可能會被批評為「過時」，但它的「永續」和「地方特色」卻是其他劇場難以匹敵的。例如，保留的磚牆和回收鋼管結構，讓劇場成為倫敦工業遺跡的見證者。",
+        "so_what": "設計時，你可能需要在「好看」和「有意義」之間做選擇。這裡的團隊選擇了後者，並用具體的材質和結構來說服人們，這樣的選擇也是一種美學。"
+      },
+      {
+        "lens": "context",
+        "body": "倫敦黑客尼威克區原本是工業區，充滿倉庫和啤酒廠的遺跡。這座劇場的設計並沒有完全擺脫這些工業元素，而是將它們轉化為「文化空間」的一部份。例如，保留的磚牆（尺寸約 215×102.5×65mm）、回收的鋼管結構，甚至連拆除時的廢料都被重新利用。這種「不拆除，而是改造」的態度，讓劇場不只成為表演空間，還成為倫敦工業遺產的見證者。如果這裡是一座全新的劇場，可能會採用更現代的材質，但這裡的設計選擇讓它成為「地方歷史」的一部分。例如，屋頂的層積木材和聚碳酸酯板煙囪，既是結構需求，也是對原有倉庫的致敬。",
+        "so_what": "一個空間的設計不只關乎美學，還關乎它「從哪裡來」。這裡的劇場不是「浮在」倫敦，而是「長在」倫敦的工業土壤上，就像一棵樹的年輪記錄了它的過去。"
+      }
+    ],
+    "takeaway_everyone": "下次你走進一個空間，試著觀察它的「材質」和「結構」：牆壁是用什麼做的？那些材質有沒有故事？例如，一座教堂可能用石頭建造，但它的「教堂感」可能來自於拱形天花板；而這座劇場用的是舊倉庫的磚和鋼管，但它的「莊嚴感」來自於教堂式的立方體疊加。設計不只關乎「看起來」，還關乎「為什麼這樣」——那些材質為什麼被選中，又是如何被組織起來的。",
+    "takeaway_designer": "在改造舊建築時，可以嘗試以下三種具體手法：1. 材質的「再利用」：不拆除舊料，而是透過組織方式（如疊加、半透明包覆）讓它們變得高貴。例如，這裡的起重機塔被改造成煙囪，不只功能改變，視覺也升級。2. 結構的「層次」：透過樓梯、電梯、半圓形座位等元素，讓使用者能「走」進空間的內在結構，而不只是「看」到它。3. 歷史的「轉化」：將工業遺跡（如磚牆、鋼管）轉化為文化空間的一部份，讓設計成為地方記憶的一部分。例如，屋頂的層積木材和聚碳酸酯板煙囪，既是結構需求，也是對原有倉庫的致敬。",
+    "glossary": [
+      {
+        "term": "laminated veneer lumber（層積木材）",
+        "plain": "一種由多層薄木貼合而成的工程木材，強度高、重量輕，常用於屋頂和結構支撐，厚度約 45mm。"
+      },
+      {
+        "term": "fibre-cement sheeting（纖維水泥板）",
+        "plain": "混合水泥和纖維的建材，耐久性高，常用於外牆和屋頂，厚度約 10mm。"
+      },
+      {
+        "term": "polycarbonate（聚碳酸酯板）",
+        "plain": "一種透明或半透明的塑膠板，輕巧且耐衝擊，常用於天窗或裝飾性外牆，厚度約 8mm。"
+      }
+    ],
+    "concretes": [
+      "laminated veneer lumber（層積木材，厚度約 45mm）",
+      "23 公尺高的聚碳酸酯板煙囪（厚度約 8mm）",
+      "半圓形劇場座位（224 席，amphitheatre seating）",
+      "K-Briq 磚塊（95% 回收材質，尺寸約 200×200×50mm）"
+    ],
+    "source_url": "https://www.dezeen.com/2026/10/21/yard-theatre-revamp-takero-shimazaki-architects-london/",
+    "source_name": "Dezeen",
+    "published": "2026-10-21T09:00:00+00:00",
+    "image_url": "https://static-2026.dezeen.com/uploads/2026/10/yard-theatre-revamp-takero-shimazaki-architects-london_dezeen_2364_sq_1-1024x1024.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Dezeen．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》計畫",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Hateland V",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/255585749/Hateland-V",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/fb2ec0255585749.Y3JvcCwxNjgxLDEzMTUsMzEyLDc3NA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "格線",
+      "title_original": "Grids",
+      "url": "https://www.awwwards.com/sites/grids-1",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6aa7d6e36002d509691780.jpg",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "桃太郎咖啡：小批量包裝設計系統",
+      "title_original": "Momotaro Coffee: Small-Batch Packaging Design System",
+      "url": "https://abduzeedo.com/momotaro-coffee-small-batch-packaging-design-system/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_momotaro-coffee-packaging-world.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Jeffrey Gibson 的「真愛之事」—探索藝術家跨領域實踐十年",
+      "title_original": "Jeffrey Gibson’s ‘A Real Love Thing’ Surveys a Decade of the Artist’s Multidisciplinary Practice",
+      "url": "https://www.thisiscolossal.com/2026/11/jeffrey-gibson-a-real-love-thing/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/11/gibson-1.jpeg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "插畫家 Evan M. Cohen 的「清空」",
+      "title_original": "“Clearing” by Illustrator Evan M. Cohen",
+      "url": "https://www.booooooom.com/2026/11/02/clearing-by-illustrator-evan-m-cohen/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/10/Clearing1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "「有這樣的宿舍，你幾點回家？」新宿舍運動展",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/778",
+      "source_name": "台灣設計研究院",
+      "published": "2026-11-02T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "Starbucks 投入一億美元修正最大失誤",
+      "title_original": "Starbucks is spending $1 billion to undo its biggest mistake",
+      "url": "https://www.fastcompany.com/91632250/starbucks-spending-1-billion-undo-biggest-mistake?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-11-02T17:30:05+00:00",
+      "region": "en"
+    },
+    {
+      "title": "任天堂《塞爾達傳說：時之奧卡里納》本可大不相同",
+      "title_original": "Nintendo's Zelda Ocarina of Time could have been very different",
+      "url": "https://www.creativebloq.com/news/nintendos-zelda-ocarina-of-time-remake-was-almost-very-different",
+      "source_name": "Creative Bloq",
+      "published": "2026-11-02T19:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "指紋將取代網路追蹤碼",
+      "title_original": "Fingerprints are the new cookies",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "source_name": "Sidebar",
+      "published": "2026-11-03T05:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
