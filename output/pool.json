@@ -3133,45 +3133,6 @@
       "title": "From AI Prototype to Better UX: What Designers Should Test First",
       "url": "https://medium.muz.li/from-ai-prototype-to-better-ux-what-designers-should-test-first-4745dcbe4fdc?source=rss----5969bf7021a3---4"
     },
-    "https://medium.muz.li/from-interfaces-to-protocols-how-ai-agents-are-changing-the-way-they-interact-with-the-web-50e3d0613944?source=rss----5969bf7021a3---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/1*qg6XNUa_jTlFWUvZu0n1Ww.png",
-      "kind": "showcase",
-      "published": "2026-10-19T05:51:46+00:00",
-      "region": "en",
-      "source_name": "Muzli",
-      "summary": "How will this shift change product design processes and the areas where product designers have influence? As product designers, we have traditionally focused on designing experiences for people. We conduct user research, map user journeys, simplify information architecture, and try to create interfaces that are accessible, understandable, and easy to use. But that assumption is starting to change. AI systems are moving beyond simply giving us information; agents are beginning to research on our behalf, make reservations, complete forms, and in some cases even carry out real transactions. This raises a new question for designers: How do we design a product that can be used both by a person and by an agent acting on their behalf? In this article, I want to focus a little more on that second user: the agent. What does an agent need in order to use a product? Which capabilities should a system expose to it, where should the boundaries be, and how might approaches such as WebMCP change this relationship? The Way Agents Use the Web Is Changing Agents using the web is not a new idea. Over the past few years, systems such as OpenAI Operator , Anthropic Computer Use , and Microsoft Copilot ",
-      "title": "From Interfaces to Protocols: How AI Agents Are Changing the Way They Interact with the Web",
-      "url": "https://medium.muz.li/from-interfaces-to-protocols-how-ai-agents-are-changing-the-way-they-interact-with-the-web-50e3d0613944?source=rss----5969bf7021a3---4"
-    },
-    "https://medium.muz.li/how-i-hire-product-designers-what-10-years-of-reviewing-portfolios-taught-me-about-great-1ffa8e06e988?source=rss----5969bf7021a3---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/1*gl2UGK4_qs9r1iVYWZnIZA.jpeg",
-      "kind": "showcase",
-      "published": "2026-10-19T05:52:22+00:00",
-      "region": "en",
-      "source_name": "Muzli",
-      "summary": "How I Hire Product Designers: What 10 Years of Reviewing Portfolios Taught Me About Great Candidates? I have reviewed hundreds of product design portfolios, run dozens of hiring cycles across traditional banking and crypto products, and made my share of hiring mistakes. Here is what I actually look at, what kills a candidacy in the first five minutes, and the one question that separates candidates worth hiring from candidates worth encouraging to apply elsewhere. Let me be honest about how this actually starts When I open a portfolio for the first time, I am not reading. I am scanning. In the first 90 seconds I am asking three things almost simultaneously: does this person work in products that are similar to what I am building? Does the quality of their presentation reflect the quality I need on the team? And do I see any evidence of real decision-making, or just final screens? Most portfolios fail the third question. Not because the work is bad. Because the case studies are written as a highlight reel of great outcomes, and I have no way to evaluate the thinking that produced them. A beautiful final screen tells me someone was involved in something that looked good. A case study ",
-      "title": "How I Hire Product Designers: What 10 Years of Reviewing Portfolios Taught Me About Great…",
-      "url": "https://medium.muz.li/how-i-hire-product-designers-what-10-years-of-reviewing-portfolios-taught-me-about-great-1ffa8e06e988?source=rss----5969bf7021a3---4"
-    },
-    "https://medium.muz.li/how-i-use-cursor-to-audit-my-design-system-bdf1b141a635?source=rss----5969bf7021a3---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/1*PN1htUOOOE6Zoe0e1X5-Gw.png",
-      "kind": "showcase",
-      "published": "2026-10-19T05:51:33+00:00",
-      "region": "en",
-      "source_name": "Muzli",
-      "summary": "Lately, like many others, I’ve started experimenting more with AI tools in my workflow. I had heard about Cursor before. I knew it could connect to Figma and read design files, but I had never actually tried it. So I decided to explore it a bit. My starting point was a very familiar problem. If you’ve worked on large products , old design files , or projects that lived for years with multiple designers and even different companies involved, you probably know this situation: Colors, typography, radius, spacing are used outside the design system Some foundations were never clearly defined Components get detached Fixing all of this manually in Figma takes days I’ve experienced this many times. So instead of testing Cursor on a clean, new project , I opened an old one it was designed 4 or 5 years ago. The Context The design library has: Colors defined as styles Typography defined as styles Some component patterns A neatly structured page This was not a scalable design system. It was more like a compact style guide. And over time, the UI screens slowly drifted away from it. So my goal became very simple: Do these UI screens still follow the foundations defined in this old design library",
-      "title": "Auditing Style Consistency in Figma with Cursor",
-      "url": "https://medium.muz.li/how-i-use-cursor-to-audit-my-design-system-bdf1b141a635?source=rss----5969bf7021a3---4"
-    },
     "https://medium.muz.li/how-to-decide-what-belongs-on-a-dashboard-c21eb5f5948d?source=rss----5969bf7021a3---4": {
       "_seen": "2026-10-30",
       "cat_hint": null,
@@ -3224,19 +3185,6 @@
       "title": "Liquid Glass in iOS 27: How to Test Your UI With the New Slider",
       "url": "https://medium.muz.li/liquid-glass-in-ios-27-how-to-test-your-ui-with-the-new-slider-2f87b64fab85?source=rss----5969bf7021a3---4"
     },
-    "https://medium.muz.li/make-ai-generated-interfaces-look-designed-29dd4c81b110?source=rss----5969bf7021a3---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1672/1*jEGGB71-QpnMj_P-7V_WBA.png",
-      "kind": "showcase",
-      "published": "2026-10-19T05:51:59+00:00",
-      "region": "en",
-      "source_name": "Muzli",
-      "summary": "Most AI screens share the same fonts, colors and card grids. A few small rules fix that. Continue reading on Muzli - Design Inspiration »",
-      "title": "How to Make AI Generated Interfaces Look Designed",
-      "url": "https://medium.muz.li/make-ai-generated-interfaces-look-designed-29dd4c81b110?source=rss----5969bf7021a3---4"
-    },
     "https://medium.muz.li/polished-is-not-the-same-as-usable-what-ai-ui-generators-still-get-wrong-about-ux-69a8bd2be726?source=rss----5969bf7021a3---4": {
       "_seen": "2026-10-29",
       "cat_hint": null,
@@ -3262,19 +3210,6 @@
       "summary": "TLDR: How I made Pool, a small design-reference library, with Claude and no design tool, and how each round of using it decided what to design next. One small project, start to finish This is one small project, written up start to finish like a case study. Pool is a design-reference library I made for myself, with Claude and no Figma file. I wrote about what it does in an earlier post: Read it [ here ]. This one is how it got made. Pool inspiration library The brief I wrote for myself The problem was mine. My UI references scattered across bookmarks and tabs, and a bookmark records that I liked something, never why. Often I couldn’t even name the style, so I couldn’t search for more of it. Before building anything, I asked Claude to grill me. Grilling is a skill where the AI asks you questions one at a time until each answer holds up. Read about my AI workflow here . It turned a feeling into a problem I could design for. Where should it live? On my laptop, no account, no server. Who fills it in? Not me; I send a link and the AI does the rest. What does a reference need to carry so the why survives? Its style in words, keywords, a design system and prompts I can reuse. When to decid",
       "title": "Pool Library: Making it, end to end",
       "url": "https://medium.muz.li/pool-library-making-it-end-to-end-2339a68d91a5?source=rss----5969bf7021a3---4"
-    },
-    "https://medium.muz.li/product-design-with-ai-building-it-was-never-the-hard-part-05159682106d?source=rss----5969bf7021a3---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/1*iaNvMN8HooFGFftMs7Rgkg.jpeg",
-      "kind": "showcase",
-      "published": "2026-10-19T05:52:10+00:00",
-      "region": "en",
-      "source_name": "Muzli",
-      "summary": "TL;DR: Making things with AI became easy, but building an app that other people can use is a different story. Small details matter more, bugs you can live with might not be okay for others, and you need to know when to stop adding new features. AI builds most features and functions well, but recognising the remaining 20–30% of details and finessing them is the key to making a good product other people can use. This is basic product design thinking, and the more I make with AI, the more I realise how important it is Product design with AI: building it was never the hard part I have been having a lot of fun building my own applications using AI lately. An iOS app, a few small web apps that run locally, a few half-finished things, mostly so I can learn a new way of working. And honestly, it is exciting. Building an application is so easy now, and adding features is even easier, especially for someone like me who doesn’t come from a development background. One of them is a small design inspiration library I made for myself, somewhere to keep design references and design systems together. I’ll write about the thing itself separately. I built it the way I build most things now: ideate th",
-      "title": "Product design with AI: Building It Was Never the Hard Part",
-      "url": "https://medium.muz.li/product-design-with-ai-building-it-was-never-the-hard-part-05159682106d?source=rss----5969bf7021a3---4"
     },
     "https://medium.muz.li/product-design-with-ai-our-job-is-about-setting-our-standard-for-ai-f2dcc76d4b76?source=rss----5969bf7021a3---4": {
       "_seen": "2026-11-02",
@@ -3367,32 +3302,6 @@
       "title": "This is how I work with AI as a Designer right now.",
       "url": "https://medium.muz.li/this-is-how-i-work-with-ai-right-now-a52d75ba0397?source=rss----5969bf7021a3---4"
     },
-    "https://medium.muz.li/when-i-understood-you-isnt-the-same-as-i-did-the-right-thing-634ca6153edc?source=rss----5969bf7021a3---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/1*ZXypI3t6oD1buGDVKtyBJA.png",
-      "kind": "showcase",
-      "published": "2026-10-19T05:51:20+00:00",
-      "region": "en",
-      "source_name": "Muzli",
-      "summary": "Part 3 of 4 — Designing for Agents That Act: The Shift From Scripted Bots to Agentic Conversations Photo by Google DeepMind: https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-illustration-depicts-language-models-which-generate-text-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l-18069693/ Six months after the payment-hold incident, Ledgerly’s finance assistant could do something it couldn’t do before: it could actually go execute a multi-step task. Ask it to “reconcile last month’s vendor invoices against the PO log and flag anything over 5% variance,” and it would pull the invoices, cross-reference them, generate a report, and — if nobody stopped it — email that report to the finance distribution list. That’s the real shift this part of the series is about. Agentic AI uses the same underlying models as a chatbot, but it independently plans, chains decisions, and executes multi-step tasks without ongoing human direction . A regular conversational bot answers a question wrong, and the cost is a bad sentence. An agent acts wrong, and the cost is a bad outcome — money moved, an email sent, a record changed — often before anyon",
-      "title": "When “I Understood You” Isn’t the Same as “I Did the Right Thing”",
-      "url": "https://medium.muz.li/when-i-understood-you-isnt-the-same-as-i-did-the-right-thing-634ca6153edc?source=rss----5969bf7021a3---4"
-    },
-    "https://medium.muz.li/why-ai-design-all-looks-the-same-and-the-six-words-that-fix-it-83b842d7ab4a?source=rss----5969bf7021a3---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/800/1*L5J0TbS_19LX6LluKtBenQ.jpeg",
-      "kind": "showcase",
-      "published": "2026-10-19T05:44:43+00:00",
-      "region": "en",
-      "source_name": "Muzli",
-      "summary": "Prompt Like a Designer by J. Shehan Generated interfaces converge on the same safe defaults. Here’s how to brief them like a design lead instead. Open three AI-generated landing pages side by side and play a quick game: find the differences. Same soft gradient behind the hero. Same rounded cards in a row of three. Same purple-to-blue accent, same centered headline, same pill-shaped button. They aren’t copies of each other. They’re copies of the middle. That’s the part people miss when they call it AI slop. Generative tools are very good at producing the most probable answer to a request, and the most probable answer to “a modern SaaS landing page” is the average of every SaaS landing page they’ve seen. Nobody asked for the average. But a short, vague request leaves hundreds of design decisions open, and the tool closes each one with the safest option it knows. Designers already have a remedy for this, because we’ve been dealing with vague briefs from clients forever. We turn adjectives into decisions. When a stakeholder says “make it feel premium,” we don’t reach for gold. We ask what should be seen first, how much room it gets, which colors are allowed and why. The same move works",
-      "title": "Why AI Design All Looks the Same (and the Six Words That Fix It)",
-      "url": "https://medium.muz.li/why-ai-design-all-looks-the-same-and-the-six-words-that-fix-it-83b842d7ab4a?source=rss----5969bf7021a3---4"
-    },
     "https://medium.muz.li/why-claude-keeps-forgetting-you-and-the-simple-note-that-fixes-it-5e4eb463fb3c?source=rss----5969bf7021a3---4": {
       "_seen": "2026-10-29",
       "cat_hint": null,
@@ -3484,19 +3393,6 @@
       "title": "Artful Being Brings Collage Animation to Football’s Off-Pitch Careers",
       "url": "https://motionographer.com/news/artful-being-follow-your-passion-open-university-bbc-bitesize/"
     },
-    "https://motionographer.com/news/rove-new-brand-identity-website-ashley-mckim/": {
-      "_seen": "2026-10-20",
-      "cat_hint": "visual_brand",
-      "image_fallback": "",
-      "image_url": "https://i0.wp.com/motionographer.com/wp-content/uploads/2026/10/CleanShot-2026-10-19-at-6.53.01-PM%402x-scaled.png?fit=700%2C310&quality=80&ssl=1",
-      "kind": "media",
-      "published": "2026-10-19T22:52:07+00:00",
-      "region": "en",
-      "source_name": "Motionographer",
-      "summary": "The Portland-rooted studio unveils a motion-led identity and website, with creative contributions from Irene Feleo, Connor Linde and STOKT, and new representation by Ashley McKim Consulting.",
-      "title": "ROVE Launches a New Identity and Website, Signs Ashley McKim Consulting",
-      "url": "https://motionographer.com/news/rove-new-brand-identity-website-ashley-mckim/"
-    },
     "https://motionographer.com/news/sekondo-puts-chatgpt-and-claude-inside-after-effects-and-premiere-pro/": {
       "_seen": "2026-10-21",
       "cat_hint": "visual_brand",
@@ -3548,19 +3444,6 @@
       "summary": "",
       "title": "Strings Cut | Nikita Didenko",
       "url": "https://motionographer.com/quickie/strings-cut-nikita-didenko/"
-    },
-    "https://motionographer.com/quickie/the-continuous-thread-tomakti-studio/": {
-      "_seen": "2026-10-20",
-      "cat_hint": "visual_brand",
-      "image_fallback": "",
-      "image_url": "https://i0.wp.com/motionographer.com/wp-content/uploads/2026/10/The-Continuous-Thread-Tomakti-cosmos.png?fit=700%2C298&quality=80&ssl=1",
-      "kind": "media",
-      "published": "2026-10-19T12:37:51+00:00",
-      "region": "en",
-      "source_name": "Motionographer",
-      "summary": "Dimitrios Sakkas and Tomakti Studio journey from the Big Bang to a quiet mountain peak in The Continuous Thread, with music by Blakk Harbor and sound design by Sotiris Laskaris.",
-      "title": "The Continuous Thread | Tomakti Studio",
-      "url": "https://motionographer.com/quickie/the-continuous-thread-tomakti-studio/"
     },
     "https://newsletter.posthog.com/p/38-things-weve-learned-about-building": {
       "_seen": "2026-10-21",
@@ -3665,19 +3548,6 @@
       "summary": "Eight Shot lets users shoot film packs, collect memories together, and create custom film. Its warm cream canvas, realistic phone interface, overlapping Polaroid photographs and small bursts of color create a playful retro aesthetic. Full Review",
       "title": "Website Inspiration: Eight Shot",
       "url": "https://onepagelove.com/eight-shot"
-    },
-    "https://onepagelove.com/eventually": {
-      "_seen": "2026-10-20",
-      "cat_hint": "interface_ux",
-      "image_fallback": "",
-      "image_url": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/10/opl-screenshot-eventually-1792335769698-desktop.jpg",
-      "kind": "media",
-      "published": "2026-10-19T11:15:11+00:00",
-      "region": "en",
-      "source_name": "One Page Love",
-      "summary": "Eventually emails users their saved X bookmarks and tweets they intended to revisit but never did. The landing page uses oversized typography, abundant white space and a large atmospheric photograph to create a simple but distinctive presentation. Full Review",
-      "title": "Website Inspiration: Eventually",
-      "url": "https://onepagelove.com/eventually"
     },
     "https://onepagelove.com/felix-haas": {
       "_seen": "2026-10-27",
@@ -3873,19 +3743,6 @@
       "summary": "KI kann viel – aber muss deshalb gleich alles kompliziert werden? Simon Graff zeigt Kreativen in unserem Online-Short am 27. Oktober, wie sie sich KI praktisch nähern können: schnell, unterhaltsam und ohne Bullshit. Er probiert aus, hinterfragt ...",
       "title": "Keine Panik vor KI: So gelingt der Einstieg für Kreative",
       "url": "https://page-online.de/branche-karriere/ki-kein-grund-zur-panik-der-ki-einstieg-fuer-kreative/"
-    },
-    "https://page-online.de/branche-karriere/marken-muessen-immer-die-kontrolle-behalten/": {
-      "_seen": "2026-10-20",
-      "cat_hint": "visual_brand",
-      "image_fallback": "",
-      "image_url": "https://page-online.de/app/uploads/2026/10/Lisa-Stage-Page-Live_cSebastianHoehn.jpg",
-      "kind": "media",
-      "published": "2026-10-19T05:35:03+00:00",
-      "region": "de",
-      "source_name": "PAGE Online",
-      "summary": "Die Marke im Zentrum: Dafür braucht es in Zeiten sich verändernder Touchpoints vor allem ein ganzheitliches Markenbewusstsein, ethische Leitplanken und eine KI-Strategie. PAGE hat mit Lisa Krick von MetaDesign über heutige Markenführung ...",
-      "title": "»Marken müssen immer die Kontrolle behalten«",
-      "url": "https://page-online.de/branche-karriere/marken-muessen-immer-die-kontrolle-behalten/"
     },
     "https://page-online.de/branche-karriere/page-webinar-close-the-brand-gap-neu-in-der-academy/": {
       "_seen": "2026-10-24",
@@ -4108,19 +3965,6 @@
       "title": "Maison Margiela x Gentle Monster: Was für ein herrlicher Brillen-Spot!",
       "url": "https://page-online.de/kreation/maison-margiela-x-gentle-monster-was-ein-herrlicher-spot-fuer-brillen/"
     },
-    "https://page-online.de/kreation/mehr-platz-fuer-neue-perspektiven-die-sigma-bf/": {
-      "_seen": "2026-10-20",
-      "cat_hint": "visual_brand",
-      "image_fallback": "",
-      "image_url": "https://page-online.de/app/uploads/2026/10/Jean-Noir-Sigma-BF-www.jeannoir.de-1200x700-1.jpg",
-      "kind": "media",
-      "published": "2026-10-19T13:00:23+00:00",
-      "region": "de",
-      "source_name": "PAGE Online",
-      "summary": "Aus einem Aluminiumblock gefräst, auf wenige Bedienelemente reduziert, international ausgezeichnet: Die Kamera Sigma BF macht Weglassen zum Prinzip. Fotograf Jean Noir zeigt, was daraus entsteht. Gute Gestaltung beginnt oft mit einer unbequemen ...",
-      "title": "Mehr Platz für neue Perspektiven: die Sigma BF",
-      "url": "https://page-online.de/kreation/mehr-platz-fuer-neue-perspektiven-die-sigma-bf/"
-    },
     "https://page-online.de/kreation/mehr-wissen-geht-nicht-alles-ueber-wasser-von-viva-con-agua/": {
       "_seen": "2026-10-31",
       "cat_hint": "visual_brand",
@@ -4225,19 +4069,6 @@
       "title": "Wie ein Film 100 Jahre Kommunikation verbindet",
       "url": "https://page-online.de/kreation/wie-ein-film-100-jahre-kommunikation-verbindet/"
     },
-    "https://page-online.de/kreation/wie-fuehlt-sich-kreativitaet-an-diese-energetische-adc-kampagne-zeigt-es/": {
-      "_seen": "2026-10-20",
-      "cat_hint": "visual_brand",
-      "image_fallback": "",
-      "image_url": "https://page-online.de/app/uploads/2026/10/ADC_LAUNCH_PRESS_PACK_SOCIAL_02.jpeg",
-      "kind": "media",
-      "published": "2026-10-19T05:36:25+00:00",
-      "region": "de",
-      "source_name": "PAGE Online",
-      "summary": "Die Einreichungsphase des 106! internationalen ADC Wettbewerbs hat begonnen und das mit einer Kampagne der Star-Agentur DixonBax, die von der Suche nach Ideen erzählt, von den Umwegen, dem Glück – und dem Pulsieren.",
-      "title": "Wie fühlt sich Kreativität an? Diese energetische ADC-Kampagne zeigt es!",
-      "url": "https://page-online.de/kreation/wie-fuehlt-sich-kreativitaet-an-diese-energetische-adc-kampagne-zeigt-es/"
-    },
     "https://page-online.de/page-40/auf-viele-weitere-page-turner/": {
       "_seen": "2026-10-24",
       "cat_hint": "visual_brand",
@@ -4276,19 +4107,6 @@
       "summary": "Mehr als drei Jahre benötigte die Foundry Swiss Typefaces für die Entwicklung des Custom Fonts für die Schweizer Post. Das Ergebnis ist eine humanistische Interpretation Schweizer Präzision.",
       "title": "Swiss Post Sans: Robustes Sprachtalent für die Schweizer Post",
       "url": "https://page-online.de/typografie/swiss-post-sans-robustes-sprachtalent-fuer-die-schweizer-post/"
-    },
-    "https://programasweights.com/claudish": {
-      "_seen": "2026-10-20",
-      "cat_hint": null,
-      "image_fallback": "",
-      "image_url": "https://programasweights.com/claudish/og.png",
-      "kind": "industry",
-      "published": "2026-10-19T05:09:18+00:00",
-      "region": "en",
-      "source_name": "Sidebar",
-      "summary": "A bidirectional English and Claudish translator powered by compiled 0.6B neural programs.",
-      "title": "English ↔ Claudish",
-      "url": "https://programasweights.com/claudish"
     },
     "https://ryo.lu/journal/struggle-together": {
       "_seen": "2026-10-31",
@@ -4472,19 +4290,6 @@
       "title": "AI doesn’t care about your job title",
       "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4"
     },
-    "https://uxdesign.cc/anthropic-october-2026-study-human-attention-is-the-new-old-bottleneck-d7bc4642668a?source=rss----138adf9c44c---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": "interface_ux",
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/1*sE14LY9q2J83iqFOPTgcmg.png",
-      "kind": "media",
-      "published": "2026-10-19T21:39:27+00:00",
-      "region": "en",
-      "source_name": "UX Collective",
-      "summary": "A wide office floor where one person reads at a desk while dozens of screens around them keep filling with new work for them to address. Agents at Anthropic now log six hours for every human hour, and reading their output would eat half a week. The job is to create judgement systems for what deserves attention. On October 16, four researchers at Anthropic published How employment is changing at Anthropic , a study of how its own agents changed the work. Anthropic is one of the companies at the front of this shift, running its own work on the models it builds, so the study is an early read on where other companies are heading. And honestly, it looks like previous studies in new clothing as I have linked below, just accelerated. Read on. Agents work more than humans. Not a surprise. Here are the early results: By August 2026, agents directed by employees were logging six hours for every hour their people worked. Agent sessions spent about 80% of their time idle, waiting for a person to answer. Even for employees who don’t write code, reading everything their agents produced would take more than half the workweek. That’s the reading tax, and every team with agents will pay it. None of",
-      "title": "Human attention is the new old bottleneck. We have to design for it even more.",
-      "url": "https://uxdesign.cc/anthropic-october-2026-study-human-attention-is-the-new-old-bottleneck-d7bc4642668a?source=rss----138adf9c44c---4"
-    },
     "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4": {
       "_seen": "2026-10-29",
       "cat_hint": "interface_ux",
@@ -4497,19 +4302,6 @@
       "summary": "All design influences behavior. The ethical line is whether people can see the influence and still choose otherwise. Continue reading on UX Collective »",
       "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
       "url": "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4"
-    },
-    "https://uxdesign.cc/beyond-the-canvas-03fce0bcbf7b?source=rss----138adf9c44c---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": "interface_ux",
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/1*Hj51wgAScBlQrb6FZZntFA.png",
-      "kind": "media",
-      "published": "2026-10-19T09:29:20+00:00",
-      "region": "en",
-      "source_name": "UX Collective",
-      "summary": "What Config India 2026 revealed about the expanding possibilities of design. Something is changing in the world of design, and Bengaluru offered a fascinating glimpse of where it’s heading. Thousands of designers, exciting new capabilities, and conversations that went far beyond the latest Figma features. One message stood out: “Design is the differentiator.” Designers are gaining unprecedented capabilities to turn ideas into working products, while India’s technology leaders are making design central to how they build and compete. Design is entering a new era of influence and designers have an opportunity to shape far more than interfaces. The question is no longer what designers can create, but how much of the future they’re prepared to shape. Figma Config India 2026 — Official event artwork. Bengaluru, 15 October 2026. Source: https://config.figma.com/india/ The canvas is no longer the limit For years, design software has been bringing designers closer to the products they imagine, the distance between an idea and a working experience has been getting shorter. But this evolution is accelerating, with much bigger implications for the role of designers. At Config India, Dylan Fiel",
-      "title": "Beyond the Canvas",
-      "url": "https://uxdesign.cc/beyond-the-canvas-03fce0bcbf7b?source=rss----138adf9c44c---4"
     },
     "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4": {
       "_seen": "2026-10-27",
@@ -4680,19 +4472,6 @@
       "title": "Nobody asked for the sparkle button",
       "url": "https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6?source=rss----138adf9c44c---4"
     },
-    "https://uxdesign.cc/playing-the-sanshin-without-a-sound-3ac88df6f65c?source=rss----138adf9c44c---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": "interface_ux",
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/2400/1*-9c3qFwy0_rjTxZU4sUsqw.jpeg",
-      "kind": "media",
-      "published": "2026-10-19T21:38:20+00:00",
-      "region": "en",
-      "source_name": "UX Collective",
-      "summary": "The slot machine and the checklist: a dilemma in feedback design. Continue reading on UX Collective »",
-      "title": "Playing the sanshin without a sound",
-      "url": "https://uxdesign.cc/playing-the-sanshin-without-a-sound-3ac88df6f65c?source=rss----138adf9c44c---4"
-    },
     "https://uxdesign.cc/samia-halaby-and-the-amiga-1000-8aae181666b9?source=rss----138adf9c44c---4": {
       "_seen": "2026-11-02",
       "cat_hint": "interface_ux",
@@ -4849,19 +4628,6 @@
       "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
       "url": "https://uxdesign.cc/the-time-ai-saves-designers-usually-disappears-heres-how-to-keep-it-61eb38e1ed69?source=rss----138adf9c44c---4"
     },
-    "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": "interface_ux",
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/0*AN3LC1K2RIhbxkXx",
-      "kind": "media",
-      "published": "2026-10-19T11:12:12+00:00",
-      "region": "en",
-      "source_name": "UX Collective",
-      "summary": "How tech culture impacts how we understand ourselves through apps Photo by blue sky on Unsplash In the last 20 years, the tech world has transformed parts of humanity into one-dimensional digital zombies. Sadly, you can hold me personally responsible. Let me tell you why. It started in 1995, when I was 12 years old, and our household got access to the web. An internet connection was needed because my parents had an advertising agency located in an office next to our house. The World Wide Web allowed my folks to send documents to print shops without having to drive there in person. My parents’ agency did things like branding, marketing campaigns, and product packaging designs. In the mid ’90s, my parents’ clients understood that the internet was ‘the next big thing.’ They said that ‘they had to do something with the internet.’ In other words, they wanted a website. There was no real strategy behind the need to have a website. Online presence was a goal in itself. And I could help them fulfil this goal. As a nerdy teenager, I taught myself to write HTML and design interfaces. With my newly acquired skills, I was able to build websites for my parents’ customers. In reality, these comp",
-      "title": "UX designers are not designing interfaces, they design personalities",
-      "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4"
-    },
     "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4": {
       "_seen": "2026-11-03",
       "cat_hint": "interface_ux",
@@ -4874,19 +4640,6 @@
       "summary": "How wording, hierarchy, and moments of friction can support considered action. Aristotle statue by Jerry Anderson at Southern Utah University’s Centurium, Cedar City, Utah. Image source: Southern Utah University . One thing that troubles me about designers is how readily some treat public expressions of moral conviction as evidence of sound ethical judgment. They announce their commitments to causes they regard as worthy, speak confidently about responsible practice, yet fail to examine their own biases or the ethical tensions within their decisions. Virtue signaling is not a substitute for reflective ethical judgment. Claiming the moral high ground does not demonstrate the judgment needed to question one’s assumptions, recognize competing values, or explain why particular priorities should guide someone else’s experience. As designers, our convictions carry weight because we make decisions for other people. We determine what an interface makes visible, which actions it encourages, where it asks someone to reflect, and what it handles automatically. These choices can support one value while limiting another, such as protecting someone from harm while restricting their autonomy. Peo",
       "title": "Virtue ethics in everyday interface design",
       "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4"
-    },
-    "https://uxdesign.cc/what-if-ai-sets-us-free-084f4310709b?source=rss----138adf9c44c---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": "interface_ux",
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/761/0*NDkwg7zEfl4MUzXA.jpeg",
-      "kind": "media",
-      "published": "2026-10-19T11:12:29+00:00",
-      "region": "en",
-      "source_name": "UX Collective",
-      "summary": "What can destroy us can also save us. Here’s how I think we can stay in charge of the choice. From the Rocky Horror Picture Show, source Casey Harrell is a climate activist. For years, ALS had been slowly taking his speech, until even the people closest to him struggled to understand what he was saying. In July 2023, surgeons at UC Davis implanted tiny sensor arrays in the part of his brain that controls speech. AI learned to read the signals his brain sends when he tries to talk, turned them into words, and spoke those words aloud in a voice rebuilt from old recordings of him. The first time he heard it, he said : “It feels a lot like me.” People who hadn’t heard his voice in a long time cried. I’ve always believed that what can destroy us may also save us. Power can be wielded in many directions. It’s never just black and white. Right now, most people who aren’t tech bros or tech sisses are either avoiding AI altogether or working from a narrow view of what’s actually happening (and what’s possible). Many are scared. The consensus seems to be: AI is coming for us, and that’s probably gonna make everything worse . After a global pandemic and a fresh round of nuclear anxiety, AI fe",
-      "title": "What if AI sets us free?",
-      "url": "https://uxdesign.cc/what-if-ai-sets-us-free-084f4310709b?source=rss----138adf9c44c---4"
     },
     "https://uxdesign.cc/when-colors-pass-but-palettes-fail-55b7210f8e4d?source=rss----138adf9c44c---4": {
       "_seen": "2026-11-02",
@@ -4926,19 +4679,6 @@
       "summary": "Cracked, maxxed, and forward deployed: a field guide to AI’s boys’ club. My 4-year-old’s Halloween cat and the general vibe of this article In a single meeting recently, I heard that someone had one-shotted a prototype, that we should spin up a tiger team , and that what the customer really needed was a forward-deployed engineer . Nobody blinked. I nodded the way I nod at the dentist when he asks me a question with both hands in my mouth: agreeably, whatever, just get over with it asap, and with no idea what I had just agreed to. It only hit me later, standing in my kitchen taking a bio break , staring into the fridge as if it owed me an explanation. I had just sat through thirty minutes of something that sounded a lot like a military briefing. About…software. Delivered by people whose most dangerous mission to date was a team offsite with a dinner spend limit that was going to make including alcohol difficult. So I did what I always do when wording kinda tickles me. I went down the rabbit hole. And ladies and gents, I found some good stuff. Here’s what I found. The AI era has a vocabulary. That vocabulary has a gender. And not just that. It also has a class and a color too. It was",
       "title": "Who gets to name the future?",
       "url": "https://uxdesign.cc/who-gets-to-name-the-future-436d069f16af?source=rss----138adf9c44c---4"
-    },
-    "https://uxdesign.cc/why-design-still-matters-taste-is-not-a-methodology-borrowed-slopes-62701d4c33dc?source=rss----138adf9c44c---4": {
-      "_seen": "2026-10-20",
-      "cat_hint": "interface_ux",
-      "image_fallback": "",
-      "image_url": "https://cdn-images-1.medium.com/max/1024/0*_AFc-N6YBG0m1h14.png",
-      "kind": "media",
-      "published": "2026-10-19T11:50:05+00:00",
-      "region": "en",
-      "source_name": "UX Collective",
-      "summary": "Weekly curated resources for designers — thinkers and makers. AI companies have spent the past year hiring forward-deployed engineers: engineers who sit inside a customer’s team, hear the problem firsthand, and ship against it. One count of 1,000 listings found the role grew 1,165% in a single year. This year I did a version of that job for my own newsroom, without the title, and it changed how I think about listening. Being heard runs on two clocks. Listening should be slow. Response should be fast. Nobody feels heard by a report → image.to.design — Convert screenshots into real HTML → [Sponsored] Paste a screenshot, get real HTML — reconstructed, not guessed. image.to.design beats ChatGPT and Claude on layout, fonts, and assets. Try it out . Editor picks Borrowed slopes → When newsrooms reach for the oldest kit in digital design. By Wira Indra Kusuma What I told the CFO when he asked why design matters → How to show the impact of design outcomes. By Arin Bhowmick Designing for an idea before it exists → On the useful parts that don’t quite fit. By Hiroshi Sato / 佐藤 仁 The UX Collective is an independent design publication that elevates unheard design voices and helps designers thi",
-      "title": "Why design (still) matters, Taste is not a methodology, Borrowed slopes",
-      "url": "https://uxdesign.cc/why-design-still-matters-taste-is-not-a-methodology-borrowed-slopes-62701d4c33dc?source=rss----138adf9c44c---4"
     },
     "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4": {
       "_seen": "2026-11-02",
@@ -5109,19 +4849,6 @@
       "title": "Relámpago House / h3o architects",
       "url": "https://www.archdaily.com/1010715/relampago-house-h3o-architects"
     },
-    "https://www.archdaily.com/1014363/eyes-on-the-street-jane-jacobs-concept-and-contemporary-residential-architecture-in-brazil": {
-      "_seen": "2026-10-20",
-      "cat_hint": "space_env",
-      "image_fallback": "",
-      "image_url": "https://images.adsttc.com/media/images/65ea/506e/855b/f264/9e6f/814a/medium_jpg/os-olhos-da-rua-o-conceito-de-jane-jacobs-e-a-arquitetura-residencial-contemporanea-no-brasil_10.jpg?1709854838",
-      "kind": "media",
-      "published": "2026-10-19T04:00:00+00:00",
-      "region": "en",
-      "source_name": "ArchDaily",
-      "summary": "The concept of \" eyes on the street \" is perhaps the most famous within architectural and urban literature when it comes to urban security. Jane Jacobs uses this expression to refer to people who - consciously or unconsciously - use public spaces or observe them from their homes, generating natural surveillance. A movement that, within our discipline, is encouraged both through quality public spaces and through the powerful relationship between the public and private created through building facades. Advocating for this daily control, Jacobs believes in a way of making architecture and cities that condemns excessive verticalization , reinforced by isolated buildings and single-use ones that deny contact with the street.",
-      "title": "Eyes on the Street: Jane Jacobs’ Concept and Contemporary Residential Architecture in Brazil",
-      "url": "https://www.archdaily.com/1014363/eyes-on-the-street-jane-jacobs-concept-and-contemporary-residential-architecture-in-brazil"
-    },
     "https://www.archdaily.com/1018550/the-house-of-courtyards-studio-vdga": {
       "_seen": "2026-11-02",
       "cat_hint": "space_env",
@@ -5291,19 +5018,6 @@
       "title": "Residential house in Vilnius / Architectural Bureau G.Natkevicius & Partners",
       "url": "https://www.archdaily.com/1186113/residential-house-in-vilnius-architectural-bureau-gnatkevicius-and-partners"
     },
-    "https://www.archdaily.com/1186223/tour-gens": {
-      "_seen": "2026-10-20",
-      "cat_hint": "space_env",
-      "image_fallback": "",
-      "image_url": "https://images.adsttc.com/media/images/6abf/6ddd/07c3/d100/017f/caa1/medium_jpg/ASO_01_photo_L.Cerveny.jpg?1790930446",
-      "kind": "media",
-      "published": "2026-10-19T06:00:00+00:00",
-      "region": "en",
-      "source_name": "ArchDaily",
-      "summary": "An association dedicated to personal care is building its headquarters in an upscale residential suburb. Two needs are to be met: to allow flexibility in its layout for future evolution and to display the image of integrity, transparency, and a welcoming spirit.",
-      "title": "TOUR / GENS",
-      "url": "https://www.archdaily.com/1186223/tour-gens"
-    },
     "https://www.archdaily.com/1186237/ikebukuro-living-furniture-tram-stop-yosuke-sagoshi-atelier": {
       "_seen": "2026-10-26",
       "cat_hint": "space_env",
@@ -5382,19 +5096,6 @@
       "title": "House in Yakami / enter-archi",
       "url": "https://www.archdaily.com/1186481/house-in-yakami-enter-archi"
     },
-    "https://www.archdaily.com/1186530/from-paper-to-space-matter-as-sensory-architecture": {
-      "_seen": "2026-10-20",
-      "cat_hint": "space_env",
-      "image_fallback": "",
-      "image_url": "https://images.adsttc.com/media/images/6ad2/4706/8008/f401/8ba5/3fec/medium_jpg/from-paper-to-space-matter-as-sensory-architecture_9.jpg?1792165653",
-      "kind": "media",
-      "published": "2026-10-19T06:45:00+00:00",
-      "region": "en",
-      "source_name": "ArchDaily",
-      "summary": "Selecting a material during the design process involves more than defining an appearance. Its behavior in response to light, sound, touch, and the passage of time can transform how a space is perceived and used. At the same time, factors such as durability, strength, recyclability, and the environmental impact associated with its production introduce new variables into architectural decision-making. For Stephanie Forsythe and Todd MacAllen, cofounders of Vancouver-based design and production studio molo , these considerations have led to an exploration of paper and its potential to shape flexible, sensory spaces.",
-      "title": "From Paper to Space: Matter as Sensory Architecture",
-      "url": "https://www.archdaily.com/1186530/from-paper-to-space-matter-as-sensory-architecture"
-    },
     "https://www.archdaily.com/1186608/building-the-view-4-brazilian-houses-framing-the-sea": {
       "_seen": "2026-10-27",
       "cat_hint": "space_env",
@@ -5460,19 +5161,6 @@
       "title": "Circular Town Hall Krimpenerwaard / Ector Hoogstad Architecten",
       "url": "https://www.archdaily.com/1186716/circular-town-hall-krimpenerwaard-ector-hoogstad-architecten"
     },
-    "https://www.archdaily.com/1186718/the-mangrove-as-a-wall-coastal-protection-and-urban-development-in-india": {
-      "_seen": "2026-10-20",
-      "cat_hint": "space_env",
-      "image_fallback": "",
-      "image_url": "https://images.adsttc.com/media/images/6ad1/77aa/c720/ac01/8896/25e3/medium_jpg/the-mangrove-as-a-wall-coastal-protection-and-urban-development-in-india_11.jpg?1792112571",
-      "kind": "media",
-      "published": "2026-10-19T07:30:00+00:00",
-      "region": "en",
-      "source_name": "ArchDaily",
-      "summary": "Along India's coast, the boundary between land and sea is not always a line of concrete. In places, it is a forest of tangled roots, tidal channels, and sediment, a landscape that changes character with the water. Mangroves influence how water moves, how shorelines evolve, and how coastal communities experience flood risk . Their role in coastal protection depends on the width and condition of the forest, the movement of tides, and the accumulation of sediment.",
-      "title": "The Mangrove as a Wall: Coastal Protection and Urban Development in India",
-      "url": "https://www.archdaily.com/1186718/the-mangrove-as-a-wall-coastal-protection-and-urban-development-in-india"
-    },
     "https://www.archdaily.com/1186753/creative-rebellion-design-knowledge-and-experimentation-at-interihotel-mad26": {
       "_seen": "2026-10-22",
       "cat_hint": "space_env",
@@ -5485,19 +5173,6 @@
       "summary": "From November 17 to 19, 2026, interihotel MAD26 will bring together architects, interior designers, hospitality operators, and specialized brands at IFEMA Madrid . Organized by AMBIT Living Spaces Cluster, the event is expected to welcome more than 14,000 professionals, 350 exhibiting brands, and over 200 international speakers. Under the theme Creative Rebellion, it will combine talks, workshops, five specialized forums, and full-scale experimental spaces to explore new approaches to hotel and restaurant design.",
       "title": "Creative Rebellion: Design, Knowledge and Experimentation at interihotel MAD26",
       "url": "https://www.archdaily.com/1186753/creative-rebellion-design-knowledge-and-experimentation-at-interihotel-mad26"
-    },
-    "https://www.archdaily.com/1186756/dua-villa-architecture-brio": {
-      "_seen": "2026-10-20",
-      "cat_hint": "space_env",
-      "image_fallback": "",
-      "image_url": "https://images.adsttc.com/media/images/6ace/5114/7887/fb01/8910/6dce/medium_jpg/dua-villa-architecture-brio_16.jpg?1791906086",
-      "kind": "media",
-      "published": "2026-10-19T07:00:00+00:00",
-      "region": "en",
-      "source_name": "ArchDaily",
-      "summary": "DUA Villa is a weekend residence located in Alibaug, designed for a Mumbai-based couple and their three young adult children. As urban dwellers accustomed to the pace and density of city life, they sought a retreat offering proximity to nature without being overwhelmed by it.",
-      "title": "DUA Villa / Architecture BRIO",
-      "url": "https://www.archdaily.com/1186756/dua-villa-architecture-brio"
     },
     "https://www.archdaily.com/1186757/restoring-views-at-neutras-corwin-house-with-sky-frame": {
       "_seen": "2026-10-23",
@@ -14079,6 +13754,32 @@
       "title": "Everyone is starting over",
       "url": "https://www.gabrielvaldivia.com/notes/everybody-is-starting-over"
     },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/134": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/post/list_image/134/thumb_2x_image_b19d27.jpeg",
+      "kind": "industry",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎",
+      "summary": "...",
+      "title": "2026金點設計獎得獎名單揭曉！474件作品獲金點標章，8月26日決審角逐最高榮耀",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/134"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/post/list_image/135/thumb_2x_image_8af9cc.jpeg",
+      "kind": "industry",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎",
+      "summary": "",
+      "title": "2026 金點設計獎公布 474 件標章得主名單！台灣觀光品牌識別重塑、育成社福永續庇護園區、OSIM AI智慧按摩椅獲肯定",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/135"
+    },
     "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136": {
       "_seen": "2026-10-31",
       "cat_hint": null,
@@ -14091,6 +13792,266 @@
       "summary": "",
       "title": "2026 金點設計獎、金點概念設計獎「年度最佳設計獎」入圍名單出爐！文總雙神聯名香火袋、泰國 Dib Bangkok 當代藝術博物館、茶籽堂南澳製油所場域改造角逐最高榮耀",
       "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/news/136"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1672": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1672/thumb_2x_image_e6d8ea.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "Chiritori X Houki 2.0",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1672"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1697": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1697/thumb_2x_image_c85f41.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "Ventilation Block - Air Flow (BTL 201)",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1697"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1703": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1703/thumb_2x_image_43beea.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "SHELLMET",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1703"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1847": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1847/thumb_2x_image_2c3064.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "TEKarrc",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1847"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1868": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1868/thumb_2x_image_ed5537.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "ASUS Zenbook Duo (2024)",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1868"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1938": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1938/thumb_2x_image_c15c4d.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "災害應變參考程序手冊",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1938"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1945": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1945/thumb_2x_image_44c666.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "Crossover ll: The Nature of Relationships",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1945"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1946": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1946/thumb_2x_image_90df2c.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "「你好，人類！Hello, Human!」",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1946"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1952": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/1952/thumb_2x_image_0abb43.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "The National Museum in Kraków—brand identity",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/1952"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "潛行在一場大水之前",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2107": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2107/thumb_2x_image_1110e9.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "N.L.N. Villa",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2107"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2121": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2121/thumb_2x_image_10bd71.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "Lanna Rice Research Center, Chiang Mai University",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2121"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2122": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2122/thumb_2x_image_da184f.png",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "Harudot Chonburi by Nana Coffee Roasters",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2122"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2128": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2128/thumb_2x_image_2f86b6.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "Redefining Public Restroom in the Park",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2128"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2136": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2136/thumb_2x_image_65aa77.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "蓋亞",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2136"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2143": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2143/thumb_2x_image_93a212.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "Kashimada Nursery",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2143"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2165": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2165/thumb_2x_image_e7e448.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "THE精銳體驗館",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2165"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2174": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2174/thumb_2x_image_0ba922.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "(beanroom)",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2174"
+    },
+    "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "kind": "showcase",
+      "published": "",
+      "region": "zh-tw",
+      "source_name": "金點設計獎 得獎作品",
+      "summary": "",
+      "title": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305"
     },
     "https://www.ignant.com/2026/10/12/design-beyond-form-at-home-with-tomas-fernandes-and-natasza-grzeskiewicz-of-further-ther/": {
       "_seen": "2026-10-27",
@@ -14898,6 +14859,19 @@
       "title": "《嘉義藝術日常》11 月登場！7 組藝術家 X 7 座策展基地免費參觀，兩日藝術市集、特色品牌盤點",
       "url": "https://www.shoppingdesign.com.tw/post/view/13910"
     },
+    "https://www.sightunseen.com/2026/10/an-edgy-london-interior-by-max-radford-three-experimental-design-exhibitions-and-more/": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/Clement_Gerard_VOLTAIRE_1-728x570.jpg",
+      "image_url": "https://www.sightunseen.com/wordpress/wp-content/uploads/2026/10/Clement_Gerard_VOLTAIRE_1.jpg",
+      "kind": "showcase",
+      "published": "2026-10-19T13:34:30+00:00",
+      "region": "en",
+      "source_name": "Sight Unseen",
+      "summary": "Plus: Two Parisian apartments with really good art.",
+      "title": "An Edgy London Interior by Max Radford, Three Experimental Design Exhibitions, and More",
+      "url": "https://www.sightunseen.com/2026/10/an-edgy-london-interior-by-max-radford-three-experimental-design-exhibitions-and-more/"
+    },
     "https://www.sightunseen.com/2026/10/our-new-go-to-ceramics-talent-the-best-interiors-book-weve-read-in-years/": {
       "_seen": "2026-10-30",
       "cat_hint": null,
@@ -15105,6 +15079,32 @@
       "summary": "由教育部指導、台灣設計研究院執行的「第三屆教科書設計獎」，於今（14）日在台北松山文創園區舉辦頒獎典禮暨開展記者會，正式揭曉獲獎名單！本屆特展以快樂的學習經驗為題，集結47件獲獎作品，並同步展示2025年教科書創新設計補助計畫成果。展期自即日起至11月8日止，邀請大眾前往台灣設計館參觀，從創新教科書設計體驗學習的樂趣！",
       "title": "第三屆「教科書設計獎」獲獎名單揭曉！特展「AHA原來如此！」於台灣設計館10月14日正式登場",
       "url": "https://www.tdri.org.tw/zh-TW/news/780"
+    },
+    "https://www.tdri.org.tw/zh-TW/news/782": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://www.tdri.org.tw/uploads/post/list_image/782/thumb_2x_image_c72c11.jpeg",
+      "kind": "industry",
+      "published": "2026-10-19T00:00:00+00:00",
+      "region": "zh-tw",
+      "source_name": "台灣設計研究院",
+      "summary": "「臺北時裝週SS27」昨（18）日閉幕，本季首度移師空總國家文化基地，為期4天的展期匯聚5場伸展台走秀、8場形象展演，並串聯11組響應活動、2場國際時尚沙龍及集結56家國內外品牌的風格展；現場另設置LIVE秀展直播間，並結合限定拍貼、OOTD當日穿搭打卡及風格食光限定餐點等活動，吸引逾2.9萬人次參觀，相較去年成長42.8%，並預估創造約3億元產值，展現轉型後的臺北時裝週已注入新動能。",
+      "title": "臺北時裝週SS27精彩閉幕 觀展人數和商務實績創歷年同期新高",
+      "url": "https://www.tdri.org.tw/zh-TW/news/782"
+    },
+    "https://www.tdri.org.tw/zh-TW/news/783": {
+      "_seen": "2026-11-03",
+      "cat_hint": null,
+      "image_fallback": null,
+      "image_url": "https://www.tdri.org.tw/uploads/post/list_image/783/thumb_2x_image_5c55eb.jpeg",
+      "kind": "industry",
+      "published": "2026-10-06T00:00:00+00:00",
+      "region": "zh-tw",
+      "source_name": "台灣設計研究院",
+      "summary": "今年由台灣設計研究院接手策劃執行的臺北時裝週，開始鬆動「時裝週只能是伸展台走秀」的單一想像：時裝週不再只是幾天的展演，而開始延伸至品牌培育、業師輔導、跨域合作、上下游串接與國際行銷。在進入 2027 年之前，一個更根本的問題被重新提出：一個以扶植臺灣時尚產業為目的的平台，接下來究竟該如何重新聚焦，回應產業真正需要的支持？這也是這場由文化部委託臺北時裝週執行單位台灣設計研究院邀集，來自設計、紡織、教育、媒體、策展與品牌經營等領域九位專家座談的核心。",
+      "title": "走過臺北時裝週八年的舞台，重新思考臺灣時尚產業的未來",
+      "url": "https://www.tdri.org.tw/zh-TW/news/783"
     },
     "https://www.tdri.org.tw/zh-TW/news/784": {
       "_seen": "2026-10-22",
@@ -19544,6 +19544,7 @@
     "https://www.dezeen.com/2026/10/21/apple-designers-of-tomorrow-show-2026/": "2026-10-30",
     "https://www.dezeen.com/2026/10/21/glen-gery-frist-health-centre/": "2026-10-28",
     "https://www.dezeen.com/2026/10/21/yard-theatre-revamp-takero-shimazaki-architects-london/": "2026-11-03",
+    "https://www.dezeen.com/2026/10/23/loader-monteith-deyne-avenue/": "2026-11-03",
     "https://www.printmag.com/branding-identity-design/cvs-and-pearlfisher-make-the-case-for-systems-design/": "2026-10-31",
     "https://www.printmag.com/branding-identity-design/palm-trees-sunshine-and-a-fresh-look-for-tropical-smoothie-cafe/": "2026-09-29",
     "https://www.stylepark.com/en/news/pedrali-michele-de-lucchi-amdl-circle-pavilion-furniture-italy-architecture-design-stylepark-magazine": "2026-09-23",

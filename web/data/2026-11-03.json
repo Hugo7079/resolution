@@ -2,71 +2,78 @@
   "date": "2026-11-03",
   "category": "space_env",
   "feature": {
-    "title": "用舊料堆出教堂：倫敦劇場如何從臨時變永久",
+    "title": "用磚塊拼出一個家：在狹小腳印裡塞滿四房兩廁的秘密",
     "subject": {
-      "name": "The Yard Theatre",
-      "designer": "Takero Shimazaki Architects",
-      "client": "The Yard Theatre（原始設計：Practice Architecture）",
+      "name": "",
+      "designer": "Loader Monteith",
+      "client": "Matt & Angie Maurer",
       "year": ""
     },
     "category": "space_env",
     "category_label": "空間與環境",
-    "confidence": 98,
+    "confidence": 95,
     "images_read": 1,
-    "article_chars": 3478,
+    "article_chars": 3113,
     "image_match": "match",
-    "image_shows": "手機地圖App搜尋畫面",
-    "neurons_used": 45.2,
-    "hook": "倫敦黑客尼威克區的臨時劇場，原本三個月就要拆除，卻被改造成永久空間，外牆用舊磚、屋頂用回收鋼管和木材疊出教堂樣的立方體，連起重機塔都變成了透光的煙囪。",
-    "what_it_is": "The Yard Theatre 原是 2011 年由 Practice Architecture 設計的臨時倉庫劇場，三個月後就要拆除。Takero Shimazaki Architects 在 2026 年將其改建為永久表演場地，加入酒吧、後臺和社區空間，並保留原有工業風格，卻透過教堂式的建築語言讓空間變得莊嚴。所有新增材料都來自回收或舊料，包括 95% 回收材質的 K-Briq 磚塊、纖維水泥板和半透明聚碳酸酯板。",
+    "image_shows": "磚造外牆玻璃門住宅",
+    "neurons_used": 38.0,
+    "hook": "這棟房子原本只有兩房，改建後變成四房兩廁，卻只擴張了原本面積的 20%——它是如何在「塞滿」的同時，讓每個角落都呼吸得順暢？",
+    "what_it_is": "Loader Monteith 工作室在英國曼徹斯特附近的普雷斯威奇（Prestwich）將一棟 69 平方公尺的紅磚平房改建為四房兩廁的家庭住宅。業主親自參與建造，設計師則透過後方磚造延伸、樓上加建閣樓、以及材質與空間的巧妙編排，在極小的腳印裡創造出「塞滿卻不擠迫」的感覺。",
     "angles": [
       {
-        "lens": "material",
-        "body": "這座劇場的材質選擇完全顛覆了「新建築」的常規：原本是倉庫和啤酒廠的舊磚牆被保留，新增的部分則使用 95% 回收材質的 K-Briq 磚塊（尺寸約 200×200×50mm）、纖維水泥板（厚度約 10mm）和半透明聚碳酸酯板（厚度約 8mm）。屋頂結構採用層積木材（laminated veneer lumber，厚度約 45mm）和回收的鋼管（直徑約 150mm），連拆除時的廢料也被重新利用，例如外牆的磚塊和填充材料。這些材質本身看似粗糙，卻因為組織方式（如教堂式的立方體疊加）而變得莊重。例如，原本的起重機塔被改造成 23 公尺高的通風煙囪，外皮用半透明聚碳酸酯板包覆，形成夜間的燈塔效果。",
-        "so_what": "原來舊料不只能省錢，還能透過組合方式變得高貴。這裡的關鍵不是材質本身，而是如何用它們講故事，讓人覺得「這些東西原本就該這樣擺在一起」。"
+        "lens": "layout",
+        "body": "原本的兩房平房被重新切割為：前方兩間臥室（其中一間帶衛浴）、書房、廚房、客廳、餐廳，以及後方延伸的開放式生活區。設計師將原有的生活空間往後移動，讓前方兩間臥室朝街道開口，並透過樓梯連接樓上新增的主臥（帶衛浴）與第三間臥室。最關鍵的手法是「階梯式下沉」：客廳與餐廳被設計成比地面低一階，直接開向後方花園，讓室內外空間連成一片。這種「縮進式」設計不僅節省空間，還讓每個房間都能擁有獨立的「視野通道」——例如主臥從閣樓窗戶俯瞰花園，而客廳則透過落地玻璃門直接「吞吐」戶外光線。",
+        "so_what": "這不是單純的「擴建」，而是像拼圖一樣重新排列每一塊空間，讓原本「塞滿」的房子變得「有層次」——就好像你的抽屜，如果只塞東西不分類，就會變得亂；但如果用隔板、抽屜盒把東西「分層」放置，就能塞進更多東西卻不覺得擠。"
       },
       {
-        "lens": "layout",
-        "body": "劇場的外觀設計像是將三個立方體疊在倉庫頂上，打破了原本水平的工業語言，創造出「教堂」般的垂直感。內部則是保留原有的磚牆，但新增的 224 席劇場採用半圓形的劇場座位（amphitheatre seating），讓觀眾能環繞舞臺。這種設計不只改變了劇場的容量（從原本的 110 席擴大到 224 席），還讓空間變得更有層次。例如，酒吧和大廳在原劇場建築內，而後臺則藏在觀眾席下方，透過電梯和樓梯連接。這些元素讓使用者不只能「看」到空間，還能「走」進它的內在結構。",
-        "so_what": "空間的「層次」不只看得見，還能「走」得出來。這裡的設計讓人不只能看見劇場，還能體驗到它的「內在骨架」，就像讀一本書時，不只看封面，還能翻到裡面的章節。"
+        "lens": "material",
+        "body": "設計師選用了三種核心材質：紅磚（與原有建築一致）、銅色金屬（入口與延伸部份的邊框）、以及白色牆面與混凝土地板（室內）。紅磚不僅延續原有建築風格，還透過「折疊式」與「飛簷」（corbelling）的細部設計，模仿當地建築的裝飾手法。銅色金屬隨著時間氧化會變成綠銅色，與紅磚形成對比，同時也呼應了英國傳統建築中常見的金屬屋頂。室內則採用「白牆＋木質家具＋混凝土地板」的組合，讓空間感顯得寬敞。最特別的是後方延伸部份的「沉積屋頂」（sedum roof），這種生態屋頂不僅節能，還讓延伸部份看起來像是「長」在原有建築上的延伸，而非硬生生「貼」上去。",
+        "so_what": "材質的選擇不只是「好看」，而是像「語言」一樣傳達設計師的意圖：紅磚說「我屬於這裡」，銅色金屬說「我與過去連結」，而白色與混凝土則說「我是現代的」。就好像你選衣服時，不只是「好看」，還要考慮「這件衣服在說什麼」——這棟房子的材質也是在「說話」。"
       },
       {
         "lens": "tradeoff",
-        "body": "這座劇場的設計犧牲了「全新材質」的光鮮感，卻獲得了「永續」和「歷史感」。例如，原本的起重機塔被改造成 23 公尺高的通風煙囪，外皮用半透明聚碳酸酯板包覆，成為夜間的燈塔。這個選擇意味著它無法像現代玻璃幕牆那樣閃亮，而是選擇用「舊料的新用途」來吸引目光。如果目標是「現代感」，這個設計可能會被批評為「過時」，但它的「永續」和「地方特色」卻是其他劇場難以匹敵的。例如，保留的磚牆和回收鋼管結構，讓劇場成為倫敦工業遺跡的見證者。",
-        "so_what": "設計時，你可能需要在「好看」和「有意義」之間做選擇。這裡的團隊選擇了後者，並用具體的材質和結構來說服人們，這樣的選擇也是一種美學。"
+        "body": "為了在 69 平方公尺的腳印裡塞進四房兩廁，設計師犧牲了兩件事：一是「傳統的樓梯空間」。原本樓梯通常佔據一個獨立的空間，但這裡的樓梯被設計成「中心式」並貫穿樓層，讓它成為空間的「脊柱」而非負擔。二是「直線式的空間流動」。例如客廳與餐廳被設計成「下沉」的形式，雖然節省了空間，但也意味著進入房間時需要「下階」——這在實用性上可能不如平地方便。然而，這兩個犧牲都為了獲得「更開闊的視野」與「更強的空間連結感」：樓梯成為「天井」般的中心，而下沉的設計則讓室內外空間「無縫」連接。",
+        "so_what": "設計總是有取捨，就像你整理行李時，可能會犧牲「方便取用」來換取「更多容量」。這棟房子的設計師選擇犧牲「直線式的流動」與「獨立的樓梯空間」，換來的是「每個房間都有視野」與「室內外連成一片」的感覺——這就是「空間設計」的核心：你不只是在「塞東西」，而是在「重新定義什麼是『舒適』」。"
       },
       {
         "lens": "context",
-        "body": "倫敦黑客尼威克區原本是工業區，充滿倉庫和啤酒廠的遺跡。這座劇場的設計並沒有完全擺脫這些工業元素，而是將它們轉化為「文化空間」的一部份。例如，保留的磚牆（尺寸約 215×102.5×65mm）、回收的鋼管結構，甚至連拆除時的廢料都被重新利用。這種「不拆除，而是改造」的態度，讓劇場不只成為表演空間，還成為倫敦工業遺產的見證者。如果這裡是一座全新的劇場，可能會採用更現代的材質，但這裡的設計選擇讓它成為「地方歷史」的一部分。例如，屋頂的層積木材和聚碳酸酯板煙囪，既是結構需求，也是對原有倉庫的致敬。",
-        "so_what": "一個空間的設計不只關乎美學，還關乎它「從哪裡來」。這裡的劇場不是「浮在」倫敦，而是「長在」倫敦的工業土壤上，就像一棵樹的年輪記錄了它的過去。"
+        "body": "這棟房子位於普雷斯威奇（Prestwich），當地建築以紅磚與傳統風格為主。設計師在延伸部份採用了與原有建築相同的紅磚，並參考當地建築的「飛簷」（corbelling）與「折疊式」細部設計，讓新舊部分看起來像是「長」在一起而非「貼」上去。然而，設計師也在細節上做了現代化的調整：例如入口處的綠銅色金屬門與後方延伸部份的「沉積屋頂」都是當地傳統建築中少見的元素。這種「既融入又突破」的手法，讓房子在視覺上既「屬於這裡」，又「不落伍」。",
+        "so_what": "就好像你參加派對時，穿衣服的原則是「既要符合場合，又要展現個性」。這棟房子的設計師也是這樣做的：它在「材質」與「細部」上跟著當地風格走，但在「整體形態」與「技術手法」上則帶來現代感——這就是「尊重環境」與「創新」的平衡。"
       }
     ],
-    "takeaway_everyone": "下次你走進一個空間，試著觀察它的「材質」和「結構」：牆壁是用什麼做的？那些材質有沒有故事？例如，一座教堂可能用石頭建造，但它的「教堂感」可能來自於拱形天花板；而這座劇場用的是舊倉庫的磚和鋼管，但它的「莊嚴感」來自於教堂式的立方體疊加。設計不只關乎「看起來」，還關乎「為什麼這樣」——那些材質為什麼被選中，又是如何被組織起來的。",
-    "takeaway_designer": "在改造舊建築時，可以嘗試以下三種具體手法：1. 材質的「再利用」：不拆除舊料，而是透過組織方式（如疊加、半透明包覆）讓它們變得高貴。例如，這裡的起重機塔被改造成煙囪，不只功能改變，視覺也升級。2. 結構的「層次」：透過樓梯、電梯、半圓形座位等元素，讓使用者能「走」進空間的內在結構，而不只是「看」到它。3. 歷史的「轉化」：將工業遺跡（如磚牆、鋼管）轉化為文化空間的一部份，讓設計成為地方記憶的一部分。例如，屋頂的層積木材和聚碳酸酯板煙囪，既是結構需求，也是對原有倉庫的致敬。",
+    "takeaway_everyone": "下次你參觀一棟房子或公寓時，試著觀察這三件事：1. 空間是怎麼「分層」的？例如樓梯是否成為「中心」，還是被塞在角落？2. 材質在「說什麼」？牆面、地板、門窗的選擇是否傳達了「時尚」、「傳統」、「生態」或「工業」的訊息？3. 哪些地方是「犧牲」換來的？例如為了更大的視野，是否犧牲了實用性？例如為了更開闊的感覺，是否犧牲了私密性？這三個問題可以幫助你「看見」設計師在空間裡的「隱藏邏輯」。",
+    "takeaway_designer": "在緊湊空間設計中，以下三個手法值得借鑑：1. 階梯式下沉設計：將生活區設計成比地面低一階，不僅節省空間，還能強化室內外連結感。關鍵在於確保「視線高度」與「實際使用」的平衡——例如下沉區域的天花板高度仍需保持舒適。2. 材質的「語言一致性」：在延伸部份採用與原有建築相同的紅磚，並透過細部設計（如飛簷、折疊）強化「連續性」，同時在關鍵點（如入口、屋頂）引入現代材質（如銅、沉積屋頂）作為「對話」。3. 中心式樓梯的空間整合：將樓梯設計成「垂直脊柱」，而非獨立空間，不僅節省面積，還能成為空間的「視覺中心」——在平面圖上，確保樓梯位置不僅連接樓層，還能「串聯」主要空間（如客廳、餐廳、廚房）。",
     "glossary": [
       {
-        "term": "laminated veneer lumber（層積木材）",
-        "plain": "一種由多層薄木貼合而成的工程木材，強度高、重量輕，常用於屋頂和結構支撐，厚度約 45mm。"
+        "term": "飛簷（corbelling）",
+        "plain": "磚牆上逐漸向內收縮的結構，常見於傳統建築中，既是裝飾也有支撐功能，像是牆面上的「階梯」。"
       },
       {
-        "term": "fibre-cement sheeting（纖維水泥板）",
-        "plain": "混合水泥和纖維的建材，耐久性高，常用於外牆和屋頂，厚度約 10mm。"
+        "term": "沉積屋頂（sedum roof）",
+        "plain": "種植有耐旱植物（如沉積）的屋頂，具有隔熱、吸收雨水和改善生態的功能，外觀像是「長」在房子上的綠色地毯。"
       },
       {
-        "term": "polycarbonate（聚碳酸酯板）",
-        "plain": "一種透明或半透明的塑膠板，輕巧且耐衝擊，常用於天窗或裝飾性外牆，厚度約 8mm。"
+        "term": "綠銅（patina）",
+        "plain": "銅經過氧化後形成的綠色表層，不僅防腐蝕，還是建築的經典裝飾元素，常見於教堂或歷史建築的屋頂。"
+      },
+      {
+        "term": "階梯式下沉（stepped down）",
+        "plain": "將部分空間設計成比地面低一階，像樓梯一樣逐步下降，常用於強化室內外連結或節省空間。"
       }
     ],
     "concretes": [
-      "laminated veneer lumber（層積木材，厚度約 45mm）",
-      "23 公尺高的聚碳酸酯板煙囪（厚度約 8mm）",
-      "半圓形劇場座位（224 席，amphitheatre seating）",
-      "K-Briq 磚塊（95% 回收材質，尺寸約 200×200×50mm）"
+      "69 平方公尺（原始面積）",
+      "紅磚（#C3C3C3 近似色）與綠銅色金屬（氧化後呈現）",
+      "沉積屋頂（生態屋頂）",
+      "混凝土地板與白色牆面（室內材質組合）",
+      "飛簷（corbelling）與折疊式磚造細部設計",
+      "階梯式下沉的客廳與餐廳（比地面低一階）",
+      "中心式樓梯（連接樓層並成為空間脊柱）"
     ],
-    "source_url": "https://www.dezeen.com/2026/10/21/yard-theatre-revamp-takero-shimazaki-architects-london/",
+    "source_url": "https://www.dezeen.com/2026/10/23/loader-monteith-deyne-avenue/",
     "source_name": "Dezeen",
-    "published": "2026-10-21T09:00:00+00:00",
-    "image_url": "https://static-2026.dezeen.com/uploads/2026/10/yard-theatre-revamp-takero-shimazaki-architects-london_dezeen_2364_sq_1-1024x1024.jpg",
+    "published": "2026-10-23T10:30:00+00:00",
+    "image_url": "https://static-2026.dezeen.com/uploads/2026/10/loader-monteith-deyne-avenue-home-extension-manchester-sq_dezeen_2364_col_0-1024x1024.jpg",
     "image_fallback": "",
     "credit": "圖片來源：Dezeen．著作權屬原作者"
   },
@@ -82,7 +89,7 @@
       "category": null
     },
     {
-      "title": "《激進美學詞典》計畫",
+      "title": "《激進美學詞典》專案",
       "title_original": "The Dictionary (of) Radical Beauty Project",
       "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
       "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
@@ -112,6 +119,16 @@
       "category": "interface_ux"
     },
     {
+      "title": "下一個UX問題：如果AI正好做了我們要求的，但不是我們真正想要的呢？",
+      "title_original": "The Next UX Problem: What If AI Does Exactly What We Asked, But Not What We Meant?",
+      "url": "https://medium.muz.li/the-next-ux-problem-what-if-ai-does-exactly-what-we-asked-but-not-what-we-meant-c3ac1e7f8431?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*PxphBQJPOZo7ioVXjOteYA.png",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
       "title": "桃太郎咖啡：小批量包裝設計系統",
       "title_original": "Momotaro Coffee: Small-Batch Packaging Design System",
       "url": "https://abduzeedo.com/momotaro-coffee-small-batch-packaging-design-system/",
@@ -122,7 +139,7 @@
       "category": null
     },
     {
-      "title": "Jeffrey Gibson 的「真愛之事」—探索藝術家跨領域實踐十年",
+      "title": "Jeffrey Gibson 的「真愛之事」探索藝術家十年跨領域創作",
       "title_original": "Jeffrey Gibson’s ‘A Real Love Thing’ Surveys a Decade of the Artist’s Multidisciplinary Practice",
       "url": "https://www.thisiscolossal.com/2026/11/jeffrey-gibson-a-real-love-thing/",
       "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/11/gibson-1.jpeg",
@@ -132,23 +149,13 @@
       "category": null
     },
     {
-      "title": "插畫家 Evan M. Cohen 的「清空」",
+      "title": "「清空」—插畫家 Evan M. Cohen 作品",
       "title_original": "“Clearing” by Illustrator Evan M. Cohen",
       "url": "https://www.booooooom.com/2026/11/02/clearing-by-illustrator-evan-m-cohen/",
       "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/10/Clearing1.jpg",
       "image_fallback": "",
       "source_name": "Booooooom",
       "region": "en",
-      "category": null
-    },
-    {
-      "title": "潛行在一場大水之前",
-      "title_original": "",
-      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
-      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
-      "image_fallback": "",
-      "source_name": "金點設計獎 得獎作品",
-      "region": "zh-tw",
       "category": null
     }
   ],
@@ -178,7 +185,7 @@
       "region": "en"
     },
     {
-      "title": "指紋將取代網路追蹤碼",
+      "title": "指紋將取代網路 cookies",
       "title_original": "Fingerprints are the new cookies",
       "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
       "source_name": "Sidebar",
