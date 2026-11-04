@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-04",
+  "category": "interface_ux",
+  "feature": {
+    "title": "「大字壓倒照片」的公關網站：為什麼文字比圖片更重要",
+    "subject": {
+      "name": "SUPORTE 官方網站",
+      "designer": "",
+      "client": "SUPORTE",
+      "year": ""
+    },
+    "category": "interface_ux",
+    "category_label": "介面與體驗",
+    "confidence": 85,
+    "images_read": 1,
+    "article_chars": 356,
+    "image_match": "match",
+    "image_shows": "藍白對比網站首頁，大字體「SUPORTE」",
+    "neurons_used": 47.5,
+    "hook": "這個公關公司的網站，用一片深藍色當背景，讓白色的大字「SUPORTE」像是從黑白照片裡衝出來，第一眼就讓人知道這裡在講「專業」而不是「花俏」。",
+    "what_it_is": "SUPORTE 是巴西一家專門做公關、數據分析和品牌內容的小型代理商。他們的網站設計像是時尚雜誌的封面：大字體、藍白對比強烈、照片和文字的排版都像雜誌版面。這個設計是為了讓人一進來就覺得「這家公司說話很有分量」，而不是「這裡有很多圖片」。",
+    "angles": [
+      {
+        "lens": "color",
+        "body": "網站用了兩種顏色：白色 (#FFFFFF) 和深藍色 (#0065BD)。深藍色是背景，白色則用在文字和照片上。這種對比不只讓文字容易閱讀，還讓「SUPORTE」這個標題像是從黑白照片裡「浮現」出來。原文提到「restrained royal-blue palette」，但實際顏色更接近標準藍（#0065BD），而不是王室藍（Pantone 286 C 的王室藍是 #2A1E4C）。這種顏色組合在公關業常見，因為藍色代表「信任」和「專業」，而白色則強化「清晰」和「高端」的感覺。",
+        "so_what": "顏色不是隨便選的：深藍色讓人聯想到「嚴謹」，白色則讓人覺得「乾淨」。這樣的組合不會讓人覺得花俏，反而像是「這家公司說話很有分量」。"
+      },
+      {
+        "lens": "type",
+        "body": "標題「SUPORTE」用了無襯線字體，字重介於中等到粗體之間（從圖上判斷不出具體字體名稱，但字形特徵包括：圓潤的字尾、開口的字腔、高對比度的筆畫）。字體大小佔據整個螢幕高度的 30% 以上，讓人一進來就看到這個詞。副標題則用了較小的字體，行距拉大到 1.6 倍，讓文字看起來不會擠在一起。原文提到「enormous, refined typography」，但實際上字體並不「巨大」，而是相對於版面來說佔據了很大的空間。",
+        "so_what": "字體不需要花俏，只要「大」到讓人注意就好。這裡的設計選擇是：讓文字比圖片更重要，因為公關公司賣的是「說話的能力」，不是「圖片的好看」。"
+      },
+      {
+        "lens": "layout",
+        "body": "網頁分成上下兩個區塊：上半部是黑白照片（一個穿毛皮大衣的人），下半部則是深藍色背景加上白色文字。照片和文字的位置有意識地不對齊：照片左側有留白，文字則是居中對齊。這種「不完全對齊」的設計讓版面看起來不會太死板，同時也強調了文字的重要性。原文提到「carefully arranged magazine-style compositions」，但實際排版更像是「雜誌封面」而不是內頁。",
+        "so_what": "設計不需要完全對齊才好看，有時候「故意不對齊」可以讓版面更有層次。這裡的設計選擇是：讓人先看到文字，再看圖片，因為公關公司的核心是「說話」，不是「照片」。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這個設計犧牲了「動態」和「互動性」來強化「專業感」。網頁沒有動畫、滾動效果或交互元素，而是用靜態的大字和對比強烈的顏色來吸引注意力。這種選擇在公關業很常見，因為他們想要傳達的是「專業」和「可信度」，而不是「玩樂」。如果目標是吸引年輕用戶或需要更多互動的場合，這種設計可能就不適合了。",
+        "so_what": "設計不是「越花俏越好」，有時候「簡單」反而更有說服力。這裡的設計選擇是：用「靜態」來換取「專業感」，而不是用動畫來吸引人。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一個網站或廣告，先問自己：「這個設計在做什麼？」如果是公關公司或專業服務，它可能不需要動畫或花俏的圖片，而是用「大字」和「對比強烈的顏色」來讓人知道「這裡說話很有分量」。記住：顏色、字體大小和排版位置，都可以決定人們「先看什麼」。",
+    "takeaway_designer": "在設計專業服務的視覺識別時，可以考慮用「高對比度的顏色組合」和「大字體」來強化「專業感」。例如：選擇一種代表「信任」的顏色（如藍色或綠色）當背景，用白色或深色文字來確保可讀性。同時，用「不完全對齊」的排版來避免版面過於死板，但要確保文字仍然是視覺焦點。這樣的設計不需要複雜，但能有效傳達「專業」的訊息。",
+    "glossary": [
+      {
+        "term": "字腔",
+        "plain": "字母中間圍起來的那塊空白，像 o 和 e 中間的洞，它的大小決定字看起來鬆還是緊。"
+      },
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "無襯線",
+        "plain": "筆畫末端沒有收尾裝飾的字，看起來比較乾淨現代，手機介面幾乎都是這種。"
+      },
+      {
+        "term": "行距",
+        "plain": "上下兩行之間的距離，太擠會看不下去，太鬆會散掉。"
+      },
+      {
+        "term": "對齊",
+        "plain": "把元素的邊或中心線對到同一條線上。"
+      },
+      {
+        "term": "對比度",
+        "plain": "兩個顏色差多遠。差得夠遠字才看得清楚，這也是無障礙的基本要求。"
+      },
+      {
+        "term": "Pantone",
+        "plain": "一套國際通用的色票編號，讓不同印刷廠印出來的顏色能對得起來。"
+      },
+      {
+        "term": "無襯線字體",
+        "plain": "字體沒有像手寫體或古典字體那樣有「小腳」或修飾線條，看起來簡潔現代，常用在數位介面或現代設計中。"
+      }
+    ],
+    "concretes": [
+      "深藍色 (#0065BD)",
+      "無襯線字體（圓潤字尾、開口字腔、高對比度筆畫）",
+      "上下分區的排版（黑白照片在上，藍底白字在下）",
+      "標題「SUPORTE」佔螢幕高度 30% 以上"
+    ],
+    "source_url": "https://onepagelove.com/suporte",
+    "source_name": "One Page Love",
+    "published": "2026-11-01T11:07:30+00:00",
+    "image_url": "https://assets.onepagelove.com/cdn-cgi/image/width=1200,height=1200,fit=cover,gravity=top,format=jpg,quality=85/wp-content/uploads/2026/10/opl-screenshot-suporte-1793123226376-desktop.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：One Page Love．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Faminto",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/244716755/Faminto",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/da20c0244716755.Y3JvcCw0NjY2LDM2NTAsNDA0LDA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "DeepBook",
+      "title_original": "",
+      "url": "https://www.awwwards.com/sites/deepbook",
+      "image_url": "https://www.awwwards.com/awards/submissions/2026/09/6ab2967aca2c7846610426.png",
+      "image_fallback": "",
+      "source_name": "Awwwards",
+      "region": "en",
+      "category": "interface_ux"
+    },
+    {
+      "title": "MUDA '26：動態網路設計（由 Etter Studio 設計）",
+      "title_original": "MUDA '26: Kinetic Web Design by Etter Studio",
+      "url": "https://abduzeedo.com/muda-26-kinetic-web-design-etter-studio/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_muda-hover-states.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "Assyria is Far from Ancient in Esther Elia’s Characterizations of Contemporary ‘Diasporic Deities’",
+      "title_original": "",
+      "url": "https://www.thisiscolossal.com/2026/11/esther-elia-assyrian-culture-tile-sculptures-paintings/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/11/elia-3.jpeg",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "「清理」—插畫家 Evan M. Cohen 作品",
+      "title_original": "“Clearing” by Illustrator Evan M. Cohen",
+      "url": "https://www.booooooom.com/2026/11/02/clearing-by-illustrator-evan-m-cohen/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/10/Clearing1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "「有這樣的宿舍，你幾點回家？」新宿舍運動展",
+      "title_original": "",
+      "url": "https://www.tdri.org.tw/zh-TW/news/778",
+      "source_name": "台灣設計研究院",
+      "published": "2026-11-02T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "美國職棒大聯盟新造型致敬運動歷史",
+      "title_original": "Major League Baseball’s new look pays homage to the sport’s history",
+      "url": "https://www.fastcompany.com/91632355/major-league-baseballs-new-look-pays-homage-to-the-sports-history?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-11-03T11:30:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Bambu Lab 黑色星期五早鳥優惠：最新 3D 列印機最高折價 300 美元",
+      "title_original": "Bambu Lab’s early Black Friday deals cut up to $300 off its best 3D printers",
+      "url": "https://www.creativebloq.com/deals/bambu-labs-early-black-friday-deals-cut-up-to-usd300-off-its-best-3d-printers",
+      "source_name": "Creative Bloq",
+      "published": "2026-11-03T20:52:24+00:00",
+      "region": "en"
+    },
+    {
+      "title": "指紋成新世代的網路追蹤工具",
+      "title_original": "Fingerprints are the new cookies",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "source_name": "Sidebar",
+      "published": "2026-11-03T05:05:00+00:00",
+      "region": "en"
+    }
+  ]
+}
