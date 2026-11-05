@@ -1,7 +1,92 @@
 {
   "date": "2026-11-05",
   "category": "interface_ux",
-  "feature": null,
+  "feature": {
+    "title": "一整天的車主體驗，從網頁上滑出來",
+    "subject": {
+      "name": "Spyker Cars 官方網站",
+      "designer": "The Brink Agency",
+      "client": "Spyker Cars",
+      "year": "2026"
+    },
+    "category": "interface_ux",
+    "category_label": "介面與體驗",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3175,
+    "image_match": "match",
+    "image_shows": "豪華車前大屋靜態網頁截圖",
+    "neurons_used": 46.5,
+    "hook": "這不是賣車的網站，是讓你「試開」一整天的體驗：從意式早餐的陽光、山路急轉彎的速度，到紅毯晚宴的風度。車子沒有出現在頁面上，而是從滑動中「開」出來。",
+    "what_it_is": "一個專為 Spyker 豪華跑車打造的網站，用滾動和動畫模擬車主一天的生活：清晨意式早餐、山路高速行駛、晚間紅毯登場。設計者不是賣車，而是讓使用者「體驗」擁有這輛車的感覺。網站沒有傳統的產品頁，而是用影片和互動來講故事。",
+    "angles": [
+      {
+        "lens": "layout",
+        "body": "網站完全沒有傳統的產品介紹頁面。使用者從首頁開始滑動，就能看到三個連續的場景：清晨意式早餐、山路高速行駛、晚間紅毯登場。每個場景都是一段 3–5 秒的短片，車子並不直接出現在頁面上，而是從畫面邊緣「開」進來，或是從滾動中「駛」出來。畫面佔據整個螢幕，沒有導覽列、沒有按鈕，只有滑動和時間轉換兩種操作。這個設計犧牲了傳統網站的「頁面」概念，改用「時間軸」來組織內容。",
+        "so_what": "這不是「頁面」的網站，而是「時間」的網站：你不是點選資訊，而是「滑動」進入故事。對不懂設計的人來說，這代表網站可以像電影一樣，帶領你從一個場景流暢進入下一個，而不需要按鈕或選單。"
+      },
+      {
+        "lens": "color",
+        "body": "網站使用兩種顏色：#000000（黑色）和 #FFFFFF（白色），但實際呈現時只有 #F2F0EB（近似白色，但帶微黃）和 #6B7A44（橄欖綠）兩種主色。黑色只用於文字和細節，白色作為背景，而橄欖綠則是唯一的強調色，出現在車子、按鈕和重點元素上。這個顏色組合讓畫面看起來高級而不花哨，同時橄欖綠與 Spyker 車身的金屬質感有呼應。",
+        "so_what": "兩種顏色卻能創造三種感覺：白色讓畫面乾淨，黑色讓文字清晰，而橄欖綠則是「重點」的標記。這代表顏色不一定要多，只要用對地方，就能讓人一目了然。"
+      },
+      {
+        "lens": "type",
+        "body": "網站使用一款自訂的無襯線字體，字重粗細適中（約 600–700），字距和行距都較寬鬆，讓文字看起來輕盈。字體的設計特色是圓潤的字尾（terminals）和中等的粗細對比，給人現代但不冷硬的感覺。所有文字都以小寫呈現，只有標題和重點詞會用大寫。這個字體選擇讓整個網站感覺「專屬」，而不是用通用字體（如 Helvetica 或 Futura）。",
+        "so_what": "字體不一定要花俏，只要「專屬」就能讓品牌看起來與眾不同。這裡的字體雖然看不出名字，但粗細、間距和大小寫的運用，都在暗示「這是為 Spyker 量身打造的」。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "這個網站犧牲了傳統網站的「資訊架構」——沒有產品頁、沒有價格表、沒有聯絡方式，甚至連品牌名稱都不在首頁顯眼位置。取而代之的是「體驗」：使用者只能滑動，無法直接跳到「購買」或「聯絡」頁面。這個設計的目標不是賣車，而是讓使用者「感受」擁有 Spyker 的感覺。如果目標是「銷售」，這個網站可能會被批評「缺乏實用性」；但如果目標是「情感連結」，這就是正確的取捨。",
+        "so_what": "網站不是為了賣東西而存在，而是為了「讓你感受」而存在。這代表設計時，要先問「這個東西的目的是什麼」，而不是「這個東西該有什麼」。"
+      },
+      {
+        "lens": "use",
+        "body": "使用者在網站上的操作只有兩種：滑動和時間轉換。滑動會觸發下一個場景的影片，而時間轉換則會切換車子的顏色或場景（例如從白天換成夜晚）。所有互動都依賴滑動，沒有按鈕、沒有滑鼠懸停效果，甚至連「返回頂部」的按鈕都沒有。這代表網站的設計假設使用者會「專注」於滑動，而不是尋找功能。在行動裝置上，這個設計更加流暢，因為滑動是最自然的操作。",
+        "so_what": "網站的互動規則很簡單：只能「滑動」。這代表設計時，可以限制使用者的操作，讓他們專注於「故事」而不是「功能」。對不懂設計的人來說，這代表「少就是多」——不需要所有功能都出現在畫面上。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一個網站或 App，試著問自己：「這個東西在做什麼？是賣東西、還是讓你感受？」如果目標是「感受」，那麼它可能不需要按鈕、價格表，甚至連品牌名稱都可以藏起來。重點不在於「有什麼」，而在於「讓你體驗到什麼」。比如說，一個餐廳的網站，如果目標是「讓你想吃」，就不需要把菜單放在首頁；一個旅行網站，如果目標是「讓你想去」，就不需要把價格放在最前面。設計的第一步，是決定「這個東西的目的是什麼」。",
+    "takeaway_designer": "當客戶要求「體驗式」網站時，可以考慮以下三個關鍵取捨：1. 犧牲資訊架構：不需要所有頁面都存在，只需要「時間軸」的流程。2. 限制互動方式：只保留一兩種操作（如本案的「滑動」），讓使用者專注於故事。3. 顏色和字體的專屬性：即使只有兩種顏色，也能透過對比和位置創造層次；字體不一定要名貴，但要「專屬」。這個案例還展示了如何用 WebGL 和 GSAP 打造流暢的動畫，但重點在於「故事」而不是技術。",
+    "glossary": [
+      {
+        "term": "字重",
+        "plain": "字的粗細。同一套字通常有細、標準、粗好幾種，用來分主次。"
+      },
+      {
+        "term": "無襯線",
+        "plain": "筆畫末端沒有收尾裝飾的字，看起來比較乾淨現代，手機介面幾乎都是這種。"
+      },
+      {
+        "term": "行距",
+        "plain": "上下兩行之間的距離，太擠會看不下去，太鬆會散掉。"
+      },
+      {
+        "term": "字距",
+        "plain": "字與字之間的距離。"
+      },
+      {
+        "term": "資訊架構",
+        "plain": "內容怎麼分類和分層，決定使用者找不找得到東西。"
+      },
+      {
+        "term": "無襯線字體（sans-serif）",
+        "plain": "沒有小飾線的字體，看起來簡潔現代，常用在數位介面上，例如 Helvetica 或 Arial。"
+      }
+    ],
+    "concretes": [
+      "兩種顏色：#F2F0EB（近似白色）、#6B7A44（橄欖綠）",
+      "三個場景：清晨意式早餐、山路高速行駛、晚間紅毯登場",
+      "操作方式：滑動和時間轉換（無按鈕、無導覽列）",
+      "技術：WebGL 和 GSAP 打造動畫"
+    ],
+    "source_url": "https://www.awwwards.com/sites/spyker-cars",
+    "source_name": "Awwwards",
+    "published": "2026-10-30T00:00:00+00:00",
+    "image_url": "https://www.awwwards.com/awards/submissions/2026/08/6a914a3ee8da2510874104.png",
+    "image_fallback": "",
+    "credit": "圖片來源：Awwwards．著作權屬原作者"
+  },
   "showcase": [
     {
       "title": "2024 新一代設計展：超越永續—借物計畫",
@@ -14,7 +99,7 @@
       "category": null
     },
     {
-      "title": "《激進美學詞典》計畫",
+      "title": "《激進美學詞典》專案",
       "title_original": "The Dictionary (of) Radical Beauty Project",
       "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
       "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
@@ -44,7 +129,7 @@
       "category": "interface_ux"
     },
     {
-      "title": "AI 時代的產品設計：「AI 很爛」還是「讓 AI 來做」？",
+      "title": "AI 時代的產品設計：「AI 很爛」還是「讓 AI 來做」",
       "title_original": "Product design with AI: “AI sucks” or “Just let AI do it”",
       "url": "https://medium.muz.li/product-design-with-ai-ai-sucks-is-just-the-dip-where-most-people-give-up-d4442cd02345?source=rss----5969bf7021a3---4",
       "image_url": "https://cdn-images-1.medium.com/max/1024/1*g9QH5RGwHewNFbHqekt8ew.jpeg",
@@ -94,7 +179,7 @@
       "region": "zh-tw"
     },
     {
-      "title": "Red 並非共和黨的顏色：美國政治色彩分野背後的驚人歷史",
+      "title": "紅色並非共和黨的專屬顏色：美國政治色彩分裂背後的驚人歷史",
       "title_original": "Red wasn’t always Republican. The surprising history behind America’s political color divide",
       "url": "https://www.fastcompany.com/91635721/red-wasnt-always-republican-history-political-colors?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
       "source_name": "Fast Company Design",
@@ -102,7 +187,7 @@
       "region": "en"
     },
     {
-      "title": "這款超級舒適、高階預算、人體工學設計辦公椅黑色星期五特價折扣 70 美元",
+      "title": "這款超級舒適、高階預算、人體工學設計的辦公椅，黑色星期五折扣七十美元",
       "title_original": "This super-comfy higher-end budget ergonomic office chair has $70 off for Black Friday",
       "url": "https://www.creativebloq.com/deals/this-super-comfy-higher-end-budget-ergonomic-office-chair-has-usd70-off-for-black-friday",
       "source_name": "Creative Bloq",
@@ -110,7 +195,7 @@
       "region": "en"
     },
     {
-      "title": "建構一個 AI 就緒的設計系統程式庫",
+      "title": "建構一個適合人工智慧的設計系統檔案庫",
       "title_original": "Building an AI-ready design system library",
       "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2",
       "source_name": "Sidebar",
