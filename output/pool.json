@@ -1,4 +1,422 @@
 {
+  "failed": {
+    "https://css-tricks.com/css-tricks-has-a-new-owner/": [
+      {
+        "d": "2026-10-27",
+        "why": "不是作品"
+      }
+    ],
+    "https://css-tricks.com/whats-important-19/": [
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-30",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      }
+    ],
+    "https://css-tricks.com/whats-important-20/": [
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://designobserver.com/episode-2-the-redemption-project/": [
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://dutchdesigndaily.com/stories/a-great-concept-does-not-automatically-make-for-a-good-design/": [
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://ilovetypography.com/2026/10/14/font-faces-stefan-hattenbach/": [
+      {
+        "d": "2026-10-27",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://medium.muz.li/are-we-out-of-new-things-no-were-all-copying-the-same-homework-567bee0764c5?source=rss----5969bf7021a3---4": [
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://medium.muz.li/designing-a-self-custodial-crypto-wallet-walllet-com-product-design-case-study-b97ba13a3f1e?source=rss----5969bf7021a3---4": [
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      }
+    ],
+    "https://motionographer.com/2026/10/21/the-flowers-look-back-teamlab-at-offf-barcelona-2026/": [
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://onepagelove.com/made-by-igor": [
+      {
+        "d": "2026-11-05",
+        "why": "用推測填空缺"
+      }
+    ],
+    "https://page-online.de/kreation/das-diesjaehrige-tdc-design-ist-eine-ueberraschung/": [
+      {
+        "d": "2026-10-27",
+        "why": "用推測填空缺"
+      },
+      {
+        "d": "2026-10-28",
+        "why": "空話"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "空話"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "圖文不符"
+      }
+    ],
+    "https://shoptalkshow.com/737/": [
+      {
+        "d": "2026-10-27",
+        "why": "不是作品"
+      }
+    ],
+    "https://shoptalkshow.com/738/": [
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-30",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/": [
+      {
+        "d": "2026-10-27",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-30",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4": [
+      {
+        "d": "2026-10-27",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-30",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://www.abitare.it/en/habitat-en/landascape-design-en/2026/10/23/paolo-pejrone-romantic-park-turin/": [
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      }
+    ],
+    "https://www.archdaily.com/1187576/from-asbestos-to-fungi-eight-new-materials-made-from-waste-and-living-matter": [
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-30",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      }
+    ],
+    "https://www.awwwards.com/sites/awards-racing": [
+      {
+        "d": "2026-10-28",
+        "why": "圖文不符"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "圖文不符"
+      }
+    ],
+    "https://www.awwwards.com/sites/brandon-yasin": [
+      {
+        "d": "2026-10-27",
+        "why": "圖文不符"
+      }
+    ],
+    "https://www.core77.com/posts/145715/A-Spherical-Computer-Monitor-Pays-Homage-to-a-1970-JVC-Design": [
+      {
+        "d": "2026-11-05",
+        "why": "圖文不符"
+      }
+    ],
+    "https://www.etapes.com/2026/10/22/pless-ingenierie-pedagogique-ecoles-design/": [
+      {
+        "d": "2026-10-27",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-30",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://www.logodesignlove.com/julia": [
+      {
+        "d": "2026-11-05",
+        "why": "圖文不符"
+      }
+    ],
+    "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": [
+      {
+        "d": "2026-10-27",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-28",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-29",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-30",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-10-31",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-02",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-03",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-04",
+        "why": "不是作品"
+      },
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ],
+    "https://www.printmag.com/dr-dori-cut/dr-doris-cut-100-words-no-filler-9/": [
+      {
+        "d": "2026-11-05",
+        "why": "不是作品"
+      }
+    ]
+  },
   "items": {
     "https://99percentinvisible.org/?p=47990": {
       "_seen": "2026-11-04",

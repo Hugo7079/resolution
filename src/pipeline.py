@@ -145,6 +145,20 @@ def _failure_reason(diag: dict) -> str:
     return "未知原因"
 
 
+def _candidate_at_fault(diag: dict) -> bool:
+    """
+    這次失敗算不算這件作品的錯 —— 算的才記進池子的失敗紀錄。
+
+    讀圖或文字模型壞掉（額度、401、逾時）是我們這邊的問題，換一天就好了；
+    記下去會讓一批好作品因為某天 API 掛掉而被冷卻。
+    「圖文沒比成」同理：比對那一步沒跑完，不代表圖不對。
+    """
+    if diag.get("vision_error") or diag.get("llm_error"):
+        return False
+    problems = diag.get("problems") or []
+    return bool(problems) and not str(problems[0]).startswith("圖文沒比成")
+
+
 # 品質閘的訊息帶著數字與引號（「具體物只有 2 項（需 ≥4）」），直接拿來統計
 # 會因為數字不同而每個候選各成一類，統計就失去意義。壓成固定的短標籤。
 _KIND_LABELS = (
@@ -258,7 +272,15 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
 
     # 初篩：把訪談、專欄、徵件公告這類「不是一件看得到的作品」的挑掉。
     # 機械規則到 pool.is_roundup 為止，剩下的靠模型判（見 screen.py）。
-    candidates = screen_works(candidates)[:DEEPDIVE_TRIES]
+    # 被判「不是作品」的記一次失敗，冷卻期間不再佔初篩的名額（見 pool.mark_failed）。
+    # screen_works 呼叫失敗或全部判掉時會原樣回傳同一個 list —— 那種判定不採信，不記。
+    screened = screen_works(candidates)
+    if screened is not candidates:
+        kept = {c.get("url") for c in screened}
+        for c in candidates:
+            if c.get("url") not in kept:
+                pool.mark_failed(c.get("url", ""), today_d, pool.NOT_A_WORK)
+    candidates = screened[:DEEPDIVE_TRIES]
 
     # 候選是從池子挑的，池子為了控制 repo 體積不存 feed 全文
     # （見 fetcher.CONTENT_TEXT_MAX）。今天剛抓到的那批還在手上，
@@ -294,6 +316,8 @@ def run(date_str: str | None = None, days_back: int = DEFAULT_DAYS_BACK) -> int:
             break
         attempts.append((cand.get("title", ""), _failure_reason(diag)))
         print(f"  → 這題出不來（{attempts[-1][1]}），換下一個候選")
+        if _candidate_at_fault(diag):
+            pool.mark_failed(cand.get("url", ""), today_d, _reason_kind(attempts[-1][1]))
         # 讀圖整條斷掉時後面的候選只能靠純文字 —— 還是值得跑（原文夠厚
         # 就過得了閘），但要講明白接下來是在什麼條件下跑的。
         if vision_disabled_reason() and not warned_no_vision:

@@ -40,6 +40,29 @@ WORK_SOURCES = {
 }
 _ALL_WORK_SOURCES = set().union(*WORK_SOURCES.values())
 
+# ─────────────────────────────────────────────────────────────
+# 寫不出來的候選要記下來
+#
+# 原本只排除「用過的」。池子的排序是固定的機械規則，所以寫不出來的那幾件
+# 每天都排回前段，把一天只有 DEEPDIVE_TRIES 次的機會吃掉。
+# 實測：Awards Racing 與 TDC Design 在 2026-10-28、11-04、11-05 都上榜、
+# 都倒；11-05 那天五個候選全是這種回鍋貨，當天主菜缺席。
+# 好寫的會被用掉，寫不出來的留下來 —— 不記的話前段只會越來越塞。
+#
+# 初篩也一樣：「UX Disciplines: Glossary」這類每天都被判「不是作品」一次，
+# 20 個初篩名額常態有一半耗在同一批文章上。
+#
+# 規則（初篩判掉與品質閘沒過一視同仁）：
+#   - 失敗一次：冷卻 FAIL_COOLDOWN_DAYS 天（模型有隨機性，給第二次機會）
+#   - 累計 FAIL_MAX_STRIKES 次：不再上榜
+# 初篩不能一次就判出局：「Shaping democracy」2026-10-27 被判不是作品，
+# 11-02 卻順利當上主菜。
+# 讀圖或文字模型自己壞掉不算候選的錯，不記（見 pipeline._candidate_at_fault）。
+# ─────────────────────────────────────────────────────────────
+FAIL_COOLDOWN_DAYS = 7
+FAIL_MAX_STRIKES = 2
+NOT_A_WORK = "不是作品"
+
 # 標題長這樣的多半是新聞、評論或活動公告，不是一件可以介紹的作品。
 # 窗口放寬到 7 天之後這類東西變多了 —— 實測「Meet Fusion Forward Juror…」
 # （評審介紹）排到候選第一名，因為它來自 Core77 這個作品源。
@@ -133,6 +156,12 @@ def _prune(pool: dict, today: date) -> None:
     for url, day in list(used.items()):
         if day < cutoff.isoformat():
             used.pop(url, None)
+
+    # 失敗紀錄跟著作品走：作品過期被砍了，它的失敗紀錄也沒有用了
+    failed = pool.get("failed", {})
+    for url in list(failed):
+        if url not in pool.get("items", {}):
+            failed.pop(url, None)
 
 
 # ─────────────────────────────────────────────────────────────
@@ -235,9 +264,15 @@ def candidates(category: str, n: int, today: date,
     """
     pool = _load()
     used = pool.get("used", {})
+    failed = pool.get("failed", {})
     rows = [it for url, it in pool.get("items", {}).items()
             if url not in used and it.get("image_url")
             and len(it.get("summary") or "") > 120]
+
+    before = len(rows)
+    rows = [it for it in rows if not _benched(failed.get(it.get("url", "")), today)]
+    if before != len(rows):
+        print(f"  寫不出來的排除 {before - len(rows)} 件（失敗冷卻中，或累計失敗兩次）")
 
     before = len(rows)
     rows = [it for it in rows if not is_roundup(it)]
@@ -276,6 +311,36 @@ def mark_used(url: str, today: date) -> None:
     _save(pool)
 
 
+def _benched(strikes: list[dict] | None, today: date) -> bool:
+    """這一件今天該不該上榜：失敗紀錄 → 冷卻中或出局就跳過。"""
+    if not strikes:
+        return False
+    if len(strikes) >= FAIL_MAX_STRIKES:
+        return True
+    last = max(s.get("d", "") for s in strikes)
+    try:
+        return (today - date.fromisoformat(last)).days < FAIL_COOLDOWN_DAYS
+    except ValueError:
+        return False
+
+
+def mark_failed(url: str, today: date, why: str) -> None:
+    """
+    記一次「這件寫不出來」。why 存短標籤（如「圖文不符」），
+    日後查「為什麼它不再出現」用得到；完整原因在當天的 Actions log。
+    同一天重跑（workflow_dispatch 補跑）不重複計次。
+    """
+    if not url:
+        return
+    pool = _load()
+    strikes = pool.setdefault("failed", {}).setdefault(url, [])
+    if any(s.get("d") == today.isoformat() for s in strikes):
+        return
+    strikes.append({"d": today.isoformat(), "why": why})
+    _save(pool)
+
+
 def stats() -> dict:
     pool = _load()
-    return {"總數": len(pool.get("items", {})), "用過": len(pool.get("used", {}))}
+    return {"總數": len(pool.get("items", {})), "用過": len(pool.get("used", {})),
+            "寫不出來": len(pool.get("failed", {}))}
