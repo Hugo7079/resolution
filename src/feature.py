@@ -659,31 +659,31 @@ def _coarse_type(atype: str) -> str:
 # 實測 2026-09-21 候選 1（PAGE 的 Fore 高爾夫品牌）就是這樣倒的：
 # 圖上是高爾夫主題商品陳列架，那正是這套識別本身。
 # 識別類的作品，大類不同是常態，不能拿來當硬判準。
+# 英文縮寫要整個字才算：原本沒有字界，「VI」「CI」會配到 Victorian、circle、
+# civic 這種字，設計者或作品名裡帶到就被當成識別類（實測 Awards Racing、
+# 1920 年代建築改造的燈光工作室都被這樣誤標）。
 _IDENTITY_WORK = re.compile(
-    r"識別|品牌|標誌|商標|視覺系統|形象系統|logo|brand|identity|VI|CI", re.I)
+    r"識別|品牌|標誌|商標|字標|視覺系統|形象系統"
+    r"|\b(?:logo(?:type)?s?|wordmarks?|brand(?:ing)?|identity|VI|CI)\b", re.I)
 
-# 「只拍到局部」也不是矛盾 —— prompt 第一句就寫了局部、細節、使用情境都算，
-# 但模型照樣拿它當判不符的理由（實測 2026-09-21 候選 4：
-# 「圖片僅展示局部櫃臺，非整體空間設計」）。
-_PARTIAL_ONLY = re.compile(r"僅|只(?:有|是|拍|展)|局部|部分|細節|單一|一角")
-
-# 「圖上沒有 X」不是矛盾，是沒拍到。讀圖描述本來就常常漏講
-# （prompt 裡已經寫明這一條，但小模型照樣拿缺席當理由），所以由程式再擋一次。
-_ABSENCE_ONLY = re.compile(r"^(?:[^，。]*?(?:無|沒有|缺乏|未見|未呈現|不具|看不到|非)[^，。]*)"
-                           r"(?:[，。][^，。]*?(?:無|沒有|缺乏|未見|未呈現|不具|看不到|非)[^，。]*)*$")
-
-
-def _is_absence(text: str) -> bool:
-    """這個「矛盾」是不是只是在講圖上少了什麼。"""
-    t = re.sub(r"\s", "", str(text))
-    return bool(t) and bool(_ABSENCE_ONLY.match(t))
-
-
-# 缺席的另一種寫法：矛盾欄寫得像矛盾，理由欄卻自己招了是「描述沒提到」。
-# 實測 09-24、09-27 那組日本工藝喇叭：圖上三個木喇叭、文章寫三款喇叭，
-# 矛盾欄是「圖上是木質音響，但作品明確提及三種工藝」，
-# 理由欄是「描述未明確提及特定工藝」—— 連兩次被這樣擋掉。
-_SAID_UNMENTIONED = re.compile(r"描述[中裡]?並?(?:未|沒有?)(?:明確)?(?:提及|提到|寫到|說明)")
+# 只有這幾類跟其他類撞在一起才算圖文不符
+# =======================================
+# 2026-11-05 把擋過的二十來張圖一張張下載下來看，
+# 絕大多數圖**就是那件作品**，被擋是因為讀圖描述與比對模型的誤讀：
+#   - 球型螢幕被讀成「舊式電視」、點火鈕蓋被讀成「排檔桿」
+#   - Abitare 雜誌封面（封面照是室內）被歸成「建築」→ 跟「平面」大類不同
+#   - Awwwards 的網站主視覺被當「海報」→ 跟「數位介面」大類不同
+#   - 緞帶排成的 Julia 字標被當「實體絲帶，不是向量標誌」
+#   - TDC73、Fore 的識別被拿「字體風格、配色」跟文章比 —— 讀圖描述本來就講不準風格
+#   - 深圳小學、木喇叭、Hublot 手錶、TROP 垂直綠化，同大類照樣被模型挑細節判掉
+# 真的擋對的只有「圖上是人」那種：家具文章配焊接工人、設計師肖像當首圖。
+# 最早要擋的 09-17 週報（文章寫地圖、圖是博物館）也是「地圖」對上別類。
+#
+# 所以：作品、物件、平面、介面、空間這幾類互相混淆是讀圖的常態，不當硬判準；
+# 只有一邊是人像、地圖、純風景，另一邊不是，才判不符。
+# 同大類時模型的「不符／存疑」也一律不擋，只寫進 log —— 那正是誤殺最多的地方。
+# 圖片不是這件的主要風險（週報、清單文）由 is_roundup 與初篩在更前面擋掉。
+_FAR_KINDS = frozenset({"人物肖像", "地圖與圖表", "純自然風景"})
 
 
 # 出版方自己替圖取的檔名
@@ -733,6 +733,18 @@ def _named_by_publisher(item: dict | None, doc: dict) -> list[str]:
     page = urllib.parse.unquote(urllib.parse.urlsplit(item.get("url", "")).path)
     shared = anchor | (img & _slug_words(f"{item.get('title', '')} {page}"))
     return sorted(shared) if len(shared) >= 2 else []
+
+
+def _decide(work_kind: str, image_kind: str, identity: bool) -> str:
+    """
+    大類撞不撞得上 —— 圖文比對唯一的硬判準（理由見 _FAR_KINDS）。
+
+    識別類不判：一套識別的版面圖常是穿著周邊的人、店面、包裝，大類不同是常態。
+    任一邊歸不回七類（模型亂寫）也不判：講不清楚的東西不能拿來擋。
+    """
+    if identity or not work_kind or not image_kind or work_kind == image_kind:
+        return MATCH_OK
+    return MATCH_BAD if {work_kind, image_kind} & _FAR_KINDS else MATCH_OK
 
 
 def check_image_match(doc: dict, vision_notes: list[str],
@@ -813,7 +825,7 @@ def check_image_match(doc: dict, vision_notes: list[str],
     if verdict not in (MATCH_OK, MATCH_BAD, MATCH_UNSURE):
         verdict = MATCH_UNSURE
 
-    # 大類不同就是不符 —— 這條由程式判，不靠模型自律。
+    # 判不符由程式依大類決定（見 _decide），模型的 verdict 只當參考寫進 log。
     # 先歸回七個選項：模型會寫「建築與空間（室內）」對上「建築與空間」，
     # 字串直接比就是兩類，這種寫法差異不該變成「圖文不符」。
     wk, ik = _kind_of(out.get("work_kind", "")), _kind_of(out.get("image_kind", ""))
@@ -823,25 +835,12 @@ def check_image_match(doc: dict, vision_notes: list[str],
     coarse = _coarse_type(doc.get("artefact_type", ""))
     identity = bool(_IDENTITY_WORK.search(f"{coarse} {work}"))
 
-    if wk and ik and wk != ik and not identity:
-        verdict = MATCH_BAD
-    elif verdict != MATCH_OK:
-        # 判不符只在模型指得出「圖上的什麼東西跟作品打架」時才算。
-        # 這保留了要擋的那種錯（週報裡兩棟不同的建築），同時擋掉真正的病灶 ——
-        # 拿缺席或「只拍到局部」當理由。讀圖描述漏講是常態，局部照本來就算數
-        # （prompt 第一句就寫了），一路照收的結果就是連兩天沒有今日一件。
-        excuse = ""
-        if not contradiction.strip():
-            excuse = "說不出圖上哪裡打架"
-        elif _is_absence(contradiction):
-            excuse = "理由是圖上沒拍到，不是矛盾"
-        elif _SAID_UNMENTIONED.search(f"{contradiction} {why}"):
-            excuse = "理由是描述沒提到，不是矛盾"
-        elif _PARTIAL_ONLY.search(contradiction):
-            excuse = "理由是只拍到局部，局部照算數"
-        if excuse:
-            verdict = MATCH_OK
-            why = f"{excuse}（原判：{(contradiction or why)[:24]}）"
+    model_verdict = verdict
+    verdict = _decide(wk, ik, identity)
+    if verdict == MATCH_OK and model_verdict != MATCH_OK:
+        why = f"模型存疑但不擋（原判 {model_verdict}：{(contradiction or why)[:30]}）"
+        print(f"    [圖文比對] 作品大類={wk or '?'} 圖的大類={ik or '?'} "
+              f"模型判 {model_verdict}，大類沒有撞到人像／地圖／風景 → 放行")
 
     # 檔名就寫著這件 → 蓋過模型的判斷，連大類不同也蓋（室內案配一張燈具特寫是局部）。
     # 人像例外：媒體常拿設計師肖像當首圖，檔名也帶設計師名字，
@@ -854,8 +853,7 @@ def check_image_match(doc: dict, vision_notes: list[str],
     if verdict != MATCH_OK:
         # 這一關是最常擋掉整天的那一關，判不符時把判斷依據一起留在 log 裡，
         # 不然只看得到結論、看不到它是踩哪一條規則
-        print(f"    [圖文比對] 作品大類={wk or '?'} 圖的大類={ik or '?'}"
-              f"{'（識別類，不套大類硬判）' if identity else ''} "
+        print(f"    [圖文比對] 作品大類={wk or '?'} 圖的大類={ik or '?'} "
               f"矛盾={contradiction[:40] or '（空）'}")
 
     return (verdict,
