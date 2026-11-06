@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-06",
+  "category": "product_object",
+  "feature": {
+    "title": "鋁材的紋理和兩顆螺絲定義了一盞燈的樣子",
+    "subject": {
+      "name": "Posto 臺燈",
+      "designer": "Claire Lavabre",
+      "client": "HAY",
+      "year": ""
+    },
+    "category": "product_object",
+    "category_label": "產品與物件",
+    "confidence": 95,
+    "images_read": 1,
+    "article_chars": 3000,
+    "image_match": "match",
+    "image_shows": "金屬鑄造檯燈，表面粗糙",
+    "neurons_used": 14.3,
+    "hook": "這盞燈沒有華麗的造型，卻用鋁材本身的紋理和兩顆螺絲的組裝方式，讓你感受到「這就是燈該有的樣子」。",
+    "what_it_is": "法國工業設計師Claire Lavabre為品牌HAY設計的Posto臺燈，是她首次為HAY創作的作品。它由三個鋁材零件組成，用兩顆螺絲和一個燈泡固定，表面保留鑄造和噴丸處理後的紋理，讓人能摸到材質的真實質感。燈頭輕放在燈柱上，電線被隱藏在溝槽裡，整體線條簡潔而不失工業感。",
+    "angles": [
+      {
+        "lens": "material",
+        "body": "Posto燈使用的是鑄造鋁材，表面經過「shot-blasted」（噴丸處理），這種工法會在表面留下細微的凹凸紋理，讓人能摸到材質的真實質感。原文提到「grainy quality」和「faint traces of its making」，這些痕跡不是故意做出來的裝飾，而是鋁材在製程中自然留下的痕跡，例如鑄造時的微小氣泡或機械加工的細微刮痕。色票近似#6B7A44（橄欖綠調的灰褐色），與常見的銀白色鋁材不同，顯得更接近原材料的本色。這種處理方式讓燈看起來更真實，也更有存在感。",
+        "so_what": "下次看到一件東西的表面有「做工痕跡」時，別以為是瑕疵——有時候，這些痕跡反而讓材質看起來更真實，更有故事。"
+      },
+      {
+        "lens": "layout",
+        "body": "Posto燈的結構分為三個主要部分：燈頭、燈柱和底座（原文提到「head sits lightly on the upright」）。燈頭輕放在燈柱上，沒有複雜的連接方式，只靠兩顆螺絲固定。電線被隱藏在燈柱上的溝槽裡，讓整體線條看起來更簡潔。這種組裝方式不僅減少了多餘的零件，也讓燈的「骨架」更清晰。從圖上看，燈的高度約為30–40公分，寬度約10–15公分，比例接近2:1，符合人手握持的自然比例。",
+        "so_what": "一件東西的「組裝方式」也能決定它的樣子——比如說，為什麼這盞燈看起來不像是「堆」出來的，而是「長」出來的？因為設計師決定用最少的零件和最直接的連接方式。"
+      },
+      {
+        "lens": "tradeoff",
+        "body": "Posto燈選擇保留鋁材的原始紋理和製程痕跡，這意味著它犧牲了表面的光滑度和高光處理的閃亮效果。例如，它沒有經過打磨或噴漆，而是保留了鑄造和噴丸處理後的紋理。這種選擇讓燈看起來更「工業」且「真實」，但同時也無法像高光處理的金屬那樣閃亮。如果目標是追求「可維護性」或「多功能性」，這個設計可能不如其他燈具靈活。",
+        "so_what": "設計總是有取捨——比如說，這盞燈選擇「看起來像原材料」而不是「看起來更高級」，這代表它放棄了某些「完美」的效果，換來的是「真實」的感覺。"
+      },
+      {
+        "lens": "use",
+        "body": "Posto燈的設計考慮到實際使用場景：放在書桌、架子或床頭櫃上，提供「focused, comfortable light」（原文用詞）而不「impose itself on the room」（不佔據空間）。燈頭輕量且可調整角度，電線被隱藏在溝槽裡，不會亂七八糟地垂下來。從圖上看，燈的高度適中，不會遮擋視線，也不會佔據太多桌面空間。這種設計讓它在家居環境中顯得「低調但存在」。",
+        "so_what": "一件東西「用起來」的感覺也很重要——比如說，這盞燈不會讓你覺得「這個東西很礙事」，反而讓你覺得「這個東西就該這樣存在」。"
+      }
+    ],
+    "takeaway_everyone": "下次看到一件東西，試著問自己：「這個東西是用來做什麼的？它的樣子是否直接反映它的功能？」比如說，一盞燈不需要華麗的造型，只需要燈泡、支架和光線。有時候，最簡單的設計反而更有說服力，因為它不需要騙你——它就是它自己。",
+    "takeaway_designer": "在工業設計中，材質的「真實感」和「組裝的簡單性」可以成為強大的視覺語言。例如，保留製程痕跡（如鑄造紋理或機械加工痕跡）可以強化材質的真實性，而最小化零件數量則能讓結構更清晰。同時，考慮「使用者的觸感」和「實際場景」也能讓設計更貼近生活。例如，隱藏電線、調整比例以符合人手握持習慣，都是讓產品更「自然」的手法。",
+    "glossary": [
+      {
+        "term": "shot-blasted（噴丸處理）",
+        "plain": "一種表面處理工法，用高速噴射的鋼珠或其他硬質顆粒撞擊金屬表面，去除氧化層並留下細微的凹凸紋理，讓材質看起來更粗糙且有質感。"
+      },
+      {
+        "term": "cast aluminium（鑄造鋁材）",
+        "plain": "將熔化的鋁澆鑄進模具裡，冷卻後形成的金屬零件，常用於需要複雜形狀或大型部件的產品。"
+      }
+    ],
+    "concretes": [
+      "shot-blasted（噴丸處理）",
+      "#6B7A44（橄欖綠調的灰褐色）",
+      "兩顆螺絲和一個燈泡",
+      "燈頭輕放在燈柱上，電線隱藏在溝槽裡"
+    ],
+    "source_url": "https://www.core77.com/posts/145737/Claire-Lavabres-Industrial-Minimalist-Lamp-for-Hay",
+    "source_name": "Core77",
+    "published": "2026-10-27T14:00:00+00:00",
+    "image_url": "https://s3files.core77.com/blog/images/lead_n_spotlight/1855093_lead_400_145737_.jpg",
+    "image_fallback": "",
+    "credit": "圖片來源：Core77．著作權屬原作者"
+  },
+  "showcase": [
+    {
+      "title": "2024 新一代設計展：超越永續—借物計畫",
+      "title_original": "2024新一代設計展：超越永續—借物計畫",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2305",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2305/thumb_2x_image_5183d5.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "《激進美學詞典》專案",
+      "title_original": "The Dictionary (of) Radical Beauty Project",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2077",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2077/thumb_2x_image_1ba0ad.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    },
+    {
+      "title": "Meurisse",
+      "title_original": "",
+      "url": "https://www.behance.net/gallery/257460073/Meurisse",
+      "image_url": "https://mir-s3-cdn-cf.behance.net/projects/404/8a73c9257460073.Y3JvcCwxMTkyLDkzMywxMDMsMA.jpg",
+      "image_fallback": "",
+      "source_name": "Behance",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "AI 產品設計：「AI 很爛」還是「就讓 AI 來做」",
+      "title_original": "Product design with AI: “AI sucks” or “Just let AI do it”",
+      "url": "https://medium.muz.li/product-design-with-ai-ai-sucks-is-just-the-dip-where-most-people-give-up-d4442cd02345?source=rss----5969bf7021a3---4",
+      "image_url": "https://cdn-images-1.medium.com/max/1024/1*g9QH5RGwHewNFbHqekt8ew.jpeg",
+      "image_fallback": "",
+      "source_name": "Muzli",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "探索加拿大電影局：Caserne 設計的品牌識別",
+      "title_original": "Inside Téléfilm Canada: Brand Identity by Caserne",
+      "url": "https://abduzeedo.com/inside-telefilm-canada-brand-identity-caserne/",
+      "image_url": "https://cms.abduzeedo.com/sites/default/files/originals/hero_tlfilm-caserne.jpg",
+      "image_fallback": "",
+      "source_name": "Abduzeedo",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "用 Excel 製作的動畫影片總結創作的無謂衝動",
+      "title_original": "An Animated Film Made in Excel Sums Up the Pointless Impulse to Create",
+      "url": "https://www.thisiscolossal.com/2026/11/maria-tomazou-i-made-a-film-in-excel/",
+      "image_url": "https://www.thisiscolossal.com/wp-content/uploads/2026/11/excel-1.gif",
+      "image_fallback": "",
+      "source_name": "Colossal",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "攝影師 Marcin T. Jozefiak 的「無畏花卉」",
+      "title_original": "“Fearless Flowers” by Photographer Marcin T. Jozefiak",
+      "url": "https://www.booooooom.com/2026/11/04/fearless-flowers-by-photographer-marcin-t-jozefiak/",
+      "image_url": "https://cdn.booooooom.com/wp-content/uploads/2026/10/Marcin1.jpg",
+      "image_fallback": "",
+      "source_name": "Booooooom",
+      "region": "en",
+      "category": null
+    },
+    {
+      "title": "潛行在一場大水之前",
+      "title_original": "",
+      "url": "https://www.goldenpin.org.tw/goldenpin/zh-TW/winners/2094",
+      "image_url": "https://storage.googleapis.com/goldenpin/award_work/list_image/2094/thumb_2x_image_cc0ca6.jpeg",
+      "image_fallback": "",
+      "source_name": "金點設計獎 得獎作品",
+      "region": "zh-tw",
+      "category": null
+    }
+  ],
+  "industry": [
+    {
+      "title": "為土地找回尊嚴與美好 景觀建築師郭中端獲金點設計獎「最佳設計成就獎」",
+      "title_original": "為土地找回尊嚴與美好 景觀建築家郭中端獲金點設計獎「最佳設計成就獎」",
+      "url": "https://www.tdri.org.tw/zh-TW/news/787",
+      "source_name": "台灣設計研究院",
+      "published": "2026-11-05T00:00:00+00:00",
+      "region": "zh-tw"
+    },
+    {
+      "title": "The blue heart is the unofficial emoji of libbing out",
+      "title_original": "",
+      "url": "https://www.fastcompany.com/91635781/the-blue-heart-is-the-unofficial-emoji-of-libbing-out?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "published": "2026-11-05T14:30:09+00:00",
+      "region": "en"
+    },
+    {
+      "title": "黑色星期五期間，部分評價最高的藝術標記筆價格降低高達 26%",
+      "title_original": "Some of the best-rated markers for art are reduced by up to 26% for Black Friday",
+      "url": "https://www.creativebloq.com/deals/some-of-the-best-rated-markers-for-art-are-reduced-by-up-to-26-percent-for-black-friday",
+      "source_name": "Creative Bloq",
+      "published": "2026-11-05T18:00:00+00:00",
+      "region": "en"
+    },
+    {
+      "title": "Great but painful",
+      "title_original": "",
+      "url": "https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful",
+      "source_name": "Sidebar",
+      "published": "2026-11-05T09:49:19+00:00",
+      "region": "en"
+    }
+  ]
+}
